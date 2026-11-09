@@ -1,0 +1,58 @@
+{
+  "slug": "wild-west-bonanza",
+  "name": "Wild West Bonanza",
+  "provider": "bgaming",
+  "rtp": 96.0,
+  "volatility": "high",
+  "maxWin": 15000,
+  "releaseDate": "2022-09-15",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 2.59,
+  "bonusRate": 395.0,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Western pay-anywhere",
+      "description": "Refilling reels with frontier symbols."
+    },
+    {
+      "name": "Free spins multipliers",
+      "description": "2x–100x multipliers during the bonus."
+    },
+    {
+      "name": "Assured-trigger buy",
+      "description": "The bonus buy ensures a 4+ scatter trigger on the next spin."
+    }
+  ],
+  "review": "Wild West Bonanza takes the Bonanza formula to the frontier, with cowboy boots, hats and pistols, gunshots and galloping horses in the sound design. It uses refilling reels and pays anywhere on screen.\n\nA multiplier symbol appears during free spins and takes a random value from 2x to 100x. Chance x2 makes it easier to land four or more scatters, while the bonus buy ensures that the next spin triggers free spins with at least four scatters. BGaming rates it high volatility, quotes a 15,000x maximum, and lists a 96% RTP. Free spins arrive around once every 395 spins on average. If you like western themes, this is the Bonanza variant to try.",
+  "pros": [
+    "High 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus is rare (about 1 in 395 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/WildWestBonanza/FUN?server=demo",
+  "image": "/slots/bgaming/wild-west-bonanza.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/wild-west-bonanza"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

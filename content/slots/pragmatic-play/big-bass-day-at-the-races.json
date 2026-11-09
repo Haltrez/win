@@ -1,0 +1,55 @@
+{
+  "slug": "big-bass-day-at-the-races",
+  "name": "Big Bass Day at the Races",
+  "provider": "pragmatic-play",
+  "rtp": 96.07,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-02-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "fishing",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Racing theme",
+      "description": "Horse racing symbols replace the usual fishing icons."
+    },
+    {
+      "name": "Horse selection",
+      "description": "Pick a horse before the bonus to reveal a feature such as extra spins or assured cash."
+    },
+    {
+      "name": "Scatter assist",
+      "description": "Two scatters can trigger a random feature that adds the third."
+    }
+  ],
+  "review": "Big Bass Day at the Races takes the fisherman off the water and onto the racecourse. The 5x3 reels and 10 paylines carry racing-themed symbols such as beer, binoculars and champagne flutes, but the Big Bass mechanics are still there underneath.\n\nThree scatters trigger the bonus, and landing two can activate a random feature that tries to add the third. Before free spins start you pick from a line-up of horses, each revealing a feature for the round: more spins, assured cash prizes, removal of the lowest prize value and others. The collect-and-retrigger system continues, with every four fishermen granting extra spins. Pragmatic Play doesn't publish a max win here. A fun change of scenery for the series that keeps everything familiar.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10bbbnz&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/big-bass-day-at-the-races.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/big-bass-day-at-the-races/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

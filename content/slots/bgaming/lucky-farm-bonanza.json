@@ -1,0 +1,59 @@
+{
+  "slug": "lucky-farm-bonanza",
+  "name": "Lucky Farm Bonanza",
+  "provider": "bgaming",
+  "rtp": 95.97,
+  "volatility": "high",
+  "maxWin": 15000,
+  "releaseDate": "2022-04-01",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 2.6,
+  "bonusRate": 395.0,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "animals",
+    "fruit"
+  ],
+  "features": [
+    {
+      "name": "Farmyard pay-anywhere",
+      "description": "Win by symbol count with refilling reels."
+    },
+    {
+      "name": "Combined multipliers",
+      "description": "All multipliers on screen are added and applied at the end of a refill sequence."
+    },
+    {
+      "name": "10–30 free spins",
+      "description": "Depending on the number of scatters."
+    }
+  ],
+  "review": "Lucky Farm Bonanza brings the Bonanza engine to the countryside with a farmyard theme. It has free spins, a bonus buy and Chance x2, and symbols pay anywhere.\n\nDuring free spins, multiplier symbols worth between 2x and 100x land and stay until the refill sequence ends. At that point every multiplier on screen is added together and the sequence win is multiplied by the total, so two or three multipliers in one sequence can combine into a big number. Four, five or six scatters award 10, 20 or 30 free spins. BGaming rates it high volatility with a 15,000x maximum, and the RTP is 95.97%. It's a lighter-hearted look for a demanding game.",
+  "pros": [
+    "High 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.97% RTP",
+    "High volatility makes sessions swingy",
+    "Bonus is rare (about 1 in 395 spins on average)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/LuckyFarmBonanza/FUN?server=demo",
+  "image": "/slots/bgaming/lucky-farm-bonanza.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/lucky-farm-bonanza"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "catdiana",
+  "name": "Catdiana",
+  "provider": "bgaming",
+  "rtp": 95.3,
+  "volatility": "medium-high",
+  "maxWin": 2500,
+  "releaseDate": "2024-11-14",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "25 paylines",
+  "hitRate": 2.21,
+  "bonusRate": 207.82,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "free-spins",
+    "hold-and-win",
+    "respins",
+    "jackpot"
+  ],
+  "themes": [
+    "animals",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Variable-size wilds",
+      "description": "Catdiana becomes a small, medium or full-reel wild."
+    },
+    {
+      "name": "Ark scatter free spins",
+      "description": "Scatters trigger the free spins bonus."
+    },
+    {
+      "name": "Coin Respin jackpots",
+      "description": "Six coins unlock a respin round with three jackpots."
+    }
+  ],
+  "review": "Catdiana is a 5x3, 25-line adventure in an ancient cat temple, led by a feline explorer. Catdiana turns into wild symbols of different sizes, small, medium or covering a whole reel, which can help complete several wins at once.\n\nArk scatters trigger free spins, and gathering six coins unlocks the Coin Respin feature, where three jackpots are available. BGaming rates the game medium-high volatility with a 2,500x maximum. The RTP is 95.3%, lower than many recent BGaming titles. Free spins arrive roughly once every 208 spins on average. It plays a lot like Elvis Frog in Vegas, with a temple-exploring theme.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.30% RTP",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/Catdiana/FUN?server=demo",
+  "image": "/slots/bgaming/catdiana.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/catdiana"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

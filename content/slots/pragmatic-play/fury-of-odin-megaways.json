@@ -1,0 +1,56 @@
+{
+  "slug": "fury-of-odin-megaways",
+  "name": "Fury of Odin Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 95.97,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": "2022-11-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "tumble",
+    "expanding-wilds",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Fury icon",
+      "description": "Turns every position below it wild."
+    },
+    {
+      "name": "Mystery symbols",
+      "description": "Reveal matching symbols to complete wins."
+    },
+    {
+      "name": "Free spins multiplier",
+      "description": "Each win in the bonus raises the multiplier by 1x."
+    }
+  ],
+  "review": "Fury of Odin Megaways puts the Norse pantheon on a six-reel Megaways grid with up to 117,649 ways. Odin, Thor and Freya are among the symbols, and wins trigger tumbles so new symbols can drop in. Wilds substitute for everything except scatters.\n\nThe Fury icon turns every position below it wild, effectively creating a partial or full wild reel, and mystery symbols reveal matches. Four or more scatters trigger free spins in which each win raises a multiplier by 1x, while the Fury and mystery features stay active. Pragmatic Play gives the maximum win as 15,000x. Note the RTP is 95.97%, under 96%, so the game is slightly more expensive to play over time than many others here.",
+  "pros": [
+    "High 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.97% RTP",
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysfuryodin&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/fury-of-odin-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/fury-of-odin-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

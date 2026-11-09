@@ -1,0 +1,52 @@
+{
+  "slug": "burning-chilli-x",
+  "name": "Burning Chilli X",
+  "provider": "bgaming",
+  "rtp": 97.16,
+  "volatility": "medium-low",
+  "maxWin": 3000,
+  "releaseDate": "2022-11-17",
+  "releaseDatePrecision": "day",
+  "winType": "100 paylines",
+  "hitRate": 5.4,
+  "mechanics": [
+    "paylines"
+  ],
+  "themes": [
+    "food",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Adjustable lines",
+      "description": "Play 20, 40, 60, 80 or 100 lines."
+    },
+    {
+      "name": "Wild substitution",
+      "description": "Wilds substitute for all symbols except scatters."
+    },
+    {
+      "name": "Medium-low volatility",
+      "description": "Built for frequent, smaller wins."
+    }
+  ],
+  "review": "Burning Chilli X is a fiery classic slot whose main feature is a choice of 20, 40, 60, 80 or 100 lines, selected with buttons on screen. Traditional wilds and scatters provide the extras.\n\nThe wild substitutes for every symbol except the scatter. BGaming rates it medium-low volatility, which, together with the variable lines, should mean frequent payouts. The maximum multiplier is 3,000x. The headline figure is the 97.16% RTP, one of the highest in this database. It's essentially the same design as Wild Tiger, so choose based on whether you prefer chillies or tigers.",
+  "pros": [
+    "Excellent 97.16% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BurningChilliX/FUN?server=demo",
+  "image": "/slots/bgaming/burning-chilli-x.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/burning-chilli-x"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

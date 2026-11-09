@@ -1,0 +1,58 @@
+{
+  "slug": "wild-west-trueways",
+  "name": "Wild West Trueways",
+  "provider": "bgaming",
+  "rtp": 96.7,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2024-07-30",
+  "releaseDatePrecision": "day",
+  "winType": "1 paylines",
+  "hitRate": 4.33,
+  "bonusRate": 229.47,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier",
+    "hold-and-win",
+    "jackpot"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Trueways",
+      "description": "Variable ways to win."
+    },
+    {
+      "name": "Stacking wild multipliers",
+      "description": "Wilds carry 2x–5x that stack across the free spins."
+    },
+    {
+      "name": "Hold and Win jackpots",
+      "description": "Mini and Major jackpots, plus the Mega jackpot via the Sheriff's Badge."
+    }
+  ],
+  "review": "Wild West Trueways puts two outlaw rascals on BGaming's Trueways engine. It combines Hold and Win jackpots with multiplier free spins.\n\nFour, five or six scatters award 12, 15 or 20 free spins, and three to six more inside the round add 5 to 20 extra spins. In the bonus, wilds carry 2x, 3x or 5x multipliers that add together on wins, and they also stack and apply to all later wins in free spins. The Hold and Win feature offers Mini and Major jackpots, and filling the Sheriff's Badge with scatters can award the Mega jackpot. BGaming rates it very high volatility with a 5,000x maximum and a 96.7% RTP.",
+  "pros": [
+    "Above-average 96.70% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/WildWestTrueways/FUN?server=demo",
+  "image": "/slots/bgaming/wild-west-trueways.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/wild-west-trueways"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

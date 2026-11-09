@@ -1,0 +1,56 @@
+{
+  "slug": "wild-clusters",
+  "name": "Wild Clusters",
+  "provider": "bgaming",
+  "rtp": 96.71,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2025-04-01",
+  "releaseDatePrecision": "day",
+  "winType": "Cluster Pays",
+  "hitRate": 1.68,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "reel-modifiers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "space"
+  ],
+  "features": [
+    {
+      "name": "Cluster chain reactions",
+      "description": "Clusters pay and refill for chain wins."
+    },
+    {
+      "name": "Galaxy features",
+      "description": "Filling a meter with 25 winning symbols triggers a random feature, such as adding 3–6 wilds."
+    },
+    {
+      "name": "Four bonus buys",
+      "description": "Several purchase modes where permitted."
+    }
+  ],
+  "review": "Wild Clusters is a bright, space-themed cluster slot with chain reactions, mega symbols and unpredictable Galaxy features. Progress meters near the reels fill as you land winning symbols.\n\nWhen a meter reaches 25 winning symbols, a Galaxy feature triggers at the end of the spin; one, for example, adds three to six wilds and destroys adjacent symbols. There's also a feature with high-paying symbols that pays out when no win occurs during it. Four bonus buy modes are available where permitted. BGaming rates it very high volatility with a 5,000x maximum and a 96.71% RTP. The progress meters give the base game a sense of building towards something.",
+  "pros": [
+    "Above-average 96.71% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/WildClustersP/FUN?server=demo",
+  "image": "/slots/bgaming/wild-clusters.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/wild-clusters"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

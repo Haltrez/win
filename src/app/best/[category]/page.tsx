@@ -4,7 +4,7 @@ import { getCategories, getCategory, getCategorySlots, isIndexable } from '@/lib
 import { getCasinos, getGuide, getProvider, slotUrl } from '@/lib/data';
 import { buildMetadata } from '@/lib/seo';
 import { itemList } from '@/lib/schema';
-import { fmtRtp, fmtX, VOLATILITY_LABEL } from '@/lib/format';
+import { fmtRtp, fmtX, volLabel } from '@/lib/format';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { SlotGrid } from '@/components/SlotCard';
 import { JsonLd } from '@/components/JsonLd';
@@ -50,7 +50,7 @@ export default async function CategoryPage({ params }: { params: Promise<P> }) {
               <thead><tr><th>#</th><th>Slot</th><th>Provider</th><th>RTP</th><th>Volatility</th><th>Max win</th></tr></thead>
               <tbody>
                 {top.map((s, i) => (
-                  <tr key={s.slug}><td>{i + 1}</td><td><Link href={slotUrl(s)}>{s.name}</Link></td><td><Link href={`/providers/${s.provider}`}>{getProvider(s.provider)?.name}</Link></td><td>{fmtRtp(s.rtp)}</td><td>{VOLATILITY_LABEL[s.volatility]}</td><td>{fmtX(s.maxWin)}</td></tr>
+                  <tr key={s.slug}><td>{i + 1}</td><td><Link href={slotUrl(s)}>{s.name}</Link></td><td><Link href={`/providers/${s.provider}`}>{getProvider(s.provider)?.name}</Link></td><td>{fmtRtp(s.rtp)}</td><td>{volLabel(s.volatility)}</td><td>{fmtX(s.maxWin)}</td></tr>
                 ))}
               </tbody>
             </table>
@@ -60,7 +60,7 @@ export default async function CategoryPage({ params }: { params: Promise<P> }) {
             <section key={s.slug} className="prose">
               <h3>{i + 1}. <Link href={slotUrl(s)}>{s.name}</Link> – {getProvider(s.provider)?.name}</h3>
               <p>{s.review.split('\n')[0]}</p>
-              <p className="muted small">{fmtRtp(s.rtp)} RTP · {VOLATILITY_LABEL[s.volatility]} volatility · {fmtX(s.maxWin)} max win</p>
+              <p className="muted small">{[`${fmtRtp(s.rtp)} RTP`, s.volatility ? `${volLabel(s.volatility)} volatility` : null, s.maxWin ? `${fmtX(s.maxWin)} max win` : null].filter(Boolean).join(' · ')}</p>
             </section>
           ))}
           <JsonLd data={itemList(c.title, top.map((s) => ({ name: s.name, path: slotUrl(s) })))} />

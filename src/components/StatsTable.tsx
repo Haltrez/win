@@ -1,16 +1,18 @@
 import Link from 'next/link';
 import type { Provider, Slot } from '@/lib/types';
-import { fmtDate, fmtRtp, fmtX, VOLATILITY_LABEL } from '@/lib/format';
+import { fmtRelease, fmtRtp, fmtX, volLabel } from '@/lib/format';
 
 export function StatsTable({ slot, provider }: { slot: Slot; provider: Provider }) {
   const rows: [string, React.ReactNode][] = [
     ['Provider', <Link key="p" href={`/providers/${provider.slug}`}>{provider.name}</Link>],
     ['RTP', <>{fmtRtp(slot.rtp)}{slot.rtpVariants?.length ? <span className="muted small"> (also {slot.rtpVariants.map(fmtRtp).join(', ')})</span> : null}</>],
-    ['Volatility', VOLATILITY_LABEL[slot.volatility]],
+    ['Volatility', volLabel(slot.volatility)],
     ['Max win', fmtX(slot.maxWin)],
-    ['Release date', fmtDate(slot.releaseDate)],
-    ['Layout', slot.reels],
-    ['Paylines / ways', slot.paylines],
+    ['Release date', fmtRelease(slot)],
+    ...(slot.reels ? [['Layout', slot.reels] as [string, string]] : []),
+    ...(slot.paylines || slot.winType ? [['Paylines / ways', (slot.paylines ?? slot.winType)!] as [string, string]] : []),
+    ...(slot.hitRate ? [['Hit rate', `1 in ${slot.hitRate} spins`] as [string, string]] : []),
+    ...(slot.bonusRate ? [['Bonus frequency', `About 1 in ${Math.round(slot.bonusRate)} spins`] as [string, string]] : []),
     ...(slot.hitFrequency ? [['Hit frequency', `${slot.hitFrequency}%`] as [string, string]] : []),
     ...(slot.minBet != null && slot.maxBet != null ? [['Bet range', `${slot.minBet} – ${slot.maxBet}`] as [string, string]] : []),
     ['Bonus buy', slot.mechanics.includes('bonus-buy') ? 'Yes (not available in all markets)' : 'No'],

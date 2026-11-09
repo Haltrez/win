@@ -1,0 +1,58 @@
+{
+  "slug": "panda-luck",
+  "name": "Panda Luck",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "very-high",
+  "maxWin": 2124,
+  "releaseDate": "2024-05-21",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "winType": "5 paylines",
+  "hitRate": 12.0,
+  "bonusRate": 95.0,
+  "mechanics": [
+    "hold-and-win",
+    "respins",
+    "multipliers"
+  ],
+  "themes": [
+    "asian",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "3x3 grid",
+      "description": "A compact Asian-themed layout."
+    },
+    {
+      "name": "Sticky panda respins",
+      "description": "Three or more pandas stick and start three respins that reset."
+    },
+    {
+      "name": "Panda multipliers",
+      "description": "More pandas mean a higher multiplier on the bet."
+    }
+  ],
+  "review": "Panda Luck is a 3x3 slot with a smiling panda as the bonus symbol. Three or more pandas turn sticky and trigger a respin bonus with three respins, which reset every time another panda lands.\n\nDuring the bonus, each panda adds to a multiplier applied to your bet, so the more pandas you collect, the bigger the final payout. BGaming lists a maximum multiplier of 2,124x. Despite the small grid and cute theme, BGaming rates it very high volatility. The 97% RTP is excellent, and the bonus arrives frequently, about once every 95 spins on average. It's quick, simple and fun for short demo sessions.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Bonus lands relatively often (about 1 in 95 spins on average)",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Modest 2,124x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/PandaLuck/FUN?server=demo",
+  "image": "/slots/bgaming/panda-luck.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/panda-luck"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "beast-band",
+  "name": "Beast Band",
+  "provider": "bgaming",
+  "rtp": 96.88,
+  "volatility": "medium-high",
+  "maxWin": 7500,
+  "releaseDate": "2023-07-20",
+  "releaseDatePrecision": "day",
+  "winType": "25 paylines",
+  "hitRate": 2.65,
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "hold-and-win"
+  ],
+  "themes": [
+    "music",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "High-symbol free spins",
+      "description": "Eight free spins with low-paying symbols removed."
+    },
+    {
+      "name": "Unlimited retriggers",
+      "description": "Three scatters in the bonus retrigger it."
+    },
+    {
+      "name": "Disk bonus",
+      "description": "Six or more CD symbols trigger a separate bonus game."
+    }
+  ],
+  "review": "Beast Band is a 25-line music slot starring a five-piece animal rock band. VIP concert tickets are the scatters, and three on reels 1, 3 and 5 trigger eight free spins in which low-paying symbols are removed, so only premium symbols land.\n\nRetriggers are unlimited. A second feature uses CD symbols: six or more disks trigger a separate bonus game. The wild substitutes for everything except scatters and disks. BGaming rates the game medium-high volatility with a 7,500x maximum, and the 96.88% RTP is strong. Having two separate bonus routes keeps sessions varied, and the free spins with only high symbols can deliver big line wins.",
+  "pros": [
+    "Above-average 96.88% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BeastBand/FUN?server=demo",
+  "image": "/slots/bgaming/beast-band.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/beast-band"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "floating-dragon-megaways",
+  "name": "Floating Dragon Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.7,
+  "volatility": null,
+  "maxWin": 20000,
+  "releaseDate": "2022-09-01",
+  "releaseDatePrecision": "month",
+  "reels": "6x6",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "money-collect",
+    "free-spins",
+    "hold-and-win",
+    "respins",
+    "multipliers"
+  ],
+  "themes": [
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "236,196 ways",
+      "description": "A 6x6 Megaways layout with changing reel heights."
+    },
+    {
+      "name": "Collect free spins",
+      "description": "Collectors gather instant wins; every four retrigger the round and raise the multiplier."
+    },
+    {
+      "name": "Hold&Spin",
+      "description": "Three respins that reset with each new cash prize."
+    }
+  ],
+  "review": "Floating Dragon Megaways Hold&Spin reimagines the 2021 hit on a 6x6 Megaways layout with up to 236,196 ways to win. The familiar Chinese New Year symbols return, but the extra reel height makes base-game wins look quite different from the 10-line original.\n\nThere are two bonuses. In free spins, collect symbols gather instant wins, and every four collectors retrigger the round and raise the overall multiplier. The Hold&Spin round awards three respins that reset whenever a new instant-win prize lands. Both features feed into the 20,000x maximum, among the highest in the Floating Dragon family. The 96.7% RTP is also a strong point. Expect higher variance than the original version.",
+  "pros": [
+    "Above-average 96.70% RTP",
+    "High 20,000x win ceiling",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysfltdrg&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/floating-dragon-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/floating-dragon-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

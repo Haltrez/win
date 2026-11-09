@@ -1,6 +1,6 @@
 import type { CategoryDef, Mechanic, Slot, Theme } from './types';
 import { SITE } from './config';
-import { VOLATILITY_SCORE } from './format';
+import { releaseKey, volScore } from './format';
 import { getSlots } from './data';
 
 /**
@@ -8,10 +8,11 @@ import { getSlots } from './data';
  * so pages grow automatically as the catalogue grows. Pages with fewer than SITE.minCategorySize
  * slots are rendered but set to noindex and excluded from the sitemap (thin-content guard).
  */
-const byRating = (a: Slot, b: Slot) => (b.rating ?? 0) - (a.rating ?? 0) || b.maxWin - a.maxWin;
-const byMaxWin = (a: Slot, b: Slot) => b.maxWin - a.maxWin;
+const mw = (s: Slot) => s.maxWin ?? 0;
+const byRating = (a: Slot, b: Slot) => (b.rating ?? 0) - (a.rating ?? 0) || mw(b) - mw(a) || releaseKey(b).localeCompare(releaseKey(a));
+const byMaxWin = (a: Slot, b: Slot) => mw(b) - mw(a);
 const byRtp = (a: Slot, b: Slot) => b.rtp - a.rtp;
-const byNewest = (a: Slot, b: Slot) => b.releaseDate.localeCompare(a.releaseDate);
+const byNewest = (a: Slot, b: Slot) => releaseKey(b).localeCompare(releaseKey(a));
 const has = (m: Mechanic) => (s: Slot) => s.mechanics.includes(m);
 const theme = (t: Theme) => (s: Slot) => s.themes.includes(t);
 
@@ -54,20 +55,20 @@ const themes: [Theme, string, string][] = [
 function defs(): Def[] {
   const out: Def[] = [
     // ---- Max win
-    { slug: 'highest-max-win-slots', title: 'Highest Max Win Slots', kw: 'highest max win slots', group: 'max-win', yearly: true, intro: 'The slots with the biggest maximum win potential, ranked by max win multiplier. A high max win usually comes with very high volatility – the cap is a theoretical ceiling that most players will never reach.', filter: (s) => s.maxWin >= 10000, sort: byMaxWin, relatedGuides: ['how-max-win-works', 'slot-volatility-explained'],
+    { slug: 'highest-max-win-slots', title: 'Highest Max Win Slots', kw: 'highest max win slots', group: 'max-win', yearly: true, intro: 'The slots with the biggest maximum win potential, ranked by max win multiplier. A high max win usually comes with very high volatility – the cap is a theoretical ceiling that most players will never reach.', filter: (s) => mw(s) >= 10000, sort: byMaxWin, relatedGuides: ['how-max-win-works', 'slot-volatility-explained'],
       faq: [{ q: 'What is a max win in slots?', a: 'The max win is the largest payout a slot allows on a single spin or bonus round, expressed as a multiple of your stake. If a slot has a 10,000x max win and you bet €1, the most you can win from one round is €10,000.' }, { q: 'Does a higher max win mean a better slot?', a: 'Not necessarily. Higher max wins usually mean higher volatility: wins are less frequent and most sessions end with smaller results. Choose based on how much variance you are comfortable with.' }] },
-    { slug: '5000x-max-win-slots', title: 'Slots with 5,000x+ Max Win', kw: '5000x max win slots', group: 'max-win', intro: 'Slots where the maximum win is at least 5,000 times the stake.', filter: (s) => s.maxWin >= 5000, sort: byMaxWin, relatedGuides: ['how-max-win-works'] },
-    { slug: '10000x-max-win-slots', title: 'Slots with 10,000x+ Max Win', kw: '10000x max win slots', group: 'max-win', intro: 'Slots that can pay 10,000x your stake or more on a single round.', filter: (s) => s.maxWin >= 10000, sort: byMaxWin, relatedGuides: ['how-max-win-works'] },
-    { slug: '20000x-max-win-slots', title: 'Slots with 20,000x+ Max Win', kw: '20000x max win slots', group: 'max-win', intro: 'Slots with a max win of 20,000x or more.', filter: (s) => s.maxWin >= 20000, sort: byMaxWin },
-    { slug: '50000x-max-win-slots', title: 'Slots with 50,000x+ Max Win', kw: '50000x max win slots', group: 'max-win', intro: 'Slots with a max win of 50,000x or more – almost always extremely volatile.', filter: (s) => s.maxWin >= 50000, sort: byMaxWin },
-    { slug: '100000x-max-win-slots', title: 'Slots with 100,000x+ Max Win', kw: '100000x max win slots', group: 'max-win', intro: 'The six-figure club: slots advertising 100,000x or more.', filter: (s) => s.maxWin >= 100000, sort: byMaxWin },
-    { slug: 'low-max-win-slots', title: 'Low Max Win Slots (Under 2,500x)', kw: 'low max win slots', group: 'max-win', intro: 'Slots with modest caps. These often pay more frequently and are gentler on a bankroll.', filter: (s) => s.maxWin < 2500, sort: byRating },
+    { slug: '5000x-max-win-slots', title: 'Slots with 5,000x+ Max Win', kw: '5000x max win slots', group: 'max-win', intro: 'Slots where the maximum win is at least 5,000 times the stake.', filter: (s) => mw(s) >= 5000, sort: byMaxWin, relatedGuides: ['how-max-win-works'] },
+    { slug: '10000x-max-win-slots', title: 'Slots with 10,000x+ Max Win', kw: '10000x max win slots', group: 'max-win', intro: 'Slots that can pay 10,000x your stake or more on a single round.', filter: (s) => mw(s) >= 10000, sort: byMaxWin, relatedGuides: ['how-max-win-works'] },
+    { slug: '20000x-max-win-slots', title: 'Slots with 20,000x+ Max Win', kw: '20000x max win slots', group: 'max-win', intro: 'Slots with a max win of 20,000x or more.', filter: (s) => mw(s) >= 20000, sort: byMaxWin },
+    { slug: '50000x-max-win-slots', title: 'Slots with 50,000x+ Max Win', kw: '50000x max win slots', group: 'max-win', intro: 'Slots with a max win of 50,000x or more – almost always extremely volatile.', filter: (s) => mw(s) >= 50000, sort: byMaxWin },
+    { slug: '100000x-max-win-slots', title: 'Slots with 100,000x+ Max Win', kw: '100000x max win slots', group: 'max-win', intro: 'The six-figure club: slots advertising 100,000x or more.', filter: (s) => mw(s) >= 100000, sort: byMaxWin },
+    { slug: 'low-max-win-slots', title: 'Low Max Win Slots (Under 2,500x)', kw: 'low max win slots', group: 'max-win', intro: 'Slots with modest caps. These often pay more frequently and are gentler on a bankroll.', filter: (s) => s.maxWin != null && s.maxWin < 2500, sort: byRating },
     // ---- Volatility
-    { slug: 'high-volatility-slots', title: 'Best High Volatility Slots', kw: 'high volatility slots', group: 'volatility', yearly: true, intro: 'High volatility slots pay less often but can pay much more when they do. Expect long losing stretches – these games suit players who set a strict budget and treat big hits as rare.', filter: (s) => VOLATILITY_SCORE[s.volatility] >= 5, sort: byRating, relatedGuides: ['slot-volatility-explained', 'bankroll-management-for-slots'],
+    { slug: 'high-volatility-slots', title: 'Best High Volatility Slots', kw: 'high volatility slots', group: 'volatility', yearly: true, intro: 'High volatility slots pay less often but can pay much more when they do. Expect long losing stretches – these games suit players who set a strict budget and treat big hits as rare.', filter: (s) => volScore(s.volatility) >= 5, sort: byRating, relatedGuides: ['slot-volatility-explained', 'bankroll-management-for-slots'],
       faq: [{ q: 'What does high volatility mean in slots?', a: 'High volatility means a slot\'s returns are concentrated in fewer, larger wins. You will see more non-winning spins and bigger swings in your balance than on a low volatility slot with the same RTP.' }] },
     { slug: 'very-high-volatility-slots', title: 'Extreme (Very High) Volatility Slots', kw: 'extreme volatility slots', group: 'volatility', yearly: true, intro: 'The most volatile slots available – usually from studios like Nolimit City and Hacksaw Gaming.', filter: (s) => s.volatility === 'very-high', sort: byMaxWin, relatedGuides: ['slot-volatility-explained'] },
-    { slug: 'medium-volatility-slots', title: 'Best Medium Volatility Slots', kw: 'medium volatility slots', group: 'volatility', yearly: true, intro: 'Medium volatility slots balance win frequency and win size – a good middle ground for longer sessions.', filter: (s) => ['medium', 'medium-low', 'medium-high'].includes(s.volatility), sort: byRating, relatedGuides: ['slot-volatility-explained'] },
-    { slug: 'low-volatility-slots', title: 'Best Low Volatility Slots', kw: 'low volatility slots', group: 'volatility', yearly: true, intro: 'Low volatility slots pay small wins frequently. Big wins are rare and max wins are lower, but your balance tends to move more slowly.', filter: (s) => VOLATILITY_SCORE[s.volatility] <= 2, sort: byRating, relatedGuides: ['slot-volatility-explained'] },
+    { slug: 'medium-volatility-slots', title: 'Best Medium Volatility Slots', kw: 'medium volatility slots', group: 'volatility', yearly: true, intro: 'Medium volatility slots balance win frequency and win size – a good middle ground for longer sessions.', filter: (s) => ['medium', 'medium-low', 'medium-high'].includes(s.volatility ?? ''), sort: byRating, relatedGuides: ['slot-volatility-explained'] },
+    { slug: 'low-volatility-slots', title: 'Best Low Volatility Slots', kw: 'low volatility slots', group: 'volatility', yearly: true, intro: 'Low volatility slots pay small wins frequently. Big wins are rare and max wins are lower, but your balance tends to move more slowly.', filter: (s) => s.volatility != null && volScore(s.volatility) <= 2, sort: byRating, relatedGuides: ['slot-volatility-explained'] },
     // ---- RTP
     { slug: 'high-rtp-slots', title: 'High RTP Slots (96.5%+)', kw: 'high rtp slots', group: 'rtp', yearly: true, intro: 'Slots whose highest published RTP configuration is 96.5% or more. Casinos can choose lower RTP versions of the same game, so always check the info screen before you play.', filter: (s) => s.rtp >= 96.5, sort: byRtp, relatedGuides: ['rtp-explained'],
       faq: [{ q: 'Does a higher RTP mean I will win?', a: 'No. RTP is a long-term theoretical average measured over millions of spins. In any single session the result can be very different, especially on high volatility slots.' }] },
@@ -76,8 +77,8 @@ function defs(): Def[] {
     // ---- Release
     { slug: 'new-slots', title: 'New Slot Releases', kw: 'new slots', group: 'release', intro: 'The latest slot releases we have reviewed, newest first. We add new games every week.', filter: () => true, sort: byNewest },
     { slug: 'best-slots', title: 'Best Online Slots', kw: 'best online slots', group: 'style', yearly: true, intro: 'Our highest-rated slots across every provider, based on gameplay, features, fairness of the maths and how they hold up across repeated demo sessions.', filter: () => true, sort: byRating, relatedGuides: ['how-we-review-slots'] },
-    { slug: 'classic-retro-slots', title: 'Retro Slots (Released Before 2016)', kw: 'old classic slots', group: 'release', intro: 'Slots that defined the online era and are still worth playing.', filter: (s) => s.releaseDate < '2016-01-01', sort: byRating },
-    { slug: 'streamer-favourite-slots', title: 'Popular High-Variance Bonus Slots', kw: 'popular bonus slots', group: 'style', intro: 'High-variance slots with multi-stage bonus rounds that are popular in the slot community. Popularity says nothing about your odds.', filter: (s) => VOLATILITY_SCORE[s.volatility] >= 5 && s.maxWin >= 10000 && s.mechanics.includes('free-spins'), sort: byRating },
+    { slug: 'classic-retro-slots', title: 'Retro Slots (Released Before 2016)', kw: 'old classic slots', group: 'release', intro: 'Slots that defined the online era and are still worth playing.', filter: (s) => s.releaseDate != null && s.releaseDate < '2016-01-01', sort: byRating },
+    { slug: 'streamer-favourite-slots', title: 'Popular High-Variance Bonus Slots', kw: 'popular bonus slots', group: 'style', intro: 'High-variance slots with multi-stage bonus rounds that are popular in the slot community. Popularity says nothing about your odds.', filter: (s) => volScore(s.volatility) >= 5 && mw(s) >= 10000 && s.mechanics.includes('free-spins'), sort: byRating },
     { slug: 'simple-slots-for-beginners', title: 'Simple Slots for Beginners', kw: 'easy slots for beginners', group: 'style', intro: 'Slots with straightforward rules and one or two features – ideal for learning in demo mode.', filter: (s) => s.mechanics.length <= 4, sort: byRating, relatedGuides: ['how-slots-work'] },
   ];
   for (const [m, slug, title, intro, guides] of mech) {
@@ -88,9 +89,9 @@ function defs(): Def[] {
     out.push({ slug, title: `Best ${title}`, kw: title.toLowerCase(), group: 'themes', yearly: true, intro: `Our pick of the best ${title.toLowerCase()} from every major studio, with free demos and full stats.`, filter: theme(t), sort: byRating });
   }
   // Release-year lists generated from data
-  const years = [...new Set(getSlots().map((s) => s.releaseDate.slice(0, 4)))].sort().reverse();
+  const years = [...new Set(getSlots().filter((s) => s.releaseDate).map((s) => s.releaseDate!.slice(0, 4)))].sort().reverse();
   for (const y of years) {
-    out.push({ slug: `slots-released-in-${y}`, title: `Best Slots Released in ${y}`, kw: `best slots ${y}`, group: 'release', intro: `The best slots released in ${y}, ranked by our review score.`, filter: (s) => s.releaseDate.startsWith(y), sort: byRating });
+    out.push({ slug: `slots-released-in-${y}`, title: `Best Slots Released in ${y}`, kw: `best slots ${y}`, group: 'release', intro: `The best slots released in ${y}, ranked by our review score.`, filter: (s) => !!s.releaseDate?.startsWith(y), sort: byRating });
   }
   return out;
 }

@@ -1,0 +1,56 @@
+{
+  "slug": "chilli-heat-spicy-spins",
+  "name": "Chilli Heat Spicy Spins",
+  "provider": "pragmatic-play",
+  "rtp": 96.58,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2025-07-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x5",
+  "mechanics": [
+    "hold-and-win",
+    "respins",
+    "money-collect",
+    "multipliers"
+  ],
+  "themes": [
+    "food",
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Respin grid",
+      "description": "Three scatters start respins on a 5x5 grid with only money symbols and blanks."
+    },
+    {
+      "name": "Group multipliers",
+      "description": "Larger groups of connected money symbols earn bigger multipliers."
+    },
+    {
+      "name": "Full-grid prize",
+      "description": "Filling all 25 positions awards the maximum win."
+    }
+  ],
+  "review": "Chilli Heat Spicy Spins revolves around a respin round on its own 5x5 grid. Three scatters trigger it, replacing the reels with a board where only money symbols and blanks can land. Money symbols stick until the end, and each new one resets the respin counter to three.\n\nThe clever part is the group multiplier. Money symbols that are horizontally or vertically connected form groups, and bigger groups earn bigger multipliers: Pragmatic Play's page lists steps from 2x for four to six symbols up to 50x for a group of 24, while the game's intro screen promises multipliers of up to 800x in respins, so check the paytable in the demo for the exact values. At the end, every value is multiplied accordingly. Filling all 25 positions awards the 10,000x maximum. The RTP of 96.58% is strong.",
+  "pros": [
+    "Above-average 96.58% RTP",
+    "High 10,000x win ceiling",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10chillihmr&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/chilli-heat-spicy-spins.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/chilli-heat-spicy-spins/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

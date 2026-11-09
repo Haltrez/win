@@ -1,0 +1,55 @@
+{
+  "slug": "john-hunter-and-the-book-of-tut-respin",
+  "name": "John Hunter and the Book of Tut Respin",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2022-09-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "expanding-symbols",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "egypt",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Base-game respins",
+      "description": "A random mystery symbol expands and respins continue while it keeps landing."
+    },
+    {
+      "name": "Choose your symbol",
+      "description": "Pick the expanding symbol for the 10 free spins."
+    },
+    {
+      "name": "Retriggers",
+      "description": "Three more books add another round of free spins."
+    }
+  ],
+  "review": "John Hunter and the Book of Tut Respin adds a respin mechanic to the familiar book formula. In any base-game spin, a random mystery symbol can be chosen to expand across the reels, which triggers a respin. More mystery symbols can land during respins, and the sequence continues until the chosen symbol fails to appear.\n\nThree or more book scatters award 10 free spins, and here you get to choose your expanding symbol rather than leave it to chance. Expanding it again triggers further respins, and three more books retrigger the round. Pragmatic Play's page and the game's own screens quote different maximum wins, so we have not listed a figure. The RTP is 96.5%. The base-game respins make this more lively than a standard book slot.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10tut&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/john-hunter-and-the-book-of-tut-respin.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/john-hunter-and-the-book-of-tut-respin/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

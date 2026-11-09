@@ -1,0 +1,59 @@
+{
+  "slug": "doddy-and-haddzy-bonanza",
+  "name": "Doddy And Haddzy Bonanza",
+  "provider": "bgaming",
+  "rtp": 96.0,
+  "volatility": "high",
+  "maxWin": 10200,
+  "releaseDate": "2023-04-19",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 2.59,
+  "bonusRate": 398.0,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "mythology",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Viking pay anywhere",
+      "description": "Refilling reels with Viking-themed symbols."
+    },
+    {
+      "name": "2x–100x multipliers",
+      "description": "A random multiplier symbol appears during free spins."
+    },
+    {
+      "name": "Assured-trigger buy",
+      "description": "The bonus buy ensures free spins on the next spin."
+    }
+  ],
+  "review": "Doddy And Haddzy Bonanza is a Viking-styled Bonanza game made with two popular streamers. Refilling reels let symbols pay anywhere, and wins can chain within a single spin.\n\nFour or more scatters trigger free spins, and scatters also pay in any position. During the bonus, a multiplier symbol takes a random value from 2x to 100x. Chance x2 improves the odds of four scatters, and the bonus buy ensures a bonus on the next spin where permitted. BGaming rates it high volatility with a 10,200x maximum and a 96% RTP. Free spins come along roughly once every 398 spins. Mechanically it matches Aztec Magic Bonanza; choose it for the Viking theme.",
+  "pros": [
+    "High 10,200x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus is rare (about 1 in 398 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/DoddyAndHaddzyBonanza/FUN?server=demo",
+  "image": "/slots/bgaming/doddy-and-haddzy-bonanza.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/doddy-and-haddzy-bonanza"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

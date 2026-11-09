@@ -1,0 +1,55 @@
+{
+  "slug": "big-bass-halloween-2",
+  "name": "Big Bass Halloween 2",
+  "provider": "pragmatic-play",
+  "rtp": 96.71,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2024-09-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "multipliers",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "fishing",
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Random pre-bonus modifier",
+      "description": "One modifier, such as more cash symbols or extra spins, is chosen before free spins start."
+    },
+    {
+      "name": "Free spins",
+      "description": "Three to five scatters award 10–20 free spins."
+    },
+    {
+      "name": "Multiplier trail",
+      "description": "Every fourth fisherman retriggers 10 spins and raises the multiplier up to 10x."
+    }
+  ],
+  "review": "Big Bass Halloween 2 hands the fisherman a chainsaw and adds a random modifier to the bonus. The base game is a 5x3 line slot full of infected bugs and dead bass, with the possessed angler serving as the wild and the collector.\n\nThree, four or five scatters trigger 10, 15 or 20 free spins. Before the round begins, one modifier is picked at random, such as extra collect symbols, more cash icons or additional spins, so each bonus starts slightly differently. Every fisherman pushes you along the bonus trail, and every fourth one retriggers 10 extra spins and raises the win multiplier up to 10x. The provider describes these modifiers as the route to the 5,000x maximum. With a 96.71% RTP, it is one of the better-returning Big Bass variants.",
+  "pros": [
+    "Above-average 96.71% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10bhallbnza2&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/big-bass-halloween-2.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/big-bass-halloween-2/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

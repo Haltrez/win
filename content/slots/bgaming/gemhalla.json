@@ -1,0 +1,60 @@
+{
+  "slug": "gemhalla",
+  "name": "Gemhalla",
+  "provider": "bgaming",
+  "rtp": 97.17,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2023-06-15",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 2.96,
+  "bonusRate": 163.2,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "mythology",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Pay-anywhere gems",
+      "description": "Refilling reels where symbols pay anywhere."
+    },
+    {
+      "name": "Base-game multipliers",
+      "description": "Multipliers in a single spin are added together."
+    },
+    {
+      "name": "Accumulating free spins",
+      "description": "Thor collects multipliers into a running total for the bonus."
+    }
+  ],
+  "review": "Gemhalla casts Thor as the god of multipliers, standing beside Yggdrasil on a pay-anywhere gem grid with refilling reels. Multiplier symbols can appear in the base game as well as free spins.\n\nIn the main game, multipliers that land in the same spin are added together. During free spins, Thor accumulates every multiplier and applies the running total to wins, so a long bonus can build a big multiplier. Chance x2 and a bonus buy are available where permitted. BGaming rates it very high volatility with a 5,000x maximum, and the 97.17% RTP is one of the best you'll find. Free spins land around once every 163 spins, more often than the Bonanza family.",
+  "pros": [
+    "Excellent 97.17% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/Gemhalla/FUN?server=demo",
+  "image": "/slots/bgaming/gemhalla.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/gemhalla"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

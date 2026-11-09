@@ -1,0 +1,55 @@
+{
+  "slug": "mechanical-clover",
+  "name": "Mechanical Clover",
+  "provider": "bgaming",
+  "rtp": 95.42,
+  "volatility": "high",
+  "maxWin": 24360,
+  "releaseDate": "2021-04-05",
+  "releaseDatePrecision": "day",
+  "winType": "5 paylines",
+  "hitRate": 7.96,
+  "mechanics": [
+    "paylines",
+    "respins",
+    "gamble"
+  ],
+  "themes": [
+    "sci-fi",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "3x3 with 5 lines",
+      "description": "A compact retro grid."
+    },
+    {
+      "name": "Respin to 27 ways",
+      "description": "The respin feature expands winning combinations from 5 lines to 27."
+    },
+    {
+      "name": "Higher-card gamble",
+      "description": "Beat the dealer's card to double a win, up to 10 times."
+    }
+  ],
+  "review": "Mechanical Clover is a steampunk-styled 3x3 slot from BGaming with five paylines in the base game. It looks retro, but the maths is anything but: BGaming rates it high volatility and lists a maximum multiplier of 24,360x, an unusually high ceiling for such a small grid.\n\nThe Respin feature can expand the number of winning combinations from 5 lines to 27, which is where the big results come from. The gamble works differently from BGaming's usual card colour guess: you pick a card, and if it beats the dealer's, your win doubles. You can repeat this up to 10 times, though each step risks the whole amount. The RTP is 95.42%. Approach the gamble with caution.",
+  "pros": [
+    "High 24,360x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.42% RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/MechanicalClover/FUN?server=demo",
+  "image": "/slots/bgaming/mechanical-clover.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/mechanical-clover"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

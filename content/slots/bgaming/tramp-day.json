@@ -1,0 +1,59 @@
+{
+  "slug": "tramp-day",
+  "name": "Tramp Day",
+  "provider": "bgaming",
+  "rtp": 97.17,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2023-11-16",
+  "releaseDatePrecision": "day",
+  "reels": "6x5",
+  "winType": "Pays Anywhere",
+  "hitRate": 4.03,
+  "bonusRate": 163.2,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "food"
+  ],
+  "features": [
+    {
+      "name": "6x5 pay anywhere",
+      "description": "Refilling reels where symbols pay anywhere."
+    },
+    {
+      "name": "Multipliers in every mode",
+      "description": "Random multipliers land in the base game and free spins."
+    },
+    {
+      "name": "Chance x2 and buy",
+      "description": "Improve your odds or buy the bonus where permitted."
+    }
+  ],
+  "review": "Tramp Day is a quirky Bonanza-style 6x5 slot about a cheerful tramp searching for treasures among discarded items: doughnuts, cans, pizza and, with luck, cash. Symbols pay anywhere and refill after each win.\n\nRandom multiplier symbols can appear in both the base game and free spins, which gives ordinary spins more upside than the original Bonanza Billion. Chance x2 and a bonus buy are available where permitted. BGaming rates it very high volatility with a 5,000x maximum, and the 97.17% RTP is excellent. Free spins arrive about once every 163 spins, more frequently than most Bonanza titles.",
+  "pros": [
+    "Excellent 97.17% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/TrampDay/FUN?server=demo",
+  "image": "/slots/bgaming/tramp-day.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/tramp-day"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

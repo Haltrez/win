@@ -1,0 +1,54 @@
+{
+  "slug": "train-to-rio-grande",
+  "name": "Train to Rio Grande",
+  "provider": "bgaming",
+  "rtp": 96.1,
+  "volatility": "very-high",
+  "maxWin": 10490,
+  "releaseDate": "2024-08-28",
+  "releaseDatePrecision": "day",
+  "winType": "10 paylines",
+  "hitRate": 11.55,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "10 paylines",
+      "description": "A western-themed line layout."
+    },
+    {
+      "name": "Scaled bonus multipliers",
+      "description": "Four bonus symbols add 3x and five add 10x."
+    },
+    {
+      "name": "Bonus buy",
+      "description": "Buy the bonus game where permitted."
+    }
+  ],
+  "review": "Train to Rio Grande is a 10-line western slot with a simple bonus structure. Three, four or five bonus symbols trigger the bonus game, and the number matters: four symbols add a 3x multiplier to your wins, and five add 10x.\n\nThe bonus can be bought where permitted, with the price adjusting to your stake. BGaming rates the game very high volatility with a maximum multiplier of 10,490x, the same structure and ceiling as Wild Cash x9990 with a different theme. The RTP is 96.1%. As with that game, most of the potential sits in rare five-symbol triggers, so expect big swings.",
+  "pros": [
+    "High 10,490x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/TrainToRioGrande/FUN?server=demo",
+  "image": "/slots/bgaming/train-to-rio-grande.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/train-to-rio-grande"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "john-hunter-and-the-aztec-treasure",
+  "name": "John Hunter and the Aztec Treasure",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2019-06-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "ways",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "adventure",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Variable ways",
+      "description": "The number of pay ways changes from spin to spin."
+    },
+    {
+      "name": "Free spins multipliers",
+      "description": "All wins in the bonus are multiplied by up to 10x."
+    },
+    {
+      "name": "Aztec setting",
+      "description": "Aztec temples and treasure with John Hunter as the protagonist."
+    }
+  ],
+  "review": "John Hunter and the Aztec Treasure is an earlier entry in the series that uses a variable pay-ways layout instead of fixed lines. The number of ways can change from spin to spin, which gives the base game a less predictable rhythm than a standard 5x3 slot.\n\nAn ancient book plays a part in the free spins round, where every win is multiplied by up to 10x. That multiplier is the key to the bonus's value. Pragmatic Play doesn't list a maximum win for this title on its site. The RTP is 96.5%. It's worth a look if you want to see how the John Hunter series began before it moved towards money-collect mechanics.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs7776secrets&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/john-hunter-and-the-aztec-treasure.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/john-hunter-and-the-aztec-treasure-slot/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

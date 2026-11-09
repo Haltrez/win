@@ -1,0 +1,54 @@
+{
+  "slug": "shield-of-sparta",
+  "name": "Shield of Sparta",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2022-11-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "history",
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Two bonus symbols",
+      "description": "Regular and Magnetic Bonus symbols both count towards the trigger."
+    },
+    {
+      "name": "Trigger respins",
+      "description": "Two bonus symbols lock while the other reels respin."
+    },
+    {
+      "name": "Framed free spins",
+      "description": "3–5 bonus symbols award 10–20 free spins with framed positions."
+    }
+  ],
+  "review": "Shield of Sparta is a 5x3, 20-payline slot that moves between a coastal setting in the base game and a battlefield in the bonus. It has two kinds of bonus symbol: regular Bonus and Magnetic Bonus. When two of either type land, they lock in place while the rest of the reels respin for a chance at the third.\n\nThree, four or five bonus symbols award 10, 15 or 20 free spins. In the bonus, the positions where they landed are marked with frames that influence the round. Magnetic Bonus symbols add another layer, pulling features towards them. The advertised maximum is 5,000x and the RTP is 96.5%. The trigger respin gives the base game near-miss tension that most line slots lack.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20sparta&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/shield-of-sparta.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/shield-of-sparta/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

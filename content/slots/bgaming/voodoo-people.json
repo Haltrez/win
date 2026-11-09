@@ -1,0 +1,60 @@
+{
+  "slug": "voodoo-people",
+  "name": "Voodoo People",
+  "provider": "bgaming",
+  "rtp": 96.88,
+  "volatility": "medium-high",
+  "maxWin": 7500,
+  "releaseDate": "2024-09-18",
+  "releaseDatePrecision": "day",
+  "winType": "25 paylines",
+  "hitRate": 2.65,
+  "bonusRate": 227.76,
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Voodoo Hold & Win",
+      "description": "Sticky Voodoo symbols build towards the Mega jackpot; full lines gain multipliers."
+    },
+    {
+      "name": "High-symbol free spins",
+      "description": "Eight free spins without low-paying symbols."
+    },
+    {
+      "name": "Enchanted candles",
+      "description": "Raises the chance of triggering bonuses by 2.5x."
+    }
+  ],
+  "review": "Voodoo People is a Halloween-style 25-line slot set in a mystical shop, where the shopkeeper appears as a wild that can land in several places at once. Its main bonus is a Mega Jackpot Hold & Win game with sticky Voodoo symbols.\n\nThe more Voodoos you collect, the bigger the win, and at the end of the round, lines filled with Voodoos gain multipliers. The other bonus offers eight free spins with only high-paying symbols. You can light enchanted candles for 2.5 times the bonus chance, or buy a bonus where permitted. BGaming rates it medium-high volatility with a 7,500x maximum and a 96.88% RTP. Free spins arrive about once every 228 spins.",
+  "pros": [
+    "Above-average 96.88% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/VoodooPeople/FUN?server=demo",
+  "image": "/slots/bgaming/voodoo-people.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/voodoo-people"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

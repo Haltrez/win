@@ -43,14 +43,18 @@ export function buildMetadata(m: MetaInput): Metadata {
 
 /** "[Slot Name] Demo & Review – [Max Win]x Max Win | [Provider] ([Year])" */
 export function slotTitle(s: Slot, p: Provider) {
-  return `${s.name} Demo & Review – ${fmtX(s.maxWin)} Max Win | ${p.name} (${year(s.releaseDate)})`;
+  const y = year(s.releaseDate);
+  const hook = s.maxWin ? `${fmtX(s.maxWin)} Max Win` : `${fmtRtp(s.rtp)} RTP`;
+  return `${s.name} Demo & Review – ${hook} | ${p.name}${y ? ` (${y})` : ''}`;
 }
 
 /** Unique, data-driven meta description: RTP, volatility, max win + value prop. Optional parts are added only while they fit. */
 export function slotDescription(s: Slot, p: Provider) {
-  const vol = VOLATILITY_LABEL[s.volatility].toLowerCase();
+  const vol = s.volatility ? VOLATILITY_LABEL[s.volatility].toLowerCase() : null;
   const feature = s.features[0]?.name.toLowerCase();
-  let d = `Play the free ${s.name} demo by ${p.name}: ${fmtRtp(s.rtp)} RTP, ${vol} volatility and ${fmtX(s.maxWin)} max win.`;
+  const facts = [`${fmtRtp(s.rtp)} RTP`, vol ? `${vol} volatility` : null, s.maxWin ? `${fmtX(s.maxWin)} max win` : null].filter(Boolean) as string[];
+  const list = facts.length > 1 ? `${facts.slice(0, -1).join(', ')} and ${facts[facts.length - 1]}` : facts[0];
+  let d = `Play the free ${s.name} demo by ${p.name}: ${list}.`;
   const tails = [feature ? ` See how the ${feature} feature works. Honest review, no sign-up.` : '', ' Honest review, no sign-up.', ' No sign-up needed.', ''];
   d += tails.find((t) => t && (d + t).length <= 158) ?? '';
   return clip(d);

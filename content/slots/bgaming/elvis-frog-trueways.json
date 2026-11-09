@@ -1,0 +1,62 @@
+{
+  "slug": "elvis-frog-trueways",
+  "name": "Elvis Frog Trueways",
+  "provider": "bgaming",
+  "rtp": 96.7,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2022-10-20",
+  "releaseDatePrecision": "day",
+  "winType": "Trueways",
+  "hitRate": 4.33,
+  "bonusRate": 229.0,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "free-spins",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "music",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Trueways",
+      "description": "Up to 262,144 ways instead of paylines."
+    },
+    {
+      "name": "Lightning symbol",
+      "description": "Splits reel units in two to add more ways."
+    },
+    {
+      "name": "Coin Respin jackpots",
+      "description": "A coin respin round with three jackpot levels; Chance x2 and bonus buy available."
+    }
+  ],
+  "review": "Elvis Frog Trueways brings the singing frog back on BGaming's Trueways engine, which replaces paylines with up to 262,144 ways to win. A new Lightning symbol splits reel units into two smaller ones, increasing the number of ways during a spin.\n\nAlmost every BGaming feature is included here: bonus symbols and free spins, wilds with multipliers, and a Coin Respin feature (with the Lightning symbol) where three jackpot levels can be won. Chance x2 raises the bet slightly to increase your odds of reaching free spins or Coin Respin, and a bonus buy is available where permitted. BGaming rates it very high volatility with a 5,000x maximum and a strong 96.7% RTP. Free spins land about once every 229 spins on average. It's much swingier than the original Elvis Frog.",
+  "pros": [
+    "Above-average 96.70% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/ElvisFrogtrueways/FUN?server=demo",
+  "image": "/slots/bgaming/elvis-frog-trueways.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/elvis-frog-trueways-branded"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

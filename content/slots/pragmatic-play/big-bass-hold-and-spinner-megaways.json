@@ -1,0 +1,57 @@
+{
+  "slug": "big-bass-hold-and-spinner-megaways",
+  "name": "Big Bass Hold & Spinner Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.7,
+  "volatility": null,
+  "maxWin": 20000,
+  "releaseDate": "2023-08-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "cascades",
+    "money-collect",
+    "free-spins",
+    "hold-and-win",
+    "respins"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Megaways cascades",
+      "description": "Up to 147,456 ways with cascading wins and mystery symbols."
+    },
+    {
+      "name": "Unlimited retriggers",
+      "description": "Free spins can be retriggered without limit, raising the multiplier each time."
+    },
+    {
+      "name": "Hold and spin",
+      "description": "Three respins to collect cash prizes; each new prize resets the counter."
+    }
+  ],
+  "review": "Big Bass Hold & Spinner Megaways was billed as the tenth Big Bass title and brings the series onto a six-reel Megaways layout. The number of symbols on each reel changes every spin, creating up to 147,456 ways to win, and winning symbols cascade away so new icons can fall in. Mystery symbols can also land and reveal a matching symbol.\n\nThere are two bonuses. The free spins round keeps the multiplier and retrigger system but now allows unlimited retriggers. The hold and spin bonus gives three respins to land instant cash prizes, with each new prize resetting the count. The combination of Megaways and cascades makes this one of the most volatile-feeling Big Bass games, and it advertises the highest top win in this batch at 20,000x. The 96.7% RTP is also strong.",
+  "pros": [
+    "Above-average 96.70% RTP",
+    "High 20,000x win ceiling",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysbbhas&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/big-bass-hold-and-spinner-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/big-bass-hold-spinner-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

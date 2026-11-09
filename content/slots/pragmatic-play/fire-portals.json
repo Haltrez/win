@@ -1,0 +1,55 @@
+{
+  "slug": "fire-portals",
+  "name": "Fire Portals",
+  "provider": "pragmatic-play",
+  "rtp": 96.06,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2024-03-01",
+  "releaseDatePrecision": "month",
+  "reels": "7x7",
+  "mechanics": [
+    "cluster-pays",
+    "tumble",
+    "walking-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Cluster tumbles",
+      "description": "Five or more connected symbols win on a 7x7 grid."
+    },
+    {
+      "name": "Fire Portal wilds",
+      "description": "Wins spawn wilds that gain +1x and move each time they win."
+    },
+    {
+      "name": "Merging wilds",
+      "description": "Wilds in the same cluster merge and combine multipliers."
+    }
+  ],
+  "review": "Fire Portals is a 7x7 cluster game with a moving, growing wild. Potions, rings and hourglasses pay in clusters of five or more and tumble away after each win.\n\nAny win that doesn't already contain a Fire Portal wild spawns one in a random position within that winning area. These wilds start at 1x, and each time one is part of a win its multiplier increases by 1x and it moves to a new position. If two or more wilds join the same cluster, they merge and combine their multipliers. Three or more scatters trigger the bonus. The advertised maximum is 10,000x. The RTP is 96.06%. Merging wilds give the game a satisfying build-up within a single spin.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20portals&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/fire-portals.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/fire-portals/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

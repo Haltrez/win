@@ -1,0 +1,55 @@
+{
+  "slug": "mighty-kong",
+  "name": "Mighty Kong",
+  "provider": "pragmatic-play",
+  "rtp": 94.0,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2016-05-01",
+  "releaseDatePrecision": "month",
+  "reels": "4x5",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "animals",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "50 paylines",
+      "description": "A 4x5 layout with many lines."
+    },
+    {
+      "name": "Expanding middle wild",
+      "description": "Wilds on the middle reel expand to fill it."
+    },
+    {
+      "name": "Choose your bonus",
+      "description": "Select up to 40 free spins or multipliers up to 8x."
+    }
+  ],
+  "review": "Mighty Kong is a 2016 4x5, 50-line slot about a giant gorilla. A wild landing on the middle reel expands to fill the whole reel, which helps complete wins across many lines.\n\nThe free spins round lets you choose your bonus, with options up to 40 free spins and multipliers up to 8x, so you decide between more spins or bigger multipliers. Pragmatic Play doesn't publish a maximum win for this title. Note the RTP is 94%, well below most modern games, so it's more expensive to play over time. It's mainly of interest for its choose-your-bonus feature.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.00% RTP",
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs50kingkong&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/mighty-kong.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/mighty-kong-slot/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

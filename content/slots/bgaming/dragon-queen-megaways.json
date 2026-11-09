@@ -1,0 +1,59 @@
+{
+  "slug": "dragon-queen-megaways",
+  "name": "Dragon Queen Megaways",
+  "provider": "bgaming",
+  "rtp": 96.75,
+  "volatility": "very-high",
+  "maxWin": 6000,
+  "releaseDate": "2025-06-24",
+  "releaseDatePrecision": "day",
+  "winType": "Megaways",
+  "hitRate": 3.42,
+  "bonusRate": 136.0,
+  "mechanics": [
+    "megaways",
+    "ways",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "2x crown wilds",
+      "description": "Wilds double the wins they complete."
+    },
+    {
+      "name": "Wheel of Fortune",
+      "description": "Sets 5–15 free spins and a 2x–25x multiplier for the bonus."
+    },
+    {
+      "name": "Chance x2 and buy",
+      "description": "Double your bonus odds or buy it where permitted."
+    }
+  ],
+  "review": "Dragon Queen Megaways is a fantasy battle slot on Megaways reels. Crown wilds carry a 2x multiplier, boosting any win they're part of.\n\nThree or more scatters trigger the bonus, where a Wheel of Fortune decides both the number of free spins (5 to 15) and a single multiplier from 2x to 25x that applies to every win in the round. That opening spin has a big influence on how valuable the bonus will be. Chance x2 and a bonus buy are available where permitted. BGaming rates it very high volatility with a 6,000x maximum and a 96.75% RTP. Free spins arrive about once every 136 spins. It's built on the same engine as Lady Wolf Moon Megaways.",
+  "pros": [
+    "Above-average 96.75% RTP",
+    "Bonus lands relatively often (about 1 in 136 spins on average)",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/DragonQueenMegaways/FUN?server=demo",
+  "image": "/slots/bgaming/dragon-queen-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/dragon-queen-megaways-tm"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

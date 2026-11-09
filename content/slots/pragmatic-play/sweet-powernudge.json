@@ -1,0 +1,53 @@
+{
+  "slug": "sweet-powernudge",
+  "name": "Sweet Powernudge",
+  "provider": "pragmatic-play",
+  "rtp": 96.08,
+  "volatility": null,
+  "maxWin": 4000,
+  "releaseDate": "2022-12-01",
+  "releaseDatePrecision": "month",
+  "reels": "6x5",
+  "mechanics": [
+    "pay-anywhere",
+    "multipliers",
+    "free-spins",
+    "respins"
+  ],
+  "themes": [
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "Nudging reels",
+      "description": "Reels with winning symbols nudge down to reveal new symbols."
+    },
+    {
+      "name": "Reel five multipliers",
+      "description": "Multiplier values on reel five boost wins."
+    },
+    {
+      "name": "Free spins",
+      "description": "Four scatters award seven free spins with the multiplier always active."
+    }
+  ],
+  "review": "Sweet Powernudge is a 6x5 candy slot where five or more matching symbols form a win. Whenever a win lands, every reel holding at least one winning symbol nudges down to reveal a new symbol, potentially creating further wins without a new spin.\n\nReel five carries multiplier values that can boost base-game wins. Four scatters award seven free spins, where the multiplier meter is always active. Additional scatters collected during the round count towards a retrigger: four or more award three extra spins. Pragmatic Play's in-game screens advertise up to 4,000x. The RTP is 96.08%. It's a lighter, more modest Powernudge game than Sugar Supreme.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20clspwrndg&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/sweet-powernudge.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/sweet-powernudge/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

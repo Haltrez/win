@@ -1,0 +1,59 @@
+{
+  "slug": "dragon-age-hold-and-win",
+  "name": "Dragon Age Hold & Win",
+  "provider": "bgaming",
+  "rtp": 96.14,
+  "volatility": null,
+  "maxWin": 5624,
+  "releaseDate": "2024-06-18",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "25 paylines",
+  "hitRate": 2.39,
+  "bonusRate": 182.0,
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "hold-and-win",
+    "respins",
+    "money-collect",
+    "jackpot"
+  ],
+  "themes": [
+    "asian",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Two bonuses",
+      "description": "Free spins and a Gold Respin coin feature."
+    },
+    {
+      "name": "Gold Respin",
+      "description": "Six coins start the feature, with Plus Spin and Collect symbols."
+    },
+    {
+      "name": "Mega jackpot",
+      "description": "Up to 5,000x the bet in the coin feature."
+    }
+  ],
+  "review": "Dragon Age Hold & Win is a 5x3, 25-line Asian fantasy slot starring a shape-shifting heroine who turns into an amber dragon. It has two bonus games.\n\nFree spins are triggered by three or more scatters on reels 1, 3 and 5. The Gold Respin game is activated by six or more coins, in either the base game or free spins, and uses Plus Spin and Collect symbols, with a Mega jackpot of 5,000x the bet. BGaming lists a maximum multiplier of 5,624x and an RTP of 96.14%; it doesn't publish a volatility rating for this title. Free spins arrive about once every 182 spins.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/DragonAge/FUN?server=demo",
+  "image": "/slots/bgaming/dragon-age-hold-and-win.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/dragon-age-hold-win"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

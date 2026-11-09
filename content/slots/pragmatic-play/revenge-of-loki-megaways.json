@@ -1,0 +1,55 @@
+{
+  "slug": "revenge-of-loki-megaways",
+  "name": "Revenge of Loki Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.51,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-05-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "tumble",
+    "free-spins",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Loki Super Symbol",
+      "description": "Transforms into high-paying symbols during tumbles."
+    },
+    {
+      "name": "Spell LOKI",
+      "description": "Four or more scatters spelling LOKI award 9–18 free spins."
+    },
+    {
+      "name": "Wild transformations",
+      "description": "Loki turns symbols into wilds and can add spins in the bonus."
+    }
+  ],
+  "review": "Revenge of Loki Megaways casts the trickster god across a six-reel Megaways grid. Loki appears in various disguises, and the Loki Super Symbol can transform into high-paying symbols during tumbles, keeping wins rolling.\n\nFree spins are triggered by spelling LOKI with at least four scatters. The initial award depends on the scatters and ranges from nine to 18 spins, and Loki can add more by turning other symbols into wilds. Tumbles continue in the bonus. Pragmatic Play's page and the game itself quote different maximum wins, so we have not listed one until we can confirm it. The RTP is 96.51%. Spelling-based triggers make the bonus feel more interactive than a plain scatter count.",
+  "pros": [
+    "Above-average 96.51% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysloki&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/revenge-of-loki-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/revenge-of-loki-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

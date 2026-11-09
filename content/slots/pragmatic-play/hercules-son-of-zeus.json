@@ -1,0 +1,53 @@
+{
+  "slug": "hercules-son-of-zeus",
+  "name": "Hercules Son of Zeus",
+  "provider": "pragmatic-play",
+  "rtp": 95.19,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2016-12-01",
+  "releaseDatePrecision": "month",
+  "reels": "4x5",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "expanding-wilds"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Stacked Hercules",
+      "description": "The hero is stacked on all reels and pays from two symbols."
+    },
+    {
+      "name": "Added wilds",
+      "description": "Free spins add wilds to reels 2, 3 and 4 before every spin."
+    },
+    {
+      "name": "Extra spins",
+      "description": "Each scatter during the bonus adds one free spin."
+    }
+  ],
+  "review": "Hercules Son of Zeus is one of Pragmatic Play's older titles, a 4x5, 50-line slot where Hercules is stacked on every reel and pays from just two symbols. Those stacks can produce frequent mid-sized wins across multiple lines.\n\nThree Zeus symbols trigger free spins, in which wilds are added to reels 2, 3 and 4 before each spin, and every scatter that lands during the round adds one more free spin. Pragmatic Play doesn't publish a maximum win for this title. Note that its RTP is 95.19%, noticeably lower than the studio's modern games. It's mainly of interest to players who like older, line-heavy designs.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.19% RTP",
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs50hercules&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/hercules-son-of-zeus.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/hercules-son-zeus-slot/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

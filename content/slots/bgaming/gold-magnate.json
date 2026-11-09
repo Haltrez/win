@@ -1,0 +1,56 @@
+{
+  "slug": "gold-magnate",
+  "name": "Gold Magnate",
+  "provider": "bgaming",
+  "rtp": 96.1,
+  "volatility": "very-high",
+  "maxWin": 10490,
+  "releaseDate": "2024-07-16",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "10 paylines",
+  "hitRate": 11.55,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "history",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Card-game reels",
+      "description": "Spin to reveal winning card combinations."
+    },
+    {
+      "name": "Big Ben trigger",
+      "description": "Three or more Big Ben cards start the bonus."
+    },
+    {
+      "name": "Dice multiplier",
+      "description": "Roll a dice to pick one of six multipliers between 5x and 999x."
+    }
+  ],
+  "review": "Gold Magnate is set in a 19th-century London private club, with a card-game theme and a dice-driven bonus. Reels show card combinations, and three or more Big Ben cards trigger the multiplier bonus.\n\nAt the start of the bonus, six multiplier cards worth 5x to 999x are revealed, then turned face down, and you roll a dice to pick one at random, which applies to your win. That makes the bonus highly variable: a low pick versus a 999x pick is a huge difference. The bonus can be bought where permitted. BGaming rates the game very high volatility with a 10,490x maximum and a 96.1% RTP.",
+  "pros": [
+    "High 10,490x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/GoldMagnate/FUN?server=demo",
+  "image": "/slots/bgaming/gold-magnate.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/goldmagnate"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

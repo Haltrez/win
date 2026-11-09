@@ -1,0 +1,54 @@
+{
+  "slug": "soccermania",
+  "name": "Soccermania",
+  "provider": "bgaming",
+  "rtp": 96.23,
+  "volatility": "very-high",
+  "maxWin": 1059,
+  "releaseDate": "2022-11-15",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "winType": "5 paylines",
+  "hitRate": 12.28,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Penalty shootout bonus",
+      "description": "Up to five kicks, each possibly adding a multiplier to the cup."
+    },
+    {
+      "name": "Cup multiplier",
+      "description": "The total collected is applied to your bet."
+    },
+    {
+      "name": "Bonus buy",
+      "description": "Buy the shootout where permitted."
+    }
+  ],
+  "review": "Soccermania is a five-line slot with a football penalty-shootout bonus. The bonus is a mini game simulating a real match, and you can win up to 999x your bet.\n\nYou take up to five penalty kicks. Each corner of the goal holds a multiplier, and if your kick hits one, its value is added to the cup; miss the goal and the bonus ends. At the end, the total multiplier in the cup is applied to your bet. The bonus can be bought where permitted. BGaming rates it very high volatility with a 1,059x maximum and a 96.23% RTP. It's one of the most interactive bonuses in this database, though the outcome is still random.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Modest 1,059x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/Soccermania/FUN?server=demo",
+  "image": "/slots/bgaming/soccermania.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/soccermania"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

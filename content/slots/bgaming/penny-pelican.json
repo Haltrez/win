@@ -1,0 +1,57 @@
+{
+  "slug": "penny-pelican",
+  "name": "Penny Pelican",
+  "provider": "bgaming",
+  "rtp": 95.98,
+  "volatility": "very-high",
+  "maxWin": 3525,
+  "releaseDate": "2022-05-18",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "20 paylines",
+  "hitRate": 3.55,
+  "bonusRate": 177.0,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "animals",
+    "pirates"
+  ],
+  "features": [
+    {
+      "name": "Multiplier wilds",
+      "description": "Wilds on reels 2–4 carry 2x or 3x multipliers that add up."
+    },
+    {
+      "name": "Bonus trigger",
+      "description": "Three bonus symbols on reels 1, 3 and 5 start free spins."
+    },
+    {
+      "name": "Bonus buy",
+      "description": "Purchase free spins where permitted."
+    }
+  ],
+  "review": "Penny Pelican is a 20-line treasure-hunting slot. The wild appears only on reels 2, 3 and 4 and carries a random 2x or 3x multiplier that applies to every line it's part of. If several wilds join the same win, their multipliers are added.\n\nThree bonus symbols on reels 1, 3 and 5 trigger free spins, with something determined before the round starts. A bonus buy is available where permitted. BGaming rates it very high volatility with a 3,525x maximum and a 95.98% RTP. Free spins arrive about once every 177 spins. A light-hearted theme for a high-variance game.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.98% RTP",
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/PennyPelican/FUN?server=demo",
+  "image": "/slots/bgaming/penny-pelican.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/penny-pelican"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

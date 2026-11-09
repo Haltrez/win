@@ -1,0 +1,54 @@
+{
+  "slug": "aztec-gems-megaways",
+  "name": "Aztec Gems Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.58,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2025-01-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "multipliers"
+  ],
+  "themes": [
+    "adventure",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Multiplier reel",
+      "description": "A multiplier from 1x to 100x lands on every spin and applies to all wins."
+    },
+    {
+      "name": "Megaways mini-grid",
+      "description": "Reels 1–3 hold 2–8 symbols each for up to 512 ways."
+    },
+    {
+      "name": "Wild symbols",
+      "description": "Wilds substitute to complete wins."
+    }
+  ],
+  "review": "Aztec Gems Megaways is a compact take on the Megaways idea. Reels 1 to 3 can show between two and eight symbols each, for up to 512 ways, and the fourth reel is dedicated entirely to win multipliers. One multiplier lands on every spin, worth 1x, 2x, 3x, 5x, 10x, 15x, 20x, 25x, 50x or 100x, and it applies to all wins on the grid.\n\nWilds help complete combinations, and the assured multiplier means even small wins can occasionally become large ones. Pragmatic Play gives the maximum prize as 10,000x. The RTP of 96.58% is one of the highest among the Pragmatic slots here. It's fast and simple, without a traditional free spins round.",
+  "pros": [
+    "Above-average 96.58% RTP",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysaztec&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/aztec-gems-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/aztec-gems-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

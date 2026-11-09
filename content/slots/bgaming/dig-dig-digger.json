@@ -1,0 +1,57 @@
+{
+  "slug": "dig-dig-digger",
+  "name": "Dig Dig Digger",
+  "provider": "bgaming",
+  "rtp": 94.94,
+  "volatility": "very-high",
+  "maxWin": 7500,
+  "releaseDate": "2021-07-16",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "10 paylines",
+  "hitRate": 3.42,
+  "bonusRate": 173.0,
+  "mechanics": [
+    "paylines",
+    "expanding-symbols",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "egypt",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Golden shovel trigger",
+      "description": "Three shovels start the free spins."
+    },
+    {
+      "name": "Expanding symbol",
+      "description": "A random symbol expands across its reels during free spins."
+    },
+    {
+      "name": "Bonus buy",
+      "description": "Buy free spins with a set number of expanding symbols where permitted."
+    }
+  ],
+  "review": "Dig Dig Digger is a comic take on the book-style slot, starring an eccentric archaeologist digging for gold in Egypt. It plays on 5x3 reels with 10 paylines, and three golden shovels trigger the bonus.\n\nAt the start of free spins, one regular symbol is chosen at random to become a special expanding symbol. When enough of it lands, it expands to cover every position on its reels and pays on any line. A bonus buy can start free spins with a set number of expanding symbols in markets that allow it. BGaming rates it very high volatility with a 7,500x maximum, and free spins arrive roughly once every 173 spins. Note the RTP is 94.94%, lower than most BGaming titles.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.94% RTP",
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/DigDigDigger/FUN?server=demo",
+  "image": "/slots/bgaming/dig-dig-digger.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/dig-dig-digger"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

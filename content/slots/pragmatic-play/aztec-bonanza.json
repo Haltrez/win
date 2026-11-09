@@ -1,0 +1,56 @@
+{
+  "slug": "aztec-bonanza",
+  "name": "Aztec Bonanza",
+  "provider": "pragmatic-play",
+  "rtp": 96.53,
+  "volatility": null,
+  "maxWin": 19000,
+  "releaseDate": "2020-02-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x6",
+  "mechanics": [
+    "ways",
+    "tumble",
+    "free-spins",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "adventure",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "7,776 ways",
+      "description": "A 5x6 layout where wins pay across up to 7,776 ways."
+    },
+    {
+      "name": "Tumbles and mystery symbols",
+      "description": "Winning symbols tumble away; mystery and giant symbols can transform the reels."
+    },
+    {
+      "name": "Random features in free spins",
+      "description": "Every bonus spin comes with a random feature."
+    }
+  ],
+  "review": "Aztec Bonanza is one of Pragmatic Play's earlier variable-ways games. It plays on a 5x6 layout with up to 7,776 ways to win, and tumbling wins replace winning symbols with new ones that can form further combinations. Mystery symbols and giant symbols add variety, sometimes covering several positions at once.\n\nThe free spins round adds a random feature on every spin, which can change how the reels behave from one spin to the next. Pragmatic Play's in-game screen advertises wins of up to 19,000x, a much higher ceiling than most of the studio's titles from that period. The 96.53% RTP is also strong. If you enjoy unpredictable bonus rounds rather than one repeated mechanic, it's worth exploring in demo.",
+  "pros": [
+    "Above-average 96.53% RTP",
+    "High 19,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs7776aztec&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/aztec-bonanza.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/aztec-bonanza-slot/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

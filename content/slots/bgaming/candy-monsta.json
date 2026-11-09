@@ -1,0 +1,55 @@
+{
+  "slug": "candy-monsta",
+  "name": "Candy Monsta",
+  "provider": "bgaming",
+  "rtp": 94.03,
+  "volatility": "medium-high",
+  "maxWin": 2077,
+  "releaseDate": "2021-10-12",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "20 paylines",
+  "hitRate": 4.33,
+  "bonusRate": 157.0,
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "20 paylines",
+      "description": "A 5x3 candy-themed line slot."
+    },
+    {
+      "name": "Sticky wilds in free spins",
+      "description": "Wilds on reels 2–4 lock until the bonus ends."
+    },
+    {
+      "name": "Unlimited retriggers",
+      "description": "Three or more scatters during free spins add more spins."
+    }
+  ],
+  "review": "Candy Monsta is a colourful 5x3, 20-line slot featuring a cute candy monster. Sweet letter symbols, candies and jellies fill the reels, and a colourful candy acts as the wild.\n\nThree or more Candy Castle scatters anywhere on the reels pay and trigger 10 free spins, which can be retriggered an unlimited number of times. During the bonus, wilds appear only on reels 2, 3 and 4, and every one that lands stays locked until the round ends. BGaming rates it medium-high volatility with a 2,077x maximum. Note the RTP is 94.03%, among the lowest here. Free spins land about once every 157 spins on average.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.03% RTP",
+    "Modest 2,077x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/CandyMonsta/FUN?server=demo",
+  "image": "/slots/bgaming/candy-monsta.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/candy-monsta"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

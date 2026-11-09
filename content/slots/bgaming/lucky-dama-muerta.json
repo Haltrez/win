@@ -1,0 +1,55 @@
+{
+  "slug": "lucky-dama-muerta",
+  "name": "Lucky Dama Muerta",
+  "provider": "bgaming",
+  "rtp": 96.16,
+  "volatility": "high",
+  "maxWin": 4684,
+  "releaseDate": "2021-10-18",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "10 paylines",
+  "hitRate": 3.9,
+  "bonusRate": 156.0,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "horror",
+    "music"
+  ],
+  "features": [
+    {
+      "name": "2x wilds",
+      "description": "Wilds substitute and double the wins they complete."
+    },
+    {
+      "name": "3x free spins",
+      "description": "15 free spins with all wins tripled."
+    },
+    {
+      "name": "Unlimited retriggers",
+      "description": "Three or more scatters during the bonus add more spins."
+    }
+  ],
+  "review": "Lucky Dama Muerta is a Day of the Dead carnival slot on 5x3 reels with 10 paylines, featuring maracas, calaveras and vihuelas. The wild substitutes for regular symbols and doubles every win it helps complete.\n\nThree or more scatters anywhere on the reels pay and trigger 15 free spins, during which all wins are multiplied by 3. The round can be retriggered an unlimited number of times. That combination of 2x wilds and a 3x bonus means a wild win during free spins pays 6x. BGaming rates the game high volatility with a 4,684x maximum. The RTP is 96.16%, and free spins arrive roughly once every 156 spins. It's mechanically similar to Lady Wolf Moon but with a different theme and higher volatility.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/LuckyDamaMuerta/FUN?server=demo",
+  "image": "/slots/bgaming/lucky-dama-muerta.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/lucky-dama-muerta"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "wisdom-of-athena",
+  "name": "Wisdom of Athena",
+  "provider": "pragmatic-play",
+  "rtp": 96.07,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2023-06-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x6",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins",
+    "grid-expansion"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Pay anywhere",
+      "description": "Eight or more matching symbols anywhere on the 5x6 grid form a win."
+    },
+    {
+      "name": "Unlocking reel",
+      "description": "Each tumble progresses towards revealing an extra reel, increasing the space for wins."
+    },
+    {
+      "name": "Free spins",
+      "description": "10 free spins with multipliers held for the whole round and reel progress kept between spins."
+    }
+  ],
+  "review": "Wisdom of Athena swaps Zeus for his daughter and adds a grid that grows as you win. The game uses a 5x6 pay-anywhere layout where eight or more matching symbols anywhere pay. Each win tumbles away, and every tumble helps unlock an extra reel position, so long cascade chains gradually open up more space on the board.\n\nThe free spins round awards 10 spins in which landed multipliers are held for the whole feature rather than resetting, and more than one can stack together. Progress towards the extra reel also carries over between spins in the bonus, which gives the round a sense of momentum. Pragmatic Play lists the default RTP at 96.07%, slightly below the studio's typical 96.5% versions. It is a sensible pick if you like the Olympus-style tumble engine but want something a little different from the standard multiplier orb formula.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20procount&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/wisdom-of-athena.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/wisdom-of-athena/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

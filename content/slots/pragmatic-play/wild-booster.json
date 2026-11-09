@@ -1,0 +1,53 @@
+{
+  "slug": "wild-booster",
+  "name": "Wild Booster",
+  "provider": "pragmatic-play",
+  "rtp": 96.47,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2021-03-01",
+  "releaseDatePrecision": "month",
+  "reels": "3x5",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Boosting wild",
+      "description": "The wild can randomly add a multiplier worth up to 100x."
+    },
+    {
+      "name": "Super Boost free spins",
+      "description": "Each set of five scatters raises the total multiplier."
+    },
+    {
+      "name": "Ultra and Mega Boost",
+      "description": "Higher free spins tiers offer multipliers up to 50x and 100x."
+    }
+  ],
+  "review": "Wild Booster is a 3x5, 20-payline slot with classic symbols and two dynamic features. The wild can randomly boost wins with a multiplier worth up to 100x the bet, giving the base game occasional big moments.\n\nFree spins come in progressive tiers. Each set of five scatters increases the total multiplier in Super Boost Free Spins, and higher tiers raise the stakes further: up to 50x in Ultra Boost and up to 100x in Mega Boost free games. The advertised maximum is 5,000x and the RTP is 96.47%. It combines a classic look with modern multipliers.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20wildboost&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/wild-booster.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/wild-booster/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "christmas-big-bass-bonanza",
+  "name": "Christmas Big Bass Bonanza",
+  "provider": "pragmatic-play",
+  "rtp": 96.71,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2021-11-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Fish cash values",
+      "description": "Fish symbols land with random money values during free spins."
+    },
+    {
+      "name": "Wild collector",
+      "description": "Each wild collects every fish value on screen."
+    },
+    {
+      "name": "Retrigger multipliers",
+      "description": "Every fourth wild adds 10 spins; multipliers rise to 2x, 3x and 10x."
+    }
+  ],
+  "review": "Christmas Big Bass Bonanza is the series' first festive spin-off, and it sticks closely to the original 2020 game. It plays on 5x3 reels with 10 paylines, and fish paying symbols carry random cash values that only matter during the bonus.\n\nThree or more scatters trigger free spins. Every wild that lands during the round collects the values of all fish on screen and is also counted towards a retrigger. Every fourth wild collected adds 10 more spins and raises the collection multiplier to 2x, then 3x, and finally 10x on the third retrigger. That final level is where the largest results come from. The 96.71% RTP matches the original. If you have played Big Bass Bonanza, this is the same game with snow and Christmas music.",
+  "pros": [
+    "Above-average 96.71% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10bxmasbnza&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/christmas-big-bass-bonanza.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/christmas-big-bass-bonanza/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

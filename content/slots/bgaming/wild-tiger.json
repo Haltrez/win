@@ -1,0 +1,54 @@
+{
+  "slug": "wild-tiger",
+  "name": "Wild Tiger",
+  "provider": "bgaming",
+  "rtp": 97.16,
+  "volatility": "medium-low",
+  "maxWin": 3000,
+  "releaseDate": "2024-01-04",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "winType": "100 paylines",
+  "hitRate": 5.4,
+  "mechanics": [
+    "paylines",
+    "free-spins"
+  ],
+  "themes": [
+    "asian",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Adjustable lines",
+      "description": "Play 20, 40, 60, 80 or 100 lines on a 5x4 grid."
+    },
+    {
+      "name": "Tiger wild",
+      "description": "Substitutes for all symbols except the scatter."
+    },
+    {
+      "name": "Yin and yang scatter",
+      "description": "Triggers the game's bonus feature."
+    }
+  ],
+  "review": "Wild Tiger is an Asian-inspired 5x4 slot with a flexible line setup. You can choose to play 20, 40, 60, 80 or 100 lines, which changes the stake and how many combinations count.\n\nThe tiger is the wild, substituting for every symbol except the yin and yang scatter. BGaming rates the game medium-low volatility, which is rare among its modern releases, and caps the maximum at 3,000x. The RTP is an excellent 97.16%. With lower volatility and adjustable lines, it's one of the gentler games in our database and a good choice for long demo sessions or cautious players.",
+  "pros": [
+    "Excellent 97.16% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/WildTiger/FUN?server=demo",
+  "image": "/slots/bgaming/wild-tiger.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/wild-tiger"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "sweet-kingdom",
+  "name": "Sweet Kingdom",
+  "provider": "pragmatic-play",
+  "rtp": 96.53,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2024-06-01",
+  "releaseDatePrecision": "month",
+  "reels": "7x7",
+  "mechanics": [
+    "cluster-pays",
+    "tumble",
+    "money-collect",
+    "free-spins"
+  ],
+  "themes": [
+    "candy",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Cluster tumbles",
+      "description": "Five or more connected symbols win on a 7x7 grid."
+    },
+    {
+      "name": "Sticky cash and key collector",
+      "description": "Cash chests stay through tumbles and pay when a key collector lands."
+    },
+    {
+      "name": "Free spins lifespans",
+      "description": "In the bonus, cash symbols last 1–5 spins or until collected."
+    }
+  ],
+  "review": "Sweet Kingdom is a 7x7 cluster slot themed around a regal candy land. Cakes, doughnuts and chocolates pay in clusters of five or more, and wins tumble so new symbols drop in.\n\nTreasure chest cash symbols can land and stick through each tumble. They only pay out if a key-shaped Collector symbol lands at the same time, after which they disappear. Three scatters award 10 free spins, during which cash symbols get a lifespan of one to five spins or last until a collector arrives, giving them more chances to be collected. Three more scatters add 10 spins. The advertised maximum is 10,000x. The 96.53% RTP is among the higher figures in Pragmatic's range.",
+  "pros": [
+    "Above-average 96.53% RTP",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20clustcol&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/sweet-kingdom.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/sweet-kingdom/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -46,7 +46,7 @@ const jaccard = (a, b) => { let i = 0; for (const x of a) if (b.has(x)) i++; ret
 
 for (const s of slots) {
   const at = s.__file;
-  for (const k of ['slug', 'name', 'provider', 'rtp', 'volatility', 'maxWin', 'releaseDate', 'reels', 'paylines', 'mechanics', 'themes', 'features', 'review', 'pros', 'cons', 'updatedAt', 'author'])
+  for (const k of ['slug', 'name', 'provider', 'rtp', 'mechanics', 'themes', 'features', 'review', 'pros', 'cons', 'updatedAt', 'author'])
     if (s[k] === undefined || s[k] === null || s[k] === '') err(`${at}: missing ${k}`);
   if (slugSet.has(s.slug)) err(`${at}: duplicate slug "${s.slug}" (slugs must be globally unique for comparisons/related links)`);
   slugSet.add(s.slug);
@@ -54,9 +54,13 @@ for (const s of slots) {
   const p = pmap.get(s.provider);
   if (!p) err(`${at}: unknown provider ${s.provider}`);
   if (typeof s.rtp !== 'number' || s.rtp < 80 || s.rtp > 99.9) err(`${at}: rtp out of range (${s.rtp})`);
-  if (!VOL.includes(s.volatility)) err(`${at}: invalid volatility ${s.volatility}`);
-  if (!(s.maxWin > 0)) err(`${at}: maxWin must be > 0`);
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(s.releaseDate)) err(`${at}: releaseDate must be YYYY-MM-DD`);
+  // volatility / maxWin / releaseDate may be null when the provider doesn't publish them – never guess.
+  if (s.volatility !== null && !VOL.includes(s.volatility)) err(`${at}: invalid volatility ${s.volatility} (use null if unpublished)`);
+  if (s.maxWin !== null && !(s.maxWin > 0)) err(`${at}: maxWin must be > 0 or null`);
+  if (s.releaseDate !== null && !/^\d{4}-\d{2}-\d{2}$/.test(s.releaseDate)) err(`${at}: releaseDate must be YYYY-MM-DD or null`);
+  for (const k of ['volatility', 'maxWin', 'releaseDate']) if (!(k in s)) err(`${at}: ${k} must be present (null if unpublished)`);
+  if (s.image && !/^https?:/.test(s.image) && !fs.existsSync(path.join('public', s.image))) err(`${at}: image ${s.image} not found in public/`);
+  if (!s.image) warn(`${at}: no thumbnail`);
   if (s.demoUrl) {
     try {
       const host = new URL(s.demoUrl).hostname;

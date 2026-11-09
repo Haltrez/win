@@ -1,0 +1,55 @@
+{
+  "slug": "big-bass-amazon-xtreme",
+  "name": "Big Bass Amazon Xtreme",
+  "provider": "pragmatic-play",
+  "rtp": 96.07,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2023-06-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "multipliers",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "fishing",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Cash fish",
+      "description": "Fish symbols carry instant cash values that fishermen collect during the bonus."
+    },
+    {
+      "name": "Modifier selection",
+      "description": "Choose modifiers such as more fish, more fishermen or a higher starting level before the bonus."
+    },
+    {
+      "name": "Level multipliers",
+      "description": "Collecting fishermen unlocks higher collection multipliers."
+    }
+  ],
+  "review": "Big Bass Amazon Xtreme moves the fisherman to the Amazon and gives players more control over the bonus than earlier entries. The base game is a 5x3, 10-payline slot with familiar fishing symbols plus a few new jungle-themed icons, and fish carry cash values that are only collected in the feature.\n\nThe interesting part is the pre-bonus selection. Before free spins begin, you choose from game-altering modifiers such as extra fish, extra fishermen, starting on level two and more, letting you shape the round. During the free spins, each fisherman collects the cash on screen, and collecting enough fishermen raises the multiplier on later collections. Pragmatic Play doesn't publish a max win on the game page, so we have not listed one. The 96.07% RTP is lower than the original Big Bass Bonanza, which is worth knowing if you play the series often.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10bbextreme&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/big-bass-amazon-xtreme.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/big-bass-amazon-xtreme/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

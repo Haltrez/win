@@ -1,0 +1,57 @@
+{
+  "slug": "savage-buffalo-spirit",
+  "name": "Savage Buffalo Spirit",
+  "provider": "bgaming",
+  "rtp": 97.1,
+  "volatility": "very-high",
+  "maxWin": 4684,
+  "releaseDate": "2023-05-25",
+  "releaseDatePrecision": "day",
+  "winType": "10 paylines",
+  "hitRate": 3.9,
+  "bonusRate": 262.0,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "animals",
+    "western"
+  ],
+  "features": [
+    {
+      "name": "2x buffalo wild",
+      "description": "Wins with the buffalo wild are doubled."
+    },
+    {
+      "name": "3x free spins",
+      "description": "15 free spins where all wins are tripled."
+    },
+    {
+      "name": "Unlimited retriggers",
+      "description": "No cap on the total number of free spins."
+    }
+  ],
+  "review": "Savage Buffalo Spirit is a 10-line wildlife slot where a majestic buffalo serves as the wild. When the buffalo substitutes in a win, that win is doubled.\n\nThree, four or five scatters pay in any position and trigger 15 free spins, during which every win is multiplied by 3. Landing three or more scatters in the bonus retriggers it, with no limit on the total number of spins. A bonus buy is available where permitted. BGaming rates the game very high volatility with a 4,684x maximum, and the RTP of 97.1% is excellent. Free spins arrive roughly once every 262 spins.",
+  "pros": [
+    "Excellent 97.10% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/SavageBuffaloSpirit/FUN?server=demo",
+  "image": "/slots/bgaming/savage-buffalo-spirit.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/savage-buffalo-spirit"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

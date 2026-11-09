@@ -1,0 +1,59 @@
+{
+  "slug": "domnitors-treasure",
+  "name": "Domnitor’s Treasure",
+  "provider": "bgaming",
+  "rtp": 95.24,
+  "volatility": "medium-high",
+  "maxWin": 2000,
+  "releaseDate": "2023-01-12",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "winType": "25 paylines",
+  "hitRate": 2.21,
+  "bonusRate": 208.0,
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "bonus-buy"
+  ],
+  "themes": [
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Giant 3x3 symbol",
+      "description": "Reels 2–4 combine into one giant symbol in free spins."
+    },
+    {
+      "name": "Hold and Win jackpots",
+      "description": "Coins can award Mini, Major or Mega jackpots."
+    },
+    {
+      "name": "Bonus buys",
+      "description": "Buy free spins or Hold and Win where permitted."
+    }
+  ],
+  "review": "Domnitor's Treasure is a medieval 25-line slot with shields as scatter and coin symbols. Scatters trigger free spins, and coins feed a Hold and Win bonus with three jackpot levels.\n\nDuring free spins, reels 2, 3 and 4 combine into one giant 3x3 symbol, which pays as if nine identical symbols had landed. In the coin bonus, Mini, Major or Mega jackpots are awarded when the corresponding coins appear. Both bonuses can be bought where permitted. BGaming rates it medium-high volatility with a 2,000x maximum and a 95.24% RTP. Free spins arrive about once every 208 spins. It's closely related to God of Wealth Hold And Win, with a different setting.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.24% RTP",
+    "Modest 2,000x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/DomnitorsTreasure/FUN?server=demo",
+  "image": "/slots/bgaming/domnitors-treasure.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/domnitors-treasure"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

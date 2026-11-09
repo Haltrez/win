@@ -1,0 +1,55 @@
+{
+  "slug": "floating-dragon-year-of-the-snake",
+  "name": "Floating Dragon – Year of the Snake",
+  "provider": "pragmatic-play",
+  "rtp": 96.71,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-12-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "multipliers",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Random modifiers",
+      "description": "Up to five modifiers are selected before free spins, such as more money symbols or extra spins."
+    },
+    {
+      "name": "Wild collection",
+      "description": "Wilds collect all visible money symbol values."
+    },
+    {
+      "name": "Trail levels",
+      "description": "Every fourth wild retriggers 10 spins with multipliers of 2x, 3x and 10x."
+    }
+  ],
+  "review": "Floating Dragon – Year of the Snake is a Lunar New Year entry built on the collect-and-retrigger formula. Three, four or five scatters award 10, 15 or 20 free spins, and two scatters can trigger a random feature that adds a third.\n\nBefore the round starts, up to five random modifiers are picked. They can increase the number of money, wild or special symbols, start the trail at level two, or add extra spins. In the bonus, wilds collect the values of all visible money symbols, and every fourth wild retriggers 10 spins and raises the multiplier to 2x, then 3x and finally 10x. The modifiers make each bonus start differently, which helps a familiar format feel fresh. The RTP is 96.71%. No max win is published on the page.",
+  "pros": [
+    "Above-average 96.71% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10fdsnake&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/floating-dragon-year-of-the-snake.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/floating-dragon-year-of-the-snake/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

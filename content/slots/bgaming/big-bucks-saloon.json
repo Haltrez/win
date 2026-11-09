@@ -1,0 +1,59 @@
+{
+  "slug": "big-bucks-saloon",
+  "name": "Big Bucks Saloon",
+  "provider": "bgaming",
+  "rtp": 97.01,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": "2025-07-24",
+  "releaseDatePrecision": "day",
+  "winType": "20 paylines",
+  "hitRate": 4.11,
+  "bonusRate": 305.0,
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Revolver feature",
+      "description": "Fires three shots to create wilds or add multipliers, moving down each spin."
+    },
+    {
+      "name": "Sticky free spins",
+      "description": "12 free spins where all wilds stick."
+    },
+    {
+      "name": "Bonus buy",
+      "description": "Purchase free spins where permitted."
+    }
+  ],
+  "review": "Big Bucks Saloon is a 20-line western slot with a standout revolver feature. Whenever the revolver lands, in the base game or bonus, it fires three shots at the reels, turning the symbols it hits into wilds or adding multipliers to wilds already there. It then moves down one row each spin, reloading and firing again until it leaves the reels.\n\nThree scatters on reels 2 to 4 award 12 free spins, in which every wild becomes sticky for the rest of the round, so the revolver's wilds accumulate. A bonus buy is available where permitted. BGaming rates it high volatility with a 10,000x maximum and a 97.01% RTP. Free spins arrive about once every 305 spins.",
+  "pros": [
+    "Excellent 97.01% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus is rare (about 1 in 305 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BigBucksSaloon/FUN?server=demo",
+  "image": "/slots/bgaming/big-bucks-saloon.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/big-bucks-saloon"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "merge-up-2",
+  "name": "Merge Up 2",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": "2025-10-28",
+  "releaseDatePrecision": "day",
+  "winType": "Cluster Pays",
+  "hitRate": 3.4,
+  "bonusRate": 409.0,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Nine-level merging",
+      "description": "Clusters of four or more upgrade symbols through nine levels."
+    },
+    {
+      "name": "Marked cell multipliers",
+      "description": "Wins on marked cells start at 2x and grow by 2x each time."
+    },
+    {
+      "name": "Three bonus buys",
+      "description": "Several ways to enter the bonus where permitted."
+    }
+  ],
+  "review": "Merge Up 2 upgrades the original with better graphics, three bonus buy options, and multipliers and bombs in the base game. Four or more adjacent matching symbols form a cluster; after the win pays, some of the cluster disappears and the rest upgrade to the next level. There are nine symbol levels, plus the scatter as level ten.\n\nCells where wins happen are marked. A win on a marked cell gets a 2x multiplier, and that multiplier increases by 2x with every new win there. BGaming rates it very high volatility with a 10,000x maximum, double the original's. The RTP is 97%, and free spins are rarer than in Merge Up, about once every 409 spins. A clear upgrade if you liked the original.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus is rare (about 1 in 409 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/MergeUp2/FUN?server=demo",
+  "image": "/slots/bgaming/merge-up-2.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/merge-up-2"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

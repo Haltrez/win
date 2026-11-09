@@ -1,0 +1,59 @@
+{
+  "slug": "carnival-bonanza",
+  "name": "Carnival Bonanza",
+  "provider": "bgaming",
+  "rtp": 96.0,
+  "volatility": "high",
+  "maxWin": 14134,
+  "releaseDate": "2024-10-08",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 2.6,
+  "bonusRate": 332.15,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Pay anywhere",
+      "description": "Symbols pay anywhere on the screen."
+    },
+    {
+      "name": "Progress-bar multipliers",
+      "description": "Multipliers start at 2x–5x and unlock up to 100x as you progress."
+    },
+    {
+      "name": "10–30 free spins",
+      "description": "Depending on the number of scatters."
+    }
+  ],
+  "review": "Carnival Bonanza takes the Bonanza engine to a medieval fair. Symbols pay anywhere, and scatters can appear on any reel.\n\nFree spins come in rounds of 10, 20 or 30, and they add a progress bar. You start with 2x–5x multipliers, and as you progress more valuable multipliers up to 100x unlock and then appear at random on the reels. That progression gives the bonus a clearer build-up than the original Bonanza Billion. Chance x2 and a bonus buy are available where permitted. BGaming rates it high volatility with a 14,134x maximum and a 96% RTP. Free spins arrive about once every 332 spins.",
+  "pros": [
+    "High 14,134x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus is rare (about 1 in 332 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/CarnivalBonanza/FUN?server=demo",
+  "image": "/slots/bgaming/carnival-bonanza.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/carnival-bonanza"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

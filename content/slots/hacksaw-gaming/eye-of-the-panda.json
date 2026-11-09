@@ -1,0 +1,60 @@
+{
+  "slug": "eye-of-the-panda",
+  "name": "Eye of the Panda",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.26,
+  "rtpVariants": [
+    94.21,
+    92.25,
+    88.31
+  ],
+  "volatility": "medium",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "releaseDatePrecision": "day",
+  "reels": "5x5",
+  "winType": "27 Paylines",
+  "mechanics": [
+    "paylines",
+    "cascades",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Super Cascades",
+      "description": "All instances of winning symbols are removed after each win."
+    },
+    {
+      "name": "Multiplying panda wilds",
+      "description": "2x–10x wilds multiply together on the same line."
+    },
+    {
+      "name": "Two bonus rounds",
+      "description": "A pair of separate bonus features."
+    }
+  ],
+  "review": "Eye of the Panda is set in an underground club run by a chef-turned-bouncer panda. It's a 5x5 game with 27 paylines, Hoppers and Super Cascades.\n\nSuper Cascades trigger after every win: all symbols in winning lines, plus every other instance of the winning symbols on screen, are removed before new symbols fall in, and this continues until no new wins form. Wild Panda multipliers carry 2x, 3x, 4x, 5x or 10x and substitute for all regular symbols; if more than one shares a line, their values multiply together rather than add. Two bonus rounds are available. Hacksaw rates it 3 out of 5 with a 10,000x maximum and a top RTP of 96.26%.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 88.31% RTP",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1344/{version}/index.html?language=en&channel=desktop&gameid=1344&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/eye-of-the-panda.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/eye-of-the-panda"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

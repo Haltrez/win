@@ -3,6 +3,7 @@ import path from 'node:path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
 import type { Author, Casino, Guide, Provider, Slot } from './types';
+import { releaseKey } from './format';
 
 /**
  * File-based content layer. All reads happen at build time (pages are statically generated),
@@ -30,7 +31,7 @@ export const getSlots = () =>
       if (!fs.statSync(pdir).isDirectory()) continue;
       for (const f of fs.readdirSync(pdir)) if (f.endsWith('.json')) out.push(JSON.parse(fs.readFileSync(path.join(pdir, f), 'utf8')));
     }
-    return out.sort((a, b) => b.releaseDate.localeCompare(a.releaseDate));
+    return out.sort((a, b) => releaseKey(b).localeCompare(releaseKey(a)) || a.name.localeCompare(b.name));
   });
 export const getSlot = (provider: string, slug: string) => getSlots().find((s) => s.provider === provider && s.slug === slug);
 export const getSlotBySlug = (slug: string) => getSlots().find((s) => s.slug === slug);
@@ -86,7 +87,7 @@ export function getRelatedSlots(slot: Slot, limit = 6): Slot[] {
       score += s.mechanics.filter((m) => slot.mechanics.includes(m)).length;
       score += s.themes.filter((t) => slot.themes.includes(t)).length * 2;
       if (s.provider === slot.provider) score += 2;
-      if (s.volatility === slot.volatility) score += 1;
+      if (s.volatility && s.volatility === slot.volatility) score += 1;
       return { s, score };
     })
     .sort((a, b) => b.score - a.score)

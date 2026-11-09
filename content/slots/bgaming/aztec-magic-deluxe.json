@@ -1,0 +1,55 @@
+{
+  "slug": "aztec-magic-deluxe",
+  "name": "Aztec Magic Deluxe",
+  "provider": "bgaming",
+  "rtp": 96.96,
+  "volatility": "low",
+  "maxWin": 5000,
+  "releaseDate": "2018-02-16",
+  "releaseDatePrecision": "day",
+  "winType": "15 paylines",
+  "hitRate": 2.37,
+  "bonusRate": 70.0,
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "gamble"
+  ],
+  "themes": [
+    "adventure",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "15 paylines",
+      "description": "A 5x3 layout with Aztec warrior wilds."
+    },
+    {
+      "name": "Frequent free spins",
+      "description": "Three scatters award 10 retriggerable free spins, about once every 70 spins on average."
+    },
+    {
+      "name": "Card gamble",
+      "description": "Guess a colour or suit to increase a base-game win."
+    }
+  ],
+  "review": "Aztec Magic Deluxe is BGaming's revamped version of its original Aztec Magic slot, with redesigned graphics and sound but the same easy-going gameplay. It uses 5x3 reels with 15 paylines, an Aztec warrior as the wild and a sorceress princess as the scatter.\n\nThree or more scatters anywhere award 10 free spins, which can be retriggered, and an optional card gamble is offered after any base-game win. What makes this game stand out is its maths: BGaming rates it low volatility, with free spins arriving roughly once every 70 spins on average, much more often than most modern slots. The RTP is a strong 96.96% and wins can reach 5,000x the bet. It's an excellent choice for longer, calmer demo sessions or for anyone new to slots.",
+  "pros": [
+    "Above-average 96.96% RTP",
+    "Lower volatility suits longer, steadier sessions",
+    "Bonus lands relatively often (about 1 in 70 spins on average)"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/AztecMagicDeluxe/FUN?server=demo",
+  "image": "/slots/bgaming/aztec-magic-deluxe.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/aztec-magic-deluxe"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

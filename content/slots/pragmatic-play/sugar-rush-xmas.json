@@ -1,0 +1,55 @@
+{
+  "slug": "sugar-rush-xmas",
+  "name": "Sugar Rush Xmas",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2023-11-01",
+  "releaseDatePrecision": "month",
+  "reels": "7x7",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "Cluster pays",
+      "description": "Five or more touching symbols form a win on the 7x7 grid, followed by a cascade."
+    },
+    {
+      "name": "Multiplier spots",
+      "description": "Winning positions are marked; repeat wins on a marked spot create a multiplier that doubles up to 128x."
+    },
+    {
+      "name": "Persistent free spins",
+      "description": "3–7 scatters award 10–30 free spins in which marked spots and multipliers are kept for the whole round."
+    }
+  ],
+  "review": "Sugar Rush Xmas wraps Pragmatic Play's popular cluster game in snow and Christmas sweets without changing what made it work. Symbols land on a 7x7 grid and pay when five or more of the same treat touch horizontally or vertically. Winning clusters explode and new candy cascades down, which can set up further wins from the same spin.\n\nThe defining feature is the marked-spot system. Each position that hosts a win gets marked, and a second win on that spot turns it into a multiplier that doubles with every further hit, up to 128x. In the base game those marks clear after the spin. Three or more scatters award between 10 and 30 free spins, and during the bonus every mark and multiplier stays on the grid, so the round tends to get stronger the longer it lasts. Retriggers can add up to 30 more spins. Expect plenty of quiet bonuses for each one where the grid fills with large multipliers.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20sugrux&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/sugar-rush-xmas.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/sugar-rush-xmas/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

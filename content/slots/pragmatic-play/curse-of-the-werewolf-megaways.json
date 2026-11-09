@@ -1,0 +1,54 @@
+{
+  "slug": "curse-of-the-werewolf-megaways",
+  "name": "Curse of the Werewolf Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 40000,
+  "releaseDate": "2020-08-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "free-spins"
+  ],
+  "themes": [
+    "horror",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Megaways reels",
+      "description": "Reel heights change every spin for a varying number of ways."
+    },
+    {
+      "name": "Two bonus features",
+      "description": "The game includes two separate features that drive its biggest wins."
+    },
+    {
+      "name": "High ceiling",
+      "description": "Advertised wins of up to 40,000x."
+    }
+  ],
+  "review": "Curse of the Werewolf Megaways is an early Pragmatic Play Megaways release with a full-moon horror theme. Pragmatic Play's description is brief: it highlights two features and describes the game as highly volatile.\n\nThe in-game screens advertise a maximum of 40,000x, one of the highest caps among the Pragmatic slots in our database, which fits that high-variance description. With the ever-changing Megaways reels, expect long stretches without much happening and occasional large spikes. The RTP is 96.5%. Because the official description doesn't explain the features in detail, the demo is the best way to understand how it plays before deciding whether it suits you.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "High 40,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswayswerewolf&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/curse-of-the-werewolf-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/curse-of-the-werewolf-megaways-slot/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

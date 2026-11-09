@@ -1,0 +1,61 @@
+{
+  "slug": "alien-fruits-2",
+  "name": "Alien Fruits 2",
+  "provider": "bgaming",
+  "rtp": 97.17,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2024-06-25",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 3.19,
+  "bonusRate": 163.2,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "fruit",
+    "space",
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Refilling reels",
+      "description": "Space fruits and gems cascade for chain wins."
+    },
+    {
+      "name": "Sticky accumulating multipliers",
+      "description": "Multipliers from winning spins stack and stay for the bonus."
+    },
+    {
+      "name": "15 free spins",
+      "description": "Three or more scatters add five more."
+    }
+  ],
+  "review": "Alien Fruits 2 brings the space fruits back with accumulating multipliers. Scatters, space gems and fruit characters land on refilling reels, and multipliers can appear in winning spins.\n\nThe bonus awards 15 free spins, with five more for three or more scatters. Multipliers that occur during winning spins stack up and become sticky, so the bonus total keeps growing rather than resetting each spin. Chance x2 and a bonus buy are available where permitted. BGaming rates it very high volatility with a 5,000x maximum. The 97.17% RTP is much better than the first game's, and free spins arrive more often too, about once every 163 spins.",
+  "pros": [
+    "Excellent 97.17% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/AlienFruits2/FUN?server=demo",
+  "image": "/slots/bgaming/alien-fruits-2.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/alien-fruits-2"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

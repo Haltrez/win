@@ -1,0 +1,52 @@
+{
+  "slug": "dragons-gold-100",
+  "name": "Dragon’s Gold 100",
+  "provider": "bgaming",
+  "rtp": 96.07,
+  "volatility": "high",
+  "maxWin": 3000,
+  "releaseDate": "2021-09-09",
+  "releaseDatePrecision": "day",
+  "winType": "100 paylines",
+  "hitRate": 4.3,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "gamble"
+  ],
+  "themes": [
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "100 paylines",
+      "description": "A wide line setup for frequent combinations."
+    },
+    {
+      "name": "Expanding dragon wild",
+      "description": "The dragon wild can expand to cover its reel."
+    },
+    {
+      "name": "Card gamble",
+      "description": "Guess a card colour or suit to multiply a win."
+    }
+  ],
+  "review": "Dragon's Gold 100 is a 100-payline slot with Asian themes: lanterns, golden coins and imperial palaces, with the Eastern dragon as the wild. The dragon wild can expand to fill its reel, completing wins across many of the 100 lines.\n\nThe Maneki-Neko cat and another symbol act as scatters, and an optional card gamble is available after base-game wins. BGaming rates the game high volatility with a 3,000x maximum, and the RTP is 96.07%. There's no traditional free spins round described, so wins come mainly from line hits and expanding wilds. A good choice if you like busy line slots with a classic Asian look.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/DragonsGold100/FUN?server=demo",
+  "image": "/slots/bgaming/dragons-gold-100.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/dragons-gold-100"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

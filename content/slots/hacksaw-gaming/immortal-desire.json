@@ -1,0 +1,59 @@
+{
+  "slug": "immortal-desire",
+  "name": "Immortal Desire",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.24,
+  "rtpVariants": [
+    94.12,
+    92.27,
+    88.25
+  ],
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "releaseDatePrecision": "day",
+  "winType": "1024 Ways",
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "free-spins",
+    "sticky-wilds"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Blood Reels",
+      "description": "Turn high symbols into vampires boosted by a reel multiplier."
+    },
+    {
+      "name": "Persistent Blood Reel bonus",
+      "description": "10 free spins with persistent Blood Reels and changing multipliers."
+    },
+    {
+      "name": "Dark Awakening",
+      "description": "Collect multipliers above each reel with sticky coffins."
+    }
+  ],
+  "review": "Immortal Desire is a gothic 5x4 slot with up to 1,024 ways and two bonus games. High-paying character symbols can turn into vampires, empowered by a Blood Reel multiplier.\n\nIn the first bonus, 10 free spins are awarded and Blood Reels are persistent, with the multiplier on each landed Blood Reel changing every spin; those multipliers only apply to vampire symbols, and more FS symbols add spins. The Dark Awakening bonus asks you to collect as many multipliers above each reel as possible, using sticky coffins, before time runs out. Hacksaw rates it 4 out of 5 with a 10,000x maximum and a top RTP of 96.24%.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 88.25% RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1364/{version}/index.html?language=en&channel=desktop&gameid=1364&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/immortal-desire.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/immortal-desire"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

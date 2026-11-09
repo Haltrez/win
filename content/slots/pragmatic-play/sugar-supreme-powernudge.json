@@ -1,0 +1,53 @@
+{
+  "slug": "sugar-supreme-powernudge",
+  "name": "Sugar Supreme Powernudge",
+  "provider": "pragmatic-play",
+  "rtp": 96.09,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2023-10-01",
+  "releaseDatePrecision": "month",
+  "reels": "6x6",
+  "mechanics": [
+    "cluster-pays",
+    "multipliers",
+    "free-spins",
+    "respins"
+  ],
+  "themes": [
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "Cluster pays",
+      "description": "Five or more matching symbols on a 6x6 grid form a win."
+    },
+    {
+      "name": "Powernudge",
+      "description": "Reels with winning symbols nudge down for extra chances to win."
+    },
+    {
+      "name": "Position multipliers",
+      "description": "Winning positions gain multipliers that grow during nudges."
+    }
+  ],
+  "review": "Sugar Supreme Powernudge is a 6x6 cluster game using Pragmatic Play's Powernudge mechanic. Five or more matching symbols pay, and a single cluster of more than 15 symbols can be worth up to 100x the bet.\n\nWhen a winning cluster lands in the base game, Powernudge may trigger at random: reels containing a winning symbol nudge down one position, a new symbol appears at the top, and any new wins pay. Winning positions gain a multiplier during the nudges, starting at 1x and increasing by 1 each time a winning symbol lands there. Three or more scatters trigger the bonus. The advertised maximum is 5,000x and the RTP is 96.09%.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20sugarnudge&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/sugar-supreme-powernudge.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/sugar-supreme-powernudge/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

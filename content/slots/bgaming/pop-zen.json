@@ -1,0 +1,59 @@
+{
+  "slug": "pop-zen",
+  "name": "Pop Zen",
+  "provider": "bgaming",
+  "rtp": 96.3,
+  "volatility": "very-high",
+  "maxWin": 12000,
+  "releaseDate": "2024-02-08",
+  "releaseDatePrecision": "day",
+  "reels": "7x7",
+  "winType": "Cluster Pays",
+  "hitRate": 2.08,
+  "bonusRate": 380.0,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "reel-modifiers",
+    "respins",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "7x7 cluster refills",
+      "description": "Match-3 style clusters with refilling reels."
+    },
+    {
+      "name": "Progress bar",
+      "description": "Every win reduces the bar; each 25 points triggers a random feature."
+    },
+    {
+      "name": "Wild waves",
+      "description": "Emptying the bar sends three waves of wilds onto the reels."
+    }
+  ],
+  "review": "Pop Zen is a 7x7 cluster slot inspired by Pop It fidget toys, with refilling reels and match-3 elements. Wilds, respins, big symbols and backlit symbols appear in the base game.\n\nA 100-point progress bar sits under the reels. Every win during a spin reduces it by one, triggering a random feature every 25 points. When the bar reaches zero, three waves of wilds hit the reels. That creates a long-term goal across spins and makes the base game the main attraction. A bonus buy is available where permitted. BGaming rates it very high volatility with a 12,000x maximum and a 96.3% RTP. Free spins arrive about once every 380 spins.",
+  "pros": [
+    "High 12,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus is rare (about 1 in 380 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/PopZen/FUN?server=demo",
+  "image": "/slots/bgaming/pop-zen.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/pop-zen"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

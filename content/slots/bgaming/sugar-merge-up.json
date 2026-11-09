@@ -1,0 +1,59 @@
+{
+  "slug": "sugar-merge-up",
+  "name": "Sugar Merge Up",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": "2026-03-31",
+  "releaseDatePrecision": "day",
+  "winType": "Cluster Pays",
+  "hitRate": 3.4,
+  "bonusRate": 409.0,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "Merging candy",
+      "description": "Symbols merge into higher levels after wins."
+    },
+    {
+      "name": "Booster modes",
+      "description": "Can fill the grid with cell multipliers up to 128x from the first spin."
+    },
+    {
+      "name": "Three bonus buys",
+      "description": "Multiple bonus purchase modes where permitted."
+    }
+  ],
+  "review": "Sugar Merge Up gives the Merge Up 2 engine a candy makeover with relaxing pop-style ASMR sounds. Jelly bears and bubblegum stacks fill the grid, and symbols merge into higher levels after each win.\n\nThe main addition is the new Booster modes, which can fill the grid with cell multipliers of up to 128x from the very first spin, raising the potential right away for a higher price. There are three bonus buy modes where permitted, plus a feature that slightly raises the bet for better odds. BGaming rates it very high volatility with a 10,000x maximum and a 97% RTP. Free spins are rare, around once every 409 spins on average.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus is rare (about 1 in 409 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/SugarMergeUp/FUN?server=demo",
+  "image": "/slots/bgaming/sugar-merge-up.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/sugar-merge-up"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "fruit-million",
+  "name": "Fruit Million",
+  "provider": "bgaming",
+  "rtp": 97.34,
+  "volatility": "medium-high",
+  "maxWin": 3000,
+  "releaseDate": "2020-12-16",
+  "releaseDatePrecision": "day",
+  "winType": "100 paylines",
+  "hitRate": 4.3,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "gamble"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "100 paylines",
+      "description": "A classic fruit layout with many lines."
+    },
+    {
+      "name": "Expanding wilds",
+      "description": "Wilds on reels 2–4 expand to fill the reel."
+    },
+    {
+      "name": "Card gamble",
+      "description": "Optional double-or-nothing on base-game wins."
+    }
+  ],
+  "review": "Fruit Million is a classic-style BGaming slot with 100 paylines and traditional symbols: fruits, diamonds, bells and four-leaf clovers. The wild only appears on reels 2, 3 and 4, and when it lands it expands to fill the whole reel, completing wins across many lines at once.\n\nThe bell and diamond are scatters, and an optional card gamble is available after any base-game win. BGaming rates it medium-high volatility with a 3,000x maximum. Its standout figure is the 97.34% RTP, one of the highest in this database. BGaming also releases seasonal skins of this game, but the original is the one to try. A good fit for players who want classic fruit gameplay with good long-term value.",
+  "pros": [
+    "Excellent 97.34% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/FruitMillion/FUN?server=demo",
+  "image": "/slots/bgaming/fruit-million.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/fruit-million-branded"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

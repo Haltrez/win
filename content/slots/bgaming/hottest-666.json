@@ -1,0 +1,58 @@
+{
+  "slug": "hottest-666",
+  "name": "Hottest 666",
+  "provider": "bgaming",
+  "rtp": 96.0,
+  "volatility": "very-high",
+  "maxWin": 6600,
+  "releaseDate": "2023-12-20",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "10 paylines",
+  "hitRate": 5.5,
+  "bonusRate": 150.0,
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Pre-bonus slot",
+      "description": "A three-reel machine sets spins, fields and multiplier, each up to 6."
+    },
+    {
+      "name": "Paid boosts",
+      "description": "Buy respins or +1 upgrades during the pre-bonus."
+    },
+    {
+      "name": "Wild Rain",
+      "description": "Wilds rain onto the reels during free spins."
+    }
+  ],
+  "review": "Hottest 666 is a neon 5x3 classic with an inventive bonus. When the bonus is triggered (by scatters or bonus buy), a pre-bonus round runs on a three-reel machine that decides the number of free spins, the number of playing fields and the multiplier, each up to 6.\n\nDuring the pre-bonus, you can buy a respin or a +1 boost for any of the three values, which lets you shape the bonus at a cost. The free spins themselves feature Wild Rain, which sprinkles wilds across the reels. Hitting 666 in the pre-bonus is the dream scenario. BGaming rates it very high volatility with a 6,600x maximum and a 96% RTP. Free spins arrive about once every 150 spins.",
+  "pros": [
+    "Bonus lands relatively often (about 1 in 150 spins on average)",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/Hottest666/FUN?server=demo",
+  "image": "/slots/bgaming/hottest-666.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/hottest-666"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

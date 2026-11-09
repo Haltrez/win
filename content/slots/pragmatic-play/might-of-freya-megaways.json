@@ -1,0 +1,56 @@
+{
+  "slug": "might-of-freya-megaways",
+  "name": "Might of Freya Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 8000,
+  "releaseDate": "2024-11-01",
+  "releaseDatePrecision": "month",
+  "reels": "6x7",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "tumble",
+    "respins",
+    "free-spins",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Freya Super Symbol",
+      "description": "A bottom-row wild that awards respins with wilds holding lives."
+    },
+    {
+      "name": "Redrop symbol",
+      "description": "Clears the reels and counts as a tumble."
+    },
+    {
+      "name": "Tumble-chain trigger",
+      "description": "Five consecutive tumble wins activate the bonus, with a wheel setting spins and minimum ways."
+    }
+  ],
+  "review": "Might of Freya Megaways puts the Norse goddess on a 6x7 grid with tumbling wins and a respin mechanic based on lives. The Freya Super Symbol acts as a wild that appears only on the bottom row under reels 2–5, and when it lands it awards respins with wilds carrying a random number of lives. Each respin after a tumble uses up a life, and respins end when no wilds remain.\n\nA Redrop symbol can clear the reels and counts as a tumble, which may create new wins. The bonus is triggered by five consecutive tumble wins, and a wheel spin beforehand sets the number of free spins and the minimum number of ways. Pragmatic Play advertises wins of up to 8,000x. The RTP is 96.5%. The trigger rewards long cascades rather than scatter luck.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysmfreya&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/might-of-freya-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/might-of-freya-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

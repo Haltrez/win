@@ -1,0 +1,55 @@
+{
+  "slug": "treasure-of-anubis",
+  "name": "Treasure of Anubis",
+  "provider": "bgaming",
+  "rtp": 97.13,
+  "volatility": "medium-high",
+  "maxWin": 1939,
+  "releaseDate": "2025-03-25",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "9 paylines",
+  "hitRate": 2.66,
+  "bonusRate": 56.91,
+  "mechanics": [
+    "paylines",
+    "free-spins"
+  ],
+  "themes": [
+    "egypt"
+  ],
+  "features": [
+    {
+      "name": "Scatter counter",
+      "description": "A water scale tracks scatters dropped per spin."
+    },
+    {
+      "name": "Frequent free spins",
+      "description": "The bonus arrives about once every 57 spins on average."
+    },
+    {
+      "name": "Big spin counts",
+      "description": "33+ free spins possible, with retriggers."
+    }
+  ],
+  "review": "Treasure of Anubis is a 5x3 Egyptian slot set in a desert oasis, with an unusual scatter counter. A scale to the left of the reels fills with water as scatters land, showing how many dropped in each spin, and it works the same way during the bonus.\n\nThree, four or five scatters trigger free spins, and BGaming highlights the potential for 33 or more free spins and unlimited retriggers. Free spins are very frequent here, roughly once every 57 spins on average, the most frequent bonus in this database. BGaming rates it medium-high volatility with a 1,939x maximum, and the RTP is an excellent 97.13%. Great value for long demo sessions.",
+  "pros": [
+    "Excellent 97.13% RTP – among the highest published",
+    "Bonus lands relatively often (about 1 in 57 spins on average)",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 1,939x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/TreasureOfAnubis/FUN?server=demo",
+  "image": "/slots/bgaming/treasure-of-anubis.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/treasure-of-anubis"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

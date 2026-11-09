@@ -1,0 +1,56 @@
+{
+  "slug": "gems-bonanza",
+  "name": "Gems Bonanza",
+  "provider": "pragmatic-play",
+  "rtp": 96.51,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2020-09-01",
+  "releaseDatePrecision": "month",
+  "reels": "8x8",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "reel-modifiers",
+    "multipliers"
+  ],
+  "themes": [
+    "gems",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "8x8 cluster grid",
+      "description": "Large grid where matching symbols form clusters."
+    },
+    {
+      "name": "Map progression",
+      "description": "Winning positions mark a path that unlocks spin features like Nuclear and Lucky Wilds."
+    },
+    {
+      "name": "Gold Fever",
+      "description": "Activates all modifiers, with a 10x win multiplier at the final level."
+    }
+  ],
+  "review": "Gems Bonanza is an 8x8 cluster game with a treasure-map twist. Winning symbols leave coloured markings on the grid, and those markings form a path that progresses a feature meter. Filling it unlocks spin features, including a Nuclear power that drops new symbols onto the screen and Lucky Wilds that land in random positions.\n\nActivate enough of the path and you reach Gold Fever, which switches on all the spin modifiers together. The final level adds a 10x win multiplier to the mix. Because progress is tied to winning clusters rather than scatters, the game rewards long tumbling sequences, and the advertised maximum is 10,000x. The RTP of 96.51% sits near the top of Pragmatic Play's standard range. A good option if you like cluster games with a visible progression system.",
+  "pros": [
+    "Above-average 96.51% RTP",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20goldfever&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/gems-bonanza.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/gems-bonanza/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

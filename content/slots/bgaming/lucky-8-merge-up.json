@@ -1,0 +1,58 @@
+{
+  "slug": "lucky-8-merge-up",
+  "name": "Lucky 8 Merge Up",
+  "provider": "bgaming",
+  "rtp": 97.25,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2024-02-15",
+  "releaseDatePrecision": "day",
+  "reels": "6x6",
+  "winType": "Cluster Pays",
+  "hitRate": 3.04,
+  "bonusRate": 276.0,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Number merging",
+      "description": "Number symbols in clusters merge into higher values."
+    },
+    {
+      "name": "Base-game focus",
+      "description": "Merging is designed to make the base game rewarding."
+    },
+    {
+      "name": "Cell multipliers in free spins",
+      "description": "Wins mark cells with increasing multipliers."
+    }
+  ],
+  "review": "Lucky 8 Merge Up applies BGaming's Merge Up mechanic to a 6x6 grid of lucky number symbols. Winning clusters pay and merge into higher-value numbers, with BGaming explicitly designing the base game to be the main source of excitement rather than a wait for the bonus.\n\nFree spins still exist: during the bonus, every win marks cells with growing multipliers, and symbols around the highest multipliers spin to build anticipation. BGaming rates it very high volatility with a 5,000x maximum, and the RTP is an excellent 97.25%. Free spins land about once every 276 spins on average. It's essentially Merge Up with an Asian lucky-numbers theme.",
+  "pros": [
+    "Excellent 97.25% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/Lucky8MergeUp/FUN?server=demo",
+  "image": "/slots/bgaming/lucky-8-merge-up.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/lucky-8-merge-up-tm"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "maneki-88-fortunes",
+  "name": "Maneki 88 Fortunes",
+  "provider": "bgaming",
+  "rtp": 96.38,
+  "volatility": "medium-high",
+  "maxWin": 3000,
+  "releaseDate": "2023-09-07",
+  "releaseDatePrecision": "day",
+  "winType": "243 paylines",
+  "hitRate": 4.16,
+  "bonusRate": 164.0,
+  "mechanics": [
+    "ways",
+    "jackpot",
+    "free-spins",
+    "money-collect"
+  ],
+  "themes": [
+    "asian",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Coin Wilds",
+      "description": "Collecting coins raises your jackpot chances; the eighth ensures the round."
+    },
+    {
+      "name": "Four jackpots",
+      "description": "The Jackpot round awards one of four jackpot levels."
+    },
+    {
+      "name": "Golden symbols",
+      "description": "Golden versions of symbols pay more than standard ones."
+    }
+  ],
+  "review": "Maneki 88 Fortunes is a 243-ways Asian slot built around jackpots and a lucky cat. Besides the regular wild on reels 2, 3 and 4, there's a Coin Wild, and each collected coin raises your chance of reaching the jackpot round.\n\nThe eighth coin ensures the Jackpot round, which awards one of four jackpots, and every Coin Wild during free spins also triggers it. Golden versions of symbols pay more than standard ones, and choosing two or more golden symbols makes Coin Wilds start to appear. Free spins can pay up to 3,000x the bet, while BGaming describes the Grand jackpot as 200,000x the base bet. It rates the game medium-high volatility, with a 96.38% RTP and free spins about once every 164 spins.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/Maneki88Fortunes/FUN?server=demo",
+  "image": "/slots/bgaming/maneki-88-fortunes.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/maneki-88-fortunes"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

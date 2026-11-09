@@ -1,0 +1,55 @@
+{
+  "slug": "wild-chicago",
+  "name": "Wild Chicago",
+  "provider": "bgaming",
+  "rtp": 97.1,
+  "volatility": "very-high",
+  "maxWin": 4684,
+  "releaseDate": "2023-06-29",
+  "releaseDatePrecision": "day",
+  "winType": "10 paylines",
+  "hitRate": 3.9,
+  "bonusRate": 262.0,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "crime",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "2x crocodile wild",
+      "description": "The crocodile boss doubles any win it completes."
+    },
+    {
+      "name": "3x free spins",
+      "description": "15 free spins with all wins tripled."
+    },
+    {
+      "name": "Retriggers",
+      "description": "Three or more scatters during the bonus add more spins."
+    }
+  ],
+  "review": "Wild Chicago is a 1920s gangster slot where an animal mob, led by a crocodile boss, fights over the city. It's a 10-line game where the crocodile is the wild and doubles every win it completes.\n\nThree or more scatters award 15 free spins, and all free spins wins are tripled. Three or more scatters during the round retrigger it. That gives a wild win in the bonus a combined 6x boost. BGaming rates it very high volatility with a 4,684x maximum, and the 97.1% RTP is excellent. Free spins arrive about once every 262 spins. It's the same structure as Savage Buffalo Spirit, with a crime-movie theme.",
+  "pros": [
+    "Excellent 97.10% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/WildChicago/FUN?server=demo",
+  "image": "/slots/bgaming/wild-chicago.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/wild-chicago"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

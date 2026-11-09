@@ -1,0 +1,54 @@
+{
+  "slug": "juicy-fruits",
+  "name": "Juicy Fruits",
+  "provider": "pragmatic-play",
+  "rtp": 96.51,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2021-03-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x5",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "50 paylines",
+      "description": "A 5x5 fruit layout with many lines."
+    },
+    {
+      "name": "Growing wilds",
+      "description": "Wilds increase in size during free spins, up to 5x5."
+    },
+    {
+      "name": "Progressive free spins",
+      "description": "Scatters can add more free games during the bonus."
+    }
+  ],
+  "review": "Juicy Fruits is a 5x5 fruit slot with 50 paylines. Strawberries, lemons and lucky sevens fill the grid, and the extra rows compared with a classic 5x3 game give each spin more potential line wins.\n\nThe progressive free spins feature lets scatters award more free games, while wilds grow in size during the round, potentially up to a full 5x5 block. A grid covered in wilds is how the advertised 5,000x maximum can be reached. The RTP is 96.51%. It's a good middle ground between a retro fruit machine and a modern feature slot.",
+  "pros": [
+    "Above-average 96.51% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs50juicyfr&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/juicy-fruits.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/juicy-fruits/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "savage-buffalo-spirit-megaways",
+  "name": "Savage Buffalo Spirit Megaways",
+  "provider": "bgaming",
+  "rtp": 96.75,
+  "volatility": "very-high",
+  "maxWin": 6000,
+  "releaseDate": "2023-08-24",
+  "releaseDatePrecision": "day",
+  "winType": "Megaways",
+  "hitRate": 3.42,
+  "bonusRate": 136.0,
+  "mechanics": [
+    "megaways",
+    "ways",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "animals",
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Megaways with a top reel",
+      "description": "An extra horizontal reel adds ways to win."
+    },
+    {
+      "name": "2x buffalo wilds",
+      "description": "Every buffalo wild doubles the wins it completes."
+    },
+    {
+      "name": "Fixed bonus multiplier",
+      "description": "A random 2x–25x multiplier applies to all free spins wins."
+    }
+  ],
+  "review": "Savage Buffalo Spirit Megaways brings the buffalo onto a Megaways grid, with an extra horizontal reel above the main reels to add more ways to win. The buffalo wild carries a 2x multiplier whenever it appears.\n\nDuring free spins, a multiplier between 2x and 25x is chosen at random and applied to every winning combination for the whole round, so the opening draw sets the tone of the bonus. A bonus buy is available where permitted. BGaming rates the game very high volatility with a 6,000x maximum and a 96.75% RTP. Free spins arrive more often than in the original, around once every 136 spins on average.",
+  "pros": [
+    "Above-average 96.75% RTP",
+    "Bonus lands relatively often (about 1 in 136 spins on average)",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/SavageBuffaloSpiritMegaways/FUN?server=demo",
+  "image": "/slots/bgaming/savage-buffalo-spirit-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/savage-buffalo-spirit-megaways-tm"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -37,12 +37,24 @@ Demo links are set per slot in `demoUrl` and must be on the provider's `demoDoma
 | Pragmatic Play | ✅ live | `https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=<symbol>&lang=en&cur=USD&jurisdiction=99`. Check a symbol: request the URL and read `gname=` in the redirect. |
 | Play'n GO | ✅ live | `https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=<gid>&lang=en_GB&practice=1&channel=desktop&demo=2`. The `gid` is in the "Play demo" link on playngo.com/games/<game>. |
 | Hacksaw Gaming | ✅ wired, verify from a normal connection | `https://static-live.hacksawgaming.com/<gameId>/{version}/index.html?…&mode=2&token=demo&partner=demo…`. `gameId` = `data-gameid` on hacksawgaming.com/games/<game>; `{version}` is read from `<gameId>/version.json`. Hacksaw's demo server blocks datacenter IPs. |
+| BGaming | ✅ live | `https://demo.bgaming-network.com/play/<ID>/FUN?server=demo`. The ID is shown under "ID" in the details table on bgaming.com/games/<game>. |
 | Push Gaming | ✅ wired, verify from a normal connection | `https://player.eu.demo.pushgaming.com/mesh/b2c/igp/pg-com/launch?mode=DEMO&…&rgsGameId=<id>&token={uuid}`. `rgsGameId` is in the base64 `gameUrl` on pushgaming.com/games/play/<game>.html. Region-restricted by visitor IP. |
 | Nolimit City | ❌ needs partner access | Demos run through `nolimit.js` and need an operator code issued by Nolimit; their public site requires a PlayIn account. Ask your Nolimit account manager for a demo operator ID. |
 | NetEnt, Big Time Gaming, Red Tiger (Evolution) | ❌ needs partner access | games.evolution.com has no open demo launcher. Request demo access through Evolution's affiliate/partner team. |
 | Relax Gaming, Blueprint, others | ❌ needs partner access | No public demo links on their sites. Request through your affiliate manager or an aggregator that licenses demo embeds. |
 
 Slots without `demoUrl` show "Official demo coming soon". Never embed demos from third-party mirror sites.
+
+## Thumbnails
+
+Slot thumbnails live in `public/slots/<provider>/<slug>.webp` (480×300, WebP). They are made from each provider's official game artwork (Pragmatic Play site thumbnails, BGaming game covers, Hacksaw catalogue thumbnails), fitted onto a blurred background so titles are never cropped. Providers publish this artwork for promotion, but confirm image usage terms in your affiliate or provider agreements before launch.
+
+## Data provenance for imported slots
+
+- **BGaming:** RTP, volatility, max multiplier, release date, hit rate and FS rate come from the details table on each bgaming.com game page.
+- **Hacksaw Gaming:** volatility (1–5 scale), win type, max win and all RTP versions come from the "Game data" block on hacksawgaming.com. Only games that publish this block were imported.
+- **Pragmatic Play:** RTP and descriptions come from pragmaticplay.com; max win comes from the provider's description or the game's own intro/paytable text, and is left blank where the two disagree. Pragmatic doesn't publish volatility or exact release dates on its site, so volatility is `null` (shown as "Not published") and release dates are month-level (from the official artwork upload date).
+- Editorial scores (`rating`) are only set for slots our team has reviewed in depth; imported slots have no score until then.
 
 ## Moving to a headless CMS (when the team grows)
 

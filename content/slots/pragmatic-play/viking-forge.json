@@ -1,0 +1,56 @@
+{
+  "slug": "viking-forge",
+  "name": "Viking Forge",
+  "provider": "pragmatic-play",
+  "rtp": 96.05,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2023-10-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x6",
+  "mechanics": [
+    "scatter-pays",
+    "tumble",
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Scatter pays",
+      "description": "Eight or more matching symbols anywhere on a 5x6 grid win."
+    },
+    {
+      "name": "Coin attachments",
+      "description": "Coins with cash up to 20x or multipliers up to 10x attach to symbols."
+    },
+    {
+      "name": "Coin meter",
+      "description": "Coins in winning combinations pay out at the end of the tumble sequence."
+    }
+  ],
+  "review": "Viking Forge is a 5x6 scatter-pay slot where eight or more matching symbols anywhere on the grid win. Hammers, swords, mugs and Vikings make up the symbols, and wins tumble away so new symbols can drop in.\n\nThe coin collection feature attaches coins at random to other symbols in the base game. Coins hold money values up to 20x the bet or multiplier values up to 10x, and if a coin is part of a win it goes into a meter that pays out at the end of the tumble sequence. Four or more scatters trigger the bonus. The advertised maximum is 10,000x. The RTP is 96.05%. The coin meter adds a second way to win in each spin.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20sugarcoins&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/viking-forge.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/viking-forge/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

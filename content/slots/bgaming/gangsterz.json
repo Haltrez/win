@@ -1,0 +1,59 @@
+{
+  "slug": "gangsterz",
+  "name": "Gangsterz",
+  "provider": "bgaming",
+  "rtp": 96.3,
+  "volatility": "very-high",
+  "maxWin": 12000,
+  "releaseDate": "2022-11-24",
+  "releaseDatePrecision": "day",
+  "reels": "2x2",
+  "winType": "Cluster Pays",
+  "hitRate": 2.08,
+  "bonusRate": 380.0,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "reel-modifiers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Cluster refills",
+      "description": "Five or more adjacent symbols win, then the reels refill."
+    },
+    {
+      "name": "2x2 big symbols",
+      "description": "Squares of four merge into big symbols that double wins."
+    },
+    {
+      "name": "Big Boss split",
+      "description": "The Big Boss splits into four symbols during a refill."
+    }
+  ],
+  "review": "Gangsterz is a crime-themed cluster slot with match-3 elements and refilling reels. Five or more identical symbols adjacent vertically or horizontally form a cluster.\n\nFour identical symbols in a square merge into a 2x2 big symbol that doubles the win of any cluster it joins, and several big symbols in one win add their multipliers together. A Big Boss symbol can split into four normal symbols during a refill. The Pot feature can be bought where permitted. BGaming rates it very high volatility with a 12,000x maximum and a 96.3% RTP. Free spins arrive about once every 380 spins. The big-symbol merging gives it a different feel from the Potion Spells and Pop Zen games built on the same base.",
+  "pros": [
+    "High 12,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus is rare (about 1 in 380 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/Gangsterz/FUN?server=demo",
+  "image": "/slots/bgaming/gangsterz.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/gangsterz"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

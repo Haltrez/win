@@ -1,0 +1,58 @@
+{
+  "slug": "lucky-ducky",
+  "name": "Lucky Ducky",
+  "provider": "bgaming",
+  "rtp": 97.25,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2024-12-17",
+  "releaseDatePrecision": "day",
+  "winType": "Cluster Pays",
+  "hitRate": 3.04,
+  "bonusRate": 275.79,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Nine-level merging",
+      "description": "Duck symbols merge through nine levels up to the King Duck."
+    },
+    {
+      "name": "Cell multipliers",
+      "description": "Free spins use marked cells with 2x–128x multipliers."
+    },
+    {
+      "name": "Chance x2 and buy",
+      "description": "Double your bonus odds or buy free spins where permitted."
+    }
+  ],
+  "review": "Lucky Ducky uses BGaming's nine-level Merge Up system in a duck-themed shop. Clusters of colourful ducks pay and then merge upward, level by level, towards the King Duck.\n\nCollecting scatters launches free spins, where marked cells hold multipliers ranging from 2x up to 128x. Chance x2 doubles your chances of triggering the bonus, and a bonus buy is available where permitted. BGaming rates the game very high volatility with a 5,000x maximum and a 97.25% RTP, one of the best returns anywhere. Free spins arrive about once every 276 spins. A cheerful theme on a demanding but rewarding engine.",
+  "pros": [
+    "Excellent 97.25% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/LuckyDucky/FUN?server=demo",
+  "image": "/slots/bgaming/lucky-ducky.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/lucky-ducky"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

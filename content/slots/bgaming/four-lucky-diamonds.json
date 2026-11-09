@@ -1,0 +1,54 @@
+{
+  "slug": "four-lucky-diamonds",
+  "name": "Four Lucky Diamonds",
+  "provider": "bgaming",
+  "rtp": 94.03,
+  "volatility": "medium-high",
+  "maxWin": 2500,
+  "releaseDate": "2021-02-25",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "10 paylines",
+  "hitRate": 6.2,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "gems",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "10 paylines",
+      "description": "A classic 5x3 layout with gems and sevens."
+    },
+    {
+      "name": "Stacked wilds",
+      "description": "Stacked wilds can land on the third reel."
+    },
+    {
+      "name": "Wild duplication",
+      "description": "Stacked wilds on bonus reels are copied to the following reels."
+    }
+  ],
+  "review": "Four Lucky Diamonds is a 5x3, 10-payline classic with colourful gems, bells, stars and sevens. Its features are Lucky Spins and stacked wilds.\n\nIn the bonus round, a stacked wild can land on the third reel and substitute for other symbols, and if stacked wilds appear on one of the bonus reels, they're duplicated onto the following reels, which can quickly fill the screen with wilds. BGaming rates it medium-high volatility with a 2,500x maximum. The RTP of 94.03% is on the low side, so it costs more over time than many alternatives. It's simple and quick to understand, best for short, casual demo sessions.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.03% RTP",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/FourLuckyDiamonds/FUN?server=demo",
+  "image": "/slots/bgaming/four-lucky-diamonds.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/four-lucky-diamonds"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "the-money-men-megaways",
+  "name": "The Money Men Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.02,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2023-10-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "tumble",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "crime",
+    "music"
+  ],
+  "features": [
+    {
+      "name": "Megaways tumbles",
+      "description": "Up to seven symbols per reel with tumbling wins."
+    },
+    {
+      "name": "Position-based wild modifiers",
+      "description": "Wilds on reels 2, 5 or 3–4 trigger different modifiers."
+    },
+    {
+      "name": "Free spins",
+      "description": "Triggered by wilds on reels three and four."
+    }
+  ],
+  "review": "The Money Men Megaways is a hip-hop style Megaways slot with gold jewellery, cars and boomboxes on six changing reels, each showing up to seven symbols. Wins tumble away for possible chain reactions.\n\nWilds landing in the base game can trigger random modifiers depending on where they land. A wild on reel two may add more wilds; on reel five it can add mystery symbols to the middle reels; and wilds on reels three and four can trigger free spins. That makes the wild the centre of the game rather than just a substitute. Pragmatic Play doesn't publish a max win here. The RTP is 96.02%.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysmoneyman&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/the-money-men-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/the-money-men-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

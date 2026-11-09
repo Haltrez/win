@@ -1,0 +1,59 @@
+{
+  "slug": "elvis-frog-in-vegas",
+  "name": "Elvis Frog in Vegas",
+  "provider": "bgaming",
+  "rtp": 95.3,
+  "volatility": "medium-high",
+  "maxWin": 2500,
+  "releaseDate": "2020-05-13",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "25 paylines",
+  "hitRate": 2.21,
+  "bonusRate": 208.0,
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "free-spins",
+    "gamble"
+  ],
+  "themes": [
+    "music",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Coin Respin",
+      "description": "Coins lock in place during respins, with Mini, Major and Mega jackpots."
+    },
+    {
+      "name": "Elvis Frog wild",
+      "description": "Substitutes for all symbols except scatters and coins."
+    },
+    {
+      "name": "Card gamble",
+      "description": "Optional double-or-nothing guess after any base-game win."
+    }
+  ],
+  "review": "Elvis Frog in Vegas is BGaming's best-known character slot: a rock-and-roll frog performing on the Las Vegas strip. It plays on 5x3 reels with 25 paylines, and Elvis Frog himself is the wild, substituting for everything except scatters and coins.\n\nThe Coin Respin feature is the heart of the game. Land enough coins and they lock in place while you respin for more, with Mini, Major and Mega jackpots available depending on how many coins you collect. Scatters trigger free spins, and after any base-game win an optional card gamble lets you guess a colour or suit to double the prize. BGaming rates the game medium-high volatility with a 2,500x maximum multiplier, and the free spins arrive roughly once every 208 spins on average. The 95.3% RTP is lower than most of BGaming's newer titles.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.30% RTP",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/ElvisFrog/FUN?server=demo",
+  "image": "/slots/bgaming/elvis-frog-in-vegas.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/elvis-frog-in-vegas-branded"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "dark-summoning",
+  "name": "Dark Summoning",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.36,
+  "rtpVariants": [
+    94.34,
+    92.22,
+    88.28
+  ],
+  "volatility": "high",
+  "maxWin": 10666,
+  "releaseDate": null,
+  "releaseDatePrecision": "day",
+  "reels": "5x6",
+  "mechanics": [
+    "paylines",
+    "cascades",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "horror",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Full-symbol cascades",
+      "description": "Every instance of a winning symbol is removed before new symbols cascade in."
+    },
+    {
+      "name": "Multiplier wilds",
+      "description": "Wilds land with 2x up to 100x multipliers."
+    },
+    {
+      "name": "Two bonuses",
+      "description": "Rise to Salvation and Trial by Hellfire."
+    }
+  ],
+  "review": "Dark Summoning is a 5x6 Hacksaw slot with 24 lines and a cascade mechanic with a twist: when a win occurs, every symbol of the winning type is marked and removed after the wins are paid, not just the ones in the winning line. New symbols then cascade in for further wins.\n\nWilds can land with multipliers of 2x, 3x, 4x, 5x, 10x, 15x, 20x, 25x, 50x or 100x. Blue wilds appear in the base game and the Rise to Salvation bonus, red wilds in Trial by Hellfire, with no functional difference. Unholy scatters that land alongside a win are gathered and stored, building towards the bonus. Hacksaw rates it 4 out of 5 with a 10,666x maximum and a top RTP of 96.36%.",
+  "pros": [
+    "High 10,666x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 88.28% RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1392/{version}/index.html?language=en&channel=desktop&gameid=1392&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/dark-summoning.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/dark-summoning"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "krakens-hunger",
+  "name": "Kraken’s Hunger",
+  "provider": "bgaming",
+  "rtp": 97.2,
+  "volatility": "medium-low",
+  "maxWin": 5000,
+  "releaseDate": "2024-08-22",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "5 paylines",
+  "hitRate": 4.8,
+  "bonusRate": 257.8,
+  "mechanics": [
+    "paylines",
+    "grid-expansion",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "pirates",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Variable grid",
+      "description": "5x3, 5x4 or 5x5 reels with 5, 10 or 20 lines."
+    },
+    {
+      "name": "Compass scatters",
+      "description": "3–5 compasses award 10–20 free spins."
+    },
+    {
+      "name": "Squid retriggers",
+      "description": "Every four squid wilds add 10 spins, up to three times."
+    }
+  ],
+  "review": "Kraken's Hunger is a deep-sea treasure slot with a growing grid. It can play on 5x3, 5x4 or 5x5 reels with 5, 10 or 20 paylines respectively, adding a different structure to an otherwise simple game.\n\nThree, four or five compass scatters award 10, 15 or 20 free spins. In the bonus, squid wilds collect in groups of four to award 10 more spins, up to three times per round, which can extend the feature significantly. BGaming rates the game medium-low volatility with a 5,000x maximum, and its 97.2% RTP is among the best here. Free spins arrive about once every 258 spins. A calm option with surprisingly good long-term value.",
+  "pros": [
+    "Excellent 97.20% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/KrakensHunger/FUN?server=demo",
+  "image": "/slots/bgaming/krakens-hunger.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/krakens-hunger"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

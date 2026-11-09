@@ -1,0 +1,56 @@
+{
+  "slug": "fortunes-of-aztec",
+  "name": "Fortunes of Aztec",
+  "provider": "pragmatic-play",
+  "rtp": 96.0,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2023-09-01",
+  "releaseDatePrecision": "month",
+  "reels": "4x6",
+  "mechanics": [
+    "ways",
+    "tumble",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "adventure",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Reel-clear multiplier",
+      "description": "Clearing all symbols from a reel adds 1x to the total win multiplier."
+    },
+    {
+      "name": "Tumbles",
+      "description": "Winning symbols are replaced, enabling chain reactions."
+    },
+    {
+      "name": "Persistent free spins",
+      "description": "Up to 25 free spins with multipliers that carry over between spins."
+    }
+  ],
+  "review": "Fortunes of Aztec is a 4x6 tumble game with a reel-clearing multiplier. Winning symbols are removed and replaced, and if every symbol on a reel is removed during a spin, the total win gains a 1x multiplier. This can happen several times in a single spin, so long cascade chains are rewarded twice.\n\nThree or more scatters award free spins, with extra scatters adding spins up to a total of 25. In the bonus, the multipliers you earn persist between spins, so the round tends to build towards its end. Retriggers are possible. Pragmatic Play advertises a 10,000x maximum. The RTP is 96%, slightly below the studio's usual top setting. The reel-clearing idea gives it a different feel from the orb-based multiplier games.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysstrlght&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/fortunes-of-aztec.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/fortunes-of-aztec/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

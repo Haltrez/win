@@ -1,0 +1,55 @@
+{
+  "slug": "book-of-tut-megaways",
+  "name": "Book of Tut Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.0,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2023-09-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "expanding-symbols",
+    "free-spins",
+    "ante-bet"
+  ],
+  "themes": [
+    "egypt",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Megaways",
+      "description": "Up to 117,649 ways to win."
+    },
+    {
+      "name": "Base-game expansion",
+      "description": "A random symbol can expand across reels at the end of any spin."
+    },
+    {
+      "name": "Free spins",
+      "description": "10 free spins with an expanding symbol; three scatters retrigger 10 more."
+    }
+  ],
+  "review": "Book of Tut Megaways puts John Hunter's Egyptian adventure on a six-reel Megaways grid with up to 117,649 ways. A wild substitutes for base-game symbols, and in any spin a random symbol can be selected to expand across reels at the end of the spin, giving the base game more impact than most book slots.\n\nThree or more scatters award 10 free spins with a fixed expanding symbol for the whole round, and three more scatters retrigger 10 extra spins. An ante bet can raise your chance of entering the bonus. The advertised maximum is 10,000x. The default RTP is 96%, below the studio's usual top setting, so check your casino's version.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaystut&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/book-of-tut-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/book-of-tut-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

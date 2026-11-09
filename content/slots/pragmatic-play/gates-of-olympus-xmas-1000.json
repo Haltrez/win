@@ -1,0 +1,56 @@
+{
+  "slug": "gates-of-olympus-xmas-1000",
+  "name": "Gates of Olympus Xmas 1000",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": "2024-11-01",
+  "releaseDatePrecision": "month",
+  "reels": "6x5",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Pay-anywhere tumble",
+      "description": "Eight or more matching symbols anywhere on the 6x5 grid pay, and winning symbols are replaced by new ones."
+    },
+    {
+      "name": "Multipliers up to 1,000x",
+      "description": "Multiplier orbs can land on any spin; their values are combined and applied to the spin's total win."
+    },
+    {
+      "name": "Free spins with running multiplier",
+      "description": "Four or more scatters award 15 free spins; every multiplier adds to a total that boosts later wins, and three scatters retrigger five more spins."
+    }
+  ],
+  "review": "Gates of Olympus Xmas 1000 is the festive edition of Pragmatic Play's 1000-series Zeus game. The 6x5 grid uses pay-anywhere wins, so eight or more matching symbols anywhere on screen pay, and every win tumbles away to make room for new symbols. Snow-dusted crowns, hourglasses and gems replace the usual artwork, but the engine underneath is the one fans already know.\n\nThe headline change from the original is the multiplier range. Zeus can drop orbs worth anywhere from 2x up to 1,000x, and in the base game they are added together at the end of the spin. Four scatters start 15 free spins, where each multiplier that lands joins a running total that boosts every later win in the round. That persistent total is what makes the 15,000x ceiling possible, but most bonus rounds finish far below it. Treat this as a high-variance seasonal reskin rather than a new game.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "High 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20olympxmas&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/gates-of-olympus-xmas-1000.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/gates-of-olympus-xmas-1000/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

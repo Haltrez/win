@@ -1,0 +1,57 @@
+{
+  "slug": "xmas-drop",
+  "name": "Xmas Drop",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.22,
+  "rtpVariants": [
+    94.27,
+    92.32,
+    88.02
+  ],
+  "volatility": "medium",
+  "maxWin": 12500,
+  "releaseDate": null,
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Expanding Wild Santa",
+      "description": "Santa wilds expand downwards to complete wins."
+    },
+    {
+      "name": "Gift multipliers",
+      "description": "Expanding through a Wild Gift adds a 2x–200x multiplier."
+    },
+    {
+      "name": "Night Before Christmas",
+      "description": "10 free spins with more Santas and gifts."
+    }
+  ],
+  "review": "Xmas Drop is Hacksaw's festive expanding-wild slot. Wild Santa symbols expand downwards when they're part of a winning combination, counting as wild on every position they cover, and each reel can hold only one Wild Santa.\n\nWhen an expanding Wild Santa passes through a Wild Gift symbol, it turns into a multiplier worth 2x to 200x. If several expanded Santas with multipliers form a win, their values are added. Three FS scatters award 10 free spins in the Night Before Christmas bonus, with better odds of Santas and gifts, and three more scatters add four spins. Hacksaw rates it 3 out of 5 with a 12,500x maximum and a top RTP of 96.22%.",
+  "pros": [
+    "High 12,500x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 88.02% RTP",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1396/{version}/index.html?language=en&channel=desktop&gameid=1396&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/xmas-drop.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/xmas-drop"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

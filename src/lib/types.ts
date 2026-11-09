@@ -21,15 +21,24 @@ export interface Slot {
   rtp: number;
   /** Other RTP configurations the provider offers operators. */
   rtpVariants?: number[];
-  volatility: Volatility;
-  /** Max win as a multiplier of the base stake. */
-  maxWin: number;
-  releaseDate: string; // ISO yyyy-mm-dd
-  reels: string; // e.g. "6x5", "5x3"
-  paylines: string; // e.g. "Pay anywhere", "20", "117,649 ways"
+  /** Provider-published volatility. null = not published by the provider (never guessed). */
+  volatility: Volatility | null;
+  /** Max win as a multiple of the base stake. null = not published by the provider. */
+  maxWin: number | null;
+  /** ISO yyyy-mm-dd. With releaseDatePrecision 'month' only year+month are known. null = unknown. */
+  releaseDate: string | null;
+  releaseDatePrecision?: 'day' | 'month';
+  reels?: string; // e.g. "6x5", "5x3"
+  paylines?: string; // e.g. "Pay anywhere", "20", "117,649 ways"
   minBet?: number;
   maxBet?: number;
   hitFrequency?: number; // %
+  /** Win structure as published by the provider, e.g. "20 lines", "Cluster pays". */
+  winType?: string;
+  /** Average spins per winning spin, as published by the provider (e.g. BGaming "Hit Rate"). */
+  hitRate?: number;
+  /** Average spins per free-spins/bonus trigger, as published by the provider (e.g. BGaming "FS Rate"). */
+  bonusRate?: number;
   mechanics: Mechanic[];
   themes: Theme[];
   /** Human-readable feature list shown on the page. */

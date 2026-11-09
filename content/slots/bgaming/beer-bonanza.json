@@ -1,0 +1,58 @@
+{
+  "slug": "beer-bonanza",
+  "name": "Beer Bonanza",
+  "provider": "bgaming",
+  "rtp": 95.97,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": "2022-09-08",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 2.59,
+  "bonusRate": 395.0,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Pays anywhere",
+      "description": "Matching beer symbols pay regardless of position."
+    },
+    {
+      "name": "Refilling reels",
+      "description": "Wins are cleared and replaced for consecutive wins."
+    },
+    {
+      "name": "2x–100x multipliers",
+      "description": "Multiplier symbols boost wins during free spins."
+    }
+  ],
+  "review": "Beer Bonanza is BGaming's Oktoberfest-style take on its Bonanza engine. Jugs and glasses of beer pay anywhere on the screen, and the total number of matching symbols at the end of a spin determines the win. Refilling reels let several wins happen from a single spin.\n\nFree spins are triggered by scatters, and during the bonus, multiplier symbols worth 2x to 100x can appear and boost the sequence total. Chance x2 increases the bet slightly to improve the odds of reaching the bonus, and a bonus buy is available where permitted. BGaming quotes a maximum of 15,000x and an RTP of 95.97%. Expect free spins only around once every 395 spins. Mechanically, it's very close to Bonanza Billion; pick it if you prefer the festival theme.",
+  "pros": [
+    "High 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.97% RTP",
+    "Bonus is rare (about 1 in 395 spins on average)",
+    "Provider doesn't publish a volatility rating"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BeerBonanza/FUN?server=demo",
+  "image": "/slots/bgaming/beer-bonanza.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/beer-bonanza"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

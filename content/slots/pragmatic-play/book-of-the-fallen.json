@@ -1,0 +1,55 @@
+{
+  "slug": "book-of-the-fallen",
+  "name": "Book of the Fallen",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2021-11-01",
+  "releaseDatePrecision": "month",
+  "reels": "3x5",
+  "mechanics": [
+    "paylines",
+    "expanding-symbols",
+    "free-spins",
+    "ante-bet"
+  ],
+  "themes": [
+    "egypt",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Book wild/scatter",
+      "description": "The Eye of Anubis book substitutes and triggers the bonus."
+    },
+    {
+      "name": "10 free spins",
+      "description": "Three books award free spins with an expanding symbol."
+    },
+    {
+      "name": "Super Spins",
+      "description": "Pay 10x per spin so every spin plays like a free spin."
+    }
+  ],
+  "review": "Book of the Fallen brings explorer John Hunter into an Anubis-themed book slot. The 5x3 reels use Egyptian high-value symbols, and a book bearing the Eye of Anubis serves as both wild and scatter.\n\nThree books trigger 10 free spins with an expanding symbol, the classic book format. What sets it apart is the Super Spins ante bet. For 10x your stake per spin, every base-game spin plays like a free spin, giving direct access to the expanding-symbol feature at a much higher cost. That can drain a budget quickly, so test it in demo first. The advertised maximum is 5,000x and the RTP is 96.5%.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10bookfallen&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/book-of-the-fallen.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/book-of-the-fallen/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "the-great-stick-up",
+  "name": "The Great Stick-Up",
+  "provider": "pragmatic-play",
+  "rtp": 96.3,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2022-05-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "free-spins"
+  ],
+  "themes": [
+    "crime",
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Crime theme",
+      "description": "Bandits, detectives and loot in a rural American town."
+    },
+    {
+      "name": "Feature-packed",
+      "description": "Multiple mechanics described by the provider as lucrative."
+    },
+    {
+      "name": "5,000x potential",
+      "description": "Advertised wins of up to 5,000x."
+    }
+  ],
+  "review": "The Great Stick-Up is a crime-themed slot set in a rural American town, with cash, maps, handcuffs and detective symbols. Pragmatic Play describes it as packed with features and mechanics, with bandits lurking around every corner.\n\nThe provider's page doesn't detail the features, but the in-game screens advertise wins of up to 5,000x. The RTP is 96.3%, a little under the studio's usual top version. Because the official description is thin, the demo is the best way to see how the features work. It's a good match for fans of heist themes who enjoy discovering a game's mechanics through play.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20stickysymbol&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/the-great-stick-up.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/the-great-stick-up/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

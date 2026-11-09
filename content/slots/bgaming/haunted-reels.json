@@ -1,0 +1,57 @@
+{
+  "slug": "haunted-reels",
+  "name": "Haunted Reels",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium-high",
+  "maxWin": 5000,
+  "releaseDate": "2024-10-15",
+  "releaseDatePrecision": "day",
+  "winType": "Megaways",
+  "hitRate": 4.4,
+  "bonusRate": 123.0,
+  "mechanics": [
+    "megaways",
+    "ways",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Multiplier wilds",
+      "description": "Wilds carry multipliers on Megaways reels."
+    },
+    {
+      "name": "Coffin bonus",
+      "description": "Coffins reveal characters, extra spins or multipliers; collect five multipliers for big wins."
+    },
+    {
+      "name": "Three bonus types",
+      "description": "Green (low), Red (medium) and Purple (very high volatility) buys."
+    }
+  ],
+  "review": "Haunted Reels is a neon-lit Halloween Megaways slot hosted by a skeleton. Wilds carry multipliers, and pumpkin scatters trigger one of three bonus versions.\n\nThe bonus uses coffins as symbols, which can reveal a chosen character, extra spins or a multiplier. Finding five multipliers releases them onto the reels for the biggest wins. The bonus buy lets you choose your volatility: Green is low volatility, Red is medium and Purple is very high, with the special symbol in Red and Purple chosen from the high-paying ones and Purple releasing its five multipliers twice. BGaming rates the base game medium-high volatility with a 5,000x maximum and a 97% RTP. Free spins arrive often, roughly once every 123 spins.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Bonus lands relatively often (about 1 in 123 spins on average)",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/HauntedReels/FUN?server=demo",
+  "image": "/slots/bgaming/haunted-reels.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/haunted-reels"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

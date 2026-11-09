@@ -1,0 +1,57 @@
+{
+  "slug": "pyramid-king",
+  "name": "Pyramid King",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 2500,
+  "releaseDate": "2020-06-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "expanding-symbols",
+    "free-spins"
+  ],
+  "themes": [
+    "egypt"
+  ],
+  "features": [
+    {
+      "name": "Respin Round",
+      "description": "Money symbols lock in place, with jackpots up to 1,000x."
+    },
+    {
+      "name": "Expanding symbols",
+      "description": "Random special symbols expand during free spins."
+    },
+    {
+      "name": "25 paylines",
+      "description": "A classic 5x3 line layout."
+    }
+  ],
+  "review": "Pyramid King is a 5x3, 25-line Egyptian slot with two features. Landing enough money symbols starts the Respin Round, a hold-style feature where money symbols lock in place and jackpots worth up to 1,000x the bet are available.\n\nIn free spins, random special symbols expand across the reels to add to your wins, similar to a book-style mechanic. Pragmatic Play's in-game screens advertise up to 2,500x, a fairly modest cap that suggests a steadier experience than many modern releases. The RTP is 96.5%. It's a good fit if you like classic Egyptian themes with a cash-collect feature on top.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs25pyramid&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/pyramid-king.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/pyramid-king-slot/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "aztec-clusters",
+  "name": "Aztec Clusters",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": "2024-02-01",
+  "releaseDatePrecision": "day",
+  "reels": "6x8",
+  "winType": "Cluster Pays",
+  "hitRate": 3.0,
+  "bonusRate": 321.0,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "sticky-wilds",
+    "free-spins",
+    "bonus-buy",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "adventure",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Cluster pays with cell multipliers",
+      "description": "Five-symbol clusters win and activate cell multipliers up to 10x."
+    },
+    {
+      "name": "Dig-up feature",
+      "description": "After a win, randomly adds sticky wilds, Booster, Destroyer or a scatter."
+    },
+    {
+      "name": "Spin modes",
+      "description": "Regular spins, Wild Spins or a bonus buy with sticky wilds up to 100x."
+    }
+  ],
+  "review": "Aztec Clusters is a 6x8 cluster slot that BGaming designed with the analytics platform Casinolytics, using insights from thousands of hours of casino streams to shape the pacing of its features. Five or more connected symbols form a win, and each win activates cell multipliers of up to 10x.\n\nAfter a win, the Dig-up feature can randomly add sticky wilds, a Booster, a Destroyer or a scatter, so the board can change mid-spin. You can choose how to play: standard spins, Wild Spins, or a bonus buy in which sticky wilds carry multipliers up to 100x. BGaming rates it very high volatility with a 10,000x maximum, and the 97% RTP is among the best in this database. Free spins land about once every 321 spins on average.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus is rare (about 1 in 321 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/AztecClusters/FUN?server=demo",
+  "image": "/slots/bgaming/aztec-clusters.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/aztec-clusters"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

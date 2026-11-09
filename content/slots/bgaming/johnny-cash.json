@@ -1,0 +1,55 @@
+{
+  "slug": "johnny-cash",
+  "name": "Johnny Cash",
+  "provider": "bgaming",
+  "rtp": 95.98,
+  "volatility": "medium-high",
+  "maxWin": 2077,
+  "releaseDate": "2020-10-30",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "20 paylines",
+  "hitRate": 4.41,
+  "bonusRate": 157.0,
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "20 paylines",
+      "description": "A 5x3 western-themed line slot."
+    },
+    {
+      "name": "Sticky wilds in free spins",
+      "description": "Wilds lock until the end of the bonus."
+    },
+    {
+      "name": "Retriggers",
+      "description": "Three or more scatters in the bonus add more free spins."
+    }
+  ],
+  "review": "Johnny Cash is BGaming's Wild West slot starring a daring cowboy on the trail of money and gold. It's a 5x3, 20-line game with a wild that substitutes for everything except the scatter.\n\nThree or more scatters award 10 free spins, and more scatters during the round retrigger the feature. During free spins, every wild that lands is locked in place until the end of the round, so a few early wilds can set up repeated wins on later spins. BGaming rates the game medium-high volatility with a 2,077x maximum and publishes an average of one free spins trigger per 157 spins. The RTP is 95.98%. It's a straightforward sticky-wild game that's easy to understand.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.98% RTP",
+    "Modest 2,077x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/JohnnyCash/FUN?server=demo",
+  "image": "/slots/bgaming/johnny-cash.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/johnny-cash"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

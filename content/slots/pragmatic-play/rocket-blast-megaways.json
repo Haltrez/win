@@ -1,0 +1,56 @@
+{
+  "slug": "rocket-blast-megaways",
+  "name": "Rocket Blast Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.01,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2023-07-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "tumble",
+    "sticky-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "space",
+    "gems",
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Megaways tumbles",
+      "description": "Six changing reels with tumbling wins."
+    },
+    {
+      "name": "Rocket wilds",
+      "description": "Rockets turn symbols wild; those wilds lock, nudge down and add more wilds."
+    },
+    {
+      "name": "Free spins",
+      "description": "Four or more scatters trigger the bonus."
+    }
+  ],
+  "review": "Rocket Blast Megaways is a space-themed Megaways slot with aliens and coloured gems on six changing reels. Wilds appear on every reel except the first, and winning symbols tumble away.\n\nThe special rocket feature transforms the symbols it lands on into wilds. Those wilds lock in place, nudge down one position after each tumble, and add more wilds to the top of the grid until the spin ends. That chain can rapidly fill the grid with wilds. Four or more scatters trigger free spins. Pragmatic Play doesn't publish a max win on the page. The RTP is 96.01%. The rocket gives single spins a lot of upside.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysrockblst&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/rocket-blast-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/rocket-blast-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

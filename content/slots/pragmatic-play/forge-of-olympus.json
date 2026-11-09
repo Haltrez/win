@@ -1,0 +1,54 @@
+{
+  "slug": "forge-of-olympus",
+  "name": "Forge of Olympus",
+  "provider": "pragmatic-play",
+  "rtp": 96.25,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2023-08-01",
+  "releaseDatePrecision": "month",
+  "reels": "6x5",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Pay-anywhere tumble",
+      "description": "Eight or more matching symbols anywhere on the 6x5 grid pay and then tumble away."
+    },
+    {
+      "name": "Multiplier symbols",
+      "description": "Multipliers from 2x to 100x can land and boost the current win."
+    },
+    {
+      "name": "Levelled free spins",
+      "description": "Collected multipliers move you through four levels, each ensuring higher multiplier values."
+    }
+  ],
+  "review": "Forge of Olympus builds on the familiar 6x5 tumble grid with a bonus round based on levels. Shields, helmets and golden rings pay when eight or more appear anywhere on the screen, and each win is removed so new symbols can fall in and possibly form another combination.\n\nMultiplier symbols worth 2x to 100x can join the reels in any spin, boosting the win of the tumble sequence they appear in. The twist comes in the free spins, where every multiplier collected pushes you along a progress bar with four levels. Each level ensures higher multiplier values from that point onward, so a bonus that levels up early can become much more valuable than one that stays on the first tier. The top advertised win is 5,000x. It is a solid alternative to Gates of Olympus with a clearer sense of progression in the bonus.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20forge&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/forge-of-olympus.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/forge-of-olympus/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

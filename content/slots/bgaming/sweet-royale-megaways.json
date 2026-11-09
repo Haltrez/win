@@ -1,0 +1,60 @@
+{
+  "slug": "sweet-royale-megaways",
+  "name": "Sweet Royale Megaways",
+  "provider": "bgaming",
+  "rtp": 96.96,
+  "volatility": "very-high",
+  "maxWin": 12960,
+  "releaseDate": "2023-02-16",
+  "releaseDatePrecision": "day",
+  "winType": "Megaways",
+  "hitRate": 5.01,
+  "bonusRate": 259.0,
+  "mechanics": [
+    "megaways",
+    "ways",
+    "multipliers",
+    "sticky-wilds",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "Megaways",
+      "description": "More ways to win than a standard grid."
+    },
+    {
+      "name": "Multiplier wilds",
+      "description": "Wilds carry random 1x–3x multipliers."
+    },
+    {
+      "name": "Sticky wilds in free spins",
+      "description": "Wilds stick for the whole bonus."
+    }
+  ],
+  "review": "Sweet Royale Megaways is set in a candy factory, with a mixer as the wild symbol. The wild substitutes for any symbol and carries a random multiplier between 1x and 3x.\n\nThree or more scatters trigger free spins with sticky wilds, and the number of scatters decides how many spins you get. Because wilds both stick and carry multipliers, a bonus with several early wilds can build up quickly. Chance x2 and a bonus buy are available where permitted. BGaming rates it very high volatility with a 12,960x maximum, and the 96.96% RTP is strong. Free spins arrive about once every 259 spins on average.",
+  "pros": [
+    "Above-average 96.96% RTP",
+    "High 12,960x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/SweetRushMegaways/FUN?server=demo",
+  "image": "/slots/bgaming/sweet-royale-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/sweet-royale-megaways"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

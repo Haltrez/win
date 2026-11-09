@@ -1,0 +1,53 @@
+{
+  "slug": "miss-cherry-fruits",
+  "name": "Miss Cherry Fruits",
+  "provider": "bgaming",
+  "rtp": 96.13,
+  "volatility": "medium",
+  "maxWin": 1000,
+  "releaseDate": "2021-09-30",
+  "releaseDatePrecision": "day",
+  "winType": "20 paylines",
+  "hitRate": 5.87,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "respins"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Both-ways lines",
+      "description": "20 lines pay in both directions."
+    },
+    {
+      "name": "Expanding wild respins",
+      "description": "Wilds expand and award respins, up to three in a row."
+    },
+    {
+      "name": "Classic fruits",
+      "description": "No free spins, just a simple fruit layout."
+    }
+  ],
+  "review": "Miss Cherry Fruits is a simple, classic fruit slot with 20 lines that pay both left to right and right to left, which increases how often small wins land.\n\nIts single feature is the Miss Cherry wild. When one or more wilds appear, each expands to fill its reel and you get a respin. Another wild during the respin awards a further respin, up to three in a row, and expanded wilds stay in place, so each respin has more wild coverage than the last. There are no free spins. BGaming rates it medium volatility with a 1,000x maximum and a 96.13% RTP. It's a relaxed, low-stress option rather than a big-win chaser.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 1,000x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/MissCherryFruits/FUN?server=demo",
+  "image": "/slots/bgaming/miss-cherry-fruits.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/miss-cherry-fruits"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

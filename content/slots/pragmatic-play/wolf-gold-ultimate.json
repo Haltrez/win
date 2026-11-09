@@ -1,0 +1,55 @@
+{
+  "slug": "wolf-gold-ultimate",
+  "name": "Wolf Gold Ultimate",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2024-10-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "jackpot"
+  ],
+  "themes": [
+    "animals",
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Hold and respin",
+      "description": "Six cash moons trigger three respins that reset with every new cash prize."
+    },
+    {
+      "name": "Extra grids",
+      "description": "Landing 2, 11 or 25 moons unlocks additional respin grids, up to 50 prizes."
+    },
+    {
+      "name": "Four jackpots",
+      "description": "Mini, Minor, Major and Grand jackpots."
+    }
+  ],
+  "review": "Wolf Gold Ultimate updates the classic prairie slot with a much bigger respin feature. Mustangs, mountain lions and wolf wilds fill the reels, and landing six or more cash moons triggers the hold and respin bonus with three spins.\n\nEvery new cash value resets the spins to three. The key upgrade is additional grids: landing two, 11 or 25 moons unlocks a second, third and fourth respin grid, so the feature can hold up to 50 cash prizes. Mini, Minor, Major and Grand jackpots are available, and Pragmatic Play states the maximum win at 5,000x. The RTP is 96.5%. Compared with the original Wolf Gold, the bonus has much more room to grow.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs25ultwolgol&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/wolf-gold-ultimate.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/wolf-gold-ultimate/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

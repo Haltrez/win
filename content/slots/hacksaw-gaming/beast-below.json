@@ -1,0 +1,62 @@
+{
+  "slug": "beast-below",
+  "name": "Beast Below",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.29,
+  "rtpVariants": [
+    94.27,
+    92.25,
+    88.28
+  ],
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "winType": "14 Paylines",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "adventure",
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Expanding siren wilds",
+      "description": "Sirens expand upwards when that creates a win and carry multipliers up to 200x."
+    },
+    {
+      "name": "Additive multipliers",
+      "description": "Multiple sirens on a line add their multipliers together."
+    },
+    {
+      "name": "Sirens' Call free spins",
+      "description": "Three FS symbols award 10 free spins with more sirens and special pink sirens."
+    }
+  ],
+  "review": "Beast Below is a 5x4, 14-payline deep-sea slot from Hacksaw Gaming. Sirens are the stars of the base game: these wilds expand upwards to the top of the grid whenever expanding would make them part of a win, and they carry multipliers up to 200x. If several sirens share a winline, their multipliers are added together before being applied.\n\nOnly yellow sirens appear in the base game, and they vanish after each spin. Three FS symbols award 10 Sirens' Call free spins with better odds of sirens, and special pink sirens can appear with semi-persistent behaviour, while divers join the hunt for the Beast in the bonus. Hacksaw rates it 4 out of 5 for volatility with a 10,000x maximum. The top RTP is 96.29%, but operators can choose versions as low as 88.28%, so check the info screen.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 88.28% RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1279/{version}/index.html?language=en&channel=desktop&gameid=1279&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/beast-below.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/beast-below"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "chicken-rush",
+  "name": "Chicken Rush",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium-high",
+  "maxWin": 5000,
+  "releaseDate": "2024-05-15",
+  "releaseDatePrecision": "day",
+  "winType": "243 paylines",
+  "hitRate": 4.4,
+  "bonusRate": 123.0,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "sticky-wilds",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "western",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "243 ways with wild multipliers",
+      "description": "A classic base game with multiplier wilds."
+    },
+    {
+      "name": "Box-reveal bonus",
+      "description": "Boxes reveal the sticky symbol, multipliers or extra spins."
+    },
+    {
+      "name": "Three bonus buys",
+      "description": "Several options to purchase the bonus where permitted."
+    }
+  ],
+  "review": "Chicken Rush is a western slot with a classic 243-ways base game, wilds with multipliers, and a very unusual bonus.\n\nThree or more bonus symbols trigger free spins. At the start, the game picks one sticky symbol for the round and turns every position into a wooden box. Each spin opens some boxes, revealing the chosen symbol, a multiplier or +1 free spin, without paying out immediately. Your final win depends on how many sticky symbols you've uncovered by the end, and collecting five multipliers boosts the result further. There are three bonus buy options where permitted. BGaming rates it medium-high volatility with a 5,000x maximum and a 97% RTP. Free spins arrive about once every 123 spins.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Bonus lands relatively often (about 1 in 123 spins on average)",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/ChickenRush/FUN?server=demo",
+  "image": "/slots/bgaming/chicken-rush.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/chicken-rush"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

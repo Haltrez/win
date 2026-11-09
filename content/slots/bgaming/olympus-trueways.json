@@ -1,0 +1,62 @@
+{
+  "slug": "olympus-trueways",
+  "name": "Olympus Trueways",
+  "provider": "bgaming",
+  "rtp": 96.7,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2025-05-21",
+  "releaseDatePrecision": "day",
+  "winType": "Trueways",
+  "hitRate": 4.33,
+  "bonusRate": 229.47,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "money-collect",
+    "bonus-buy"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Trueways",
+      "description": "Constantly shifting ways to win."
+    },
+    {
+      "name": "Accumulating wild multipliers",
+      "description": "2x, 3x and 5x wilds add together through the free spins."
+    },
+    {
+      "name": "Coin Respin jackpots",
+      "description": "Three jackpots with a Zeus Collect symbol."
+    }
+  ],
+  "review": "Olympus Trueways puts Zeus on BGaming's Trueways engine, holding a lightning-bolt Collect symbol. The main reels shift constantly, and two bonuses are available.\n\nScatters lead to free spins under a starry sky, where wilds land with 2x, 3x or 5x multipliers, and every multiplier dropped adds to the previous ones, so wins grow over the round. Coin Respin offers three jackpots, with the Collect symbol gathering coin values. Both bonuses can be bought where permitted. BGaming rates it very high volatility with a 5,000x maximum and a 96.7% RTP. Free spins arrive about once every 229 spins. It's built on the same engine as Wild West Trueways and Elvis Frog Trueways.",
+  "pros": [
+    "Above-average 96.70% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/OlympusTrueways/FUN?server=demo",
+  "image": "/slots/bgaming/olympus-trueways.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/olympustrueways"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

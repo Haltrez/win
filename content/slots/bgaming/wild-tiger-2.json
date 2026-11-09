@@ -1,0 +1,55 @@
+{
+  "slug": "wild-tiger-2",
+  "name": "Wild Tiger 2",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium-low",
+  "maxWin": 5000,
+  "releaseDate": "2025-09-23",
+  "releaseDatePrecision": "day",
+  "winType": "40 paylines",
+  "hitRate": 7.55,
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "multipliers"
+  ],
+  "themes": [
+    "asian",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "40 paylines",
+      "description": "A redesigned kung fu tiger on a line layout."
+    },
+    {
+      "name": "Hold and Win",
+      "description": "Three respins with sticky coins that reset the count."
+    },
+    {
+      "name": "Multiplier cells",
+      "description": "Three cells get 2x–15x multipliers that boost coins landing on them."
+    }
+  ],
+  "review": "Wild Tiger 2 is the sequel to one of BGaming's most popular games, redesigning the tiger as a kung fu hero and adding a Hold and Win feature. It plays on 40 lines.\n\nThe Hold and Win round starts with three respins and only sticky coins can land. At the start, three multipliers are generated (2x–5x, 10x or 15x) and placed in empty cells; any coin that later lands on one of those cells has its value multiplied. Each new coin resets the respins, and the round ends when the grid fills or the respins run out. BGaming keeps the series' medium-low volatility rating while raising the maximum to 5,000x, and the RTP is 97%. A nice balance of steady play and a meaningful bonus.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/WildTiger2/FUN?server=demo",
+  "image": "/slots/bgaming/wild-tiger-2.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/wild-tiger-2"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

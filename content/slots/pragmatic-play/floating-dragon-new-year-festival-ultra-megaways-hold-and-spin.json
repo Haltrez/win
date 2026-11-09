@@ -1,0 +1,57 @@
+{
+  "slug": "floating-dragon-new-year-festival-ultra-megaways-hold-and-spin",
+  "name": "Floating Dragon New Year Festival Ultra Megaways Hold & Spin",
+  "provider": "pragmatic-play",
+  "rtp": 96.7,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2023-12-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "cascades",
+    "free-spins",
+    "hold-and-win",
+    "grid-expansion"
+  ],
+  "themes": [
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Unlockable rows",
+      "description": "Three extra rows can unlock at random above the six reels."
+    },
+    {
+      "name": "Cascades and mystery symbols",
+      "description": "Winning symbols are removed and mystery symbols reveal matches."
+    },
+    {
+      "name": "Two bonuses",
+      "description": "Free spins and a Hold & Spin cash feature."
+    }
+  ],
+  "review": "Floating Dragon New Year Festival Ultra Megaways Hold & Spin is the series at its most elaborate. It plays on six reels, and three extra rows at the top can unlock at random, so the shape of the grid changes from spin to spin. Golden toads, lanterns and red envelopes pay across up to 147,456 ways.\n\nWilds substitute for regular symbols and mystery symbols reveal matching icons, while winning symbols cascade away for possible follow-up wins. Like other Floating Dragon titles, it has two bonuses: free spins triggered by three or more scatters, and a Hold & Spin feature with cash prizes. The 96.7% RTP is competitive. Pragmatic Play doesn't publish a max win for this version on its page. It's the busiest Floating Dragon variant, so expect plenty going on in every spin.",
+  "pros": [
+    "Above-average 96.70% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysfltdrgny&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/floating-dragon-new-year-festival-ultra-megaways-hold-and-spin.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/floating-dragon-new-year-festival-ultra-megaways-hold-spin/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

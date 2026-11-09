@@ -1,0 +1,57 @@
+{
+  "slug": "vending-machine",
+  "name": "Vending Machine",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.28,
+  "rtpVariants": [
+    94.26,
+    92.32,
+    88.28
+  ],
+  "volatility": "medium",
+  "maxWin": 5000,
+  "releaseDate": null,
+  "releaseDatePrecision": "day",
+  "winType": "35 Paylines",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "food",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Multiplier rows",
+      "description": "Lightning bolts activate rows with 2x–10x starting multipliers."
+    },
+    {
+      "name": "Growing rows",
+      "description": "Each winning symbol on an active row adds +1."
+    },
+    {
+      "name": "Multiplier Boosts",
+      "description": "Double one row or all rows' multipliers."
+    }
+  ],
+  "review": "Vending Machine is a lo-fi urban slot with 35 paylines and multiplier lights. Landing the lightning bolt activates a multiplier row, which starts each spin with a random value between 2x and 10x.\n\nWhen wins land on an active row, its multiplier increases by one for each winning symbol on that row. A Multiplier Boost symbol doubles a row's multiplier, and the Epic Multiplier Boost doubles every row multiplier. If a win includes symbols from several active rows, their multipliers are added together before being applied. Hacksaw rates it 3 out of 5 with a 5,000x maximum and a top RTP of 96.28%. An original concept with a calmer mood than most Hacksaw games.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 88.28% RTP",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1340/{version}/index.html?language=en&channel=desktop&gameid=1340&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/vending-machine.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/vending-machine"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

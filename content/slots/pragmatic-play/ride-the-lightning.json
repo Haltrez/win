@@ -1,0 +1,55 @@
+{
+  "slug": "ride-the-lightning",
+  "name": "Ride The Lightning",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2025-03-01",
+  "releaseDatePrecision": "month",
+  "reels": "3x3",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "jackpot",
+    "free-spins"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "3x wild",
+      "description": "Multiplies any line win it's part of."
+    },
+    {
+      "name": "Four jackpots",
+      "description": "Mini, Minor, Major and Grand jackpots, up to 500x."
+    },
+    {
+      "name": "Multiplier free spins",
+      "description": "10 free spins with a random 2x–20x multiplier on every spin."
+    }
+  ],
+  "review": "Ride the Lightning is a compact 3x3, nine-payline slot with wild multipliers and four jackpots. The '3x' wild multiplies any win it's part of, except jackpot wins. Landing any wild on a winning line awards the Mini jackpot, while three matching wilds award the Minor, Major or Grand jackpot, worth up to 500x.\n\nA Bonus symbol on reel three awards 10 free spins. On every spin in the bonus, a random multiplier between 2x and 20x applies to wins, including jackpots, and another Bonus symbol retriggers the round. That multiplier on jackpots is how the game reaches its 10,000x maximum. The RTP is 96.5%. A neat mix of a retro layout and modern features.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "High 10,000x win ceiling",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs9ridelightng&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/ride-the-lightning.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/ride-the-lightning/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

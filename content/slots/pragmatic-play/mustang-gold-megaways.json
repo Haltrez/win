@@ -1,0 +1,59 @@
+{
+  "slug": "mustang-gold-megaways",
+  "name": "Mustang Gold Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.46,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2024-08-01",
+  "releaseDatePrecision": "month",
+  "reels": "6x7",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "tumble",
+    "money-collect",
+    "jackpot",
+    "gamble",
+    "free-spins",
+    "respins"
+  ],
+  "themes": [
+    "western",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Megaways tumbles",
+      "description": "Up to 117,649 ways with tumbling wins."
+    },
+    {
+      "name": "Money symbols and jackpots",
+      "description": "Money symbols worth up to 15x plus four fixed jackpots from 20x to 2,500x."
+    },
+    {
+      "name": "Spin gamble",
+      "description": "Gamble up to five times for more free spins before the bonus."
+    }
+  ],
+  "review": "Mustang Gold Megaways is a 6x7 Megaways slot with up to 117,649 ways, tumbling reels and money symbols worth up to 15x the bet. Four fixed jackpots range from 20x to 2,500x and can be won through money collection.\n\nThe bonus triggers when scatter and collect symbols land together, with each scatter awarding up to five free spins per collect symbol. Before the round starts you can gamble up to five times for more spins, and the odds improve after each successful gamble. During free spins, sticky collect symbols trigger respins and pay prizes as they move down the reels. The maximum win is 5,000x and the RTP is 96.46%. The gamble step is optional but changes the risk of the bonus considerably.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysgoldcol&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/mustang-gold-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/mustang-gold-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

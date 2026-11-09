@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getCasinos, getComparisons, getProvider, slotUrl } from '@/lib/data';
 import { buildMetadata } from '@/lib/seo';
-import { fmtDate, fmtRtp, fmtX, VOLATILITY_LABEL, VOLATILITY_SCORE } from '@/lib/format';
+import { fmtRelease, fmtRtp, fmtX, volLabel, volScore } from '@/lib/format';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { FAQ } from '@/components/FAQ';
 import { SlotGrid } from '@/components/SlotCard';
@@ -31,17 +31,17 @@ export default async function ComparePage({ params }: { params: Promise<P> }) {
   const rows: [string, string, string][] = [
     ['Provider', getProvider(a.provider)!.name, getProvider(b.provider)!.name],
     ['RTP', fmtRtp(a.rtp), fmtRtp(b.rtp)],
-    ['Volatility', VOLATILITY_LABEL[a.volatility], VOLATILITY_LABEL[b.volatility]],
+    ['Volatility', volLabel(a.volatility), volLabel(b.volatility)],
     ['Max win', fmtX(a.maxWin), fmtX(b.maxWin)],
-    ['Layout', a.reels, b.reels],
-    ['Paylines / ways', a.paylines, b.paylines],
-    ['Release date', fmtDate(a.releaseDate), fmtDate(b.releaseDate)],
+    ['Layout', a.reels ?? '–', b.reels ?? '–'],
+    ['Paylines / ways', a.paylines ?? a.winType ?? '–', b.paylines ?? b.winType ?? '–'],
+    ['Release date', fmtRelease(a), fmtRelease(b)],
     ['Bonus buy', a.mechanics.includes('bonus-buy') ? 'Yes' : 'No', b.mechanics.includes('bonus-buy') ? 'Yes' : 'No'],
     ['Our score', a.rating ? `${a.rating}/10` : '–', b.rating ? `${b.rating}/10` : '–'],
   ];
   const higherRtp = a.rtp === b.rtp ? null : a.rtp > b.rtp ? a : b;
-  const swingier = VOLATILITY_SCORE[a.volatility] === VOLATILITY_SCORE[b.volatility] ? null : VOLATILITY_SCORE[a.volatility] > VOLATILITY_SCORE[b.volatility] ? a : b;
-  const bigger = a.maxWin === b.maxWin ? null : a.maxWin > b.maxWin ? a : b;
+  const swingier = !a.volatility || !b.volatility || volScore(a.volatility) === volScore(b.volatility) ? null : volScore(a.volatility) > volScore(b.volatility) ? a : b;
+  const bigger = a.maxWin == null || b.maxWin == null || a.maxWin === b.maxWin ? null : a.maxWin > b.maxWin ? a : b;
   const verdict = [
     higherRtp ? `${higherRtp.name} has the higher default RTP (${fmtRtp(higherRtp.rtp)}), though the gap matters only over very long play.` : 'Both games share the same default RTP.',
     swingier ? `${swingier.name} is the more volatile game – expect bigger swings and longer dry spells.` : 'Both are rated with the same volatility.',

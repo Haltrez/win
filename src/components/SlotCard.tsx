@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import type { Slot } from '@/lib/types';
 import { slotUrl, getProvider } from '@/lib/data';
-import { fmtRtp, fmtX, VOLATILITY_LABEL } from '@/lib/format';
+import { fmtRtp, volLabel } from '@/lib/format';
 import { SlotThumb } from './SlotThumb';
 
 export function SlotCard({ slot, rank }: { slot: Slot; rank?: number }) {
@@ -16,8 +16,8 @@ export function SlotCard({ slot, rank }: { slot: Slot; rank?: number }) {
       <p className="muted small"><Link href={`/providers/${slot.provider}`}>{p?.name}</Link></p>
       <dl className="mini-stats">
         <div><dt>RTP</dt><dd>{fmtRtp(slot.rtp)}</dd></div>
-        <div><dt>Max win</dt><dd>{fmtX(slot.maxWin)}</dd></div>
-        <div><dt>Volatility</dt><dd>{VOLATILITY_LABEL[slot.volatility]}</dd></div>
+        <div><dt>Max win</dt><dd>{slot.maxWin ? `${slot.maxWin.toLocaleString('en-US')}x` : '–'}</dd></div>
+        <div><dt>Volatility</dt><dd>{slot.volatility ? volLabel(slot.volatility) : '–'}</dd></div>
       </dl>
     </article>
   );

@@ -1,0 +1,56 @@
+{
+  "slug": "big-bass-hold-and-spinner",
+  "name": "Big Bass – Hold & Spinner",
+  "provider": "pragmatic-play",
+  "rtp": 96.07,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2023-03-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "hold-and-win",
+    "respins"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Classic Big Bass free spins",
+      "description": "The fisherman collects fish cash values; every fourth fisherman retriggers spins and raises the multiplier."
+    },
+    {
+      "name": "Hold and spin",
+      "description": "Three coins start a respin bonus where landed coins stick and reset your lives."
+    },
+    {
+      "name": "Diamond symbols",
+      "description": "Diamonds can award larger prizes during the hold and spin feature."
+    }
+  ],
+  "review": "Big Bass – Hold & Spinner adds a second bonus to the standard Big Bass formula. The 5x3 reels keep the familiar rods, floats and tackle, and the regular free spins work as usual: the fisherman collects fish values, and every four fishermen retrigger the round and raise the multiplier.\n\nThe new feature is a hold and spin round triggered by three coins in the base game. Those coins stick, you get lives that reset each time a new coin lands, and the values are added up when the lives run out. Diamond symbols can also appear and add larger prizes. Having two distinct bonuses gives the game more variety than many series entries, and the top advertised win is 10,000x. The RTP of 96.07% matches several recent Big Bass releases.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10bbhas&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/big-bass-hold-and-spinner.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/big-bass-hold-spinner/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

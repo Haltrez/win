@@ -1,0 +1,56 @@
+{
+  "slug": "big-bass-mission-fishin",
+  "name": "Big Bass Mission Fishin’",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-06-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "respins",
+    "multipliers"
+  ],
+  "themes": [
+    "fishing",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Choice of bonus",
+      "description": "Three or more scatters let you pick free spins or Stack the Cash."
+    },
+    {
+      "name": "Four-level free spins",
+      "description": "Collect fishermen to climb levels with multipliers up to 10x."
+    },
+    {
+      "name": "Stack the Cash",
+      "description": "A respin bonus with fish coins and robo-crabs; values are collected when respins end."
+    }
+  ],
+  "review": "Big Bass Mission Fishin' gives you a choice of bonus. Three or more fish scatters let you pick between free spins or a Stack the Cash bonus, so you can choose between the familiar collect-and-retrigger round and a respin feature.\n\nIn the free spins, modifiers such as more wilds and extra spins are in play, and there are four levels with the cash multiplier rising up to 10x. Choosing Stack the Cash instead brings robo-crabs and money fish coins onto the reels, with respins awarded each time a fish coin lands and all values collected when the respins run out. Unusually for the series, the speedboat symbol pays for just two of a kind. The RTP is 96.5%. Pragmatic Play doesn't publish a max win on the game page.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10bbfmission&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/big-bass-mission-fishin.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/big-bass-mission-fishin/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "the-dog-house-dog-or-alive",
+  "name": "The Dog House – Dog or Alive",
+  "provider": "pragmatic-play",
+  "rtp": 96.08,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2024-03-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "dogs",
+    "animals",
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Multiplier wilds",
+      "description": "Star-badge wilds on reels 2–4 carry 2x or 3x multipliers."
+    },
+    {
+      "name": "Bonus trigger",
+      "description": "Three safe symbols pay 5x the bet and start free spins."
+    },
+    {
+      "name": "Random spin count",
+      "description": "A 3x3 grid reveals the number of free spins before the bonus starts."
+    }
+  ],
+  "review": "The Dog House – Dog or Alive borrows its title and setting from western bounty-hunter slots, putting the canine gang into a dusty frontier town. The 5x3 grid pays for three or more matching symbols on adjacent reels, and sheriff-badge wilds can appear on reels 2, 3 and 4. Each wild arrives with a random 2x or 3x multiplier that applies to every win it is part of.\n\nSafe-shaped bonus symbols land on reels 1, 3 and 5. Three of them pay 5x the bet and start the free spins, with a 3x3 grid revealing how many games you receive before the round begins. Sticky wilds in the bonus are the key to its top advertised win of 10,000x. The default RTP of 96.08% is a little lower than some other entries in the series, so check which version your casino offers.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20doghouse2&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/the-dog-house-dog-or-alive.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/the-dog-house-dog-or-alive/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

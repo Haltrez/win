@@ -1,0 +1,61 @@
+{
+  "slug": "book-of-panda-megaways",
+  "name": "Book of Panda Megaways",
+  "provider": "bgaming",
+  "rtp": 97.07,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": "2023-11-09",
+  "releaseDatePrecision": "day",
+  "winType": "Megaways",
+  "hitRate": 4.03,
+  "bonusRate": 189.0,
+  "mechanics": [
+    "megaways",
+    "ways",
+    "expanding-symbols",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "asian",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Megaways book",
+      "description": "Megaways reels with a book-style expanding symbol."
+    },
+    {
+      "name": "Scroll wild/scatter",
+      "description": "The scroll becomes 2x–10x multipliers in free spins."
+    },
+    {
+      "name": "Two bonus buys",
+      "description": "Any expanding symbol or a assured high-paying one."
+    }
+  ],
+  "review": "Book of Panda Megaways combines Megaways with the book mechanic in an oriental setting. A single scroll symbol acts as both wild and scatter, and during free spins it turns into multiplier symbols worth 2x to 10x.\n\nThe bonus picks a random expanding symbol that covers its whole reel. Chance x2 is available, and the bonus buy lets you choose between free spins with any expanding symbol or the more expensive option that ensures a high-paying one. BGaming rates it very high volatility with a 10,000x maximum and a 97.07% RTP. Free spins arrive about once every 189 spins. It's essentially Book of Cats Megaways with an Asian theme.",
+  "pros": [
+    "Excellent 97.07% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BookOfPanda/FUN?server=demo",
+  "image": "/slots/bgaming/book-of-panda-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/book-of-panda-megaways-tm"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

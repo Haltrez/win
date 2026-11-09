@@ -1,0 +1,55 @@
+{
+  "slug": "big-bass-halloween",
+  "name": "Big Bass Halloween",
+  "provider": "pragmatic-play",
+  "rtp": 96.04,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2023-10-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "fishing",
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Cash fish",
+      "description": "Fish carry values from 2x to 2,000x the bet."
+    },
+    {
+      "name": "Fisherman collector",
+      "description": "The fisherman wild collects all fish values on screen during the bonus."
+    },
+    {
+      "name": "Retriggers",
+      "description": "Every fourth fisherman awards 10 extra spins and a higher collection multiplier."
+    }
+  ],
+  "review": "Big Bass Halloween gives the fisherman a spooky makeover while keeping the series' core gameplay intact. The 5x3 grid has 10 paylines, with crows, hooks and blood-stained scatters joining the reels. Fish land with random cash values between 2x and 2,000x the bet, and the hook-wielding fisherman acts as the wild.\n\nThree or more scatters award up to 20 free spins. Whenever the fisherman lands during the bonus, he collects the cash value of every fish on screen. Each fisherman is also counted, and every fourth one adds 10 more free spins while raising the multiplier applied to future fish collections. Pragmatic Play doesn't publish a max win for this game on its page. It's a seasonal reskin rather than a reinvention, but the theme is well done.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10bhallbnza&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/big-bass-halloween.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/big-bass-halloween/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

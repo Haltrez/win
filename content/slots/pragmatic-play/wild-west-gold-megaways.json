@@ -1,0 +1,54 @@
+{
+  "slug": "wild-west-gold-megaways",
+  "name": "Wild West Gold Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.44,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2022-05-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins",
+    "ante-bet"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Megaways",
+      "description": "Up to 117,649 ways to win."
+    },
+    {
+      "name": "Wild multipliers",
+      "description": "Wilds carry multipliers that boost wins."
+    },
+    {
+      "name": "Sticky wilds in free spins",
+      "description": "Wilds stick for the rest of the bonus, with retriggers available."
+    }
+  ],
+  "review": "Wild West Gold Megaways is the Megaways sequel to Pragmatic Play's 2020 cowboy slot. The base game offers up to 117,649 ways to win, wild symbols carry multipliers, and a double chance option is available to raise the likelihood of triggering the bonus.\n\nSticky wilds are the main feature in the free spins. Each wild that lands stays in place for the rest of the round, keeping its multiplier, and retriggers can extend the bonus. Because ways can change from spin to spin while wilds stay put, outcomes vary widely. The advertised maximum is 5,000x and the RTP is 96.44%. A good fit if you liked the original but want the bigger, changing grid of Megaways.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswayswildwest&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/wild-west-gold-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/wild-west-gold-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

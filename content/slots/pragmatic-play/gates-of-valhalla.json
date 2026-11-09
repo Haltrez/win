@@ -1,0 +1,53 @@
+{
+  "slug": "gates-of-valhalla",
+  "name": "Gates of Valhalla",
+  "provider": "pragmatic-play",
+  "rtp": 96.46,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2022-01-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "tumble",
+    "walking-wilds",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Roaming wild",
+      "description": "After each tumble the wild jumps to a random position and adds up to a 5x multiplier to wins it joins."
+    },
+    {
+      "name": "Tumbling reels",
+      "description": "Winning symbols are removed and replaced, allowing consecutive wins."
+    },
+    {
+      "name": "Free spins",
+      "description": "Three free spins symbols award up to 10 free spins with an increasing multiplier."
+    }
+  ],
+  "review": "Gates of Valhalla is an earlier Pragmatic Play release that pairs a Norse theme with tumbling wins and a roaming wild. Rather than relying on multiplier orbs, it places a wild that moves to a new random position after every tumble. When that wild is part of a win it applies a multiplier of up to 5x to the combination, so a long chain of tumbles gives it several chances to boost wins from one spin.\n\nThree free spins symbols open the bonus, which awards up to 10 free spins with a multiplier that increases and applies to the total of all tumbles in a spin. It is a more modest design than the studio's later mythology hits, and the advertised top win of 5,000x reflects that. Worth a look in demo if you want a Viking-themed tumble slot with a simpler feature set than Gates of Olympus.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10runes&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/gates-of-valhalla.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/gates-of-valhalla/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

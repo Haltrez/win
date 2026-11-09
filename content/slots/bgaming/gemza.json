@@ -1,0 +1,60 @@
+{
+  "slug": "gemza",
+  "name": "Gemza",
+  "provider": "bgaming",
+  "rtp": 97.17,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2023-12-15",
+  "releaseDatePrecision": "day",
+  "reels": "5x5",
+  "winType": "Pays Anywhere",
+  "hitRate": 8.17,
+  "bonusRate": 163.2,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "gems",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Extra reel",
+      "description": "A separate reel under the 5x5 grid adds more chances to win."
+    },
+    {
+      "name": "Chest trigger",
+      "description": "Four treasure chests start the bonus."
+    },
+    {
+      "name": "Key multipliers",
+      "description": "The bonus uses key multipliers to boost wins."
+    }
+  ],
+  "review": "Gemza is a 5x5 adventure slot that combines Bonanza-style pay-anywhere wins with a separate extra reel beneath the main grid, which adds more chances to win on every spin.\n\nUnearthing four old chests full of diamonds starts the bonus game, which uses key multipliers. Chance x2 and a bonus buy are both available where permitted, but not at the same time. BGaming rates Gemza very high volatility with a 5,000x maximum, and its RTP of 97.17% matches the best in the studio's catalogue. Free spins arrive roughly once every 163 spins on average. The extra reel is the differentiator: it gives the base game more variety than a standard 5x5 grid.",
+  "pros": [
+    "Excellent 97.17% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/Gemza/FUN?server=demo",
+  "image": "/slots/bgaming/gemza.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/gemza"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

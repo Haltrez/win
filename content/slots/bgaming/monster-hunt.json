@@ -1,0 +1,59 @@
+{
+  "slug": "monster-hunt",
+  "name": "Monster Hunt",
+  "provider": "bgaming",
+  "rtp": 94.65,
+  "volatility": "medium-low",
+  "maxWin": 1299,
+  "releaseDate": "2023-10-12",
+  "releaseDatePrecision": "day",
+  "winType": "25 paylines",
+  "hitRate": 2.71,
+  "bonusRate": 98.0,
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Horror Respin",
+      "description": "Six coins start a hold-and-win round."
+    },
+    {
+      "name": "Line jackpots",
+      "description": "Full coin lines award 20x, 100x and 1,000x jackpots."
+    },
+    {
+      "name": "Bonus buy",
+      "description": "Buy free spins or Horror Respin where permitted."
+    }
+  ],
+  "review": "Monster Hunt is a horror-themed 25-line slot where citizens reward your monster-hunting with coins. Six or more coins trigger Horror Respin, a Hold and Win-style round.\n\nDuring Horror Respin, filling one horizontal line with coins wins the Mini jackpot (20x), and further lines award the Mega (100x) and Grand (1,000x) jackpots. A bonus buy can trigger either the free spins or Horror Respin directly where permitted. BGaming rates it medium-low volatility with a 1,299x maximum, a low ceiling. The RTP is 94.65%. Free spins arrive frequently, about once every 98 spins, so sessions tend to be lively if not explosive.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Bonus lands relatively often (about 1 in 98 spins on average)",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Below-average 94.65% RTP",
+    "Modest 1,299x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/MonsterHunt/FUN?server=demo",
+  "image": "/slots/bgaming/monster-hunt.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/monster-hunt"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

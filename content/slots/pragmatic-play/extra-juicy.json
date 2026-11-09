@@ -1,0 +1,55 @@
+{
+  "slug": "extra-juicy",
+  "name": "Extra Juicy",
+  "provider": "pragmatic-play",
+  "rtp": 96.52,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2019-01-01",
+  "releaseDatePrecision": "month",
+  "reels": "3x5",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Diamond scatters",
+      "description": "Scatters on reels 1, 3 and 5 trigger the bonus."
+    },
+    {
+      "name": "Progressive multiplier",
+      "description": "Starts with 12 free spins and the multiplier increases by 1x every spin."
+    },
+    {
+      "name": "Retriggers",
+      "description": "Up to four retriggers push the multiplier as high as 60x."
+    }
+  ],
+  "review": "Extra Juicy is a 5x3, 10-line fruit slot with one simple but effective idea. Diamond scatters appear on reels 1, 3 and 5, and landing all three triggers the progressive multiplier free spins round.\n\nYou start with 12 free spins, and the win multiplier increases by 1x on every spin. Landing three more scatters retriggers the feature, up to four times, which can push the multiplier as high as 60x. Because the multiplier grows every spin rather than every win, a long bonus gets more valuable towards the end. The game's intro screens show two different 'win up to' figures, so we haven't listed a max win. The RTP is 96.52%.",
+  "pros": [
+    "Above-average 96.52% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10fruity2&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/extra-juicy.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/extra-juicy-slot/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

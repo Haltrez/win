@@ -1,0 +1,59 @@
+{
+  "slug": "ronin-stackways",
+  "name": "Ronin Stackways",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.35,
+  "rtpVariants": [
+    94.33,
+    92.24,
+    88.23
+  ],
+  "volatility": "medium-low",
+  "maxWin": 5000,
+  "releaseDate": null,
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "winType": "100,000 Ways",
+  "mechanics": [
+    "ways",
+    "expanding-symbols",
+    "free-spins"
+  ],
+  "themes": [
+    "asian",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Stackways",
+      "description": "Fill reels with 2–4 or 5–10 identical symbols."
+    },
+    {
+      "name": "Win-based stacking",
+      "description": "Stacks only when it creates a win."
+    },
+    {
+      "name": "Stack Spins bonus",
+      "description": "10 free spins with improved Stackways odds."
+    }
+  ],
+  "review": "Ronin Stackways is a feudal Japan adventure using Hacksaw's Stackways mechanic, with up to 100,000 ways. Normal Stackways symbols fill a reel with 2 to 4 identical symbols, while the revealing kind stacks 5 to 10 high.\n\nStacking only happens if it creates at least one win, and the symbol is chosen by the longest win available. Three FS symbols start the Stack Spins bonus with 10 free spins and better odds of Stackways symbols. Unusually for Hacksaw, it's rated 2 out of 5 for volatility, which makes it one of the studio's gentler games, with a 5,000x maximum. The top RTP is 96.35%. A good introduction to Hacksaw if you find its usual titles too punishing.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 88.23% RTP",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1267/{version}/index.html?language=en&channel=desktop&gameid=1267&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/ronin-stackways.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/ronin-stackways"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "bonanza-billion-xtreme",
+  "name": "Bonanza Billion Xtreme",
+  "provider": "bgaming",
+  "rtp": 96.97,
+  "volatility": "very-high",
+  "maxWin": 20000,
+  "releaseDate": "2026-03-10",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 2.6,
+  "bonusRate": 395.35,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fruit"
+  ],
+  "features": [
+    {
+      "name": "Cascading fruit grid",
+      "description": "Pay-anywhere tumbles with fruit and rainbow symbols."
+    },
+    {
+      "name": "Golden bomb multipliers",
+      "description": "Explosive multipliers that boost tumble sequences."
+    },
+    {
+      "name": "Super Free Spins",
+      "description": "An enhanced bonus mode alongside regular free spins."
+    }
+  ],
+  "review": "Bonanza Billion Xtreme is a high-volatility version of BGaming's fruit cascade series. Fruits and rainbow symbols tumble across the reels, and it adds explosive golden bomb multipliers plus a Super Free Spins mode to the familiar Bonanza Billion mechanics.\n\nThe design aims for big multiplier moments, and BGaming raises the ceiling accordingly to 20,000x, the highest in the Bonanza family. Free spins arrive roughly once every 395 spins on average, so most sessions spend a long time in the base game waiting for the bonus. The RTP is 96.97%. If you enjoyed Bonanza Billion but want more upside (and more risk), this is the version to try in demo.",
+  "pros": [
+    "Above-average 96.97% RTP",
+    "High 20,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus is rare (about 1 in 395 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BonanzaBillionXtreme/FUN?server=demo",
+  "image": "/slots/bgaming/bonanza-billion-xtreme.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/bonanza-billion-xtreme"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

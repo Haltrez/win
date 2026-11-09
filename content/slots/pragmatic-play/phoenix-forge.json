@@ -1,0 +1,55 @@
+{
+  "slug": "phoenix-forge",
+  "name": "Phoenix Forge",
+  "provider": "pragmatic-play",
+  "rtp": 96.51,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2021-04-01",
+  "releaseDatePrecision": "month",
+  "reels": "3x5",
+  "mechanics": [
+    "paylines",
+    "tumble",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy",
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Tumbling paylines",
+      "description": "Winning symbols tumble away on a 3x5, 20-line grid."
+    },
+    {
+      "name": "Hot Spot Multipliers",
+      "description": "Winning cells are marked and their multipliers increase with every tumble."
+    },
+    {
+      "name": "Phoenix bonus",
+      "description": "Three or more phoenix symbols trigger free spins."
+    }
+  ],
+  "review": "Phoenix Forge is a 3x5, 20-payline slot with a tumble mechanic and a Hot Spot Multiplier feature. When winning symbols land, their cells are marked, and the multiplier on those positions increases with every tumble.\n\nThe Hot Spot Multiplier works in both the base game and free spins, and the phoenix bonus symbol triggers the bonus when three or more appear. Combining tumbles with hot spots on a standard line layout is less common than on cluster games. The advertised maximum is 5,000x and the RTP is 96.51%. A good option if you like position multipliers but prefer paylines to clusters.",
+  "pros": [
+    "Above-average 96.51% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20phoenixf&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/phoenix-forge.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/phoenix-forge/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

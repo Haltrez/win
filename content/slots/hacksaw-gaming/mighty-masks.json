@@ -1,0 +1,59 @@
+{
+  "slug": "mighty-masks",
+  "name": "Mighty Masks",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.3,
+  "rtpVariants": [
+    94.2,
+    92.26,
+    88.38
+  ],
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "releaseDatePrecision": "day",
+  "winType": "20 Paylines",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Mystery Masks",
+      "description": "Masks reveal paying symbols or wilds and spread down on 3+ reels."
+    },
+    {
+      "name": "Multiplier wheel",
+      "description": "The Nudge Wild spins a wheel that can nudge up to 50 times."
+    },
+    {
+      "name": "Serengeti Sunset",
+      "description": "Three or more FS symbols trigger the bonus."
+    }
+  ],
+  "review": "Mighty Masks takes you to the savannah with 20 paylines and animal masks. Mystery Mask symbols reveal either a paying symbol or a wild, and if masks land on three or more reels, they spread down to the bottom of their reels before revealing.\n\nThe Nudge Wild activates a multiplier wheel at the side that adds a global multiplier to the total win for that spin, and the wheel can nudge up to 50 times, increasing the multiplier with every nudge. Three or more FS symbols start the Serengeti Sunset bonus with enhanced features. Hacksaw gives it a 4 out of 5 volatility score and a 10,000x maximum. The top RTP is 96.3%.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 88.38% RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1305/{version}/index.html?language=en&channel=desktop&gameid=1305&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/mighty-masks.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/mighty-masks"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

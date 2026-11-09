@@ -1,0 +1,54 @@
+{
+  "slug": "golden-pride",
+  "name": "Golden Pride",
+  "provider": "bgaming",
+  "rtp": 96.0,
+  "volatility": "medium-high",
+  "maxWin": 15360,
+  "releaseDate": "2024-11-20",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "243 paylines",
+  "hitRate": 6.0,
+  "mechanics": [
+    "ways",
+    "expanding-wilds",
+    "respins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "243 ways",
+      "description": "A 5x3 grid paying across 243 ways."
+    },
+    {
+      "name": "Expanding lion wild",
+      "description": "Expands to fill its reel when it lands."
+    },
+    {
+      "name": "Progressive respins",
+      "description": "Non-winning respins raise a multiplier that can reach 1,024x."
+    }
+  ],
+  "review": "Golden Pride is a 5x3, 243-ways slot where a lion king defends his pride. The lion wild expands to cover its whole reel whenever it appears, helping to complete wins.\n\nIf the expanded lion doesn't help form a win, it starts a respin round instead. Each non-winning respin increases a progressive multiplier, which can reach 1,024x in this bonus challenge, so a long sequence without wins builds towards a large multiplied payout. BGaming rates the game medium-high volatility and lists a maximum multiplier of 15,360x. The RTP is 96%. The respin mechanic is an inventive twist: a miss in the base game sets up the bonus rather than wasting the wild.",
+  "pros": [
+    "High 15,360x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/GoldenPride/FUN?server=demo",
+  "image": "/slots/bgaming/golden-pride.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/golden-pride"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

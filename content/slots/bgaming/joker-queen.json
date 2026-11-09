@@ -1,0 +1,56 @@
+{
+  "slug": "joker-queen",
+  "name": "Joker Queen",
+  "provider": "bgaming",
+  "rtp": 95.87,
+  "volatility": "medium-high",
+  "maxWin": 1172,
+  "releaseDate": "2022-03-28",
+  "releaseDatePrecision": "day",
+  "winType": "40 paylines",
+  "hitRate": 3.64,
+  "mechanics": [
+    "paylines",
+    "respins",
+    "expanding-wilds",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "40 paylines",
+      "description": "A classic fruit layout."
+    },
+    {
+      "name": "Queen respins",
+      "description": "Three Joker Queens on reels 2–4 trigger respins with expanding queen wilds."
+    },
+    {
+      "name": "Chance x2 and buy",
+      "description": "Improve your odds or buy the feature where permitted."
+    }
+  ],
+  "review": "Joker Queen combines a classic fruit theme with a mysterious queen. It has 40 paylines, and its main feature is triggered when three Joker Queens land on reels 2, 3 and 4 in the base game.\n\nThat unlocks a series of respins in which the queen expands and acts as a wild on her reels throughout all respin rounds, creating wins across many lines. Respin, bonus buy and Chance x2 features are all tied to this theme. BGaming rates it medium-high volatility with a 1,172x maximum, a relatively low cap, and the RTP is 95.87%. A good fit for players who like fruit slots with one clear, recurring feature.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.87% RTP",
+    "Modest 1,172x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/JokerQueen/FUN?server=demo",
+  "image": "/slots/bgaming/joker-queen.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/joker-queen-branded"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

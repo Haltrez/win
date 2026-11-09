@@ -1,0 +1,59 @@
+{
+  "slug": "dropem",
+  "name": "Drop'em",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.21,
+  "rtpVariants": [
+    94.19,
+    92.26,
+    88.1
+  ],
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "releaseDatePrecision": "day",
+  "winType": "7,776 Ways",
+  "mechanics": [
+    "ways",
+    "cascades",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Drop mechanic",
+      "description": "The Drop symbol falls to the bottom and symbols above trickle down."
+    },
+    {
+      "name": "Matching refill",
+      "description": "Empty spaces fill with one random matching symbol, possibly wild."
+    },
+    {
+      "name": "7,776 ways",
+      "description": "Wins pay across up to 7,776 ways."
+    }
+  ],
+  "review": "Drop'em brings back Canny and Mona in a retro woodland setting with up to 7,776 ways and Hacksaw's Drop mechanic. When the Drop symbol lands, it falls to the bottom of the grid after current wins are paid, and every symbol above it trickles down.\n\nAll the empty spaces are then filled with one matching symbol chosen at random by Canny, shown beside the grid; in the base game, that can be any symbol, including the wild. If the new symbols form a win, it pays, and symbols that were already part of an earlier win count too. Bonus rounds build on the same mechanic. Hacksaw rates it 4 out of 5 with a 10,000x maximum and a top RTP of 96.21%.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 88.10% RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1314/{version}/index.html?language=en&channel=desktop&gameid=1314&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/dropem.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/drop-em"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

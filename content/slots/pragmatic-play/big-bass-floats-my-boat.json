@@ -1,0 +1,54 @@
+{
+  "slug": "big-bass-floats-my-boat",
+  "name": "Big Bass Floats My Boat",
+  "provider": "pragmatic-play",
+  "rtp": 96.07,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-01-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Random base-game collect",
+      "description": "Fish can be collected at random in the base game with a multiplier of up to 50x."
+    },
+    {
+      "name": "Position multipliers",
+      "description": "In free spins, each fish adds an increasing multiplier to its position."
+    },
+    {
+      "name": "Fisherman retriggers",
+      "description": "Every four fishermen award more free spins."
+    }
+  ],
+  "review": "Big Bass Floats My Boat adds a base-game feature and a position-based multiplier to the series. On the familiar 5x3, 10-line reels, landed fish can be collected at random during any spin, with the displayed prize multiplied by up to 50x. That gives the base game a reason to pay attention, which many Big Bass titles lack.\n\nThree or more scatters award up to 20 free spins. During the bonus, each fish that lands adds a growing multiplier to its reel position, so later fish landing on the same spot are worth more. Every four fisherman wilds award a retrigger. Pragmatic Play's page doesn't list a maximum win. The 96.07% RTP is in line with recent entries. It's one of the more inventive Big Bass variations.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10bbfloats&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/big-bass-floats-my-boat.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/big-bass-floats-my-boat/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

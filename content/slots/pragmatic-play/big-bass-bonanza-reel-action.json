@@ -1,0 +1,55 @@
+{
+  "slug": "big-bass-bonanza-reel-action",
+  "name": "Big Bass Bonanza – Reel Action",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 2100,
+  "releaseDate": "2024-05-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Classic free spins",
+      "description": "3–5 scatters award 10–20 free spins."
+    },
+    {
+      "name": "Money collection",
+      "description": "Fishermen collect the money values of all fish on screen."
+    },
+    {
+      "name": "Progressive multiplier",
+      "description": "Every four fishermen add spins and raise the multiplier, up to 10x."
+    }
+  ],
+  "review": "Big Bass Bonanza – Reel Action stays close to the 2020 original. It is a 5x3 slot with fishing lines, dragonflies and fish scatters, and its bonus is the classic collect-and-retrigger free spins round without extra layers.\n\nThree, four or five fish scatters award between 10 and 20 free spins. Money symbols land during the feature and the fisherman collects them. Every four fishermen grant more spins and lift the progressive multiplier, up to 10x after a dozen have landed. Pragmatic Play quotes a maximum of 2,100x from money symbols in free spins, which keeps the ceiling modest compared with newer series entries. That lower ceiling usually means steadier play. The RTP is 96.5%.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 2,100x max win",
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10bbbrlact&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/big-bass-bonanza-reel-action.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/big-bass-bonanza-reel-action/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

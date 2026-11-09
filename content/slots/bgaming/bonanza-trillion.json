@@ -1,0 +1,60 @@
+{
+  "slug": "bonanza-trillion",
+  "name": "Bonanza Trillion",
+  "provider": "bgaming",
+  "rtp": 97.17,
+  "volatility": "high",
+  "maxWin": 5000,
+  "releaseDate": "2025-09-11",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 3.19,
+  "bonusRate": 163.2,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "fruit",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Multipliers in every mode",
+      "description": "2x–500x multipliers in the base game and free spins."
+    },
+    {
+      "name": "Accumulating free spins",
+      "description": "15 free spins where multipliers from winning spins build up."
+    },
+    {
+      "name": "Three bonus buys",
+      "description": "Including starts with 50x or 100x multipliers."
+    }
+  ],
+  "review": "Bonanza Trillion is the sequel to Bonanza Billion, mixing ripe fruits and glowing crystals in a bright, mobile-first design. Symbols tumble away after wins, and multiplier symbols worth 2x to 500x can land in both the base game and free spins, adding together at the end of the refill sequence.\n\nFour or more scatters award 15 free spins, and three more during the round add five extra spins. In the bonus, multipliers accumulate across winning spins rather than resetting. There are three bonus buy options, including two that start with a 50x or 100x multiplier, plus Chance x2. BGaming rates it high volatility with a 5,000x maximum, and the 97.17% RTP is one of the highest in our database. Free spins arrive about once every 163 spins.",
+  "pros": [
+    "Excellent 97.17% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BonanzaTrillion/FUN?server=demo",
+  "image": "/slots/bgaming/bonanza-trillion.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/bonanza-trillion"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

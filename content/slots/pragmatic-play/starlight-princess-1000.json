@@ -1,0 +1,55 @@
+{
+  "slug": "starlight-princess-1000",
+  "name": "Starlight Princess 1000",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2023-07-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x6",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy",
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Tumble wins",
+      "description": "Winning symbols disappear and new ones fall into place, with no limit on consecutive tumbles."
+    },
+    {
+      "name": "2x–1,000x multipliers",
+      "description": "Multiplier symbols combine at the end of each tumble sequence and multiply its total win."
+    },
+    {
+      "name": "Free spins",
+      "description": "Four or more princess scatters trigger the bonus, where multipliers are collected into a total for the round."
+    }
+  ],
+  "review": "Starlight Princess 1000 takes Pragmatic Play's anime-styled pay-anywhere slot and widens its multiplier range. Colourful gems and charms fill a 6x5 grid, and any eight matching symbols anywhere on the board form a win before tumbling away so new symbols can drop in. There is no cap on consecutive tumbles, so a single paid spin can chain several wins together.\n\nMultiplier symbols worth between 2x and 1,000x can appear in the base game and the bonus. Their values are added together at the end of a tumble sequence and applied to that sequence's win. Four or more scatters, shown as the princess herself, trigger free spins in which collected multipliers build into a feature-wide total. The provider advertises wins of up to 5,000x the bet. In practice this plays almost identically to Gates of Olympus 1000, so choosing between them is mostly about which theme you prefer.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20starlightx&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/starlight-princess-1000.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/starlight-princess-1000/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

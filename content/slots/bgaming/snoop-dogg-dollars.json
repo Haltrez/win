@@ -1,0 +1,60 @@
+{
+  "slug": "snoop-dogg-dollars",
+  "name": "Snoop Dogg Dollars",
+  "provider": "bgaming",
+  "rtp": 96.0,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": "2024-10-30",
+  "releaseDatePrecision": "day",
+  "winType": "Cluster Pays",
+  "hitRate": 3.0,
+  "bonusRate": 321.0,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "music",
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Dug-up symbols",
+      "description": "Random scatter, wild, weed or skull symbols with special effects before refills."
+    },
+    {
+      "name": "Stacking cell multipliers",
+      "description": "Repeatedly winning cells gain 2x multipliers that stack."
+    },
+    {
+      "name": "Sticky 10x wilds",
+      "description": "Wilds stick and gain 10x multipliers on marked cells."
+    }
+  ],
+  "review": "Snoop Dogg Dollars is an officially licensed cluster slot built around the rapper. Before each refill sequence, a scatter, wild, weed or skull symbol can be randomly 'dug up', each with its own effect: some clear out low-paying symbols to force a refill, others boost multipliers.\n\nEven without bonus symbols, cells that win repeatedly gain stacking 2x multipliers. Wilds are sticky through the refill and the bonus, gaining 10x multipliers on marked cells and another 10x each time they add more wins. Three or more scatters award 10, 12, 15 or 20 free spins and turn into sticky wilds or 10x cell multipliers. There's a four-option bonus buy where permitted. BGaming rates it very high volatility with a 10,000x maximum and a 96% RTP.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus is rare (about 1 in 321 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/SnoopDoggDollars/FUN?server=demo",
+  "image": "/slots/bgaming/snoop-dogg-dollars.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/snoop-dogg-dollars"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

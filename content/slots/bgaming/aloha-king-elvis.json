@@ -1,0 +1,62 @@
+{
+  "slug": "aloha-king-elvis",
+  "name": "Aloha King Elvis",
+  "provider": "bgaming",
+  "rtp": 94.98,
+  "volatility": "medium-high",
+  "maxWin": 2000,
+  "releaseDate": "2021-07-22",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "25 paylines",
+  "hitRate": 2.22,
+  "bonusRate": 209.0,
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "money-collect",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "music",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Coin Respin",
+      "description": "Six coins start three respins that reset with each new coin."
+    },
+    {
+      "name": "Line jackpots",
+      "description": "Filling 1–3 rows of coins wins 20x, 100x or 1,000x jackpots."
+    },
+    {
+      "name": "Collect symbol",
+      "description": "Gathers the value of all coins on screen."
+    }
+  ],
+  "review": "Aloha King Elvis is the sequel to Elvis Frog in Vegas, taking the frog to Hawaii. It's a 5x3, 25-line slot with free spins, a Coin Respin feature and jackpots.\n\nSix or more coins trigger a coin-only bonus with three respins; each new coin resets the count and all coins stay until the end. Filling one, two or three horizontal lines with coins wins the Mini (20x), Major (100x) or Mega (1,000x) jackpot, and a random Collect symbol can gather the value of every coin on screen. Three scatters on reels 1, 3 and 5 trigger free spins. Chance x2.5 and a bonus buy are available where permitted. BGaming rates it medium-high volatility with a 2,000x maximum. The RTP is 94.98%.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.98% RTP",
+    "Modest 2,000x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/AlohaKingElvis/FUN?server=demo",
+  "image": "/slots/bgaming/aloha-king-elvis.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/aloha-king-elvis"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

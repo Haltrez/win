@@ -1,0 +1,60 @@
+{
+  "slug": "densho",
+  "name": "Densho",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.4,
+  "rtpVariants": [
+    94.38,
+    92.33,
+    88.34
+  ],
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "releaseDatePrecision": "day",
+  "winType": "10 Paylines",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Wild multiplier reels",
+      "description": "Densho symbols expand into wild reels when that completes a win."
+    },
+    {
+      "name": "Three grades",
+      "description": "Each Densho type has its own multiplier range; values are summed."
+    },
+    {
+      "name": "Progress trackers",
+      "description": "In free spins, filling a reel's tracker raises its minimum Densho grade."
+    }
+  ],
+  "review": "Densho is a watercolour Asian adventure on 10 paylines. Its namesake symbols expand into wild multiplier reels if they pass through one or more winning lines after expanding.\n\nThere are three grades of Densho symbol, each with a different multiplier range, and if several are part of the same win their values are added together. In free spins, progress trackers sit above each reel showing the minimum grade of Densho symbol that can land there; landing Densho symbols fills the tracker and raises that minimum, so the bonus improves as it goes. Hacksaw rates it 4 out of 5 with a 10,000x maximum. The top RTP is 96.4%, with lower versions available to operators.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 88.34% RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1348/{version}/index.html?language=en&channel=desktop&gameid=1348&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/densho.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/densho"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

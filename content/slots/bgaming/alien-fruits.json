@@ -1,0 +1,59 @@
+{
+  "slug": "alien-fruits",
+  "name": "Alien Fruits",
+  "provider": "bgaming",
+  "rtp": 95.97,
+  "volatility": "high",
+  "maxWin": 15000,
+  "releaseDate": "2023-04-13",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 2.59,
+  "bonusRate": 395.0,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fruit",
+    "space",
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Refilling reels",
+      "description": "Wins clear and the reels refill for possible chains."
+    },
+    {
+      "name": "Spaceship scatter",
+      "description": "The fruits' ship triggers free spins."
+    },
+    {
+      "name": "Teleportal multipliers",
+      "description": "2x–100x multipliers applied to the sequence win in the bonus."
+    }
+  ],
+  "review": "Alien Fruits is a sci-fi spin on the Bonanza engine, starring five quirky fruit characters (avocado, plum, pomegranate, lemon and passionfruit) visiting from another planet. Refilling reels let wins chain together, and the fruits' flying ship is the scatter.\n\nIn free spins, a multiplier teleportal generates a random multiplier from 2x to 100x and applies it to the total win of the refill sequence. A bonus buy is available where permitted. BGaming rates it high volatility with a 15,000x maximum and a 95.97% RTP. Free spins arrive around once every 395 spins on average. It's the same core design as Bonanza Billion, with a more playful presentation.",
+  "pros": [
+    "High 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.97% RTP",
+    "High volatility makes sessions swingy",
+    "Bonus is rare (about 1 in 395 spins on average)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/AlienFruits/FUN?server=demo",
+  "image": "/slots/bgaming/alien-fruits.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/alien-fruits"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

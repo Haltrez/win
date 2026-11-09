@@ -1,0 +1,53 @@
+{
+  "slug": "wbc-ring-of-riches",
+  "name": "WBC Ring Of Riches",
+  "provider": "bgaming",
+  "rtp": 94.96,
+  "volatility": "medium-high",
+  "maxWin": 3165,
+  "releaseDate": "2021-05-27",
+  "releaseDatePrecision": "day",
+  "winType": "20 paylines",
+  "hitRate": 7.8,
+  "bonusRate": 166.0,
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Glove frames",
+      "description": "Gloves frame their positions; after a 10-spin cycle frames turn into wilds."
+    },
+    {
+      "name": "Sticky glove wilds",
+      "description": "In free spins every glove becomes a sticky wild."
+    },
+    {
+      "name": "10 free spins",
+      "description": "Three scatters trigger the bonus."
+    }
+  ],
+  "review": "WBC Ring of Riches is a boxing slot made with the World Boxing Council. It plays on 5x3 reels with 20 paylines, and three scatters award 10 free spins.\n\nDuring the bonus, every glove symbol that appears turns into a sticky wild until the free spins end. The base game has a framing mechanic: each glove frames its position, framed positions stay fixed for a 10-spin cycle and then turn into wilds, and a glove landing on an already-framed position has an extra effect. That gives the base game a reason to track where gloves have landed. BGaming rates it medium-high volatility with a 3,165x maximum. The RTP is 94.96%, and free spins arrive about once every 166 spins.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.96% RTP",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/WbcRingOfRiches/FUN?server=demo",
+  "image": "/slots/bgaming/wbc-ring-of-riches.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/wbc-ring-of-riches"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "bone-bonanza",
+  "name": "Bone Bonanza",
+  "provider": "bgaming",
+  "rtp": 96.0,
+  "volatility": "high",
+  "maxWin": 14134,
+  "releaseDate": "2023-09-14",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 2.6,
+  "bonusRate": 332.0,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Pay anywhere",
+      "description": "Bonanza-style refilling reels."
+    },
+    {
+      "name": "Level-based free spins",
+      "description": "Levels raise the multiplier as you progress."
+    },
+    {
+      "name": "Collection goal",
+      "description": "Wins with new low-paying symbols advance the level."
+    }
+  ],
+  "review": "Bone Bonanza is another member of BGaming's Bonanza family, with a playful skeleton theme. Its distinguishing feature is a level system in free spins.\n\nFree spins have levels starting from zero, and the level sets the multiplier: the higher the level, the bigger the multiplier. You progress by landing wins with low-paying symbols that haven't yet appeared in the round, which creates a collection goal and a reason to watch every symbol. Chance x2 and a bonus buy are available where permitted, and the next spin after a buy triggers the bonus. BGaming rates it high volatility with a 14,134x maximum and a 96% RTP. Free spins arrive about once every 332 spins.",
+  "pros": [
+    "High 14,134x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus is rare (about 1 in 332 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BoneBonanza/FUN?server=demo",
+  "image": "/slots/bgaming/bone-bonanza.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/bone-bonanza"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

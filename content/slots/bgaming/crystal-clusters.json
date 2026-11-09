@@ -1,0 +1,59 @@
+{
+  "slug": "crystal-clusters",
+  "name": "Crystal Clusters",
+  "provider": "bgaming",
+  "rtp": 96.5,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2025-08-25",
+  "releaseDatePrecision": "day",
+  "reels": "7x7",
+  "winType": "Cluster Pays",
+  "hitRate": 2.61,
+  "bonusRate": 273.3,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier",
+    "bonus-buy"
+  ],
+  "themes": [
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Exploding clusters",
+      "description": "Gem clusters explode and multipliers rise with each explosion."
+    },
+    {
+      "name": "Locked multipliers",
+      "description": "Multipliers persist during free spins."
+    },
+    {
+      "name": "10–30 free spins",
+      "description": "More scatters award more spins."
+    }
+  ],
+  "review": "Crystal Clusters is a cluster slot on a rectangular grid where glowing gems link up and explode. Multipliers rise with every explosion, so long chain reactions are rewarded.\n\nThree or more scatters start free spins, and each reel can hold only one scatter. Three scatters give 10 free spins, and more scatters give 12, 15, 20 or 30. During the bonus, multipliers are locked in, so later cascades benefit from what has already built up. A bonus buy is available where permitted. BGaming rates it very high volatility with a 5,000x maximum and a 96.5% RTP. Free spins arrive about once every 273 spins.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/CrystalClusters/FUN?server=demo",
+  "image": "/slots/bgaming/crystal-clusters.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/crystal-clusters"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

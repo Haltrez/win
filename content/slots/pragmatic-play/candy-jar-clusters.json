@@ -1,0 +1,55 @@
+{
+  "slug": "candy-jar-clusters",
+  "name": "Candy Jar Clusters",
+  "provider": "pragmatic-play",
+  "rtp": 96.08,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2023-11-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "jackpot"
+  ],
+  "themes": [
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "Six-symbol clusters",
+      "description": "Clusters of six or more adjacent candies pay."
+    },
+    {
+      "name": "Random multiplier",
+      "description": "A multiplier up to 100x can be added to all wins in a spin."
+    },
+    {
+      "name": "Feature jars",
+      "description": "Collected candies can trigger free spins, retriggers or one of five jackpots."
+    }
+  ],
+  "review": "Candy Jar Clusters is a cluster game where six or more adjacent sweets are needed for a win, one more than many cluster slots. Cakes, jellies and doughnuts are the top symbols, wilds substitute for everything in the base game, and winning symbols cascade away.\n\nAt random during any spin, a multiplier up to 100x can be applied to all wins and tumbles. Candy symbols in winning clusters are collected in feature jars, and when a jar fills, it can trigger free spins with wild multipliers, retriggers, or one of five jackpots. Each bonus can award up to 14 free spins. The advertised maximum is 10,000x and the RTP is 96.08%. The jar system gives you a visible goal during the base game.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20cjcluster&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/candy-jar-clusters.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/candy-jar-clusters/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

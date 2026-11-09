@@ -1,0 +1,54 @@
+{
+  "slug": "big-bass-return-to-the-races",
+  "name": "Big Bass Return to the Races",
+  "provider": "pragmatic-play",
+  "rtp": 96.07,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2025-01-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "fishing",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Card pick",
+      "description": "Choose one of 12 cards to enter Free Spins or Golden Cup Free Spins."
+    },
+    {
+      "name": "Golden Cup Free Spins",
+      "description": "Only money symbols, wilds and blanks land, starting with 10 spins."
+    },
+    {
+      "name": "Retrigger levels",
+      "description": "Every fourth wild adds 10 spins and raises the multiplier to 2x, 3x and 10x."
+    }
+  ],
+  "review": "Big Bass Return to the Races brings back the horse-racing theme with a two-path bonus. Three to five scatters trigger the feature, and two scatters can activate a random effect that adds a third. You then pick one of 12 cards, which decides whether you play regular Free Spins or Golden Cup Free Spins.\n\nRegular Free Spins work like classic Big Bass, with 10, 15 or 20 spins depending on scatters and wilds collecting all money symbols on screen. Golden Cup Free Spins empty the reels of everything except money symbols, wilds and blanks, which concentrates the action, and always start with 10 spins. In both, every fourth wild adds 10 spins at a higher multiplier: 2x, 3x and then 10x. The 96.07% RTP is the series' lower common setting, and no max win is published on the page.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10bbrttr&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/big-bass-return-to-the-races.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/big-bass-return-to-the-races/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

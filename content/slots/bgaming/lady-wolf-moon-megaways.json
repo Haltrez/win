@@ -1,0 +1,61 @@
+{
+  "slug": "lady-wolf-moon-megaways",
+  "name": "Lady Wolf Moon Megaways",
+  "provider": "bgaming",
+  "rtp": 96.75,
+  "volatility": "very-high",
+  "maxWin": 6000,
+  "releaseDate": "2022-07-07",
+  "releaseDatePrecision": "day",
+  "winType": "Megaways",
+  "hitRate": 3.42,
+  "bonusRate": 136.0,
+  "mechanics": [
+    "megaways",
+    "ways",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "animals",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Megaways refills",
+      "description": "Changing ways with a refill feature for consecutive wins."
+    },
+    {
+      "name": "2x wilds",
+      "description": "Wilds substitute with a 2x multiplier."
+    },
+    {
+      "name": "Wheel of Fortune",
+      "description": "Decides the number of free spins and the round multiplier."
+    }
+  ],
+  "review": "Lady Wolf Moon Megaways takes the moonlit wolf onto a Megaways grid, adding a refilling feature that can create consecutive wins from one spin. Wilds carry 2x multipliers and scatters lead to free spins.\n\nThe free spins are set by a Wheel of Fortune, which decides both the number of spins and a multiplier for the round, so each bonus begins differently. A bonus buy (using the wheel) and a Chance x2 option are available where permitted, but not together. BGaming rates this version very high volatility, a big step up from the original's medium rating, with a 6,000x maximum. The RTP is 96.75%. Free spins arrive about once every 136 spins on average.",
+  "pros": [
+    "Above-average 96.75% RTP",
+    "Bonus lands relatively often (about 1 in 136 spins on average)",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/LuckyLadyMoonMegaways/FUN?server=demo",
+  "image": "/slots/bgaming/lady-wolf-moon-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/lady-wolf-moon-megaways"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

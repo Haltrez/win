@@ -1,0 +1,56 @@
+{
+  "slug": "book-of-kemet",
+  "name": "Book of Kemet",
+  "provider": "bgaming",
+  "rtp": 94.94,
+  "volatility": "very-high",
+  "maxWin": 7500,
+  "releaseDate": "2023-03-09",
+  "releaseDatePrecision": "day",
+  "winType": "10 paylines",
+  "hitRate": 3.42,
+  "bonusRate": 173.0,
+  "mechanics": [
+    "paylines",
+    "expanding-symbols",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "egypt"
+  ],
+  "features": [
+    {
+      "name": "Expanding symbol",
+      "description": "Pays on non-adjacent reels during free spins."
+    },
+    {
+      "name": "More symbols per retrigger",
+      "description": "Each retrigger adds another expanding symbol, up to nine."
+    },
+    {
+      "name": "Double chance and buy",
+      "description": "Increase trigger odds or buy the bonus where permitted."
+    }
+  ],
+  "review": "Book of Kemet is BGaming's Egyptian book slot with a retrigger twist. It uses 10 paylines, and the book symbol substitutes for any symbol while also paying in any position.\n\nThree or more scatters award 10 free spins with a random expanding symbol that covers its reel and pays even on non-adjacent positions. Every retrigger adds another expanding symbol, up to a maximum of nine, and retriggers are unlimited. That gives long bonuses an escalating feel that standard book games lack. A double chance option and a bonus buy (with a set number of expanding symbols) are available where permitted. BGaming rates it very high volatility with a 7,500x maximum. The RTP is 94.94%.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.94% RTP",
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BookOfKemet/FUN?server=demo",
+  "image": "/slots/bgaming/book-of-kemet.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/book-of-kemet"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

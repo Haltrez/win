@@ -1,0 +1,60 @@
+{
+  "slug": "book-of-cats-megaways",
+  "name": "Book of Cats Megaways",
+  "provider": "bgaming",
+  "rtp": 97.07,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": "2022-11-03",
+  "releaseDatePrecision": "day",
+  "winType": "Megaways",
+  "hitRate": 4.03,
+  "bonusRate": 189.17,
+  "mechanics": [
+    "megaways",
+    "ways",
+    "expanding-symbols",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "egypt",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Megaways",
+      "description": "Up to 117,649 ways to win."
+    },
+    {
+      "name": "Book multipliers",
+      "description": "The Book wild adds a random multiplier to a spin's total win in free spins."
+    },
+    {
+      "name": "Expanding symbol on any reel",
+      "description": "Pays even on non-adjacent reels; two bonus buy options."
+    }
+  ],
+  "review": "Book of Cats Megaways moves Bastet's cats onto a Megaways grid with up to 117,649 ways. The Book is both wild and scatter, and in free spins it applies a random multiplier to the total win of a spin.\n\nFree spins include an expanding symbol that pays even on non-adjacent reels, which isn't typical for Megaways. There are two bonus buy options: regular free spins, or free spins with a assured high-paying expanding symbol at a higher price. BGaming rates the game very high volatility with a 10,000x maximum and a 97.07% RTP, one of the highest here. Free spins arrive about once every 189 spins on average. A stronger, swingier upgrade to the original.",
+  "pros": [
+    "Excellent 97.07% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BookOfCatsMegaways/FUN?server=demo",
+  "image": "/slots/bgaming/book-of-cats-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/book-of-cats-megaways"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "chaos-crew-2",
+  "name": "Chaos Crew 2",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.27,
+  "rtpVariants": [
+    94.22,
+    92.41,
+    88.28
+  ],
+  "volatility": "very-high",
+  "maxWin": 20000,
+  "releaseDate": null,
+  "releaseDatePrecision": "day",
+  "reels": "5x5",
+  "winType": "19 Paylines",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Random base-game drop",
+      "description": "An instant mini-bonus that can trigger at random in the base game."
+    },
+    {
+      "name": "Cranky multiplier wilds",
+      "description": "Cranky substitutes and applies multipliers to his wins."
+    },
+    {
+      "name": "20,000x maximum",
+      "description": "Double the original game's ceiling."
+    }
+  ],
+  "review": "Chaos Crew 2 brings back punk duo Cranky and Sketchy with new features, higher volatility and, at the time, Hacksaw's biggest max win. It plays on 19 paylines.\n\nA new drop feature can appear at random in the base game, giving an instant taste of the original game's bonus: special symbols land and reveal their values, then play returns to the base game. Cranky the cat acts as a wild carrying multiplier values that apply to wins he forms. Hacksaw rates the game 5 out of 5 for volatility with a 20,000x maximum. The top RTP is 96.27%, and lower versions down to 88.28% exist. If you enjoyed Chaos Crew, this is a much more intense follow-up.",
+  "pros": [
+    "High 20,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 88.28% RTP",
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1352/{version}/index.html?language=en&channel=desktop&gameid=1352&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/chaos-crew-2.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/chaos-crew-2"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

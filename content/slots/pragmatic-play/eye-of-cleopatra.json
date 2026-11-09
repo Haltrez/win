@@ -1,0 +1,52 @@
+{
+  "slug": "eye-of-cleopatra",
+  "name": "Eye of Cleopatra",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2022-04-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "free-spins"
+  ],
+  "themes": [
+    "egypt"
+  ],
+  "features": [
+    {
+      "name": "5x4 grid",
+      "description": "Four rows give more space than a classic 5x3 game."
+    },
+    {
+      "name": "Wild symbols",
+      "description": "Wilds substitute to help complete wins."
+    },
+    {
+      "name": "Egyptian theme",
+      "description": "Pharaohs, snakes and birds of ancient Egypt."
+    }
+  ],
+  "review": "Eye of Cleopatra is a 5x4 Egyptian slot featuring pharaohs, snakes and birds. Wilds substitute for other symbols to help form wins, and Pragmatic Play describes the game as highly volatile.\n\nThe provider's page and the game's own screens give different maximum win figures, so we have not listed one until we can confirm it. The RTP is 96.5%. The official description doesn't explain the bonus in detail, so the demo is the best place to see how its features work before you decide. It's a straightforward option if you're looking for an Egyptian slot with a taller 5x4 grid.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs40cleoeye&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/eye-of-cleopatra.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/eye-of-cleopatra/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

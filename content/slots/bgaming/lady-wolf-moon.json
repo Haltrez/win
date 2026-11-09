@@ -1,0 +1,56 @@
+{
+  "slug": "lady-wolf-moon",
+  "name": "Lady Wolf Moon",
+  "provider": "bgaming",
+  "rtp": 97.09,
+  "volatility": "medium",
+  "maxWin": 4684,
+  "releaseDate": "2020-12-21",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "10 paylines",
+  "hitRate": 3.9,
+  "bonusRate": 156.0,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins",
+    "gamble"
+  ],
+  "themes": [
+    "animals",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "2x wilds",
+      "description": "Wilds substitute and double the wins they complete."
+    },
+    {
+      "name": "3x free spins",
+      "description": "15 free spins with all wins tripled and unlimited retriggers."
+    },
+    {
+      "name": "Card gamble",
+      "description": "Guess a colour or suit to double a win."
+    }
+  ],
+  "review": "Lady Wolf Moon is a 5x3, 10-line BGaming slot built around a mystical moonlit wolf. The wild substitutes for regular symbols and doubles any win it completes, which gives the base game a little extra punch.\n\nThree or more scatters award 15 free spins with every win multiplied by 3, and the feature can be retriggered without limit. An optional card gamble after any base-game win lets you guess a colour or suit to double the prize. BGaming rates it medium volatility with a 4,684x maximum, and the RTP of 97.09% is excellent. Free spins arrive roughly once every 156 spins on average. It's a balanced game that suits longer sessions.",
+  "pros": [
+    "Excellent 97.09% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/LuckyLadyMoon/FUN?server=demo",
+  "image": "/slots/bgaming/lady-wolf-moon.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/lady-wolf-moon-branded"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

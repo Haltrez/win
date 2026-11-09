@@ -1,0 +1,53 @@
+{
+  "slug": "vampy-party",
+  "name": "Vampy Party",
+  "provider": "pragmatic-play",
+  "rtp": 96.0,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2024-09-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "ways",
+    "tumble",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "3,600 ways",
+      "description": "A six-reel layout with tumbling wins."
+    },
+    {
+      "name": "Doubling multiplier",
+      "description": "Each consecutive tumble doubles the multiplier, up to 1,024x."
+    },
+    {
+      "name": "Marked wilds",
+      "description": "Marked symbols on reels 3 and 4 become wild for the next tumble after a win."
+    }
+  ],
+  "review": "Vampy Party is a six-reel, 3,600-ways slot starring a funky vampire and his bat sidekick. It uses tumbles, and marked symbols on reels three and four turn wild for the next tumble if they're part of a win.\n\nThe headline feature is the doubling multiplier: each consecutive tumble doubles the multiplier applied to wins, up to 1,024x, and it resets when the tumbles stop. Three or more scatters award 12 free spins, where the multiplier starts at 8x or higher depending on the scatter count. Pragmatic Play advertises a 5,000x maximum. The RTP is 96%. Doubling multipliers can escalate fast, but most sequences end after one or two tumbles.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswayswbounty&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/vampy-party.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/vampy-party/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

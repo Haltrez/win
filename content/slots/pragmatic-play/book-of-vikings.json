@@ -1,0 +1,55 @@
+{
+  "slug": "book-of-vikings",
+  "name": "Book of Vikings",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 5500,
+  "releaseDate": "2021-06-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "expanding-symbols",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology",
+    "history",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "10 paylines",
+      "description": "A classic 5x3 book layout."
+    },
+    {
+      "name": "Expanding symbol",
+      "description": "A random symbol expands across reels during free spins."
+    },
+    {
+      "name": "Norse theme",
+      "description": "Vikings, longships and helmets replace the usual Egyptian icons."
+    }
+  ],
+  "review": "Book of Vikings takes the book mechanic to Scandinavian seas. It is a 5x3, 10-payline slot with Viking helmets, longships and warriors, plus a book symbol that triggers the bonus.\n\nFree spins feature an expanding symbol, chosen at the start of the round, which spreads across whole reels to complete wins on any line. There are no unusual extras: the game relies on the classic format. In-game information advertises a maximum of 5,500x, slightly higher than many book slots. The RTP is 96.5%. A good choice if you like book games but want a Norse theme instead of Egypt.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10bookviking&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/book-of-vikings.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/book-of-vikings/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

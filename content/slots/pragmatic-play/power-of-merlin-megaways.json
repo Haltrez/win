@@ -1,0 +1,56 @@
+{
+  "slug": "power-of-merlin-megaways",
+  "name": "Power of Merlin Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.08,
+  "volatility": null,
+  "maxWin": 40000,
+  "releaseDate": "2023-06-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "tumble",
+    "free-spins",
+    "progressive-multiplier",
+    "gamble",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Lightning Bolt",
+      "description": "Replaces random symbols with wilds."
+    },
+    {
+      "name": "Spin gamble",
+      "description": "Gamble for additional free spins before the bonus."
+    },
+    {
+      "name": "Growing multiplier",
+      "description": "Every tumble in free spins adds 1x to a multiplier that doesn't reset."
+    }
+  ],
+  "review": "Power of Merlin Megaways uses tumbling wins and wild-making features on an elemental magic theme. Winning symbols disappear and are replaced until no new wins form. A fiery wild can land on any spin, and the Lightning Bolt feature replaces random symbols with extra wilds.\n\nFour or more scatters trigger free spins, with the option to gamble for more games. Every tumble in the bonus adds 1x to the round's multiplier, and that multiplier doesn't reset, so a long bonus can build up a large multiplier. The advertised maximum is 40,000x. The RTP is 96.08%. Gambling for extra spins can lengthen the round but risks the spins you already have, so it's worth testing in demo first.",
+  "pros": [
+    "High 40,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswayspowzeus&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/power-of-merlin-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/power-of-merlin-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

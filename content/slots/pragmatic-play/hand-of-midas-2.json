@@ -1,0 +1,53 @@
+{
+  "slug": "hand-of-midas-2",
+  "name": "Hand of Midas 2",
+  "provider": "pragmatic-play",
+  "rtp": 96.07,
+  "volatility": null,
+  "maxWin": 8000,
+  "releaseDate": "2024-06-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Multiplier wilds",
+      "description": "Wilds land as 1x or with multipliers up to 10x, all collected and applied."
+    },
+    {
+      "name": "Mini-reel spin count",
+      "description": "Three mini reels decide the number of free spins."
+    },
+    {
+      "name": "Sticky bonus",
+      "description": "Wilds stick and multipliers keep accumulating in free spins."
+    }
+  ],
+  "review": "Hand of Midas 2 returns to King Midas's underworld on a 5x3 grid. Treasure chests, chalices and the king's golden daughter make up the symbols, and wilds can appear individually as 1x or with multipliers up to 10x. Every wild's multiplier is collected and applied to the total win.\n\nThree or more golden-hand scatters trigger free spins. Before the bonus, three mini reels spin to reveal values from one to three, and their total sets the number of spins. In the round, wilds are sticky and multipliers don't reset, so they keep accumulating throughout. The advertised maximum is 8,000x. The RTP is 96.07%. Sticky wilds with persistent multipliers give the bonus real upside.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20midas2&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/hand-of-midas-2.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/hand-of-midas-2/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

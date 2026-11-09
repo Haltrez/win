@@ -1,0 +1,58 @@
+{
+  "slug": "gold-rush-johnny-cash",
+  "name": "Gold Rush – Johnny Cash",
+  "provider": "bgaming",
+  "rtp": 96.14,
+  "volatility": "very-high",
+  "maxWin": 5624,
+  "releaseDate": "2022-06-16",
+  "releaseDatePrecision": "day",
+  "winType": "25 paylines",
+  "hitRate": 2.39,
+  "bonusRate": 182.0,
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Gold Respin",
+      "description": "Six coins trigger a coin-only bonus starting with six respins."
+    },
+    {
+      "name": "Plus spin symbols",
+      "description": "Add extra respins during the coin bonus."
+    },
+    {
+      "name": "Coin jackpot",
+      "description": "Collecting 15 coins wins a jackpot up to 5,000x."
+    }
+  ],
+  "review": "Gold Rush – Johnny Cash sends the cowboy underground as a gold digger. Alongside traditional free spins and wilds on a 5x3, 25-line layout, it adds a Gold Respin coin feature.\n\nSix or more coins trigger the Bonus game, where only coins worth 1x to 20x the bet can land. You start with six respins, and 'Plus spin' symbols add extra respins. Collecting 15 coins wins the jackpot of up to 5,000x. Both free spins and Gold Respin can be bought where permitted. BGaming rates the game very high volatility with a 5,624x maximum. The RTP is 96.14%, and free spins come along roughly once every 182 spins on average.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/GoldRushWithJohnny/FUN?server=demo",
+  "image": "/slots/bgaming/gold-rush-johnny-cash.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/gold-rush-with-johnny-cash"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

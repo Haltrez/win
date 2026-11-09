@@ -1,0 +1,56 @@
+{
+  "slug": "big-bass-vegas-double-down-deluxe",
+  "name": "Big Bass Vegas Double Down Deluxe",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-08-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "multipliers",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Dynamite feature",
+      "description": "A collector landing with no cash on screen replaces the bottom reels with cash."
+    },
+    {
+      "name": "Bazooka",
+      "description": "Turns symbols into cash when the fisherman lands without fish."
+    },
+    {
+      "name": "Retriggers",
+      "description": "Every fourth fisherman awards 10 more spins and a higher multiplier."
+    }
+  ],
+  "review": "Big Bass Vegas Double Down Deluxe trades the river for the Las Vegas strip, with neon signs filling the 5x3 reels. The fisherman returns as both a wild and the collector of cash symbols. At least three scatters award up to 20 free spins, and two scatters can trigger a random feature to try for a third.\n\nThe bonus has two notable additions. If a collector lands with no cash on the grid, the dynamite feature replaces the bottom reels with cash symbols. If the fisherman lands with no fish showing, the bazooka can turn symbols into cash. Every fourth fisherman retriggers 10 spins and steps up the multiplier. These rescue features make empty bonus spins less common. The RTP is 96.5%, and the game page doesn't list a max win.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10bbdoubled&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/big-bass-vegas-double-down-deluxe.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/big-bass-double-down-deluxe/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

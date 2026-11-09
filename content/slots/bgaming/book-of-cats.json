@@ -1,0 +1,59 @@
+{
+  "slug": "book-of-cats",
+  "name": "Book Of Cats",
+  "provider": "bgaming",
+  "rtp": 96.99,
+  "volatility": "very-high",
+  "maxWin": 8202,
+  "releaseDate": "2020-07-08",
+  "releaseDatePrecision": "day",
+  "winType": "10 paylines",
+  "hitRate": 2.78,
+  "bonusRate": 140.0,
+  "mechanics": [
+    "paylines",
+    "expanding-symbols",
+    "free-spins",
+    "gamble",
+    "bonus-buy"
+  ],
+  "themes": [
+    "egypt",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Preview of the expanding symbol",
+      "description": "The expanding symbol is shown in a sixth cell during the base game."
+    },
+    {
+      "name": "10 free spins",
+      "description": "Three Golden Books award free spins with the chosen expanding symbol."
+    },
+    {
+      "name": "Gamble and bonus buy",
+      "description": "Optional card gamble after wins; bonus buy where permitted."
+    }
+  ],
+  "review": "Book of Cats is BGaming's book slot dedicated to Bastet, the Egyptian cat goddess. It uses 5x3 reels with 10 paylines, and the Golden Book serves as both wild and scatter.\n\nA twist on the usual format: during the base game, one symbol is selected at random and displayed in a sixth cell, so you know in advance which symbol will expand once the bonus starts. Three or more scatters award 10 free spins in which that symbol expands to fill its reel, and more scatters during the round add spins. An optional card gamble and a bonus buy are also available. BGaming rates it very high volatility with an 8,202x maximum. The 96.99% RTP is excellent, and free spins land around once every 140 spins on average.",
+  "pros": [
+    "Above-average 96.99% RTP",
+    "Bonus lands relatively often (about 1 in 140 spins on average)",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BookOfCats/FUN?server=demo",
+  "image": "/slots/bgaming/book-of-cats.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/book-of-cats-branded"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "lucky-lu",
+  "name": "Lucky Lu",
+  "provider": "bgaming",
+  "rtp": 96.07,
+  "volatility": "medium",
+  "maxWin": 559,
+  "releaseDate": "2025-05-14",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "winType": "5 paylines",
+  "hitRate": 12.28,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "irish",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "3x3 grid",
+      "description": "Five lines on a compact layout."
+    },
+    {
+      "name": "Pot of gold pick",
+      "description": "Choose one of five pots to reveal a bet multiplier up to 559x."
+    },
+    {
+      "name": "Bonus buy",
+      "description": "Buy the pick bonus where permitted."
+    }
+  ],
+  "review": "Lucky Lu is a tiny 3x3 Irish-luck slot with five lines and one pick-style bonus. Three bonus symbols on reels 1, 2 and 3 trigger it.\n\nThe bonus shows five pots of gold. You click one to reveal a multiplier that's applied to your bet, with a maximum of 559x. It's an all-or-nothing reveal rather than a series of free spins. The bonus can also be bought where permitted, with the next spin triggering it. BGaming rates the game medium volatility, and the RTP is 96.07%. It's about as simple as a modern slot gets, ideal for a quick demo session.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 559x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/LuckyLu/FUN?server=demo",
+  "image": "/slots/bgaming/lucky-lu.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/lucky-lu"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

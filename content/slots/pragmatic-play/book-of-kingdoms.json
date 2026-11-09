@@ -1,0 +1,58 @@
+{
+  "slug": "book-of-kingdoms",
+  "name": "Book of Kingdoms",
+  "provider": "pragmatic-play",
+  "rtp": 96.69,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2020-10-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "expanding-symbols",
+    "money-collect",
+    "respins",
+    "jackpot"
+  ],
+  "themes": [
+    "fantasy",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "25 paylines",
+      "description": "A 5x3 book-style layout."
+    },
+    {
+      "name": "Silver coin",
+      "description": "Can award the Mega Jackpot worth up to 1,000x or start Money Respins."
+    },
+    {
+      "name": "Money Respin",
+      "description": "All money symbol values are totalled and paid at the end."
+    }
+  ],
+  "review": "Book of Kingdoms combines a 5x3, 25-payline book slot with a money respin feature. The book symbol plays its usual role, while a silver coin adds a second route to wins.\n\nWhen it lands, the silver coin can either hit with the value of the Mega Jackpot, worth up to 1,000x your bet, or start the Money Respin feature, in which the values of all money symbols are added up and paid out. Having a jackpot element alongside the book mechanic gives the game more variety than a pure expanding-symbol slot. Pragmatic Play doesn't state an overall max win on the page. The RTP of 96.69% is one of the higher figures in this batch.",
+  "pros": [
+    "Above-average 96.69% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs25bkofkngdm&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/book-of-kingdoms.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/book-of-kingdoms/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

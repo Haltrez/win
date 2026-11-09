@@ -1,0 +1,56 @@
+{
+  "slug": "fortuna-trueways",
+  "name": "Fortuna Trueways",
+  "provider": "bgaming",
+  "rtp": 97.07,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": "2024-09-23",
+  "releaseDatePrecision": "day",
+  "winType": "Trueways",
+  "hitRate": 4.28,
+  "mechanics": [
+    "ways",
+    "expanding-wilds",
+    "hold-and-win",
+    "respins",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Expanded Fortuna wild",
+      "description": "Fortuna expands as a wild on reels 3–4."
+    },
+    {
+      "name": "Wheel of Fortune cells",
+      "description": "The wheel can split cells to add more ways."
+    },
+    {
+      "name": "Dynamic Prize",
+      "description": "Hold and Win pays a dynamic prize for 12 to 48 coins."
+    }
+  ],
+  "review": "Fortuna Trueways is set on Mount Olympus, where the goddess Fortuna spins her wheel. When she appears on reels 3 and 4 she becomes an expanded wild, and a Mystery symbol transforms into a random character before paying.\n\nThe Wheel of Fortune can split a cell into smaller ones, adding ways. The Hold and Win bonus awards a Dynamic Prize for holding between 12 and 48 coins, so the size of the coin grid matters. BGaming rates the game very high volatility with a 10,000x maximum and a 97.07% RTP. It has more mechanics than most Trueways games, so the demo is a good place to learn how they interact.",
+  "pros": [
+    "Excellent 97.07% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/FortunaTrueways/FUN?server=demo",
+  "image": "/slots/bgaming/fortuna-trueways.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/fortuna-trueways"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

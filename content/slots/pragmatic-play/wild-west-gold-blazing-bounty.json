@@ -1,0 +1,55 @@
+{
+  "slug": "wild-west-gold-blazing-bounty",
+  "name": "Wild West Gold Blazing Bounty",
+  "provider": "pragmatic-play",
+  "rtp": 96.48,
+  "volatility": null,
+  "maxWin": 7500,
+  "releaseDate": "2025-05-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x5",
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Multiplier wilds",
+      "description": "Wilds carry random multipliers up to 5x in the base game."
+    },
+    {
+      "name": "Tiered free spins",
+      "description": "Wild multipliers in the bonus depend on whether 3, 4 or 5 scatters triggered it."
+    },
+    {
+      "name": "Sticky wilds",
+      "description": "Wilds stay in place for the whole bonus."
+    }
+  ],
+  "review": "Wild West Gold Blazing Bounty is a 5x5 western slot where bounty hunters and multiplier wilds do the heavy lifting. In the base game, wilds land with random multipliers of up to 5x.\n\nThree or more scatters trigger 10 free spins, and the number of scatters decides how strong the wilds are: 2x–5x with three, 2x–10x with four, and 10x–25x with five. Wilds are sticky throughout the bonus, so a five-scatter trigger with early wilds can escalate quickly. In some markets, Super Free Spins can be bought for 500x the bet, starting with the five-scatter multiplier range. The maximum win is 7,500x and the RTP is 96.48%. The tiered trigger makes scatter counts matter more than usual.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20wwgcluster&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/wild-west-gold-blazing-bounty.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/wild-west-gold-blazing-bounty/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

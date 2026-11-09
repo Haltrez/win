@@ -1,0 +1,55 @@
+{
+  "slug": "bomb-bonanza",
+  "name": "Bomb Bonanza",
+  "provider": "pragmatic-play",
+  "rtp": 96.46,
+  "volatility": null,
+  "maxWin": 2015,
+  "releaseDate": "2022-06-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x5",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "free-spins",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "adventure",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Wild bombs",
+      "description": "Bomb wilds substitute for other symbols on the 5x5 grid."
+    },
+    {
+      "name": "Gold collection",
+      "description": "Collected gold upgrades bombs into larger wild patterns and adds spins."
+    },
+    {
+      "name": "Six free spins",
+      "description": "Three free spins symbols start a short bonus that can extend itself."
+    }
+  ],
+  "review": "Bomb Bonanza is a 5x5 mining slot where wild bombs are the main event. Pickaxes, gold pans and lanterns make up the regular symbols, while bomb wilds help complete wins. Three free spins symbols unlock six free spins, a deliberately small starting count.\n\nThe bonus is about collecting gold. Every piece you collect upgrades the wild bombs, awarding extra free spins and making the bombs explode into larger patterns of wilds. The longer the round lasts, the more of the grid those wilds can cover. Pragmatic Play gives a max win of 2,015x, a relatively low cap that keeps the game less extreme than many modern releases. The RTP is 96.46%.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 2,015x max win",
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs25bomb&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/bomb-bonanza.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/bomb-bonanza/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "clover-bonanza",
+  "name": "Clover Bonanza",
+  "provider": "bgaming",
+  "rtp": 95.97,
+  "volatility": "high",
+  "maxWin": 15000,
+  "releaseDate": "2022-03-03",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 2.6,
+  "bonusRate": 395.0,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "irish",
+    "fruit"
+  ],
+  "features": [
+    {
+      "name": "Irish-themed cascades",
+      "description": "Pay-anywhere wins with refilling reels."
+    },
+    {
+      "name": "Scatter pays",
+      "description": "Scatters pay in any position in the base game."
+    },
+    {
+      "name": "Chance x2 and bonus buy",
+      "description": "Improve the scatter odds or buy free spins where allowed."
+    }
+  ],
+  "review": "Clover Bonanza is a St Patrick's-themed member of BGaming's Bonanza family. Bright fruits and lucky clovers cascade down the reels, and matching symbols anywhere on screen create wins.\n\nScatters appear on every reel and pay in any position in the main game; their behaviour changes during the free spins round. As with the rest of the family, a multiplier symbol is the main source of big wins in the bonus, and you can buy Chance x2 to improve your chance of four scatters, or buy the bonus outright where permitted. BGaming rates it high volatility with a 15,000x maximum and a 95.97% RTP. Expect long gaps between free spins.",
+  "pros": [
+    "High 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.97% RTP",
+    "High volatility makes sessions swingy",
+    "Bonus is rare (about 1 in 395 spins on average)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/CloverBonanza/FUN?server=demo",
+  "image": "/slots/bgaming/clover-bonanza.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/clover-bonanza"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

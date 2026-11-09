@@ -1,0 +1,55 @@
+{
+  "slug": "heart-of-cleopatra",
+  "name": "Heart of Cleopatra",
+  "provider": "pragmatic-play",
+  "rtp": 96.48,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2024-04-01",
+  "releaseDatePrecision": "month",
+  "reels": "7x7",
+  "mechanics": [
+    "cluster-pays",
+    "tumble",
+    "multipliers",
+    "money-collect",
+    "free-spins"
+  ],
+  "themes": [
+    "egypt"
+  ],
+  "features": [
+    {
+      "name": "Cluster tumbles",
+      "description": "Five or more connected symbols win on a 7x7 grid."
+    },
+    {
+      "name": "Money Spots",
+      "description": "Wilds leave multiplier spots that double with each win and pay an instant reward."
+    },
+    {
+      "name": "Persistent bonus spots",
+      "description": "10–30 free spins in which Money Spots hold and grow until the round ends."
+    }
+  ],
+  "review": "Heart of Cleopatra is a 7x7 cluster game with an Egyptian theme and a money-spot mechanic. Clusters of five or more win and tumble away. The Cleopatra wild helps complete clusters and, when part of a win, leaves behind Money Spots that start as a 1x or 2x multiplier and double with each further win on that position.\n\nWhen the tumbles end, each Money Spot is assigned an instant reward between 0.1x and 10x the bet, multiplied by the spot's final value. Three to seven bonus symbols award 10 to 30 free spins, and in the bonus the Money Spots stay in place for the whole round, growing with every tumble and paying out at the end. The advertised maximum is 10,000x and the RTP is 96.48%.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20heartcleo&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/heart-of-cleopatra.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/heart-of-cleopatra/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

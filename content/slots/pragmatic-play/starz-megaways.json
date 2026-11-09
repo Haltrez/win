@@ -1,0 +1,55 @@
+{
+  "slug": "starz-megaways",
+  "name": "Starz Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.48,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2020-05-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "expanding-wilds",
+    "sticky-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "space",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Megaways reels",
+      "description": "Varying reel heights for changing ways to win."
+    },
+    {
+      "name": "Expanding wilds",
+      "description": "Wilds expand to fill their reels in the base game."
+    },
+    {
+      "name": "Sticky expanding wilds",
+      "description": "In free spins, expanded wild reels stay for the rest of the round."
+    }
+  ],
+  "review": "Starz Megaways is a space-themed Megaways slot with a gem-like look and a short feature list. Expanding wilds appear in the base game, and in free spins those expanding wilds become sticky, so each one stays on its reel for the rest of the round.\n\nPragmatic Play describes it as a volatile, rewarding experience, and the sticky expanding wilds are the reason: a few early wild reels can turn the remaining spins into a sequence of large wins, while a bonus without them can pay very little. The provider doesn't publish a maximum win on the page. The RTP is 96.48%. If you like Starburst's style but want much more variance, this is worth trying in demo.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs117649starz&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/starz-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/starz-megaways-slot/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

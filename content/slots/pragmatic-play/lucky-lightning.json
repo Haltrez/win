@@ -1,0 +1,55 @@
+{
+  "slug": "lucky-lightning",
+  "name": "Lucky Lightning",
+  "provider": "pragmatic-play",
+  "rtp": 96.45,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2021-06-01",
+  "releaseDatePrecision": "month",
+  "reels": "3x6",
+  "mechanics": [
+    "ways",
+    "grid-expansion",
+    "respins",
+    "money-collect",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Expanding grid",
+      "description": "Lightning symbols can enlarge the grid to bigger formations."
+    },
+    {
+      "name": "Wild Respin and Collect",
+      "description": "Two wilds start a money-symbol respin round."
+    },
+    {
+      "name": "Up to 50 free spins",
+      "description": "Played on a 3x6 grid."
+    }
+  ],
+  "review": "Lucky Lightning is a 243-ways slot where the grid can grow. Lightning symbols landing on the first two reels can expand the layout into larger formations, adding rows to reels three to five or six.\n\nTwo wilds on the first two reels trigger the Wild Respin and Collect round, where you try to land as many money symbols as possible. If the sixth reel fills with money symbols, reels three, four and five respin. A separate free spins mode can award up to 50 free games on a 3x6 grid. Pragmatic Play doesn't publish a maximum win. The RTP is 96.45%. The growing grid makes base-game spins less predictable than usual.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswayslight&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/lucky-lightning.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/lucky-lightning/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

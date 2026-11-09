@@ -1,0 +1,58 @@
+{
+  "slug": "bonanza-billion",
+  "name": "Bonanza Billion",
+  "provider": "bgaming",
+  "rtp": 95.97,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": "2021-12-02",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 2.59,
+  "bonusRate": 395.0,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "fruit"
+  ],
+  "features": [
+    {
+      "name": "Pay-anywhere refills",
+      "description": "Symbols pay anywhere and the reels refill after wins."
+    },
+    {
+      "name": "Free spins",
+      "description": "4/5/6 scatters award 10/20/30 free spins; three scatters add five more."
+    },
+    {
+      "name": "Summed multipliers",
+      "description": "2x–100x multipliers in the bonus are added together for each refill sequence."
+    }
+  ],
+  "review": "Bonanza Billion was BGaming's first cascading-reels game, a fruity pay-anywhere slot where the number of matching symbols on screen at the end of a spin decides the win. Winning symbols are cleared and the reels refill.\n\nFour, five or six scatters award 10, 20 or 30 free spins, and three scatters during the bonus add five more. Multiplier symbols worth 2x to 100x appear only in free spins and stay on screen until the refill sequence ends, when their values are added together and applied to the win. Chance x2 and a bonus buy are available where permitted. BGaming lists a 15,000x maximum. The RTP is 95.97%. The free spins are rare (about once every 395 spins), so this is a game for patient players.",
+  "pros": [
+    "High 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.97% RTP",
+    "Bonus is rare (about 1 in 395 spins on average)",
+    "Provider doesn't publish a volatility rating"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BonanzaBillion/FUN?server=demo",
+  "image": "/slots/bgaming/bonanza-billion.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/bonanza-billion"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

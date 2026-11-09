@@ -1,0 +1,55 @@
+{
+  "slug": "gravity-bonanza",
+  "name": "Gravity Bonanza",
+  "provider": "pragmatic-play",
+  "rtp": 96.09,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2023-09-01",
+  "releaseDatePrecision": "month",
+  "reels": "7x7",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "space"
+  ],
+  "features": [
+    {
+      "name": "Cluster pays",
+      "description": "Five or more connected symbols win on a 7x7 grid, then cascade."
+    },
+    {
+      "name": "Black hole",
+      "description": "Collects all of a random symbol and pays it as a cluster."
+    },
+    {
+      "name": "Free spins",
+      "description": "Up to 50 free spins, with black holes carrying multipliers up to 10x."
+    }
+  ],
+  "review": "Gravity Bonanza sets a cluster-pays game in deep space. Asteroids, stars and moons fill a 7x7 grid, and five or more matching symbols touching each other form a win that cascades away. The standout symbol is the black hole, which pulls in every instance of a random symbol and pays it as a cluster at the end of the round, creating more tumbles as those symbols disappear.\n\nThree or more scatters start free spins, with extra scatters adding spins up to a total of 50. In the bonus, black holes can arrive with multipliers up to 10x, applied to the symbol they collect. The game advertises a 10,000x maximum. The 96.09% RTP is slightly below the studio's usual 96.5% version. The black hole mechanic makes it feel genuinely different from Pragmatic's other cluster games.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20gravity&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/gravity-bonanza.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/gravity-bonanza/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

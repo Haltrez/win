@@ -19,7 +19,9 @@ export function CasinoModule({ casinos, title, context, slotName }: { casinos: C
   return (
     <section className="casinos" aria-labelledby={`cas-${context}`}>
       <h2 id={`cas-${context}`}>{title}</h2>
-      {ready && geo && list.length === 0 ? (
+      {casinos.length === 0 ? (
+        <p className="muted">We don&apos;t have a licensed partner casino carrying this game yet. You can still play it in free demo mode on this page.</p>
+      ) : ready && geo && list.length === 0 ? (
         <p className="muted">We don&apos;t currently list licensed casinos for your location. You can still play every slot in free demo mode.</p>
       ) : (
         <ol className="casino-list">

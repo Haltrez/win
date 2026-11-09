@@ -1,0 +1,54 @@
+{
+  "slug": "jane-hunter-and-the-mask-of-montezuma",
+  "name": "Jane Hunter and the Mask of Montezuma",
+  "provider": "pragmatic-play",
+  "rtp": 96.02,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2023-04-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins"
+  ],
+  "themes": [
+    "adventure",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "10 paylines",
+      "description": "A 5x3 line slot with Aztec exploration symbols."
+    },
+    {
+      "name": "Collector free spins",
+      "description": "High-paying symbols award cash prizes when a collector is on screen."
+    },
+    {
+      "name": "Progress meter",
+      "description": "Collecting symbols fills a meter that unlocks extra rewards."
+    }
+  ],
+  "review": "Jane Hunter and the Mask of Montezuma introduces a new protagonist to the Hunter universe. It is a 5x3, 10-payline slot set in an ancient Aztec city, with binoculars, backpacks and pickaxes among the symbols and an atmospheric soundtrack behind them.\n\nThree Aztec tomb scatters open the bonus with 10 free spins. During the round, each high-paying symbol on screen awards an instant cash prize whenever a collector symbol is present, and a progress meter above the reels unlocks further rewards as you collect enough of them. Pragmatic Play doesn't publish a maximum win. The RTP is 96.02%, a little lower than most series entries.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10jnmntzma&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/jane-hunter-and-the-mask-of-montezuma.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/jane-hunter-and-the-mask-of-montezuma/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "hot-to-burn-multiplier",
+  "name": "Hot to Burn Multiplier",
+  "provider": "pragmatic-play",
+  "rtp": 96.51,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-06-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "multipliers"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Five paylines",
+      "description": "A retro 5x3 fruit machine layout."
+    },
+    {
+      "name": "Flame multipliers",
+      "description": "Each flame adds 1x to the win multiplier, up to 5x."
+    },
+    {
+      "name": "Lucky sevens",
+      "description": "The highest-paying symbol in a classic set."
+    }
+  ],
+  "review": "Hot to Burn Multiplier is the fifth game in Pragmatic Play's retro Hot to Burn series. It plays on a 5x3 grid with five paylines and old-school fruit-machine symbols, with lucky sevens paying the most.\n\nThe single twist is the flame. When a flame lands on any symbol it adds a 1x multiplier, and the total number of flames sets the multiplier applied to that win, up to 5x. That keeps the game simple: no free spins, just quick spins with an occasional multiplied hit. Pragmatic Play doesn't publish a maximum win on the page. The RTP is 96.51%. It suits players who want a fast classic slot rather than a feature-heavy one.",
+  "pros": [
+    "Above-average 96.51% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs5hotbmult&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/hot-to-burn-multiplier.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/hot-to-burn-multiplier/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

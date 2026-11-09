@@ -1,0 +1,60 @@
+{
+  "slug": "alien-fruits-3",
+  "name": "Alien Fruits 3",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium-high",
+  "maxWin": 10000,
+  "releaseDate": "2026-07-01",
+  "releaseDatePrecision": "day",
+  "winType": "Cluster Pays",
+  "hitRate": 2.97,
+  "bonusRate": 196.25,
+  "mechanics": [
+    "cluster-pays",
+    "multipliers",
+    "reel-modifiers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "fruit",
+    "space",
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Cluster pays",
+      "description": "Five or more connected symbols form wins."
+    },
+    {
+      "name": "Spin modifiers",
+      "description": "Random modifiers in the base game; all assured in the bonus."
+    },
+    {
+      "name": "Cosmo Frenzy levels",
+      "description": "Five levels with multipliers from 2x to 10x."
+    }
+  ],
+  "review": "Alien Fruits 3 moves the series to cluster pays: five or more connected symbols form a win. Unpredictable spin modifiers can trigger in the base game, and the bonus is called Cosmo Frenzy.\n\nIn Cosmo Frenzy, a progress bar tracks points, and each of five levels needs a set number of points and carries its own multiplier: 2x, 4x, 6x, 8x and 10x. All five spin modifiers are assured at each level. Chance x2 doubles the chance of triggering the bonus, and a bonus buy is available where permitted. Unusually for the series, BGaming rates this one medium-high volatility, with a 10,000x maximum and a 97% RTP. Free spins arrive roughly once every 196 spins.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/AlienFruits3/FUN?server=demo",
+  "image": "/slots/bgaming/alien-fruits-3.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/alien-fruits-3"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

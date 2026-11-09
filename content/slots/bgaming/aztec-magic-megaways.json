@@ -1,0 +1,60 @@
+{
+  "slug": "aztec-magic-megaways",
+  "name": "Aztec Magic Megaways",
+  "provider": "bgaming",
+  "rtp": 96.96,
+  "volatility": "very-high",
+  "maxWin": 12960,
+  "releaseDate": "2022-01-27",
+  "releaseDatePrecision": "day",
+  "winType": "Megaways",
+  "hitRate": 5.01,
+  "bonusRate": 259.0,
+  "mechanics": [
+    "megaways",
+    "ways",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "adventure",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Megaways",
+      "description": "Ways to win change with every spin."
+    },
+    {
+      "name": "Multiplying wilds",
+      "description": "Wilds on reels 2–5 carry 2x or 3x and multiply together."
+    },
+    {
+      "name": "Scaled free spins",
+      "description": "3–6 scatters award 8–16 free spins; Chance x2 and bonus buy available."
+    }
+  ],
+  "review": "Aztec Magic Megaways puts BGaming's Aztec characters on a Megaways grid where the ways to win change every spin. Scatters can land anywhere, and three, four, five or six at once award 8, 10, 12 or 16 free spins.\n\nWilds appear only on reels 2 to 5 and carry a random 2x or 3x multiplier. When more than one wild is part of the same win, all their multipliers apply, so two 3x wilds on one combination multiply it by 9x. Chance x2 and a bonus buy are both available where permitted. BGaming rates the game very high volatility with a 12,960x maximum, and the 96.96% RTP is excellent. Free spins arrive about once every 259 spins on average.",
+  "pros": [
+    "Above-average 96.96% RTP",
+    "High 12,960x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/AztecMagicMegaways/FUN?server=demo",
+  "image": "/slots/bgaming/aztec-magic-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/aztec-magic-megaways-branded"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

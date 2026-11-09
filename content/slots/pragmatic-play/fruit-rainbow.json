@@ -1,0 +1,53 @@
+{
+  "slug": "fruit-rainbow",
+  "name": "Fruit Rainbow",
+  "provider": "pragmatic-play",
+  "rtp": 96.53,
+  "volatility": null,
+  "maxWin": 2000,
+  "releaseDate": "2020-03-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x4",
+  "mechanics": [
+    "paylines"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "40 paylines",
+      "description": "A 5x4 fruit layout with 40 lines."
+    },
+    {
+      "name": "Stacked symbols",
+      "description": "Stacked fruits can complete several lines at once."
+    },
+    {
+      "name": "Classic style",
+      "description": "A simple fruit machine without complicated features."
+    }
+  ],
+  "review": "Fruit Rainbow is a classic fruit machine in a 5x4, 40-line format. Pragmatic Play's description is short: stacked symbols and strong pays, without a complicated feature set.\n\nStacked symbols are the main source of bigger wins, since a reel covered in one fruit can complete several lines at once. The in-game screens advertise up to 2,000x, a modest ceiling that fits the game's simple style. The RTP of 96.53% is competitive. It's best for players who want quick, uncomplicated spins rather than tumbles, clusters or long bonus rounds.",
+  "pros": [
+    "Above-average 96.53% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 2,000x max win",
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs40frrainbow&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/fruit-rainbow.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/fruit-rainbow-slot/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

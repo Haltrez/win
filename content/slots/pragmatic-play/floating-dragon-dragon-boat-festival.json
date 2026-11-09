@@ -1,0 +1,55 @@
+{
+  "slug": "floating-dragon-dragon-boat-festival",
+  "name": "Floating Dragon – Dragon Boat Festival",
+  "provider": "pragmatic-play",
+  "rtp": 96.07,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2023-05-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "10 paylines",
+      "description": "A traditional line layout with festival-themed symbols."
+    },
+    {
+      "name": "Hold & Spin",
+      "description": "Lives reset when coins land; diamonds can award bigger prizes."
+    },
+    {
+      "name": "Free spins",
+      "description": "Increasing multipliers and extra spins for additional scatters."
+    }
+  ],
+  "review": "Floating Dragon – Dragon Boat Festival is a 10-payline sequel that keeps the series' two-bonus structure. Fish, dragon boats and drums decorate the reels, and wins pay left to right along fixed lines.\n\nThe Hold & Spin bonus gives you lives that reset whenever coins land, with diamond symbols available for larger prizes. The free spins round awards increasing multipliers and extra spins for landing more scatters. Having both features gives sessions more variety than a single-bonus game. The advertised maximum is 10,000x. Note the 96.07% RTP is lower than most other Floating Dragon titles, so check the info screen at your casino.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10fdrasbf&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/floating-dragon-dragon-boat-festival.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/floating-dragon-dragon-boat-festival/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

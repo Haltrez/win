@@ -1,0 +1,59 @@
+{
+  "slug": "zeus-goes-wild",
+  "name": "Zeus Goes Wild",
+  "provider": "bgaming",
+  "rtp": 95.5,
+  "volatility": "medium-low",
+  "maxWin": 800,
+  "releaseDate": "2025-04-10",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "winType": "5 paylines",
+  "hitRate": 8.6,
+  "bonusRate": 114.0,
+  "mechanics": [
+    "paylines",
+    "respins",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Lightning Respin",
+      "description": "Two matching reels earn a respin of the third."
+    },
+    {
+      "name": "Full-grid multiplier",
+      "description": "Filling the grid with one symbol applies up to 10x."
+    },
+    {
+      "name": "10 free spins",
+      "description": "Three scatters start the bonus; more trios add 10 spins."
+    }
+  ],
+  "review": "Zeus Goes Wild is a classic 3x3 Greek slot that's easy to pick up. Every symbol except the scatter pays in threes, including the Zeus wild.\n\nIf two reels show matching symbols but the third doesn't, a Lightning Respin gives you a second chance. Filling the whole grid with one symbol applies a random multiplier up to 10x. Three scatters award 10 free spins, and more scatter trios during the bonus add 10 more. BGaming rates it medium-low volatility with an 800x maximum, a deliberately small ceiling. The RTP is 95.5%, and free spins arrive about once every 114 spins. A relaxing, low-stakes kind of game.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Bonus lands relatively often (about 1 in 114 spins on average)",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.50% RTP",
+    "Modest 800x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/ZeusGoesWild/FUN?server=demo",
+  "image": "/slots/bgaming/zeus-goes-wild.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/zeus-goes-wild"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

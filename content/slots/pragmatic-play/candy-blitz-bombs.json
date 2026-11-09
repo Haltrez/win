@@ -1,0 +1,55 @@
+{
+  "slug": "candy-blitz-bombs",
+  "name": "Candy Blitz Bombs",
+  "provider": "pragmatic-play",
+  "rtp": 96.49,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2024-04-01",
+  "releaseDatePrecision": "month",
+  "reels": "6x5",
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "Tumble multiplier reel",
+      "description": "Rises by 1x per tumble and resets when tumbles end in the base game."
+    },
+    {
+      "name": "Multiplier bombs",
+      "description": "Bombs worth 1x–500x add to the multiplier reel."
+    },
+    {
+      "name": "Non-resetting bonus",
+      "description": "10–14 free spins where multipliers keep building for the whole round."
+    }
+  ],
+  "review": "Candy Blitz Bombs is the follow-up to Candy Blitz, keeping the 6x5 pay-anywhere grid but redesigning the multipliers. A side reel holds a multiplier that rises by 1x with each successful tumble and resets when the tumbles stop. Multiplier bombs worth 1x to 500x can also land and are added to that reel when a cascade happens.\n\nFour, five or six scatters award 10, 12 or 14 free spins. In the bonus, bombs start at a minimum of 2x and the multipliers keep accumulating without resetting for the whole feature, which is where the advertised 10,000x maximum comes into reach. The RTP of 96.49% is better than the original. It feels like a meaningful upgrade rather than a reskin.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20candybltz2&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/candy-blitz-bombs.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/candy-blitz-bombs/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

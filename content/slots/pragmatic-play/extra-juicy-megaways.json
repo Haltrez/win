@@ -1,0 +1,53 @@
+{
+  "slug": "extra-juicy-megaways",
+  "name": "Extra Juicy Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.42,
+  "volatility": "high",
+  "maxWin": 5000,
+  "releaseDate": "2022-01-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "free-spins",
+    "progressive-multiplier",
+    "gamble"
+  ],
+  "themes": [
+    "fruit"
+  ],
+  "features": [
+    {
+      "name": "Megaways reels",
+      "description": "Ways to win change every spin."
+    },
+    {
+      "name": "Multiplier scatter",
+      "description": "A new scatter that carries multiplier value."
+    },
+    {
+      "name": "Free spins gamble",
+      "description": "Gamble during the bonus to unlock more spins."
+    }
+  ],
+  "review": "Extra Juicy Megaways brings the fruit classic onto Megaways reels with a new kiwi symbol, a multiplier scatter and refreshed artwork. The number of ways changes every spin, so the steady line structure of the original is replaced by a more variable base game.\n\nThe bonus keeps the progressive-multiplier idea and adds a gamble feature inside the free spins, letting you try to unlock extra spins as the round continues. Pragmatic Play describes the game as high volatility and quotes a 5,000x maximum. The RTP is 96.42%. If the original felt too simple, this version adds more decisions and more swing.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysxjuicy&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/extra-juicy-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/extra-juicy-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

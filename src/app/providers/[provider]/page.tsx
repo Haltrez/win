@@ -4,7 +4,7 @@ import { getCasinosForProvider, getProvider, getProviders, getSlotsByProvider, s
 import { getCategories, getCategorySlots, isIndexable } from '@/lib/categories';
 import { buildMetadata, providerDescription, providerTitle } from '@/lib/seo';
 import { itemList } from '@/lib/schema';
-import { fmtRtp, fmtX } from '@/lib/format';
+import { fmtRtp, fmtX, volLabel, year } from '@/lib/format';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { SlotGrid } from '@/components/SlotCard';
 import { JsonLd } from '@/components/JsonLd';
@@ -31,14 +31,16 @@ export default async function ProviderPage({ params }: { params: Promise<P> }) {
   if (!p) notFound();
   const slots = getSlotsByProvider(p.slug);
   const byRating = [...slots].sort((a, b) => (b.rating ?? 0) - (a.rating ?? 0));
+  const rated = byRating.filter((s) => s.rating);
+  const topMaxWin = [...slots].filter((s) => s.maxWin).sort((a, b) => b.maxWin! - a.maxWin!).slice(0, 8);
   const newest = slots.slice(0, 8);
-  const biggest = [...slots].sort((a, b) => b.maxWin - a.maxWin)[0];
+  const biggest = [...slots].filter((s) => s.maxWin).sort((a, b) => b.maxWin! - a.maxWin!)[0];
   const avgRtp = slots.length ? slots.reduce((t, s) => t + s.rtp, 0) / slots.length : 0;
   const cats = getCategories().filter((c) => isIndexable(c) && getCategorySlots(c).some((s) => s.provider === p.slug) && c.group !== 'release').slice(0, 10);
   const faq = slots.length
     ? [
-        { q: `What is the best ${p.name} slot?`, a: `Based on our reviews, ${byRating[0].name} is currently the highest-rated ${p.name} slot on ${'our site'}, scoring ${byRating[0].rating ?? '–'}/10.` },
-        { q: `Which ${p.name} slot has the highest max win?`, a: `${biggest.name} has the highest max win among the ${p.name} slots we have reviewed, at ${fmtX(biggest.maxWin)} the stake.` },
+        { q: `What is the best ${p.name} slot?`, a: rated[0] ? `Based on our reviews, ${rated[0].name} is currently the highest-rated ${p.name} slot on our site, scoring ${rated[0].rating}/10.` : `We haven't scored ${p.name} slots yet. Popular picks include ${byRating.slice(0, 3).map((s) => s.name).join(', ')} – try them in demo and compare their RTP, volatility and max win below.` },
+        ...(biggest ? [{ q: `Which ${p.name} slot has the highest max win?`, a: `${biggest.name} has the highest published max win among the ${p.name} slots we have reviewed, at ${fmtX(biggest.maxWin)} the stake.` }] : []),
         { q: `What is the average RTP of ${p.name} slots?`, a: `Across the ${slots.length} ${p.name} slots we have reviewed, the average default RTP is ${fmtRtp(avgRtp)}. Many casinos run lower RTP configurations, so check the game info screen.` },
         { q: `Is ${p.name} licensed?`, a: `${p.name} holds licences or approvals including ${p.licenses.join(', ')}.` },
       ]
@@ -53,15 +55,26 @@ export default async function ProviderPage({ params }: { params: Promise<P> }) {
       </section>
       {slots.length ? (
         <>
-          <h2>Best {p.name} slots</h2>
-          <SlotGrid slots={byRating.slice(0, 12)} ranked />
+          {rated.length >= 3 ? (
+            <>
+              <h2>Best {p.name} slots</h2>
+              <p className="muted small">Ranked by our editorial score.</p>
+              <SlotGrid slots={rated.slice(0, 12)} ranked />
+            </>
+          ) : null}
+          {topMaxWin.length ? (
+            <>
+              <h2>{p.name} slots with the biggest max wins</h2>
+              <SlotGrid slots={topMaxWin} />
+            </>
+          ) : null}
           <h2>Newest {p.name} releases</h2>
           <SlotGrid slots={newest} />
           <h2>All {p.name} slots</h2>
           <div className="table-wrap">
             <table className="cmp">
               <thead><tr><th>Slot</th><th>RTP</th><th>Volatility</th><th>Max win</th><th>Released</th></tr></thead>
-              <tbody>{slots.map((s) => (<tr key={s.slug}><td><Link href={slotUrl(s)}>{s.name}</Link></td><td>{fmtRtp(s.rtp)}</td><td>{s.volatility}</td><td>{fmtX(s.maxWin)}</td><td>{s.releaseDate.slice(0, 4)}</td></tr>))}</tbody>
+              <tbody>{slots.map((s) => (<tr key={s.slug}><td><Link href={slotUrl(s)}>{s.name}</Link></td><td>{fmtRtp(s.rtp)}</td><td>{volLabel(s.volatility)}</td><td>{fmtX(s.maxWin)}</td><td>{year(s.releaseDate) || '–'}</td></tr>))}</tbody>
             </table>
           </div>
           <JsonLd data={itemList(`${p.name} slots`, byRating.map((s) => ({ name: s.name, path: slotUrl(s) })))} />

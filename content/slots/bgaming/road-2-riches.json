@@ -1,0 +1,57 @@
+{
+  "slug": "road-2-riches",
+  "name": "Road 2 Riches",
+  "provider": "bgaming",
+  "rtp": 96.27,
+  "volatility": "high",
+  "maxWin": 2000,
+  "releaseDate": "2021-11-11",
+  "releaseDatePrecision": "day",
+  "winType": "50 paylines",
+  "hitRate": 4.3,
+  "bonusRate": 145.0,
+  "mechanics": [
+    "paylines",
+    "jackpot",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "50 paylines",
+      "description": "A road-trip theme across 50 lines."
+    },
+    {
+      "name": "Mystery wilds",
+      "description": "Wilds that can reveal surprises on the reels."
+    },
+    {
+      "name": "Wild-reel jackpots",
+      "description": "Filling one, two or three middle reels with wilds wins Mini, Major or Mega."
+    }
+  ],
+  "review": "Road 2 Riches is a Route 66 road-trip slot with 50 paylines, mystery wilds and jackpots. The free spins round can be bought in markets that allow it.\n\nThree jackpot levels are available during free spins, based on how many reels fill with wilds. If one of reels 2, 3 or 4 is fully covered in wilds, you win the Mini jackpot; two full reels award the Major; and all three award the Mega jackpot. That gives the bonus clear milestones to aim for. BGaming rates it high volatility with a 2,000x maximum multiplier. The RTP is 96.27%, and free spins arrive about once every 145 spins on average. The jackpot structure makes it more interesting than most 50-line games.",
+  "pros": [
+    "Bonus lands relatively often (about 1 in 145 spins on average)",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Modest 2,000x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/Road2Riches/FUN?server=demo",
+  "image": "/slots/bgaming/road-2-riches.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/road-2-riches"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

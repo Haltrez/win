@@ -1,0 +1,59 @@
+{
+  "slug": "gemhalla-xtreme",
+  "name": "Gemhalla Xtreme",
+  "provider": "bgaming",
+  "rtp": 97.17,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": "2026-06-04",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 3.23,
+  "bonusRate": 168.0,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "mythology",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Golden Shield multipliers",
+      "description": "Multipliers worth up to 1,000x."
+    },
+    {
+      "name": "Pay anywhere",
+      "description": "Wins counted anywhere on the grid with refills."
+    },
+    {
+      "name": "Multiple bonus buys",
+      "description": "Several ways to buy into the bonus where permitted."
+    }
+  ],
+  "review": "Gemhalla Xtreme is the high-volatility sequel to Gemhalla. Thor stands by the Tree of Life ready to strike Golden Shield multipliers that can reach 1,000x, on a pay-anywhere grid of runes and Scandinavian symbols.\n\nFree spins are still triggered at the Tree of Life, and multiple bonus buy options are offered where permitted. The game is faster-paced than the original, and BGaming doubles the maximum to 10,000x while keeping the excellent 97.17% RTP. Free spins arrive about once every 168 spins on average, similar to the original. If you liked Gemhalla's accumulating multipliers, this version raises the stakes considerably.",
+  "pros": [
+    "Excellent 97.17% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/GemhallaXtreme/FUN?server=demo",
+  "image": "/slots/bgaming/gemhalla-xtreme.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/gemhalla-xtreme"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

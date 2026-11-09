@@ -5,7 +5,7 @@ import { getAuthor, getCasinosForProvider, getComparisons, getGuides, getProvide
 import { getCategoriesForSlot } from '@/lib/categories';
 import { buildMetadata, slotDescription, slotTitle } from '@/lib/seo';
 import { slotGame } from '@/lib/schema';
-import { fmtDate, fmtRtp, fmtX, VOLATILITY_LABEL, VOLATILITY_SCORE } from '@/lib/format';
+import { fmtDate, fmtRelease, fmtRtp, fmtX, VOLATILITY_LABEL, volScore } from '@/lib/format';
 import type { Slot } from '@/lib/types';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
@@ -29,22 +29,23 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   const s = getSlot(provider, slot);
   const p = getProvider(provider);
   if (!s || !p) return {};
-  return buildMetadata({ title: slotTitle(s, p), absoluteTitle: true, description: slotDescription(s, p), path: slotUrl(s), type: 'article', modifiedTime: s.updatedAt, publishedTime: s.releaseDate });
+  return buildMetadata({ title: slotTitle(s, p), absoluteTitle: true, description: slotDescription(s, p), path: slotUrl(s), type: 'article', modifiedTime: s.updatedAt, publishedTime: s.releaseDate ?? undefined });
 }
 
 function volatilityNote(s: Slot) {
-  const v = VOLATILITY_SCORE[s.volatility];
+  if (!s.volatility) return `The provider hasn't published an official volatility rating for ${s.name}, so we don't label it. Judge it from the demo: if wins are rare but bonus rounds carry most of the value, treat it as a higher-variance game and size your stake accordingly.`;
+  const v = volScore(s.volatility);
   if (v >= 6) return `${s.name} is a very high volatility slot. Most sessions will be dominated by small wins and dead spins, with the bulk of its return concentrated in rare bonus rounds. A short session can easily lose its whole budget without a meaningful hit – try it in demo first and only play for real with a fixed budget you're comfortable losing.`;
   if (v >= 5) return `${s.name} is a high volatility slot: expect longer stretches between meaningful wins and larger swings in your balance than on a medium-volatility game. The bonus round carries much of the game's value.`;
   if (v >= 3) return `${s.name} sits in the medium volatility range, so wins arrive more regularly than on high-variance games but are usually smaller. It suits longer sessions at a steady stake.`;
-  return `${s.name} is a low volatility slot with frequent small wins and a modest ${fmtX(s.maxWin)} cap. It won't produce huge hits, but your balance usually moves more slowly.`;
+  return `${s.name} is a low volatility slot with frequent small wins${s.maxWin ? ` and a modest ${fmtX(s.maxWin)} cap` : ''}. It won't produce huge hits, but your balance usually moves more slowly.`;
 }
 
 function autoFaq(s: Slot, providerName: string) {
   const f = [
     { q: `What is the RTP of ${s.name}?`, a: `The highest published RTP of ${s.name} is ${fmtRtp(s.rtp)}.${s.rtpVariants?.length ? ` ${providerName} also offers casinos versions at ${s.rtpVariants.map(fmtRtp).join(', ')}, so check the game's info screen to see which one you are playing.` : ' Casinos may be able to configure a lower RTP – always check the in-game info screen.'}` },
-    { q: `What is the max win on ${s.name}?`, a: `${s.name} has a maximum win of ${fmtX(s.maxWin)} your stake. Max wins are extremely rare and should not be expected in normal play.` },
-    { q: `Is ${s.name} high volatility?`, a: `${s.name} is rated ${VOLATILITY_LABEL[s.volatility].toLowerCase()} volatility by ${providerName}. ${VOLATILITY_SCORE[s.volatility] >= 5 ? 'Wins are less frequent but can be larger.' : 'Wins tend to be more frequent but smaller.'}` },
+    ...(s.maxWin ? [{ q: `What is the max win on ${s.name}?`, a: `${s.name} has a maximum win of ${fmtX(s.maxWin)} your stake. Max wins are extremely rare and should not be expected in normal play.` }] : []),
+    ...(s.volatility ? [{ q: `Is ${s.name} high volatility?`, a: `${s.name} is rated ${VOLATILITY_LABEL[s.volatility].toLowerCase()} volatility by ${providerName}. ${volScore(s.volatility) >= 5 ? 'Wins are less frequent but can be larger.' : 'Wins tend to be more frequent but smaller.'}` }] : []),
     { q: `Can I play ${s.name} for free?`, a: s.demoUrl ? `Yes. You can play the official ${s.name} demo on this page with play money – no sign-up or deposit required.` : `We only embed official demos. The ${s.name} demo will appear on this page once ${providerName} makes it available for our region.` },
     { q: `Does ${s.name} have a bonus buy?`, a: s.mechanics.includes('bonus-buy') ? `Yes, ${s.name} includes a bonus buy option in markets where it is permitted. It is not available in Great Britain and some other regulated markets. Buying the bonus does not improve your odds.` : `No, ${s.name} does not offer a bonus buy. The bonus has to be triggered naturally.` },
   ];
@@ -70,7 +71,7 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
       <Breadcrumbs items={[{ name: 'Slots', path: '/slots' }, { name: p.name, path: `/providers/${p.slug}` }, { name: s.name, path: url }]} />
       <h1>{s.name} Demo &amp; Review</h1>
       <p className="muted">
-        By <Link href={`/providers/${p.slug}`}>{p.name}</Link> · Released {fmtDate(s.releaseDate)} · Reviewed by <Link href="/about">{author.name}</Link> · Updated {fmtDate(s.updatedAt)}
+        By <Link href={`/providers/${p.slug}`}>{p.name}</Link>{s.releaseDate ? ` · Released ${fmtRelease(s)}` : ''} · Reviewed by <Link href="/about">{author.name}</Link> · Updated {fmtDate(s.updatedAt)}
       </p>
       <AffiliateDisclosure compact />
 
@@ -119,7 +120,11 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
           <Link href="/guides/rtp-explained">How RTP works</Link>.
         </p>
         <p><strong>Volatility:</strong> {volatilityNote(s)} <Link href="/guides/slot-volatility-explained">Volatility explained</Link>.</p>
-        <p><strong>Max win:</strong> the maximum payout is {fmtX(s.maxWin)} the stake. <Link href="/guides/how-max-win-works">What max win really means</Link>.</p>
+        <p>
+          <strong>Max win:</strong>{' '}
+          {s.maxWin ? <>the maximum payout is {fmtX(s.maxWin)} the stake.</> : <>{p.name} doesn&apos;t publish a max win figure for {s.name} on its website; the paytable inside the demo shows any win cap.</>}{' '}
+          <Link href="/guides/how-max-win-works">What max win really means</Link>.
+        </p>
 
         <div className="proscons">
           <div className="pros"><h3>Pros</h3><ul>{s.pros.map((x) => <li key={x}>{x}</li>)}</ul></div>

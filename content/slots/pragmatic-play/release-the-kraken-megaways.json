@@ -1,0 +1,57 @@
+{
+  "slug": "release-the-kraken-megaways",
+  "name": "Release the Kraken Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.4,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2024-09-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "walking-wilds",
+    "respins",
+    "free-spins",
+    "multipliers",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "animals",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Megaways reels",
+      "description": "Up to 117,649 ways with mystery symbols."
+    },
+    {
+      "name": "Wild respins",
+      "description": "Three wilds start respins; wilds roam and new wilds add spins."
+    },
+    {
+      "name": "Chest modifiers",
+      "description": "Open chests for extra spins, wilds, multipliers or minimum ways before the bonus."
+    }
+  ],
+  "review": "Release the Kraken Megaways brings the series onto six Megaways reels with up to 117,649 ways to win. Mystery symbols can land and resolve into matching icons. Three or more wilds trigger a respins mode in which wilds roam after each respin, and a new wild landing awards another spin.\n\nThree or more scatters award six free spins, and you open chests first to collect modifiers such as extra spins, more roaming wilds, multipliers or a minimum number of ways. In the bonus, every wild becomes a roaming wild, and when two stop on the same position the multiplier increases by 1x. The advertised maximum is 10,000x. The RTP of 96.4% is slightly below the earlier games.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswayskrakenmw&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/release-the-kraken-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/release-the-kraken-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

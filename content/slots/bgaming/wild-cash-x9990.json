@@ -1,0 +1,54 @@
+{
+  "slug": "wild-cash-x9990",
+  "name": "Wild Cash x9990",
+  "provider": "bgaming",
+  "rtp": 96.1,
+  "volatility": "very-high",
+  "maxWin": 10490,
+  "releaseDate": "2022-08-31",
+  "releaseDatePrecision": "day",
+  "winType": "10 paylines",
+  "hitRate": 11.55,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "10 paylines",
+      "description": "A bright, simple layout."
+    },
+    {
+      "name": "Bonus multipliers",
+      "description": "Four bonus symbols add 3x, five add 10x to the feature."
+    },
+    {
+      "name": "Bonus buy",
+      "description": "Buy the bonus game where permitted."
+    }
+  ],
+  "review": "Wild Cash x9990 is a summery 10-line follow-up to Wild Cash with a much higher ceiling. BGaming rates it very high volatility, with a maximum multiplier of 10,490x.\n\nThree, four or five Wild Cash bonus symbols trigger the bonus game. Four symbols add an extra 3x multiplier to the feature, and five add 10x, so the trigger itself is a big part of the outcome. The bonus can also be bought where allowed, with the price adjusting to your bet. The RTP is 96.1%. As with the original, the simplicity of the presentation hides how swingy this game is.",
+  "pros": [
+    "High 10,490x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/WildCashX9990/FUN?server=demo",
+  "image": "/slots/bgaming/wild-cash-x9990.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/wild-cash-x9990-branded"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

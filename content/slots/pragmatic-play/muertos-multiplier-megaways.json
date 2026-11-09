@@ -1,0 +1,56 @@
+{
+  "slug": "muertos-multiplier-megaways",
+  "name": "Muertos Multiplier Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.03,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2022-09-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "tumble",
+    "multipliers",
+    "gamble",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Megaways tumbles",
+      "description": "Up to 117,649 ways with tumbling wins."
+    },
+    {
+      "name": "Spin gamble",
+      "description": "Gamble the number of free spins before the bonus."
+    },
+    {
+      "name": "Multiplying wilds",
+      "description": "In free spins, tumbles add 1x and wilds multiply the current multiplier."
+    }
+  ],
+  "review": "Muertos Multiplier Megaways celebrates the Day of the Dead on six Megaways reels with up to 117,649 ways. Tacos, cacti and skulls make up the symbols, and every win triggers a tumble. Wild multipliers substitute for everything except bonus symbols.\n\nThree bonus symbols award free spins, and you can gamble the number of spins before the round starts. In the bonus, each tumble raises the overall multiplier by 1x, and each wild that lands multiplies the current multiplier, so it can climb very quickly. That combination is what supports the stated 10,000x maximum. The RTP is 96.03%. It's one of the more explosive Megaways designs in Pragmatic Play's catalogue.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20muertos&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/muertos-multiplier-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/muertos-multiplier-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}
