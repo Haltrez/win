@@ -65,4 +65,4 @@ docs/                            strategy & operations
 
 ## Status of seed content
 
-The repository ships **39 seed slots**, 18 providers, 9 guides and 15 comparisons to exercise every template. Seed slot figures (RTP, max win, release dates) are drawn from public information but are marked `verified: false` – **verify every figure against the provider's game sheet before launch**. Casino partners are placeholders. Demo URLs are empty until you obtain official demo links from each provider (the validator only accepts allowlisted provider domains).
+The repository ships **39 seed slots**, 18 providers, 9 guides and 15 comparisons to exercise every template. Seed slot figures (RTP, max win, release dates) are drawn from public information but are marked `verified: false` – **verify every figure against the provider's game sheet before launch**. Casino partners are placeholders. Official demos are live for 26 slots (Pragmatic Play, Play'n GO, Hacksaw Gaming, Push Gaming); the other providers need partner access – see [docs/OPERATIONS.md](docs/OPERATIONS.md#official-demo-sources).

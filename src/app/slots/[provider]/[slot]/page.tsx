@@ -76,7 +76,7 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
 
       <div className="slot-hero">
         <div>
-          <DemoEmbed name={s.name} url={s.demoUrl} providerName={p.name} />
+          <DemoEmbed name={s.name} url={s.demoUrl} providerName={p.name} launchPath={`/api/demo/${s.provider}/${s.slug}`} />
           <p className="muted small">Demo mode uses virtual credits and is for entertainment and learning only. Demo results do not predict real-money results.</p>
         </div>
         <aside className="side-card" aria-label={`${s.name} key facts`}>

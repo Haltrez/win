@@ -50,7 +50,7 @@
     "hand-of-anubis",
     "dead-or-alive-2"
   ],
-  "demoUrl": null,
+  "demoUrl": "https://static-live.hacksawgaming.com/1067/{version}/index.html?language=en&channel=desktop&gameid=1067&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
   "image": null,
   "sources": [
     "Provider game sheet / in-game info screen (verify before launch)"
