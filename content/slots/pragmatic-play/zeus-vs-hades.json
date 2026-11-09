@@ -1,0 +1,54 @@
+{
+  "slug": "zeus-vs-hades",
+  "name": "Zeus vs Hades – Gods of War",
+  "provider": "pragmatic-play",
+  "rtp": 96.07,
+  "volatility": "very-high",
+  "maxWin": 15000,
+  "releaseDate": "2023-07-20",
+  "reels": "5x5",
+  "paylines": "15",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "expanding-wilds"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "rating": 7.8,
+  "features": [
+    {
+      "name": "Choose your god",
+      "description": "Before free spins you choose between Zeus (lower variance) or Hades (higher variance) modes."
+    },
+    {
+      "name": "Multiplier wilds",
+      "description": "Wilds carry multipliers that combine when several are on a line."
+    }
+  ],
+  "review": "Zeus vs Hades lets you pick your own volatility inside the bonus, which is a genuinely useful design choice. The Zeus mode gives steadier free spins; the Hades mode can deliver much larger results but often pays far less. Playing both in demo is the easiest way to see how the same game can behave very differently depending on that one choice.",
+  "pros": [
+    "Player-selectable bonus volatility",
+    "15,000x max win"
+  ],
+  "cons": [
+    "Base game is slow",
+    "Lower default RTP than many Pragmatic titles"
+  ],
+  "related": [
+    "gates-of-olympus",
+    "gates-of-olympus-1000"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "le-bandit",
+  "name": "Le Bandit",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.34,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": "2023-10-12",
+  "reels": "6x5",
+  "paylines": "Cluster pays",
+  "mechanics": [
+    "cluster-pays",
+    "tumble",
+    "free-spins",
+    "bonus-buy",
+    "multipliers"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "rating": 7.8,
+  "features": [
+    {
+      "name": "Golden squares",
+      "description": "Winning positions turn golden; Super Cascades and coin symbols interact with golden squares to reveal values."
+    },
+    {
+      "name": "Rainbow symbols",
+      "description": "Activate golden squares to reveal coins, clovers and pots."
+    }
+  ],
+  "review": "Le Bandit is a more playful, lower-pressure Hacksaw game with a raccoon thief theme and a cluster-pays grid. Golden squares left behind by wins can be activated by rainbow symbols to reveal cash prizes or multipliers. Volatility is a step below Hacksaw's most extreme titles.",
+  "pros": [
+    "Fun, readable golden-square mechanic",
+    "A little less extreme than other Hacksaw hits"
+  ],
+  "cons": [
+    "Features can take a while to make sense"
+  ],
+  "related": [
+    "chaos-crew",
+    "wanted-dead-or-a-wild",
+    "sugar-rush"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

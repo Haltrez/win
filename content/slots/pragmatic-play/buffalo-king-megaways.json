@@ -1,0 +1,55 @@
+{
+  "slug": "buffalo-king-megaways",
+  "name": "Buffalo King Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.52,
+  "volatility": "high",
+  "maxWin": 5000,
+  "releaseDate": "2021-01-21",
+  "reels": "6 reels, 2–8 rows",
+  "paylines": "Up to 200,704 ways",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "tumble",
+    "free-spins",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "animals",
+    "western"
+  ],
+  "rating": 7.5,
+  "features": [
+    {
+      "name": "Tumble",
+      "description": "Winning symbols are replaced after each win."
+    },
+    {
+      "name": "Free spins with wild multipliers",
+      "description": "Wilds land with 2x or 3x multipliers during free spins."
+    }
+  ],
+  "review": "Buffalo King Megaways is a straightforward Megaways game with an American-wilderness theme. With up to eight rows on each reel the ways count goes beyond the usual 117,649. It does nothing surprising, but it is a solid example of a Megaways tumble slot and the free spins are easy to retrigger.",
+  "pros": [
+    "Up to 200,704 ways",
+    "Simple and readable"
+  ],
+  "cons": [
+    "Generic theme and features"
+  ],
+  "related": [
+    "the-dog-house-megaways",
+    "bonanza-megaways"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

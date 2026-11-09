@@ -1,0 +1,55 @@
+{
+  "slug": "mental",
+  "name": "Mental",
+  "provider": "nolimit-city",
+  "rtp": 96.08,
+  "volatility": "very-high",
+  "maxWin": 66666,
+  "releaseDate": "2021-04-27",
+  "reels": "5x3–5x5",
+  "paylines": "Up to 108 lines",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "multipliers",
+    "bonus-buy",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "rating": 8.1,
+  "features": [
+    {
+      "name": "Fire Frames",
+      "description": "Fire frames transform symbols into wilds, multipliers or \"Autopsy\" symbols that boost other symbols."
+    },
+    {
+      "name": "Free spins",
+      "description": "Increasing multiplier wilds across a growing grid."
+    }
+  ],
+  "review": "Mental is one of Nolimit City's most notorious slots: disturbing asylum theme, layered modifiers and a 66,666x max win. The base game is frequently quiet, and the bonus can either fizzle or explode depending on how multipliers stack. It's exactly the kind of game that's worth learning in demo mode first – the feature interactions take a few bonuses to understand.",
+  "pros": [
+    "Huge 66,666x max win",
+    "Complex, rewarding feature set"
+  ],
+  "cons": [
+    "Disturbing theme is not for everyone",
+    "Extreme volatility"
+  ],
+  "related": [
+    "san-quentin-xways",
+    "tombstone-rip",
+    "fire-in-the-hole-xbomb"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

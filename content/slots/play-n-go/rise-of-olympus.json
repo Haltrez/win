@@ -1,0 +1,52 @@
+{
+  "slug": "rise-of-olympus",
+  "name": "Rise of Olympus",
+  "provider": "play-n-go",
+  "rtp": 96.5,
+  "volatility": "high",
+  "maxWin": 5000,
+  "releaseDate": "2018-08-01",
+  "reels": "5x5",
+  "paylines": "Grid connections",
+  "mechanics": [
+    "cascades",
+    "reel-modifiers",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "rating": 7.5,
+  "features": [
+    {
+      "name": "God powers",
+      "description": "Zeus, Hades and Poseidon each have a different random grid modifier."
+    },
+    {
+      "name": "Free spins",
+      "description": "Choose a god and a multiplier that grows with each cascade."
+    }
+  ],
+  "review": "Rise of Olympus mixes cascading grid wins with three god-specific modifiers. It's an older take on the Greek mythology theme than Gates of Olympus and plays quite differently, with more frequent mid-sized feature triggers.\n\nZeus turns symbols into wilds, Hades removes a symbol type, and Poseidon transforms a set of symbols into one type. These modifiers can trigger randomly after a non-winning spin, so the base game rarely feels empty. In free spins you choose a god and the matching modifier plus a multiplier that grows with each cascade. It's a good alternative for players who like Greek mythology but find Gates of Olympus too volatile, with a top RTP of 96.5% when casinos use the highest version.",
+  "pros": [
+    "Three distinct modifiers",
+    "Good feature frequency"
+  ],
+  "cons": [
+    "Outdated graphics"
+  ],
+  "related": [
+    "gates-of-olympus",
+    "book-of-dead"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "jammin-jars",
+  "name": "Jammin' Jars",
+  "provider": "push-gaming",
+  "rtp": 96.83,
+  "volatility": "high",
+  "maxWin": 20000,
+  "releaseDate": "2018-02-14",
+  "reels": "8x8",
+  "paylines": "Cluster pays (5+)",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "walking-wilds"
+  ],
+  "themes": [
+    "fruit",
+    "music"
+  ],
+  "rating": 8.2,
+  "features": [
+    {
+      "name": "Jam Jar wilds",
+      "description": "Jars move around the grid and their multiplier increases by 1 each time they are part of a win."
+    },
+    {
+      "name": "Rainbow feature",
+      "description": "Can add giant fruit symbols to the grid."
+    }
+  ],
+  "review": "Jammin' Jars pioneered the moving multiplier-wild cluster game. In free spins the Jam Jars stick around and keep increasing their multipliers, so a bonus with several jars can grow into very large wins. It's still one of the most fun cluster slots, and the RTP is one of the higher defaults on this list.",
+  "pros": [
+    "High default RTP",
+    "Growing multipliers in free spins",
+    "20,000x max win"
+  ],
+  "cons": [
+    "Bonus is hard to trigger"
+  ],
+  "related": [
+    "reactoonz",
+    "razor-shark",
+    "sugar-rush"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

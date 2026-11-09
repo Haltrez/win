@@ -1,0 +1,54 @@
+{
+  "slug": "fire-in-the-hole-xbomb",
+  "name": "Fire in the Hole xBomb",
+  "provider": "nolimit-city",
+  "rtp": 96.06,
+  "volatility": "very-high",
+  "maxWin": 60000,
+  "releaseDate": "2022-01-11",
+  "reels": "6x3–6x6",
+  "paylines": "Up to 46,656 ways",
+  "mechanics": [
+    "xbomb",
+    "ways",
+    "cascades",
+    "free-spins",
+    "bonus-buy",
+    "grid-expansion"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "rating": 8,
+  "features": [
+    {
+      "name": "xBomb wilds",
+      "description": "Exploding wilds destroy surrounding symbols and unlock rows."
+    },
+    {
+      "name": "Lucky Wagon spins",
+      "description": "Persistent sticky multipliers on a fully unlocked grid."
+    }
+  ],
+  "review": "Fire in the Hole xBomb is a mining-themed cascade game where xBomb wilds blow open extra rows. Its Lucky Wagon bonus has sticky multipliers that make late spins the most exciting. It strikes a good balance between Nolimit's extremes and a gameplay loop you can actually follow.",
+  "pros": [
+    "Grid expansion is satisfying",
+    "60,000x max win"
+  ],
+  "cons": [
+    "Bonus hit rate is low"
+  ],
+  "related": [
+    "mental",
+    "san-quentin-xways"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

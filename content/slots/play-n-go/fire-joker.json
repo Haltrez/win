@@ -1,0 +1,52 @@
+{
+  "slug": "fire-joker",
+  "name": "Fire Joker",
+  "provider": "play-n-go",
+  "rtp": 96.15,
+  "volatility": "medium",
+  "maxWin": 800,
+  "releaseDate": "2016-05-26",
+  "reels": "3x3",
+  "paylines": "5",
+  "mechanics": [
+    "paylines",
+    "respins",
+    "multipliers"
+  ],
+  "themes": [
+    "classic",
+    "fruit"
+  ],
+  "rating": 6.9,
+  "features": [
+    {
+      "name": "Respin of Fire",
+      "description": "When two reels are stacked with the same symbol and no win occurs, the third reel respins."
+    },
+    {
+      "name": "Wheel of Multipliers",
+      "description": "A full screen of one symbol triggers a multiplier wheel up to 10x."
+    }
+  ],
+  "review": "Fire Joker is a compact classic 3x3 slot with five paylines and two simple features. It's not meant to compete with modern high-variance games; it's a quick, low-friction fruit slot that works well on mobile.\n\nThe Respin of Fire triggers whenever two reels stack the same symbol without a win, giving you a second chance on the remaining reel. Filling the whole 3x3 grid with one symbol spins the Wheel of Multipliers for 2x to 10x the win. Those two features are the whole game, which makes Fire Joker a sensible choice for short mobile sessions or for anyone who wants to learn slot basics without dozens of modifiers. Just don't expect large results: the 800x cap is low.",
+  "pros": [
+    "Very simple",
+    "Medium volatility"
+  ],
+  "cons": [
+    "Low 800x max win"
+  ],
+  "related": [
+    "starburst",
+    "wolf-gold"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

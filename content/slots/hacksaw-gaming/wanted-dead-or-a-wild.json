@@ -1,0 +1,62 @@
+{
+  "slug": "wanted-dead-or-a-wild",
+  "name": "Wanted Dead or a Wild",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.38,
+  "volatility": "very-high",
+  "maxWin": 12500,
+  "releaseDate": "2021-08-12",
+  "reels": "5x5",
+  "paylines": "15",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "sticky-wilds",
+    "multipliers",
+    "bonus-buy",
+    "expanding-wilds"
+  ],
+  "themes": [
+    "western"
+  ],
+  "rating": 8.7,
+  "features": [
+    {
+      "name": "VS symbols",
+      "description": "In the base game and Duel at Dawn bonus, VS symbols expand into a full-reel wild with a multiplier up to 100x."
+    },
+    {
+      "name": "Great Train Robbery",
+      "description": "Free spins with sticky multiplier wilds."
+    },
+    {
+      "name": "Dead Man's Hand",
+      "description": "Sticky wilds where multipliers reset each spin, combined with Duel at Dawn."
+    }
+  ],
+  "review": "Wanted Dead or a Wild is the game that made Hacksaw a household name with high-volatility players. Three separate bonuses, each purchasable on its own where bonus buys are allowed, give the game far more variety than a single free spins round. The Duel at Dawn feature – expanding VS reels with multipliers – can produce huge results on just a few spins, which is why it is popular with streamers. It is very swingy; most bonuses pay modestly and a few pay enormously.",
+  "pros": [
+    "Three distinct bonus rounds",
+    "12,500x max win",
+    "Excellent bonus variety"
+  ],
+  "cons": [
+    "Base game rarely pays well",
+    "Very high volatility"
+  ],
+  "related": [
+    "chaos-crew",
+    "le-bandit",
+    "hand-of-anubis",
+    "dead-or-alive-2"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

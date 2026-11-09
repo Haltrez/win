@@ -1,0 +1,54 @@
+{
+  "slug": "big-bamboo",
+  "name": "Big Bamboo",
+  "provider": "push-gaming",
+  "rtp": 96.08,
+  "volatility": "very-high",
+  "maxWin": 50000,
+  "releaseDate": "2022-02-23",
+  "reels": "5x6",
+  "paylines": "Ways",
+  "mechanics": [
+    "ways",
+    "free-spins",
+    "multipliers",
+    "money-collect",
+    "bonus-buy"
+  ],
+  "themes": [
+    "asian",
+    "animals"
+  ],
+  "rating": 8,
+  "features": [
+    {
+      "name": "Mystery bamboo",
+      "description": "Bamboo symbols reveal coins, multipliers, collectors or symbols."
+    },
+    {
+      "name": "Golden bamboo free spins",
+      "description": "Golden bamboos stay in place during free spins."
+    }
+  ],
+  "review": "Big Bamboo is a very high volatility panda slot built around mystery bamboo symbols that can reveal coins, collectors and multipliers. Its golden bamboo free spins are where the 50,000x potential sits. It became a streamer favourite thanks to the drama of each bamboo reveal.",
+  "pros": [
+    "Tense, rewarding reveal mechanic",
+    "50,000x max win"
+  ],
+  "cons": [
+    "Very high volatility"
+  ],
+  "related": [
+    "razor-shark",
+    "money-train-2"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

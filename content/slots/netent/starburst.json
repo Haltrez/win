@@ -1,0 +1,54 @@
+{
+  "slug": "starburst",
+  "name": "Starburst",
+  "provider": "netent",
+  "rtp": 96.09,
+  "volatility": "low",
+  "maxWin": 500,
+  "releaseDate": "2012-11-01",
+  "reels": "5x3",
+  "paylines": "10 (both ways)",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "respins"
+  ],
+  "themes": [
+    "space",
+    "gems",
+    "classic"
+  ],
+  "rating": 7.6,
+  "features": [
+    {
+      "name": "Starburst wilds",
+      "description": "Wilds on reels 2–4 expand and trigger a respin, up to three in a row."
+    },
+    {
+      "name": "Win both ways",
+      "description": "Lines pay left-to-right and right-to-left."
+    }
+  ],
+  "review": "Starburst is a deliberately low volatility game: frequent small wins, a single expanding-wild respin feature and a 500x cap. It's still useful as a reference point for what \"low volatility\" actually feels like, and its presentation remains clean and readable.",
+  "pros": [
+    "Low volatility, frequent wins",
+    "Instantly understandable"
+  ],
+  "cons": [
+    "500x cap",
+    "No free spins"
+  ],
+  "related": [
+    "fire-joker",
+    "gonzos-quest"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

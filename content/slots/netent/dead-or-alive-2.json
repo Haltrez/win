@@ -1,0 +1,50 @@
+{
+  "slug": "dead-or-alive-2",
+  "name": "Dead or Alive 2",
+  "provider": "netent",
+  "rtp": 96.82,
+  "volatility": "very-high",
+  "maxWin": 111111,
+  "releaseDate": "2019-04-01",
+  "reels": "5x3",
+  "paylines": "9",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "sticky-wilds",
+    "multipliers"
+  ],
+  "themes": [
+    "western"
+  ],
+  "rating": 8.1,
+  "features": [
+    {
+      "name": "Three free spins modes",
+      "description": "Old Saloon (sticky wilds), Train Heist (multipliers) and High Noon Saloon (wild multipliers) each have different volatility."
+    }
+  ],
+  "review": "Dead or Alive 2 is the high-volatility classic that set the bar for western sticky-wild bonuses. The High Noon Saloon mode – sticky wilds with multipliers – is where the 111,111x cap lives. Very few spins pay well, but the bonuses are memorable.",
+  "pros": [
+    "111,111x max win",
+    "Three bonus choices",
+    "High RTP"
+  ],
+  "cons": [
+    "Extremely volatile",
+    "Only 9 paylines"
+  ],
+  "related": [
+    "wanted-dead-or-a-wild",
+    "tombstone-rip"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

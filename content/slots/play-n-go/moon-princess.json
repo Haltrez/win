@@ -1,0 +1,53 @@
+{
+  "slug": "moon-princess",
+  "name": "Moon Princess",
+  "provider": "play-n-go",
+  "rtp": 96.5,
+  "volatility": "high",
+  "maxWin": 5000,
+  "releaseDate": "2017-01-26",
+  "reels": "5x5",
+  "paylines": "Cluster/Grid",
+  "mechanics": [
+    "cascades",
+    "free-spins",
+    "reel-modifiers",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "fantasy",
+    "asian"
+  ],
+  "rating": 7.6,
+  "features": [
+    {
+      "name": "Princess powers",
+      "description": "Three princesses trigger random powers: diamond creation, symbol removal or grid transformation."
+    },
+    {
+      "name": "Trinity Reels",
+      "description": "Free spins with all three powers available."
+    }
+  ],
+  "review": "Moon Princess is a cascading grid game with three random \"princess powers\" that can trigger on any spin. Its anime presentation has aged reasonably well and the free spins have a progressive multiplier. A dependable mid-2010s title worth trying in demo.",
+  "pros": [
+    "Varied random modifiers",
+    "Progressive multiplier in bonus"
+  ],
+  "cons": [
+    "Busy presentation"
+  ],
+  "related": [
+    "reactoonz",
+    "starlight-princess"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

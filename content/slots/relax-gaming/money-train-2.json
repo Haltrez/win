@@ -1,0 +1,54 @@
+{
+  "slug": "money-train-2",
+  "name": "Money Train 2",
+  "provider": "relax-gaming",
+  "rtp": 96.4,
+  "volatility": "very-high",
+  "maxWin": 50000,
+  "releaseDate": "2020-01-30",
+  "reels": "5x4",
+  "paylines": "40",
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "money-collect",
+    "respins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "western"
+  ],
+  "rating": 8.5,
+  "features": [
+    {
+      "name": "Money Cart bonus",
+      "description": "Three respins where only bonus symbols land; respins reset with each new symbol."
+    },
+    {
+      "name": "Persistent symbols",
+      "description": "Collector, Payer, Sniper and Necromancer symbols interact to boost values."
+    }
+  ],
+  "review": "Money Train 2 remains the benchmark for \"money cart\" style bonuses. The persistent special symbols – Collectors, Payers, Snipers and the Necromancer – combine in so many ways that no two bonuses look the same. It's very volatile, but the bonus is entertaining even when it pays poorly, which is rare.",
+  "pros": [
+    "Best-in-class bonus design",
+    "50,000x max win"
+  ],
+  "cons": [
+    "Bonus can be expensive to reach"
+  ],
+  "related": [
+    "money-train-3",
+    "big-bass-bonanza",
+    "big-bamboo"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

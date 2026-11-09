@@ -1,0 +1,54 @@
+{
+  "slug": "reactoonz",
+  "name": "Reactoonz",
+  "provider": "play-n-go",
+  "rtp": 96.51,
+  "volatility": "high",
+  "maxWin": 4570,
+  "releaseDate": "2017-10-18",
+  "reels": "7x7",
+  "paylines": "Cluster pays (5+)",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "reel-modifiers",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "space",
+    "sci-fi"
+  ],
+  "rating": 8.2,
+  "features": [
+    {
+      "name": "Quantum Leap meter",
+      "description": "Winning symbols charge a meter that triggers random grid modifiers."
+    },
+    {
+      "name": "Gargantoon",
+      "description": "A fully charged meter releases a giant wild that splits into smaller wilds."
+    }
+  ],
+  "review": "Reactoonz has no traditional free spins – its features trigger from a charge meter that fills with every winning cluster. That design keeps the base game busy, and the Gargantoon feature is still one of the most enjoyable moments in any cluster slot. It remains one of Play'n GO's best games years after release.",
+  "pros": [
+    "Constant feature activity",
+    "No-free-spins design that still feels rewarding"
+  ],
+  "cons": [
+    "Max win just under 5,000x"
+  ],
+  "related": [
+    "moon-princess",
+    "sugar-rush",
+    "jammin-jars"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

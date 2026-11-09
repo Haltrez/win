@@ -1,0 +1,56 @@
+{
+  "slug": "starlight-princess",
+  "name": "Starlight Princess",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2021-04-29",
+  "reels": "6x5",
+  "paylines": "Pay anywhere (8+)",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "fantasy",
+    "asian"
+  ],
+  "rating": 7.7,
+  "features": [
+    {
+      "name": "Multipliers",
+      "description": "Multiplier symbols worth up to 500x can land on any spin."
+    },
+    {
+      "name": "Free spins",
+      "description": "15 free spins where all landing multipliers add to a total applied to subsequent wins."
+    }
+  ],
+  "review": "Starlight Princess is mechanically a sister game to Gates of Olympus with an anime-inspired presentation. The maths and features are almost identical, so the choice between them is mostly about theme. If you already play Gates, the demo here will feel immediately familiar.",
+  "pros": [
+    "Proven tumble/multiplier engine",
+    "Distinctive art style"
+  ],
+  "cons": [
+    "Nearly identical to Gates of Olympus",
+    "Very high volatility"
+  ],
+  "related": [
+    "gates-of-olympus",
+    "gates-of-olympus-1000"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

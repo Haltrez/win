@@ -1,0 +1,47 @@
+{
+  "slug": "legacy-of-dead",
+  "name": "Legacy of Dead",
+  "provider": "play-n-go",
+  "rtp": 96.58,
+  "volatility": "high",
+  "maxWin": 5000,
+  "releaseDate": "2020-01-07",
+  "reels": "5x3",
+  "paylines": "10",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "expanding-symbols"
+  ],
+  "themes": [
+    "egypt"
+  ],
+  "rating": 7.6,
+  "features": [
+    {
+      "name": "Multiple expanding symbols",
+      "description": "Each scatter beyond three adds an additional expanding symbol for the free spins."
+    }
+  ],
+  "review": "Legacy of Dead is a refined Book of Dead with a twist: landing more scatters gives you more expanding symbols in the bonus. That makes four- and five-scatter triggers genuinely exciting. Otherwise the experience is very familiar.\n\nThree scatters award ten free spins with one expanding symbol, four scatters add a second expanding symbol and five scatters add a third. With two or three expanding symbols active, full-screen wins become much more likely than in Book of Dead, which gives the bonus a higher floor. The base game is unchanged from the book formula – ten lines, a scatter-wild hybrid and fairly frequent small hits. Its 96.58% top RTP is also a little better, but check the casino's version.",
+  "pros": [
+    "Multiple expanding symbols possible",
+    "Higher default RTP than Book of Dead"
+  ],
+  "cons": [
+    "Very similar to Book of Dead"
+  ],
+  "related": [
+    "book-of-dead",
+    "rise-of-olympus"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

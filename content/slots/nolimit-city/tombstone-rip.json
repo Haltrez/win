@@ -1,0 +1,55 @@
+{
+  "slug": "tombstone-rip",
+  "name": "Tombstone RIP",
+  "provider": "nolimit-city",
+  "rtp": 96.08,
+  "volatility": "very-high",
+  "maxWin": 300000,
+  "releaseDate": "2022-02-08",
+  "reels": "5x4",
+  "paylines": "40",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "multipliers",
+    "bonus-buy",
+    "xnudge"
+  ],
+  "themes": [
+    "western",
+    "horror"
+  ],
+  "rating": 7.8,
+  "features": [
+    {
+      "name": "xNudge wilds",
+      "description": "Wilds nudge into view, raising their multiplier with each nudge."
+    },
+    {
+      "name": "Free spin modes",
+      "description": "Several bonus modes with escalating multipliers."
+    }
+  ],
+  "review": "Tombstone RIP pushed max-win marketing to an extreme with a 300,000x cap. The core of the game is xNudge wilds whose multipliers grow every time they nudge. It is a fascinating demo but one of the most volatile slots available, and the cap is a theoretical ceiling rather than a realistic target.",
+  "pros": [
+    "300,000x max win",
+    "Dramatic xNudge multipliers"
+  ],
+  "cons": [
+    "One of the most volatile slots on the market"
+  ],
+  "related": [
+    "san-quentin-xways",
+    "mental",
+    "wanted-dead-or-a-wild"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

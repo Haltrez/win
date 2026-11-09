@@ -1,0 +1,67 @@
+{
+  "slug": "sweet-bonanza",
+  "name": "Sweet Bonanza",
+  "provider": "pragmatic-play",
+  "rtp": 96.48,
+  "rtpVariants": [
+    95.51,
+    94.5
+  ],
+  "volatility": "high",
+  "maxWin": 21175,
+  "releaseDate": "2019-06-27",
+  "reels": "6x5",
+  "paylines": "Pay anywhere (8+)",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "candy",
+    "fruit"
+  ],
+  "rating": 8.5,
+  "features": [
+    {
+      "name": "Tumble",
+      "description": "Wins are removed and replaced from above until no new wins form."
+    },
+    {
+      "name": "Free spins with bombs",
+      "description": "4+ lollipop scatters award 10 free spins. Rainbow bomb multipliers (2x–100x) land only during free spins and are added together at the end of each tumble sequence."
+    },
+    {
+      "name": "Ante bet",
+      "description": "Raises the stake by 25% to increase scatter frequency."
+    }
+  ],
+  "review": "Sweet Bonanza introduced the pay-anywhere tumble format years before Gates of Olympus made it ubiquitous, and it still plays well. The candy presentation is bright and light, but the math is not: the base game pays mostly fruit and small tumbles, and nearly all of the real potential sits in the free spins.\n\nUnlike Gates, multipliers in Sweet Bonanza do not persist across the bonus – each tumble sequence is assessed on its own. That makes individual spins in the bonus more exciting and the round as a whole a little less predictable. The 21,175x max win is far higher than the original Gates.",
+  "pros": [
+    "High max win for its age",
+    "Bombs in every free spin keep the bonus lively",
+    "Clear, cheerful presentation"
+  ],
+  "cons": [
+    "Multipliers do not persist between spins",
+    "Base game rarely produces meaningful wins"
+  ],
+  "related": [
+    "sweet-bonanza-1000",
+    "sugar-rush",
+    "fruit-party",
+    "gates-of-olympus"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

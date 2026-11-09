@@ -1,0 +1,60 @@
+{
+  "slug": "gates-of-olympus-1000",
+  "name": "Gates of Olympus 1000",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": "very-high",
+  "maxWin": 15000,
+  "releaseDate": "2023-11-02",
+  "reels": "6x5",
+  "paylines": "Pay anywhere (8+)",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "rating": 8.4,
+  "features": [
+    {
+      "name": "Multipliers up to 1,000x",
+      "description": "The orb range is extended so a single orb can be worth up to 1,000x."
+    },
+    {
+      "name": "Free spins",
+      "description": "15 free spins with a persistent multiplier total; 3 extra scatters retrigger 5 more spins."
+    },
+    {
+      "name": "Higher cap",
+      "description": "Max win raised to 15,000x the stake."
+    }
+  ],
+  "review": "The 1000 version keeps everything familiar about the original – the same grid, symbols and pay-anywhere tumble – but stretches the multiplier range and triples the max win to 15,000x. In practice this makes an already swingy slot swingier: the average bonus doesn't feel much bigger, but the ceiling is far higher.\n\nIf you enjoy the original and want more upside, this is the logical step. If you found the original too punishing, this version is not the fix.",
+  "pros": [
+    "Max win raised to 15,000x",
+    "Same easy-to-learn gameplay as the original"
+  ],
+  "cons": [
+    "Even more volatile than the original",
+    "Feels like a remix rather than a new game"
+  ],
+  "related": [
+    "gates-of-olympus",
+    "sweet-bonanza-1000",
+    "starlight-princess"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

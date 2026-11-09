@@ -1,0 +1,53 @@
+{
+  "slug": "chaos-crew",
+  "name": "Chaos Crew",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.3,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": "2020-11-05",
+  "reels": "5x5",
+  "paylines": "15",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "multipliers",
+    "sticky-wilds",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "rating": 7.9,
+  "features": [
+    {
+      "name": "Multiplier wilds",
+      "description": "Wilds land with multipliers that are added together on a winning line."
+    },
+    {
+      "name": "Sticky wild free spins",
+      "description": "The top bonus keeps wilds in place and increases their multiplier each time a new wild lands."
+    }
+  ],
+  "review": "Chaos Crew is an early Hacksaw release that set the studio's template: a compact 5x5 grid, multiplier wilds and a sticky bonus that can snowball. Its punk-style art is still distinctive. It's less varied than Wanted Dead or a Wild but easier to understand, which makes it a good introduction to Hacksaw's style.",
+  "pros": [
+    "Simple, clear mechanics",
+    "10,000x max win"
+  ],
+  "cons": [
+    "Bonus often ends without building up"
+  ],
+  "related": [
+    "wanted-dead-or-a-wild",
+    "le-bandit"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

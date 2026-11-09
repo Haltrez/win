@@ -1,0 +1,53 @@
+{
+  "slug": "razor-shark",
+  "name": "Razor Shark",
+  "provider": "push-gaming",
+  "rtp": 96.7,
+  "volatility": "high",
+  "maxWin": 50000,
+  "releaseDate": "2019-05-29",
+  "reels": "5x4",
+  "paylines": "20",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "multipliers",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "animals",
+    "adventure"
+  ],
+  "rating": 7.9,
+  "features": [
+    {
+      "name": "Mystery stacks",
+      "description": "Mystery stacks reveal matching symbols, sometimes with a Razor Reveal multiplier."
+    },
+    {
+      "name": "Free spins with progressive multiplier",
+      "description": "Each reveal increases the multiplier during free spins."
+    }
+  ],
+  "review": "Razor Shark uses mystery stacks that reveal symbols and, via the Razor Reveal, multipliers and cash. A 50,000x cap makes it a big step up from typical underwater slots, and the progressive multiplier gives bonuses a satisfying sense of momentum.",
+  "pros": [
+    "50,000x max win",
+    "Progressive multiplier in bonus"
+  ],
+  "cons": [
+    "Long dry spells possible"
+  ],
+  "related": [
+    "jammin-jars",
+    "big-bamboo"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

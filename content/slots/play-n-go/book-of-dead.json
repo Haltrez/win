@@ -1,0 +1,61 @@
+{
+  "slug": "book-of-dead",
+  "name": "Book of Dead",
+  "provider": "play-n-go",
+  "rtp": 96.21,
+  "rtpVariants": [
+    94.25,
+    91.25,
+    87.25,
+    84.17
+  ],
+  "volatility": "high",
+  "maxWin": 5000,
+  "releaseDate": "2016-01-26",
+  "reels": "5x3",
+  "paylines": "10",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "expanding-symbols",
+    "gamble"
+  ],
+  "themes": [
+    "egypt",
+    "adventure"
+  ],
+  "rating": 8,
+  "features": [
+    {
+      "name": "Expanding symbol",
+      "description": "Before free spins a random symbol is chosen; during the bonus it expands to fill reels and pays on any position."
+    },
+    {
+      "name": "Gamble",
+      "description": "Optional double-or-nothing card gamble on wins (removed in some markets)."
+    }
+  ],
+  "review": "Book of Dead is the template for the modern \"book\" slot. Ten free spins with a random expanding symbol is all there is, and that simplicity is its strength: the bonus outcome depends almost entirely on which symbol is picked. A high-paying expanding symbol can fill the screen, while a low one usually produces a modest bonus. Note the very wide range of RTP configurations – the in-game info screen tells you which one a casino runs.",
+  "pros": [
+    "Iconic, simple mechanic",
+    "5,000x max win on a 10-line slot"
+  ],
+  "cons": [
+    "Operators may run RTPs far below 96.21%",
+    "Very dated visuals"
+  ],
+  "related": [
+    "legacy-of-dead",
+    "rise-of-olympus",
+    "hand-of-anubis"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

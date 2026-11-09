@@ -1,0 +1,54 @@
+{
+  "slug": "money-train-3",
+  "name": "Money Train 3",
+  "provider": "relax-gaming",
+  "rtp": 96.1,
+  "volatility": "very-high",
+  "maxWin": 100000,
+  "releaseDate": "2022-05-31",
+  "reels": "5x4",
+  "paylines": "40",
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "money-collect",
+    "respins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "western",
+    "sci-fi"
+  ],
+  "rating": 8.2,
+  "features": [
+    {
+      "name": "Money Cart 3 bonus",
+      "description": "Respins with an expanded set of persistent special symbols."
+    },
+    {
+      "name": "Base game modifiers",
+      "description": "Bonus symbols can land in the base game with random values."
+    }
+  ],
+  "review": "Money Train 3 moves the series into a steampunk setting and doubles the cap to 100,000x. The bonus adds new persistent symbols on top of the classics. It's more complex than Money Train 2, which makes the demo especially useful before playing for real.",
+  "pros": [
+    "100,000x max win",
+    "Deep bonus mechanics"
+  ],
+  "cons": [
+    "Complexity can be overwhelming"
+  ],
+  "related": [
+    "money-train-2",
+    "san-quentin-xways"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

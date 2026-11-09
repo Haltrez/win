@@ -1,0 +1,59 @@
+{
+  "slug": "bonanza-megaways",
+  "name": "Bonanza Megaways",
+  "provider": "big-time-gaming",
+  "rtp": 96,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": "2016-12-16",
+  "reels": "6 reels, 2–7 rows",
+  "paylines": "Up to 117,649 ways",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "cascades",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "adventure",
+    "gems"
+  ],
+  "rating": 8,
+  "features": [
+    {
+      "name": "Megaways",
+      "description": "Each reel shows 2–7 symbols per spin, so the number of ways changes every spin."
+    },
+    {
+      "name": "Reactions",
+      "description": "Winning symbols explode and new ones drop in."
+    },
+    {
+      "name": "Unlimited win multiplier",
+      "description": "In free spins the multiplier rises by 1 after every reaction."
+    }
+  ],
+  "review": "Bonanza launched the Megaways mechanic, and playing it now is a lesson in why the format took over. The constantly changing grid makes every spin look different, and the free spins multiplier increases with every cascade without resetting. It looks dated but plays well.",
+  "pros": [
+    "Original Megaways game",
+    "Free spins multiplier never resets"
+  ],
+  "cons": [
+    "Dated visuals"
+  ],
+  "related": [
+    "extra-chilli",
+    "the-dog-house-megaways",
+    "buffalo-king-megaways"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

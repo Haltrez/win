@@ -1,0 +1,54 @@
+{
+  "slug": "white-rabbit",
+  "name": "White Rabbit Megaways",
+  "provider": "big-time-gaming",
+  "rtp": 97.24,
+  "volatility": "high",
+  "maxWin": 17420,
+  "releaseDate": "2017-11-28",
+  "reels": "5 reels + extending reels",
+  "paylines": "Up to 248,832 ways",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "free-spins",
+    "grid-expansion",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "rating": 7.8,
+  "features": [
+    {
+      "name": "Extending reels",
+      "description": "In free spins, reels extend upwards to add ways."
+    },
+    {
+      "name": "Wild multipliers",
+      "description": "Wilds increase their multipliers during the bonus."
+    }
+  ],
+  "review": "White Rabbit is an Alice in Wonderland-inspired Megaways game with growing reels in the bonus and a 97.24% RTP – one of the highest defaults you'll find in a major-studio slot. The free spins can reach a huge number of ways.",
+  "pros": [
+    "97.24% default RTP",
+    "Expanding reel bonus"
+  ],
+  "cons": [
+    "Busy visuals"
+  ],
+  "related": [
+    "extra-chilli",
+    "bonanza-megaways"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

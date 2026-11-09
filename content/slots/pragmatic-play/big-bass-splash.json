@@ -1,0 +1,52 @@
+{
+  "slug": "big-bass-splash",
+  "name": "Big Bass Splash",
+  "provider": "pragmatic-play",
+  "rtp": 96.71,
+  "volatility": "high",
+  "maxWin": 5000,
+  "releaseDate": "2022-09-22",
+  "reels": "5x3",
+  "paylines": "10",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "money-collect",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "rating": 7.8,
+  "features": [
+    {
+      "name": "Random modifiers",
+      "description": "At the start of free spins, random modifiers can add extra fish, extra fishermen, extra spins or raise the level."
+    },
+    {
+      "name": "Collect free spins",
+      "description": "Fisherman wilds collect fish values; every fourth wild advances the multiplier."
+    }
+  ],
+  "review": "Big Bass Splash keeps the original's collect bonus and adds random modifiers that can upgrade the free spins before they start. The cap rises to 5,000x. It is the most balanced entry in the series for most players: still straightforward, but with a little more variety in how bonuses play out.",
+  "pros": [
+    "Pre-bonus modifiers add variety",
+    "5,000x max win"
+  ],
+  "cons": [
+    "Still largely a re-skin of the original"
+  ],
+  "related": [
+    "big-bass-bonanza",
+    "fishin-frenzy"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

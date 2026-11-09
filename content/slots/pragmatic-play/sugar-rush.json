@@ -1,0 +1,55 @@
+{
+  "slug": "sugar-rush",
+  "name": "Sugar Rush",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": "high",
+  "maxWin": 5000,
+  "releaseDate": "2022-06-09",
+  "reels": "7x7",
+  "paylines": "Cluster pays (5+)",
+  "mechanics": [
+    "cluster-pays",
+    "tumble",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "candy"
+  ],
+  "rating": 8,
+  "features": [
+    {
+      "name": "Multiplier spots",
+      "description": "When a winning symbol explodes its grid position is marked; a second win on the same spot starts a multiplier that doubles each time, up to 128x."
+    },
+    {
+      "name": "Free spins",
+      "description": "3–7 scatters award 10–30 free spins, and marked spots and multipliers stay on the grid for the whole round."
+    }
+  ],
+  "review": "Sugar Rush swaps the pay-anywhere model for cluster pays on a 7x7 grid and adds a clever spot-multiplier system. Each win leaves a mark on the grid, and repeat wins on the same spot double a multiplier all the way to 128x. In the base game the marks reset after each spin; in free spins they persist, so a well-covered grid late in the bonus is where big results come from. It's one of the more satisfying Pragmatic engines to watch build up.",
+  "pros": [
+    "Multiplier grid is easy to follow and builds tension",
+    "Persistent multipliers in free spins"
+  ],
+  "cons": [
+    "Bonuses that never get going are common",
+    "5,000x cap"
+  ],
+  "related": [
+    "sweet-bonanza",
+    "fruit-party",
+    "reactoonz"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

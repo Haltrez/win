@@ -1,0 +1,54 @@
+{
+  "slug": "gonzos-quest",
+  "name": "Gonzo's Quest",
+  "provider": "netent",
+  "rtp": 95.97,
+  "volatility": "medium",
+  "maxWin": 2500,
+  "releaseDate": "2011-06-01",
+  "reels": "5x3",
+  "paylines": "20",
+  "mechanics": [
+    "paylines",
+    "cascades",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "adventure",
+    "history"
+  ],
+  "rating": 7.5,
+  "features": [
+    {
+      "name": "Avalanche",
+      "description": "Winning symbols explode and new ones fall – one of the first cascade mechanics in online slots."
+    },
+    {
+      "name": "Free Falls",
+      "description": "Free spins where the avalanche multiplier goes up to 15x."
+    }
+  ],
+  "review": "Gonzo's Quest popularised cascading reels long before tumble slots became standard. Its Free Falls multiplier ladder still feels good, and medium volatility makes it approachable for longer demo sessions.\n\nEach consecutive avalanche raises the multiplier – up to 5x in the base game and 15x in Free Falls – so a long chain of cascades is where the meaningful wins come from. Free Falls trigger on three gold free-fall symbols on the first three reels and can retrigger. The 95.97% RTP is lower than many modern games, which is worth knowing if you plan long sessions. As a demo, it's an excellent way to understand how cascade multipliers work before trying newer, more volatile tumble slots.",
+  "pros": [
+    "Historic, influential design",
+    "Medium volatility"
+  ],
+  "cons": [
+    "Below-average RTP",
+    "Dated"
+  ],
+  "related": [
+    "starburst",
+    "bonanza-megaways"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "extra-chilli",
+  "name": "Extra Chilli",
+  "provider": "big-time-gaming",
+  "rtp": 96.82,
+  "volatility": "high",
+  "maxWin": 20000,
+  "releaseDate": "2018-05-15",
+  "reels": "6 reels, 2–7 rows",
+  "paylines": "Up to 117,649 ways",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "cascades",
+    "free-spins",
+    "gamble",
+    "progressive-multiplier",
+    "bonus-buy"
+  ],
+  "themes": [
+    "food",
+    "asian"
+  ],
+  "rating": 7.9,
+  "features": [
+    {
+      "name": "Free spins gamble",
+      "description": "You can gamble your free spins for more on a wheel before the bonus starts."
+    },
+    {
+      "name": "Feature Drop",
+      "description": "Option to buy the bonus at a price that drops over time (where available)."
+    }
+  ],
+  "review": "Extra Chilli builds on Bonanza with a free spins gamble wheel – risk your spins for a chance at more. Unlimited multipliers remain the core. The 96.82% default RTP is among the best for a Megaways game.\n\nIn the base game Extra Chilli behaves like most Megaways titles: a lot of small cascades, occasional mid-sized hits when high-paying chillies line up, and long gaps between free spins. The gamble wheel is the defining decision. Spinning it can turn 8 free spins into 24, but a miss forfeits the bonus entirely, so the sensible choice depends on whether you want a steady bonus or a lottery ticket. Try both approaches in demo to see how much the outcomes vary.",
+  "pros": [
+    "High default RTP",
+    "Gamble-for-more-spins choice"
+  ],
+  "cons": [
+    "Gamble wheel can lose the bonus entirely"
+  ],
+  "related": [
+    "bonanza-megaways",
+    "white-rabbit"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

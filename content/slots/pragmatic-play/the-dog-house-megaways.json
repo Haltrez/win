@@ -1,0 +1,57 @@
+{
+  "slug": "the-dog-house-megaways",
+  "name": "The Dog House Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.55,
+  "volatility": "high",
+  "maxWin": 12305,
+  "releaseDate": "2020-05-21",
+  "reels": "6 reels, 2–7 rows",
+  "paylines": "Up to 117,649 ways",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "free-spins",
+    "sticky-wilds",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "dogs",
+    "animals"
+  ],
+  "rating": 8.1,
+  "features": [
+    {
+      "name": "Multiplier wilds",
+      "description": "Wilds carry 1x–3x multipliers which multiply together when they combine on a win."
+    },
+    {
+      "name": "Choice of free spins",
+      "description": "Pick sticky wilds (fewer spins, wilds stay) or raining wilds (more spins, new wilds each spin)."
+    }
+  ],
+  "review": "The Dog House Megaways takes the original Dog House sticky-wild bonus and puts it on BTG's Megaways engine. The highlight is the free spins choice: sticky wilds are the classic high-risk option, while raining wilds tends to pay more consistently. Wild multipliers multiply each other, so two or three wilds on one win can produce surprisingly large results.",
+  "pros": [
+    "Choice of two distinct bonus types",
+    "Multiplying wild multipliers",
+    "12,305x max win"
+  ],
+  "cons": [
+    "Megaways base game can be quiet"
+  ],
+  "related": [
+    "bonanza-megaways",
+    "buffalo-king-megaways",
+    "extra-chilli"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

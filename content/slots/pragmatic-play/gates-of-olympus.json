@@ -1,0 +1,71 @@
+{
+  "slug": "gates-of-olympus",
+  "name": "Gates of Olympus",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "rtpVariants": [
+    95.51,
+    94.5
+  ],
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2021-02-13",
+  "reels": "6x5",
+  "paylines": "Pay anywhere (8+)",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "rating": 8.6,
+  "features": [
+    {
+      "name": "Tumble",
+      "description": "Winning symbols are removed and new ones fall in, allowing several wins from one paid spin."
+    },
+    {
+      "name": "Multiplier orbs",
+      "description": "Zeus drops orbs worth 2x–500x. In the base game they apply to the tumble sequence they land in."
+    },
+    {
+      "name": "Free spins",
+      "description": "4+ scatters award 15 free spins. Every multiplier that lands is added to a running total that applies to all wins for the rest of the round."
+    },
+    {
+      "name": "Ante bet / bonus buy",
+      "description": "Ante bet raises the stake by 25% to double the scatter chance; the bonus buy costs 100x where permitted."
+    }
+  ],
+  "review": "Gates of Olympus is the game that turned Pragmatic's pay-anywhere tumble engine into a franchise. There are no paylines: eight or more matching symbols anywhere on the 6x5 grid pay, and the grid keeps tumbling until no new wins form.\n\nThe whole game lives and dies on the multiplier orbs. In the base game they only boost the current tumble, so most spins are small or blank. The free spins are where the persistent multiplier total can climb and turn ordinary tumbles into the bigger results the game is known for. Expect long quiet stretches – this is a very high volatility slot and the 5,000x cap is reached rarely.",
+  "pros": [
+    "Simple to understand, very fast to play",
+    "Persistent free-spins multiplier creates real upside",
+    "Highest RTP version is 96.50%"
+  ],
+  "cons": [
+    "Base game can feel empty for long periods",
+    "Many casinos run a lower RTP configuration",
+    "5,000x cap is modest compared with newer high-variance games"
+  ],
+  "related": [
+    "gates-of-olympus-1000",
+    "zeus-vs-hades",
+    "starlight-princess",
+    "sweet-bonanza"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

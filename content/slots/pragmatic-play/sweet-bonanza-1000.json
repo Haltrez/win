@@ -1,0 +1,57 @@
+{
+  "slug": "sweet-bonanza-1000",
+  "name": "Sweet Bonanza 1000",
+  "provider": "pragmatic-play",
+  "rtp": 96.53,
+  "volatility": "high",
+  "maxWin": 25000,
+  "releaseDate": "2024-05-09",
+  "reels": "6x5",
+  "paylines": "Pay anywhere (8+)",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "candy",
+    "fruit"
+  ],
+  "rating": 8.2,
+  "features": [
+    {
+      "name": "Bomb multipliers up to 1,000x",
+      "description": "The bomb range during free spins is raised to a top value of 1,000x."
+    },
+    {
+      "name": "Super free spins",
+      "description": "A more expensive bonus-buy tier guarantees a higher minimum multiplier where available."
+    }
+  ],
+  "review": "Sweet Bonanza 1000 applies the same treatment Gates received: identical core gameplay, bigger multipliers and a 25,000x cap. The base game is unchanged, so sessions feel almost the same until the free spins arrive. It's a sensible upgrade for players who already know they like the original's bonus.",
+  "pros": [
+    "25,000x max win",
+    "Familiar gameplay"
+  ],
+  "cons": [
+    "Very little new beyond the numbers",
+    "High variance free spins"
+  ],
+  "related": [
+    "sweet-bonanza",
+    "gates-of-olympus-1000",
+    "sugar-rush"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "fishin-frenzy",
+  "name": "Fishin' Frenzy",
+  "provider": "blueprint-gaming",
+  "rtp": 96.12,
+  "volatility": "medium",
+  "maxWin": 5000,
+  "releaseDate": "2014-10-01",
+  "reels": "5x3",
+  "paylines": "10",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "money-collect"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "rating": 7,
+  "features": [
+    {
+      "name": "Fisherman free spins",
+      "description": "In free spins the fisherman collects fish values."
+    }
+  ],
+  "review": "Fishin' Frenzy is the original UK-style fishing collect slot that influenced the whole genre, including Big Bass Bonanza. It's simple, medium volatility and has many sequels.\n\nThe base game uses ten fixed lines and simple symbols, so most spins are easy to read at a glance. Free spins trigger on three or more scatters, and the fun comes from waiting for a fisherman to land alongside fish carrying cash values. Many later versions (Megaways, Big Catch, Even Bigger Fish) add extra features, but the original remains a good reference for how the genre started. It's a medium volatility game, so wins are more regular than in the high-variance fishing sequels.",
+  "pros": [
+    "The original fishing collect slot",
+    "Medium volatility"
+  ],
+  "cons": [
+    "Very basic"
+  ],
+  "related": [
+    "big-bass-bonanza",
+    "big-bass-splash"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

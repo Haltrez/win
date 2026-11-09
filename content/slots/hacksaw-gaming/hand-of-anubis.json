@@ -1,0 +1,55 @@
+{
+  "slug": "hand-of-anubis",
+  "name": "Hand of Anubis",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.24,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": "2023-05-11",
+  "reels": "6x6",
+  "paylines": "Cluster pays (5+)",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "egypt",
+    "mythology"
+  ],
+  "rating": 8,
+  "features": [
+    {
+      "name": "Multiplier spots",
+      "description": "Wins mark positions; repeat wins in marked spots create and grow multipliers."
+    },
+    {
+      "name": "Free spins",
+      "description": "Multiplier spots persist through free spins."
+    }
+  ],
+  "review": "Hand of Anubis is Hacksaw's darker take on an Egyptian cluster game, with persistent multiplier spots in the bonus. It plays a little like a high-volatility cousin of Sugar Rush. The atmosphere is excellent and the bonus can build up dramatically if multipliers land in the right places.",
+  "pros": [
+    "Atmospheric presentation",
+    "Persistent multiplier spots in bonus"
+  ],
+  "cons": [
+    "Very high volatility"
+  ],
+  "related": [
+    "sugar-rush",
+    "wanted-dead-or-a-wild",
+    "book-of-dead"
+  ],
+  "demoUrl": null,
+  "image": null,
+  "sources": [
+    "Provider game sheet / in-game info screen (verify before launch)"
+  ],
+  "verified": false,
+  "lastVerified": null,
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}
