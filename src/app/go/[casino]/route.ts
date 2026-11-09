@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getCasino } from '@/lib/data';
+import { FEATURES } from '@/lib/config';
 
 /**
  * Affiliate redirect: /go/[casino]?src=slot:gates-of-olympus&pos=1
@@ -21,6 +22,7 @@ function countryOf(req: NextRequest) {
 }
 
 export async function GET(req: NextRequest, { params }: { params: Promise<{ casino: string }> }) {
+  if (!FEATURES.realMoney) return new NextResponse('Not found', { status: 404 });
   const { casino: slug } = await params;
   const c = getCasino(slug);
   if (!c) return NextResponse.redirect(new URL('/casinos', req.url), 302);

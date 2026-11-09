@@ -7,6 +7,7 @@ import { NextRequest, NextResponse } from 'next/server';
  */
 export function proxy(req: NextRequest) {
   const res = NextResponse.next();
+  if (process.env.NEXT_PUBLIC_REAL_MONEY !== '1') return res; // geo only needed for casino listings
   const country = (req.headers.get('x-vercel-ip-country') || req.headers.get('cf-ipcountry') || '').toUpperCase();
   if (!country || country === 'XX') return res;
   const region = req.headers.get('x-vercel-ip-country-region');

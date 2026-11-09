@@ -26,7 +26,7 @@ export function AgeGate() {
       <div className="agegate-box">
         <p className="badge-18 big">18+</p>
         <h2 id="ag-h">Are you 18 or older?</h2>
-        <p>This site contains information about gambling products and links to licensed casinos. You must be 18 or over (or the legal gambling age in your country, if higher) to continue.</p>
+        <p>This site contains information about casino slot games. You must be 18 or over (or the legal gambling age in your country, if higher) to continue.</p>
         <div className="agegate-actions">
           <button className="btn btn-primary" onClick={accept} autoFocus>I am 18 or older</button>
           <a className="btn btn-ghost" href="https://www.gamblingtherapy.org/" rel="noopener">I am under 18</a>

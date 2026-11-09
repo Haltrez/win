@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { SITE } from '@/lib/config';
+import { FEATURES, SITE } from '@/lib/config';
 import { getComparisons, getGuides, getLetters, getProviders, getSlots, getSlotsByProvider, slotUrl } from '@/lib/data';
 import { getCategories, getCategorySlots, isIndexable } from '@/lib/categories';
 
@@ -35,9 +35,9 @@ export default async function sitemap(props: { id: Promise<string> }): Promise<M
     default:
       return [
         { url: u('/'), lastModified: latest, changeFrequency: 'daily', priority: 1 },
-        ...['/slots', '/providers', '/best', '/guides', '/compare', '/casinos'].map((p) => ({ url: u(p), lastModified: latest, changeFrequency: 'weekly' as const, priority: 0.7 })),
+        ...['/slots', '/providers', '/best', '/guides', '/compare', ...(FEATURES.realMoney ? ['/casinos'] : [])].map((p) => ({ url: u(p), lastModified: latest, changeFrequency: 'weekly' as const, priority: 0.7 })),
         ...getLetters().map((l) => ({ url: u(`/slots/a-z/${l}`), lastModified: latest, changeFrequency: 'weekly' as const, priority: 0.3 })),
-        ...['/about', '/how-we-review', '/affiliate-disclosure', '/responsible-gambling', '/contact', '/privacy', '/terms'].map((p) => ({ url: u(p), changeFrequency: 'yearly' as const, priority: 0.2 })),
+        ...['/about', '/how-we-review', ...(FEATURES.realMoney ? ['/affiliate-disclosure'] : []), '/responsible-gambling', '/contact', '/privacy', '/terms'].map((p) => ({ url: u(p), changeFrequency: 'yearly' as const, priority: 0.2 })),
       ];
   }
 }

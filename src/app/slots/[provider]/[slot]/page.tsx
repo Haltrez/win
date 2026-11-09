@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { marked } from 'marked';
+import { FEATURES } from '@/lib/config';
 import { getAuthor, getCasinosForProvider, getComparisons, getGuides, getProvider, getRelatedSlots, getSlot, getSlots, slotUrl } from '@/lib/data';
 import { getCategoriesForSlot } from '@/lib/categories';
 import { buildMetadata, slotDescription, slotTitle } from '@/lib/seo';
@@ -35,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
 function volatilityNote(s: Slot) {
   if (!s.volatility) return `The provider hasn't published an official volatility rating for ${s.name}, so we don't label it. Judge it from the demo: if wins are rare but bonus rounds carry most of the value, treat it as a higher-variance game and size your stake accordingly.`;
   const v = volScore(s.volatility);
-  if (v >= 6) return `${s.name} is a very high volatility slot. Most sessions will be dominated by small wins and dead spins, with the bulk of its return concentrated in rare bonus rounds. A short session can easily lose its whole budget without a meaningful hit – try it in demo first and only play for real with a fixed budget you're comfortable losing.`;
+  if (v >= 6) return `${s.name} is a very high volatility slot. Most sessions will be dominated by small wins and dead spins, with the bulk of its return concentrated in rare bonus rounds. A short session can easily lose its whole budget without a meaningful hit – the demo is the safest way to see how swingy it really is.`;
   if (v >= 5) return `${s.name} is a high volatility slot: expect longer stretches between meaningful wins and larger swings in your balance than on a medium-volatility game. The bonus round carries much of the game's value.`;
   if (v >= 3) return `${s.name} sits in the medium volatility range, so wins arrive more regularly than on high-variance games but are usually smaller. It suits longer sessions at a steady stake.`;
   return `${s.name} is a low volatility slot with frequent small wins${s.maxWin ? ` and a modest ${fmtX(s.maxWin)} cap` : ''}. It won't produce huge hits, but your balance usually moves more slowly.`;
@@ -84,13 +85,13 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
           {s.rating ? <p><span className="score">{s.rating.toFixed(1)}</span><span className="muted">/10 our score</span></p> : null}
           <StatsTable slot={s} provider={p} />
           <div className="cta-stack">
-            {casinos[0] ? (
+            {FEATURES.realMoney && casinos[0] ? (
               <a className="btn btn-primary" href={`/go/${casinos[0].slug}?src=slot-hero&slot=${s.slug}`} rel="sponsored nofollow noopener" target="_blank" data-event="affiliate_click">
                 Play {s.name} for real money
               </a>
             ) : null}
             <FavoriteButton id={`${s.provider}/${s.slug}`} name={s.name} url={url} />
-            <p className="muted small">18+ · Real-money play involves risk. <Link href="/responsible-gambling">Set limits</Link>.</p>
+            <p className="muted small">18+ · Free demo play only. <Link href="/responsible-gambling">Gambling help</Link>.</p>
           </div>
         </aside>
       </div>

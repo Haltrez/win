@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 
 /**
  * Click-to-load facade for official provider demos. The iframe (often several MB of game assets)
@@ -9,6 +9,13 @@ import { useState } from 'react';
 export function DemoEmbed({ name, url, providerName, launchPath }: { name: string; url?: string | null; providerName: string; launchPath: string }) {
   const [on, setOn] = useState(false);
   const [src, setSrc] = useState<string | null>(null);
+  const box = useRef<HTMLDivElement>(null);
+  const fullscreen = () => {
+    const el = box.current as (HTMLDivElement & { webkitRequestFullscreen?: () => void }) | null;
+    if (!el) return;
+    if (el.requestFullscreen) el.requestFullscreen().catch(() => {});
+    else el.webkitRequestFullscreen?.();
+  };
   const start = () => {
     const mobile = window.matchMedia('(max-width: 768px)').matches;
     // Templated URLs ({version}, {uuid}) are resolved server-side; plain official URLs load directly.
@@ -24,9 +31,12 @@ export function DemoEmbed({ name, url, providerName, launchPath }: { name: strin
       </div>
     );
   return (
-    <div className="demo">
+    <div className={`demo${on ? ' playing' : ''}`} ref={box}>
       {on ? (
+        <>
         <iframe src={src ?? undefined} title={`${name} free demo by ${providerName}`} allow="fullscreen; autoplay" allowFullScreen sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-pointer-lock" />
+        <button className="demo-fs" onClick={fullscreen} aria-label={`Play ${name} full screen`}>⤢ Full screen</button>
+        </>
       ) : (
         <button className="demo-facade" onClick={start}>
           <span className="play" aria-hidden>▶</span>

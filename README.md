@@ -8,6 +8,10 @@ Production-ready Next.js architecture for a slot demo and review site built for 
 - **Compliance:** 18+ age gate, affiliate disclosure, RG footer with self-exclusion links, geo-filtered casinos, banned-language build check
 - **Content pipeline:** JSON/Markdown content with a validation gate (`npm run validate`) and CSV bulk import
 
+## Real-money features (currently off)
+
+Casino listings, "play for real" buttons, affiliate disclosures and the `/casinos`, `/go` and `/affiliate-disclosure` routes are switched off by default. Set `NEXT_PUBLIC_REAL_MONEY=1` (and replace the placeholder partners in `content/casinos.json`) to turn them back on. Responsible-gambling content and the 18+ age gate are always on.
+
 ## Quick start
 
 ```bash

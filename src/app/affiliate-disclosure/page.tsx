@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { FEATURES } from '@/lib/config';
 import { SITE } from '@/lib/config';
 import { buildMetadata } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
@@ -6,6 +8,7 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 export const metadata = buildMetadata({ title: 'Affiliate Disclosure', description: `How ${SITE.name} makes money, and why commercial relationships never affect our slot reviews or scores.`, path: '/affiliate-disclosure' });
 
 export default function Page() {
+  if (!FEATURES.realMoney) notFound();
   return (
     <>
       <Breadcrumbs items={[{ name: 'Affiliate disclosure', path: '/affiliate-disclosure' }]} />

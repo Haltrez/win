@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { RG, SITE } from '@/lib/config';
+import { FEATURES, RG, SITE } from '@/lib/config';
 import { getProviders } from '@/lib/data';
 import { getCategories, isIndexable } from '@/lib/categories';
 
@@ -45,7 +45,7 @@ export function Footer() {
             <ul>
               <li><Link href="/about">About us</Link></li>
               <li><Link href="/how-we-review">How we review</Link></li>
-              <li><Link href="/affiliate-disclosure">Affiliate disclosure</Link></li>
+              {FEATURES.realMoney ? <li><Link href="/affiliate-disclosure">Affiliate disclosure</Link></li> : null}
               <li><Link href="/responsible-gambling">Responsible gambling</Link></li>
               <li><Link href="/privacy">Privacy &amp; cookies</Link></li>
               <li><Link href="/terms">Terms</Link></li>
@@ -55,8 +55,7 @@ export function Footer() {
         </div>
         <p className="legal">
           {SITE.name} is an independent information site. We do not operate gambling services and you cannot gamble for real money on this
-          site. Demos use play money only. Some links are affiliate links: we may earn a commission if you sign up with a casino, at no
-          extra cost to you – this never affects our review scores. Online gambling is restricted or illegal in some jurisdictions; check
+          site. Demos use play money only.{FEATURES.realMoney ? ' Some links are affiliate links: we may earn a commission if you sign up with a casino, at no extra cost to you – this never affects our review scores.' : ''} Online gambling is restricted or illegal in some jurisdictions; check
           your local laws. You must be {RG.minAge}+ (or the legal age in your country, if higher) to gamble.
         </p>
         <p className="legal">© {new Date().getFullYear()} {SITE.name}. Game names and trademarks belong to their respective owners.</p>

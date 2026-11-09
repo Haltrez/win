@@ -1,8 +1,8 @@
-import { SITE } from '@/lib/config';
+import { FEATURES, SITE } from '@/lib/config';
 import { buildMetadata } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 
-export const metadata = buildMetadata({ title: 'How We Review Slots & Casinos – Editorial Policy', description: `Our slot review methodology: demo testing, data verification against provider game sheets, scoring criteria and update policy.`, path: '/how-we-review' });
+export const metadata = buildMetadata({ title: 'How We Review Slots – Editorial Policy', description: `Our slot review methodology: demo testing, data verification against provider game sheets, scoring criteria and update policy.`, path: '/how-we-review' });
 
 export default function Page() {
   return (
@@ -20,8 +20,8 @@ export default function Page() {
         <p>Reviews are written and edited by people who have played the game. We may use software tools for data checks and spelling, but every review is original, fact-checked and edited by our team. We never copy provider marketing text.</p>
         <h2>5. Keep it current</h2>
         <p>New releases are added weekly. Existing reviews are re-checked when a provider changes a game, releases a new RTP version, or a reader reports an error.</p>
-        <h2>Casino reviews</h2>
-        <p>Casinos must hold a licence for the visitor&apos;s region. We assess licence and complaint history, bonus terms (wagering, caps, game weighting), withdrawal speed, game library and responsible gambling tools.</p>
+        {FEATURES.realMoney ? <><h2>Casino reviews</h2>
+        <p>Casinos must hold a licence for the visitor&apos;s region. We assess licence and complaint history, bonus terms (wagering, caps, game weighting), withdrawal speed, game library and responsible gambling tools.</p></> : null}
         <p className="muted small">{SITE.name} editorial standards are reviewed every six months.</p>
       </article>
     </>

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { NAV, SITE } from '@/lib/config';
+import { MobileNav } from './MobileNav';
 
 export function Header() {
   return (
@@ -10,15 +11,12 @@ export function Header() {
           <span>Scatter <span className="logo-accent">Drop</span></span>
         </Link>
         <nav aria-label="Main" className="main-nav">
-          <details className="nav-mobile">
-            <summary aria-label="Open menu">Menu</summary>
-            <ul>{NAV.map((n) => <li key={n.href}><Link href={n.href}>{n.label}</Link></li>)}<li><Link href="/favorites">Favourites</Link></li></ul>
-          </details>
           <ul className="nav-desktop">
             {NAV.map((n) => <li key={n.href}><Link href={n.href}>{n.label}</Link></li>)}
             <li><Link href="/favorites" aria-label="Your favourite slots">♥</Link></li>
           </ul>
         </nav>
+        <MobileNav items={[...NAV.map((n) => ({ href: n.href, label: n.label })), { href: '/favorites', label: 'Favourites' }]} />
       </div>
     </header>
   );

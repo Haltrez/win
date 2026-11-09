@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { FEATURES } from '@/lib/config';
 import { getCasinos } from '@/lib/data';
 import { buildMetadata } from '@/lib/seo';
 import { SITE } from '@/lib/config';
@@ -9,6 +11,7 @@ import { CasinoModule } from '@/components/CasinoModule';
 export const metadata = buildMetadata({ title: `Licensed Slot Casinos (${SITE.year}) – Bonuses Compared`, description: 'Compare licensed online casinos for slots: bonuses with full terms, wagering, licences and the providers each casino carries. 18+.', path: '/casinos' });
 
 export default function Casinos() {
+  if (!FEATURES.realMoney) notFound();
   return (
     <>
       <Breadcrumbs items={[{ name: 'Casinos', path: '/casinos' }]} />

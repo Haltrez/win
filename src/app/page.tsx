@@ -28,8 +28,8 @@ export default function Home() {
       <section className="hero">
         <h1>Free slot demos with honest, data-first reviews</h1>
         <p>
-          Try {slots.length.toLocaleString()} slots in their official demo – no sign-up, no deposit – and check the numbers that matter before you
-          ever play for real: RTP, volatility, max win and how the bonus actually works.
+          Try {slots.length.toLocaleString()} slots in their official demo – no sign-up, no deposit – and check the numbers that matter: RTP,
+          volatility, max win and how the bonus actually works.
         </p>
         <SlotSearch />
         <ul className="chips" aria-label="Popular lists">
@@ -69,8 +69,8 @@ export default function Home() {
 
       <h2>Why trust {SITE.name}?</h2>
       <div className="cards-3">
-        <div className="info-card"><h3>Official demos only</h3><p className="muted small">Every demo is served by the game provider itself – the same maths as the real-money game, with play money.</p></div>
-        <div className="info-card"><h3>Verified numbers</h3><p className="muted small">RTP, volatility and max win are checked against provider game sheets, and we tell you when casinos may run lower RTP versions.</p></div>
+        <div className="info-card"><h3>Official demos only</h3><p className="muted small">Every demo is served by the game provider itself – with play-money credits.</p></div>
+        <div className="info-card"><h3>Verified numbers</h3><p className="muted small">RTP, volatility and max win are checked against provider game sheets, and we tell you when a game is offered in lower RTP versions.</p></div>
         <div className="info-card"><h3>No hype</h3><p className="muted small">We never promise wins. Slots are games of chance and every review includes honest notes on volatility and risk.</p></div>
       </div>
     </>

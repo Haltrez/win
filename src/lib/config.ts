@@ -1,3 +1,12 @@
+/**
+ * Feature switches. realMoney=false hides every casino listing, real-money CTA, affiliate disclosure,
+ * the /casinos, /go and /affiliate-disclosure routes and their sitemap entries. Flip to true when
+ * licensed partners are in place.
+ */
+export const FEATURES = {
+  realMoney: process.env.NEXT_PUBLIC_REAL_MONEY === '1',
+} as const;
+
 export const SITE = {
   name: process.env.NEXT_PUBLIC_SITE_NAME || 'Scatter Drop',
   url: (process.env.NEXT_PUBLIC_SITE_URL || 'https://scatterdrop.com').replace(/\/$/, ''),
@@ -30,11 +39,13 @@ export const RG = {
   ],
 } as const;
 
-export const NAV = [
+const ALL_NAV = [
   { href: '/slots', label: 'Slots' },
   { href: '/providers', label: 'Providers' },
   { href: '/best', label: 'Best Slots' },
   { href: '/best/new-slots', label: 'New Releases' },
   { href: '/guides', label: 'Guides' },
-  { href: '/casinos', label: 'Casinos' },
+  { href: '/casinos', label: 'Casinos', realMoney: true },
 ] as const;
+
+export const NAV = ALL_NAV.filter((n) => !('realMoney' in n) || FEATURES.realMoney);
