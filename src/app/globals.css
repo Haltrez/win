@@ -24,7 +24,8 @@ h2 { font-size: clamp(1.25rem, 2.4vw, 1.6rem); margin-top: 2em; }
 /* Header */
 .site-header { background: var(--bg2); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 20; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; height: 60px; }
-.logo { font-weight: 800; font-size: 1.2rem; color: var(--text); text-decoration: none; }
+.logo { display: inline-flex; align-items: center; gap: 8px; font-weight: 800; font-size: 1.2rem; letter-spacing: -.01em; color: var(--text); text-decoration: none; }
+.logo-accent { color: var(--brand); }
 .logo-mark { color: var(--brand); }
 .main-nav ul { list-style: none; margin: 0; padding: 0; }
 .nav-desktop { display: none; gap: 20px; }

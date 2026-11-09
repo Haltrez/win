@@ -1,11 +1,12 @@
 export const SITE = {
-  name: process.env.NEXT_PUBLIC_SITE_NAME || 'SpinVault',
-  url: (process.env.NEXT_PUBLIC_SITE_URL || 'https://www.example-slots.com').replace(/\/$/, ''),
+  name: process.env.NEXT_PUBLIC_SITE_NAME || 'Scatter Drop',
+  url: (process.env.NEXT_PUBLIC_SITE_URL || 'https://scatterdrop.com').replace(/\/$/, ''),
   tagline: 'Free slot demos, honest reviews and verified slot data',
   description:
     'Play free slot demos from official providers and read independent reviews with RTP, volatility and max win data. No sign-up, no deposit, 18+ only.',
   locale: 'en',
-  twitter: '@spinvault',
+  /** X/Twitter handle for twitter:site, e.g. "@scatterdrop". Left empty until the account exists. */
+  twitter: process.env.NEXT_PUBLIC_TWITTER_HANDLE || undefined,
   noindex: process.env.NEXT_PUBLIC_NOINDEX === '1',
   /** Minimum slots before a category page is indexable (thin-content guard). */
   minCategorySize: 6,

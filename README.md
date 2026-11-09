@@ -1,4 +1,4 @@
-# SpinVault – slots demo & review site
+# Scatter Drop – slots demo & review site (scatterdrop.com)
 
 Production-ready Next.js architecture for a slot demo and review site built for long-term organic SEO and compliant affiliate monetisation.
 
