@@ -1,0 +1,53 @@
+{
+  "slug": "escape-the-pyramid-fire-and-ice",
+  "name": "Escape the Pyramid – Fire & Ice",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2025-01-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "respins",
+    "sticky-wilds",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "egypt"
+  ],
+  "features": [
+    {
+      "name": "Fire and ice marks",
+      "description": "Random positions are marked every spin."
+    },
+    {
+      "name": "Fire wilds / ice respins",
+      "description": "Fire scatters make wilds; ice scatters transform symbols and respin."
+    },
+    {
+      "name": "Ice and Fire feature",
+      "description": "Both scatters together turn all marks wild with respins."
+    }
+  ],
+  "review": "Escape the Pyramid – Fire & Ice marks random positions with fire or ice on every spin. If the fire scatter lands on reel one, fire-marked positions become wilds. If the ice scatter lands on reel six, ice-marked positions turn into a random paying symbol and three respins begin, where Upgrade improves the chosen symbol and +1 adds a respin.\n\nLanding both scatters at once triggers the Ice and Fire feature: every marked position turns wild and three respins are awarded, during which only blanks, sticky wilds and +1 spins can land. The in-game screens advertise up to 5,000x. The RTP is 96.5%. A smart, original design.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10fireice&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/escape-the-pyramid-fire-and-ice.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/escape-the-pyramid-fire-ice/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

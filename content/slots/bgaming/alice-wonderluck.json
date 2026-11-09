@@ -1,0 +1,58 @@
+{
+  "slug": "alice-wonderluck",
+  "name": "Alice WonderLuck",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": "2025-03-04",
+  "releaseDatePrecision": "day",
+  "winType": "50 paylines",
+  "hitRate": 4.8,
+  "bonusRate": 318.0,
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "reel-modifiers",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Changing free spins",
+      "description": "Bonus features vary from one free spins round to the next."
+    },
+    {
+      "name": "Mystery SpinUP",
+      "description": "A higher-stake mode with mystery drops on every spin."
+    },
+    {
+      "name": "Two buy options",
+      "description": "Purchase routes into the bonus where permitted."
+    }
+  ],
+  "review": "Alice WonderLuck reimagines Alice in Wonderland with surreal modern art on a 50-line layout. BGaming describes it as combining favourite features from several popular titles, with mystery drops and risk-reward choices built in.\n\nThe free spins come with bonus features that change from round to round, so no two bonuses feel quite the same. For a higher stake, the Mystery SpinUP mode adds mystery symbols on every spin. Two buy options are offered where permitted. BGaming rates the game very high volatility with a 10,000x maximum, and the 97% RTP is excellent. Free spins arrive about once every 318 spins on average, so expect plenty of base-game play between bonuses.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus is rare (about 1 in 318 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/AliceWonderLuck/FUN?server=demo",
+  "image": "/slots/bgaming/alice-wonderluck.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/alice-wonderluck"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

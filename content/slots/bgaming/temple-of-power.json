@@ -1,0 +1,57 @@
+{
+  "slug": "temple-of-power",
+  "name": "Temple of Power",
+  "provider": "bgaming",
+  "rtp": 96.03,
+  "volatility": "very-high",
+  "maxWin": 15000,
+  "releaseDate": "2026-04-01",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 3.76,
+  "bonusRate": 372.0,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Pay anywhere",
+      "description": "Symbols pay anywhere on the grid."
+    },
+    {
+      "name": "Big multipliers",
+      "description": "Multipliers up to 1,000x in free spins."
+    },
+    {
+      "name": "Four buy options",
+      "description": "Including a Super Bonus starting from 10x."
+    }
+  ],
+  "review": "Temple of Power is a Greek-god pay-anywhere slot from Perfect Position and BGaming, with Zeus watching every spin. It uses a transparent multiplier system.\n\nFour buy options are available where permitted, including a Bonus round with multipliers from 2x to 1,000x and a Super Bonus with multipliers from 10x to 1,000x. BGaming rates it very high volatility with a 15,000x maximum and a 96.03% RTP. Free spins arrive about once every 372 spins. It's essentially BGaming's answer to Gates of Olympus.",
+  "pros": [
+    "High 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus is rare (about 1 in 372 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/GatesOfPower/FUN?server=demo",
+  "image": "/slots/bgaming/temple-of-power.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/temple-of-power"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

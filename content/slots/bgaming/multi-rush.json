@@ -1,0 +1,58 @@
+{
+  "slug": "multi-rush",
+  "name": "Multi Rush",
+  "provider": "bgaming",
+  "rtp": 96.15,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": "2026-06-17",
+  "releaseDatePrecision": "day",
+  "winType": "Cluster Pays",
+  "hitRate": 3.0,
+  "bonusRate": 226.0,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "fruit"
+  ],
+  "features": [
+    {
+      "name": "Rush multipliers",
+      "description": "Random multipliers up to 100x."
+    },
+    {
+      "name": "Hyper Spins",
+      "description": "A mode where every cell starts at 64x."
+    },
+    {
+      "name": "Three bonus buys",
+      "description": "Hyper Spins, Bonus and Super Bonus where permitted."
+    }
+  ],
+  "review": "Multi Rush is a retro cluster slot from BGaming and Perfect Position, full of fruit symbols and a few cheeky aubergine surprises. Electric Wins and random Rush multipliers up to 100x add excitement to the base game.\n\nThree bonus buy options are available where permitted: Hyper Spins, in which every cell starts with a 64x multiplier, plus Bonus and Super Bonus. Another option raises your chance of triggering the bonus by more than 300%. BGaming rates it high volatility with a 10,000x maximum and a 96.15% RTP. Free spins arrive about once every 226 spins.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/MultiRush/FUN?server=demo",
+  "image": "/slots/bgaming/multi-rush.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/multi-rush"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

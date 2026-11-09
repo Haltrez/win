@@ -1,0 +1,57 @@
+{
+  "slug": "oof-the-goldmine-planet",
+  "name": "OOF The Goldmine Planet",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium-low",
+  "maxWin": 5000,
+  "releaseDate": "2024-05-02",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "10 paylines",
+  "hitRate": 5.39,
+  "bonusRate": 96.35,
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "sticky-wilds",
+    "bonus-buy"
+  ],
+  "themes": [
+    "space"
+  ],
+  "features": [
+    {
+      "name": "Sticky wins",
+      "description": "Winning symbols stick and pay on every following free spin."
+    },
+    {
+      "name": "Compounding bonus",
+      "description": "New paying symbols also stick."
+    },
+    {
+      "name": "Frequent free spins",
+      "description": "About once every 96 spins."
+    }
+  ],
+  "review": "OOF The Goldmine Planet is a cosmic 5x3, 10-line slot with galaxy symbols. Three or more Saturn scatters trigger an unusual free spins round.\n\nIn the bonus, every winning symbol becomes sticky and pays again on each following spin until the round ends, and new paying symbols also stick, so wins compound as the round continues. The free spins can be bought where permitted. BGaming rates it medium-low volatility with a 5,000x maximum and a 97% RTP. Free spins arrive about once every 96 spins on average. A great example of a bonus that builds up steadily.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Bonus lands relatively often (about 1 in 96 spins on average)"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/Oof/FUN?server=demo",
+  "image": "/slots/bgaming/oof-the-goldmine-planet.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/oof"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

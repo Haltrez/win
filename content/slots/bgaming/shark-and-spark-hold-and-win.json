@@ -1,0 +1,57 @@
+{
+  "slug": "shark-and-spark-hold-and-win",
+  "name": "Shark & Spark Hold & Win",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium-high",
+  "maxWin": 5000,
+  "releaseDate": "2026-05-28",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 4.4,
+  "bonusRate": 205.0,
+  "mechanics": [
+    "pay-anywhere",
+    "multipliers",
+    "hold-and-win",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Two bonus rounds",
+      "description": "Sharks & Ladders and Coin Respin."
+    },
+    {
+      "name": "Pearl multipliers",
+      "description": "Pink pearls add +1x to +20x; orange pearls multiply by 2x–10x."
+    },
+    {
+      "name": "Pay-anywhere multipliers",
+      "description": "Eight or more '+' symbols pay in the base game."
+    }
+  ],
+  "review": "Shark & Spark Hold & Win follows Little Shark under the waves, with two bonus rounds: Sharks & Ladders, inspired by board games, and a Coin Respin hold-and-win.\n\nPink pearls carry additive multipliers (+1x up to +20x) and orange pearls carry multiplicative boosts (2x, 3x, 5x and 10x). In the main game, the '+' multipliers act as regular symbols and pay when eight or more appear in one spin. Little Shark reacts to events as they happen. BGaming rates it medium-high volatility with a 5,000x maximum and a 97% RTP. Free spins arrive about once every 205 spins.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/SharkAndSparkHoldAndWin/FUN?server=demo",
+  "image": "/slots/bgaming/shark-and-spark-hold-and-win.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/shark-spark-hold-win"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

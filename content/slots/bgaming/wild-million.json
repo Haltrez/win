@@ -1,0 +1,55 @@
+{
+  "slug": "wild-million",
+  "name": "Wild Million",
+  "provider": "bgaming",
+  "rtp": 97.2,
+  "volatility": "medium",
+  "maxWin": 5000,
+  "releaseDate": "2025-11-18",
+  "releaseDatePrecision": "day",
+  "hitRate": 2.41,
+  "bonusRate": 176.8,
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "5x5 Vegas grid",
+      "description": "Fruit and bells in a casino style."
+    },
+    {
+      "name": "Wild collection",
+      "description": "Four wilds add 10 spins and raise the multiplier."
+    },
+    {
+      "name": "2x, 3x, 10x",
+      "description": "Multipliers escalate with each retrigger."
+    }
+  ],
+  "review": "Wild Million is a Vegas-style slot on a 5x5 grid with fruit and golden bells on deep blue reels and authentic casino sounds.\n\nIts free spins follow a simple progression: collect four wilds to earn 10 extra free spins, with multipliers rising to 2x, then 3x and finally 10x, the same escalation as Loki Loot and Big Boat Big Catch. The bonus can be bought where permitted. BGaming rates it medium volatility with a 5,000x maximum and a 97.2% RTP. Free spins arrive about once every 177 spins.",
+  "pros": [
+    "Excellent 97.20% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/WildMillion/FUN?server=demo",
+  "image": "/slots/bgaming/wild-million.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/wild-million"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

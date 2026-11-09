@@ -1,0 +1,56 @@
+{
+  "slug": "piggy-bank-hold-and-win",
+  "name": "Piggy Bank Hold&Win",
+  "provider": "bgaming",
+  "rtp": 96.98,
+  "volatility": "medium",
+  "maxWin": 2500,
+  "releaseDate": "2026-03-19",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "bonusRate": 30.0,
+  "mechanics": [
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "money-collect",
+    "bonus-buy"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Hold and Win",
+      "description": "Collect coins in a respin bonus."
+    },
+    {
+      "name": "Jackpots",
+      "description": "Mini 25x, Minor 50x and Major 125x, up to 2,500x overall."
+    },
+    {
+      "name": "Very frequent bonus",
+      "description": "About once every 30 spins."
+    }
+  ],
+  "review": "Piggy Bank Hold&Win is a casual 3x3 slot with cute piggies and acorns. Collect coins and activate the piggies to reach the Hold and Win bonus.\n\nA blue mystery symbol can award a 25x Mini, 50x Minor or 125x Major jackpot at the end of the bonus, and those jackpots can also be won by landing the matching coin during the round, with jackpots up to 2,500x overall. The bonus can be bought where permitted. BGaming rates it medium volatility with a 2,500x maximum and a 96.98% RTP. The bonus is very frequent, about once every 30 spins.",
+  "pros": [
+    "Above-average 96.98% RTP",
+    "Bonus lands relatively often (about 1 in 30 spins on average)",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/PiggyBankHoldAndWin/FUN?server=demo",
+  "image": "/slots/bgaming/piggy-bank-hold-and-win.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/piggy-bank-holdwin"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

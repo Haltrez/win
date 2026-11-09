@@ -1,0 +1,59 @@
+{
+  "slug": "mystic-reels",
+  "name": "Mystic Reels",
+  "provider": "bgaming",
+  "rtp": 96.0,
+  "volatility": "medium",
+  "maxWin": 45587,
+  "releaseDate": "2026-08-04",
+  "releaseDatePrecision": "day",
+  "winType": "20 paylines",
+  "hitRate": 4.0,
+  "bonusRate": 139.0,
+  "mechanics": [
+    "paylines",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "respins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "gems",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Cascade+",
+      "description": "Cascading wins with progressive gameplay."
+    },
+    {
+      "name": "Wilds boost bonus",
+      "description": "Wilds influence free spins multipliers."
+    },
+    {
+      "name": "Encore mode",
+      "description": "Leads to respins after features."
+    }
+  ],
+  "review": "Mystic Reels is a crystal-themed 20-line slot made with Bulletproof Games, using Cascade+ mechanics and progressive gameplay around an ancient stone circle. Wilds complete winning lines in the base game and also influence bonus multipliers.\n\nFree spins come with powerful multipliers, and an Encore mode leads to respins. A bonus buy is available where permitted. BGaming rates it medium volatility, yet lists an unusually high maximum multiplier of 45,587x, by far the highest in this batch. The RTP is 96%, and free spins arrive about once every 139 spins. An interesting mix of steady play and a very high ceiling.",
+  "pros": [
+    "High 45,587x win ceiling",
+    "Bonus lands relatively often (about 1 in 139 spins on average)",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/MysticReels/FUN?server=demo",
+  "image": "/slots/bgaming/mystic-reels.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/mystic-reels"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

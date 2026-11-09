@@ -1,0 +1,54 @@
+{
+  "slug": "starlight-princess-pachi",
+  "name": "Starlight Princess Pachi",
+  "provider": "pragmatic-play",
+  "rtp": 96.04,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-05-01",
+  "releaseDatePrecision": "month",
+  "reels": "3x3",
+  "mechanics": [
+    "ways",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy",
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "27 ways",
+      "description": "A 3x3 layout with 27 ways."
+    },
+    {
+      "name": "Scatter Respin",
+      "description": "A middle-reel scatter holds while other reels respin."
+    },
+    {
+      "name": "Respin mini-game",
+      "description": "Decides your starting free spins."
+    }
+  ],
+  "review": "Starlight Princess Pachi is a fast 3x3 entry in the Starlight Princess series, with 27 ways to win. The blue star is the most valuable symbol.\n\nIf a princess scatter lands only on the middle reel, the Scatter Respin holds it while the other reels spin. Three scatters launch free spins, which begin with a respin mini-game that sets how many spins you start with, and scatters keep being collected during the bonus. The RTP is 96.04%. Pragmatic Play doesn't publish a max win on the page. A compact, pachinko-inspired variation.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysjapan&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/starlight-princess-pachi.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/starlight-princess-pachi/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

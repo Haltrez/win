@@ -1,0 +1,58 @@
+{
+  "slug": "big-boat-big-catch",
+  "name": "Big Boat Big catch",
+  "provider": "bgaming",
+  "rtp": 97.2,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2025-08-07",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "winType": "10 paylines",
+  "hitRate": 3.2,
+  "bonusRate": 205.3,
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "5x4, 10 lines",
+      "description": "A taller fishing layout."
+    },
+    {
+      "name": "Fisherman wild",
+      "description": "The angler substitutes and helps activate fish values."
+    },
+    {
+      "name": "Escalating free spins",
+      "description": "Every 10 spins boost wins by 2x, 3x and then 10x."
+    }
+  ],
+  "review": "Big Boat Big Catch is BGaming's take on the fishing collect slot, on 5x4 reels with 10 paylines. A friendly angler is the wild, and fish symbols carry values that are activated when specific conditions are met.\n\nThe bonus game can extend to 30 or more free spins. Every 10 spins it boosts wins, first by 2x, then 3x and finally 10x, so long bonuses build towards bigger collections. Free spins can be bought where permitted. BGaming rates it very high volatility with a 5,000x maximum, and the RTP is 97.2%. Free spins arrive roughly once every 205 spins. A good alternative to Big Bass for players who like a higher RTP.",
+  "pros": [
+    "Excellent 97.20% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BigTunaBonanza/FUN?server=demo",
+  "image": "/slots/bgaming/big-boat-big-catch.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/big-boat-big-catch"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

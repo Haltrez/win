@@ -1,0 +1,61 @@
+{
+  "slug": "blackbeards-bounty",
+  "name": "Blackbeard’s Bounty",
+  "provider": "bgaming",
+  "rtp": 96.2,
+  "volatility": "very-high",
+  "maxWin": 20000,
+  "releaseDate": "2025-05-07",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "243 paylines",
+  "hitRate": 5.62,
+  "bonusRate": 172.41,
+  "mechanics": [
+    "ways",
+    "cascades",
+    "multipliers",
+    "progressive-multiplier",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "pirates",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Cascading wins",
+      "description": "Each win triggers a cascade, with a wild added after each one."
+    },
+    {
+      "name": "Doubling multiplier",
+      "description": "The multiplier doubles with each cascade: 1x, 2x, 4x, 8x and more."
+    },
+    {
+      "name": "Persistent bonus multiplier",
+      "description": "In free spins the multiplier keeps growing until the round ends."
+    }
+  ],
+  "review": "Blackbeard's Bounty is a 5x3, 243-ways pirate slot built on cascades. Every win sets off a chain reaction, and a wild appears after each cascade to keep the streak going. Each cascade also increases the multiplier: 1x, 2x, 4x, 8x and beyond.\n\nIn the bonus round, that multiplier keeps growing instead of resetting until the free spins end, which is where the 20,000x maximum comes from. Golden Bet raises your odds of reaching the bonus, and a bonus buy offers a direct route where permitted. BGaming rates it very high volatility, with a 96.2% RTP and free spins about once every 172 spins.",
+  "pros": [
+    "High 20,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BlackbeardsBounty/FUN?server=demo",
+  "image": "/slots/bgaming/blackbeards-bounty.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/blackbeards-bounty"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

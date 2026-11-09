@@ -1,0 +1,54 @@
+{
+  "slug": "moleionaire",
+  "name": "Moleionaire",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2024-10-01",
+  "releaseDatePrecision": "month",
+  "reels": "7x7",
+  "mechanics": [
+    "cluster-pays",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "food"
+  ],
+  "features": [
+    {
+      "name": "React Pair",
+      "description": "Two random symbols become wilds when adjacent."
+    },
+    {
+      "name": "Cluster pays",
+      "description": "Five matching symbols in a cluster pay."
+    },
+    {
+      "name": "Multiplier free spins",
+      "description": "React Pair multipliers apply in the bonus."
+    }
+  ],
+  "review": "Moleionaire is a 7x7 garden cluster slot with fruits, vegetables, flowers and butterflies, where clusters of five matching symbols pay. Before each spin, two symbols are chosen at random as a React Pair and turn into wilds when they land next to each other.\n\nFour to seven scatters award 8 to 14 free spins, during which multipliers from the React Pair are applied to the total win, and extra scatters retrigger more spins. Pragmatic Play advertises a 5,000x maximum. The RTP is 96.5%. The React Pair gives each spin a small puzzle to watch for.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20clreacts&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/moleionaire.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/moleionaire/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

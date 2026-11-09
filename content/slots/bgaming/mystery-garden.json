@@ -1,0 +1,57 @@
+{
+  "slug": "mystery-garden",
+  "name": "Mystery Garden",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "low",
+  "maxWin": 2000,
+  "releaseDate": "2025-06-10",
+  "releaseDatePrecision": "day",
+  "winType": "10 paylines",
+  "hitRate": 3.5,
+  "bonusRate": 183.7,
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "sticky-wilds",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Golden key scatters",
+      "description": "Three or more keys unlock free spins."
+    },
+    {
+      "name": "Framed sticky wins",
+      "description": "Winning combinations lock in frames and keep paying."
+    },
+    {
+      "name": "Bonus buy",
+      "description": "Buy free spins where permitted."
+    }
+  ],
+  "review": "Mystery Garden is a peaceful 5x3, 10-line slot set in a secluded garden. Golden scatter keys unlock the free spins greenhouse.\n\nThree or more scatters award 10 free spins. Inside, winning combinations of flowers and initials lock into wooden frames, paying out again on following spins until the bonus runs out, similar to OOF The Goldmine Planet. The free spins can be bought where permitted. BGaming rates it low volatility with a 2,000x maximum and a 97% RTP. Free spins arrive about once every 184 spins. A calming, gentle game.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 2,000x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/MysteryGarden/FUN?server=demo",
+  "image": "/slots/bgaming/mystery-garden.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/mystery-garden"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

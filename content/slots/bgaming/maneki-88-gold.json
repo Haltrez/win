@@ -1,0 +1,57 @@
+{
+  "slug": "maneki-88-gold",
+  "name": "Maneki 88 Gold",
+  "provider": "bgaming",
+  "rtp": 96.75,
+  "volatility": "medium",
+  "maxWin": 2500,
+  "releaseDate": "2022-08-11",
+  "releaseDatePrecision": "day",
+  "winType": "243 paylines",
+  "hitRate": 3.4,
+  "bonusRate": 109.0,
+  "mechanics": [
+    "ways",
+    "free-spins",
+    "jackpot",
+    "bonus-buy"
+  ],
+  "themes": [
+    "asian",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Golden symbols",
+      "description": "Gold versions of symbols pay more."
+    },
+    {
+      "name": "High-only free spins",
+      "description": "Only premium symbols, scatters and wilds land in the bonus."
+    },
+    {
+      "name": "Up to 300 spins",
+      "description": "Retriggers add 10 spins each."
+    }
+  ],
+  "review": "Maneki 88 Gold is a 243-ways lucky-cat slot where symbols can turn golden and pay more than their standard versions. Special coin wilds lead towards a jackpot.\n\nThe free spins round awards 10 spins with only high-paying symbols, scatters and wilds, and three or more scatters during the round add 10 more, up to a cap of 300 free spins. The bonus can be bought with a set number of golden symbols where permitted. BGaming rates it medium volatility with a 2,500x maximum and a 96.75% RTP. Free spins arrive about once every 109 spins on average. It's the predecessor of Maneki 88 Fortunes.",
+  "pros": [
+    "Above-average 96.75% RTP",
+    "Bonus lands relatively often (about 1 in 109 spins on average)",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/Maneki88Gold/FUN?server=demo",
+  "image": "/slots/bgaming/maneki-88-gold.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/maneki-88-gold"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

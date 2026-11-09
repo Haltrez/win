@@ -1,0 +1,59 @@
+{
+  "slug": "izzi-art",
+  "name": "Izzi Art",
+  "provider": "bgaming",
+  "rtp": 96.11,
+  "volatility": "high",
+  "maxWin": 10200,
+  "releaseDate": "2023-09-07",
+  "releaseDatePrecision": "day",
+  "reels": "6x5",
+  "winType": "Pays Anywhere",
+  "hitRate": 2.59,
+  "bonusRate": 398.0,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Pay anywhere 6x5",
+      "description": "Modern-art symbols pay anywhere."
+    },
+    {
+      "name": "Up to 30 free spins",
+      "description": "With random 2x–100x multipliers."
+    },
+    {
+      "name": "Chance x2 and buy",
+      "description": "Improve your odds or buy the bonus where permitted."
+    }
+  ],
+  "review": "Izzi Art is a modern-art take on BGaming's Bonanza engine, with irreverent symbols such as a contemporary 'Monno Liza', customised busts and a Gorgon Medusa, all paying anywhere on a 6x5 grid.\n\nFour or more scatters (or the bonus buy, where permitted) unlock a museum after-party with up to 30 free spins, enhanced by random 2x to 100x multiplier symbols. Chance x2 is also available. BGaming rates it high volatility with a 10,200x maximum and a 96.11% RTP. Free spins arrive roughly once every 398 spins. The art theme is the main difference from Aztec Magic Bonanza.",
+  "pros": [
+    "High 10,200x win ceiling",
+    "Straightforward feature set"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus is rare (about 1 in 398 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": null,
+  "image": "/slots/bgaming/izzi-art.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/izzi-art"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

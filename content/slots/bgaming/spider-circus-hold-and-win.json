@@ -1,0 +1,57 @@
+{
+  "slug": "spider-circus-hold-and-win",
+  "name": "Spider Circus Hold and Win",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium",
+  "maxWin": 5000,
+  "releaseDate": "2026-10-19",
+  "releaseDatePrecision": "day",
+  "winType": "60 paylines",
+  "hitRate": 6.76,
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "multipliers",
+    "jackpot",
+    "ante-bet"
+  ],
+  "themes": [
+    "horror",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Spider-triggered Hold & Win",
+      "description": "Six or more spiders start the bonus."
+    },
+    {
+      "name": "Multipliers and prizes",
+      "description": "Boost coin values inside the bonus."
+    },
+    {
+      "name": "Chance x2",
+      "description": "Doubles the chance of the bonus."
+    }
+  ],
+  "review": "Spider Circus Hold and Win brings hold-and-win mechanics to an eerie, Burton-style fairground on 60 lines. Six or more spiders trigger the Hold & Win bonus, with multipliers and prizes inside.\n\nA meter shows the number of bonus symbols collected. Chance x2 slightly raises the bet to double the chance of scatters and the bonus. BGaming rates it medium volatility with a 5,000x maximum and a 97% RTP. It's similar to Royal Beellion, with a spooky circus theme that works year-round.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/SpiderCircusHoldAndWin/FUN?server=demo",
+  "image": "/slots/bgaming/spider-circus-hold-and-win.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/spider-circus-hold-and-win"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

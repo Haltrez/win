@@ -1,0 +1,54 @@
+{
+  "slug": "5-lions-reborn",
+  "name": "5 Lions Reborn",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2025-03-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "asian",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Choose your bonus",
+      "description": "Seven options mixing spins and starting multipliers."
+    },
+    {
+      "name": "Growing wild multiplier",
+      "description": "Increases by its starting value with each wild win."
+    },
+    {
+      "name": "Super Free Spins",
+      "description": "20 spins with a 15x starting wild multiplier."
+    }
+  ],
+  "review": "5 Lions Reborn brings back a fan-favourite series with a choice-based bonus. Three scatters activate it, and you pick from seven options combining up to 20 free spins and starting wild multipliers up to 15x.\n\nEach time a win includes a wild, the wild multiplier increases by its starting value, and one to three extra spins may be added at random. Golden or Super scatters in the base game can trigger Free Spins or Super Free Spins; Super Free Spins start immediately with the maximum 20 spins and a 15x wild multiplier. The in-game screens advertise up to 5,000x. The RTP is 96.5%.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vsways5lionsr&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/5-lions-reborn.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/5-lions-reborn/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "burning-chilli-243",
+  "name": "Burning Chilli 243",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "low",
+  "maxWin": 500,
+  "releaseDate": "2025-10-22",
+  "releaseDatePrecision": "day",
+  "winType": "243 paylines",
+  "hitRate": 7.05,
+  "bonusRate": 241.9,
+  "mechanics": [
+    "ways",
+    "pay-anywhere",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "food",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "243 ways",
+      "description": "Wins pay across 243 ways in the base game."
+    },
+    {
+      "name": "Pay-anywhere free spins",
+      "description": "All symbols pay anywhere during the bonus."
+    },
+    {
+      "name": "Chance x2 and buy",
+      "description": "Double the bonus odds or buy it where permitted."
+    }
+  ],
+  "review": "Burning Chilli 243 updates BGaming's chilli classic with 243 ways to win, a high-energy soundtrack and polished graphics. The base game is a straightforward ways slot.\n\nThe free spins round changes the rules: during the bonus, all symbols pay anywhere on the reels rather than across ways, which makes wins much more frequent while it lasts. Chance x2 and a bonus buy are available where permitted. BGaming rates the game low volatility with a modest 500x maximum, and the RTP is 97%. Free spins arrive about once every 242 spins. A calm option for long sessions.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 500x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BurningChilli243/FUN?server=demo",
+  "image": "/slots/bgaming/burning-chilli-243.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/burning-chilli-243"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

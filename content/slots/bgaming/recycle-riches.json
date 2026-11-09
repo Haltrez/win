@@ -1,0 +1,57 @@
+{
+  "slug": "recycle-riches",
+  "name": "Recycle Riches",
+  "provider": "bgaming",
+  "rtp": 96.14,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": "2026-03-17",
+  "releaseDatePrecision": "day",
+  "winType": "Cluster Pays",
+  "hitRate": 3.45,
+  "bonusRate": 276.0,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Tesla Coils",
+      "description": "Spark climbing multipliers across the grid."
+    },
+    {
+      "name": "Valued wilds",
+      "description": "Wilds carry random values."
+    },
+    {
+      "name": "Growing cell multipliers",
+      "description": "Cells increase their multipliers with each payout."
+    }
+  ],
+  "review": "Recycle Riches is an eco-futurist cluster slot set in a scrapyard, developed with Bullshark Games. A reactive robot sidekick responds to the action, and Tesla Coil symbols spark climbing multipliers.\n\nWilds carry random values that enhance winning clusters, and cell multipliers increase with every payout to reward momentum. Free spins and bonus buys are available where permitted. BGaming rates it high volatility with a 10,000x maximum and a 96.14% RTP. Free spins arrive about once every 276 spins. A good pick for fans of cell-multiplier cluster games.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/RecycleRiches/FUN?server=demo",
+  "image": "/slots/bgaming/recycle-riches.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/recycle-riches"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "fruit-million-respin",
+  "name": "Fruit Million Respin",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium",
+  "maxWin": 3000,
+  "releaseDate": "2026-07-27",
+  "releaseDatePrecision": "day",
+  "winType": "100 paylines",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "respins",
+    "multipliers"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "100 paylines",
+      "description": "The classic Fruit Million layout."
+    },
+    {
+      "name": "Expanding wild respins",
+      "description": "Wilds on reels 2–4 expand and trigger respins."
+    },
+    {
+      "name": "Stacking multipliers",
+      "description": "Respins can add random multipliers."
+    }
+  ],
+  "review": "Fruit Million Respin keeps the bright green look and 100 lines of the original Fruit Million but changes how wilds behave. When a wild lands on reel 2, 3 or 4, it expands to cover the reel, pays, and triggers a respin.\n\nRespins can stack random multipliers across the main reels, giving this version more punch than the original. BGaming rates it medium volatility with a 3,000x maximum, and the RTP is 97%. There's no complex bonus, just fast classic play with expanding-wild respins. A good upgrade if you liked Fruit Million but wanted a little more action.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/FruitMillionRespin/FUN?server=demo",
+  "image": "/slots/bgaming/fruit-million-respin.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/fruit-million-respin"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

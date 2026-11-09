@@ -1,0 +1,56 @@
+{
+  "slug": "always-up",
+  "name": "Always Up!",
+  "provider": "bgaming",
+  "rtp": 96.07,
+  "volatility": "medium-low",
+  "maxWin": 559,
+  "releaseDate": "2025-09-30",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "winType": "5 paylines",
+  "hitRate": 12.28,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "asian",
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "3x3 grid",
+      "description": "Five lines on a compact, colourful layout."
+    },
+    {
+      "name": "Crash-style rockets",
+      "description": "Rocket multipliers grow until they explode at a random height."
+    },
+    {
+      "name": "Bonus buy",
+      "description": "Buy the rocket round where permitted."
+    }
+  ],
+  "review": "Always Up! is a 3x3, five-line slot inspired by Chinese mythology with a crash-style bonus. Three scatters on reels 1, 2 and 3 trigger it.\n\nIn the bonus, rockets launch into the sky, each carrying a multiplier that grows as it climbs, and each explodes at a random height. The multiplier on your rocket is applied to your bet, up to a maximum of 599x in this mode. The bonus can be bought where permitted. BGaming rates it medium-low volatility with a 559x maximum multiplier and a 96.07% RTP. It's light and casual, while Always Up! x10000 is the high-variance alternative.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 559x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/AlwaysUp/FUN?server=demo",
+  "image": "/slots/bgaming/always-up.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/always-up"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

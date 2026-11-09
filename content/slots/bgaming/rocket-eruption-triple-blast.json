@@ -1,0 +1,57 @@
+{
+  "slug": "rocket-eruption-triple-blast",
+  "name": "Rocket Eruption: Triple Blast",
+  "provider": "bgaming",
+  "rtp": 96.57,
+  "volatility": "medium-low",
+  "maxWin": 5000,
+  "releaseDate": "2026-02-24",
+  "releaseDatePrecision": "day",
+  "winType": "20 paylines",
+  "hitRate": 3.3,
+  "bonusRate": 105.0,
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "bonus-buy"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Three rocket bonuses",
+      "description": "One to three bonus games can trigger in one spin."
+    },
+    {
+      "name": "Combined rounds",
+      "description": "Different rockets together create a combined bonus."
+    },
+    {
+      "name": "Sticky mystery symbols",
+      "description": "Mystery symbols stick during bonus spins."
+    }
+  ],
+  "review": "Rocket Eruption: Triple Blast is a prehistoric adventure with volcanoes, rockets and dinosaurs, using a three-pots system. One to three bonus games can trigger in a single spin, and when two or three different rockets land together, they can combine into one bonus round.\n\nDuring bonus spins, mystery symbols become sticky. Buy options are available where permitted. BGaming rates it medium-low volatility with a 5,000x maximum and a 96.57% RTP. The bonus is frequent, arriving about once every 105 spins on average. Combined bonuses make the feature rounds unpredictable.",
+  "pros": [
+    "Above-average 96.57% RTP",
+    "Lower volatility suits longer, steadier sessions",
+    "Bonus lands relatively often (about 1 in 105 spins on average)"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/RocketEruptionTripleBlast/FUN?server=demo",
+  "image": "/slots/bgaming/rocket-eruption-triple-blast.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/rocket-eruption-triple-blast"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "waves-of-poseidon",
+  "name": "Waves of Poseidon",
+  "provider": "pragmatic-play",
+  "rtp": 96.55,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2025-06-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "tumble",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Locked multiplier reel",
+      "description": "Tumbles build a multiplier up to 20x that BONUS symbols unlock."
+    },
+    {
+      "name": "BONUS multipliers",
+      "description": "BONUS symbols can carry up to 50x."
+    },
+    {
+      "name": "Super Free Spins",
+      "description": "Six scatters keep the multiplier reel from resetting."
+    }
+  ],
+  "review": "Waves of Poseidon is a tumble slot with a locked multiplier reel on the left. Consecutive tumbles increase that reel's multiplier up to 20x, but it only applies once a BONUS symbol lands to unlock it. BONUS symbols can also carry their own multipliers up to 50x.\n\nFour or more scatters award 10 to 20 free spins with the multiplier reel unlocked from the start and BONUS symbols carrying multipliers on every appearance. Six or more scatters start Super Free Spins, where the multiplier reel never resets between spins. The game screens show more than one win figure, so we haven't listed a max win. The RTP is 96.55%.",
+  "pros": [
+    "Above-average 96.55% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20bigmass&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/waves-of-poseidon.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/waves-of-poseidon/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

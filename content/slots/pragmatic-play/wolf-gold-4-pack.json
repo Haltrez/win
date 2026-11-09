@@ -1,0 +1,58 @@
+{
+  "slug": "wolf-gold-4-pack",
+  "name": "Wolf Gold 4 Pack",
+  "provider": "pragmatic-play",
+  "rtp": 96.51,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2025-07-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "money-collect",
+    "jackpot"
+  ],
+  "themes": [
+    "animals",
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Four-grid respins",
+      "description": "The moon respin bonus is played on four 5x3 grids."
+    },
+    {
+      "name": "Gold moons",
+      "description": "Unlock the bottom grids and reset respins on all grids."
+    },
+    {
+      "name": "Full-screen prize",
+      "description": "Filling every position adds 1,000x."
+    }
+  ],
+  "review": "Wolf Gold 4 Pack expands Pragmatic Play's classic money respin to four grids. You can enter the bonus through the Bonus Wheel, triggered by three scatters, or by landing five or more moon symbols.\n\nThe feature plays across four 5x3 grids, with the bottom two locked until a gold moon lands. Each moon resets its grid's respins to three and stays sticky, while gold moons reset the respins on all four grids at once. At the end, all moon values are paid, plus an extra 1,000x prize if every position is filled. Six or more moons, or a gold moon combination, can start a Super Bonus. The RTP is 96.51%; Pragmatic Play doesn't publish an overall max win on its page.",
+  "pros": [
+    "Above-average 96.51% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs25quadwolf&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/wolf-gold-4-pack.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/wolf-gold-4-pack/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

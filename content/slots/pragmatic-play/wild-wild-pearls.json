@@ -1,0 +1,54 @@
+{
+  "slug": "wild-wild-pearls",
+  "name": "Wild Wild Pearls",
+  "provider": "pragmatic-play",
+  "rtp": 96.46,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2025-01-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "money-collect",
+    "multipliers",
+    "jackpot",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Wild collection",
+      "description": "Wilds on reels 1–2 collect money symbols on reels 3–6."
+    },
+    {
+      "name": "Full-reel multipliers",
+      "description": "Filling a reel with money applies its multiplier."
+    },
+    {
+      "name": "Super Free Spins",
+      "description": "Higher reel multipliers of 3x and 5x."
+    }
+  ],
+  "review": "Wild Wild Pearls is an underwater collect slot. Wilds on reels one and two collect adjacent money symbols on reels 3 to 6, and reel six can also hold jackpots up to 100x.\n\nIf money symbols fill a whole reel, the total win is multiplied by the value above that reel: 2x above reels three and four, 4x above reels five and six. Wilds on reels one and two plus a Bonus or Super Bonus symbol on reel three trigger Free Spins or Super Free Spins with 10 spins and more money symbols; Super Free Spins raise the reel multipliers to 3x and 5x. The in-game screens advertise up to 5,000x. The RTP is 96.46%.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswayspearls&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/wild-wild-pearls.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/wild-wild-pearls/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

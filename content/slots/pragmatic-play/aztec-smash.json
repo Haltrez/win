@@ -1,0 +1,55 @@
+{
+  "slug": "aztec-smash",
+  "name": "Aztec Smash",
+  "provider": "pragmatic-play",
+  "rtp": 96.52,
+  "volatility": null,
+  "maxWin": 9000,
+  "releaseDate": "2024-12-01",
+  "releaseDatePrecision": "month",
+  "reels": "7x7",
+  "mechanics": [
+    "tumble",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "adventure",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Smash Multiplier",
+      "description": "Marked positions multiply wins by 10x."
+    },
+    {
+      "name": "Escalating bonus multiplier",
+      "description": "Grows from 10x up to 1,000x in free spins."
+    },
+    {
+      "name": "Tumbling 7x7 grid",
+      "description": "Wins tumble for more chances."
+    }
+  ],
+  "review": "Aztec Smash is a 7x7 jungle slot with tumbling wins and the Smash Multiplier. After every spin or tumble, random positions can be marked, and any winning combination that includes a marked position is multiplied by 10x.\n\nThree to seven scatters award 10 to 30 free spins. In the bonus, the Smash Multiplier starts at 10x and grows by 10x with each trigger up to 100x, then by 100x each time until it reaches 1,000x. Scatters during the feature retrigger more spins. The in-game screens advertise up to 9,000x. The RTP is 96.52%.",
+  "pros": [
+    "Above-average 96.52% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20plsmcannon&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/aztec-smash.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/aztec-smash/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

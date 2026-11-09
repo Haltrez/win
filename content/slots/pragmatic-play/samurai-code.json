@@ -1,0 +1,55 @@
+{
+  "slug": "samurai-code",
+  "name": "Samurai Code",
+  "provider": "pragmatic-play",
+  "rtp": 96.08,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-06-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "asian",
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Fish money symbols",
+      "description": "Fish carry 2x–2,000x values in the bonus."
+    },
+    {
+      "name": "Samurai collector",
+      "description": "Male samurai wilds collect cash values."
+    },
+    {
+      "name": "Retrigger multipliers",
+      "description": "Every four wilds add 10 spins and raise the multiplier."
+    }
+  ],
+  "review": "Samurai Code is a 5x4 Japanese warrior slot with female samurai and treasure chests. Fish act as regular symbols in the base game but become money symbols in the bonus.\n\nThree or more scatters award up to 20 free spins. In the bonus, money symbols carry random values from 2x to 2,000x, and male samurai act as wilds and collectors of the cash. Every four collected wilds award 10 more spins and a growing win multiplier starting at 2x. The RTP is 96.08%. It's the Big Bass formula in a samurai setting.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs12scode&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/samurai-code.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/samurai-code/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

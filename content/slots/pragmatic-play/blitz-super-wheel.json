@@ -1,0 +1,55 @@
+{
+  "slug": "blitz-super-wheel",
+  "name": "Blitz Super Wheel",
+  "provider": "pragmatic-play",
+  "rtp": 96.52,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2025-02-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "reel-modifiers",
+    "expanding-wilds",
+    "jackpot",
+    "free-spins"
+  ],
+  "themes": [
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Super Wheel",
+      "description": "Randomly awards one of seven features on any spin."
+    },
+    {
+      "name": "Pot Prize jackpots",
+      "description": "Five fixed jackpots up to 10,000x."
+    },
+    {
+      "name": "Free spins",
+      "description": "5–8 spins from the wheel or three scatters."
+    }
+  ],
+  "review": "Blitz Super Wheel can award one of seven random prizes on any spin: 5–10 random wilds, 5–8 Supercharged Wilds that also double all wins, Super Wild Reels with fully stacked wilds, 8–12 mystery symbols, In-Sync Reels, or a Pot Prize from five fixed jackpots worth up to 10,000x.\n\nThe wheel can also award 5–8 free spins, which can be triggered by three scatters too. That makes almost every spin a possible feature trigger. The in-game screens advertise up to 10,000x. The RTP is 96.52%. A busy, feature-heavy game for players who like variety.",
+  "pros": [
+    "Above-average 96.52% RTP",
+    "High 10,000x win ceiling",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20lightblitz&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/blitz-super-wheel.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/blitz-super-wheel/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

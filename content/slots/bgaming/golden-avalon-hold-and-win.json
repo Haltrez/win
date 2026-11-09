@@ -1,0 +1,58 @@
+{
+  "slug": "golden-avalon-hold-and-win",
+  "name": "Golden Avalon Hold and Win",
+  "provider": "bgaming",
+  "rtp": 97.1,
+  "volatility": "medium-high",
+  "maxWin": 3000,
+  "releaseDate": "2026-03-03",
+  "releaseDatePrecision": "day",
+  "winType": "Trueways",
+  "hitRate": 2.24,
+  "bonusRate": 223.0,
+  "mechanics": [
+    "ways",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fantasy",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Trueways reels",
+      "description": "Shifting ways to win with whole-reel characters."
+    },
+    {
+      "name": "Four Hold and Win bonuses",
+      "description": "A different bonus for each legendary character."
+    },
+    {
+      "name": "Bonus buy",
+      "description": "Instant access where permitted."
+    }
+  ],
+  "review": "Golden Avalon Hold and Win is an Arthurian Trueways slot with hand-drawn art and whole-reel characters: King Arthur, Merlin, the Dragon and the Lady of the Lake. Towering character symbols can cover entire reels.\n\nThe game offers four distinct Hold and Win bonus rounds, one for each character, with instant buy access where permitted and room for extended play. BGaming rates it medium-high volatility with a 3,000x maximum and a 97.1% RTP. Bonuses arrive about once every 223 spins on average. Four different hold-and-win variations keep the feature from feeling repetitive.",
+  "pros": [
+    "Excellent 97.10% RTP – among the highest published",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/GoldenAvalonHoldAndWin/FUN?server=demo",
+  "image": "/slots/bgaming/golden-avalon-hold-and-win.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/golden-avalon-hold-and-win"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

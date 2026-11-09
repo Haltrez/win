@@ -1,0 +1,57 @@
+{
+  "slug": "reel-of-ra",
+  "name": "Reel of Ra",
+  "provider": "bgaming",
+  "rtp": 97.02,
+  "volatility": "medium",
+  "maxWin": 2500,
+  "releaseDate": "2026-07-20",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "243 paylines",
+  "hitRate": 7.51,
+  "bonusRate": 120.0,
+  "mechanics": [
+    "ways",
+    "free-spins",
+    "money-collect",
+    "multipliers",
+    "jackpot"
+  ],
+  "themes": [
+    "egypt"
+  ],
+  "features": [
+    {
+      "name": "243 ways",
+      "description": "Egyptian symbols across 243 ways."
+    },
+    {
+      "name": "Coins-only free spins",
+      "description": "The bonus grid holds only coins."
+    },
+    {
+      "name": "Multiplier reel",
+      "description": "Boosts each bonus spin by 1x, 2x, 3x or 5x."
+    }
+  ],
+  "review": "Reel of Ra is an Egyptian 243-ways slot with falcons, scarabs and pyramids. Its free spins work differently: the field clears to show coins only, and a dedicated multiplier reel beside the grid boosts every spin's total by 1x, 2x, 3x or 5x.\n\nFilling every position during the bonus unlocks the 1,000x Grand Prize. BGaming rates it medium volatility with a 2,500x maximum and a 97.02% RTP. Free spins arrive about once every 120 spins. A good blend of a classic Egyptian look and a modern coin bonus.",
+  "pros": [
+    "Excellent 97.02% RTP – among the highest published",
+    "Bonus lands relatively often (about 1 in 120 spins on average)",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/ReelOfRa/FUN?server=demo",
+  "image": "/slots/bgaming/reel-of-ra.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/reel-of-ra"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

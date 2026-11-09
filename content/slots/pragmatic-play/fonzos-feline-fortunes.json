@@ -1,0 +1,55 @@
+{
+  "slug": "fonzos-feline-fortunes",
+  "name": "Fonzo’s Feline Fortunes",
+  "provider": "pragmatic-play",
+  "rtp": 96.52,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2025-01-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "respins",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "animals",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Future Fortunes Respin",
+      "description": "Random respins that repeat with a 50% chance."
+    },
+    {
+      "name": "Respin prizes",
+      "description": "Stacked wild reels, top-symbol wins or scatters on every respin."
+    },
+    {
+      "name": "Free spins",
+      "description": "10–20 spins with a growing retrigger multiplier."
+    }
+  ],
+  "review": "Fonzo's Feline Fortunes has a mystical cat and the Future Fortunes Respin feature, which can award a free respin after any spin. After each respin there's a 50% chance it triggers again, continuing until it fails.\n\nEach respin is certain to land one of four prizes: two or three reels stacked with wilds, at least one winning combination with the top symbol, or at least two scatters. Three to five scatters award 10 to 20 free spins, which can be retriggered with a rising win multiplier; if free spins trigger during a Future Fortune Respin, the respins continue afterwards. The RTP is 96.52%, and no max win is published on the page.",
+  "pros": [
+    "Above-average 96.52% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10fonzofff&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/fonzos-feline-fortunes.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/fonzos-feline-fortunes/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

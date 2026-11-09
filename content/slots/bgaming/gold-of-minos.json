@@ -1,0 +1,56 @@
+{
+  "slug": "gold-of-minos",
+  "name": "Gold Of Minos",
+  "provider": "bgaming",
+  "rtp": 96.0,
+  "volatility": "medium-high",
+  "maxWin": 15360,
+  "releaseDate": "2024-06-06",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "243 paylines",
+  "hitRate": 6.0,
+  "mechanics": [
+    "ways",
+    "expanding-wilds",
+    "respins",
+    "progressive-multiplier",
+    "bonus-buy"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Minotaur expanded wild",
+      "description": "Covers its whole reel when it lands."
+    },
+    {
+      "name": "Multiplier respins",
+      "description": "Each empty respin raises the multiplier, up to 1,024x."
+    },
+    {
+      "name": "Three bonus buys",
+      "description": "Different ways to start the respins where permitted."
+    }
+  ],
+  "review": "Gold Of Minos is a 5x3, 243-ways slot where the Minotaur is an expanded wild that covers his whole reel when he lands. If he doesn't form a win, he triggers a respin bonus instead.\n\nThe respins continue until a winning combination lands, and every empty respin increases the multiplier, up to 1,024x, so a long run of misses builds towards one big multiplied win. Three versions of the bonus buy let you start the respins directly where permitted. BGaming rates it medium-high volatility with a 15,360x maximum and a 96% RTP. It uses the same respin idea as Golden Pride, reworked with a Greek-myth theme.",
+  "pros": [
+    "High 15,360x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/GoldOfMinos/FUN?server=demo",
+  "image": "/slots/bgaming/gold-of-minos.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/goldofminos"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

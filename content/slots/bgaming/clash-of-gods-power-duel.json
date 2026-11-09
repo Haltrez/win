@@ -1,0 +1,61 @@
+{
+  "slug": "clash-of-gods-power-duel",
+  "name": "Clash of Gods Power Duel",
+  "provider": "bgaming",
+  "rtp": 96.5,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": "2026-05-04",
+  "releaseDatePrecision": "day",
+  "reels": "5x5",
+  "winType": "15 paylines",
+  "hitRate": 4.7,
+  "bonusRate": 313.0,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "mythology",
+    "egypt"
+  ],
+  "features": [
+    {
+      "name": "Choose your god",
+      "description": "Pick Anubis (steadier, sticky expanding wilds) or Hades for the bonus."
+    },
+    {
+      "name": "Super Free Spins",
+      "description": "Start with multipliers from 10x; triggered by super scatters or bought."
+    },
+    {
+      "name": "5x5 arena",
+      "description": "A 15-line layout with two mythologies."
+    }
+  ],
+  "review": "Clash of Gods Power Duel pits Anubis against Hades on a 5x5 golden arena with 15 paylines, mixing Egyptian and Greek myth. Free spins come in two versions, and you choose your path when the bonus starts.\n\nThe Anubis option is the steadier one, with expanding wilds that stick until the end of the feature, while Hades offers a more aggressive alternative. Super Free Spins start with multipliers from 10x and can be triggered naturally by super scatters in the base game or bought where permitted. BGaming rates it very high volatility with a 10,000x maximum and a 96.5% RTP. Free spins arrive about once every 313 spins.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus is rare (about 1 in 313 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/ClashofGodsAnubisvsHades/FUN?server=demo",
+  "image": "/slots/bgaming/clash-of-gods-power-duel.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/clash-of-gods-power-duel"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

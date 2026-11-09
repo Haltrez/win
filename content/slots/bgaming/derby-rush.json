@@ -1,0 +1,57 @@
+{
+  "slug": "derby-rush",
+  "name": "Derby Rush",
+  "provider": "bgaming",
+  "rtp": 97.2,
+  "volatility": "medium",
+  "maxWin": 5000,
+  "releaseDate": "2026-04-15",
+  "releaseDatePrecision": "day",
+  "winType": "20 paylines",
+  "hitRate": 2.41,
+  "bonusRate": 176.8,
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "multipliers",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Horse collect",
+      "description": "Horse values are collected by wilds."
+    },
+    {
+      "name": "Tiered bonuses",
+      "description": "Super, Mega and Ultra bonuses with multipliers up to 10x, 25x and 100x."
+    },
+    {
+      "name": "Chance x2",
+      "description": "Doubles the odds of triggering free spins."
+    }
+  ],
+  "review": "Derby Rush is a horse-racing slot with a deliberate pace: horse values collect on wilds, and golden bonus symbols build towards free spins, where multipliers climb higher than usual.\n\nThree bonus versions can be bought where permitted: Super Bonus with multipliers up to 10x, Mega Bonus up to 25x and Ultra Bonus up to 100x. Chance x2 increases the odds of reaching the bonus naturally. BGaming rates it medium volatility with a 5,000x maximum, and the 97.2% RTP is excellent. Free spins arrive about once every 177 spins. A good choice if you like collect mechanics but prefer a calmer ride than Big Bass.",
+  "pros": [
+    "Excellent 97.20% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/DerbyRush/FUN?server=demo",
+  "image": "/slots/bgaming/derby-rush.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/derby-rush"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

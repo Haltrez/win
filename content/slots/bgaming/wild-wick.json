@@ -1,0 +1,57 @@
+{
+  "slug": "wild-wick",
+  "name": "Wild Wick",
+  "provider": "bgaming",
+  "rtp": 97.35,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": "2025-11-04",
+  "releaseDatePrecision": "day",
+  "reels": "5x5",
+  "hitRate": 4.8,
+  "bonusRate": 332.0,
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "reel-modifiers",
+    "ante-bet"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Two free spins modes",
+      "description": "Free Spins and Super Free Spins."
+    },
+    {
+      "name": "Surprise wilds",
+      "description": "Wilds can appear unexpectedly."
+    },
+    {
+      "name": "Chance x3",
+      "description": "Raises the chance of both bonus modes."
+    }
+  ],
+  "review": "Wild Wick is a very high volatility western rodeo slot on 5x5 reels from BGaming and Strmlytics, the team behind Aztec Clusters and Snoop Dogg Dollars. It focuses on risky mechanics and interactive features.\n\nThere are two free spins modes, Free Spins and Super Free Spins, and surprise wilds can land at any time. Chance x3 slightly increases the bet to raise the chance of either bonus. BGaming lists a 10,000x maximum and an outstanding 97.35% RTP. Free spins are rare, about once every 332 spins, as befits its volatility.",
+  "pros": [
+    "Excellent 97.35% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus is rare (about 1 in 332 spins on average)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/WildWick/FUN?server=demo",
+  "image": "/slots/bgaming/wild-wick.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/wild-wick"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

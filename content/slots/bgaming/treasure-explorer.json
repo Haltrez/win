@@ -1,0 +1,55 @@
+{
+  "slug": "treasure-explorer",
+  "name": "Treasure Explorer",
+  "provider": "bgaming",
+  "rtp": 97.07,
+  "volatility": "medium-high",
+  "maxWin": 5000,
+  "releaseDate": "2026-01-08",
+  "releaseDatePrecision": "day",
+  "winType": "25 paylines",
+  "hitRate": 3.4,
+  "bonusRate": 159.3,
+  "mechanics": [
+    "paylines",
+    "cascades",
+    "progressive-multiplier",
+    "free-spins"
+  ],
+  "themes": [
+    "adventure",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Cascades",
+      "description": "Wins refill the reels for more chances."
+    },
+    {
+      "name": "Multiplier map",
+      "description": "A progressive map advances with wins."
+    },
+    {
+      "name": "Prize chests",
+      "description": "Milestones unlock prize chests."
+    }
+  ],
+  "review": "Treasure Explorer follows adventurer Laura Loot through Aztec ruins on 25 lines. It uses cascade mechanics and a progressive multiplier map that advances every time wins and refills happen during a spin.\n\nReaching milestones on the map unlocks generous prize chests, giving the game clear goals. BGaming rates it medium-high volatility with a 5,000x maximum and a 97.07% RTP. Free spins arrive about once every 159 spins. A story-driven slot with a sense of progression.",
+  "pros": [
+    "Excellent 97.07% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/TreasureExplorer/FUN?server=demo",
+  "image": "/slots/bgaming/treasure-explorer.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/treasure-explorer"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

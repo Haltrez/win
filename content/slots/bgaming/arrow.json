@@ -1,0 +1,57 @@
+{
+  "slug": "arrow",
+  "name": "Arrow",
+  "provider": "bgaming",
+  "rtp": 97.33,
+  "volatility": "medium",
+  "maxWin": 3600,
+  "releaseDate": "2025-04-15",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "hitRate": 2.5,
+  "bonusRate": 20.4,
+  "mechanics": [
+    "multipliers",
+    "respins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "classic",
+    "music"
+  ],
+  "features": [
+    {
+      "name": "Arrow mechanic",
+      "description": "Scatters at the arrow's tip trigger the Wheel of Fortune."
+    },
+    {
+      "name": "Respin multipliers",
+      "description": "Multipliers boost wins in the base game."
+    },
+    {
+      "name": "Frequent bonus",
+      "description": "The wheel triggers about once every 20 spins on average."
+    }
+  ],
+  "review": "Arrow is a retrowave 3x3 slot with an unusual layout and a spinning arrow. When the scatter appears at the arrow's tip, it starts the Wheel of Fortune bonus, which stops on a random prize boosted by any multipliers in play.\n\nRespin multipliers add extra wins in the base game. Chance x2 raises the bet by 1.2x and doubles the odds of landing a respin multiplier or the wheel bonus, and a bonus buy is available where permitted. BGaming rates it medium volatility with a 3,600x maximum, and the RTP is an outstanding 97.33%. The bonus is very frequent, roughly once every 20 spins on average, so sessions are lively.",
+  "pros": [
+    "Excellent 97.33% RTP – among the highest published",
+    "Bonus lands relatively often (about 1 in 20 spins on average)",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/ArrowSlot/FUN?server=demo",
+  "image": "/slots/bgaming/arrow.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/arrow-slot"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

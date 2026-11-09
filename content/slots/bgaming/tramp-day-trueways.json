@@ -1,0 +1,58 @@
+{
+  "slug": "tramp-day-trueways",
+  "name": "Tramp Day Trueways",
+  "provider": "bgaming",
+  "rtp": 96.7,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2025-07-10",
+  "releaseDatePrecision": "day",
+  "winType": "Trueways",
+  "hitRate": 4.33,
+  "bonusRate": 229.47,
+  "mechanics": [
+    "ways",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "free-spins",
+    "ante-bet"
+  ],
+  "themes": [
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Trueways reels",
+      "description": "Shifting ways to win."
+    },
+    {
+      "name": "Coin Respin",
+      "description": "A new coin feature alongside free spins."
+    },
+    {
+      "name": "Chance x2",
+      "description": "Raises your odds of triggering features."
+    }
+  ],
+  "review": "Tramp Day Trueways continues the tramp's rags-to-riches story on Trueways reels. It adds a Coin Respin event to the original's free spins.\n\nChance x2 increases your odds of triggering features, which matters more here because it now feeds two bonuses. BGaming rates it very high volatility with a 5,000x maximum and a 96.7% RTP. Free spins arrive about once every 229 spins. It uses the same maths as Olympus Trueways and Wild West Trueways, with a quirky urban theme.",
+  "pros": [
+    "Above-average 96.70% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/TrampDayTrueways/FUN?server=demo",
+  "image": "/slots/bgaming/tramp-day-trueways.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/tramp-day-trueways-tm"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

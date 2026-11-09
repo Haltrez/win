@@ -1,0 +1,56 @@
+{
+  "slug": "the-godfather-3-pillars-of-power",
+  "name": "The Godfather: 3 Pillars of Power",
+  "provider": "bgaming",
+  "rtp": 96.57,
+  "volatility": "medium-high",
+  "maxWin": 5000,
+  "releaseDate": "2026-07-15",
+  "releaseDatePrecision": "day",
+  "winType": "20 paylines",
+  "hitRate": 2.96,
+  "bonusRate": 105.0,
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "free-spins"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Three bonus tokens",
+      "description": "Bronze, silver and gold tokens lead to different bonuses."
+    },
+    {
+      "name": "Hold & Win",
+      "description": "The Honor bonus uses hold-and-win respins."
+    },
+    {
+      "name": "Vengeance Jackpot Spins",
+      "description": "A jackpot bonus triggered by gold tokens."
+    }
+  ],
+  "review": "The Godfather: 3 Pillars of Power is an officially licensed 20-line slot with three bonus modes, Hold and Win mechanics and a progressive jackpot system. Godfather-logo wilds appear on every reel.\n\nMystery symbols can reveal three bonus tokens. Bronze tokens may trigger Loyalty Bonus Spins, silver tokens Honor Hold & Win Spins, and gold tokens Vengeance Jackpot Spins. BGaming rates it medium-high volatility with a 5,000x maximum and a 96.57% RTP. Bonuses arrive about once every 105 spins on average. The three-pillar structure is a neat fit for the source material.",
+  "pros": [
+    "Above-average 96.57% RTP",
+    "Bonus lands relatively often (about 1 in 105 spins on average)",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/TheGodfather3PillarsOfPower/FUN?server=demo",
+  "image": "/slots/bgaming/the-godfather-3-pillars-of-power.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/the-godfather-3-pillars-of-power"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

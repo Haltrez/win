@@ -1,0 +1,58 @@
+{
+  "slug": "face-off",
+  "name": "Face Off",
+  "provider": "bgaming",
+  "rtp": 95.97,
+  "volatility": "high",
+  "maxWin": 15000,
+  "releaseDate": "2025-10-06",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 2.59,
+  "bonusRate": 395.35,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Pay anywhere",
+      "description": "Bonanza-style refilling reels."
+    },
+    {
+      "name": "Tombstone multipliers",
+      "description": "2x–100x multipliers during free spins."
+    },
+    {
+      "name": "Retriggers",
+      "description": "Three scatters in the bonus add five spins."
+    }
+  ],
+  "review": "Face Off is a Halloween Bonanza-style slot where four masked maniacs lurk in a graveyard. Scatters pay whenever they land in the main game, and symbols pay anywhere with refills.\n\nTombstone multipliers appear only during free spins, each taking a random value from 2x to 100x that applies to the win. Three or more scatters in the bonus add five more spins. Chance x2 and a bonus buy are available where permitted. BGaming rates it high volatility with a 15,000x maximum and a 95.97% RTP. Free spins are rare, arriving about once every 395 spins on average.",
+  "pros": [
+    "High 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.97% RTP",
+    "High volatility makes sessions swingy",
+    "Bonus is rare (about 1 in 395 spins on average)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/FaceOff/FUN?server=demo",
+  "image": "/slots/bgaming/face-off.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/face-off"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

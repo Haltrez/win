@@ -1,0 +1,57 @@
+{
+  "slug": "golden-paw-hold-and-win",
+  "name": "Golden Paw: Hold & Win",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium-low",
+  "maxWin": 2000,
+  "releaseDate": "2025-11-12",
+  "releaseDatePrecision": "day",
+  "hitRate": 4.56,
+  "bonusRate": 183.6,
+  "mechanics": [
+    "ways",
+    "hold-and-win",
+    "respins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "animals",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "1,024 ways",
+      "description": "Wins pay across 1,024 ways."
+    },
+    {
+      "name": "Magic lamps",
+      "description": "Lamp symbols drive the bonus features."
+    },
+    {
+      "name": "Mystery Buy",
+      "description": "One of several bonus buy options where permitted."
+    }
+  ],
+  "review": "Golden Paw: Hold & Win follows a green-eyed genie cat through an Arabian-nights bazaar on 1,024 ways. Magic lamp symbols and gem-filled reels set the scene.\n\nThe game includes bonus rounds driven by magic lamps and a Hold & Win feature, plus several bonus buy options, including a Mystery Buy, where permitted. BGaming rates it medium-low volatility with a 2,000x maximum, and the RTP is 97%. Bonuses arrive roughly once every 184 spins. A relaxed, good-value option with a charming theme.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Modest 2,000x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/GoldenPawHoldAndWin/FUN?server=demo",
+  "image": "/slots/bgaming/golden-paw-hold-and-win.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/golden-paw-hold-win"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

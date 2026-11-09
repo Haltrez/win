@@ -1,0 +1,55 @@
+{
+  "slug": "finger-lickn-free-spins",
+  "name": "Finger Lick’n Free Spins",
+  "provider": "pragmatic-play",
+  "rtp": 96.55,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2025-06-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "walking-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Egg-dropping hens",
+      "description": "Hens above the reels drop eggs that trigger the bonus."
+    },
+    {
+      "name": "Egg reveals",
+      "description": "Eggs award spins, prizes or moving wilds; golden eggs give bigger rewards."
+    },
+    {
+      "name": "Moving wilds",
+      "description": "Wilds change position every spin and can carry up to 20x."
+    }
+  ],
+  "review": "Finger Lick'n Free Spins is a farmyard slot where hens sit above each reel and can drop eggs at random. Three or more eggs in one spin trigger the bonus.\n\nBefore free spins begin, three more eggs appear on each reel where an egg dropped, revealing 1–3 free spins, a prize up to 100x, or a wild that moves to a new position on every spin. Golden eggs reveal bigger rewards: 5–15 free spins, a wild carrying a multiplier up to 20x, or a prize up to 2,000x. Hens keep dropping eggs during the bonus, which can retrigger it. The RTP is 96.55%, and Pragmatic Play doesn't list a max win on its page.",
+  "pros": [
+    "Above-average 96.55% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10fingerlfs&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/finger-lickn-free-spins.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/finger-lickn-free-spins/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

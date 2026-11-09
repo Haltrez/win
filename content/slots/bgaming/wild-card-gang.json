@@ -1,0 +1,58 @@
+{
+  "slug": "wild-card-gang",
+  "name": "Wild Card Gang",
+  "provider": "bgaming",
+  "rtp": 97.25,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2025-02-26",
+  "releaseDatePrecision": "day",
+  "reels": "6x6",
+  "winType": "Cluster Pays",
+  "hitRate": 3.04,
+  "bonusRate": 275.79,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Card-rank merging",
+      "description": "Jacks, queens, kings and aces merge upward."
+    },
+    {
+      "name": "Cluster pays",
+      "description": "Winning clusters pay and upgrade."
+    },
+    {
+      "name": "Cell multipliers",
+      "description": "Free spins add cell multipliers."
+    }
+  ],
+  "review": "Wild Card Gang is a surreal crime-drama slot inspired by gritty TV gang stories, using BGaming's Merge Up progression with card ranks. Jacks merge into queens, then kings, then aces, which makes the levels easy to follow.\n\nClusters pay and merge, and free spins use cell multipliers. A bonus buy is available where permitted. BGaming rates it very high volatility with a 5,000x maximum and an excellent 97.25% RTP. Free spins arrive about once every 276 spins. A stylish twist on the Merge Up engine.",
+  "pros": [
+    "Excellent 97.25% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/WildCardGang/FUN?server=demo",
+  "image": "/slots/bgaming/wild-card-gang.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/wild-card-gang"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

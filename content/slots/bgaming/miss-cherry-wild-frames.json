@@ -1,0 +1,60 @@
+{
+  "slug": "miss-cherry-wild-frames",
+  "name": "Miss Cherry Wild Frames",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium-low",
+  "maxWin": 3000,
+  "releaseDate": "2026-08-13",
+  "releaseDatePrecision": "day",
+  "reels": "2x2",
+  "winType": "20 paylines",
+  "hitRate": 7.76,
+  "bonusRate": 147.9,
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "10-spin wild frames",
+      "description": "Frames build over 10 spins and turn wild on the 10th."
+    },
+    {
+      "name": "Sticky wild free spins",
+      "description": "Wilds stick during the bonus."
+    },
+    {
+      "name": "Three bonus buys",
+      "description": "Including starts with 2x2 or 3x3 wild blocks."
+    }
+  ],
+  "review": "Miss Cherry Wild Frames refreshes the fruit formula with a 10-spin cycle. During each cycle, golden wild frames build up and multipliers grow, and on the 10th spin every collected frame turns into a wild.\n\nThe free spins round features sticky wilds. Chance x2 doubles the bonus odds at a slightly higher bet, though wild frames don't form during free spins. Three bonus buy options are available where permitted, including starts with 2x2 or 3x3 wild blocks. BGaming rates it medium-low volatility with a 3,000x maximum and a 97% RTP. Free spins arrive about once every 148 spins.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Bonus lands relatively often (about 1 in 148 spins on average)"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/MissCherryWildFrames/FUN?server=demo",
+  "image": "/slots/bgaming/miss-cherry-wild-frames.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/miss-cherry-wild-frames"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

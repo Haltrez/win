@@ -1,0 +1,58 @@
+{
+  "slug": "yommi-rush",
+  "name": "Yommi Rush",
+  "provider": "bgaming",
+  "rtp": 96.32,
+  "volatility": "medium-low",
+  "maxWin": 2000,
+  "releaseDate": "2025-09-25",
+  "releaseDatePrecision": "day",
+  "winType": "Cluster Pays",
+  "hitRate": 3.74,
+  "bonusRate": 166.7,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "sci-fi",
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "Cluster pays",
+      "description": "Cluster wins with candy-fed multipliers."
+    },
+    {
+      "name": "Classic Free Spins",
+      "description": "Three Yommis award 12 free spins."
+    },
+    {
+      "name": "Exclusive Free Spins",
+      "description": "A second bonus mode."
+    }
+  ],
+  "review": "Yommi Rush is a cosy cluster slot about a friendly alien house spirit who shares multipliers when you feed him candy. Two bonus modes are available.\n\nClassic Free Spins are triggered by three Yommis landing in one spin, or by the bonus buy, and award 12 spins. Exclusive Free Spins are a separate mode with their own trigger. BGaming rates the game medium-low volatility with a 2,000x maximum and a 96.32% RTP. Free spins arrive about once every 167 spins. A relaxed, charming game.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 2,000x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/YommiRush/FUN?server=demo",
+  "image": "/slots/bgaming/yommi-rush.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/yommi-rush"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "rotating-element",
+  "name": "Rotating Element",
+  "provider": "bgaming",
+  "rtp": 97.19,
+  "volatility": "medium-low",
+  "maxWin": 5000,
+  "releaseDate": "2024-10-23",
+  "releaseDatePrecision": "day",
+  "reels": "5x5",
+  "winType": "25 paylines",
+  "hitRate": 3.3,
+  "bonusRate": 176.1,
+  "mechanics": [
+    "paylines",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Rotate symbol",
+      "description": "Turns the 5x5 grid 90° clockwise to reshuffle symbols."
+    },
+    {
+      "name": "Elemental theme",
+      "description": "Fire, water, wind and earth symbols."
+    },
+    {
+      "name": "Rotation-rich free spins",
+      "description": "More rotations during the bonus."
+    }
+  ],
+  "review": "Rotating Element reimagines a 5x5, 25-line grid with a Rotate symbol fixed in the centre. When conditions are met, it turns the whole grid 90° clockwise, shuffling every other symbol into new positions and creating fresh chances to win.\n\nSymbols represent fire, water, wind and earth, with a flower as the scatter, framing an ecology and planetary theme. Free spins bring even more rotations, and therefore more wins. BGaming rates it medium-low volatility with a 5,000x maximum, and the RTP is an excellent 97.19%. Free spins arrive about once every 176 spins. A genuinely original mechanic.",
+  "pros": [
+    "Excellent 97.19% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/RotatingElement/FUN?server=demo",
+  "image": "/slots/bgaming/rotating-element.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/rotating-element"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

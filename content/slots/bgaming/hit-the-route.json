@@ -1,0 +1,59 @@
+{
+  "slug": "hit-the-route",
+  "name": "Hit The Route",
+  "provider": "bgaming",
+  "rtp": 97.18,
+  "volatility": "medium",
+  "maxWin": 4588,
+  "releaseDate": "2020-12-01",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "winType": "40 paylines",
+  "hitRate": 4.0,
+  "bonusRate": 91.0,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "sticky-wilds",
+    "respins",
+    "free-spins",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "adventure",
+    "music"
+  ],
+  "features": [
+    {
+      "name": "Stacked wilds",
+      "description": "Cover part or all of a reel."
+    },
+    {
+      "name": "Mystery Wilds",
+      "description": "A random feature that adds stacked wilds."
+    },
+    {
+      "name": "Sticky bonus wilds",
+      "description": "Wilds stick throughout free spins and respins."
+    }
+  ],
+  "review": "Hit the Route is a 5x4, 40-line road-trip slot with three types of wild. Stacked wilds can cover part or all of a reel in the main game and during the Mystery Wilds feature, which triggers at random.\n\nDuring free spins and respins, wild girls or wild wheels become sticky and stay on the reels for the whole bonus round. BGaming rates it medium volatility with a 4,588x maximum, and the RTP is an excellent 97.18%. Free spins arrive frequently, around once every 91 spins on average. A cheerful game with solid value.",
+  "pros": [
+    "Excellent 97.18% RTP – among the highest published",
+    "Bonus lands relatively often (about 1 in 91 spins on average)",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/HitTheRoute/FUN?server=demo",
+  "image": "/slots/bgaming/hit-the-route.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/hit-the-route"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

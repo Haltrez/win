@@ -1,0 +1,55 @@
+{
+  "slug": "hot-to-burn-7-deadly-free-spins",
+  "name": "Hot to Burn – 7 Deadly Free Spins",
+  "provider": "pragmatic-play",
+  "rtp": 96.54,
+  "volatility": null,
+  "maxWin": 4000,
+  "releaseDate": "2024-07-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "respins",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Symbol-removing respins",
+      "description": "Each win removes the lowest symbol and respins."
+    },
+    {
+      "name": "Seven-respin trigger",
+      "description": "The seventh respin starts free spins with 2x on wins."
+    },
+    {
+      "name": "Scatter free spins",
+      "description": "Seven spins with the six lowest symbols removed."
+    }
+  ],
+  "review": "Hot to Burn – 7 Deadly Free Spins is a 5x3 classic with cherries, sevens and BARs. Every winning combination removes the lowest-paying symbol and awards a respin, and on the seventh consecutive respin the 7 Deadly Free Spins round begins with a 2x multiplier on every win.\n\nFree spins can also be triggered by three scatters, which give seven free spins with the six lowest-paying symbols removed for the whole round. Pragmatic Play states wins up to 4,000x. The RTP is 96.54%. A fiery classic with a clever respin ladder.",
+  "pros": [
+    "Above-average 96.54% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10hottb7fs&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/hot-to-burn-7-deadly-free-spins.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/hot-to-burn-7-deadly-free-spins/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

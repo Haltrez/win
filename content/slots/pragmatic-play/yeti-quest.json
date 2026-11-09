@@ -1,0 +1,53 @@
+{
+  "slug": "yeti-quest",
+  "name": "Yeti Quest",
+  "provider": "pragmatic-play",
+  "rtp": 96.06,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2024-07-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "adventure",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Multiplier symbols",
+      "description": "Four special symbols carry multipliers in the base game."
+    },
+    {
+      "name": "All-multiplier free spins",
+      "description": "Every symbol can carry a multiplier in the bonus."
+    },
+    {
+      "name": "Retriggers",
+      "description": "Up to five scatters retrigger spins."
+    }
+  ],
+  "review": "Yeti Quest sends explorers into snowy mountains with maps, tents and pickaxes on a 5x3 grid. In the base game, four special symbols can carry multipliers.\n\nThree, four or five scatters start free spins with up to 20 initial spins, and in the bonus every symbol can carry a multiplier, a big boost compared to the base game. Free spins can be retriggered. Pragmatic Play states a 5,000x maximum. The RTP is 96.06%. Simple and easy to follow, with a strong bonus.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20mesmult&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/yeti-quest.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/yeti-quest/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

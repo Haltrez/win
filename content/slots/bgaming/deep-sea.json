@@ -1,0 +1,53 @@
+{
+  "slug": "deep-sea",
+  "name": "Deep Sea",
+  "provider": "bgaming",
+  "rtp": 94.14,
+  "volatility": "medium",
+  "maxWin": 2692,
+  "releaseDate": "2019-12-20",
+  "releaseDatePrecision": "day",
+  "winType": "15 paylines",
+  "bonusRate": 73.0,
+  "mechanics": [
+    "paylines",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "15 paylines",
+      "description": "A neon underwater layout."
+    },
+    {
+      "name": "Wild spins",
+      "description": "Three special symbols during free spins trigger 10 wild spins."
+    },
+    {
+      "name": "Frequent free spins",
+      "description": "About once every 73 spins on average."
+    }
+  ],
+  "review": "Deep Sea is a neon underwater slot from 2019 with 15 paylines. During free spins, collecting three special symbols triggers 10 wild spins, giving the bonus a clear mini goal.\n\nBGaming rates it medium volatility with a 2,692x maximum. Free spins are frequent, arriving roughly once every 73 spins on average, which keeps the game moving. The RTP is 94.14%, well below modern standards, so it's best enjoyed in demo for its visuals rather than for long-term value. A relaxed, atmospheric option.",
+  "pros": [
+    "Bonus lands relatively often (about 1 in 73 spins on average)",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.14% RTP",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/DeepSea/FUN?server=demo",
+  "image": "/slots/bgaming/deep-sea.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/deep-sea"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

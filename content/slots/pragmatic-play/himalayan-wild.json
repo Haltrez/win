@@ -1,0 +1,58 @@
+{
+  "slug": "himalayan-wild",
+  "name": "Himalayan Wild",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2024-10-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "multipliers",
+    "jackpot",
+    "bonus-buy"
+  ],
+  "themes": [
+    "animals",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Peak scatters",
+      "description": "Three on reels 1, 3 and 5 unlock nine free spins."
+    },
+    {
+      "name": "Resetting bonus",
+      "description": "Bonus symbols reset the spin count to three."
+    },
+    {
+      "name": "Jackpots",
+      "description": "Jackpot prizes alongside the free spins."
+    }
+  ],
+  "review": "Himalayan Wild is a 5x3 mountain slot with free spins, multipliers and jackpots. Mountain-peak scatters appear on reels one, three and five, and three of them unlock nine free spins.\n\nIn the bonus, a bonus symbol landing via a line win through a wild resets the spin count to three, and a bonus symbol can award a repeat win if its value equals the amount that triggered the free spins. Free Spins and Super Free Spins can be purchased in some markets. The in-game screens advertise up to 5,000x. The RTP is 96.5%.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs5himalaw&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/himalayan-wild.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/himalayan-wild/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

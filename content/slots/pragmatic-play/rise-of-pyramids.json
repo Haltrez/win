@@ -1,0 +1,55 @@
+{
+  "slug": "rise-of-pyramids",
+  "name": "Rise of Pyramids",
+  "provider": "pragmatic-play",
+  "rtp": 95.97,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2024-05-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "cluster-pays",
+    "tumble",
+    "money-collect",
+    "respins"
+  ],
+  "themes": [
+    "egypt",
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Octagonal cluster grid",
+      "description": "An unusual board shape with tumbles."
+    },
+    {
+      "name": "Exploding wilds",
+      "description": "Wilds destroy adjacent symbols on tumbles."
+    },
+    {
+      "name": "Money respins",
+      "description": "Four money symbols start three respins."
+    }
+  ],
+  "review": "Rise of Pyramids gives Egyptian myth a sci-fi makeover on an octagonal cluster grid. Gods in shimmering armour are the symbols, and winning clusters tumble. Wilds can blow up all adjacent symbols when they trigger a tumble, even ones not in the win.\n\nMoney symbols from 0.5x to 1,000x can land, and four or more activate a respin feature with three respins, where only money symbols and blanks land. Pragmatic Play advertises up to 10,000x. Note the RTP is 95.97%. The octagonal grid is unusual and gives the game a distinctive look.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.97% RTP",
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswayshexhaus&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/rise-of-pyramids.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/rise-of-pyramids/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

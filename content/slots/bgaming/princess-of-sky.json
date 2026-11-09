@@ -1,0 +1,53 @@
+{
+  "slug": "princess-of-sky",
+  "name": "Princess of Sky",
+  "provider": "bgaming",
+  "rtp": 95.99,
+  "volatility": "medium-high",
+  "maxWin": 2649,
+  "releaseDate": "2016-04-02",
+  "releaseDatePrecision": "day",
+  "winType": "9 paylines",
+  "hitRate": 3.49,
+  "bonusRate": 51.0,
+  "mechanics": [
+    "paylines",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Nine lines",
+      "description": "A classic 5x3 layout."
+    },
+    {
+      "name": "Generous free spins",
+      "description": "3/4/5 scatters award 10/20/50 spins, retriggerable."
+    },
+    {
+      "name": "Ruby heart wild",
+      "description": "Substitutes for all symbols except scatters."
+    }
+  ],
+  "review": "Princess of Sky is a 2016 BGaming slot with nine lines and a ruby heart as the wild, which substitutes for every symbol except scatters.\n\nThree, four or five scatters trigger 10, 20 or 50 free spins, and the round can be retriggered, a generous structure for such an old game. Free spins are very frequent, arriving about once every 51 spins on average. BGaming rates it medium-high volatility with a 2,649x maximum and a 95.99% RTP. A nice option if you like bonus-heavy sessions.",
+  "pros": [
+    "Bonus lands relatively often (about 1 in 51 spins on average)",
+    "Straightforward feature set"
+  ],
+  "cons": [
+    "Below-average 95.99% RTP",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": null,
+  "image": "/slots/bgaming/princess-of-sky.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/princess-of-sky"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "sakura-riches-60",
+  "name": "Sakura Riches 60",
+  "provider": "bgaming",
+  "rtp": 97.16,
+  "volatility": "very-high",
+  "maxWin": 3000,
+  "releaseDate": "2025-01-15",
+  "releaseDatePrecision": "day",
+  "hitRate": 5.4,
+  "mechanics": [
+    "paylines",
+    "free-spins"
+  ],
+  "themes": [
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Lantern wilds",
+      "description": "Substitute for all symbols except the scatter."
+    },
+    {
+      "name": "Sakura theme",
+      "description": "Petals, fans and lotus flowers."
+    },
+    {
+      "name": "High RTP",
+      "description": "97.16% default return."
+    }
+  ],
+  "review": "Sakura Riches 60 is a serene Asian slot with drifting sakura petals, hand fans, lotus flowers and Chinese lanterns, which act as the wild. As the name suggests, it uses a 60-line structure.\n\nThe lantern wild substitutes for every symbol except the scatter. BGaming's published description is short, but the numbers are notable: very high volatility, a 3,000x maximum and a 97.16% RTP. Try it in demo to see how the scatter feature plays out. It's a calm-looking game with surprisingly swingy maths.",
+  "pros": [
+    "Excellent 97.16% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/SakuraRiches60/FUN?server=demo",
+  "image": "/slots/bgaming/sakura-riches-60.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/sakura-riches-60"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

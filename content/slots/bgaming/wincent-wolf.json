@@ -1,0 +1,57 @@
+{
+  "slug": "wincent-wolf",
+  "name": "Wincent Wolf",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium-high",
+  "maxWin": 10000,
+  "releaseDate": "2026-09-08",
+  "releaseDatePrecision": "day",
+  "winType": "20 paylines",
+  "hitRate": 2.99,
+  "bonusRate": 149.99,
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "animals",
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Wheel of Fortune",
+      "description": "Adds bonus outcomes and prizes."
+    },
+    {
+      "name": "Sticky wilds",
+      "description": "Wilds stick during free spins."
+    },
+    {
+      "name": "Bonus buy",
+      "description": "Purchase the bonus where permitted."
+    }
+  ],
+  "review": "Wincent Wolf follows two lavish Vegas players, Wincent Wolf and Scarlett Fox, through free spins, Wheel of Fortune mechanics and sticky wilds. W-marked ace cards add a mischievous touch to the 20-line game.\n\nThe wheel adds bonus outcomes, and sticky wilds give the free spins their staying power. Bonus buys are available where permitted. BGaming rates it medium-high volatility with a 10,000x maximum and a 97% RTP. Free spins arrive about once every 150 spins. A characterful game with a good balance of risk.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Bonus lands relatively often (about 1 in 150 spins on average)"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/WincentWolf/FUN?server=demo",
+  "image": "/slots/bgaming/wincent-wolf.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/wincent-wolf"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

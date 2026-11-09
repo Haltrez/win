@@ -1,0 +1,53 @@
+{
+  "slug": "wild-wild-joker",
+  "name": "Wild Wild Joker",
+  "provider": "pragmatic-play",
+  "rtp": 96.49,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2025-02-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "classic",
+    "fruit"
+  ],
+  "features": [
+    {
+      "name": "Both-ways money collection",
+      "description": "Wild pairs on either side collect connected money symbols."
+    },
+    {
+      "name": "Boost and Respin Wilds",
+      "description": "Edge wilds can boost values or respin reels."
+    },
+    {
+      "name": "Retriggering free spins",
+      "description": "Every third wild pair adds four spins."
+    }
+  ],
+  "review": "Wild Wild Joker pays both left to right and right to left. If wilds land on reels one and two with money symbols on reels 3–5 (or the mirror image), the values of all connected money symbols are won.\n\nWilds on reels one and five can randomly turn into Boost Wilds, which increase visible money values, or Respin Wilds, which respin every reel without a wild. A pair of wilds plus a Free Spins symbol on reel three starts eight free spins, and every third pair of wilds retriggers four more spins, up to four times. Super Free Spins are also available. The in-game screens advertise up to 5,000x. The RTP is 96.49%.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswayswwjoker&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/wild-wild-joker.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/wild-wild-joker/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

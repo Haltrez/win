@@ -1,0 +1,55 @@
+{
+  "slug": "all-lucky-clovers",
+  "name": "All Lucky Clovers",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "very-high",
+  "maxWin": 3000,
+  "releaseDate": "2020-09-17",
+  "releaseDatePrecision": "day",
+  "winType": "100 paylines",
+  "hitRate": 8.4,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "gamble"
+  ],
+  "themes": [
+    "irish",
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "100 paylines",
+      "description": "A classic fruit and clover layout."
+    },
+    {
+      "name": "Two scatters",
+      "description": "Horseshoes pay anywhere; diamonds on reels 1, 3 and 4 award a win."
+    },
+    {
+      "name": "Expanding wild and gamble",
+      "description": "Wilds can fill a reel; an optional card gamble follows wins."
+    }
+  ],
+  "review": "All Lucky Clovers is a classic 100-line fruit slot with lucky charms. There are two scatters: three or more horseshoes pay in any position, while three diamonds on reels 1, 3 and 4 award a win.\n\nThe wild substitutes for regular symbols and can expand to fill its reel, completing several lines at once. After any base-game win, an optional card gamble lets you guess a colour or suit to double the prize. BGaming rates it very high volatility, surprisingly for a classic layout, with a 3,000x maximum. The 97% RTP is strong. It's a no-frills game best suited to players who like traditional symbols and many lines.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/AllLuckyClover/FUN?server=demo",
+  "image": "/slots/bgaming/all-lucky-clovers.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/all-lucky-clover"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

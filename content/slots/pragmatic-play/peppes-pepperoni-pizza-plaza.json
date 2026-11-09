@@ -1,0 +1,55 @@
+{
+  "slug": "peppes-pepperoni-pizza-plaza",
+  "name": "Peppe’s Pepperoni Pizza Plaza",
+  "provider": "pragmatic-play",
+  "rtp": 96.55,
+  "volatility": null,
+  "maxWin": 6000,
+  "releaseDate": "2025-02-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "multipliers",
+    "grid-expansion",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Golden wilds",
+      "description": "Enlarge the grid and collect newly revealed money."
+    },
+    {
+      "name": "Pre-bonus modifiers",
+      "description": "Up to five modifiers before free spins."
+    },
+    {
+      "name": "Retrigger levels",
+      "description": "Every fourth wild adds 10 spins and a higher multiplier."
+    }
+  ],
+  "review": "Peppe's Pepperoni Pizza Plaza serves up mushrooms, olives and pepperoni on a pizza-themed grid, with money symbols, golden wilds and free spins. Three to five scatters trigger 10 to 20 free spins.\n\nUp to five modifiers can activate before the round: extra money symbols, wilds or golden wilds, two more spins, or starting at level two. In the bonus, wilds collect all money symbols on screen, and golden wilds also enlarge the grid and award all newly revealed money symbols. Every fourth wild retriggers 10 spins at a higher multiplier. Pragmatic Play states wins up to 6,000x. The RTP is 96.55%.",
+  "pros": [
+    "Above-average 96.55% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaystonypzz&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/peppes-pepperoni-pizza-plaza.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/peppes-pepperoni-pizza-plaza/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

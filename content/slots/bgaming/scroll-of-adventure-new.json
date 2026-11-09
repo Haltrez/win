@@ -1,0 +1,54 @@
+{
+  "slug": "scroll-of-adventure-new",
+  "name": "Scroll of Adventure new",
+  "provider": "bgaming",
+  "rtp": 97.1,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2016-04-02",
+  "releaseDatePrecision": "day",
+  "winType": "5 paylines",
+  "hitRate": 4.49,
+  "bonusRate": 98.0,
+  "mechanics": [
+    "paylines",
+    "expanding-symbols",
+    "free-spins"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Wild-scatter symbol",
+      "description": "One symbol substitutes and triggers the bonus."
+    },
+    {
+      "name": "Expanding symbol",
+      "description": "10 free spins with a random expanding symbol."
+    },
+    {
+      "name": "Retriggers",
+      "description": "More scatters extend the bonus."
+    }
+  ],
+  "review": "Scroll of Adventure is a 2016 BGaming book slot with five lines and a single symbol that is both wild and scatter. Three or more scatters trigger 10 free spins with a random expanding symbol, and the free spins can be retriggered.\n\nBGaming rates it very high volatility with a 5,000x maximum, and the RTP is a strong 97.1%. Free spins are frequent for a book game, arriving about once every 98 spins. It's a minimal version of the classic book formula with excellent value.",
+  "pros": [
+    "Excellent 97.10% RTP – among the highest published",
+    "Bonus lands relatively often (about 1 in 98 spins on average)"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": null,
+  "image": "/slots/bgaming/scroll-of-adventure-new.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/scroll-of-adventure"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

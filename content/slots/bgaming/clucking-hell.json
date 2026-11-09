@@ -1,0 +1,58 @@
+{
+  "slug": "clucking-hell",
+  "name": "Clucking Hell",
+  "provider": "bgaming",
+  "rtp": 96.23,
+  "volatility": "very-high",
+  "maxWin": 6666,
+  "releaseDate": "2025-10-01",
+  "releaseDatePrecision": "day",
+  "winType": "Cluster Pays",
+  "hitRate": 3.41,
+  "bonusRate": 236.0,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "horror",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Cluster pays",
+      "description": "Clusters of matching farmyard symbols win."
+    },
+    {
+      "name": "Carry-over cell multipliers",
+      "description": "Active cell multipliers move into the bonus with you."
+    },
+    {
+      "name": "Replicator Cells",
+      "description": "The Super Bonus starts with three Replicator Cells and 12 spins."
+    }
+  ],
+  "review": "Clucking Hell turns a farmyard into a zombie apocalypse, with a possessed hen performing rituals that attract multipliers up to 666x and an ultimate 6,666x offering. It's a cluster-pays game.\n\nThree scatters trigger the Super Bonus with 12 free spins and three starting Replicator Cells, and all active cell multipliers carry over from the base game into the bonus. Retriggering with two scatters adds three more spins. Two bonus buy options are available where permitted, alongside Bonus Boost and Hell Spins modes. BGaming rates it very high volatility with a 6,666x maximum and a 96.23% RTP. Free spins arrive about once every 236 spins.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/CluckingHell/FUN?server=demo",
+  "image": "/slots/bgaming/clucking-hell.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/clucking-hell"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

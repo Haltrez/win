@@ -1,0 +1,55 @@
+{
+  "slug": "blazing-fire-pots-hold-and-spin",
+  "name": "Blazing Fire Pots Hold & Spin",
+  "provider": "bgaming",
+  "rtp": 96.27,
+  "volatility": "medium-high",
+  "maxWin": 5000,
+  "releaseDate": "2026-01-21",
+  "releaseDatePrecision": "day",
+  "winType": "20 paylines",
+  "hitRate": 3.33,
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "ante-bet"
+  ],
+  "themes": [
+    "asian",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Five jackpots",
+      "description": "Mini 25x, Minor 50x, Major 100x, Mega 1,000x and Grand 5,000x."
+    },
+    {
+      "name": "Hold and Spin",
+      "description": "Three firepots trigger the respin bonus."
+    },
+    {
+      "name": "Respin Ante",
+      "description": "+40% bet to make the bonus 50% more likely, with respins on two firepots."
+    }
+  ],
+  "review": "Blazing Fire Pots Hold & Spin is a fast classic slot with a Hold and Spin bonus and five fixed jackpots: Mini (25x), Minor (50x), Major (100x), Mega (1,000x) and Grand (5,000x).\n\nThree Blazing Firepot symbols trigger the bonus. A Respin Ante adds 40% to your bet to trigger it 50% faster: if two firepots land, a respin tries to complete the trigger, and during that respin only firepot symbols are active. The game is tuned for quick rounds and frequent features. BGaming rates it medium-high volatility with a 5,000x maximum and a 96.27% RTP. Ideal for players who enjoy jackpot-style land-based games.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BlazingFirepots/FUN?server=demo",
+  "image": "/slots/bgaming/blazing-fire-pots-hold-and-spin.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/blazing-fire-pots-hold-spin"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

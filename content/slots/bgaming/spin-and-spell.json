@@ -1,0 +1,56 @@
+{
+  "slug": "spin-and-spell",
+  "name": "Spin And Spell",
+  "provider": "bgaming",
+  "rtp": 95.9,
+  "volatility": "very-high",
+  "maxWin": 3049,
+  "releaseDate": "2019-10-17",
+  "releaseDatePrecision": "day",
+  "winType": "20 paylines",
+  "hitRate": 5.95,
+  "bonusRate": 102.0,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "free-spins",
+    "gamble"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Castle scatters",
+      "description": "Trigger retriggerable free spins."
+    },
+    {
+      "name": "Expanding wild",
+      "description": "Wilds expand to complete wins."
+    },
+    {
+      "name": "Bonus mini-game",
+      "description": "A separate Halloween bonus round."
+    }
+  ],
+  "review": "Spin And Spell is a 20-line Halloween slot from 2019 with castle scatters, free spins that can be retriggered, and an expanding wild. A separate bonus round adds a mini-game to the trick-or-treat theme.\n\nBGaming rates it very high volatility with a 3,049x maximum and a 95.9% RTP. Free spins arrive about once every 102 spins on average. A gamble round is also available after wins. It's a fun seasonal classic, though newer BGaming games offer better RTP.",
+  "pros": [
+    "Bonus lands relatively often (about 1 in 102 spins on average)",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.90% RTP",
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/SpinAndSpell/FUN?server=demo",
+  "image": "/slots/bgaming/spin-and-spell.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/spin-and-spell"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

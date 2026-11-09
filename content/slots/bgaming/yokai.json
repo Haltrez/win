@@ -1,0 +1,58 @@
+{
+  "slug": "yokai",
+  "name": "Yokai",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium-high",
+  "maxWin": 8000,
+  "releaseDate": "2026-07-06",
+  "releaseDatePrecision": "day",
+  "winType": "20 paylines",
+  "hitRate": 3.82,
+  "bonusRate": 161.49,
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "asian",
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Moon slicing",
+      "description": "Nine moons reveal 1–3 each to set the free spins count."
+    },
+    {
+      "name": "Sticky wilds",
+      "description": "Wilds stay during the bonus."
+    },
+    {
+      "name": "Extra moons",
+      "description": "Two scatters in the bonus add six more moons."
+    }
+  ],
+  "review": "Yokai is a Japanese folklore slot with 20 lines, sticky wilds and moon multipliers. Before free spins begin, nine moons appear and a samurai slices them open to reveal 1, 2 or 3, and the total sets your number of free spins.\n\nTwo scatters during a bonus spin bring six more moons to cut. A Chance option raises the trigger odds at a slightly higher bet, and the bonus can be bought where permitted. BGaming rates it medium-high volatility with an 8,000x maximum and a 97% RTP. Free spins arrive about once every 161 spins.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/Yokai/FUN?server=demo",
+  "image": "/slots/bgaming/yokai.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/yokai"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

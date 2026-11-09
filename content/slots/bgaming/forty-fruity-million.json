@@ -1,0 +1,53 @@
+{
+  "slug": "forty-fruity-million",
+  "name": "Forty Fruity Million",
+  "provider": "bgaming",
+  "rtp": 96.1,
+  "volatility": "very-high",
+  "maxWin": 6000,
+  "releaseDate": "2022-09-02",
+  "releaseDatePrecision": "day",
+  "winType": "40 paylines",
+  "hitRate": 8.0,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "40 paylines",
+      "description": "A fruit layout with stacked symbols."
+    },
+    {
+      "name": "Multiplier expanding wilds",
+      "description": "Expanded wilds get a random 1x–3x multiplier."
+    },
+    {
+      "name": "Two scatters",
+      "description": "Different rules for each scatter type."
+    }
+  ],
+  "review": "Forty Fruity Million is a 40-line fruit slot with two scatters, stacked symbols and multiplying expanding wilds. Wilds appear only on reels 2, 3 and 4.\n\nWhen a wild expands to fill its reel and a win forms, the expanded wild randomly gets a 1x, 2x or 3x multiplier. One scatter pays for three to five symbols anywhere; the other appears only on reels 1, 3 and 5 and pays for three. BGaming rates it very high volatility with a 6,000x maximum and a 96.1% RTP. It's a punchier version of the classic fruit formula, with no free spins round.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/FortyFruityMillion/FUN?server=demo",
+  "image": "/slots/bgaming/forty-fruity-million.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/forty-fruity-million"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

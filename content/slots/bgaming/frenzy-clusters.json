@@ -1,0 +1,61 @@
+{
+  "slug": "frenzy-clusters",
+  "name": "Frenzy Clusters",
+  "provider": "bgaming",
+  "rtp": 97.11,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": "2026-06-23",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "winType": "Cluster Pays",
+  "hitRate": 2.64,
+  "bonusRate": 269.4,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "grid-expansion",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fantasy",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Character selection",
+      "description": "Choose from five heroes."
+    },
+    {
+      "name": "Rock expansions",
+      "description": "Rocks extend the field and reveal multipliers in the bonus."
+    },
+    {
+      "name": "Mystery buy",
+      "description": "One of three buy options sends you to a random bonus."
+    }
+  ],
+  "review": "Frenzy Clusters lets you choose one of five heroes before you start, each sending you on a different adventure. It's a cluster-pays game with two unique bonus games.\n\nWinning combinations can unlock rock symbols that extend the playing field for a spin; in the bonus, rocks can clear to reveal three random multipliers and expand the field until the round ends. Three bonus buy options are available where permitted, including a Mystery round that sends you into a random bonus mode. BGaming rates it high volatility with a 10,000x maximum and a 97.11% RTP. Free spins arrive about once every 269 spins.",
+  "pros": [
+    "Excellent 97.11% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/FrenzyClusters/FUN?server=demo",
+  "image": "/slots/bgaming/frenzy-clusters.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/frenzy-clusters"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "majestic-express-gold-run",
+  "name": "Majestic Express – Gold Run",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 20000,
+  "releaseDate": "2025-05-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "western",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Reel-five collectors",
+      "description": "Collect and Super Collect symbols gather money values."
+    },
+    {
+      "name": "Train Money",
+      "description": "Train symbols carry prizes up to 5,000x."
+    },
+    {
+      "name": "Golden train multipliers",
+      "description": "Each cart adds +1x when a Super Collect lands with Train Money."
+    }
+  ],
+  "review": "Majestic Express – Gold Run is a mining slot with money symbols worth up to 15x on reels 1 to 4, collected when a Collect or Super Collect symbol lands on reel five. Train Money symbols can carry much bigger prizes, up to 5,000x.\n\nIf a Super Collect lands together with a Train Money symbol, a golden train appears with a random number of carts, each adding +1x to the win multiplier. Three dynamite scatters lead to the bonus. The in-game screens advertise up to 20,000x. The RTP is 96.5%. A fun twist on reel-five collector games.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "High 20,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs25goldrexp&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/majestic-express-gold-run.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/majestic-express-gold-run/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

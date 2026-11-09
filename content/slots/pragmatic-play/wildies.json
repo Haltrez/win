@@ -1,0 +1,54 @@
+{
+  "slug": "wildies",
+  "name": "Wildies",
+  "provider": "pragmatic-play",
+  "rtp": 96.01,
+  "volatility": null,
+  "maxWin": 7500,
+  "releaseDate": "2024-05-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "respins",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "candy",
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Wild Respins",
+      "description": "Wilds stay while respins continue until no new wilds land."
+    },
+    {
+      "name": "10x wild multipliers",
+      "description": "Up to five wilds in respins carry 10x."
+    },
+    {
+      "name": "Pre-loaded free spins",
+      "description": "Four or five scatters start with wilds in place."
+    }
+  ],
+  "review": "Wildies is a café-themed slot with cakes, jellies, coffee and candy canes. The wild is the key to the Wild Respins feature: when it lands it stays in place and the reels keep spinning until no more wilds appear.\n\nIn respins, up to five wilds can carry a 10x multiplier. Three scatter swirls open free spins with six initial spins, and four or five scatters start the round with two or three wilds already in place and extra scatters added to the meter. Pragmatic Play advertises up to 7,500x. The RTP is 96.01%.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs25wildies&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/wildies.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/wildies/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

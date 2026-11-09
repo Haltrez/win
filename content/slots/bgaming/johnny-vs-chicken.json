@@ -1,0 +1,57 @@
+{
+  "slug": "johnny-vs-chicken",
+  "name": "Johnny vs Chicken",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium-high",
+  "maxWin": 5000,
+  "releaseDate": "2026-09-15",
+  "releaseDatePrecision": "day",
+  "winType": "15 paylines",
+  "hitRate": 4.03,
+  "bonusRate": 242.85,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "western",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "VS expanding wilds",
+      "description": "VS symbols expand with random multipliers."
+    },
+    {
+      "name": "Multiplier duels",
+      "description": "Animated duels boost wins up to 500x."
+    },
+    {
+      "name": "Three wild types",
+      "description": "Different wilds, all substituting except for scatters."
+    }
+  ],
+  "review": "Johnny vs Chicken is part of BGaming's VS series, pitting gunslinger Johnny Cash against the outlaw chicken from Chicken Rush. It plays on 15 lines with three types of wild.\n\nVS symbols become expanding wilds with random multipliers, and winning combinations that include them trigger animated multiplier duels that can boost the win up to 500x; the higher multiplier wins the duel. Bonus buys, including a Flame mode, are available where permitted. BGaming rates the game medium-high volatility with a 5,000x maximum and a 97% RTP. Free spins arrive about once every 243 spins.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/JohnnyVsChicken/FUN?server=demo",
+  "image": "/slots/bgaming/johnny-vs-chicken.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/johnny-vs-chicken"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

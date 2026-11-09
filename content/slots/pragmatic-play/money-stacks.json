@@ -1,0 +1,57 @@
+{
+  "slug": "money-stacks",
+  "name": "Money Stacks",
+  "provider": "pragmatic-play",
+  "rtp": 96.55,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2024-07-01",
+  "releaseDatePrecision": "month",
+  "reels": "6x4",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "jackpot",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Edge-reel collectors",
+      "description": "Collect symbols on reel 1 or 6 gather all cash."
+    },
+    {
+      "name": "Jackpot icons",
+      "description": "Minor, Major and Grand worth up to 2,500x."
+    },
+    {
+      "name": "Golden sevens",
+      "description": "Lead to one of two bonus rounds."
+    }
+  ],
+  "review": "Money Stacks is a 6x4 retro slot with cherries, watermelons and red sevens; the purple wild appears on reels 2 to 6. Diamond cash symbols carry up to 25x, and Minor, Major and Grand icons offer up to 2,500x.\n\nWhenever a strike collect symbol lands on reel one or six, all cash values are collected. Golden sevens lead to one of two bonus rounds, including a classic free spins feature where up to six scatters trigger 30 spins with multipliers. Pragmatic Play advertises up to 5,000x. The RTP is 96.55%.",
+  "pros": [
+    "Above-average 96.55% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20bblitz&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/money-stacks.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/money-stacks/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "lucky-lager-x9990",
+  "name": "Lucky Lager x9990",
+  "provider": "bgaming",
+  "rtp": 96.1,
+  "volatility": "very-high",
+  "maxWin": 10490,
+  "releaseDate": "2025-09-18",
+  "releaseDatePrecision": "day",
+  "winType": "10 paylines",
+  "hitRate": 11.55,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "food"
+  ],
+  "features": [
+    {
+      "name": "10 lines",
+      "description": "A festival-themed layout."
+    },
+    {
+      "name": "Multiplier machine bonus",
+      "description": "A three-reel pop-up reveals a multiplier up to 999x."
+    },
+    {
+      "name": "Extra multipliers",
+      "description": "More bonus symbols can boost the result."
+    }
+  ],
+  "review": "Lucky Lager x9990 is an Oktoberfest slot with pretzels, sausages, pints and kegs on a 10-line layout. A beer garden girl serves as the scatter.\n\nWhen the bonus starts, a three-reel pop-up spins numbers to form a random multiplier up to 999x, applied to your bet. Like Wild Cash x9990 and Train to Rio Grande, the number of bonus symbols that triggered it can add extra multipliers. BGaming rates it very high volatility with a 10,490x maximum and a 96.1% RTP. Most of the potential lies in rare, high-scatter triggers.",
+  "pros": [
+    "High 10,490x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/LuckyLagerX9990/FUN?server=demo",
+  "image": "/slots/bgaming/lucky-lager-x9990.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/lucky-lager-x9990"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

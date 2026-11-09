@@ -1,0 +1,55 @@
+{
+  "slug": "hot-rocket-5x-3x-2x",
+  "name": "HOT ROCKET 5x 3x 2x",
+  "provider": "bgaming",
+  "rtp": 96.1,
+  "volatility": "medium-low",
+  "maxWin": 2500,
+  "releaseDate": "2026-05-19",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "winType": "9 paylines",
+  "hitRate": 3.12,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "jackpot"
+  ],
+  "themes": [
+    "classic",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Rocket overlays",
+      "description": "Rockets overlay symbols and may trigger Jackpot Spins."
+    },
+    {
+      "name": "Random multipliers",
+      "description": "2x, 3x and 5x multipliers land on set reels."
+    },
+    {
+      "name": "Five jackpots",
+      "description": "Available through Jackpot Spins."
+    }
+  ],
+  "review": "HOT ROCKET 5x 3x 2x is a retro stepper-style slot with nine paylines from BGaming's Rocket Eruption franchise. It's set in a jungle beneath an active volcano.\n\nRockets can appear on any reel and overlay symbols; collecting a rocket may trigger Jackpot Spins, and the symbols underneath stay active. Random 2x, 3x and 5x multipliers land on different reels: 2x on any reel, 3x and 5x on specific ones. Five jackpots are available. BGaming rates it medium-low volatility with a 2,500x maximum and a 96.1% RTP. It's a nostalgic, land-based style game.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/HotRocket532/FUN?server=demo",
+  "image": "/slots/bgaming/hot-rocket-5x-3x-2x.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/hot-rocket-5x-3x-2x"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

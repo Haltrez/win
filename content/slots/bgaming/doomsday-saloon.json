@@ -1,0 +1,60 @@
+{
+  "slug": "doomsday-saloon",
+  "name": "Doomsday Saloon",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": "2025-04-29",
+  "releaseDatePrecision": "day",
+  "winType": "Cluster Pays",
+  "hitRate": 3.0,
+  "bonusRate": 321.0,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "sticky-wilds",
+    "reel-modifiers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "western",
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Cluster refills",
+      "description": "Five-symbol clusters pay, vanish and refill."
+    },
+    {
+      "name": "Random modifiers",
+      "description": "Sticky wilds, Boosters and Destroyers can appear at any time."
+    },
+    {
+      "name": "Wild Spin",
+      "description": "At least one wild is dug up before every spin."
+    }
+  ],
+  "review": "Doomsday Saloon is a post-apocalyptic cluster slot. Five or more matching symbols touching vertically or horizontally form a cluster that pays and disappears, and the empty cells refill.\n\nSticky wilds, Boosters and Destroyers can activate at any moment, and three or more scatters unlock free spins. The Wild Spin feature makes sure at least one wild is dug up before each spin, at a higher stake. BGaming rates it very high volatility with a 10,000x maximum and a 97% RTP. Free spins arrive about once every 321 spins. It shares DNA with Aztec Clusters, with a western wasteland setting.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus is rare (about 1 in 321 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/DoomsdaySaloon/FUN?server=demo",
+  "image": "/slots/bgaming/doomsday-saloon.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/doomsday-saloon"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

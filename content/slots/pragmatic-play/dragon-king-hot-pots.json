@@ -1,0 +1,55 @@
+{
+  "slug": "dragon-king-hot-pots",
+  "name": "Dragon King Hot Pots",
+  "provider": "pragmatic-play",
+  "rtp": 96.54,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-11-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "jackpot",
+    "free-spins"
+  ],
+  "themes": [
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Four cash pots",
+      "description": "Pots worth 5x, 20x, 250x and 2,500x."
+    },
+    {
+      "name": "Smoke anticipation",
+      "description": "Scatters make the dragon stir a pot."
+    },
+    {
+      "name": "Dragon Mini Slots",
+      "description": "Matching 8s award instant prizes."
+    }
+  ],
+  "review": "Dragon King Hot Pots is a 5x3 Asian slot with fiery symbols and lucky 8s. A dragon watches over four pots above the reels worth 5x, 20x, 250x and 2,500x.\n\nIn the base game, any scatter makes the dragon blow smoke, causing one of the pots to shake in anticipation. Three or more scatters, or one or two with a random chance, activate the Dragon Mini Slots feature, where matching sets of 8s award instant cash prizes until the feature ends. The RTP is 96.54%. Pragmatic Play doesn't publish an overall max win for this title.",
+  "pros": [
+    "Above-average 96.54% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10dkinghp&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/dragon-king-hot-pots.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/dragon-king-hot-pots/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

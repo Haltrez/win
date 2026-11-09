@@ -1,0 +1,54 @@
+{
+  "slug": "alien-invaders",
+  "name": "Alien Invaders",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2025-06-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "space",
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Bottom-row wins",
+      "description": "Three matching symbols on the bottom row activate their reels."
+    },
+    {
+      "name": "Exploding scatters",
+      "description": "Scatters destroy surrounding symbols when they reach the bottom."
+    },
+    {
+      "name": "Growing multiplier",
+      "description": "+1x for every 10 symbols exploded in a spin."
+    }
+  ],
+  "review": "Alien Invaders uses an unusual bottom-row mechanic. Each of the five reels shows three to five symbols per spin, and when at least three matching symbols land on the bottom row, those reels become active and every matching symbol on them explodes as a win.\n\nScatters that reach the bottom row explode along with the symbols around them. Wilds on reel three pay when they reach the bottom and can carry multipliers up to 25x. Every base-game spin starts with a 1x multiplier that increases by 1x for every 10 symbols exploded, and wild multipliers add to it. The in-game screens advertise up to 5,000x. The RTP is 96.5%. One of Pragmatic Play's more original recent designs.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20alieninv&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/alien-invaders.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/alien-invaders/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

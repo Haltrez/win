@@ -1,0 +1,55 @@
+{
+  "slug": "princess-royal",
+  "name": "Princess Royal",
+  "provider": "bgaming",
+  "rtp": 97.1,
+  "volatility": "high",
+  "maxWin": 9000,
+  "releaseDate": "2016-04-02",
+  "releaseDatePrecision": "day",
+  "winType": "9 paylines",
+  "hitRate": 4.06,
+  "bonusRate": 156.0,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "2x princess wild",
+      "description": "The princess doubles wins she completes."
+    },
+    {
+      "name": "3x free spins",
+      "description": "15 free spins with all wins tripled."
+    },
+    {
+      "name": "Retriggers",
+      "description": "More scatters extend the bonus."
+    }
+  ],
+  "review": "Princess Royal is a nine-line 2016 BGaming slot where the princess is a wild that substitutes for other symbols and doubles any win she completes.\n\nThree or more scatters award 15 free spins with the retrigger feature, and all free spins wins are tripled. A wild win in the bonus is therefore worth 6x. BGaming rates it high volatility with a 9,000x maximum and an excellent 97.1% RTP. Free spins arrive roughly once every 156 spins. It's the forerunner of the Lady Wolf Moon and Fortune Bells style of game.",
+  "pros": [
+    "Excellent 97.10% RTP – among the highest published",
+    "Straightforward feature set"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": null,
+  "image": "/slots/bgaming/princess-royal.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/princess-royal"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

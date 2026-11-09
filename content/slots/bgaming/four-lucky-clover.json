@@ -1,0 +1,54 @@
+{
+  "slug": "four-lucky-clover",
+  "name": "Four Lucky Clover",
+  "provider": "bgaming",
+  "rtp": 94.03,
+  "volatility": "low",
+  "maxWin": 2500,
+  "releaseDate": "2020-03-19",
+  "releaseDatePrecision": "day",
+  "winType": "10 paylines",
+  "hitRate": 6.2,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "irish",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "10 paylines",
+      "description": "A simple Irish-themed layout."
+    },
+    {
+      "name": "Stacked wild on reel 3",
+      "description": "Covers the middle reel to complete wins."
+    },
+    {
+      "name": "Lucky Spins",
+      "description": "A bonus feature with extra wild chances."
+    }
+  ],
+  "review": "Four Lucky Clover is an Irish-folklore twist on BGaming's Four Lucky Diamonds, with 10 lines and lucky clovers. Its features are Lucky Spins and a stacked wild that can appear on the third reel to substitute for other symbols.\n\nBGaming rates it low volatility with a 2,500x maximum. The RTP is 94.03%, which is low, so it costs more over time than most alternatives here. Still, the low volatility means steady, gentle sessions, which suits casual demo play. It's best for players who want an uncomplicated Irish-themed game.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.03% RTP",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/FourLuckyClover/FUN?server=demo",
+  "image": "/slots/bgaming/four-lucky-clover.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/four-lucky-clover"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

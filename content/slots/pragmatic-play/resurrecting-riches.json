@@ -1,0 +1,53 @@
+{
+  "slug": "resurrecting-riches",
+  "name": "Resurrecting Riches",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 4000,
+  "releaseDate": "2025-03-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "money-collect",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Reel-six phoenix collector",
+      "description": "Collects money symbols on reels 1–5."
+    },
+    {
+      "name": "Saving respin",
+      "description": "Five money symbols without a phoenix trigger a respin."
+    },
+    {
+      "name": "Shadow free spins",
+      "description": "Money symbols leave shadows that the phoenix revives."
+    }
+  ],
+  "review": "Resurrecting Riches is a phoenix slot where money symbols worth up to 500x land on reels 1 to 5 and are collected when the phoenix appears on reel six. If five or more money symbols land without a phoenix, a respin holds them in place for another chance.\n\nMystery symbols transform into matching paying or money symbols. Some money symbols carry a Bonus value; collecting one starts 8, 10 or 12 free spins, during which money symbols leave shadows on their positions. At least one phoenix is certain to land during the feature, bringing the shadows back to life as prizes. The in-game screens advertise up to 4,000x. The RTP is 96.5%.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysresurich&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/resurrecting-riches.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/resurrecting-riches/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

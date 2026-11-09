@@ -1,0 +1,56 @@
+{
+  "slug": "lucky-ladys-clover",
+  "name": "Lucky Lady’s Clover",
+  "provider": "bgaming",
+  "rtp": 97.31,
+  "volatility": "low",
+  "maxWin": 10000,
+  "releaseDate": "2016-04-02",
+  "releaseDatePrecision": "day",
+  "winType": "9 paylines",
+  "hitRate": 3.88,
+  "bonusRate": 319.0,
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "gamble"
+  ],
+  "themes": [
+    "irish",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Nine lines",
+      "description": "Traditional letters plus Irish luck symbols."
+    },
+    {
+      "name": "Gamble round",
+      "description": "Optional after any base-game win."
+    },
+    {
+      "name": "97.31% RTP",
+      "description": "Strong value with low volatility."
+    }
+  ],
+  "review": "Lucky Lady's Clover is a 2016 BGaming classic with nine lines, traditional card letters and Irish folklore symbols: rainbows, pots of gold, horseshoes and the Lucky Lady herself.\n\nAn optional gamble round follows any base-game win. Its maths is surprisingly strong for its age: BGaming lists a 97.31% RTP, low volatility and a 10,000x maximum. Free spins arrive about once every 319 spins on average. The calm audio design is deliberately unobtrusive. It's an old-school game with excellent long-term value.",
+  "pros": [
+    "Excellent 97.31% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Lower volatility suits longer, steadier sessions"
+  ],
+  "cons": [
+    "Bonus is rare (about 1 in 319 spins on average)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/LuckyLadyClover/FUN?server=demo",
+  "image": "/slots/bgaming/lucky-ladys-clover.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/lucky-lady-clover"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "bling-blitz-diamond-drop",
+  "name": "Bling Blitz Diamond Drop",
+  "provider": "bgaming",
+  "rtp": 96.0,
+  "volatility": "medium-low",
+  "maxWin": 3000,
+  "releaseDate": "2026-04-23",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "winType": "1 paylines",
+  "hitRate": 2.57,
+  "bonusRate": 36.0,
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "hold-and-win",
+    "multipliers"
+  ],
+  "themes": [
+    "gems",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Diamond chests",
+      "description": "Three diamond-triggered bonus games that can combine."
+    },
+    {
+      "name": "Collectors",
+      "description": "Collect symbols gather the coin values on screen."
+    },
+    {
+      "name": "Frequent bonuses",
+      "description": "Features arrive about once every 36 spins."
+    }
+  ],
+  "review": "Bling Blitz Diamond Drop is a gem-and-coin slot published by BGaming using EZreel pay-on-line mechanics. Three diamond chests hover above the reels, and coins, collectors and multipliers fill the screen below.\n\nThree diamond-triggered bonus games are available, and they can combine into one when more than one is activated together. Powerful Collectors gather coin values in view. BGaming rates the game medium-low volatility with a 3,000x maximum and a 96% RTP. The bonus is very frequent, roughly once every 36 spins on average, so expect plenty of feature action. It follows on from the popular Jewel Boom Super Drop.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Bonus lands relatively often (about 1 in 36 spins on average)",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BlingBlitzDiamondDrop/FUN?server=demo",
+  "image": "/slots/bgaming/bling-blitz-diamond-drop.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/bling-blitz-diamond-drop"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

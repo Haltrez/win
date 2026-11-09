@@ -1,0 +1,53 @@
+{
+  "slug": "dwarf-and-dragon",
+  "name": "Dwarf & Dragon",
+  "provider": "pragmatic-play",
+  "rtp": 95.54,
+  "volatility": "high",
+  "maxWin": null,
+  "releaseDate": "2024-05-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Splitting symbols",
+      "description": "Split in half and double their value."
+    },
+    {
+      "name": "Multiplier egg wilds",
+      "description": "2x–10x wilds that pay twice when split."
+    },
+    {
+      "name": "Up to 25 free spins",
+      "description": "Three to five bonus symbols."
+    }
+  ],
+  "review": "Dwarf & Dragon is a 5x4 fantasy slot with lamps, dynamite, hammers and maps. Splitting symbols divide in half and double their value, creating bigger wins.\n\nGolden dragon-egg wilds substitute for other symbols and can carry 2x, 3x, 5x or 10x multipliers, which pay twice if the wild splits. Three, four or five bonus symbols award 10, 15 or 25 free spins, which can be retriggered. Pragmatic Play describes it as a high volatility slot. Its page and in-game screens give different maximums, so we haven't listed one. Note the RTP is 95.54%.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.54% RTP",
+    "High volatility makes sessions swingy",
+    "No confirmed official max win figure"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysspltsym&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/dwarf-and-dragon.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/dwarf-dragon/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

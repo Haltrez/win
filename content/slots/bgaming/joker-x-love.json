@@ -1,0 +1,55 @@
+{
+  "slug": "joker-x-love",
+  "name": "Joker X Love",
+  "provider": "bgaming",
+  "rtp": 96.23,
+  "volatility": "very-high",
+  "maxWin": 1059,
+  "releaseDate": "2026-01-29",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "winType": "5 paylines",
+  "hitRate": 12.28,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "classic",
+    "fruit"
+  ],
+  "features": [
+    {
+      "name": "3x3, five lines",
+      "description": "Simple fruit-machine layout."
+    },
+    {
+      "name": "Multiplier machine",
+      "description": "A three-reel machine reveals a 5x–999x multiplier."
+    },
+    {
+      "name": "80x bonus buy",
+      "description": "Buy the bonus where permitted."
+    }
+  ],
+  "review": "Joker X Love is a romantic twist on the 3x3 fruit classic, with five paylines and a big-multiplier bonus. Three Joker X Love symbols on reels 1, 2 and 3 trigger it.\n\nIn the bonus, a three-reel machine spins to reveal a multiplier between 5x and 999x, which is applied to your bet. You can also buy the bonus for 80x the bet where permitted. BGaming rates it very high volatility with a 1,059x maximum and a 96.23% RTP. It shares its maths with Wild Cash, so bought bonuses frequently return less than their cost.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Modest 1,059x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/JokerXLove/FUN?server=demo",
+  "image": "/slots/bgaming/joker-x-love.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/joker-x-love"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

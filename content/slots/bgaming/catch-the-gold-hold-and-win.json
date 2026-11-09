@@ -1,0 +1,58 @@
+{
+  "slug": "catch-the-gold-hold-and-win",
+  "name": "Catch the Gold Hold and Win",
+  "provider": "bgaming",
+  "rtp": 94.98,
+  "volatility": "medium-high",
+  "maxWin": 2000,
+  "releaseDate": "2024-08-13",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "winType": "25 paylines",
+  "hitRate": 2.22,
+  "bonusRate": 209.0,
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "expanding-symbols",
+    "hold-and-win",
+    "jackpot"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Big Catch",
+      "description": "Reels 2–4 fill with the same symbol for five spins."
+    },
+    {
+      "name": "VIP Only",
+      "description": "Eight free spins with only mid and high symbols."
+    },
+    {
+      "name": "Hold and Win jackpots",
+      "description": "A respin feature with three jackpots."
+    }
+  ],
+  "review": "Catch the Gold Hold and Win is a luxury cruise slot with 25 lines, a ship captain wild and scatter tickets. Three or more scatters open two free spins events.\n\nBig Catch fills reels 2 to 4 with the same symbol for five spins, while the VIP Only party serves only mid- and high-paying symbols for eight spins. There's also a Hold and Win feature with three jackpots, triggered by filling a 3x3 grid. BGaming rates the game medium-high volatility with a 2,000x maximum. The RTP is 94.98%, on the low side. Free spins arrive about once every 209 spins. The two free spins styles keep bonuses varied.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.98% RTP",
+    "Modest 2,000x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/CatchTheGoldHoldAndWin/FUN?server=demo",
+  "image": "/slots/bgaming/catch-the-gold-hold-and-win.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/catch-the-gold-hold-and-win"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

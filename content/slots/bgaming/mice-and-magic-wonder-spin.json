@@ -1,0 +1,56 @@
+{
+  "slug": "mice-and-magic-wonder-spin",
+  "name": "Mice & Magic Wonder Spin",
+  "provider": "bgaming",
+  "rtp": 94.96,
+  "volatility": "medium-high",
+  "maxWin": 2820,
+  "releaseDate": "2023-09-21",
+  "releaseDatePrecision": "day",
+  "winType": "20 paylines",
+  "hitRate": 7.8,
+  "bonusRate": 166.0,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "animals",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Every-10th-spin wilds",
+      "description": "Wild Frames turn into wilds on every 10th spin."
+    },
+    {
+      "name": "Cat wild",
+      "description": "Graf Cat Marquis III substitutes for symbols."
+    },
+    {
+      "name": "Bonus buy",
+      "description": "Buy the bonus where permitted."
+    }
+  ],
+  "review": "Mice & Magic Wonder Spin is a fairy-tale slot where brave mice defend their cheese from the sneaky Graf Cat Marquis III, who serves as the wild. It plays on 20 lines.\n\nIts signature is the Wild Frames feature: every 10th spin, framed positions turn into wilds, creating a flurry of them. That gives the base game a predictable highlight to look forward to. A bonus buy is available where permitted. BGaming rates it medium-high volatility with a 2,820x maximum. The RTP is 94.96%, below average. Free spins arrive about once every 166 spins.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.96% RTP",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/MiceAndMagic/FUN?server=demo",
+  "image": "/slots/bgaming/mice-and-magic-wonder-spin.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/mice-magic-wonder-spin"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

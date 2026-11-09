@@ -1,0 +1,55 @@
+{
+  "slug": "cash-surge",
+  "name": "Cash Surge",
+  "provider": "pragmatic-play",
+  "rtp": 96.52,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2025-03-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "jackpot",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Progressive reel prizes",
+      "description": "Prizes above each reel grow with lightning symbols."
+    },
+    {
+      "name": "Growing base multiplier",
+      "description": "+0.5x every time four scatters land, carried into the bonus."
+    },
+    {
+      "name": "Scatter reveals",
+      "description": "Scatters add spins or multiplier before free spins."
+    }
+  ],
+  "review": "Cash Surge has progressive prizes above each of its five reels, with the 5,000x maximum sitting above reel three. Lightning symbols on reels 1–2 or 4–5 add 0.5x the bet to the prize above that reel and can randomly trigger the Bonus Wheel Money Award, which pays one of the prizes.\n\nA base-game multiplier starts at 1x and grows by 0.5x every time four scatters land; it carries into free spins, which are triggered by five scatters. Before the bonus, scatters reveal +1 free spin or +1x multiplier. Pragmatic Play gives the game's maximum win as 5,000x, and the RTP is 96.52%.",
+  "pros": [
+    "Above-average 96.52% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswayscashsurg&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/cash-surge.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/cash-surge/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

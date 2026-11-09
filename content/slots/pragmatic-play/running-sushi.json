@@ -1,0 +1,54 @@
+{
+  "slug": "running-sushi",
+  "name": "Running Sushi",
+  "provider": "pragmatic-play",
+  "rtp": 96.0,
+  "volatility": null,
+  "maxWin": 3000,
+  "releaseDate": "2024-07-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "food",
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Conveyor belt",
+      "description": "Sushi plates with multipliers appear after each spin."
+    },
+    {
+      "name": "Take Sushi",
+      "description": "Three Take Sushi symbols collect the belt's value."
+    },
+    {
+      "name": "Accumulating free spins",
+      "description": "Conveyor multipliers build up across the bonus."
+    }
+  ],
+  "review": "Running Sushi is a 5x4 sushi-bar slot. After every spin, a random number of sushi plates with multipliers appear on a conveyor belt below the reels, and three Take Sushi symbols add up the conveyor's values and multiply the total by the bet.\n\nSushi chef scatters trigger 10 free spins, where conveyor multipliers accumulate instead of resetting between spins. The in-game screens advertise up to 3,000x. Note the RTP is 96%. A fun, light theme with a clear mechanic.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswayscashconv&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/running-sushi.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/running-sushi/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

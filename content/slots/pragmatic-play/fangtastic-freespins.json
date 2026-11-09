@@ -1,0 +1,55 @@
+{
+  "slug": "fangtastic-freespins",
+  "name": "Fangtastic Freespins",
+  "provider": "pragmatic-play",
+  "rtp": 96.51,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-09-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "horror",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Full-moon money symbols",
+      "description": "Carry cash values during free spins."
+    },
+    {
+      "name": "Werewolf collector",
+      "description": "Collects all money symbols on screen."
+    },
+    {
+      "name": "Blood bank",
+      "description": "Grows by 1x with every werewolf."
+    }
+  ],
+  "review": "Fangtastic Freespins is a werewolf collect slot with potions, claws and full-moon money symbols. Three, four or five scatters award 10, 15 or 20 free spins.\n\nDuring the bonus, the werewolf collects every full-moon money symbol on screen, with prizes up to 5,000x. A blood bank above the reels grows by 1x with every werewolf that lands, building a multiplier across the round. The RTP is 96.51%. Pragmatic Play doesn't publish an overall max win. It's essentially the Big Bass formula with a horror twist.",
+  "pros": [
+    "Above-average 96.51% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10fangfree&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/fangtastic-freespins.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/fangtastic-freespins/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

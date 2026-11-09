@@ -1,0 +1,58 @@
+{
+  "slug": "star-trek-the-next-generation",
+  "name": "Star Trek: The Next Generation",
+  "provider": "bgaming",
+  "rtp": 96.46,
+  "volatility": "medium-high",
+  "maxWin": 10000,
+  "releaseDate": "2025-11-13",
+  "releaseDatePrecision": "day",
+  "reels": "5x5",
+  "hitRate": 3.33,
+  "bonusRate": 197.0,
+  "mechanics": [
+    "cascades",
+    "respins",
+    "free-spins",
+    "bonus-buy",
+    "jackpot"
+  ],
+  "themes": [
+    "space",
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Respin Bonus simulation",
+      "description": "Fill the power meter to start respins."
+    },
+    {
+      "name": "Warp Speed Wheel",
+      "description": "A three-level prize wheel."
+    },
+    {
+      "name": "Four free spins missions",
+      "description": "Different bonus modes to choose from."
+    }
+  ],
+  "review": "Star Trek: The Next Generation is an officially licensed BGaming slot with cascading reels and the Enterprise crew, including Deanna Troi and Data. Filling the power meter triggers The Next Generation Respin Bonus simulation.\n\nA Warp Speed Wheel with three levels adds instant prizes, and there are four free spins 'missions' to choose from. The respin bonus can be bought, with three random symbols filling the meter and one to five respins awarded, as can free spins where permitted. BGaming rates it medium-high volatility with a 10,000x maximum and a 96.46% RTP. Free spins arrive about once every 197 spins.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/StarTrekNextGen/FUN?server=demo",
+  "image": "/slots/bgaming/star-trek-the-next-generation.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/star-trek-the-next-generation"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "raging-waterfall-megaways",
+  "name": "Raging Waterfall Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2025-02-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "respins",
+    "free-spins",
+    "reel-modifiers",
+    "multipliers"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Multi Chance",
+      "description": "Reel one expands and respins to complete near-miss wins."
+    },
+    {
+      "name": "Scatter modifiers",
+      "description": "Bonus scatters add spins, +1x, remove symbols or add wilds."
+    },
+    {
+      "name": "Megaways",
+      "description": "Changing reel heights for variable ways."
+    }
+  ],
+  "review": "Raging Waterfall Megaways is an underwater Megaways slot with a Multi Chance feature: if matching symbols land on reels 2 to 6 but not on reel one, the first reel expands and respins to try to complete the win.\n\nFour scatters award eight free spins, plus two for each extra scatter. Scatters landing in the bonus activate a modifier: +1 free spin, +1x to wins, removal of the lowest symbol, or more wilds. Multi Chance continues during the feature. Pragmatic Play advertises up to 10,000x. The RTP is 96.5%. The Multi Chance respin softens the frustration of near misses.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysmltchmgw&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/raging-waterfall-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/raging-waterfall-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

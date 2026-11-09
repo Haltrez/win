@@ -1,0 +1,56 @@
+{
+  "slug": "platinum-lightning-deluxe",
+  "name": "Platinum Lightning Deluxe",
+  "provider": "bgaming",
+  "rtp": 96.29,
+  "volatility": "medium-high",
+  "maxWin": 8888,
+  "releaseDate": "2018-02-16",
+  "releaseDatePrecision": "day",
+  "winType": "25 paylines",
+  "hitRate": 2.12,
+  "bonusRate": 112.0,
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins",
+    "gamble"
+  ],
+  "themes": [
+    "mythology",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "7x, 77x, 777x wilds",
+      "description": "Three to five wilds multiply wins dramatically."
+    },
+    {
+      "name": "Sticky Reel bonus",
+      "description": "Reels 1 and 5 lock as wilds for 10 free spins."
+    },
+    {
+      "name": "Refreshed visuals",
+      "description": "Updated graphics over the 2016 original."
+    }
+  ],
+  "review": "Platinum Lightning Deluxe is the 2018 re-release of BGaming's Greek mythology slot, with upgraded visuals and effects on the same 5-reel, 25-line setup. The wild pays on its own and substitutes for other symbols, and three, four or five wilds multiply a win by 7x, 77x or 777x.\n\nTwo bonus symbols on the first and last reels trigger the Sticky Reel bonus with 10 free spins, in which reels 1 and 5 lock as wilds and only the middle reels spin. An optional gamble follows any base-game win. BGaming rates it medium-high volatility with an 8,888x maximum and a 96.29% RTP. Free spins land about once every 112 spins.",
+  "pros": [
+    "Bonus lands relatively often (about 1 in 112 spins on average)",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/PlatinumLightningDeluxe/FUN?server=demo",
+  "image": "/slots/bgaming/platinum-lightning-deluxe.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/platinum-lightning-deluxe"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

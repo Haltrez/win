@@ -1,0 +1,60 @@
+{
+  "slug": "khonsu-merge-up",
+  "name": "Khonsu Merge Up",
+  "provider": "bgaming",
+  "rtp": 97.01,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": "2026-11-02",
+  "releaseDatePrecision": "day",
+  "winType": "4096 paylines",
+  "hitRate": 3.76,
+  "bonusRate": 161.67,
+  "mechanics": [
+    "ways",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "egypt",
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Merge Up with 4,096 ways",
+      "description": "Symbols merge into higher levels on a ways grid."
+    },
+    {
+      "name": "Split and Wild powers",
+      "description": "The bonus progress bar gives symbols special powers."
+    },
+    {
+      "name": "Chance x5 / x10",
+      "description": "Raise the bonus odds five- or tenfold."
+    }
+  ],
+  "review": "Khonsu Merge Up is an Egyptian comic-book slot built on BGaming's Merge Up mechanic and 4,096 ways, featuring Khonsu, the moon god who protects night travellers.\n\nFree Spins and Super Free Spins let symbols gain Split or Wild powers through a progress bar. The buy menu is unusually broad where permitted: Chance x5 and Chance x10 make the bonus five or ten times more likely on later spins, and you can buy Free Spins, Super Free Spins with a stronger starting setup, or a random feature. BGaming rates it very high volatility with a 10,000x maximum and a 97.01% RTP. Free spins arrive about once every 162 spins.",
+  "pros": [
+    "Excellent 97.01% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/KhonsuMergeUp/FUN?server=demo",
+  "image": "/slots/bgaming/khonsu-merge-up.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/khonsu-merge-up"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

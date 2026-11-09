@@ -1,0 +1,56 @@
+{
+  "slug": "cats-soup",
+  "name": "Cat’s Soup",
+  "provider": "bgaming",
+  "rtp": 98.06,
+  "volatility": "medium",
+  "maxWin": 8000,
+  "releaseDate": "2025-07-22",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "winType": "5 paylines",
+  "hitRate": 2.1,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "animals",
+    "fantasy",
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Recipe every 10 spins",
+      "description": "The cat picks three ingredients to collect on the central reel."
+    },
+    {
+      "name": "Jar picks",
+      "description": "Open 3 of 6 jars; their multipliers multiply together."
+    },
+    {
+      "name": "98.06% RTP",
+      "description": "The highest published RTP in our database."
+    }
+  ],
+  "review": "Cat's Soup is a 3x3, five-line slot set in a wizard cat's magical soup shop. Every 10 spins the cat writes a new recipe of three ingredients, and collecting those ingredients on the central reel triggers the bonus.\n\nIn the bonus game there are six jars, and you open three of them. The multipliers inside are multiplied together and applied to your bet, and jars holding the cat's recipe ingredients have higher multipliers. A flask multiplier can grow to 512x, and the bonus can be bought where permitted. BGaming rates it medium volatility with an 8,000x maximum. The RTP is 98.06%, the highest in our database.",
+  "pros": [
+    "Excellent 98.06% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/CatsSoup/FUN?server=demo",
+  "image": "/slots/bgaming/cats-soup.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/cats-soup"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "ultras",
+  "name": "Ultras",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium-low",
+  "maxWin": 5000,
+  "releaseDate": "2026-05-07",
+  "releaseDatePrecision": "day",
+  "winType": "100 paylines",
+  "hitRate": 7.58,
+  "bonusRate": 118.6,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "hold-and-win",
+    "respins",
+    "ante-bet"
+  ],
+  "themes": [
+    "history"
+  ],
+  "features": [
+    {
+      "name": "100 lines",
+      "description": "A classic layout with football flavour."
+    },
+    {
+      "name": "Expanding wilds",
+      "description": "Wilds on reels 2–4 expand to fill the reel."
+    },
+    {
+      "name": "Star-tracked Hold and Win",
+      "description": "Collect bonus symbols to progress."
+    }
+  ],
+  "review": "Ultras is a 100-line football-fan slot with red and blue flares in the stands. Expanding wilds on reels 2, 3 and 4 substitute for everything except scatter and bonus symbols.\n\nThe Hold and Win bonus tracks progress with stars as you collect bonus symbols. Chance x2 slightly raises the bet to double the chance of the bonus. BGaming rates it medium-low volatility with a 5,000x maximum and a 97% RTP. The bonus arrives about once every 119 spins. It's built on the same base as Hot Chilli Bells 100.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Bonus lands relatively often (about 1 in 119 spins on average)"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/Ultras/FUN?server=demo",
+  "image": "/slots/bgaming/ultras.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/ultras"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

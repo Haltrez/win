@@ -1,0 +1,53 @@
+{
+  "slug": "tiny-toads",
+  "name": "Tiny Toads",
+  "provider": "pragmatic-play",
+  "rtp": 96.51,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-11-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "walking-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Toad meters",
+      "description": "Insects raise their matching toad's value."
+    },
+    {
+      "name": "Hit'n Roll wilds",
+      "description": "Wilds move up or down the reels."
+    },
+    {
+      "name": "Nine free spins",
+      "description": "Three scatters on reels 1, 3 and 5."
+    }
+  ],
+  "review": "Tiny Toads is a lakeside slot with crocodiles, swans, fish and lily-pad wilds. Purple, green and red insects land on the grid, each matched to a toad above the reels with a value from zero to six; every matching insect raises its toad's value and increases the chance of free spins.\n\nWilds trigger the Hit'n Roll feature, moving up or down the reels. Three scatters on reels one, three and five award nine free spins. The RTP is 96.51%, and no max win is listed on the page. The insect-feeding system makes the base game feel like it's progressing.",
+  "pros": [
+    "Above-average 96.51% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs50fatfrogs&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/tiny-toads.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/tiny-toads/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

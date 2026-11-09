@@ -1,0 +1,57 @@
+{
+  "slug": "loki-loot",
+  "name": "Loki Loot",
+  "provider": "bgaming",
+  "rtp": 97.2,
+  "volatility": "medium",
+  "maxWin": 5000,
+  "releaseDate": "2025-06-17",
+  "releaseDatePrecision": "day",
+  "winType": "20 paylines",
+  "hitRate": 2.41,
+  "bonusRate": 176.8,
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "multipliers",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Prize symbol collection",
+      "description": "Free spins collect prize symbol payouts."
+    },
+    {
+      "name": "Escalating retriggers",
+      "description": "Up to 30 extra spins with 2x, 3x and 10x boosts."
+    },
+    {
+      "name": "Chance x2 and buy",
+      "description": "Double the bonus odds or buy it where permitted."
+    }
+  ],
+  "review": "Loki Loot is a Norse 20-line slot about hunting for the trickster god's stash. Its free spins round collects prize symbol payouts and can be extended by up to 30 more spins.\n\nEvery 10 extra spins in the bonus boosts wins, first by 2x, then 3x and finally 10x, the same escalation used in Big Boat Big Catch. Chance x2 doubles the chance of free spins at a slightly higher bet, and the bonus can be bought where permitted. BGaming rates it medium volatility with a 5,000x maximum and a 97.2% RTP. Free spins arrive about once every 177 spins.",
+  "pros": [
+    "Excellent 97.20% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/LokiLoot/FUN?server=demo",
+  "image": "/slots/bgaming/loki-loot.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/loki-loot"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

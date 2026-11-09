@@ -1,0 +1,57 @@
+{
+  "slug": "divine-queen-power-of-sun",
+  "name": "Divine Queen: Power of Sun",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium-high",
+  "maxWin": 5000,
+  "releaseDate": "2026-10-01",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 3.96,
+  "bonusRate": 234.2,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "egypt",
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Cell multipliers",
+      "description": "Cells can build multipliers up to 128x."
+    },
+    {
+      "name": "Booster modes",
+      "description": "Alternative modes that change how the game plays."
+    },
+    {
+      "name": "Super Free Spins",
+      "description": "Bought bonus with a 2x starting multiplier in each cell."
+    }
+  ],
+  "review": "Divine Queen: Power of Sun moves the series to a futuristic Egyptian desert, with an animated queen who reacts to the game. It's a progressive pay-anywhere slot with cell multipliers up to 128x.\n\nBooster modes add more ways to play, and the bonus can be bought as classic free spins or Super Free Spins, which start with a 2x multiplier in every cell. A one-click option repeats your last purchase at the same price. BGaming rates it medium-high volatility with a 5,000x maximum and a 97% RTP. Free spins arrive roughly once every 234 spins. Aimed squarely at streamers and fans of building multipliers.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/DivineQueenPowerOfSun/FUN?server=demo",
+  "image": "/slots/bgaming/divine-queen-power-of-sun.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/divine-queen-power-of-sun"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

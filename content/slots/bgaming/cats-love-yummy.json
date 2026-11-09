@@ -1,0 +1,57 @@
+{
+  "slug": "cats-love-yummy",
+  "name": "Cats Love Yummy",
+  "provider": "bgaming",
+  "rtp": 96.07,
+  "volatility": "medium-high",
+  "maxWin": 1500,
+  "releaseDate": "2026-09-30",
+  "releaseDatePrecision": "day",
+  "hitRate": 3.4,
+  "bonusRate": 93.0,
+  "mechanics": [
+    "free-spins",
+    "jackpot",
+    "bonus-buy"
+  ],
+  "themes": [
+    "animals",
+    "food",
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Four jackpots",
+      "description": "Cats Jackpot prizes are available in play."
+    },
+    {
+      "name": "Fast 100 Spins",
+      "description": "Buy 100 automatic spins and stop any time."
+    },
+    {
+      "name": "Frequent free spins",
+      "description": "The bonus arrives about once every 93 spins."
+    }
+  ],
+  "review": "Cats Love Yummy is a cosy cat-café slot published by BGaming with a Malta-based studio, using mechanics familiar to Asian-market players. Four Cats Jackpot prizes are on offer.\n\nThere are two purchase features where permitted. Fast 100 Spins plays 100 consecutive rounds automatically, during which free spins, jackpots and the max win can all still trigger, and you can stop part-way, paying only for the spins already played. The free spins buy starts the bonus on the next spin. BGaming rates the game medium-high volatility with a 1,500x maximum and a 96.07% RTP. Free spins arrive roughly once every 93 spins.",
+  "pros": [
+    "Bonus lands relatively often (about 1 in 93 spins on average)",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 1,500x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/CatsLoveYummy/FUN?server=demo",
+  "image": "/slots/bgaming/cats-love-yummy.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/cats-love-yummy"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

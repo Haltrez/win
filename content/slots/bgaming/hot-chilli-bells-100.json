@@ -1,0 +1,58 @@
+{
+  "slug": "hot-chilli-bells-100",
+  "name": "Hot Chilli Bells 100",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium-low",
+  "maxWin": 5000,
+  "releaseDate": "2025-11-11",
+  "releaseDatePrecision": "day",
+  "winType": "100 paylines",
+  "hitRate": 7.58,
+  "bonusRate": 118.6,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "hold-and-win",
+    "respins",
+    "multipliers",
+    "ante-bet"
+  ],
+  "themes": [
+    "food",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "100 fixed lines",
+      "description": "A classic layout with expanding wilds."
+    },
+    {
+      "name": "Pay-anywhere scatters",
+      "description": "Scatters pay in any position."
+    },
+    {
+      "name": "Hold and Win",
+      "description": "Bonus symbols start respins with multipliers up to 15x."
+    }
+  ],
+  "review": "Hot Chilli Bells 100 brings back BGaming's chilli-bell classic on 100 fixed lines. Expanding wilds help complete wins, scatters pay anywhere, and bonus symbols unlock a Hold and Win round with multipliers up to 15x.\n\nChance x2 lets you change pace by increasing the bonus odds for a slightly higher stake. BGaming rates it medium-low volatility with a 5,000x maximum and a 97% RTP. The bonus arrives about once every 119 spins on average. It's a steady, good-value game with a familiar layout.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Bonus lands relatively often (about 1 in 119 spins on average)"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/HotChilliBells100/FUN?server=demo",
+  "image": "/slots/bgaming/hot-chilli-bells-100.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/hot-chilli-bells-100"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

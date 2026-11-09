@@ -1,0 +1,55 @@
+{
+  "slug": "jokers-jewels-hot",
+  "name": "Joker’s Jewels Hot",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-09-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "jackpot"
+  ],
+  "themes": [
+    "classic",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Hot Wilds",
+      "description": "Merge with symbols across the grid."
+    },
+    {
+      "name": "Hot bonus",
+      "description": "Collecting Hot symbols leads to the bonus round."
+    },
+    {
+      "name": "Retro style",
+      "description": "Jokers, jewels and a funky soundtrack."
+    }
+  ],
+  "review": "Joker's Jewels Hot is a retro 5x3 joker slot with a funky soundtrack. Hot Wilds can pop up and merge with any symbol on the grid, boosting the chance of wins.\n\nA bonus round activates as Hot and Hot Wild symbols collect on the grid. Pragmatic Play's own description mentions both a 5,000x maximum and a larger jackpot figure, so we haven't listed a single max win. The joker is the highest-paying symbol. The RTP is 96.5%. A simple, nostalgic game with one key mechanic.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10jokerhot&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/jokers-jewels-hot.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/jokers-jewels-hot/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

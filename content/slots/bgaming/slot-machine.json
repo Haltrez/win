@@ -1,0 +1,59 @@
+{
+  "slug": "slot-machine",
+  "name": "Slot Machine",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "very-high",
+  "maxWin": 2124,
+  "releaseDate": "2023-12-07",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "winType": "5 paylines",
+  "hitRate": 12.0,
+  "bonusRate": 95.0,
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "3x3 classic",
+      "description": "Five lines and a lever."
+    },
+    {
+      "name": "Sticky coin respins",
+      "description": "Three coins start three respins that reset."
+    },
+    {
+      "name": "Coin-count multiplier",
+      "description": "More coins mean a bigger multiplier."
+    }
+  ],
+  "review": "Slot Machine is a nostalgic 3x3, five-line game with a lever, blue layout and classic casino symbols. Three or more coin bonus symbols turn sticky and start a respin bonus.\n\nThe bonus gives three respins that reset with every new coin. The more coins you collect, the higher the multiplier you win. The bonus can be bought where permitted. BGaming rates it very high volatility with a 2,124x maximum and a 97% RTP. The bonus arrives roughly once every 95 spins. It shares its design with Panda Luck, without the theme.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Bonus lands relatively often (about 1 in 95 spins on average)",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Modest 2,124x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/SlotMachine/FUN?server=demo",
+  "image": "/slots/bgaming/slot-machine.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/slot-machine-2"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

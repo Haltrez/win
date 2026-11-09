@@ -1,0 +1,54 @@
+{
+  "slug": "eternal-empress-freeze-time",
+  "name": "Eternal Empress – Freeze Time",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 4888,
+  "releaseDate": "2024-10-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "respins"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Edge-reel collectors",
+      "description": "Diamonds on reels 1 and 5 collect cash on reels 2–4."
+    },
+    {
+      "name": "Freeze Time",
+      "description": "Watch and padlock lock cash values and freeze the spin counter."
+    },
+    {
+      "name": "10 free spins",
+      "description": "More cash and collect symbols in the bonus."
+    }
+  ],
+  "review": "Eternal Empress – Freeze Time is a 5x3 slot with mystical rings, stopwatches and orbs. Diamonds landing on reel one or five collect the values of all cash icons on reels two to four.\n\nThree scatters award 10 free spins with more cash and collect icons. Landing the watch and padlock symbols together locks every cash value in place and freezes the free spins counter, giving you respins on a frozen board. The in-game screens advertise up to 4,888x. The RTP is 96.5%. The freeze mechanic is a neat way to add tension to a collect game.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysfreezet&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/eternal-empress-freeze-time.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/eternal-empress-freeze-time/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

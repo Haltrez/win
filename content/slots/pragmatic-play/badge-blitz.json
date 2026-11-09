@@ -1,0 +1,57 @@
+{
+  "slug": "badge-blitz",
+  "name": "Badge Blitz",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2024-08-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "free-spins"
+  ],
+  "themes": [
+    "western",
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Hold & Spin",
+      "description": "Six badges start three respins that reset."
+    },
+    {
+      "name": "Five-tier jackpot",
+      "description": "Mini, Minor, Major, Mega and Grand."
+    },
+    {
+      "name": "Free spins",
+      "description": "A second bonus round."
+    }
+  ],
+  "review": "Badge Blitz is a 5x3 western slot with two bonus games and a five-tier jackpot. Horse wilds help form wins, and six or more sheriff badges trigger Hold & Spin.\n\nIn the bonus, badges become money symbols and you get three respins. New badges or Mini, Minor, Major and Mega jackpot symbols reset the count, and filling every position awards the Grand jackpot. A separate free spins bonus is also available. Pragmatic Play advertises up to 5,000x. The RTP is 96.5%.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs25badge&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/badge-blitz.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/badge-blitz/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

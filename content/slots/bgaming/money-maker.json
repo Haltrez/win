@@ -1,0 +1,54 @@
+{
+  "slug": "money-maker",
+  "name": "Money Maker",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "low",
+  "maxWin": 1000,
+  "releaseDate": "2026-06-10",
+  "releaseDatePrecision": "day",
+  "winType": "1 paylines",
+  "hitRate": 5.65,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "gamble"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Banknote reels",
+      "description": "Complete a banknote across three reels to win."
+    },
+    {
+      "name": "Note multipliers",
+      "description": "Each note pays its own multiplier, up to 1,000x."
+    },
+    {
+      "name": "Heads-or-tails gamble",
+      "description": "Double a win and keep the streak going."
+    }
+  ],
+  "review": "Money Maker is a three-reel, single-line slot themed around banknotes. Each reel shows part of a bill, and completing a banknote across the three reels pays its multiplier. Each note has its own colour, character and value, with the top note paying 1,000x.\n\nAfter any win you can play a heads-or-tails gamble to double it and keep a streak going. BGaming rates it low volatility with a 1,000x maximum and a 97% RTP. It's about as simple as slots get: fast, bright and easy to pick up, ideal for a few quick demo spins.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 1,000x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/MoneyMaker/FUN?server=demo",
+  "image": "/slots/bgaming/money-maker.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/money-maker"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

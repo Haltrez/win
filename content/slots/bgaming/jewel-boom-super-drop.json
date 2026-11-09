@@ -1,0 +1,55 @@
+{
+  "slug": "jewel-boom-super-drop",
+  "name": "Jewel Boom Super Drop",
+  "provider": "bgaming",
+  "rtp": 96.5,
+  "volatility": "medium-low",
+  "maxWin": 3000,
+  "releaseDate": "2026-01-12",
+  "releaseDatePrecision": "day",
+  "reels": "3x1",
+  "winType": "1 paylines",
+  "hitRate": 2.56,
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "jackpot"
+  ],
+  "themes": [
+    "gems",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "3x1 one-armed bandit",
+      "description": "A single-line, retro layout."
+    },
+    {
+      "name": "Collector Bonus",
+      "description": "Collect diamonds to unlock jackpots."
+    },
+    {
+      "name": "Five jackpots",
+      "description": "Available through the collector feature."
+    }
+  ],
+  "review": "Jewel Boom Super Drop is a simple 3x1, pay-on-line game styled like a one-armed bandit, published by BGaming using its EZreel system. Gems and golden chests spin on a shiny golden grid.\n\nThe Collector Bonus is the main feature: collect diamonds to unlock jackpots, with five jackpots on offer. BGaming rates it medium-low volatility with a 3,000x maximum and a 96.5% RTP. It's very easy to understand and plays quickly, making it a good fit for short, casual demo sessions. Its success led to the follow-up Bling Blitz Diamond Drop.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Lower volatility suits longer, steadier sessions",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/JewelBoom/FUN?server=demo",
+  "image": "/slots/bgaming/jewel-boom-super-drop.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/jewel-boom-super-drop"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "oodles-of-noodles",
+  "name": "Oodles of Noodles",
+  "provider": "pragmatic-play",
+  "rtp": 96.58,
+  "volatility": null,
+  "maxWin": 5100,
+  "releaseDate": "2024-08-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "respins",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "food",
+    "asian",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Noodle conveyor",
+      "description": "Five bowls hold prizes or free spins values."
+    },
+    {
+      "name": "Panda collector",
+      "description": "Collects all five bowls at once."
+    },
+    {
+      "name": "Symbol-removing respins",
+      "description": "Wins remove the lowest symbol; seven in a row trigger free spins."
+    }
+  ],
+  "review": "Oodles of Noodles is a 5x3 Asian food slot with a conveyor belt of five noodle bowls under the reels, each holding a random prize or free spins value. When the panda lands, he collects all five bowls.\n\nEvery win removes the lowest-paying symbol and triggers a respin, and seven consecutive respins trigger free spins. Multipliers up to 10x appear in the bonus. Pragmatic Play states wins up to 5,100x. The RTP of 96.58% is among the best in this batch. The respin chain is a fun idea: each win makes the next more valuable.",
+  "pros": [
+    "Above-average 96.58% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10noodles&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/oodles-of-noodles.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/oodles-of-noodles/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

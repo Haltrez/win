@@ -1,0 +1,54 @@
+{
+  "slug": "red-and-hot-chilli",
+  "name": "Red and Hot Chilli",
+  "provider": "bgaming",
+  "rtp": 96.35,
+  "volatility": "medium-low",
+  "maxWin": 5000,
+  "releaseDate": "2026-10-07",
+  "releaseDatePrecision": "day",
+  "winType": "20 paylines",
+  "hitRate": 3.3,
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "gamble",
+    "bonus-buy"
+  ],
+  "themes": [
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Collect symbols",
+      "description": "Two collector types gather coin values."
+    },
+    {
+      "name": "Mystery box picks",
+      "description": "Pick boxes and avoid the bomb."
+    },
+    {
+      "name": "Bonus gamble",
+      "description": "Double the bonus win, or lose it all."
+    }
+  ],
+  "review": "Red and Hot Chilli is a Mexican-themed 20-line slot with instant-win coins and a Minesweeper-style bonus. Two types of collect symbols gather coin values.\n\nIn the bonus game you pick mystery boxes, building your win while trying to avoid the bomb. Afterwards, you can gamble the entire prize to double it, capped at 5,000x the bet, but losing forfeits the whole bonus win. Three buy options are available where permitted, including a start with four Lucky Coins. BGaming rates it medium-low volatility with a 5,000x maximum and a 96.35% RTP.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/RedAndHotChilli/FUN?server=demo",
+  "image": "/slots/bgaming/red-and-hot-chilli.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/red-and-hot-chilli"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

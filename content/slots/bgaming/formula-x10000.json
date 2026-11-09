@@ -1,0 +1,55 @@
+{
+  "slug": "formula-x10000",
+  "name": "Formula x10000",
+  "provider": "bgaming",
+  "rtp": 96.1,
+  "volatility": "very-high",
+  "maxWin": 10490,
+  "releaseDate": "2026-11-05",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "10 paylines",
+  "hitRate": 11.55,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Racing bonus",
+      "description": "Choose a racer and chase a multiplier in a crash-style round."
+    },
+    {
+      "name": "Scatter-scaled ceiling",
+      "description": "3, 4 or 5 scatters unlock up to 999x, 2,997x or 9,990x."
+    },
+    {
+      "name": "Bonus buy",
+      "description": "Buy the race where permitted."
+    }
+  ],
+  "review": "Formula x10000 puts a crash-style racing bonus behind a classic 5x3, 10-line slot with motorsport symbols. Scatters are the gateway: three or more trigger the bonus, where you choose a racer and chase a growing multiplier.\n\nThe number of scatters sets the bonus ceiling: three allow up to 999x, four up to 2,997x and five up to 9,990x. The bonus can also be bought where permitted. BGaming rates it very high volatility with a 10,490x maximum and a 96.1% RTP. It's the racing cousin of Always Up! x10000, and the interactive bonus makes it stand out from typical line slots.",
+  "pros": [
+    "High 10,490x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/FormulaX10000/FUN?server=demo",
+  "image": "/slots/bgaming/formula-x10000.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/formula-x10000"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

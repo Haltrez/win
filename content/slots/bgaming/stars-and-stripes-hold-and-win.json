@@ -1,0 +1,57 @@
+{
+  "slug": "stars-and-stripes-hold-and-win",
+  "name": "Stars & Stripes Hold and Win",
+  "provider": "bgaming",
+  "rtp": 96.7,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2026-06-30",
+  "releaseDatePrecision": "day",
+  "winType": "Trueways",
+  "hitRate": 4.33,
+  "bonusRate": 229.47,
+  "mechanics": [
+    "ways",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "free-spins"
+  ],
+  "themes": [
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Trueways",
+      "description": "Shifting ways to win."
+    },
+    {
+      "name": "Coin Respin",
+      "description": "Six coins start a coin-only respin round."
+    },
+    {
+      "name": "Progressive Mega jackpot",
+      "description": "Collected scatters unlock the top jackpot."
+    }
+  ],
+  "review": "Stars & Stripes Hold and Win celebrates the USA's 250th birthday on Trueways reels. Six or more coins trigger Coin Respin, where only coins can land and the triggering coins stay in place.\n\nA progressive system unlocks the Mega jackpot, so the scatters you collect over time matter. BGaming rates it very high volatility with a 5,000x maximum and a 96.7% RTP. Free spins arrive about once every 229 spins. It uses the same proven maths as the Wild West Trueways and Olympus Trueways games.",
+  "pros": [
+    "Above-average 96.70% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/StarsAndStripesHoldAndWin/FUN?server=demo",
+  "image": "/slots/bgaming/stars-and-stripes-hold-and-win.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/stars-stripes-hold-and-win"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

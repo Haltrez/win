@@ -1,0 +1,53 @@
+{
+  "slug": "gem-fire-fortune",
+  "name": "Gem Fire Fortune",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": "2025-06-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "cluster-pays",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Gem clusters",
+      "description": "Clusters of 5–13+ gems pay."
+    },
+    {
+      "name": "Random win multipliers",
+      "description": "Base-game wins can get 2x, 5x, 10x or 100x."
+    },
+    {
+      "name": "Multiplied free spins",
+      "description": "Every bonus win carries a 5x, 10x or 100x multiplier."
+    }
+  ],
+  "review": "Gem Fire Fortune is a cluster slot where groups of five to 13 or more matching gems pay up to 35x in the base game. Any winning combination can randomly receive a 2x, 5x, 10x or 100x multiplier.\n\nThree or more scatters award 10 free spins, and three more during the round add five spins. In the bonus, every winning combination is certain to carry a 5x, 10x or 100x multiplier, a big step up from the base game. The in-game screens advertise up to 15,000x. The RTP is 96.5%. Simple to follow, with a lot of upside in the bonus.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "High 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20gemfirefor&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/gem-fire-fortune.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/gem-fire-fortune/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "gift-rush",
+  "name": "Gift Rush",
+  "provider": "bgaming",
+  "rtp": 96.07,
+  "volatility": "medium",
+  "maxWin": 559,
+  "releaseDate": "2022-12-01",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "winType": "5 paylines",
+  "hitRate": 12.28,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "3x3 grid",
+      "description": "Five lines on a compact layout."
+    },
+    {
+      "name": "Pick a gift",
+      "description": "Choose one of five gifts for a multiplier up to 499x."
+    },
+    {
+      "name": "Bonus buy",
+      "description": "Buy the gift bonus where permitted."
+    }
+  ],
+  "review": "Gift Rush is a Christmas-themed 3x3, five-line slot with a pick-style bonus. Three bonus symbols on reels 1, 2 and 3 trigger the bonus game.\n\nFive gifts appear on screen and you choose one. The other four are opened first to show what you might have won, and then your gift reveals the actual multiplier, up to 499x the bet. The bonus can be bought where permitted. BGaming rates it medium volatility with a 559x maximum and a 96.07% RTP. It's a quick, simple game with a festive pick-a-present twist.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 559x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/GiftRush/FUN?server=demo",
+  "image": "/slots/bgaming/gift-rush.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/gift-rush"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

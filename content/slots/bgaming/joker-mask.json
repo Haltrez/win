@@ -1,0 +1,58 @@
+{
+  "slug": "joker-mask",
+  "name": "Joker Mask",
+  "provider": "bgaming",
+  "rtp": 96.12,
+  "volatility": "high",
+  "maxWin": 15000,
+  "releaseDate": "2026-11-09",
+  "releaseDatePrecision": "day",
+  "reels": "3x5",
+  "winType": "15 paylines",
+  "hitRate": 9.65,
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "hold-and-win",
+    "respins",
+    "multipliers"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Reel 2 collector",
+      "description": "Collects all coin values when coins land on reels 1 and 3."
+    },
+    {
+      "name": "Reactive masks",
+      "description": "Animated masks respond to wins and features."
+    },
+    {
+      "name": "Hold and Win",
+      "description": "A respin bonus with multipliers and progressive wins."
+    }
+  ],
+  "review": "Joker Mask is a 3x5 classic from BGaming and LudexPlay with realistic fruit symbols, coins and animated, emotional masks above the reels that react to play.\n\nCollect symbols appear only on reel 2. When a collector lands with coins on reels 1 and 3, all coin values are added together and paid, and the masks laugh. That combination also leads into a Hold and Win bonus with multipliers and progressive win opportunities. BGaming rates the game high volatility with a 15,000x maximum and a 96.12% RTP, a big ceiling for a classic fruit design.",
+  "pros": [
+    "High 15,000x win ceiling",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/JokerMask/FUN?server=demo",
+  "image": "/slots/bgaming/joker-mask.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/joker-mask"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

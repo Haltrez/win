@@ -1,0 +1,58 @@
+{
+  "slug": "backyard-grill",
+  "name": "Backyard Grill",
+  "provider": "bgaming",
+  "rtp": 97.17,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2025-06-19",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 3.19,
+  "bonusRate": 162.2,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Pay-anywhere refills",
+      "description": "Symbols pay anywhere and refill after wins."
+    },
+    {
+      "name": "2x–500x multipliers",
+      "description": "Random multipliers in the main game and free spins."
+    },
+    {
+      "name": "Chance x2",
+      "description": "Raises the stake by 25% for more scatters."
+    }
+  ],
+  "review": "Backyard Grill is a Fourth of July cookout on BGaming's pay-anywhere engine. Grill-themed symbols refill after wins and pay regardless of position, with fireworks lighting up the free spins.\n\nRandom multipliers from 2x to 500x can land in both the main game and free spins. Chance x2 raises the stake by 25% to make scatters more frequent, and the free spins can be started directly where permitted. BGaming rates it very high volatility with a 5,000x maximum, and the 97.17% RTP is excellent. Free spins land roughly once every 162 spins. Mechanically it's similar to Tramp Day and Gemhalla, with a summer-party theme.",
+  "pros": [
+    "Excellent 97.17% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BackyardGrill/FUN?server=demo",
+  "image": "/slots/bgaming/backyard-grill.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/backyard-grill"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

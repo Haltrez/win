@@ -1,0 +1,54 @@
+{
+  "slug": "wild-wildebeest-wins",
+  "name": "Wild Wildebeest Wins",
+  "provider": "pragmatic-play",
+  "rtp": 96.45,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2025-01-01",
+  "releaseDatePrecision": "month",
+  "reels": "6x4",
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "free-spins",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "4,096 ways",
+      "description": "A 6x4 grid with many ways to win."
+    },
+    {
+      "name": "Super Wildebeest",
+      "description": "Adds paying symbols to the grid."
+    },
+    {
+      "name": "Wildebeest meter",
+      "description": "Collected wildebeest are released together in free spins."
+    }
+  ],
+  "review": "Wild Wildebeest Wins is a 6x4, 4,096-ways savannah slot. Whenever the Super Wildebeest lands in the base game, it adds a random number of paying symbols to random positions.\n\nThree to six scatters award 8, 12, 16 or 20 free spins. In the bonus, wilds carry 2x, 3x or 5x multipliers that multiply each other, and up to 15 wildebeest symbols are collected into a meter. When the Super Wildebeest lands, all collected wildebeest are dropped onto random positions. Pragmatic Play's page and the game screens quote different maximum wins, so we haven't listed one. The RTP is 96.45%.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysbufstamp&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/wild-wildebeest-wins.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/wild-wildebeest-wins/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

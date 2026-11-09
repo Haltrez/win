@@ -1,0 +1,56 @@
+{
+  "slug": "mirax-circus-queen",
+  "name": "Mirax Circus Queen",
+  "provider": "bgaming",
+  "rtp": 96.0,
+  "volatility": "medium-high",
+  "maxWin": 1172,
+  "releaseDate": "2022-08-02",
+  "releaseDatePrecision": "day",
+  "winType": "40 paylines",
+  "hitRate": 3.64,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "respins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "40 lines with stacked wilds",
+      "description": "Stacked wilds can cover reels."
+    },
+    {
+      "name": "Respins round",
+      "description": "Bonus symbols trigger respins."
+    },
+    {
+      "name": "Two respin buys",
+      "description": "85x for three regular respins, or an enhanced option."
+    }
+  ],
+  "review": "Mirax Circus Queen is a 40-line circus slot with magician's hats, binoculars and masks. Wilds and stacked wilds help complete wins, and bonus symbols activate a respins round.\n\nChance x2 increases the bet to make bonus symbols more likely. The respin round can also be bought where permitted, with two options: 85x the bet for three regular respins, or a more expensive enhanced option. BGaming rates it medium-high volatility with a 1,172x maximum and a 96% RTP. It shares its structure with Joker Queen.",
+  "pros": [
+    "Published game data available from the provider",
+    "Straightforward feature set"
+  ],
+  "cons": [
+    "Modest 1,172x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": null,
+  "image": "/slots/bgaming/mirax-circus-queen.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/mirax-circus-queen"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

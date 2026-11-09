@@ -1,0 +1,57 @@
+{
+  "slug": "gold-party-2-after-hours",
+  "name": "Gold Party 2 – After Hours",
+  "provider": "pragmatic-play",
+  "rtp": 96.55,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2025-06-01",
+  "releaseDatePrecision": "month",
+  "reels": "3x5",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "hold-and-win",
+    "respins",
+    "money-collect"
+  ],
+  "themes": [
+    "irish"
+  ],
+  "features": [
+    {
+      "name": "Multiplying wilds",
+      "description": "Wild multipliers of 2x, 3x or 5x multiply together."
+    },
+    {
+      "name": "Four-grid Money Respin",
+      "description": "Eight respins across four grids."
+    },
+    {
+      "name": "Super pots",
+      "description": "Pot values up to 200x grow after every respin."
+    }
+  ],
+  "review": "Gold Party 2 – After Hours continues Pragmatic Play's Irish party series. Wilds land on reels 2 to 4 and can carry 2x, 3x or 5x multipliers, which multiply each other when several are in the same win.\n\nSix or more money symbols trigger the Money Respin feature with eight respins, played on four 3x5 grids where only money, super pot, bonus award, multiplier or extra spin symbols can land. Super pots carry values up to 200x that grow after each respin, multiplier symbols boost money values up to 25x, and extra spin symbols add respins. The RTP is 96.55%; the provider doesn't publish a max win on the page.",
+  "pros": [
+    "Above-average 96.55% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs25goldpartya&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/gold-party-2-after-hours.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/gold-party-2-after-hours/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

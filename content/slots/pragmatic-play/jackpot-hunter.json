@@ -1,0 +1,53 @@
+{
+  "slug": "jackpot-hunter",
+  "name": "Jackpot Hunter",
+  "provider": "pragmatic-play",
+  "rtp": 96.0,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2024-07-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "jackpot"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Trail game",
+      "description": "Spin a wheel to move along a 41-space map."
+    },
+    {
+      "name": "Two bonuses",
+      "description": "Trail game or free spins."
+    },
+    {
+      "name": "20 paylines",
+      "description": "A 5x4 jungle layout."
+    }
+  ],
+  "review": "Jackpot Hunter is a 5x4, 20-line jungle adventure with backpacks, maps and dinosaurs. Compass wilds help form wins, and two bonuses are available: three wheel symbols trigger a trail game, while three Aztec scatters trigger free spins.\n\nThe trail game uses a 41-space map. You get five spins of a wheel numbered one to eight to move along it, collecting prizes as you go. Pragmatic Play advertises up to 5,000x. Note the RTP is 96%. The board-game style trail is a nice break from standard free spins.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20jhunter&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/jackpot-hunter.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/jackpot-hunter/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

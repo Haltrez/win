@@ -1,0 +1,54 @@
+{
+  "slug": "jokers-jewels-cash",
+  "name": "Joker’s Jewels Cash",
+  "provider": "pragmatic-play",
+  "rtp": 96.51,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2025-03-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "jackpot"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "5x3 joker slot",
+      "description": "Base-game wins up to 1,000x."
+    },
+    {
+      "name": "Coin-pick jackpot",
+      "description": "Reveal coins until three matching jackpot symbols appear."
+    },
+    {
+      "name": "Six jackpots",
+      "description": "From Mini up to the Grand jackpot."
+    }
+  ],
+  "review": "Joker's Jewels Cash is a 5x3 joker slot with lutes, juggling pins and jesters paying up to 1,000x in the base game. Its bonus is a pick-to-match jackpot game.\n\nThree to five bonus symbols anywhere trigger it, and a prize is certain. Eighteen coins appear over the grid, and you click to reveal Mini, Minor, Major, Maxi, Mega or Grand jackpot symbols until three matching ones appear, awarding that jackpot of up to 5,000x. Pragmatic Play doesn't publish an overall max win on the page. The RTP is 96.51%. A simple slot with a satisfying jackpot reveal.",
+  "pros": [
+    "Above-average 96.51% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs5jokerjc&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/jokers-jewels-cash.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/jokers-jewels-cash/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

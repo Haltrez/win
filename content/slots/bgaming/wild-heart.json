@@ -1,0 +1,57 @@
+{
+  "slug": "wild-heart",
+  "name": "Wild Heart",
+  "provider": "bgaming",
+  "rtp": 96.92,
+  "volatility": "very-high",
+  "maxWin": 2820,
+  "releaseDate": "2024-01-25",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "winType": "20 paylines",
+  "hitRate": 7.8,
+  "bonusRate": 166.13,
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "10-spin wild cycle",
+      "description": "Wilds mark cells and reappear there."
+    },
+    {
+      "name": "Sticky starts",
+      "description": "Free spins begin with 0, 4 or 9 sticky wilds."
+    },
+    {
+      "name": "5x4 grid",
+      "description": "Twenty lines across four rows."
+    }
+  ],
+  "review": "Wild Heart follows a sneaky raccoon through Mexico on a 5x4, 20-line grid. A 10-spin cycle runs in the base game: wilds mark the cells they land on and reappear on those cells later in the cycle.\n\nThree or more scatters, or the bonus buy where permitted, activate 10 free spins starting with 0, 4 or 9 sticky wilds. BGaming rates it very high volatility with a 2,820x maximum and a 96.92% RTP. Free spins arrive about once every 166 spins. It uses the same cycle idea as Mice & Magic Wonder Spin, with better RTP.",
+  "pros": [
+    "Above-average 96.92% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/WildHeart/FUN?server=demo",
+  "image": "/slots/bgaming/wild-heart.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/wild-heart"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

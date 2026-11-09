@@ -1,0 +1,54 @@
+{
+  "slug": "mystery-mice",
+  "name": "Mystery Mice",
+  "provider": "pragmatic-play",
+  "rtp": 96.49,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2024-08-01",
+  "releaseDatePrecision": "month",
+  "reels": "6x6",
+  "mechanics": [
+    "cluster-pays",
+    "tumble",
+    "sticky-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Power Wilds",
+      "description": "Sticky wilds with 1–10 levels that last through tumbles."
+    },
+    {
+      "name": "Level Ups",
+      "description": "Extend a Power Wild's life by 1–3 levels."
+    },
+    {
+      "name": "Free spins",
+      "description": "10–18 spins from three or more scatters."
+    }
+  ],
+  "review": "Mystery Mice is a 6x6 tumbling cluster slot where a detective mouse hunts for wins. Power Wilds can land with levels from 1 to 10; they help form clusters of five or more and stay sticky through tumbles until their level drops to one or no more wins form.\n\nPower Wild Level Ups can add one to three levels, extending a wild's life. Three or more spyglass scatters award 10 to 18 free spins, with Power Wilds still sticky until their level runs out. Pragmatic Play advertises up to 5,000x. The RTP is 96.49%. The levelled wilds make long tumble chains more likely.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20powerwild&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/mystery-mice.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/mystery-mice/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

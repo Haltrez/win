@@ -1,0 +1,54 @@
+{
+  "slug": "devilicious",
+  "name": "Devilicious",
+  "provider": "pragmatic-play",
+  "rtp": 96.46,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2024-05-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "multipliers",
+    "respins"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Money bag instant win",
+      "description": "Nine money bags pay 1,000x."
+    },
+    {
+      "name": "Wheel-set free spins",
+      "description": "Up to 20 spins with a 2x or 3x multiplier."
+    },
+    {
+      "name": "Wild respins",
+      "description": "Enough wilds trigger respins."
+    }
+  ],
+  "review": "Devilicious takes place outside the gates of hell on a 5x3 grid. Nine money bags with spears pay 1,000x immediately when they land.\n\nThree blue horned hearts start free spins, where a wheel of fortune sets a random number of up to 20 spins and a 2x or 3x multiplier. A respin feature is randomly awarded when enough 'hot lips' wilds are visible, and more wilds add more respins. Pragmatic Play advertises up to 10,000x. The RTP is 96.46%.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20devilic&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/devilicious.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/devilicious/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

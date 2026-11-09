@@ -1,0 +1,52 @@
+{
+  "slug": "bitcoin-million",
+  "name": "Bitcoin Million",
+  "provider": "bgaming",
+  "rtp": 97.1,
+  "volatility": "medium-high",
+  "maxWin": 3000,
+  "releaseDate": "2022-01-05",
+  "releaseDatePrecision": "day",
+  "winType": "100 paylines",
+  "hitRate": 4.3,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "gamble"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "100 paylines",
+      "description": "A classic layout with crypto-themed symbols."
+    },
+    {
+      "name": "Expanding wilds",
+      "description": "Wilds expand to fill reels."
+    },
+    {
+      "name": "Gamble round",
+      "description": "Optional card gamble after base-game wins."
+    }
+  ],
+  "review": "Bitcoin Million is a 100-line classic slot that swaps traditional fruit icons for crypto-themed symbols. Underneath, it's a familiar layout with wilds and scatters.\n\nExpanding wilds can fill entire reels to complete wins across many lines, and an optional card gamble round is available after base-game wins. There's no complex bonus round, so most of the action comes from line hits and expanding wilds. BGaming rates it medium-high volatility with a 3,000x maximum, and the RTP of 97.1% is high. It's one of BGaming's crypto-era designs and a good fit for players who like simple line slots with a modern theme.",
+  "pros": [
+    "Excellent 97.10% RTP – among the highest published",
+    "Straightforward feature set"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": null,
+  "image": "/slots/bgaming/bitcoin-million.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/bitcoin-million"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

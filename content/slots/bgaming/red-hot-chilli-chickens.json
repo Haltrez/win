@@ -1,0 +1,55 @@
+{
+  "slug": "red-hot-chilli-chickens",
+  "name": "Red Hot Chilli Chickens",
+  "provider": "bgaming",
+  "rtp": 96.22,
+  "volatility": "medium",
+  "maxWin": 5000,
+  "releaseDate": "2026-09-17",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "winType": "20 paylines",
+  "hitRate": 2.99,
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "hold-and-win",
+    "jackpot"
+  ],
+  "themes": [
+    "food",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Three pots",
+      "description": "Chillies fill pots that trigger bonus rounds."
+    },
+    {
+      "name": "Combined bonuses",
+      "description": "Up to three bonuses in one spin."
+    },
+    {
+      "name": "Five jackpots",
+      "description": "Fixed jackpots up to the 5,000x maximum."
+    }
+  ],
+  "review": "Red Hot Chilli Chickens is a three-pots slot made with Electric Elephant Games, with three nervous chickens above the reels. Mystery symbols reveal hidden chillies, and each chilli feeds a feature pot.\n\nEvery full pot brings a bonus round, and up to three bonus rounds can trigger in a single spin, combining features. Five fixed jackpots are available. BGaming rates the game medium volatility with a 5,000x maximum and a 96.22% RTP. The pot system gives clear progress towards each feature.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/RedHotChilliChickens/FUN?server=demo",
+  "image": "/slots/bgaming/red-hot-chilli-chickens.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/red-hot-chilli-chickens"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

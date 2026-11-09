@@ -1,0 +1,60 @@
+{
+  "slug": "lucky-turkey",
+  "name": "Lucky Turkey",
+  "provider": "bgaming",
+  "rtp": 97.17,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2025-11-04",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 3.19,
+  "bonusRate": 163.2,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "food",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Pay-anywhere refills",
+      "description": "Win-anywhere symbols with refills."
+    },
+    {
+      "name": "Accumulating multipliers",
+      "description": "Multipliers build up during free spins."
+    },
+    {
+      "name": "Chance x2",
+      "description": "+25% stake for more scatters."
+    }
+  ],
+  "review": "Lucky Turkey is BGaming's first Thanksgiving-themed game, made with Cream.Team and set in Nana's kitchen. Symbols pay anywhere with refills, and multipliers accumulate during free spins.\n\nChance x2 raises the stake by 25% to land scatters more often, and the free spins can be started directly where permitted. Because multipliers build up across the bonus instead of resetting, long rounds can grow considerably. BGaming rates the game very high volatility with a 5,000x maximum and a 97.17% RTP. Free spins arrive about once every 163 spins. It's a seasonal reskin of the Gemhalla and Tramp Day engine.",
+  "pros": [
+    "Excellent 97.17% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/LuckyTurkey/FUN?server=demo",
+  "image": "/slots/bgaming/lucky-turkey.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/lucky-turkey"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

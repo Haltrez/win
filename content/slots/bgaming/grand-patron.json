@@ -1,0 +1,56 @@
+{
+  "slug": "grand-patron",
+  "name": "Grand Patron",
+  "provider": "bgaming",
+  "rtp": 96.67,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2024-07-08",
+  "releaseDatePrecision": "day",
+  "winType": "20 paylines",
+  "hitRate": 25.38,
+  "bonusRate": 277.0,
+  "mechanics": [
+    "paylines",
+    "reel-modifiers",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Extra reels",
+      "description": "Top and bottom reels trigger effects on the main grid."
+    },
+    {
+      "name": "Symbol effects",
+      "description": "Spawn, wild, explode, multiply or arrest symbols."
+    },
+    {
+      "name": "Three free spins types",
+      "description": "Extra-reel cells open one by one during the bonus."
+    }
+  ],
+  "review": "Grand Patron is a cartel-movie slot with two extra reels, one above and one below the main grid. Only one symbol per spin lands on each extra reel, but it affects the main reels: symbols can spawn, turn wild, explode, multiply or even get 'arrested'.\n\nTwo special-agent badge scatters can trigger the bonus, and there are three variations of free spins in which the extra reels open their cells one by one. BGaming lists a 10,000x maximum and a 96.67% RTP but doesn't publish a volatility rating for this game. Free spins arrive about once every 277 spins. It's one of the more inventive designs in BGaming's catalogue.",
+  "pros": [
+    "Above-average 96.67% RTP",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/GrandPatron7rst/FUN?server=demo",
+  "image": "/slots/bgaming/grand-patron.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/grand-patron"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

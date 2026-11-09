@@ -1,0 +1,56 @@
+{
+  "slug": "sugar-mix",
+  "name": "Sugar Mix",
+  "provider": "bgaming",
+  "rtp": 97.37,
+  "volatility": "medium-low",
+  "maxWin": 4000,
+  "releaseDate": "2025-04-22",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "20 paylines",
+  "hitRate": 3.4,
+  "bonusRate": 117.0,
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "candy",
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Seven-scatter trigger",
+      "description": "7+ mixers award 4–6 free spins."
+    },
+    {
+      "name": "Swap feature",
+      "description": "Reels 1 and 5, then 2 and 4, swap during the bonus."
+    },
+    {
+      "name": "97.37% RTP",
+      "description": "Among the best in the catalogue."
+    }
+  ],
+  "review": "Sugar Mix is a feel-good pastry-shop slot with 20 lines on 5x3 reels. You need at least seven scatter mixers to start free spins, with seven, eight or nine giving four, five or six spins.\n\nThe bonus has a secret ingredient: the Swap feature, in which reels 1 and 5, then reels 2 and 4, swap places, creating new combinations. BGaming rates it medium-low volatility with a 4,000x maximum, and its 97.37% RTP is among the highest in our database. Free spins arrive about once every 117 spins. Easy to pick up for beginners.",
+  "pros": [
+    "Excellent 97.37% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Bonus lands relatively often (about 1 in 117 spins on average)"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/SugarMix/FUN?server=demo",
+  "image": "/slots/bgaming/sugar-mix.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/sugar-mix"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

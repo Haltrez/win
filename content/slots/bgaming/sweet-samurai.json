@@ -1,0 +1,51 @@
+{
+  "slug": "sweet-samurai",
+  "name": "Sweet Samurai",
+  "provider": "bgaming",
+  "rtp": 97.6,
+  "volatility": "medium-high",
+  "maxWin": 4500,
+  "releaseDate": "2026-06-25",
+  "releaseDatePrecision": "day",
+  "reels": "3x4",
+  "hitRate": 7.0,
+  "mechanics": [
+    "ways"
+  ],
+  "themes": [
+    "asian",
+    "fruit"
+  ],
+  "features": [
+    {
+      "name": "Asymmetric ways",
+      "description": "Ways pays on an unusual layout."
+    },
+    {
+      "name": "No bonus rounds",
+      "description": "Everything happens in the base game."
+    },
+    {
+      "name": "Win Slice",
+      "description": "A slicing animation finishes each winning line."
+    }
+  ],
+  "review": "Sweet Samurai is a BGaming and Cream Team classic built entirely around the base game. Ways pays work across an asymmetric layout, and the Golden Pineapple tops the paytable.\n\nThere are no bonus rounds and no buy options. The Win Slice feature gives each matching line a satisfying finish. BGaming rates it medium-high volatility with a 4,500x maximum, and its 97.6% RTP is one of the highest anywhere. It's a pure, no-frills spinning experience that suits players who don't want to wait for a bonus.",
+  "pros": [
+    "Excellent 97.60% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/SweetSamurai/FUN?server=demo",
+  "image": "/slots/bgaming/sweet-samurai.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/sweet-samurai"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

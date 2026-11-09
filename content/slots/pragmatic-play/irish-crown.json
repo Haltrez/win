@@ -1,0 +1,56 @@
+{
+  "slug": "irish-crown",
+  "name": "Irish Crown",
+  "provider": "pragmatic-play",
+  "rtp": 96.52,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-12-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "money-collect",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "irish",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Crown cash prizes",
+      "description": "Three to nine crowns award an instant prize."
+    },
+    {
+      "name": "Leprechaun free spins",
+      "description": "Leprechauns turn symbols into crowns."
+    },
+    {
+      "name": "Big Money Bonus",
+      "description": "Ten crowns activate a separate bonus."
+    }
+  ],
+  "review": "Irish Crown is a 5x3, 20-line Irish slot with gems, shamrocks, leprechauns and crowns, plus two bonus rounds. Landing three to nine crowns in the base game awards a Big Money cash prize, and Irish Crown mystery symbols transform into matching icons.\n\nThree bonus symbols trigger 10 free spins, where leprechauns turn symbols into crowns for the rest of the round; one, two or three extra scatters add two, five or ten spins. Landing 10 crowns activates the Big Money Bonus. The RTP is 96.52%. Pragmatic Play doesn't publish a max win for this game.",
+  "pros": [
+    "Above-average 96.52% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20irishcrown&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/irish-crown.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/irish-crown/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

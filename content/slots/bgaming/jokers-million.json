@@ -1,0 +1,53 @@
+{
+  "slug": "jokers-million",
+  "name": "Joker’s Million",
+  "provider": "bgaming",
+  "rtp": 97.34,
+  "volatility": "medium-high",
+  "maxWin": 3000,
+  "releaseDate": "2025-02-11",
+  "releaseDatePrecision": "day",
+  "winType": "100 paylines",
+  "hitRate": 4.3,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "gamble"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "100 lines with stacked symbols",
+      "description": "A classic fruit layout."
+    },
+    {
+      "name": "Expanding wilds",
+      "description": "Wilds on reels 2–4 expand after completing a win."
+    },
+    {
+      "name": "Two scatter types",
+      "description": "Blue and red scatters with different pay rules."
+    }
+  ],
+  "review": "Joker's Million is a 100-line fruit slot run by a ringmaster Joker. It features stacked symbols, expanding wilds and a classic gamble round.\n\nWilds appear only on reels 2 to 4, and when a wild completes a win it expands to cover the whole reel, possibly completing more wins. There are two scatter types: blue scatters pay for three to five anywhere, and red scatters have different conditions. BGaming rates the game medium-high volatility with a 3,000x maximum, and the RTP is an outstanding 97.34%. A strong-value pick for classic slot fans.",
+  "pros": [
+    "Excellent 97.34% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/JokersMillion/FUN?server=demo",
+  "image": "/slots/bgaming/jokers-million.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/jokers-million"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "book-of-pyramids",
+  "name": "Book of Pyramids",
+  "provider": "bgaming",
+  "rtp": 97.13,
+  "volatility": "medium-high",
+  "maxWin": 1939,
+  "releaseDate": "2016-04-02",
+  "releaseDatePrecision": "day",
+  "winType": "9 paylines",
+  "hitRate": 2.66,
+  "bonusRate": 57.0,
+  "mechanics": [
+    "paylines",
+    "free-spins"
+  ],
+  "themes": [
+    "egypt",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Nine paylines",
+      "description": "A traditional Egyptian layout."
+    },
+    {
+      "name": "Very frequent free spins",
+      "description": "Bonus about once every 57 spins on average."
+    },
+    {
+      "name": "Classic book style",
+      "description": "Wilds, scatters and free spins without complex modifiers."
+    }
+  ],
+  "review": "Book of Pyramids is one of BGaming's oldest games, from 2016, built on the classic Egyptian theme with hand-drum music and nine paylines. It sticks to traditional features: wilds, scatters and free spins.\n\nIts maths is the main attraction. BGaming lists a 97.13% RTP and medium-high volatility, with a 1,939x maximum, and free spins arrive very often, around once every 57 spins on average. That makes it one of the most bonus-friendly games in the database, even if the ceiling is modest. It's a retro choice that suits long, relaxed demo sessions more than big-win hunting.",
+  "pros": [
+    "Excellent 97.13% RTP – among the highest published",
+    "Bonus lands relatively often (about 1 in 57 spins on average)",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 1,939x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BookOfPyramids/FUN?server=demo",
+  "image": "/slots/bgaming/book-of-pyramids.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/book-of-pyramids"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

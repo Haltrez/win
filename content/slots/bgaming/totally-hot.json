@@ -1,0 +1,54 @@
+{
+  "slug": "totally-hot",
+  "name": "Totally Hot",
+  "provider": "bgaming",
+  "rtp": 97.21,
+  "volatility": "low",
+  "maxWin": 2500,
+  "releaseDate": "2026-01-15",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "10 paylines",
+  "hitRate": 4.85,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "10 lines",
+      "description": "Retro fruit layout with flame effects."
+    },
+    {
+      "name": "Reel 3 expanding wild",
+      "description": "Wilds expand to fill the reel when they win."
+    },
+    {
+      "name": "Low volatility",
+      "description": "Frequent, smaller wins."
+    }
+  ],
+  "review": "Totally Hot is a retro fruit slot whose reels are always on fire. It plays on 10 lines with glowing symbols and flame animations.\n\nWilds appear only on the third reel, and when they're part of a winning combination they expand to cover the whole reel, which can add more wins. BGaming rates it low volatility with a 2,500x maximum and an excellent 97.21% RTP. There's no complex bonus. A fast, simple classic.",
+  "pros": [
+    "Excellent 97.21% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/TotallyHot/FUN?server=demo",
+  "image": "/slots/bgaming/totally-hot.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/totally-hot-2"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

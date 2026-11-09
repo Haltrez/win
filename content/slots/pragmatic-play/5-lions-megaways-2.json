@@ -1,0 +1,54 @@
+{
+  "slug": "5-lions-megaways-2",
+  "name": "5 Lions Megaways 2",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 8000,
+  "releaseDate": "2025-02-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "asian",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Choose your volatility",
+      "description": "Few spins with big multipliers, or many spins with small ones."
+    },
+    {
+      "name": "Level Up coins",
+      "description": "Every three coins add spins and remove the lowest multiplier."
+    },
+    {
+      "name": "8,000x maximum",
+      "description": "Up from 5,000x in the original."
+    }
+  ],
+  "review": "5 Lions Megaways 2 is the sequel to Pragmatic Play's oriental Megaways slot, with wild multipliers up to 100x and a higher 8,000x ceiling. Three scatters start the bonus, and scatter plus super scatter combinations trigger Super Free Spins.\n\nYou choose between five free spins with 20x–100x multipliers, 25 free spins with 2x–8x multipliers, or options in between and a mystery choice. Super Free Spins add between one and ten extra spins. For every three Level Up coins collected, you get three more spins and the lowest bonus multiplier is removed. The RTP is 96.5%.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vsways5lions2&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/5-lions-megaways-2.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/5-lions-megaways-2/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

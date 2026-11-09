@@ -1,0 +1,55 @@
+{
+  "slug": "fire-lightning",
+  "name": "Fire Lightning",
+  "provider": "bgaming",
+  "rtp": 93.75,
+  "volatility": "medium-high",
+  "maxWin": 1706,
+  "releaseDate": "2018-07-24",
+  "releaseDatePrecision": "day",
+  "winType": "20 paylines",
+  "hitRate": 4.41,
+  "bonusRate": 157.0,
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "free-spins",
+    "gamble"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "20 paylines",
+      "description": "A classic 5x3 layout."
+    },
+    {
+      "name": "Sticky free spins wilds",
+      "description": "Wilds stick until the bonus ends."
+    },
+    {
+      "name": "Card gamble",
+      "description": "Optional colour or suit guess after wins."
+    }
+  ],
+  "review": "Fire Lightning is a 2018 BGaming classic with 20 lines. Wilds appear on reels 2, 3 and 4, and three or more scatters in any position award 10 free spins that can be retriggered.\n\nDuring free spins, every wild becomes sticky and stays put until the round ends, which can build up repeated line wins. An optional card gamble follows any base-game win. BGaming rates it medium-high volatility with a 1,706x maximum. The RTP is 93.75%, one of the lowest in our database, so this is one for demo nostalgia rather than real value. Free spins land about once every 157 spins.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 93.75% RTP",
+    "Modest 1,706x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/FireLightning/FUN?server=demo",
+  "image": "/slots/bgaming/fire-lightning.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/fire-lightning"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

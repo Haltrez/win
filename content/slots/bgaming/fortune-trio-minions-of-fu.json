@@ -1,0 +1,59 @@
+{
+  "slug": "fortune-trio-minions-of-fu",
+  "name": "Fortune Trio: Minions Of Fu",
+  "provider": "bgaming",
+  "rtp": 95.05,
+  "volatility": "medium-low",
+  "maxWin": 2000,
+  "releaseDate": "2026-08-27",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "25 paylines",
+  "hitRate": 2.31,
+  "bonusRate": 205.7,
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "hold-and-win",
+    "money-collect",
+    "jackpot"
+  ],
+  "themes": [
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Three-pot coin engine",
+      "description": "Coins feed three pots that boost the coin round."
+    },
+    {
+      "name": "Two free spins styles",
+      "description": "Giant symbol or high-symbols-only free spins."
+    },
+    {
+      "name": "Three jackpots",
+      "description": "Available through the coin feature."
+    }
+  ],
+  "review": "Fortune Trio: Minions of Fu is an Asian-inspired 5x3 classic with three bonus games, a three-pot coin collection system and three jackpots.\n\nThree or more yin-yang bonus symbols unlock free spins with either a giant symbol or only high-paying symbols in play, and extra bonus symbols extend the round. Six or more gold coins trigger a coin round in which the pots and collect coins can grow wins further. BGaming rates it medium-low volatility with a 2,000x maximum and a 95.05% RTP. Free spins arrive about once every 206 spins. Lots of variety for a classic-style game.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.05% RTP",
+    "Modest 2,000x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/FortuneTrioMinionsOfFu/FUN?server=demo",
+  "image": "/slots/bgaming/fortune-trio-minions-of-fu.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/fortune-trio-minions-of-fu"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

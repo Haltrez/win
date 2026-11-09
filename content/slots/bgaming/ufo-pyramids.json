@@ -1,0 +1,57 @@
+{
+  "slug": "ufo-pyramids",
+  "name": "UFO Pyramids",
+  "provider": "bgaming",
+  "rtp": 97.17,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2025-12-16",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 3.19,
+  "bonusRate": 163.2,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "egypt",
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Triangle grid",
+      "description": "A pyramid-shaped pay-anywhere layout."
+    },
+    {
+      "name": "Free spins",
+      "description": "Scatter-triggered bonus round."
+    },
+    {
+      "name": "100x bonus buy",
+      "description": "Purchase free spins where permitted."
+    }
+  ],
+  "review": "UFO Pyramids mixes ancient Egypt with alien conspiracy theories on a triangle-shaped grid, an unusual layout for a pay-anywhere game.\n\nGameplay is fast, with free spins available and a bonus buy priced at 100x the bet where permitted. BGaming rates it very high volatility with a 5,000x maximum and an excellent 97.17% RTP. Free spins arrive about once every 163 spins. The triangular grid is the standout feature and makes the game look like nothing else in the catalogue.",
+  "pros": [
+    "Excellent 97.17% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/UFOPyramids/FUN?server=demo",
+  "image": "/slots/bgaming/ufo-pyramids.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/ufo-pyramids"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "grand-buffalo-hold-and-win",
+  "name": "Grand Buffalo Hold and Win",
+  "provider": "bgaming",
+  "rtp": 96.7,
+  "volatility": "high",
+  "maxWin": 5000,
+  "releaseDate": "2026-04-21",
+  "releaseDatePrecision": "day",
+  "winType": "Trueways",
+  "hitRate": 4.33,
+  "bonusRate": 330.6,
+  "mechanics": [
+    "ways",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "multipliers"
+  ],
+  "themes": [
+    "western",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Scatter badge",
+      "description": "Filling the badge unlocks the Mega jackpot chance."
+    },
+    {
+      "name": "Coin Respin",
+      "description": "Three jackpots with Lightning expand symbols."
+    },
+    {
+      "name": "Multiplier wilds",
+      "description": "Wilds carry multipliers in the base game."
+    }
+  ],
+  "review": "Grand Buffalo Hold and Win is a Trueways western slot with buffalo, multiplier wilds and a progressive route to its top jackpot. Every scatter that lands fills a badge beside the reels, and once the badge is full it changes colour, unlocking a chance at the Mega jackpot in Coin Respin.\n\nCoin Respin offers three jackpots, and Lightning symbols can expand the feature. BGaming rates it high volatility with a 5,000x maximum and a 96.7% RTP. The bonus arrives roughly once every 331 spins. The badge gives the base game a long-term goal, which makes it feel more purposeful than a typical hold-and-win.",
+  "pros": [
+    "Above-average 96.70% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus is rare (about 1 in 331 spins on average)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/GrandBuffaloHoldAndWin/FUN?server=demo",
+  "image": "/slots/bgaming/grand-buffalo-hold-and-win.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/grand-buffalo-hold-and-win"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "fortune-hitn-roll",
+  "name": "Fortune Hit’n Roll",
+  "provider": "pragmatic-play",
+  "rtp": 96.57,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-09-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x5",
+  "mechanics": [
+    "paylines",
+    "walking-wilds",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "adventure",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Forged Wilds",
+      "description": "Sticky wilds that move and gain +1x each move."
+    },
+    {
+      "name": "40 paylines",
+      "description": "A 5x5 Aztec layout."
+    },
+    {
+      "name": "Sticky free spins",
+      "description": "Nine free spins with sticky wilds anywhere."
+    }
+  ],
+  "review": "Fortune Hit'n Roll is a 5x5, 40-line Aztec slot. Wilds can turn into Forged Wilds, which become sticky and move up or down the reel each spin, gaining +1 to their multiplier with every move until they leave the grid.\n\nThree scatters award nine free spins, in which every wild becomes sticky and can appear in any position. The RTP is 96.57%, and Pragmatic Play doesn't publish a max win on the page. The moving, growing wilds make the base game more dynamic than most line slots.",
+  "pros": [
+    "Above-average 96.57% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs40wildrun&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/fortune-hitn-roll.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/fortune-hitn-roll/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

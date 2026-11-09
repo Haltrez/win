@@ -1,0 +1,55 @@
+{
+  "slug": "temple-guardians",
+  "name": "Temple Guardians",
+  "provider": "pragmatic-play",
+  "rtp": 96.53,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2025-05-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "money-collect"
+  ],
+  "themes": [
+    "animals",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Three money colours",
+      "description": "Purple, green and blue symbols with stacking values."
+    },
+    {
+      "name": "Respin feature",
+      "description": "Three respins that reset with each money symbol."
+    },
+    {
+      "name": "Full-grid prize",
+      "description": "Filling the grid awards an extra 2,000x."
+    }
+  ],
+  "review": "Temple Guardians features bears, wolves and owls paying up to 200x in the base game. Five or more money symbols trigger a respin feature with three colours of money symbol.\n\nPurple symbols carry values up to 500x, green symbols are worth the total of all visible purple symbols, and blue symbols combine all purple and green values on screen. The feature starts with three respins, which reset with each new money symbol, and filling the whole grid adds 2,000x. The in-game screens advertise up to 10,000x. The RTP is 96.53%. The layered money symbols make each respin more interesting than a standard hold-and-win.",
+  "pros": [
+    "Above-average 96.53% RTP",
+    "High 10,000x win ceiling",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10diamondrgh&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/temple-guardians.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/temple-guardians/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

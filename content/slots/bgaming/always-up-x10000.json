@@ -1,0 +1,56 @@
+{
+  "slug": "always-up-x10000",
+  "name": "Always Up! x10000",
+  "provider": "bgaming",
+  "rtp": 96.05,
+  "volatility": "very-high",
+  "maxWin": 10490,
+  "releaseDate": "2026-02-04",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "10 paylines",
+  "hitRate": 11.55,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "asian",
+    "space"
+  ],
+  "features": [
+    {
+      "name": "Rocket bonus",
+      "description": "Pick a rocket; its multiplier when it explodes is applied to the bet."
+    },
+    {
+      "name": "Realistic flight",
+      "description": "Streamlined bonus with bigger multipliers than the original."
+    },
+    {
+      "name": "Mystery Buy",
+      "description": "A bonus buy option with a random maximum multiplier."
+    }
+  ],
+  "review": "Always Up! x10000 is a bigger version of BGaming's crash-style slot. It uses a 5x3 layout, and its bonus is a rocket launch: several rockets climb into the sky carrying multipliers that rise the higher they go, and each one explodes at a random height.\n\nYou pick the rocket you think will fly highest, and its multiplier at the moment it explodes is applied to your bet. The bonus can be bought where permitted, including a Mystery Buy with a random maximum multiplier. BGaming rates it very high volatility with a 10,490x maximum and a 96.05% RTP. It's a fun crossover between slots and crash games, with much more upside than the original.",
+  "pros": [
+    "High 10,490x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/AlwaysUpX10000/FUN?server=demo",
+  "image": "/slots/bgaming/always-up-x10000.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/always-up-x10000"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

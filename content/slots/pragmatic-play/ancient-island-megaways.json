@@ -1,0 +1,57 @@
+{
+  "slug": "ancient-island-megaways",
+  "name": "Ancient Island Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.55,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2025-01-01",
+  "releaseDatePrecision": "month",
+  "reels": "6x7",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "expanding-wilds",
+    "reel-modifiers",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Reel modifiers",
+      "description": "Cash, multipliers, max ways, wild reels or symbol replacement above each reel."
+    },
+    {
+      "name": "Expanding wild triggers",
+      "description": "Wilds on reels 2–5 expand and activate their modifier."
+    },
+    {
+      "name": "Modifier-packed free spins",
+      "description": "Four modifiers land on every bonus spin."
+    }
+  ],
+  "review": "Ancient Island Megaways sits on a 6x7 grid with a row of reel modifiers above it. Every spin, modifiers can offer cash prizes up to 100x, multipliers up to 100x, an expanded grid with maximum ways, an extra wild reel, or replacement of all non-winning symbols.\n\nWilds landing on reels 2 to 5 expand to fill their reel and trigger the modifier above that reel. Four to six scatters award 12 to 16 free spins, where four modifiers land on every spin and a new modifier adding 3–10 free spins joins the options. Pragmatic Play advertises up to 10,000x. The RTP is 96.55%. The modifier row gives every wild a visible consequence.",
+  "pros": [
+    "Above-average 96.55% RTP",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysmodfr&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/ancient-island-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/ancient-island-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

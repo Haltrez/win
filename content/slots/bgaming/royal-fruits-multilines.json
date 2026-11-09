@@ -1,0 +1,53 @@
+{
+  "slug": "royal-fruits-multilines",
+  "name": "Royal Fruits MultiLines",
+  "provider": "bgaming",
+  "rtp": 97.16,
+  "volatility": "medium-low",
+  "maxWin": 3000,
+  "releaseDate": "2024-09-11",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "winType": "100 paylines",
+  "hitRate": 5.4,
+  "mechanics": [
+    "paylines"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "100 lines",
+      "description": "A classic fruit layout."
+    },
+    {
+      "name": "Session stats",
+      "description": "Best Win and Best Multiplier shown on screen."
+    },
+    {
+      "name": "Scatter pays",
+      "description": "Three or more scatters pay anywhere."
+    }
+  ],
+  "review": "Royal Fruits MultiLines is a traditional 100-line fruit slot with polished, modern graphics for players who like a classic feel. A panel on the right shows your best win and best multiplier from the current session.\n\nThe wild substitutes for any symbol except scatters, and three or more scatters on any reels deliver a payout. BGaming rates it medium-low volatility with a 3,000x maximum, and its 97.16% RTP is excellent. With no complicated bonus, it's all about steady, low-stress spins, and it's one of the best-value classics in the catalogue.",
+  "pros": [
+    "Excellent 97.16% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/RoyalFruitsMultiLines/FUN?server=demo",
+  "image": "/slots/bgaming/royal-fruits-multilines.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/royal-fruits-multilines"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

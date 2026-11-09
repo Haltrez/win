@@ -1,0 +1,56 @@
+{
+  "slug": "bandit-megaways",
+  "name": "Bandit Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.55,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2025-03-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "tumble",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "western",
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Megaways tumbles",
+      "description": "Up to 117,649 ways with tumbling reels."
+    },
+    {
+      "name": "Dynamite multipliers",
+      "description": "Up to 500x in the base game and bonus."
+    },
+    {
+      "name": "Running total",
+      "description": "Multipliers accumulate during free spins."
+    }
+  ],
+  "review": "Bandit Megaways is a western Megaways slot with up to 117,649 ways, tumbling reels and dynamite multiplier symbols worth up to 500x in both the base game and bonus. Multipliers add together for bigger wins.\n\nFour to six scatters award 15 to 25 free spins, during which multipliers add to a running total each time they land on a winning spin. Three to six scatters retrigger up to 30 more spins. It's very similar in spirit to Gates of Olympus, with a Megaways western twist. The in-game screens advertise up to 5,000x. The RTP is 96.55%.",
+  "pros": [
+    "Above-average 96.55% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysbandit&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/bandit-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/bandit-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

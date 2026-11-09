@@ -1,0 +1,60 @@
+{
+  "slug": "doors-of-sol",
+  "name": "Doors of Sol",
+  "provider": "bgaming",
+  "rtp": 96.69,
+  "volatility": "very-high",
+  "maxWin": 12960,
+  "releaseDate": "2022-07-04",
+  "releaseDatePrecision": "day",
+  "winType": "Megaways",
+  "hitRate": 5.01,
+  "bonusRate": 259.0,
+  "mechanics": [
+    "megaways",
+    "ways",
+    "sticky-wilds",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "mythology",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Megaways",
+      "description": "Changing reel heights with many ways to win."
+    },
+    {
+      "name": "Sticky wilds in free spins",
+      "description": "Wilds stick to their reels until the bonus ends."
+    },
+    {
+      "name": "Chance option and buy",
+      "description": "Raise scatter odds or buy free spins where permitted."
+    }
+  ],
+  "review": "Doors of Sol is a Megaways slot with a sun-temple theme. Scatters can land anywhere, and three to six of them at once start free spins, with more scatters awarding more spins.\n\nDuring free spins, every wild that lands becomes sticky and stays on its reel until the bonus ends, which can build up very large ways counts with wild coverage. A Chance option raises the stake for better scatter odds, and free spins can be bought where permitted. BGaming rates it very high volatility with a 12,960x maximum and a 96.69% RTP. Free spins arrive about once every 259 spins on average.",
+  "pros": [
+    "Above-average 96.69% RTP",
+    "High 12,960x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/DoorsOfSol/FUN?server=demo",
+  "image": "/slots/bgaming/doors-of-sol.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/doors-of-sol"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

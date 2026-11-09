@@ -1,0 +1,56 @@
+{
+  "slug": "club-tropicana-happy-hour",
+  "name": "Club Tropicana – Happy Hour",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2025-06-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "multipliers",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "music",
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Pre-bonus modifiers",
+      "description": "Up to five modifiers before free spins start."
+    },
+    {
+      "name": "Wild collection",
+      "description": "Wilds collect money symbols worth up to 5,000x."
+    },
+    {
+      "name": "Retrigger multipliers",
+      "description": "Every fourth wild adds 10 spins and raises the multiplier to 2x, 3x and 10x."
+    }
+  ],
+  "review": "Club Tropicana – Happy Hour applies the familiar collect-and-retrigger bonus to a tropical party theme. Three to five scatters trigger 10 to 20 free spins.\n\nBefore the bonus begins, up to five modifiers can be added: more money symbols, more wilds, extra spins, or starting the progressive feature at level two. During free spins, wilds collect money symbols worth up to 5,000x, and every fourth wild awards 10 more spins with a bigger multiplier, first 2x, then 3x and finally 10x. The RTP is 96.5%. If you enjoy Big Bass but want a different theme, this is essentially that formula at a beach bar.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs12trpcnhour&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/club-tropicana-happy-hour.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/club-tropicana-happy-hour/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

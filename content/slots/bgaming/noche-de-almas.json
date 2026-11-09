@@ -1,0 +1,61 @@
+{
+  "slug": "noche-de-almas",
+  "name": "Noche de Almas",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": "2026-10-20",
+  "releaseDatePrecision": "day",
+  "winType": "Cluster Pays",
+  "hitRate": 2.99,
+  "bonusRate": 300.0,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "hold-and-win",
+    "respins",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "horror",
+    "music"
+  ],
+  "features": [
+    {
+      "name": "Cluster pays with Coin Respin",
+      "description": "Clusters plus coin respins on the reels."
+    },
+    {
+      "name": "Reel Deal",
+      "description": "500 spins condensed into a reveal of the best three results."
+    },
+    {
+      "name": "Five optional features",
+      "description": "Including Booster and Chance x5."
+    }
+  ],
+  "review": "Noche de Almas is a Día de los Muertos cluster slot about two souls reuniting across the boundary of death, with a dark, high-contrast style. It combines cluster pays with an on-reel Coin Respin.\n\nIts standout feature, Reel Deal, condenses 500 spins into a reveal of the three best results. You can add one of five extra features, such as a Booster that keeps a candle in play or Chance x5, and a Rebuy button repeats your last bonus purchase where permitted. BGaming rates it very high volatility with a 10,000x maximum and a 97% RTP. Free spins arrive about once every 300 spins.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus is rare (about 1 in 300 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/NocheDeAlmas/FUN?server=demo",
+  "image": "/slots/bgaming/noche-de-almas.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/noche-de-almas"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

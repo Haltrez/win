@@ -1,0 +1,57 @@
+{
+  "slug": "hot-rocket-mega-potz",
+  "name": "Hot Rocket Mega Potz",
+  "provider": "bgaming",
+  "rtp": 94.15,
+  "volatility": "medium-high",
+  "maxWin": 6030,
+  "releaseDate": "2026-10-26",
+  "releaseDatePrecision": "day",
+  "winType": "4096 paylines",
+  "hitRate": 3.55,
+  "bonusRate": 250.0,
+  "mechanics": [
+    "ways",
+    "free-spins",
+    "multipliers",
+    "jackpot",
+    "bonus-buy"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "4,096 ways",
+      "description": "Wins across a large ways grid."
+    },
+    {
+      "name": "Reel-activating symbols",
+      "description": "A special symbol pays anywhere and lights its reel."
+    },
+    {
+      "name": "Free spins pre-game",
+      "description": "A pre-bonus round sets up the free spins."
+    }
+  ],
+  "review": "Hot Rocket Mega Potz is the next chapter of the Rocket Eruption series, with 4,096 ways and a tropical jungle setting. New features include multiplier rewards based on how many spins you've played, bonus triggers via a special reel, and a free spins pre-game.\n\nA special symbol that pays anywhere activates its reel and lights a fire in the beast's mouth beneath it. Free spins or a red-volcano bonus can be bought where permitted. BGaming rates it medium-high volatility with a 6,030x maximum. The RTP is 94.15%, lower than most BGaming releases. The bonus arrives about once every 250 spins.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.15% RTP",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/HotRocketMegaPotz/FUN?server=demo",
+  "image": "/slots/bgaming/hot-rocket-mega-potz.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/hot-rocket-mega-potz"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

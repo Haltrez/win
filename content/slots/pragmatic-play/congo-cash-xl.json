@@ -1,0 +1,56 @@
+{
+  "slug": "congo-cash-xl",
+  "name": "Congo Cash XL",
+  "provider": "pragmatic-play",
+  "rtp": 96.41,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-08-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "jackpot",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "gems",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Jewel board",
+      "description": "Random jewels above the reels award cash and free spins."
+    },
+    {
+      "name": "Jackpot symbol",
+      "description": "Awards up to 2,000x."
+    },
+    {
+      "name": "Diamond wilds",
+      "description": "Appear on reels 2–6."
+    }
+  ],
+  "review": "Congo Cash XL is a six-reel African jungle sequel with frogs, cheetahs and apes, and diamond wilds on reels 2 to 6. A jewel board above reels 2 to 5 shows random jewels that tumble after every spin and can award free spins and cash prizes.\n\nJewel values range from 4x to 200x, and landing a jackpot symbol awards up to 2,000x. Butterfly symbols appear only on reels one and six, adding to the special-symbol mix. The RTP is 96.41%, and Pragmatic Play doesn't publish an overall max win on its page. The jewel board gives a second layer of action above the main reels.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswayscongcash&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/congo-cash-xl.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/congo-cash-xl/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

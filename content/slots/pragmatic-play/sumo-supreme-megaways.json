@@ -1,0 +1,54 @@
+{
+  "slug": "sumo-supreme-megaways",
+  "name": "Sumo Supreme Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.55,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-07-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "ways",
+    "tumble",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Weight mechanic",
+      "description": "Matching a reel's weight awards a special symbol."
+    },
+    {
+      "name": "Instant-pay symbols",
+      "description": "Add value to wins they're part of."
+    },
+    {
+      "name": "Megaways tumbles",
+      "description": "Changing reels with cascades."
+    }
+  ],
+  "review": "Sumo Supreme Megaways is a Japanese wrestling slot on Megaways reels with tumbles. Instant-pay symbols add their value to any winning combination they join.\n\nEvery symbol and reel is given a random weight. When the symbols on a reel weigh as much as or more than the reel's weight, a special symbol is awarded, and each cascade lowers the reel's weight by one, making special symbols more likely as tumbles continue. The RTP is 96.55%, and Pragmatic Play doesn't publish a max win on the page. The weight mechanic is one of the more original ideas in the studio's recent catalogue.",
+  "pros": [
+    "Above-average 96.55% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysmegwghts&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/sumo-supreme-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/sumo-supreme-megaways/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

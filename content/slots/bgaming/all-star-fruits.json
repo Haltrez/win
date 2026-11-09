@@ -1,0 +1,58 @@
+{
+  "slug": "all-star-fruits",
+  "name": "All-Star Fruits",
+  "provider": "bgaming",
+  "rtp": 97.04,
+  "volatility": "medium",
+  "maxWin": 1500,
+  "releaseDate": "2025-02-18",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "243 paylines",
+  "hitRate": 5.82,
+  "bonusRate": 206.76,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Scatter tracker",
+      "description": "Shows scatters landed per spin above the reels."
+    },
+    {
+      "name": "Free spins multipliers",
+      "description": "10–25 free spins with multipliers on random wins."
+    },
+    {
+      "name": "Magic Spins",
+      "description": "A bought mode with a fixed 2x–25x multiplier on every win."
+    }
+  ],
+  "review": "All-Star Fruits is an easy-to-follow fruit slot with 243 ways and a scatter tracker above the reels that displays scatters landed on each spin. Falling star multipliers add a little extra excitement to the base game.\n\nThree, four or five scatters award 10, 15 or 25 free spins, during which a 1x–3x, 5x or 10x multiplier is applied to random wins. A separate Magic Spins mode, available through the bonus buy where permitted, applies a fixed 2x, 5x, 10x, 15x or 25x multiplier to every win. BGaming rates it medium volatility with a 1,500x maximum, and the 97.04% RTP is excellent. Free spins arrive about once every 207 spins.",
+  "pros": [
+    "Excellent 97.04% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 1,500x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/AllStarFruits/FUN?server=demo",
+  "image": "/slots/bgaming/all-star-fruits.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/all-star-fruits"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

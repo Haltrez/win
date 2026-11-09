@@ -1,0 +1,55 @@
+{
+  "slug": "lucky-crew",
+  "name": "Lucky Crew",
+  "provider": "bgaming",
+  "rtp": 95.98,
+  "volatility": "very-high",
+  "maxWin": 3525,
+  "releaseDate": "2023-05-18",
+  "releaseDatePrecision": "day",
+  "winType": "20 paylines",
+  "hitRate": 3.55,
+  "bonusRate": 177.0,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "pirates"
+  ],
+  "features": [
+    {
+      "name": "Multiplier wilds",
+      "description": "Wilds on reels 2–4 get 2x or 3x multipliers."
+    },
+    {
+      "name": "Steering-wheel spins",
+      "description": "The ship's wheel sets the number of free spins."
+    },
+    {
+      "name": "Bonus buy",
+      "description": "Buy free spins where permitted."
+    }
+  ],
+  "review": "Lucky Crew is a 20-line pirate slot where the Jolly Roger's crossed bones represent wild multipliers. Wilds appear only on reels 2, 3 and 4 and randomly get a 2x or 3x multiplier, which applies to every line they're part of.\n\nThree or more compass scatters trigger free spins, and before the round starts, the captain turns the ship's wheel to decide how many spins you get. A bonus buy is available where permitted. BGaming rates it very high volatility with a 3,525x maximum and a 95.98% RTP. It shares its structure with Penny Pelican.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.98% RTP",
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/LuckyCrew/FUN?server=demo",
+  "image": "/slots/bgaming/lucky-crew.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/lucky-crew"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

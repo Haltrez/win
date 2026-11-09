@@ -1,0 +1,57 @@
+{
+  "slug": "greedy-fortune-pig",
+  "name": "Greedy Fortune Pig",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 8888,
+  "releaseDate": "2025-02-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "walking-wilds",
+    "expanding-wilds",
+    "money-collect",
+    "respins",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "asian",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Expanding walking wilds",
+      "description": "Wilds expand, respin and step one reel left."
+    },
+    {
+      "name": "Growing multiplier",
+      "description": "+1x each time a wild moves."
+    },
+    {
+      "name": "Money collection",
+      "description": "Wilds collect all money symbol values."
+    }
+  ],
+  "review": "Greedy Fortune Pig is a money-collect slot with walking wilds. Money symbols worth up to 100x can land on any spin and are collected when a wild lands with them. Wilds also expand to fill their reel, trigger a respin and move one reel to the left, repeating until they leave the grid.\n\nEach move adds 1x to a win multiplier that applies to later wins in the respins. Three bonus symbols award 5 to 8 free spins, where that multiplier applies for the entire feature. Pragmatic Play advertises wins up to 8,888x. The RTP is 96.5%. A clever combination of expanding, walking wilds and growing multipliers.",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10fortnpig&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/greedy-fortune-pig.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/greedy-fortune-pig/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

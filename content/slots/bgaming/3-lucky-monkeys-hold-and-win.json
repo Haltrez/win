@@ -1,0 +1,58 @@
+{
+  "slug": "3-lucky-monkeys-hold-and-win",
+  "name": "3 Lucky Monkeys Hold & Win",
+  "provider": "bgaming",
+  "rtp": 96.98,
+  "volatility": "medium",
+  "maxWin": 5000,
+  "releaseDate": "2026-09-28",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "20 paylines",
+  "hitRate": 5.5,
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "money-collect",
+    "grid-expansion"
+  ],
+  "themes": [
+    "asian",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Monkey pots",
+      "description": "Special coins charge the Expand, Collect and Boost pots during the base game."
+    },
+    {
+      "name": "Upgraded Hold & Win",
+      "description": "The pots power up the respin bonus when it triggers."
+    },
+    {
+      "name": "Five jackpots",
+      "description": "From Mini to the Royal prize, with 5,000x for a full expanded grid."
+    }
+  ],
+  "review": "3 Lucky Monkeys Hold & Win is a classic-style 5x3, 20-line slot with Asian fortune symbols and gold coins. Special coins that land in the base game fly to one of three monkey pots above the reels, labelled Expand, Collect and Boost, and each pot shows how much it will contribute once the bonus opens.\n\nWhen the Hold & Win round starts, those pots upgrade it: Expand can enlarge the grid, Collect gathers coin values and Boost raises them. Five jackpots are available inside the feature, from Mini up to Grand and a Royal top prize, and filling a fully expanded grid awards the 5,000x maximum. BGaming rates it medium volatility with a 96.98% RTP. Watching the pots fill gives the base game a real sense of progress.",
+  "pros": [
+    "Above-average 96.98% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/ThreeLuckyMonkeysHoldAndWin/FUN?server=demo",
+  "image": "/slots/bgaming/3-lucky-monkeys-hold-and-win.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/3-lucky-monkeys-hold-win"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

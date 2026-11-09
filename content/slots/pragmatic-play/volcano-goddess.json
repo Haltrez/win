@@ -1,0 +1,57 @@
+{
+  "slug": "volcano-goddess",
+  "name": "Volcano Goddess",
+  "provider": "pragmatic-play",
+  "rtp": 96.49,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2025-02-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "money-collect",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Choice of bonus",
+      "description": "Pick Respins or Free Spins when six scatters land."
+    },
+    {
+      "name": "Sticky scatter respins",
+      "description": "Collect money values; filling the grid wins the Grand."
+    },
+    {
+      "name": "Four jackpots",
+      "description": "Up to 5,000x via wild-triggered bonuses."
+    }
+  ],
+  "review": "Volcano Goddess mixes jackpots with a scatter-collect system. Wilds can randomly start a bonus game with four jackpots worth up to 5,000x, and scatters carry values up to 1,000x.\n\nWhen six or more scatters land, you choose between Respins and Free Spins. Respins start with six spins, where sticky gold and green scatters collect money values until respins run out or the grid fills, which also awards the 5,000x Grand jackpot. In Free Spins, gold scatters act as wilds and award the trigger scatters' values. Pragmatic Play's page and in-game screens quote different maximums, so we haven't listed one. The RTP is 96.49%.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysvlcgds&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/volcano-goddess.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/volcano-goddess/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "mining-rush",
+  "name": "Mining Rush",
+  "provider": "pragmatic-play",
+  "rtp": 96.56,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-11-01",
+  "releaseDatePrecision": "month",
+  "reels": "7x7",
+  "mechanics": [
+    "cluster-pays",
+    "free-spins",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "adventure",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Cluster pays",
+      "description": "Five or more matching symbols win on a 7x7 grid."
+    },
+    {
+      "name": "Dynamite mines",
+      "description": "Scatters in wins become mines that stay on the reels."
+    },
+    {
+      "name": "Mine levels",
+      "description": "Mines level up after three wins."
+    }
+  ],
+  "review": "Mining Rush is a 7x7 cluster slot set underground, where five or more matching symbols in a cluster pay. In the base game, any winning combination that includes a dynamite scatter turns that scatter into a mine, which stays on the reels for the rest of the round.\n\nMines collect a point for each win, and three points take them to the next level, making further wins more likely. Three or more scatters trigger up to 20 free spins. The RTP is 96.56%, and Pragmatic Play doesn't list a max win on the page. The mine levels give the game an unusual sense of build-up.",
+  "pros": [
+    "Above-average 96.56% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20minerush&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/mining-rush.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/mining-rush/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

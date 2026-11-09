@@ -1,0 +1,53 @@
+{
+  "slug": "aztec-treasure-hunt",
+  "name": "Aztec Treasure Hunt",
+  "provider": "pragmatic-play",
+  "rtp": 96.03,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2024-07-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "adventure",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Mask wild-collector",
+      "description": "The wild collects money symbols with multipliers up to 50x."
+    },
+    {
+      "name": "Money icons",
+      "description": "Worth 10x to 1,000x."
+    },
+    {
+      "name": "Treasure chest bonus",
+      "description": "Cash accumulates and pays whenever a wild lands."
+    }
+  ],
+  "review": "Aztec Treasure Hunt features warriors, swords and golden statues, with an Aztec mask that acts as both wild and collector, carrying multipliers up to 50x. Money icons worth 10x to 1,000x are collected and paid whenever a wild lands with them.\n\nFive or more money symbols trigger free spins, in which all cash values are accumulated in a treasure chest and paid out each time a wild lands. Pragmatic Play advertises up to 5,000x. The RTP is 96.03%, slightly lower than average. A collect game with a meaningful wild multiplier.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20trswild3&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/aztec-treasure-hunt.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/aztec-treasure-hunt/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

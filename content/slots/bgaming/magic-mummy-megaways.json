@@ -1,0 +1,60 @@
+{
+  "slug": "magic-mummy-megaways",
+  "name": "Magic Mummy Megaways",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2026-03-12",
+  "releaseDatePrecision": "day",
+  "reels": "6x8",
+  "winType": "Megaways",
+  "hitRate": 3.98,
+  "bonusRate": 281.66,
+  "mechanics": [
+    "megaways",
+    "ways",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "egypt"
+  ],
+  "features": [
+    {
+      "name": "Megaways cascades",
+      "description": "Shifting reels with cascading wins."
+    },
+    {
+      "name": "Multiplying boosters",
+      "description": "Bonus boosters multiply together instead of adding."
+    },
+    {
+      "name": "Chance x2 and buy",
+      "description": "Double the bonus odds or buy free spins."
+    }
+  ],
+  "review": "Magic Mummy Megaways gives ancient Egypt a comic-book makeover, with a charming mummy running a colourful tomb. The reels shift in Megaways style and symbols cascade after wins.\n\nWhen the bonus starts, the mummy wakes up fully and summons boosters whose multipliers multiply together instead of adding up, which can produce large results quickly. Chance x2 doubles your chance of free spins, and the bonus can be bought where permitted. BGaming rates it very high volatility with a 5,000x maximum and a 97% RTP. Free spins arrive about once every 282 spins.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/MagicMummyMegaways/FUN?server=demo",
+  "image": "/slots/bgaming/magic-mummy-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/magic-mummy-megaways"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "diamond-of-jungle",
+  "name": "Diamond of Jungle",
+  "provider": "bgaming",
+  "rtp": 97.01,
+  "volatility": null,
+  "maxWin": 1500,
+  "releaseDate": "2024-03-21",
+  "releaseDatePrecision": "day",
+  "winType": "243 paylines",
+  "hitRate": 5.09,
+  "bonusRate": 122.74,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "animals",
+    "adventure",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Switchable volatility",
+      "description": "Choose between volatility modes in-game."
+    },
+    {
+      "name": "Multiplier free spins",
+      "description": "Random wins multiplied by 2x–10x."
+    },
+    {
+      "name": "Super Free Spins",
+      "description": "Bought mode with 2x–25x multipliers on wins."
+    }
+  ],
+  "review": "Diamond of Jungle is a comic-book jungle slot with 243 ways, featuring gorillas, tigers, elephants and toucans. You can switch volatility in-game between modes, which is unusual and useful for beginners.\n\nDiamond scatters trigger free spins in which random wins are multiplied by 2x to 10x. Two bonus buys are available where permitted: classic free spins, and Super Free Spins where each win is randomly multiplied by 2x to 25x. BGaming's details table and description give different volatility information, so we haven't labelled it. The maximum is 1,500x and the RTP is 97.01%. Free spins arrive about once every 123 spins.",
+  "pros": [
+    "Excellent 97.01% RTP – among the highest published",
+    "Bonus lands relatively often (about 1 in 123 spins on average)",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 1,500x max win",
+    "Provider doesn't publish a volatility rating",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/DiamondOfJungle/FUN?server=demo",
+  "image": "/slots/bgaming/diamond-of-jungle.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/diamond-of-jungle"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

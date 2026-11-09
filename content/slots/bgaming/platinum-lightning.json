@@ -1,0 +1,56 @@
+{
+  "slug": "platinum-lightning",
+  "name": "Platinum Lightning",
+  "provider": "bgaming",
+  "rtp": 96.29,
+  "volatility": "medium-high",
+  "maxWin": 8888,
+  "releaseDate": "2016-04-02",
+  "releaseDatePrecision": "day",
+  "winType": "25 paylines",
+  "hitRate": 2.12,
+  "bonusRate": 112.0,
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins",
+    "gamble"
+  ],
+  "themes": [
+    "mythology",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Scatter multipliers",
+      "description": "3–5 scatters multiply the win by 7x, 77x or 777x."
+    },
+    {
+      "name": "Locked wild reels",
+      "description": "Free spins lock reels 1 and 5 as wilds."
+    },
+    {
+      "name": "Classic 2016 design",
+      "description": "The original version of Platinum Lightning."
+    }
+  ],
+  "review": "Platinum Lightning is BGaming's original 2016 Zeus slot. It shares the same maths as the Deluxe version but has the older presentation, which some players prefer for its simplicity.\n\nScatters can appear anywhere and pay, with three, four and five scatters multiplying the win by 7x, 77x and 777x. Two bonus symbols on reels 1 and 5 trigger 10 free spins where those reels lock as wilds and only reels 2, 3 and 4 spin, so most spins in the bonus produce some win. An optional gamble follows base-game wins. BGaming lists medium-high volatility, an 8,888x maximum and a 96.29% RTP.",
+  "pros": [
+    "Bonus lands relatively often (about 1 in 112 spins on average)",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/PlatinumLightning/FUN?server=demo",
+  "image": "/slots/bgaming/platinum-lightning.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/platinum-lightning"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

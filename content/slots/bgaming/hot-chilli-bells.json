@@ -1,0 +1,56 @@
+{
+  "slug": "hot-chilli-bells",
+  "name": "Hot Chilli Bells",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium-low",
+  "maxWin": 5000,
+  "releaseDate": "2025-01-24",
+  "releaseDatePrecision": "day",
+  "winType": "100 paylines",
+  "hitRate": 9.0,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "hold-and-win",
+    "respins",
+    "multipliers"
+  ],
+  "themes": [
+    "food",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Adjustable paylines",
+      "description": "Change the number of lines and the stake."
+    },
+    {
+      "name": "Hold & Win",
+      "description": "Three respins with sticky bells."
+    },
+    {
+      "name": "Bell-count multipliers",
+      "description": "15 or 20 bells multiply the result by 2x or 3x."
+    }
+  ],
+  "review": "Hot Chilli Bells combines BGaming's best classic features: adjustable paylines with dynamic stake options, expanding wilds, and a Hold & Win bonus with multipliers and a progress bar.\n\nThe Hold & Win game starts with three respins and only sticky bonus bells. A progress indicator tracks the bells collected, and landing 15 or 20 bells multiplies the winnings by 2x or 3x. BGaming rates it medium-low volatility with a 5,000x maximum, and the RTP is 97%. Choose this over the 100-line version if you want control over how many lines you play.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/HotChilliBells/FUN?server=demo",
+  "image": "/slots/bgaming/hot-chilli-bells.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/hot-chilli-bells"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "chicken-fire",
+  "name": "Chicken Fire",
+  "provider": "bgaming",
+  "rtp": 95.9,
+  "volatility": "medium-high",
+  "maxWin": 5000,
+  "releaseDate": "2026-07-22",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "winType": "5 paylines",
+  "hitRate": 9.0,
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "multipliers",
+    "hold-and-win",
+    "jackpot",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Coin collect",
+      "description": "Collectors on reel 2 gather the values of coins on screen."
+    },
+    {
+      "name": "Wild chickens",
+      "description": "Wilds can leave multipliers behind."
+    },
+    {
+      "name": "Hold and Win jackpots",
+      "description": "Four jackpots, with three bonus buy options."
+    }
+  ],
+  "review": "Chicken Fire is a five-line classic slot created with LudexPlay. Coins land on the outer reels and Collect symbols appear only on reel 2: when coins land with a collector, their values are added and paid.\n\nWild chickens substitute for regular symbols and can leave multipliers behind. The Hold and Win bonus offers four jackpots shown at the top of the grid. Chance x2 is available, along with three bonus buy options where permitted: the classic bonus for 60x the bet, a high-volatility Super Bonus for 90x, and a third option. BGaming rates the game medium-high volatility with a 5,000x maximum and a 95.9% RTP.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.90% RTP",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/ChickenFire/FUN?server=demo",
+  "image": "/slots/bgaming/chicken-fire.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/chicken-fire"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

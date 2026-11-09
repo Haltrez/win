@@ -1,0 +1,53 @@
+{
+  "slug": "medusas-stone",
+  "name": "Medusa’s Stone",
+  "provider": "pragmatic-play",
+  "rtp": 96.46,
+  "volatility": null,
+  "maxWin": 7000,
+  "releaseDate": "2024-05-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "reel-modifiers",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Medusa Spin",
+      "description": "Turns character symbols on reels 2–4 into wilds."
+    },
+    {
+      "name": "Waiting wild multipliers",
+      "description": "Bonus wilds stay until used, adding to a running total."
+    },
+    {
+      "name": "Super Free Spins",
+      "description": "12 spins via Super Bonus symbols."
+    }
+  ],
+  "review": "Medusa's Stone is a Greek myth slot where the Medusa Spin feature can randomly turn character symbols on reels 2 to 4 into wilds in any base-game spin.\n\nThree bonus symbols award 10 free spins. During a Medusa Spin in the bonus, transformed wilds carry 2x to 6x multipliers and stay on screen until they're used in a win, at which point their multipliers join a running total applied to that win and later wins with wilds. Three Super Bonus symbols during a Medusa Spin start Super Free Spins with 12 spins. Pragmatic Play advertises up to 7,000x. The RTP is 96.46%.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20medusast&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/medusas-stone.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/medusas-stone/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

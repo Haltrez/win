@@ -1,0 +1,55 @@
+{
+  "slug": "lucky-oak",
+  "name": "Lucky Oak",
+  "provider": "bgaming",
+  "rtp": 96.17,
+  "volatility": "very-high",
+  "maxWin": 10990,
+  "releaseDate": "2023-02-23",
+  "releaseDatePrecision": "day",
+  "winType": "10 paylines",
+  "hitRate": 5.09,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "irish",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Oak tree machine",
+      "description": "The leprechaun's machine forms a bet multiplier."
+    },
+    {
+      "name": "Trigger multipliers",
+      "description": "4 bonus symbols add 3x, 5 add 10x."
+    },
+    {
+      "name": "Bonus buy",
+      "description": "Purchase the bonus where permitted."
+    }
+  ],
+  "review": "Lucky Oak is a St. Patrick's-themed 10-line slot in which a leprechaun hides in the grass, ready to reveal a magic slot machine inside a giant oak tree.\n\nIn the bonus, the leprechaun spins his machine and the figures it shows form a multiplier on your bet. The win is multiplied again by 3x if four bonus symbols triggered it, or 10x for five. The bonus can be bought where permitted. BGaming rates it very high volatility with a 10,990x maximum and a 96.17% RTP. It's the same family as Wild Cash x9990 and Lucky Lager.",
+  "pros": [
+    "High 10,990x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/LuckyOak/FUN?server=demo",
+  "image": "/slots/bgaming/lucky-oak.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/lucky-oak"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

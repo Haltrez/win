@@ -1,0 +1,56 @@
+{
+  "slug": "dynamite-diggin-doug",
+  "name": "Dynamite Diggin Doug",
+  "provider": "pragmatic-play",
+  "rtp": 96.51,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-07-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "multipliers",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "adventure",
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Plunger",
+      "description": "Increases detonation size and dynamite collection."
+    },
+    {
+      "name": "Dynamite progress",
+      "description": "Every three dynamite boost the winning symbols."
+    },
+    {
+      "name": "Three bonus types",
+      "description": "Free spins with 2x, 3x or 5x multipliers."
+    }
+  ],
+  "review": "Dynamite Diggin Doug is a 10-line mining slot with hard hats, shovels and coal trains. A plunger symbol on the middle reel increases the size of detonations, boosting the number of dynamite symbols collected.\n\nEvery three dynamite symbols increase the number of winning symbols in the game. Three feature symbols trigger free spins, with three bonus variations carrying 2x, 3x or 5x multipliers, and in the bonus you mine rocks to unlock winning combinations. The RTP is 96.51%. No max win is published on the provider's page.",
+  "pros": [
+    "Above-average 96.51% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10dyndigd&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/dynamite-diggin-doug.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/dynamite-diggin-doug/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

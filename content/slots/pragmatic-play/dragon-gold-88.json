@@ -1,0 +1,56 @@
+{
+  "slug": "dragon-gold-88",
+  "name": "Dragon Gold 88",
+  "provider": "pragmatic-play",
+  "rtp": 96.71,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-07-01",
+  "releaseDatePrecision": "month",
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "respins",
+    "free-spins",
+    "money-collect",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Scatter nudge respin",
+      "description": "Two scatters lock and respin for a third."
+    },
+    {
+      "name": "Pre-bonus modifiers",
+      "description": "Choose enhancements before free spins."
+    },
+    {
+      "name": "Up to 20 free spins",
+      "description": "Triggered by three or more scatters."
+    }
+  ],
+  "review": "Dragon Gold 88 is a 10-line Asian slot set among icy mountains, with turtles, frogs and fish. Three or more scatters trigger up to 20 free spins, and two scatters nudge down, lock in place and award a respin for a chance at the third.\n\nBefore the bonus begins, you can enhance it with modifiers such as extra money symbols, more dragons, two extra spins, or starting at a higher level, much like recent Big Bass titles. The RTP of 96.71% is high. Pragmatic Play doesn't publish a max win on the page. The scatter-nudge respin softens near misses.",
+  "pros": [
+    "Above-average 96.71% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10dgold88&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/dragon-gold-88.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/dragon-gold-88/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

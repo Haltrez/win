@@ -1,0 +1,59 @@
+{
+  "slug": "bonanza-billion-merge-up",
+  "name": "Bonanza Billion Merge Up+",
+  "provider": "bgaming",
+  "rtp": 97.04,
+  "volatility": "very-high",
+  "maxWin": 15000,
+  "releaseDate": "2026-09-24",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 2.59,
+  "bonusRate": 386.23,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "ante-bet"
+  ],
+  "themes": [
+    "fruit"
+  ],
+  "features": [
+    {
+      "name": "Merging clusters",
+      "description": "Four-symbol clusters pay and merge into higher-level symbols."
+    },
+    {
+      "name": "Bonanza free spins",
+      "description": "4/5/6 scatters award 10/20/30 free spins."
+    },
+    {
+      "name": "Additive multipliers",
+      "description": "2x–100x multipliers in free spins add together."
+    }
+  ],
+  "review": "Bonanza Billion Merge Up+ fuses BGaming's two biggest engines: the Bonanza Billion fruit theme and the Merge Up cluster mechanic. Four or more adjacent symbols form a cluster, and after the win pays, symbols disappear and merge into higher-level ones.\n\nFour, five or six scatters award 10, 20 or 30 free spins, and three or more scatters in the round add five more. Multiplier symbols only appear in free spins, taking values from 2x to 100x, and several multipliers add up at the end of a sequence. Chance x2 and a bonus buy are available where permitted. BGaming rates it very high volatility with a 15,000x maximum and a 97.04% RTP. Free spins arrive about once every 386 spins.",
+  "pros": [
+    "Excellent 97.04% RTP – among the highest published",
+    "High 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus is rare (about 1 in 386 spins on average)",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/BonanzaBillionMergeUp/FUN?server=demo",
+  "image": "/slots/bgaming/bonanza-billion-merge-up.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/bonanza-billion-merge-up"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

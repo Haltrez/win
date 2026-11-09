@@ -1,0 +1,54 @@
+{
+  "slug": "7-clovers-of-fortune",
+  "name": "7 Clovers of Fortune",
+  "provider": "pragmatic-play",
+  "rtp": 96.47,
+  "volatility": null,
+  "maxWin": 4454,
+  "releaseDate": "2024-09-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "respins",
+    "free-spins",
+    "jackpot"
+  ],
+  "themes": [
+    "irish"
+  ],
+  "features": [
+    {
+      "name": "Connect & Collect",
+      "description": "Connect special symbols from reel one to a special position."
+    },
+    {
+      "name": "Special reels",
+      "description": "Reel six and parts of reel three show only special symbols."
+    },
+    {
+      "name": "Three jackpots",
+      "description": "Minor, Major and Grand jackpots."
+    }
+  ],
+  "review": "7 Clovers of Fortune is part of Pragmatic Play's Connect and Collect series. The whole sixth reel, plus the top and bottom of the third reel, show only special symbols. Connecting matching special symbols from reel one to a special position awards that bonus: respins, extra wilds, cash collects or up to 25 free spins.\n\nMinor, Major and Grand jackpots can be won on any spin, and three or more pot-of-gold scatters also trigger free spins. Pragmatic Play gives the maximum win as 4,454x. The RTP is 96.47%. The connect system makes it quite different from standard Irish slots.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswayssevenc&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/7-clovers-of-fortune.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/7-clovers-of-fortune/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

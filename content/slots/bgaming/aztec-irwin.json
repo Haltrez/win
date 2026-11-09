@@ -1,0 +1,57 @@
+{
+  "slug": "aztec-irwin",
+  "name": "Aztec Irwin",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": "2025-03-13",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "adventure",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Cluster pays",
+      "description": "Five or more connected symbols win on a 6x8 grid."
+    },
+    {
+      "name": "Cell multipliers",
+      "description": "Refills reveal multipliers on winning cells."
+    },
+    {
+      "name": "Wild Spin and four buys",
+      "description": "Alternative spin mode and several purchase options."
+    }
+  ],
+  "review": "Aztec Irwin is a 6x8 cluster slot with an Aztec setting and a feline hero. Clusters of five or more pay in both the base game and the bonus, and refilling reels reveal cell multipliers as wins land.\n\nPaw scatters start free spins and then turn into even more volatile symbols, while bonus symbols trigger unexpected events. You can also play in Wild Spin mode or choose from four buy options where permitted. BGaming lists a 10,000x maximum and a 97% RTP; it doesn't publish a volatility rating for this title. It's built on the same principles as Aztec Clusters, with more ways to customise how you play.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/AztecIrwin/FUN?server=demo",
+  "image": "/slots/bgaming/aztec-irwin.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/aztec-irwin"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

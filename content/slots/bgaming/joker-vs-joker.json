@@ -1,0 +1,56 @@
+{
+  "slug": "joker-vs-joker",
+  "name": "Joker vs Joker",
+  "provider": "bgaming",
+  "rtp": 95.5,
+  "volatility": "very-high",
+  "maxWin": 7500,
+  "releaseDate": "2025-08-21",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "winType": "5 paylines",
+  "hitRate": 9.0,
+  "bonusRate": 177.0,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "3x3, five lines",
+      "description": "A compact retro layout."
+    },
+    {
+      "name": "Two wild types",
+      "description": "Two different wilds substitute for symbols."
+    },
+    {
+      "name": "VS free spins",
+      "description": "Five free spins with duelling Jokers and multipliers up to 100x."
+    }
+  ],
+  "review": "Joker vs Joker is a 3x3, five-line retro comic slot from BGaming and Golden Goat Gaming, in which two Jokers from different universes fight for power. Fruits, bars, bells and sevens make up the symbols, with two types of wild.\n\nThree scatters, or the bonus buy where permitted, trigger five free spins with VS symbols appearing during the round, where the duelling Jokers can deliver multipliers up to 100x. BGaming rates it very high volatility with a 7,500x maximum and a 95.5% RTP. Free spins arrive about once every 177 spins. Big potential packed into a tiny grid.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 95.50% RTP",
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/JokerVsJoker/FUN?server=demo",
+  "image": "/slots/bgaming/joker-vs-joker.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/joker-vs-joker"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

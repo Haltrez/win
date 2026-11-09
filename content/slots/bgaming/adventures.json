@@ -1,0 +1,57 @@
+{
+  "slug": "adventures",
+  "name": "Adventures",
+  "provider": "bgaming",
+  "rtp": 96.1,
+  "volatility": "medium-low",
+  "maxWin": 2100,
+  "releaseDate": "2024-05-28",
+  "releaseDatePrecision": "day",
+  "winType": "Cluster Pays",
+  "hitRate": 2.38,
+  "mechanics": [
+    "pay-anywhere",
+    "cascades",
+    "respins",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fantasy",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Monster battles",
+      "description": "Wins during each 10-spin cycle reduce a monster's health."
+    },
+    {
+      "name": "Three bonus games",
+      "description": "Goblin Coin Respin, Cerberus Cash (up to 999x) or the Dragon's choice."
+    },
+    {
+      "name": "Hero symbols",
+      "description": "Four heroes with unique symbols and abilities."
+    }
+  ],
+  "review": "Adventures is an anime RPG-themed take on BGaming's Bonanza engine, with four heroes who each bring their own symbols. It adds a 10-spin battle cycle: during each cycle you fight a random monster, and every winning combination reduces its health.\n\nDefeat the monster before the cycle ends and you trigger one of three bonus games. Beating the Goblin opens a coin respin, Cerberus starts a three-reel machine that generates a multiplier up to 999x, and the Dragon lets you choose among several options. A bonus buy can start the games directly where permitted. BGaming rates it medium-low volatility with a 2,100x maximum and a 96.1% RTP. The battle cycle makes base-game wins feel purposeful.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 2,100x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/Adventures/FUN?server=demo",
+  "image": "/slots/bgaming/adventures.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/adventures"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

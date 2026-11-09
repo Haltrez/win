@@ -1,0 +1,56 @@
+{
+  "slug": "gem-elevator",
+  "name": "Gem Elevator",
+  "provider": "pragmatic-play",
+  "rtp": 96.53,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-07-01",
+  "releaseDatePrecision": "month",
+  "reels": "6x5",
+  "mechanics": [
+    "cluster-pays",
+    "multipliers",
+    "free-spins",
+    "respins"
+  ],
+  "themes": [
+    "gems",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Elevator nudge",
+      "description": "Reels nudge up or down after spins to create wins."
+    },
+    {
+      "name": "Nudge wild multipliers",
+      "description": "Wilds in nudges carry 1x–10x."
+    },
+    {
+      "name": "Free spins",
+      "description": "Four to six bonus symbols trigger the round."
+    }
+  ],
+  "review": "Gem Elevator is a 6x5 cluster slot set deep underground, where five or more adjacent jewels form a win. Its signature feature is the elevator nudge: after every spin, the reels can randomly nudge up or down to create more winning combinations.\n\nWilds that land during nudges carry random multipliers from 1x to 10x. Four, five or six bonus symbols trigger free spins. The RTP is 96.53%, and no max win is published on the page. The nudges make each spin feel like it might still turn into a win after the reels stop.",
+  "pros": [
+    "Above-average 96.53% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Provider doesn't publish a volatility rating",
+    "No confirmed official max win figure",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20elevclust&lang=en&cur=USD&jurisdiction=99",
+  "image": "/slots/pragmatic-play/gem-elevator.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/gem-elevator/",
+    "In-game information screens (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

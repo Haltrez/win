@@ -1,0 +1,58 @@
+{
+  "slug": "disco-party",
+  "name": "Disco Party",
+  "provider": "bgaming",
+  "rtp": 97.01,
+  "volatility": "low",
+  "maxWin": 1500,
+  "releaseDate": "2025-01-21",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "243 paylines",
+  "hitRate": 5.4,
+  "bonusRate": 122.74,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "music"
+  ],
+  "features": [
+    {
+      "name": "Pick your character",
+      "description": "Male lead (medium) or female lead (low) volatility."
+    },
+    {
+      "name": "Adaptive symbols",
+      "description": "High-paying symbols change to match your choice."
+    },
+    {
+      "name": "Two free spins rounds",
+      "description": "Both multiply winning combinations."
+    }
+  ],
+  "review": "Disco Party is a nightclub dating game with a twist: you choose your volatility by choosing your character. The male lead plays at medium volatility and the female lead at low, and the high-paying symbols adapt to match your choice.\n\nTwo free spins rounds multiply your winning matchups. Like Diamond of Jungle, it uses 243 ways and shares the same 1,500x maximum and 97.01% RTP. BGaming's table lists it as low volatility. Free spins arrive about once every 123 spins on average, and bonus buys are available where permitted. The character-based volatility choice is a neat idea for players still learning what volatility means.",
+  "pros": [
+    "Excellent 97.01% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Bonus lands relatively often (about 1 in 123 spins on average)"
+  ],
+  "cons": [
+    "Modest 1,500x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/DiscoParty/FUN?server=demo",
+  "image": "/slots/bgaming/disco-party.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/disco-party"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

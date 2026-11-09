@@ -1,0 +1,58 @@
+{
+  "slug": "jungle-queen",
+  "name": "Jungle Queen",
+  "provider": "bgaming",
+  "rtp": 96.15,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": "2025-02-20",
+  "releaseDatePrecision": "day",
+  "winType": "20 paylines",
+  "hitRate": 4.22,
+  "bonusRate": 218.8,
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "progressive-multiplier",
+    "bonus-buy"
+  ],
+  "themes": [
+    "adventure",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Golden Queen coins",
+      "description": "Instant-win coins worth up to 2,500x."
+    },
+    {
+      "name": "Butterfly multiplier",
+      "description": "Collect butterflies to raise the free spins multiplier."
+    },
+    {
+      "name": "Symbol removal",
+      "description": "Each level removes the lowest symbol and adds three spins."
+    }
+  ],
+  "review": "Jungle Queen is a 20-line adventure in a mystical jungle ruled by a generous goddess. Mystery butterflies and instant-win Golden Queen coins worth up to 2,500x keep the base game interesting.\n\nThe free spins round starts with a 1x multiplier, which grows by one each time you collect the required number of butterflies. Each new level also removes the current lowest-paying symbol from the rest of the bonus and adds three extra spins, so the reels get richer as the round continues. Free spins can be bought where permitted. BGaming rates it high volatility with a 10,000x maximum and a 96.15% RTP. Free spins arrive about once every 219 spins.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/JungleQueen/FUN?server=demo",
+  "image": "/slots/bgaming/jungle-queen.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/jungle-queen"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}

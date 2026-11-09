@@ -1,0 +1,61 @@
+{
+  "slug": "miss-cherry-fruits-jackpot-party",
+  "name": "Miss Cherry Fruits Jackpot Party",
+  "provider": "bgaming",
+  "rtp": 94.65,
+  "volatility": "medium-low",
+  "maxWin": 1299,
+  "releaseDate": "2022-07-28",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "winType": "25 paylines",
+  "hitRate": 2.71,
+  "bonusRate": 98.0,
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "free-spins",
+    "ante-bet"
+  ],
+  "themes": [
+    "fruit",
+    "music"
+  ],
+  "features": [
+    {
+      "name": "Disco Ball Respin",
+      "description": "Disco ball symbols trigger respins with three jackpots."
+    },
+    {
+      "name": "Free spins",
+      "description": "Traditional free spins with wilds."
+    },
+    {
+      "name": "Chance x2.5",
+      "description": "Raises your chance of reaching the bonus."
+    }
+  ],
+  "review": "Miss Cherry Fruits Jackpot Party is a sparkly 5x3, 25-line follow-up to Miss Cherry Fruits. Its Disco Ball Respin feature flashes the reels and uses special disco ball symbols to award three different jackpots.\n\nTraditional free spins and wilds are also included, and Chance x2.5 raises your chances of reaching free spins. BGaming rates it medium-low volatility with a 1,299x maximum. The RTP is 94.65%, among the lower ones in this catalogue. Free spins arrive frequently, about once every 98 spins. It's built on the same base as Monster Hunt.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Bonus lands relatively often (about 1 in 98 spins on average)",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Below-average 94.65% RTP",
+    "Modest 1,299x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.bgaming-network.com/play/MissCherryFruitsJackpotparty/FUN?server=demo",
+  "image": "/slots/bgaming/miss-cherry-fruits-jackpot-party.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/miss-cherry-fruits-jackpot-party"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-09",
+  "updatedAt": "2026-11-09",
+  "author": "editorial-team"
+}
