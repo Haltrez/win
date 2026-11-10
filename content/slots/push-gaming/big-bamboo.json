@@ -42,7 +42,7 @@
     "razor-shark",
     "money-train-2"
   ],
-  "demoUrl": "https://player.eu.demo.pushgaming.com/mesh/b2c/igp/pg-com/launch?mode=DEMO&country=GB&rgsCode=hive&ccyCode=fun&jurisdiction=NA&rgsGameId=bigbamboo-01&lang=en&token={uuid}&lobbyUrl=https%3A%2F%2Fwww.scatterdrop.com",
+  "demoUrl": "https://player.eu.demo.pushgaming.com/mesh/b2c/igp/pg-com/launch?mode=DEMO&country=GB&rgsCode=hive&ccyCode=fun&jurisdiction=NA&rgsGameId=bigbamboo-01&lang=en&token={uuid}",
   "image": "/thumbs/push-gaming/big-bamboo.webp",
   "sources": [
     "Provider game sheet / in-game info screen (verify before launch)"

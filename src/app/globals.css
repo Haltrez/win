@@ -361,3 +361,4 @@ h2 { font-size: clamp(1.25rem, 2.4vw, 1.6rem); margin-top: 2em; }
   .demo-empty { aspect-ratio: auto; min-height: 300px; }
   .demo-empty .demo-art { width: 44%; }
 }
+a.demo-facade, a.demo-facade:hover { text-decoration: none; }

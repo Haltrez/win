@@ -7,7 +7,7 @@ import { DemoCta, isCtaTest, type CtaCasino } from './DemoCta';
  * is only requested after an explicit click, which keeps LCP/INP/CLS unaffected on page load.
  * URLs are validated against the provider's allowlisted demo domains at build time (scripts/validate-content.mjs).
  */
-export function DemoEmbed({ name, url, providerName, launchPath, image, cta, geoNote }: { geoNote?: boolean; name: string; url?: string | null; providerName: string; launchPath: string; image?: string; cta?: { casinos: CtaCasino[]; slotKey: string } }) {
+export function DemoEmbed({ name, url, providerName, launchPath, image, cta, externalUrl }: { externalUrl?: string; name: string; url?: string | null; providerName: string; launchPath: string; image?: string; cta?: { casinos: CtaCasino[]; slotKey: string } }) {
   const [on, setOn] = useState(false);
   const [src, setSrc] = useState<string | null>(null);
   const box = useRef<HTMLDivElement>(null);
@@ -45,12 +45,22 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta, geo
     <div className={`demo${on ? ' playing' : ''}`} ref={box}>
       {on ? (
         <>
-        <iframe src={src ?? undefined} title={`${name} free demo by ${providerName}`} allow="fullscreen; autoplay" allowFullScreen
-          // Push Gaming's player fails inside a sandboxed frame; embed it exactly as pushgaming.com does.
-          {...(geoNote ? { referrerPolicy: 'no-referrer' as const } : { sandbox: 'allow-scripts allow-same-origin allow-popups allow-forms allow-pointer-lock' })} />
+        <iframe src={src ?? undefined} title={`${name} free demo by ${providerName}`} allow="fullscreen; autoplay" allowFullScreen sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-pointer-lock" />
         <button className="demo-fs" onClick={fullscreen} aria-label={`Play ${name} full screen`}>⤢ Full screen</button>
         </>
       ) : (
+        externalUrl ? (
+          <a className="demo-facade" href={externalUrl} target="_blank" rel="noopener" aria-label={`Play the free ${name} demo on ${providerName}'s website`}>
+          {image ? <span className="demo-bg" style={{ backgroundImage: `url(${image})` }} aria-hidden /> : null}
+          <span className="demo-stage">
+            {image ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img className="demo-art" src={image} alt={`${name} slot by ${providerName}`} width={480} height={360} />
+            ) : null}
+            <span className="demo-cta"><span className="demo-play" aria-hidden /> Play free demo on {providerName}</span>
+          </span>
+          </a>
+        ) : (
         <button className="demo-facade" onClick={start} aria-label={`Play the free ${name} demo`}>
           {image ? <span className="demo-bg" style={{ backgroundImage: `url(${image})` }} aria-hidden /> : null}
           <span className="demo-stage">
@@ -61,9 +71,9 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta, geo
             <span className="demo-cta"><span className="demo-play" aria-hidden /> Play free demo</span>
           </span>
         </button>
+        )
       )}
     </div>
-    {on && geoNote ? <p className="demo-hint">Game not loading? {providerName} blocks its free demos in some countries.</p> : null}
     {on && (cta?.casinos.length || isCtaTest()) ? <DemoCta casinos={cta?.casinos ?? []} slotName={name} slotKey={cta?.slotKey ?? name} /> : null}
     </>
   );

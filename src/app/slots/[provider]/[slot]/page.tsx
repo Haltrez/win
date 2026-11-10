@@ -102,7 +102,7 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
 
       <div className="slot-hero">
         <div>
-          <DemoEmbed name={s.name} url={s.demoUrl} providerName={p.name} launchPath={`/api/demo/${s.provider}/${s.slug}`} geoNote={s.provider === 'push-gaming'} image={s.image ?? undefined}
+          <DemoEmbed name={s.name} url={s.demoUrl} providerName={p.name} launchPath={`/api/demo/${s.provider}/${s.slug}`} externalUrl={s.provider === 'push-gaming' && s.demoUrl ? `https://www.pushgaming.com/games/play/${s.slug}.html` : undefined} image={s.image ?? undefined}
             cta={FEATURES.realMoney && casinos.length ? { slotKey: `${s.provider}/${s.slug}`, casinos: casinos.map((c) => ({ slug: c.slug, name: c.name, geos: c.geos, bonus: c.bonus, terms: c.terms })) } : undefined} />
         </div>
         <aside className="side-card" aria-label={`${s.name} key facts`}>
