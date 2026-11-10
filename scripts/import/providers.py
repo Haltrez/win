@@ -6,6 +6,7 @@ Normalised game dict keys (None when the provider does not publish a value – n
 """
 from __future__ import annotations
 
+import datetime
 import json
 import re
 
@@ -176,11 +177,20 @@ class Hacksaw:
             g['winType'] = w.group(1).strip() if w else None
             m = re.search(r'Max win:\s*([\d,. ]+)x', s)
             g['maxWin'] = int_x(m.group(1)) if m else None
-            r = re.search(r'RTP:\s*([\d.;%\s]+)', s)
+            r = re.search(r'RTPs?:\s*([\d.,;%\s]+)', s)  # "RTP: 96.2%" or "RTPs: 96.22%, 94.16%, 92%"
             if r:
-                rtps = [float(x) for x in re.findall(r'\d+\.\d+', r.group(1))]
+                # decimals with or without "%" ("88.26"), whole numbers only with "%" ("96%", "94.%")
+                rtps = [float(a) for a, pct in re.findall(r'(\d{2}(?:\.\d+)?)\.?\s*(%?)', r.group(1)) if '.' in a or pct]
+                rtps = [x for x in rtps if 80 <= x <= 99.9]
                 if rtps:
                     g['rtp'], g['rtpVariants'], g['rtpSource'] = rtps[0], rtps[1:], 'provider'
+            d = re.search(r'Release Date:\s*(?:([A-Za-z]+)\s+(\d{1,2})(?:st|nd|rd|th)?|(\d{1,2})(?:st|nd|rd|th)?\s+([A-Za-z]+)),?\s+(\d{4})', s)
+            if d:
+                mon, day = (d.group(1), d.group(2)) if d.group(1) else (d.group(4), d.group(3))
+                try:
+                    g['releaseDate'] = datetime.datetime.strptime(f'{mon[:3]} {day} {d.group(5)}', '%b %d %Y').strftime('%Y-%m-%d')
+                except ValueError:
+                    pass
         else:
             # No GAME DATA block: use the game's own description ("Maxwin: 10, 000x", "Volatility: 3/5").
             m = re.search(r'Maxwin: \| ([\d, ]+)x', t) or re.search(r'max win of ([\d, ]+) times', t, re.I)

@@ -1,0 +1,52 @@
+{
+  "slug": "eye-of-medusa",
+  "name": "Eye of Medusa",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "mechanics": [
+    "ways",
+    "cascades",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Medusa cascades",
+      "description": "Medusa stays through low-paying wins and petrifies high-paying symbols, which sink to the bottom."
+    },
+    {
+      "name": "Petrified multipliers",
+      "description": "At the end of a cascade, petrified symbols reveal up to 500x and Medusa adds up to 20x."
+    },
+    {
+      "name": "Two bonus rounds",
+      "description": "Snakes & Stones gives 10–12 spins, and Gorgon's Gold gives 12 spins with a minimum Medusa multiplier."
+    }
+  ],
+  "review": "Eye of Medusa is a 5-reel, 5-row Hacksaw Gaming slot with ways wins and Super Cascades, which remove every winning symbol and drop new ones in. The Medusa symbol changes how each cascade plays out: on a low-paying win it stays put while the rest refill, and on a high-paying win those symbols are petrified and sink to the bottom with Medusa.\n\nWhen the cascade ends, petrified symbols reveal multipliers up to 500x and Medusa boosts the total by up to 20x. Three or four FS start Snakes & Stones with 10 or 12 free spins and a better chance of strong Medusa symbols. Five FS start Gorgon's Gold, where Medusa has a minimum multiplier that can grow. Hacksaw lists a 10,000x max win.",
+  "demoUrl": "https://static-live.hacksawgaming.com/1740/{version}/index.html?language=en&channel=desktop&gameid=1740&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
+    "Hacksaw Gaming doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/eye-of-medusa.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/eye-of-medusa"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { ProviderLogo } from '@/components/ProviderLogo';
 import { insightFaq, insightSentences, listInsights } from '@/lib/insights';
 import { notFound } from 'next/navigation';
-import { getCasinosForProvider, getProvider, getProviders, getSlotsByProvider, slotUrl } from '@/lib/data';
+import { getCasinosForProvider, getGuides, getProvider, getProviders, getSlotsByProvider, slotUrl } from '@/lib/data';
 import { getCategories, getCategorySlots, isIndexable } from '@/lib/categories';
 import { buildMetadata, providerDescription, providerTitle } from '@/lib/seo';
 import { itemList } from '@/lib/schema';
@@ -40,6 +40,10 @@ export default async function ProviderPage({ params }: { params: Promise<P> }) {
   const withRtp = slots.filter((s) => s.rtp != null);
   const avgRtp = withRtp.length ? withRtp.reduce((t, s) => t + s.rtp!, 0) / withRtp.length : 0;
   const cats = getCategories().filter((c) => isIndexable(c) && getCategorySlots(c).some((s) => s.provider === p.slug) && c.group !== 'release').slice(0, 10);
+  // Guides that link to this provider or its games, most references first.
+  const guides = getGuides()
+    .map((g) => ({ g, n: (g.html.match(new RegExp(`/providers/${p.slug}"|/slots/${p.slug}/`, 'g')) || []).length }))
+    .filter((x) => x.n > 0).sort((a, b) => b.n - a.n).slice(0, 6).map((x) => x.g);
   const faq = slots.length
     ? [
         { q: `What is the best ${p.name} slot?`, a: rated[0] ? `Based on our reviews, ${rated[0].name} is currently the highest-rated ${p.name} slot on our site, scoring ${rated[0].rating}/10.` : `We haven't scored ${p.name} slots yet. Popular picks include ${byRating.slice(0, 3).map((s) => s.name).join(', ')} – try them in demo and compare their RTP, volatility and max win below.` },
@@ -92,6 +96,7 @@ export default async function ProviderPage({ params }: { params: Promise<P> }) {
       ) : (
         <p className="notice">Reviews for {p.name} slots are on the way. In the meantime, browse <Link href="/best/new-slots">new releases</Link>.</p>
       )}
+      {guides.length ? (<><h2>Guides featuring {p.name}</h2><ul className="inline-links">{guides.map((g) => <li key={g.slug}><Link href={`/guides/${g.slug}`}>{g.title.split(/[:(]/)[0].trim()}</Link></li>)}</ul></>) : null}
       {cats.length ? (<><h2>{p.name} slots by type</h2><ul className="inline-links">{cats.map((c) => <li key={c.slug}><Link href={`/best/${c.slug}`}>{c.title.replace(/\s+\d{4}$/, '')}</Link></li>)}</ul></>) : null}
       <AffiliateDisclosure />
       <CasinoModule casinos={getCasinosForProvider(p.slug)} title={`Casinos with ${p.name} slots`} context={`provider:${p.slug}`} />

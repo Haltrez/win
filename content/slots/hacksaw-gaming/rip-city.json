@@ -2,8 +2,8 @@
   "slug": "rip-city",
   "name": "Rip City",
   "provider": "hacksaw-gaming",
-  "rtp": null,
-  "volatility": null,
+  "rtp": 96.22,
+  "volatility": "medium",
   "maxWin": 12500,
   "releaseDate": null,
   "reels": "5x5",
@@ -34,11 +34,11 @@
   "review": "R.I.P. City is a 5x5 cartoon slapstick slot starring Ro$$ the Cat and Maxx the Mouse. The Wild Cat symbol can drop down into an expanding wild that may cover its whole reel. If it swallows a regular wild on the way, that wild's multiplier transfers to the whole expanded cat.\n\nThe Ro$$ bonus gives more Wild Cats, and the higher tier is where multipliers stack up. It's a playful setup with a clear goal: you want long expanded cats eating multiplier wilds. The maximum is 12,500x. Later games such as Rad Maxx and Hot Ross build on the same characters.",
   "pros": [
     "High 12,500x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
     "Full game playable in the official free demo"
   ],
   "cons": [
-    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
-    "Provider doesn't publish a volatility rating for this game",
+    "Casinos can run versions as low as 88.02% RTP",
     "Short-session results can differ widely from the long-term average"
   ],
   "demoUrl": "https://static-live.hacksawgaming.com/1233/{version}/index.html?language=en&channel=desktop&gameid=1233&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
@@ -51,5 +51,10 @@
   "verified": true,
   "lastVerified": "2026-11-10",
   "updatedAt": "2026-11-10",
-  "author": "editorial-team"
+  "author": "editorial-team",
+  "rtpVariants": [
+    94.27,
+    92.32,
+    88.02
+  ]
 }

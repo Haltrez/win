@@ -1,0 +1,52 @@
+{
+  "slug": "killer-night",
+  "name": "Killer Night",
+  "provider": "pragmatic-play",
+  "rtp": 96.52,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2026-10-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "expanding-wilds",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Expanding wild multipliers",
+      "description": "Wilds stretch to cover 2–5 positions and can carry up to 10x, multiplying together in the same win."
+    },
+    {
+      "name": "Sticky merging wilds",
+      "description": "In free spins all wilds stay put, and a new wild landing next to one merges with it and adds the multipliers."
+    },
+    {
+      "name": "Super free spins",
+      "description": "A super scatter in the trigger starts a version where at least three expanding wilds land on the first spin."
+    }
+  ],
+  "review": "Killer Night is an 80s-style thriller slot from Pragmatic Play built around expanding wilds. Any wild that lands can stretch up or down to cover two to five positions and may carry a multiplier of up to 10x. When several wild multipliers are part of the same win, their values multiply together rather than add.\n\nThree to five scatters award 10 to 20 free spins, and every wild becomes sticky for the whole round. A new wild landing directly above or below a sticky one merges with it, adding the two multipliers. A super scatter in the trigger starts super free spins, where at least three expanding wilds always land on the first spin. Published RTP is 96.52%. Best for players who like wild-driven bonuses.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs15killerp&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.52% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/killer-night.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/killer-night/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

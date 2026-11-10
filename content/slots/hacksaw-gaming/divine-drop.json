@@ -1,0 +1,53 @@
+{
+  "slug": "divine-drop",
+  "name": "Divine Drop",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": "medium",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "respins",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Wild Multipliers with Vitality",
+      "description": "Wilds worth 2x–200x stay sticky and award respins while they have Vitality hearts left."
+    },
+    {
+      "name": "Aphrodite's Love and Zeus's Thunder",
+      "description": "Hearts restore Vitality to all wilds, and the X symbol doubles every wild multiplier."
+    },
+    {
+      "name": "FS Collect",
+      "description": "3–4 FS symbols trigger a bonus, and single FS symbols can be banked in a meter during respins."
+    }
+  ],
+  "review": "Divine Drop is a 5-reel, 4-row Hacksaw Gaming slot with 14 paylines and a Greek gods theme. Its main feature is the Wild Multiplier, worth 2x up to 200x, and several wilds in one win add their values together. Wilds can land with up to three Vitality hearts; while any remain, the wild stays sticky and awards respins, losing one heart per respin.\n\nHeart symbols restore Vitality, and the X symbol doubles every wild multiplier on the grid. Three or four FS symbols trigger the bonus games, and lone FS symbols can be collected in a meter during respins. Hacksaw lists 3/5 volatility and a 10,000x max win. It suits players who like sticky-wild respin chains.",
+  "demoUrl": "https://static-live.hacksawgaming.com/1490/{version}/index.html?language=en&channel=desktop&gameid=1490&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/divine-drop.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/divine-drop"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

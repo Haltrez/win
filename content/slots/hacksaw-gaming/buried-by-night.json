@@ -1,0 +1,59 @@
+{
+  "slug": "buried-by-night",
+  "name": "Buried by Night",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.0,
+  "rtpVariants": [
+    94.0,
+    92.0,
+    86.0
+  ],
+  "volatility": "high",
+  "maxWin": 15000,
+  "releaseDate": "2026-11-10",
+  "releaseDatePrecision": "day",
+  "winType": "Paylines",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "DuelRows",
+      "description": "VS symbols expand into horizontal wild rows that trigger a duel, and the winner's multiplier applies to connected wins."
+    },
+    {
+      "name": "Two free-spins rounds",
+      "description": "3 FS for 10 spins with more VS symbols, or 4 FS for 8 spins with a DuelSpin Bar of extras."
+    },
+    {
+      "name": "Hot 100 bonus",
+      "description": "Three Hot 100 symbols start one spin where nudges continue until 100 wins are awarded."
+    }
+  ],
+  "review": "Buried by Night is a Western duel slot from Hacksaw Gaming built on DuelRows. VS symbols expand sideways into a Wild DuelRow whose length depends on the reel they land on. The DuelRow then stages a duel, and the surviving duelist's multiplier applies to every win it connects to.\n\nThree FS symbols give 10 free spins with more VS symbols, and four give 8 free spins with a DuelSpin Bar that awards extra spins, VS symbols and nudges. Three Hot 100 symbols start a single spin where nudges keep triggering until 100 wins are paid. Hacksaw publishes 4/5 volatility, a 15,000x max win and RTP versions of 96%, 94%, 92% and 86%. It suits players who like duel-style multipliers.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2577/{version}/index.html?language=en&channel=desktop&gameid=2577&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 86.00% RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/buried-by-night.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/buried-by-night"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

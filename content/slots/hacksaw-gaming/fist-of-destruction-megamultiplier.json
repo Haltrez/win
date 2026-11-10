@@ -1,0 +1,60 @@
+{
+  "slug": "fist-of-destruction-megamultiplier",
+  "name": "Fist of Destruction Megamultiplier",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.23,
+  "rtpVariants": [
+    94.29,
+    92.28,
+    86.28
+  ],
+  "volatility": "very-high",
+  "maxWin": 15000,
+  "releaseDate": "2026-09-17",
+  "releaseDatePrecision": "day",
+  "winType": "Paylines",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins",
+    "respins"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Fist Wild Reels",
+      "description": "Winning Fist symbols expand into wild reels that gain multipliers by punching Fighters or wilds."
+    },
+    {
+      "name": "Megamultiplier",
+      "description": "Three Megamultipliers award the max win, and one with 3–4 FS upgrades the bonus with a global multiplier."
+    },
+    {
+      "name": "Throwdown bonuses",
+      "description": "10 free spins where earning 3 Victory Points triggers an Epic Drop respin."
+    }
+  ],
+  "review": "Fist of Destruction Megamultiplier revisits Hacksaw's street-fight slot on a 5-reel, 4-row paylines grid. Fist symbols that form a win expand into Wild Reels, which gain multipliers by punching through opposing Fighters or wilds; multipliers on the same win are added together.\n\nThe Megamultiplier symbol is the twist. Three at once award the max win straight away, and one landing alongside three or four FS upgrades the bonus so all its wins are combined and multiplied by a global Megamultiplier. The normal bonuses give 10 free spins where Victory Points trigger an Epic Drop respin. Hacksaw publishes 5/5 volatility, a 15,000x max win and RTP versions from 96.23% down to 86.28%. Best for high-volatility fans.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2536/{version}/index.html?language=en&channel=desktop&gameid=2536&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 86.28% RTP",
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/fist-of-destruction-megamultiplier.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/fist-of-destruction-megamultiplier"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

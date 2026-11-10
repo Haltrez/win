@@ -1,0 +1,53 @@
+{
+  "slug": "sweet-loot",
+  "name": "Sweet Loot",
+  "provider": "pragmatic-play",
+  "rtp": 96.53,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2026-10-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "candy",
+    "pirates"
+  ],
+  "features": [
+    {
+      "name": "Top-reel multiplier overlays",
+      "description": "Symbols on the horizontal reel can carry multipliers up to 500x, summed for any win they are part of."
+    },
+    {
+      "name": "Free spins with instant prize",
+      "description": "4–6 scatters award 10–30 free spins and an instant prize, with at least one overlay on every spin."
+    },
+    {
+      "name": "Super free spins",
+      "description": "Super scatters on the top reel unlock a version where every top-reel symbol carries a multiplier."
+    }
+  ],
+  "review": "Sweet Loot mixes candy and pirate themes on a 6×5 grid with an extra horizontal reel above reels two to five. It pays anywhere: 8 to 12 or more matching symbols win up to 100x, with tumbles after each win. Symbols on the top reel can carry multiplier overlays worth up to 500x, and all overlays in a winning combination are added together.\n\nFour to six scatters award 10 to 30 free spins plus an instant prize of up to 2,000x. At least one multiplier overlay appears on every free spin, and three more scatters add five spins. Super scatters can only land on the top reel; in super free spins every top-reel symbol carries a multiplier. Published RTP is 96.53%. A good fit for fans of tumbling pay-anywhere slots.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20stopbnnza&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.53% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/sweet-loot.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/sweet-loot/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "sweet-bonanza-pop",
+  "name": "Sweet Bonanza POP",
+  "provider": "pragmatic-play",
+  "rtp": 97.05,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2026-10-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins",
+    "jackpot"
+  ],
+  "themes": [
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "Compact pay-anywhere grid",
+      "description": "5–9+ matching symbols anywhere on the 3×5 grid pay, with tumbles after every win."
+    },
+    {
+      "name": "Candy bomb multipliers",
+      "description": "Multipliers up to 1,000x stay through a tumble sequence and their total applies to the win."
+    },
+    {
+      "name": "POP jackpots",
+      "description": "One, two or three POP symbols in the trigger award the 50x, 500x or 25,000x jackpot."
+    }
+  ],
+  "review": "Sweet Bonanza POP squeezes the candy series onto a 3×5 grid. Five to nine or more matching symbols anywhere pay up to 50x, and tumbling reels give more wins from one spin. It is the fastest-feeling entry in the series and carries a published RTP of 97.05%, one of Pragmatic Play's higher defaults.\n\nAny three or more lollipop scatters or POP symbols trigger 10 free spins. During the bonus, candy bomb multipliers up to 1,000x land, stay on screen through the tumble sequence, and their sum applies at the end. Three or four scatters add five or ten spins. One, two or three POP symbols in the trigger also award the 50x, 500x or 25,000x jackpot. It suits players who like quick spins with a jackpot on top.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10swtbnz&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Excellent 97.05% RTP – among the highest published",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/sweet-bonanza-pop.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/sweet-bonanza-pop/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

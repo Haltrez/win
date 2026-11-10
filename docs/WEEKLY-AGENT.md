@@ -48,7 +48,7 @@ re-run `make_thumb` from `scripts/import/common.py` with a different `ybias` (0 
 python3 scripts/import/recheck.py --per-provider 15
 ```
 
-- Apply clear, official changes: `python3 scripts/import/recheck.py --per-provider 15 --apply`.
+- Apply clear, official changes: `python3 scripts/import/recheck.py --per-provider 15 --apply`. Use `--providers hacksaw-gaming --per-provider 200` to re-check one provider in full.
 - If a changed number also appears in the review text (e.g. "rated 4 out of 5"), fix the wording by hand.
 - Report "source unreachable / no official page" items in the PR; don't guess replacements.
 

@@ -51,10 +51,10 @@
   "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20olympx&lang=en&cur=USD&jurisdiction=99",
   "image": "/thumbs/pragmatic-play/gates-of-olympus-1000.webp",
   "sources": [
-    "Provider game sheet / in-game info screen (verify before launch)"
+    "https://www.pragmaticplay.com/en/games/gates-of-olympus-1000/"
   ],
-  "verified": false,
-  "lastVerified": null,
+  "verified": true,
+  "lastVerified": "2026-11-10",
   "updatedAt": "2026-11-09",
   "author": "editorial-team"
 }

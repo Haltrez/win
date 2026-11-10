@@ -1,0 +1,52 @@
+{
+  "slug": "dusk-princess",
+  "name": "Dusk Princess",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers"
+  ],
+  "themes": [
+    "fantasy",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Super Cascades",
+      "description": "Every regular symbol of a winning type is removed, not just the winning cluster, before new symbols fall."
+    },
+    {
+      "name": "Blessing Bar",
+      "description": "Wins fill a bar that drops wilds with multipliers when full, needing two more symbols each time."
+    },
+    {
+      "name": "Growing wild rewards",
+      "description": "Each activation can add another wild or raise the multiplier by values from 1x to 500x."
+    }
+  ],
+  "review": "Dusk Princess is a 6-reel, 5-row cluster slot from Hacksaw Gaming with a night-sky, gem-filled look. It uses Super Cascades: when a win lands, every regular symbol of that type is removed from the grid, not just the winning ones, and new symbols drop in.\n\nWinning symbols also fill the Blessing Bar beside the grid. The first fill needs an 8-symbol win, and each later fill needs two more symbols. When full, it drops wilds carrying a multiplier that applies to connected wins. Each activation can add another wild or raise the multiplier with additive values from 1x up to 500x. Hacksaw lists a 10,000x max win, reachable in all game modes. It suits fans of cascading cluster games with a building meter.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2190/{version}/index.html?language=en&channel=desktop&gameid=2190&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
+    "Hacksaw Gaming doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/dusk-princess.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/dusk-princess"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

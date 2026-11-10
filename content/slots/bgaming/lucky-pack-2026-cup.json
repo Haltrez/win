@@ -1,0 +1,54 @@
+{
+  "slug": "lucky-pack-2026-cup",
+  "name": "Lucky Pack: 2026 Cup",
+  "provider": "bgaming",
+  "rtp": 96.1,
+  "volatility": "very-high",
+  "maxWin": 10490,
+  "releaseDate": "2026-05-21",
+  "releaseDatePrecision": "day",
+  "winType": "10 paylines",
+  "hitRate": 11.55,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Card-pack bonus",
+      "description": "3+ scatters open a bonus where you choose a pack and reveal a footballer with a multiplier."
+    },
+    {
+      "name": "Four pack tiers",
+      "description": "Random, Bronze, Silver and Gold packs, with Gold offering multipliers up to 9,990x."
+    },
+    {
+      "name": "Bonus buy",
+      "description": "Where permitted, the card-pack bonus can be bought directly instead of waiting for scatters."
+    }
+  ],
+  "review": "Lucky Pack: 2026 Cup is a football-themed 5×3 BGaming slot with 10 paylines, built around a card-pack bonus inspired by football video games. You pick a national team before playing, and wins land to stadium sounds.\n\nThree or more scatters open the bonus, which can also be bought where allowed. You choose a pack (Random, Bronze, Silver or Gold), then pick a card to reveal a footballer and a multiplier; Gold packs reach up to 9,990x. A Best Player milestone tracks the top card of the round. BGaming lists a 96.10% RTP, very high volatility and a 10,490x maximum multiplier. It suits football fans and players who like pick-style bonuses.",
+  "demoUrl": "https://demo.bgaming-network.com/play/LuckyPack2026Cup/FUN?server=demo",
+  "pros": [
+    "High 10,490x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/bgaming/lucky-pack-2026-cup.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/lucky-pack-2026-cup"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "dice-bonanza",
+  "name": "Dice Bonanza",
+  "provider": "bgaming",
+  "rtp": 95.97,
+  "volatility": "high",
+  "maxWin": 15000,
+  "releaseDate": "2023-07-27",
+  "releaseDatePrecision": "day",
+  "winType": "Pays Anywhere",
+  "hitRate": 2.59,
+  "bonusRate": 395.0,
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Pay anywhere",
+      "description": "Matching dice pay wherever they land, counted at the end of each spin."
+    },
+    {
+      "name": "Refilling reels",
+      "description": "Winning dice disappear and new ones fall in, so one spin can chain several wins."
+    },
+    {
+      "name": "Free spins multipliers",
+      "description": "Four scatters start free spins where multiplier symbols land with random values from 2x to 100x."
+    }
+  ],
+  "review": "Dice Bonanza uses dice as its symbols but plays as a normal slot. Symbols pay anywhere on the screen, so the win depends on how many matching dice are showing at the end of the spin. Refilling reels remove winning dice and drop new ones in, so one spin can produce several wins in a row.\n\nFour scatters trigger free spins, where a multiplier symbol can land with a random value from 2x to 100x. BGaming publishes a 95.97% RTP, high volatility and a 15,000x maximum multiplier. The rules are easy to follow, and the high ceiling makes the bonus the main event. It suits players who like pay-anywhere tumbling slots with a simple bonus.",
+  "demoUrl": "https://demo.bgaming-network.com/play/DiceBonanza/FUN?server=demo",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Slightly below-average 95.97% RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/bgaming/dice-bonanza.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/dice-bonanza"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

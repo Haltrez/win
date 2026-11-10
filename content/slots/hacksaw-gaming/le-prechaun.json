@@ -2,8 +2,8 @@
   "slug": "le-prechaun",
   "name": "Le Prechaun",
   "provider": "hacksaw-gaming",
-  "rtp": null,
-  "volatility": null,
+  "rtp": 97.52,
+  "volatility": "medium",
   "maxWin": 15000,
   "releaseDate": null,
   "reels": "6x5",
@@ -33,12 +33,12 @@
   ],
   "review": "Le Prechaun dresses Smokey as a leprechaun on a 6x5 cluster grid. When the special symbol is part of a win, its position becomes a x2 position multiplier. Each later win on that spot doubles it again, up to x100, and several position multipliers in one win are multiplied together.\n\nOn top of that, Rainbow and Epic Rainbow symbols trigger Golden Square reveals as in the other Le games, and the bonuses add a Lucky Charm Bar for extra spins and multipliers. The highest bonus tier lands an Epic Rainbow on every spin. The cap is 15,000x.",
   "pros": [
+    "Excellent 97.52% RTP – among the highest published",
     "Very high 15,000x win ceiling",
-    "Full game playable in the official free demo"
+    "Lower volatility suits longer, steadier sessions"
   ],
   "cons": [
-    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
-    "Provider doesn't publish a volatility rating for this game",
+    "Casinos can run versions as low as 86.31% RTP",
     "Short-session results can differ widely from the long-term average"
   ],
   "demoUrl": "https://static-live.hacksawgaming.com/2413/{version}/index.html?language=en&channel=desktop&gameid=2413&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
@@ -51,5 +51,11 @@
   "verified": true,
   "lastVerified": "2026-11-10",
   "updatedAt": "2026-11-10",
-  "author": "editorial-team"
+  "author": "editorial-team",
+  "rtpVariants": [
+    96.28,
+    94.29,
+    92.28,
+    86.31
+  ]
 }

@@ -1,0 +1,54 @@
+{
+  "slug": "rat-royale",
+  "name": "Rat Royale",
+  "provider": "pragmatic-play",
+  "rtp": 96.52,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2026-10-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "multipliers",
+    "expanding-wilds",
+    "sticky-wilds",
+    "progressive-multiplier",
+    "free-spins"
+  ],
+  "themes": [
+    "horror",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Rat king wilds",
+      "description": "Centre-reel wilds with multipliers up to 500x that also trigger one of four spin modifiers."
+    },
+    {
+      "name": "Wild multipliers",
+      "description": "Standard wilds land with values up to 100x, and all multipliers in a win are added together."
+    },
+    {
+      "name": "Three bonus versions",
+      "description": "3, 4 or 5 scatters choose between free spins with richer wilds, a sticky progressive rat king, or an expanded one."
+    }
+  ],
+  "review": "Rat Royale is a dark, gothic Pragmatic Play slot where every feature runs through multiplier wilds. Standard wilds can land with multipliers up to 100x, while rat king wilds appear only on the centre reel with values up to 500x. Multipliers in the same win are added together.\n\nEach rat king wild also triggers one of four modifiers for that spin: expanding to fill its reel, collecting or raising the other wild multipliers, or turning blue symbols into wild multipliers. Three, four or five scatters start one of three bonus versions with 10 free spins: one with stronger wild multipliers, one with a sticky centre rat king whose multiplier grows, and one where an expanded rat king stays on the centre reel. Published RTP is 96.52%. Suited to high-variance multiplier hunters.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysratking&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.52% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/rat-royale.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/rat-royale/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

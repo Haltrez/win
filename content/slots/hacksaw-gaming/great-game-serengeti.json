@@ -1,0 +1,60 @@
+{
+  "slug": "great-game-serengeti",
+  "name": "Great Game Serengeti",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.29,
+  "rtpVariants": [
+    94.21,
+    92.3,
+    86.24
+  ],
+  "volatility": "medium",
+  "maxWin": 5000,
+  "releaseDate": "2026-09-10",
+  "releaseDatePrecision": "day",
+  "winType": "Paylines",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Hunts",
+      "description": "Hit animals become coins, and four-star animals become traps of at least 10x that collect other values."
+    },
+    {
+      "name": "Stampede Reveals",
+      "description": "A pre-spin event that always lands a Hunting Season symbol and removes low-paying symbols."
+    },
+    {
+      "name": "Lion Bar bonus",
+      "description": "In the 4 FS bonus, a progressive Lion Bar awards Stampede Reveals during the free spins."
+    }
+  ],
+  "review": "Great Game Serengeti is the savanna follow-up to Great Game Rockies and uses the same Hunt mechanic. A Hunting Season symbol fires five shots at targets above the reels; one- to three-star animals on hit reels become coins, while four-star animals become traps worth at least 10x that collect every other coin and trap. Wilds on hit reels can multiply one to five of them by up to 20x.\n\nStampede Reveals can start before a spin lands, always bringing a Hunting Season symbol and no low-paying symbols. Three FS give 8 free spins, four give 10 with a Lion Bar that awards Stampede Reveals, and five unlock the hidden Epic bonus. Hacksaw lists 3/5 volatility, a 5,000x max win and RTPs from 96.29% to 86.24%.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2620/{version}/index.html?language=en&channel=desktop&gameid=2620&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "Solid 5,000x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 86.24% RTP",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/great-game-serengeti.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/great-game-serengeti"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

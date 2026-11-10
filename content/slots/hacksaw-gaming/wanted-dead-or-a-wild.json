@@ -3,7 +3,7 @@
   "name": "Wanted Dead or a Wild",
   "provider": "hacksaw-gaming",
   "rtp": 96.38,
-  "volatility": "very-high",
+  "volatility": "high",
   "maxWin": 12500,
   "releaseDate": "2021-08-12",
   "reels": "5x5",
@@ -53,10 +53,15 @@
   "demoUrl": "https://static-live.hacksawgaming.com/1067/{version}/index.html?language=en&channel=desktop&gameid=1067&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
   "image": "/thumbs/hacksaw-gaming/wanted-dead-or-a-wild.webp",
   "sources": [
-    "Provider game sheet / in-game info screen (verify before launch)"
+    "https://www.hacksawgaming.com/games/wanted-dead-or-a-wild"
   ],
-  "verified": false,
-  "lastVerified": null,
-  "updatedAt": "2026-11-09",
-  "author": "editorial-team"
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team",
+  "rtpVariants": [
+    94.55,
+    92.33,
+    88.42
+  ]
 }

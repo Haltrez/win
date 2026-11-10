@@ -2,8 +2,8 @@
   "slug": "nitro-nights",
   "name": "Nitro Nights",
   "provider": "hacksaw-gaming",
-  "rtp": null,
-  "volatility": null,
+  "rtp": 96.31,
+  "volatility": "high",
   "maxWin": 15000,
   "releaseDate": null,
   "reels": "5x4",
@@ -36,8 +36,8 @@
     "Full game playable in the official free demo"
   ],
   "cons": [
-    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
-    "Provider doesn't publish a volatility rating for this game",
+    "Casinos can run versions as low as 86.26% RTP",
+    "High volatility makes sessions swingy",
     "Short-session results can differ widely from the long-term average"
   ],
   "demoUrl": "https://static-live.hacksawgaming.com/2328/{version}/index.html?language=en&channel=desktop&gameid=2328&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
@@ -50,5 +50,10 @@
   "verified": true,
   "lastVerified": "2026-11-10",
   "updatedAt": "2026-11-10",
-  "author": "editorial-team"
+  "author": "editorial-team",
+  "rtpVariants": [
+    94.34,
+    92.22,
+    86.26
+  ]
 }

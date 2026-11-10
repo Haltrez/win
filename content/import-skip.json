@@ -1,5 +1,17 @@
 {
  "bgaming": {
+  "aviamasters": {
+   "checked": "2026-11-10",
+   "reason": "not a slot (Casual)"
+  },
+  "aviamasters-2": {
+   "checked": "2026-11-10",
+   "reason": "not a slot (Casual)"
+  },
+  "aviamasters-2-halloween": {
+   "checked": "2026-11-10",
+   "reason": "not a slot (Casual)"
+  },
   "aviamasters-x-mas": {
    "checked": "2026-11-10",
    "reason": "not a slot (Casual)"
@@ -7,6 +19,34 @@
   "balloon-mania": {
    "checked": "2026-11-10",
    "reason": "not a slot (Casual)"
+  },
+  "bonanza-billion-xmas": {
+   "checked": "2026-11-10",
+   "reason": "already on site (same official demo)"
+  },
+  "chicken-halloween": {
+   "checked": "2026-11-10",
+   "reason": "not a slot (Casual)"
+  },
+  "chicken-shot": {
+   "checked": "2026-11-10",
+   "reason": "not a slot (Casual)"
+  },
+  "fishing-club": {
+   "checked": "2026-11-10",
+   "reason": "not a slot (Casual)"
+  },
+  "fishing-club-2": {
+   "checked": "2026-11-10",
+   "reason": "not a slot (Casual)"
+  },
+  "fortune-red-packets": {
+   "checked": "2026-11-10",
+   "reason": "not a slot (Casual)"
+  },
+  "gemhalla-x-mas": {
+   "checked": "2026-11-10",
+   "reason": "already on site (same official demo)"
   },
   "gold-rush-with-johnny-cash": {
    "checked": "2026-11-10",
@@ -16,9 +56,41 @@
    "checked": "2026-11-10",
    "reason": "not a slot (Casual)"
   },
+  "hot-chilli-bells-100-xmas": {
+   "checked": "2026-11-10",
+   "reason": "already on site (same official demo)"
+  },
+  "ice-scratch-bronze": {
+   "checked": "2026-11-10",
+   "reason": "not a slot (Scratch)"
+  },
+  "ice-scratch-silver": {
+   "checked": "2026-11-10",
+   "reason": "not a slot (Scratch)"
+  },
   "kicker-mania": {
    "checked": "2026-11-10",
    "reason": "not a slot (Casual)"
+  },
+  "lady-wolf-moon-branded": {
+   "checked": "2026-11-10",
+   "reason": "robots.txt disallows"
+  },
+  "luck-magic": {
+   "checked": "2026-11-10",
+   "reason": "already on site (same official demo)"
+  },
+  "lucky-8-merge-up-tm": {
+   "checked": "2026-11-10",
+   "reason": "already on site (same official demo)"
+  },
+  "lucky-ducky-x-mas-edition": {
+   "checked": "2026-11-10",
+   "reason": "already on site (same official demo)"
+  },
+  "merge-up-tm": {
+   "checked": "2026-11-10",
+   "reason": "already on site (same official demo)"
   },
   "mine-gems": {
    "checked": "2026-11-10",
@@ -32,9 +104,37 @@
    "checked": "2026-11-10",
    "reason": "not a slot (Casual)"
   },
+  "open-it": {
+   "checked": "2026-11-10",
+   "reason": "not a slot (Casual)"
+  },
   "plinko-2": {
    "checked": "2026-11-10",
    "reason": "not a slot (Casual)"
+  },
+  "royal-beellion-hold-win": {
+   "checked": "2026-11-10",
+   "reason": "already on site (same official demo)"
+  },
+  "savage-buffalo-spirit-megaways-tm": {
+   "checked": "2026-11-10",
+   "reason": "already on site (same official demo)"
+  },
+  "space-xy": {
+   "checked": "2026-11-10",
+   "reason": "not a slot (Casual)"
+  },
+  "speed-blackjack-pro": {
+   "checked": "2026-11-10",
+   "reason": "not a slot (Cards)"
+  },
+  "totally-hot-2": {
+   "checked": "2026-11-10",
+   "reason": "already on site (same official demo)"
+  },
+  "witchcraft-riches": {
+   "checked": "2026-11-10",
+   "reason": "no demo ID"
   }
  },
  "hacksaw-gaming": {
@@ -79,6 +179,14 @@
    "reason": "no official max win published"
   },
   "dice": {
+   "checked": "2026-11-10",
+   "reason": "no official max win published"
+  },
+  "dynasty-of-death": {
+   "checked": "2026-11-10",
+   "reason": "no official max win published"
+  },
+  "fighter-pit": {
    "checked": "2026-11-10",
    "reason": "no official max win published"
   }

@@ -1,0 +1,50 @@
+{
+  "slug": "super-golden-spins",
+  "name": "Super Golden Spins",
+  "provider": "pragmatic-play",
+  "rtp": 96.55,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2026-10-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "multipliers"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Nine-line 3×3 grid",
+      "description": "A small classic-style grid where three-symbol combinations on nine lines pay up to 700x."
+    },
+    {
+      "name": "Twin prize wheels",
+      "description": "Three scatters spin two wheels at once, one awarding cash up to 100x and the other multipliers up to 27x."
+    },
+    {
+      "name": "Combined outcomes",
+      "description": "Cash results are added, while multipliers boost the cash value or multiply each other before applying to the bet."
+    }
+  ],
+  "review": "Super Golden Spins is a compact 3×3 slot with nine paylines and a retro neon look. Base-game wins come from three-symbol combinations, with Pragmatic Play listing line wins of up to 700x, so the main grid does more of the work than in most modern releases.\n\nThree scatters anywhere start the wheel bonus. Two independent wheels spin together: one can show cash values up to 100x, the other multipliers up to 27x. Two cash results are added, a cash value and a multiplier combine, and two multipliers multiply each other before applying to the bet. Published RTP is 96.55%. It suits players who like short, simple sessions with one clear bonus to chase.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10gwheelst&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.55% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/super-golden-spins.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/super-golden-spins/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

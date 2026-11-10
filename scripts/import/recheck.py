@@ -36,10 +36,14 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--per-provider', type=int, default=15)
     ap.add_argument('--apply', action='store_true')
+    ap.add_argument('--providers', default=','.join(KEY_FROM_SOURCE), help='comma-separated provider ids')
     a = ap.parse_args()
     today = datetime.date.today().isoformat()
     report = []
+    only = {x.strip() for x in a.providers.split(',') if x.strip()}
     for pid, pat in KEY_FROM_SOURCE.items():
+        if pid not in only:
+            continue
         files = glob.glob(os.path.join(CONTENT, pid, '*.json'))
         slots = sorted((json.load(open(f)) | {'_f': f} for f in files), key=lambda s: s.get('lastVerified') or '0000')
         for s in slots[: a.per_provider]:

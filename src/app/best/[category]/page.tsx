@@ -3,7 +3,7 @@ import { insightFaq, insightSentences, listInsights } from '@/lib/insights';
 
 import { notFound } from 'next/navigation';
 import { getCategories, getCategory, getCategorySlots, isIndexable } from '@/lib/categories';
-import { getCasinos, getGuide, getProvider, slotUrl } from '@/lib/data';
+import { getCasinos, getGuide, getGuides, getProvider, slotUrl } from '@/lib/data';
 import { buildMetadata } from '@/lib/seo';
 import { itemList } from '@/lib/schema';
 import { fmtRtp, fmtX, volLabel } from '@/lib/format';
@@ -33,7 +33,9 @@ export default async function CategoryPage({ params }: { params: Promise<P> }) {
   const slots = getCategorySlots(c);
   const top = slots.slice(0, 50);
   const siblings = getCategories().filter((x) => x.group === c.group && x.slug !== c.slug && isIndexable(x)).slice(0, 12);
-  const guides = (c.relatedGuides ?? []).map(getGuide).filter(Boolean);
+  // Hand-picked guides first, then any guide that names this list in its relatedCategories.
+  const guides = [...new Set([...(c.relatedGuides ?? []), ...getGuides().filter((g) => g.relatedCategories?.includes(c.slug)).map((g) => g.slug)])]
+    .map(getGuide).filter(Boolean).slice(0, 6);
   const providers = [...new Set(top.map((s) => s.provider))].slice(0, 8);
   const noun = c.title.replace(/\s*\d{4}$/, '').replace(/^Best\s+/, '').replace(/^(Slots?)\b/, (m) => m.toLowerCase());
   const KEEP = new Set(['Megaways', 'Egyptian', 'Irish', 'Asian-Themed', 'Wild', 'West', 'RTP']);

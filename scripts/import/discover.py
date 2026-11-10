@@ -11,6 +11,7 @@ Remove an entry from that file to have it checked again.
 from __future__ import annotations
 
 import argparse
+import re
 import datetime
 import json
 import os
@@ -24,6 +25,32 @@ SKIP_FILE = os.path.join(ROOT, 'content', 'import-skip.json')
 OUT_DIR = os.path.join(ROOT, '.import')
 
 
+# Marketing-style page titles that some providers use for game pages ("X - Free Demo & Slot Review", "X by BGaming").
+NAME_NOISE = [
+    r'\s*[-–|:]\s*free demo.*$', r'\s+slot review.*$', r'\s+(slot\s+)?free demo$', r'\s+by bgaming$',
+    r"^open .*? in bgaming's\s+",
+]
+
+
+def clean_name(name: str) -> str:
+    out = name
+    for pat in NAME_NOISE:
+        out = re.sub(pat, '', out, flags=re.I).strip()
+    return out or name
+
+
+def demo_key(url: str | None) -> str | None:
+    """Provider-side game identity from a demo URL, used to catch renamed duplicates.
+    Keeps the path and game-identifying query params; drops session/locale params."""
+    if not url:
+        return None
+    from urllib.parse import parse_qsl, urlsplit
+    u = urlsplit(url.lower())
+    volatile = {'token', 'lang', 'language', 'cur', 'currency', 'jurisdiction', 'channel', 'device', 'server', 'lobbyurl', 'ccycode', 'country', 'mode', 'practice', 'demo', 'operator', 'pid'}
+    q = sorted((k, v) for k, v in parse_qsl(u.query) if k not in volatile)
+    return f"{u.netloc}{u.path.rstrip('/')}?{q}"
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--providers', default=','.join(ADAPTERS))
@@ -35,6 +62,7 @@ def main():
     skip = json.load(open(SKIP_FILE)) if os.path.exists(SKIP_FILE) else {}
     idx = existing()
     have_slugs = set(idx['slug'])
+    have_demos = {demo_key(x.get('demoUrl')) for x in idx['slug'].values()} - {None}
     found, report = [], {}
 
     for pid in [p.strip() for p in a.providers.split(',') if p.strip()]:
@@ -64,6 +92,10 @@ def main():
                 continue
             except Exception as e:
                 print(f'  ! {pid}/{key}: {e}', file=sys.stderr)
+                continue
+            g['name'] = clean_name(g['name'])
+            if demo_key(g.get('demoUrl')) in have_demos:
+                skipped[key] = {'reason': 'already on site (same official demo)', 'checked': today}
                 continue
             if norm(g['name']) in have or slugify(g['name']) in have_slugs:
                 skipped[key] = {'reason': 'already on site (name match)', 'checked': today}

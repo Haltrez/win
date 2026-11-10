@@ -1,0 +1,53 @@
+{
+  "slug": "wonders-of-aztec",
+  "name": "Wonders of Aztec",
+  "provider": "pragmatic-play",
+  "rtp": 96.55,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2026-10-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "tumble",
+    "multipliers",
+    "progressive-multiplier",
+    "free-spins"
+  ],
+  "themes": [
+    "history",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Reel multipliers",
+      "description": "Bombs add or double a reel's multiplier up to 128x, and the sum of all reels applies at the end of a tumble."
+    },
+    {
+      "name": "Persistent free spins",
+      "description": "4–6 scatters award 10–30 free spins where reel multipliers carry over between spins."
+    },
+    {
+      "name": "Super bonus",
+      "description": "A super scatter in the trigger boosts the starting reel multipliers before the free spins begin."
+    }
+  ],
+  "review": "Wonders of Aztec is a tumbling Pragmatic Play slot built around reel multipliers. Bomb symbols can land on any spin or tumble and either add a 2x multiplier to their reel or, on a win, double that reel's current value up to 128x. Super bombs on a winning spin upgrade every reel at once, and when the tumble sequence ends the win is boosted by the sum of all reel multipliers.\n\nFour, five or six scatters award 10, 20 or 30 free spins, and the reel multipliers no longer reset between spins, so they can keep building. Retriggers add five spins. A super scatter in the trigger first drops random bombs to raise the starting multipliers. Published RTP is 96.55%. It suits players who like building multipliers.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20gtsparta&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.55% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/wonders-of-aztec.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/wonders-of-aztec/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

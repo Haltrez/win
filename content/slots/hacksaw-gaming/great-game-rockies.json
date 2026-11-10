@@ -1,0 +1,60 @@
+{
+  "slug": "great-game-rockies",
+  "name": "Great Game Rockies",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.33,
+  "rtpVariants": [
+    94.33,
+    92.29,
+    86.25
+  ],
+  "volatility": "medium",
+  "maxWin": 5000,
+  "releaseDate": "2026-06-11",
+  "releaseDatePrecision": "day",
+  "winType": "Paylines",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Hunting Season",
+      "description": "Five shots turn hit animal symbols into coins or traps, with stars setting the minimum coin type."
+    },
+    {
+      "name": "Traps and wild multipliers",
+      "description": "Traps collect all coin and trap values, and wilds on hit reels multiply one to five of them."
+    },
+    {
+      "name": "Star-building bonus",
+      "description": "In the 4 FS bonus, animals in regular wins gain a star that stays for the rest of the round."
+    }
+  ],
+  "review": "Great Game Rockies is a Hacksaw Gaming paylines slot with a hunting theme. Hunting Season symbols trigger a Hunt where five shots are fired; any animal symbols hit become coins or traps. Animals show one to four stars, which set the minimum coin type, and traps collect the values of all coins and other traps on screen. Wilds on hit reels add a multiplier to between one and five coins or traps.\n\nThree FS give 10 free spins with more Hunting Season symbols. Four FS give 10 spins where animals in regular wins gain a star that carries over. Five FS unlock the hidden Epic bonus, with a Hunting Season symbol on every spin. Hacksaw lists 3/5 volatility, a 5,000x max win and RTPs from 96.33% to 86.25%.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2303/{version}/index.html?language=en&channel=desktop&gameid=2303&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "Solid 5,000x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 86.25% RTP",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/great-game-rockies.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/great-game-rockies"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

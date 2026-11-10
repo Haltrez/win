@@ -1,0 +1,53 @@
+{
+  "slug": "chronos-sands-of-eternity",
+  "name": "Chronos – Sands of Eternity",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2026-10-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "expanding-symbols",
+    "multipliers",
+    "free-spins",
+    "money-collect"
+  ],
+  "themes": [
+    "mythology",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "2×2 multiplier symbols",
+      "description": "Wilds and premiums can land as 2×2 blocks with a random 1x–12x multiplier that boosts any win they join."
+    },
+    {
+      "name": "Scatter-meter levels",
+      "description": "Every third scatter collected in free spins adds six spins and unlocks bigger symbols and multipliers up to 24x."
+    },
+    {
+      "name": "Final collect stage",
+      "description": "After the fourth retrigger only money and collect symbols land, and each collector pays the money values beside it."
+    }
+  ],
+  "review": "Chronos – Sands of Eternity is a time-themed Pragmatic Play slot built around oversized symbols. In the base game, wilds and high-paying symbols can land as normal 1×1 symbols or as 2×2 blocks carrying a random 1x–12x multiplier, and multipliers in the same win are added together.\n\nThree, four or five scatters award 6, 8 or 10 free spins, and every scatter fills a meter. Each third scatter adds six spins and unlocks the next level, bringing 3×3 symbols and multipliers up to 24x. After the fourth retrigger only money and collect symbols can land, with collectors paying the money symbols on screen. The published RTP is 96.50%. It suits players who enjoy long, progressive bonus rounds.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20clock&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/chronos-sands-of-eternity.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/chronos-sands-of-eternity/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

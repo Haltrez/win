@@ -1,0 +1,53 @@
+{
+  "slug": "chests-of-cai-shen-infinity",
+  "name": "Chests Of Cai Shen – Infinity",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2026-10-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "hold-and-win",
+    "respins",
+    "multipliers",
+    "money-collect"
+  ],
+  "themes": [
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Coin-triggered respins",
+      "description": "Coloured coins collected in the base game can randomly start three respins with up to four modifiers."
+    },
+    {
+      "name": "Four modifiers",
+      "description": "Boosted money values, multiplier zones up to 100x, an extra respin, or a second 5×3 grid."
+    },
+    {
+      "name": "Full-grid prize",
+      "description": "Sticky money symbols reset the respins, and filling every position adds an extra 5,000x prize."
+    }
+  ],
+  "review": "Chests of Cai Shen – Infinity is a respin game where the base game is mainly a route into the feature. Green, blue, purple, red and quad coins land and are collected by chests above the grid, and any of them can randomly trigger the bonus with three respins and up to four modifiers.\n\nGreen raises three money symbols, blue adds four multiplier zones worth up to 100x, purple adds a respin and red plays the round on two 5×3 grids. A quad coin can switch several on at once. Money symbols up to 150x stick and reset the respins, and filling every position adds a 5,000x prize. Published RTP is 96.50%. It suits fans of hold-and-win style collecting.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs25caishen4&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/chests-of-cai-shen-infinity.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/chests-of-cai-shen-infinity/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

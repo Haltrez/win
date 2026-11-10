@@ -3,7 +3,7 @@
   "name": "Le Bandit",
   "provider": "hacksaw-gaming",
   "rtp": 96.34,
-  "volatility": "high",
+  "volatility": "medium",
   "maxWin": 10000,
   "releaseDate": "2023-10-12",
   "reels": "6x5",
@@ -45,10 +45,15 @@
   "demoUrl": "https://static-live.hacksawgaming.com/1309/{version}/index.html?language=en&channel=desktop&gameid=1309&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
   "image": "/thumbs/hacksaw-gaming/le-bandit.webp",
   "sources": [
-    "Provider game sheet / in-game info screen (verify before launch)"
+    "https://www.hacksawgaming.com/games/le-bandit"
   ],
-  "verified": false,
-  "lastVerified": null,
-  "updatedAt": "2026-11-09",
-  "author": "editorial-team"
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team",
+  "rtpVariants": [
+    94.23,
+    92.17,
+    88.36
+  ]
 }

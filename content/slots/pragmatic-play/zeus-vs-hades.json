@@ -45,10 +45,10 @@
   "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs15godsofwar&lang=en&cur=USD&jurisdiction=99",
   "image": "/thumbs/pragmatic-play/zeus-vs-hades.webp",
   "sources": [
-    "Provider game sheet / in-game info screen (verify before launch)"
+    "https://www.pragmaticplay.com/en/games/zeus-vs-hades/"
   ],
-  "verified": false,
-  "lastVerified": null,
+  "verified": true,
+  "lastVerified": "2026-11-10",
   "updatedAt": "2026-11-09",
   "author": "editorial-team"
 }

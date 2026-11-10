@@ -1,0 +1,56 @@
+{
+  "slug": "bling-blitz-power-nudge",
+  "name": "Bling Blitz Power Nudge",
+  "provider": "bgaming",
+  "rtp": 92.9,
+  "volatility": "medium-high",
+  "maxWin": 2500,
+  "releaseDate": "2026-11-10",
+  "releaseDatePrecision": "day",
+  "winType": "1 paylines",
+  "hitRate": 2.56,
+  "bonusRate": 240.0,
+  "mechanics": [
+    "money-collect",
+    "multipliers",
+    "jackpot",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "gems",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Power Nudge",
+      "description": "The middle reel can nudge to move a Collector into a winning position."
+    },
+    {
+      "name": "Collect Chests and Super Spins",
+      "description": "Bronze, Silver and Gold Collectors award 1–3 Super Spins with multipliers up to 100x."
+    },
+    {
+      "name": "Prize Ladder",
+      "description": "Three yellow diamonds climb a seven-level ladder, with a 1,000x Max Jackpot at the top."
+    }
+  ],
+  "review": "Bling Blitz Power Nudge is a three-reel classic from BGaming's Bling Blitz series, with four coloured Collect Chests above the grid. Coins, diamonds and crowned Collectors land below, and a nudge can shift the middle reel so a Collector lands in a winning spot.\n\nBronze, Silver and Gold Collectors award one, two or three Super Spins, and diamonds can award five Bonus Super Spins. Each colour has its own multiplier range up to 100x, and nudges on reels one and two can bring multipliers into play. Three yellow diamonds move you up a seven-step Prize Ladder topped by a 1,000x Max Jackpot. BGaming lists RTP at 92.90%, medium-high volatility and a 2,500x top multiplier. It suits fans of simple three-reel collect games.",
+  "demoUrl": "https://demo.bgaming-network.com/play/BlingBlitzPowerNudge/FUN?server=demo",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 92.90% published RTP",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/bgaming/bling-blitz-power-nudge.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/bling-blitz-power-nudge"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}
