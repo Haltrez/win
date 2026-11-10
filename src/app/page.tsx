@@ -9,9 +9,9 @@ import { CasinoModule } from '@/components/CasinoModule';
 import { ProviderLogo } from '@/components/ProviderLogo';
 
 export const metadata = buildMetadata({
-  title: `Free Slot Demos & Honest Slot Reviews (${SITE.year}) | ${SITE.name}`,
+  title: `Demo Slots: Play ${Math.floor(getSlots().length / 50) * 50}+ Free Slot Demos (${SITE.year}) | ${SITE.name}`,
   absoluteTitle: true,
-  description: `Play ${getSlots().length}+ free slot demos from official providers. Compare RTP, volatility and max win, and read independent reviews before you play. 18+.`,
+  description: `Play ${getSlots().length}+ demo slots free: official demos from Pragmatic Play, Hacksaw, Nolimit City and more, no sign-up. RTP, volatility and max win for every game. 18+.`,
   path: '/',
 });
 
@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <>
       <section className="hero">
-        <h1>Free slot demos with honest, data-first reviews</h1>
+        <h1>Free demo slots with honest, data-first reviews</h1>
         <p>
           Try {slots.length.toLocaleString()} slots in their official demo – no sign-up, no deposit – and check the numbers that matter: RTP,
           volatility, max win and how the bonus actually works.

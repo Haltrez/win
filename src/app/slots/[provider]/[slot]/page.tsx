@@ -4,7 +4,7 @@ import { marked } from 'marked';
 import { FEATURES } from '@/lib/config';
 import { getAuthor, getCasinosForProvider, getComparisons, getGuides, getProvider, getRelatedSlots, getSeries, seriesLabel, getSlot, getSlots, getSlotsByProvider, slotUrl } from '@/lib/data';
 import { getCategoriesForSlot } from '@/lib/categories';
-import { abs, buildMetadata, slotDescription, slotTitle } from '@/lib/seo';
+import { abs, buildMetadata, hasDemo, slotDescription, slotTitle } from '@/lib/seo';
 import { slotGame } from '@/lib/schema';
 import { fmtDate, fmtRelease, fmtRtp, fmtX, VOLATILITY_LABEL, volScore } from '@/lib/format';
 import type { Slot } from '@/lib/types';
@@ -71,7 +71,11 @@ function autoFaq(s: Slot, providerName: string) {
     { q: `What is the RTP of ${s.name}?`, a: s.rtp == null ? `${providerName} has not published an RTP for ${s.name}, and we don't guess. The in-game info screen shows the exact RTP of the version a casino is running.` : `The ${s.rtpSource === 'third-party' ? 'RTP reported by independent slot databases' : 'highest published RTP'} of ${s.name} is ${fmtRtp(s.rtp)}.${s.rtpSource === 'third-party' ? ` ${providerName} has not confirmed this figure, so check the in-game info screen.` : ''}${s.rtpVariants?.length ? ` ${providerName} also offers casinos versions at ${s.rtpVariants.map(fmtRtp).join(', ')}, so check the game's info screen to see which one you are playing.` : ' Casinos may be able to configure a lower RTP – always check the in-game info screen.'}` },
     ...(s.maxWin ? [{ q: `What is the max win on ${s.name}?`, a: `${s.name} has a maximum win of ${fmtX(s.maxWin)} your stake. Max wins are extremely rare and should not be expected in normal play.` }] : []),
     ...(s.volatility ? [{ q: `Is ${s.name} high volatility?`, a: `${s.name} is rated ${VOLATILITY_LABEL[s.volatility].toLowerCase()} volatility by ${providerName}. ${volScore(s.volatility) >= 5 ? 'Wins are less frequent but can be larger.' : 'Wins tend to be more frequent but smaller.'}` }] : []),
-    { q: `Can I play ${s.name} for free?`, a: s.demoUrl ? `Yes. You can play the official ${s.name} demo on this page with play money – no sign-up or deposit required.` : `We only embed official demos. The ${s.name} demo will appear on this page once ${providerName} makes it available for our region.` },
+    { q: `Can I play the ${s.name} demo for free?`, a: s.demoLink ? `Yes. ${providerName} offers a free ${s.name} demo on its official website; the Play button on this page opens it. No sign-up or deposit is needed.` : s.demoUrl ? `Yes. You can play the official ${s.name} demo on this page with play money – no sign-up, download or deposit required.` : `Not yet. We only offer official demos, and ${providerName} doesn't currently provide one we can show for ${s.name}. The review and data on this page are still based on ${providerName}'s official information.` },
+    ...(s.demoUrl || s.demoLink ? [
+      { q: `Is the ${s.name} demo the same as the real game?`, a: `Yes. The demo is ${providerName}'s own game with the same reels, features and paytable; only the balance is play money. One difference to know: casinos can sometimes run a different RTP version than the demo, so check the info screen when playing for real.` },
+      { q: `Can I play the ${s.name} demo on mobile?`, a: `Yes. The ${s.name} demo runs in your phone's browser on iPhone and Android with nothing to install.${s.demoUrl && !s.demoLink ? ' Tap Full screen for the best view.' : ''}` },
+    ] : []),
     { q: `Does ${s.name} have a bonus buy?`, a: s.mechanics.includes('bonus-buy') ? `Yes, ${s.name} includes a bonus buy option in markets where it is permitted. It is not available in Great Britain and some other regulated markets. Buying the bonus does not improve your odds.` : `No, ${s.name} does not offer a bonus buy. The bonus has to be triggered naturally.` },
   ];
   return [...f, ...(s.faq ?? [])];
@@ -92,12 +96,15 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
   const comparisons = getComparisons().filter((c) => c.a.slug === s.slug || c.b.slug === s.slug);
   const guides = pickGuides(s);
   const reviewHtml = marked.parse(s.review, { async: false }) as string;
+  const demo = hasDemo(s);
 
   return (
     <>
       <Breadcrumbs items={[{ name: 'Slots', path: '/slots' }, { name: p.name, path: `/providers/${p.slug}` }, { name: s.name, path: url }]} />
-      <h1 className="slot-h1">{s.name}</h1>
-      <p className="slot-kicker">Free demo &amp; review · {p.name}</p>
+      <h1 className="slot-h1">
+        {s.name}
+        <span className="slot-kicker">{demo ? <> Demo · free play &amp; review</> : <> Slot review</>} · {p.name}</span>
+      </h1>
       <AffiliateDisclosure compact />
 
       <div className="slot-hero">
@@ -133,6 +140,19 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
             {s.playNotes.bestWinX != null ? `, best win ${fmtX(s.playNotes.bestWinX)}` : ''}. {s.playNotes.notes}
             <br /><span className="muted small">A single demo session is a tiny sample and does not reflect the game&apos;s long-term RTP.</span>
           </div>
+        ) : null}
+
+        {demo ? (
+          <>
+            <h2>How to play the {s.name} demo</h2>
+            <ol>
+              <li>{s.demoUrl && !s.demoLink && s.provider !== 'push-gaming' ? <>Press <strong>Play free demo</strong> at the top of this page. The official {p.name} game loads here, with no sign-up, download or deposit.</> : <>Press <strong>Play free demo on {p.name}</strong> at the top of this page. The official demo opens on the {p.name} website in a new tab, with no sign-up or deposit.</>}</li>
+              <li>You start with a play-money balance. Set a stake you would use for real, so the demo shows you realistic swings{s.volatility ? <> for a {VOLATILITY_LABEL[s.volatility].toLowerCase()}-volatility slot</> : null}.</li>
+              <li>Play long enough to see the main feature{s.features[0] ? <> – look out for <strong>{s.features[0].name}</strong>{s.features[1] ? <> and <strong>{s.features[1].name}</strong></> : null}</> : null}.{s.mechanics.includes('bonus-buy') ? ' The demo also lets you try the bonus buy with play money, which is the cheapest way to see what the bonus round is really like.' : ''}</li>
+              <li>On a phone, tap <strong>Full screen</strong> and turn the phone sideways for the best view.</li>
+            </ol>
+            <p className="muted small">The {s.name} demo is the provider&apos;s own game with the same features and paytable as the real-money version; only the balance is play money, so demo wins can&apos;t be withdrawn.</p>
+          </>
         ) : null}
 
         <h2>Features and bonus rounds</h2>

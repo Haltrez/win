@@ -60,7 +60,7 @@ export default async function ProviderPage({ params }: { params: Promise<P> }) {
       <Breadcrumbs items={[{ name: 'Providers', path: '/providers' }, { name: p.name, path: `/providers/${p.slug}` }]} />
       <div className="provider-head">
         <ProviderLogo p={p} size="md" />
-        <h1>{p.name} slots</h1>
+        <h1>{p.name} demo slots</h1>
       </div>
       <p className="muted">{slots.length} slots reviewed{p.founded ? ` · Founded ${p.founded}` : ''}{p.headquarters ? ` · ${p.headquarters}` : ''} · Licences: {p.licenses.join(', ')}</p>
       <section className="prose"><p>{p.description}</p>

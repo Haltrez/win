@@ -61,39 +61,48 @@ export function buildMetadata(m: MetaInput): Metadata {
   };
 }
 
-/** Slot title candidates, most descriptive first: "[Slot] Slot Demo & Review – [Max Win] | [Provider] ([Year])". */
+/** True when visitors can actually play the demo (embedded here, or on the provider's official page). */
+export const hasDemo = (s: Pick<Slot, 'demoUrl' | 'demoLink'>) => Boolean(s.demoUrl || s.demoLink);
+
+/**
+ * Slot title candidates, longest first. Pages with a playable demo lead with the exact search phrase
+ * "[Slot] Demo"; pages without one are titled as reviews so the title never promises a demo we don't have.
+ */
 export function slotTitle(s: Slot, p: Provider): string[] {
-  const y = year(s.releaseDate);
-  const hook = s.maxWin ? `${fmtX(s.maxWin)} Max Win` : s.rtp != null ? `${fmtRtp(s.rtp)} RTP` : 'Free Play';
-  const yr = y ? ` (${y})` : '';
+  const hook = s.maxWin ? `${fmtX(s.maxWin)} Max Win` : s.rtp != null ? `${fmtRtp(s.rtp)} RTP` : null;
+  const rtp = s.rtp != null && s.maxWin ? `${fmtRtp(s.rtp)} RTP` : null;
+  if (!hasDemo(s))
+    return [
+      ...(hook ? [`${s.name} Slot Review – ${hook} | ${p.name}`, `${s.name} Slot Review – ${hook}`, `${s.name} Review – ${hook}`] : []),
+      `${s.name} Slot Review | ${p.name}`,
+      `${s.name} Slot Review`,
+    ];
   return [
-    `${s.name} Slot Demo & Review – ${hook} | ${p.name}${yr}`,
-    `${s.name} Demo & Review – ${hook} | ${p.name}${yr}`,
-    `${s.name} Demo & Review – ${hook} | ${p.name}`,
-    `${s.name} Demo – ${hook} | ${p.name}`,
-    `${s.name} Slot Demo & Review – ${hook}`,
-    `${s.name} Demo & Review – ${hook}`,
-    `${s.name} Demo – ${hook}`,
-    `${s.name} Slot Demo & Review`,
+    ...(hook && rtp ? [`${s.name} Demo – Play Free | ${rtp}, ${hook}`] : []),
+    ...(hook ? [`${s.name} Demo – Play Free Slot | ${hook}`, `${s.name} Demo – Play Free | ${hook}`] : []),
+    `${s.name} Demo – Play Free Slot by ${p.name}`,
+    `${s.name} Demo – Play Free Slot`,
+    `${s.name} Demo – Play Free`,
     `${s.name} Demo`,
   ];
 }
 
-/** Unique, data-driven meta description: RTP, volatility, max win + value prop. Optional parts are added only while they fit. */
+/** Unique, data-driven meta description. Leads with "[Slot] demo" when one is playable. Optional parts are added only while they fit. */
 export function slotDescription(s: Slot, p: Provider) {
   const vol = s.volatility ? VOLATILITY_LABEL[s.volatility].toLowerCase() : null;
   const feature = s.features[0]?.name.toLowerCase();
   const facts = [s.rtp != null ? `${fmtRtp(s.rtp)} RTP` : null, vol ? `${vol} volatility` : null, s.maxWin ? `${fmtX(s.maxWin)} max win` : null].filter(Boolean) as string[];
   const list = facts.length > 1 ? `${facts.slice(0, -1).join(', ')} and ${facts[facts.length - 1]}` : facts[0];
-  let d = `Play the free ${s.name} demo by ${p.name}: ${list}.`;
-  const tails = [feature ? ` See how the ${feature} feature works. Honest review, no sign-up.` : '', ' Honest review, no sign-up.', ' No sign-up needed.', ''];
+  if (!hasDemo(s)) return clip(`${s.name} by ${p.name} reviewed${list ? `: ${list}` : ''}.${feature ? ` How the ${feature} feature works, pros and cons.` : ' Features, pros and cons.'}`);
+  let d = `${s.name} demo: play the ${p.name} slot free${s.demoUrl && s.provider !== 'push-gaming' ? ', no sign-up or download' : ` on the official ${p.name} site`}.${list ? ` ${list[0].toUpperCase()}${list.slice(1)}.` : ''}`;
+  const tails = [feature ? ` See how the ${feature} feature works, plus our honest review.` : '', ' Plus our honest review.', ''];
   d += tails.find((t) => t && (d + t).length <= 158) ?? '';
   return clip(d);
 }
 
 export function providerTitle(p: Provider, count: number): string[] {
-  return [`${p.name} Slots – ${count} Free Demos & Reviews (${SITE.year})`, `${p.name} Slots – ${count} Free Demos (${SITE.year})`, `${p.name} Slots – Free Demos & Reviews`, `${p.name} Slots`];
+  return [`${p.name} Demo Slots – Play ${count} Free Demos (${SITE.year})`, `${p.name} Demo Slots – ${count} Free Demos`, `${p.name} Demo Slots – Free Play`, `${p.name} Demo Slots`];
 }
 export function providerDescription(p: Provider, count: number) {
-  return `Browse ${count} ${p.name} slots with free demos, RTP, volatility and max win data. Compare their best games and signature mechanics${p.signatureMechanics?.length ? ` like ${p.signatureMechanics.slice(0, 2).join(' and ')}` : ''}.`;
+  return `Play ${count} ${p.name} demo slots free, with RTP, volatility and max win data. Compare their best games and signature mechanics${p.signatureMechanics?.length ? ` like ${p.signatureMechanics.slice(0, 2).join(' and ')}` : ''}.`;
 }

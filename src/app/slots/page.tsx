@@ -8,8 +8,8 @@ import type { Volatility } from '@/lib/types';
 
 
 export const metadata = buildMetadata({
-  title: [`Free Slot Demos – ${getSlots().length}+ Slots with RTP & Max Win`, 'All Slots – Free Demos, RTP & Max Win Database', 'All Slots – Free Demos & RTP'],
-  description: `Search ${getSlots().length}+ online slots with free official demos. Filter by provider or browse A–Z and compare RTP, volatility and max win.`,
+  title: [`Demo Slots A–Z: ${getSlots().length} Free Slot Demos with RTP & Max Win`, `Demo Slots A–Z: ${getSlots().length} Free Slot Demos`, 'Demo Slots A–Z – Free Slot Demos'],
+  description: `All ${getSlots().length} demo slots in one place: free official demos with no sign-up. Filter by provider or browse A–Z and compare RTP, volatility and max win.`,
   path: '/slots',
 });
 
@@ -25,7 +25,7 @@ export default function SlotsIndex() {
   return (
     <>
       <Breadcrumbs items={[{ name: 'Slots', path: '/slots' }]} />
-      <h1>All slots</h1>
+      <h1>All demo slots</h1>
       <p className="muted">{slots.length.toLocaleString()} slots with official free demos, RTP, volatility and max win. Prefer a spreadsheet view? See the <Link href="/slot-database">slot RTP database</Link>.</p>
       <nav aria-label="Browse A–Z" className="az-bar">
         {letters().map((l) => <Link key={l} href={`/slots/a-z/${l}`}>{l.toUpperCase()}</Link>)}
