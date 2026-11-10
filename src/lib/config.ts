@@ -9,7 +9,7 @@ export const FEATURES = {
 
 export const SITE = {
   name: process.env.NEXT_PUBLIC_SITE_NAME || 'Scatter Drop',
-  url: (process.env.NEXT_PUBLIC_SITE_URL || 'https://scatterdrop.com').replace(/\/$/, ''),
+  url: (process.env.NEXT_PUBLIC_SITE_URL || 'https://www.scatterdrop.com').replace(/\/$/, ''),
   tagline: 'Free slot demos, honest reviews and verified slot data',
   description:
     'Play free slot demos from official providers and read independent reviews with RTP, volatility and max win data. No sign-up, no deposit, 18+ only.',

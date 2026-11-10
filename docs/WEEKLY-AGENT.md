@@ -84,6 +84,14 @@ titled `Weekly update YYYY-MM-DD: N new slots, 1 guide, M data fixes`. In the bo
 
 End the PR body with the attribution line given in the session instructions.
 
+## 6. After the owner merges
+
+New pages can be pushed to Bing/IndexNow straight away (the owner or a later run can do this once the PR is live):
+
+```bash
+node scripts/indexnow.mjs /slots/<provider>/<slug> /guides/<slug> ...
+```
+
 ## Rules that never change
 
 - Official provider sources only. Respect robots.txt. A site that blocks crawlers (e.g. bigtimegaming.com) is skipped, never worked around.

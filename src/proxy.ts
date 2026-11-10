@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-const CANONICAL_HOST = new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://scatterdrop.com').host.replace(/^www\./, '');
+const CANONICAL_HOST = new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.scatterdrop.com').host.replace(/^www\./, '');
 
 /**
  * 1. Any host other than the canonical domain (e.g. *.vercel.app deployments and previews) is sent
