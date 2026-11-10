@@ -96,12 +96,13 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
   return (
     <>
       <Breadcrumbs items={[{ name: 'Slots', path: '/slots' }, { name: p.name, path: `/providers/${p.slug}` }, { name: s.name, path: url }]} />
-      <h1>{s.name} Demo &amp; Review</h1>
+      <h1 className="slot-h1">{s.name}</h1>
+      <p className="slot-kicker">Free demo &amp; review · {p.name}</p>
       <AffiliateDisclosure compact />
 
       <div className="slot-hero">
         <div>
-          <DemoEmbed name={s.name} url={s.demoUrl} providerName={p.name} launchPath={`/api/demo/${s.provider}/${s.slug}`} image={s.image ?? undefined}
+          <DemoEmbed name={s.name} url={s.demoUrl} providerName={p.name} launchPath={`/api/demo/${s.provider}/${s.slug}`} geoNote={s.provider === 'push-gaming'} image={s.image ?? undefined}
             cta={FEATURES.realMoney && casinos.length ? { slotKey: `${s.provider}/${s.slug}`, casinos: casinos.map((c) => ({ slug: c.slug, name: c.name, geos: c.geos, bonus: c.bonus, terms: c.terms })) } : undefined} />
         </div>
         <aside className="side-card" aria-label={`${s.name} key facts`}>

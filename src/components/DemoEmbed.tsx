@@ -7,7 +7,7 @@ import { DemoCta, isCtaTest, type CtaCasino } from './DemoCta';
  * is only requested after an explicit click, which keeps LCP/INP/CLS unaffected on page load.
  * URLs are validated against the provider's allowlisted demo domains at build time (scripts/validate-content.mjs).
  */
-export function DemoEmbed({ name, url, providerName, launchPath, image, cta }: { name: string; url?: string | null; providerName: string; launchPath: string; image?: string; cta?: { casinos: CtaCasino[]; slotKey: string } }) {
+export function DemoEmbed({ name, url, providerName, launchPath, image, cta, geoNote }: { geoNote?: boolean; name: string; url?: string | null; providerName: string; launchPath: string; image?: string; cta?: { casinos: CtaCasino[]; slotKey: string } }) {
   const [on, setOn] = useState(false);
   const [src, setSrc] = useState<string | null>(null);
   const box = useRef<HTMLDivElement>(null);
@@ -27,8 +27,17 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta }: {
   if (!url)
     return (
       <div className="demo demo-empty">
-        <p><strong>Official {name} demo coming soon.</strong></p>
-        <p className="muted small">We only embed official demos supplied by {providerName}. Some providers restrict demos in certain countries (for example Great Britain requires age verification).</p>
+        {image ? <span className="demo-bg" style={{ backgroundImage: `url(${image})` }} aria-hidden /> : null}
+        <span className="demo-stage">
+          {image ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img className="demo-art" src={image} alt={`${name} slot by ${providerName}`} width={480} height={360} />
+          ) : null}
+          <span className="demo-note">
+            <strong>No free demo from {providerName} yet</strong>
+            <span>We only embed official demos. Read the review below or try a similar slot.</span>
+          </span>
+        </span>
       </div>
     );
   return (
@@ -52,6 +61,7 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta }: {
         </button>
       )}
     </div>
+    {on && geoNote ? <p className="demo-hint">Game not loading? {providerName} blocks its free demos in some countries.</p> : null}
     {on && (cta?.casinos.length || isCtaTest()) ? <DemoCta casinos={cta?.casinos ?? []} slotName={name} slotKey={cta?.slotKey ?? name} /> : null}
     </>
   );
