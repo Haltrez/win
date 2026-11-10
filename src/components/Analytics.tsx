@@ -1,5 +1,6 @@
 'use client';
 import Script from 'next/script';
+import { Analytics as VercelAnalytics } from '@vercel/analytics/next';
 import { useReportWebVitals } from 'next/web-vitals';
 import { useEffect } from 'react';
 
@@ -15,7 +16,7 @@ export function track(event: string, props: Record<string, string> = {}) {
   window.gtag?.('event', event, props);
 }
 
-/** Analytics + Core Web Vitals reporting + affiliate click tracking (delegated on [data-event]). */
+/** Vercel Web Analytics (page views, visitors, top pages) + optional Plausible/GA4 + Core Web Vitals reporting + affiliate click tracking (delegated on [data-event]). */
 export function Analytics() {
   useReportWebVitals((m) => {
     const body = JSON.stringify({ name: m.name, value: m.value, rating: m.rating, id: m.id, path: location.pathname });
@@ -32,6 +33,7 @@ export function Analytics() {
   }, []);
   return (
     <>
+      <VercelAnalytics />
       {PLAUSIBLE ? <Script src="https://plausible.io/js/script.outbound-links.js" data-domain={PLAUSIBLE} strategy="afterInteractive" /> : null}
       {GA ? (
         <>
