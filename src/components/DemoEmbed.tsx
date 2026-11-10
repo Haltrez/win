@@ -45,7 +45,9 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta, geo
     <div className={`demo${on ? ' playing' : ''}`} ref={box}>
       {on ? (
         <>
-        <iframe src={src ?? undefined} title={`${name} free demo by ${providerName}`} allow="fullscreen; autoplay" allowFullScreen sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-pointer-lock" />
+        <iframe src={src ?? undefined} title={`${name} free demo by ${providerName}`} allow="fullscreen; autoplay" allowFullScreen
+          // Push Gaming's player fails inside a sandboxed frame; embed it exactly as pushgaming.com does.
+          {...(geoNote ? { referrerPolicy: 'no-referrer' as const } : { sandbox: 'allow-scripts allow-same-origin allow-popups allow-forms allow-pointer-lock' })} />
         <button className="demo-fs" onClick={fullscreen} aria-label={`Play ${name} full screen`}>⤢ Full screen</button>
         </>
       ) : (

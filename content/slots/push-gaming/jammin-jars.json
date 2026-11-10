@@ -44,7 +44,7 @@
     "razor-shark",
     "sugar-rush"
   ],
-  "demoUrl": "https://player.eu.demo.pushgaming.com/mesh/b2c/igp/pg-com/launch?mode=DEMO&country=GB&rgsCode=hive&ccyCode=fun&jurisdiction=NA&rgsGameId=jamminjars&lang=en&token={uuid}",
+  "demoUrl": "https://player.eu.demo.pushgaming.com/mesh/b2c/igp/pg-com/launch?mode=DEMO&country=GB&rgsCode=hive&ccyCode=fun&jurisdiction=NA&rgsGameId=jamminjars&lang=en&token={uuid}&lobbyUrl=https%3A%2F%2Fwww.scatterdrop.com",
   "image": "/thumbs/push-gaming/jammin-jars.webp",
   "sources": [
     "Provider game sheet / in-game info screen (verify before launch)"
