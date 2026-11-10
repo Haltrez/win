@@ -123,11 +123,12 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
               </a>
             ) : null}
             <FavoriteButton id={`${s.provider}/${s.slug}`} name={s.name} url={url} />
-            {s.rtp != null && s.rtpSource !== 'third-party' ? <Link className="embed-link" href={`/tools/slot-cost-calculator?slot=${s.provider}/${s.slug}`}>What does {s.rtp.toFixed(2)}% RTP cost per session? Calculate →</Link> : null}
-            <Link className="embed-link" href={`/widgets?slot=${s.provider}/${s.slug}`}>&lt;/&gt; Embed this slot on your site</Link>
           </div>
         </aside>
       </div>
+
+      <div className="section-head"><h2>Play next: slots like {s.name}</h2><Link href={`/providers/${p.slug}`}>All {p.name} slots →</Link></div>
+      <SlotRail slots={related} label={`Slots like ${s.name}`} />
 
       <section className="prose" aria-labelledby="review-h">
         <h2 id="review-h">{s.name} review</h2>
@@ -167,7 +168,7 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
             <>{p.name} does not publish an RTP for {s.name} outside the game, and we don&apos;t publish unconfirmed numbers. Open the info screen inside the game to see the RTP of the version you are playing.{' '}</>
           ) : (<>the {s.rtpSource === 'third-party' ? 'return to player reported by independent slot databases' : 'default return to player'} is {fmtRtp(s.rtp)}, meaning that over a very large number of spins the game is designed to
           pay back around {s.rtp.toFixed(1)} units for every 100 wagered. {s.rtpSource === 'third-party' ? `${p.name} has not published this figure itself, so treat it as unconfirmed. ` : ''}{s.rtpVariants?.length ? `It is also offered at ${s.rtpVariants.map(fmtRtp).join(', ')} – a casino running the lowest version keeps noticeably more of every bet.` : 'Some casinos may run a lower configuration; the info screen inside the game shows the exact figure.'}{' '}</>)}
-          <Link href="/guides/rtp-explained">How RTP works</Link>.
+          <Link href="/guides/rtp-explained">How RTP works</Link>.{s.rtp != null && s.rtpSource !== 'third-party' ? <> <Link href={`/tools/slot-cost-calculator?slot=${s.provider}/${s.slug}`}>See what {fmtRtp(s.rtp)} RTP costs per session</Link>.</> : null}
         </p>
         <p><strong>Volatility:</strong> {volatilityNote(s)} <Link href="/guides/slot-volatility-explained">Volatility explained</Link>.</p>
         <p>
@@ -184,8 +185,6 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
 
       <CasinoModule casinos={casinos} title={`Best casinos to play ${s.name}`} context={`slot:${s.slug}`} slotName={s.name} />
 
-      <div className="section-head"><h2>Slots like {s.name}</h2><Link href={`/providers/${p.slug}`}>All {p.name} slots →</Link></div>
-      <SlotRail slots={related} label={`Slots like ${s.name}`} />
 
       <h2>Explore more</h2>
       <div className="link-groups">

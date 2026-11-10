@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import { DemoCta, isCtaTest, type CtaCasino } from './DemoCta';
+import { rememberSlot } from './RecentSlots';
 
 /**
  * Click-to-load facade for official provider demos. The iframe (often several MB of game assets)
@@ -47,7 +48,18 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta, ext
       setFs('fake');
     }
   };
+  const remember = () => rememberSlot({ u: launchPath.replace('/api/demo/', '/slots/'), n: name, p: providerName, img: image });
+  // Phones: once the Play button scrolls out of view, keep a slim Play bar at the bottom of the screen.
+  const [away, setAway] = useState(false);
+  useEffect(() => {
+    const el = box.current;
+    if (!el || on || !('IntersectionObserver' in window)) return;
+    const io = new IntersectionObserver(([e]) => setAway(!e.isIntersecting && e.boundingClientRect.top < 0));
+    io.observe(el);
+    return () => io.disconnect();
+  }, [on]);
   const start = () => {
+    remember();
     const mobile = window.matchMedia('(max-width: 768px)').matches;
     // Templated URLs ({version}, {uuid}) are resolved server-side; plain official URLs load directly.
     if (url && url.includes('{')) setSrc(`${launchPath}${mobile ? '?channel=mobile' : ''}`);
@@ -80,7 +92,7 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta, ext
         </>
       ) : (
         externalUrl ? (
-          <a className="demo-facade" href={externalUrl} target="_blank" rel="noopener" aria-label={`Play the free ${name} demo on ${providerName}'s website`}>
+          <a className="demo-facade" href={externalUrl} target="_blank" rel="noopener" onClick={remember} aria-label={`Play the free ${name} demo on ${providerName}'s website`}>
           {image ? <span className="demo-bg" style={{ backgroundImage: `url(${image})` }} aria-hidden /> : null}
           <span className="demo-stage">
             {image ? (
@@ -104,6 +116,11 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta, ext
         )
       )}
     </div>
+    {!on && away ? (
+      externalUrl
+        ? <a className="play-bar" href={externalUrl} target="_blank" rel="noopener" onClick={remember}><span className="demo-play" aria-hidden /> Play {name} demo</a>
+        : <button type="button" className="play-bar" onClick={() => { box.current?.scrollIntoView({ block: 'center' }); start(); }}><span className="demo-play" aria-hidden /> Play {name} demo</button>
+    ) : null}
     {on && (cta?.casinos.length || isCtaTest()) ? <DemoCta casinos={cta?.casinos ?? []} slotName={name} slotKey={cta?.slotKey ?? name} /> : null}
     </>
   );

@@ -528,3 +528,13 @@ a.demo-facade, a.demo-facade:hover { text-decoration: none; }
 .demo-cta-card .btn-ghost { color: #fff; border-color: rgba(255,255,255,.3); }
 .demo-cta-card .btn-primary { min-height: 48px; padding: 12px 22px; }
 .slot-card-link:hover, .slot-card-link:hover * { text-decoration: none; }
+
+/* UX pass: phone demo screen, sticky play bar, recent rail */
+.recent-rail { grid-auto-columns: minmax(150px, 190px); }
+.play-bar { all: unset; box-sizing: border-box; display: none; }
+@media (max-width: 859px) {
+  .demo:not(.playing):not(.demo-fake-fs):not(.demo-empty) { aspect-ratio: 4 / 3; }
+  .demo:not(.playing) .demo-art { width: 46%; }
+  .demo-stage { gap: 12px; }
+  .play-bar { position: fixed; left: 12px; right: 12px; bottom: max(12px, env(safe-area-inset-bottom)); z-index: 40; display: flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 18px; border-radius: 999px; background: var(--cta); color: var(--brand-ink); font: 800 1rem var(--font); box-shadow: 0 10px 30px rgba(0,0,0,.45), var(--cta-glow); cursor: pointer; text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+}

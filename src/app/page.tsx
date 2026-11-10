@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { RecentSlots } from '@/components/RecentSlots';
 import { getGuides, getProviders, getSlots, getSlotsByProvider, getCasinos } from '@/lib/data';
 import { getCategories, getCategorySlots } from '@/lib/categories';
 import { buildMetadata } from '@/lib/seo';
@@ -22,8 +23,6 @@ const QUICK: [string, string][] = [
   ['/best/highest-max-win-slots', 'Biggest max wins'],
   ['/best/low-volatility-slots', 'Low volatility'],
   ['/best/megaways-slots', 'Megaways'],
-  ['/new', 'New this week'],
-  ['/slot-database', 'RTP database'],
 ];
 
 function Section({ title, href, linkText, children }: { title: string; href: string; linkText: string; children: React.ReactNode }) {
@@ -65,6 +64,7 @@ export default function Home() {
         </dl>
       </section>
 
+      <RecentSlots />
       <Section title="Top-rated slots" href="/best/best-slots" linkText="See all"><SlotRail slots={top} ranked label="Top-rated slots" /></Section>
       <Section title="New releases" href="/best/new-slots" linkText="All new slots"><SlotRail slots={newest} label="New releases" /></Section>
       <Section title="Biggest max wins" href="/best/highest-max-win-slots" linkText="Highest max wins"><SlotRail slots={maxWin} label="Biggest max wins" /></Section>
