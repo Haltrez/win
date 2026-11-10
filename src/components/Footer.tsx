@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import { FEATURES, RG, SITE } from '@/lib/config';
-import { getProviders } from '@/lib/data';
-import { getCategories, isIndexable } from '@/lib/categories';
+import { getProviders, getSlotsByProvider } from '@/lib/data';
+import { getCategory } from '@/lib/categories';
 
 export function Footer() {
-  const providers = getProviders().slice(0, 8);
-  const cats = getCategories().filter(isIndexable).slice(0, 8);
+  const providers = getProviders().map((p) => ({ p, n: getSlotsByProvider(p.slug).length })).sort((a, b) => b.n - a.n).slice(0, 6).map((x) => x.p);
+  const cats = ['best-slots', 'new-slots', 'high-rtp-slots', 'highest-max-win-slots', 'low-volatility-slots', 'megaways-slots', 'bonus-buy-slots'].map(getCategory).filter(Boolean) as NonNullable<ReturnType<typeof getCategory>>[];
   return (
     <footer className="site-footer">
       <div className="container">
@@ -28,7 +28,7 @@ export function Footer() {
           </div>
           <div>
             <h3>Best slots</h3>
-            <ul>{cats.map((c) => <li key={c.slug}><Link href={`/best/${c.slug}`}>{c.title}</Link></li>)}</ul>
+            <ul>{cats.map((c) => <li key={c.slug}><Link href={`/best/${c.slug}`}>{c.slug === 'best-slots' ? 'Top-rated slots' : c.title.replace(/^Best /, '').replace(/\s+\d{4}$/, '')}</Link></li>)}</ul>
           </div>
           <div>
             <h3>Guides</h3>

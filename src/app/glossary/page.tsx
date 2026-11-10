@@ -27,7 +27,7 @@ export default function GlossaryPage() {
       <section className="prose">
         <p>Short, plain-English definitions of the terms you&apos;ll see in slot reviews and paytables. Each entry links to a longer guide or a list of slots that use the feature.</p>
       </section>
-      <ul className="chips" aria-label="Jump to letter">{letters.map((l) => <li key={l}><a href={`#${l}`}>{l}</a></li>)}</ul>
+      <nav className="az-bar" aria-label="Jump to letter">{letters.map((l) => <a key={l} href={`#${l}`}>{l}</a>)}</nav>
       <dl className="feature-list glossary">
         {list.map((t, i) => (
           <div key={t.term} id={i === list.findIndex((x) => x.term[0].toUpperCase() === t.term[0].toUpperCase()) ? t.term[0].toUpperCase() : undefined}>

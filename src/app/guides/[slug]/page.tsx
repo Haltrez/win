@@ -38,7 +38,7 @@ export default async function GuidePage({ params }: { params: Promise<P> }) {
         <div dangerouslySetInnerHTML={{ __html: g.html }} />
       </article>
       {slots.length ? (<><h2>Slots mentioned in this guide</h2><SlotGrid slots={slots} /></>) : null}
-      {cats.length ? (<><h2>Related slot lists</h2><ul className="chips">{cats.map((c) => <li key={c!.slug}><Link href={`/best/${c!.slug}`}>{c!.title}</Link></li>)}</ul></>) : null}
+      {cats.length ? (<><h2>Related slot lists</h2><ul className="inline-links">{cats.map((c) => <li key={c!.slug}><Link href={`/best/${c!.slug}`}>{c!.title.replace(/\s+\d{4}$/, '')}</Link></li>)}</ul></>) : null}
       <FAQ items={g.faq ?? []} />
       {more.length ? (<><h2>More guides</h2><ul>{more.map((m) => <li key={m.slug}><Link href={`/guides/${m.slug}`}>{m.title}</Link></li>)}</ul></>) : null}
       <p className="notice small">Slots are games of chance. No guide or strategy can change a slot&apos;s RTP or guarantee a win. 18+ – <Link href="/responsible-gambling">play responsibly</Link>.</p>

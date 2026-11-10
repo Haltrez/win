@@ -43,7 +43,7 @@
     "jammin-jars"
   ],
   "demoUrl": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=reactoonz&lang=en_GB&practice=1&channel=desktop&demo=2",
-  "image": null,
+  "image": "/slots/play-n-go/reactoonz.webp",
   "sources": [
     "Provider game sheet / in-game info screen (verify before launch)"
   ],

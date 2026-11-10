@@ -2,7 +2,9 @@ import Link from 'next/link';
 import { getLetters as letters, getProviders, getSlots, getSlotsByProvider } from '@/lib/data';
 import { buildMetadata } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
-import { SlotGrid } from '@/components/SlotCard';
+import { SlotBrowser, type BrowserRow } from '@/components/SlotBrowser';
+import { VOLATILITY_LABEL, releaseKey } from '@/lib/format';
+import type { Volatility } from '@/lib/types';
 import { SlotSearch } from '@/components/SlotSearch';
 
 
@@ -14,20 +16,23 @@ export const metadata = buildMetadata({
 
 export default function SlotsIndex() {
   const slots = getSlots();
+  const providers = getProviders().filter((p) => getSlotsByProvider(p.slug).length).map((p) => ({ slug: p.slug, name: p.name }));
+  const names = Object.fromEntries(providers.map((p) => [p.slug, p.name]));
+  const rows: BrowserRow[] = slots.map((s) => ({
+    n: s.name, u: `/slots/${s.provider}/${s.slug}`, p: names[s.provider] ?? s.provider, ps: s.provider, img: s.image ?? undefined,
+    rtp: s.rtp, mw: s.maxWin, v: s.volatility, vl: s.volatility ? VOLATILITY_LABEL[s.volatility] : null, rel: releaseKey(s),
+  }));
+  const vols = (Object.keys(VOLATILITY_LABEL) as Volatility[]).filter((v) => slots.some((s) => s.volatility === v)).map((v) => ({ key: v, label: VOLATILITY_LABEL[v] }));
   return (
     <>
       <Breadcrumbs items={[{ name: 'Slots', path: '/slots' }]} />
       <h1>All slots</h1>
-      <p className="muted">{slots.length.toLocaleString()} slots reviewed, each with official demo, RTP, volatility and max win.</p>
+      <p className="muted">{slots.length.toLocaleString()} slots with official free demos, RTP, volatility and max win.</p>
       <SlotSearch />
-      <h2>Browse A–Z</h2>
-      <ul className="chips">{letters().map((l) => <li key={l}><Link href={`/slots/a-z/${l}`}>{l.toUpperCase()}</Link></li>)}</ul>
-      <h2>By provider</h2>
-      <ul className="chips">
-        {getProviders().filter((p) => getSlotsByProvider(p.slug).length).map((p) => <li key={p.slug}><Link href={`/providers/${p.slug}`}>{p.name}</Link></li>)}
-      </ul>
-      <h2>Latest additions</h2>
-      <SlotGrid slots={slots.slice(0, 24)} />
+      <nav aria-label="Browse A–Z" className="az-bar">
+        {letters().map((l) => <Link key={l} href={`/slots/a-z/${l}`}>{l.toUpperCase()}</Link>)}
+      </nav>
+      <SlotBrowser rows={rows} providers={providers} vols={vols} />
     </>
   );
 }

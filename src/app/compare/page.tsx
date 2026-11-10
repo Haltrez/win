@@ -10,7 +10,8 @@ export default function Compare() {
     <>
       <Breadcrumbs items={[{ name: 'Compare', path: '/compare' }]} />
       <h1>Slot comparisons</h1>
-      <ul className="chips">{getComparisons().map((c) => <li key={c.slug}><Link href={`/compare/${c.slug}`}>{c.a.name} vs {c.b.name}</Link></li>)}</ul>
+      <p className="muted">{getComparisons().length} head-to-head comparisons of RTP, volatility, max win and features.</p>
+      <ul className="tiles tiles-wide">{getComparisons().map((c) => <li key={c.slug}><Link href={`/compare/${c.slug}`}>{c.a.name} <span className="count">vs</span> {c.b.name}</Link></li>)}</ul>
     </>
   );
 }

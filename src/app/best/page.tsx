@@ -27,8 +27,8 @@ export default function Best() {
         return (
           <section key={g}>
             <h2>{label}</h2>
-            <ul className="chips">
-              {list.map((c) => <li key={c.slug}><Link href={`/best/${c.slug}`}>{c.title} <span className="muted small">({getCategorySlots(c).length})</span>{isIndexable(c) ? '' : ''}</Link></li>)}
+            <ul className="tiles">
+              {list.map((c) => <li key={c.slug}><Link href={`/best/${c.slug}`}>{c.title.replace(/\s+\d{4}$/, '')}<span className="count">{getCategorySlots(c).length}</span></Link></li>)}
             </ul>
           </section>
         );

@@ -88,7 +88,7 @@ export default async function ProviderPage({ params }: { params: Promise<P> }) {
       ) : (
         <p className="notice">Reviews for {p.name} slots are on the way. In the meantime, browse <Link href="/best/new-slots">new releases</Link>.</p>
       )}
-      {cats.length ? (<><h2>{p.name} slots by type</h2><ul className="chips">{cats.map((c) => <li key={c.slug}><Link href={`/best/${c.slug}`}>{c.title}</Link></li>)}</ul></>) : null}
+      {cats.length ? (<><h2>{p.name} slots by type</h2><ul className="inline-links">{cats.map((c) => <li key={c.slug}><Link href={`/best/${c.slug}`}>{c.title.replace(/\s+\d{4}$/, '')}</Link></li>)}</ul></>) : null}
       <AffiliateDisclosure />
       <CasinoModule casinos={getCasinosForProvider(p.slug)} title={`Casinos with ${p.name} slots`} context={`provider:${p.slug}`} />
       <FAQ items={faq} title={`${p.name} FAQ`} />

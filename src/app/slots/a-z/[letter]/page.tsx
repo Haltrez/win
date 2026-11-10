@@ -31,7 +31,7 @@ export default async function Page({ params }: { params: Promise<{ letter: strin
       <Breadcrumbs items={[{ name: 'Slots', path: '/slots' }, { name: `A–Z: ${letter.toUpperCase()}`, path: `/slots/a-z/${letter}` }]} />
       <h1>Slots starting with {letter.toUpperCase()}</h1>
       <section className="prose"><p>{insightSentences(listInsights(list), `slots starting with ${letter.toUpperCase()}`).join(' ')}</p></section>
-      <ul className="chips">{letters().map((l) => <li key={l}><Link href={`/slots/a-z/${l}`} aria-current={l === letter ? 'page' : undefined}>{l.toUpperCase()}</Link></li>)}</ul>
+      <nav aria-label="Browse A–Z" className="az-bar">{letters().map((l) => <Link key={l} href={`/slots/a-z/${l}`} aria-current={l === letter ? 'page' : undefined}>{l.toUpperCase()}</Link>)}</nav>
       <SlotGrid slots={list} />
     </>
   );

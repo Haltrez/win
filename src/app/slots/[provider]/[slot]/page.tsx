@@ -14,7 +14,7 @@ import { DemoEmbed } from '@/components/DemoEmbed';
 import { StatsTable } from '@/components/StatsTable';
 import { AffiliateDisclosure } from '@/components/Disclosure';
 import { CasinoModule } from '@/components/CasinoModule';
-import { SlotGrid } from '@/components/SlotCard';
+import { SlotRail } from '@/components/SlotCard';
 import { FAQ } from '@/components/FAQ';
 import { FavoriteButton } from '@/components/Favorites';
 
@@ -163,40 +163,42 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
 
       <CasinoModule casinos={casinos} title={`Best casinos to play ${s.name}`} context={`slot:${s.slug}`} slotName={s.name} />
 
-      {cats.length ? (
-        <>
-          <h2>Find similar slots</h2>
-          <ul className="chips">{cats.map((c) => <li key={c.slug}><Link href={`/best/${c.slug}`}>{c.title}</Link></li>)}</ul>
-        </>
-      ) : null}
+      <div className="section-head"><h2>Slots like {s.name}</h2><Link href={`/providers/${p.slug}`}>All {p.name} slots →</Link></div>
+      <SlotRail slots={related} label={`Slots like ${s.name}`} />
 
-      {series.length ? (
-        <>
-          <h2>More from the {seriesLabel(s)} series</h2>
-          <ul>{series.map((x) => <li key={x.slug}><Link href={slotUrl(x)}>{x.name}</Link>{x.maxWin ? <span className="muted small"> · {fmtX(x.maxWin)} max win</span> : null}</li>)}</ul>
-        </>
-      ) : null}
-
-      {comparisons.length ? (
-        <>
-          <h2>Comparisons</h2>
-          <ul>{comparisons.map((c) => <li key={c.slug}><Link href={`/compare/${c.slug}`}>{c.a.name} vs {c.b.name}</Link></li>)}</ul>
-        </>
-      ) : null}
-
-      <h2>Slots like {s.name}</h2>
-      <SlotGrid slots={related} />
-
-      <h2>More from {p.name}</h2>
-      <p>{p.description.split('. ').slice(0, 2).join('. ')}. <Link href={`/providers/${p.slug}`}>All {p.name} slots →</Link></p>
-      {moreFromProvider.length ? <ul className="chips">{moreFromProvider.map((x) => <li key={x.slug}><Link href={slotUrl(x)}>{x.name}</Link></li>)}</ul> : null}
-
-      {guides.length ? (
-        <>
-          <h2>Helpful guides</h2>
-          <ul>{guides.map((g) => <li key={g.slug}><Link href={`/guides/${g.slug}`}>{g.title}</Link></li>)}</ul>
-        </>
-      ) : null}
+      <h2>Explore more</h2>
+      <div className="link-groups">
+        {series.length ? (
+          <section>
+            <h3>{seriesLabel(s)} series</h3>
+            <ul className="inline-links">{series.map((x) => <li key={x.slug}><Link href={slotUrl(x)}>{x.name}</Link></li>)}</ul>
+          </section>
+        ) : null}
+        {comparisons.length ? (
+          <section>
+            <h3>Compare</h3>
+            <ul className="inline-links">{comparisons.slice(0, 6).map((c) => <li key={c.slug}><Link href={`/compare/${c.slug}`}>{c.a.slug === s.slug ? `vs ${c.b.name}` : `vs ${c.a.name}`}</Link></li>)}</ul>
+          </section>
+        ) : null}
+        {cats.length ? (
+          <section>
+            <h3>Featured in</h3>
+            <ul className="inline-links">{cats.slice(0, 6).map((c) => <li key={c.slug}><Link href={`/best/${c.slug}`}>{c.title.replace(/\s+\d{4}$/, '')}</Link></li>)}</ul>
+          </section>
+        ) : null}
+        {moreFromProvider.length ? (
+          <section>
+            <h3>More from {p.name}</h3>
+            <ul className="inline-links">{moreFromProvider.slice(0, 8).map((x) => <li key={x.slug}><Link href={slotUrl(x)}>{x.name}</Link></li>)}</ul>
+          </section>
+        ) : null}
+        {guides.length ? (
+          <section>
+            <h3>Guides</h3>
+            <ul className="inline-links">{guides.map((g) => <li key={g.slug}><Link href={`/guides/${g.slug}`}>{g.title.split(/[:(]/)[0].trim()}</Link></li>)}</ul>
+          </section>
+        ) : null}
+      </div>
 
       <FAQ items={autoFaq(s, p.name)} title={`${s.name} FAQ`} />
 

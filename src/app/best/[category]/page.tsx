@@ -80,9 +80,16 @@ export default async function CategoryPage({ params }: { params: Promise<P> }) {
       <AffiliateDisclosure />
       <CasinoModule casinos={getCasinos()} title="Where to play these slots" context={`best:${c.slug}`} />
 
-      {guides.length ? (<><h2>Learn more</h2><ul>{guides.map((g) => <li key={g!.slug}><Link href={`/guides/${g!.slug}`}>{g!.title}</Link></li>)}</ul></>) : null}
-      {providers.length ? (<><h2>Providers in this list</h2><ul className="chips">{providers.map((p) => <li key={p}><Link href={`/providers/${p}`}>{getProvider(p)?.name}</Link></li>)}</ul></>) : null}
-      {siblings.length ? (<><h2>Related lists</h2><ul className="chips">{siblings.map((x) => <li key={x.slug}><Link href={`/best/${x.slug}`}>{x.title}</Link></li>)}</ul></>) : null}
+      {guides.length || providers.length || siblings.length ? (
+        <>
+          <h2>Explore more</h2>
+          <div className="link-groups">
+            {siblings.length ? <section><h3>Related lists</h3><ul className="inline-links">{siblings.slice(0, 8).map((x) => <li key={x.slug}><Link href={`/best/${x.slug}`}>{x.title.replace(/\s+\d{4}$/, '')}</Link></li>)}</ul></section> : null}
+            {providers.length ? <section><h3>Providers in this list</h3><ul className="inline-links">{providers.map((p) => <li key={p}><Link href={`/providers/${p}`}>{getProvider(p)?.name}</Link></li>)}</ul></section> : null}
+            {guides.length ? <section><h3>Guides</h3><ul className="inline-links">{guides.map((g) => <li key={g!.slug}><Link href={`/guides/${g!.slug}`}>{g!.title.split(/[:(]/)[0].trim()}</Link></li>)}</ul></section> : null}
+          </div>
+        </>
+      ) : null}
       <FAQ items={faq} />
     </>
   );
