@@ -1,12 +1,13 @@
 'use client';
 import { useRef, useState } from 'react';
+import { DemoCta, type CtaCasino } from './DemoCta';
 
 /**
  * Click-to-load facade for official provider demos. The iframe (often several MB of game assets)
  * is only requested after an explicit click, which keeps LCP/INP/CLS unaffected on page load.
  * URLs are validated against the provider's allowlisted demo domains at build time (scripts/validate-content.mjs).
  */
-export function DemoEmbed({ name, url, providerName, launchPath, image }: { name: string; url?: string | null; providerName: string; launchPath: string; image?: string }) {
+export function DemoEmbed({ name, url, providerName, launchPath, image, cta }: { name: string; url?: string | null; providerName: string; launchPath: string; image?: string; cta?: { casinos: CtaCasino[]; slotKey: string } }) {
   const [on, setOn] = useState(false);
   const [src, setSrc] = useState<string | null>(null);
   const box = useRef<HTMLDivElement>(null);
@@ -31,6 +32,7 @@ export function DemoEmbed({ name, url, providerName, launchPath, image }: { name
       </div>
     );
   return (
+    <>
     <div className={`demo${on ? ' playing' : ''}`} ref={box}>
       {on ? (
         <>
@@ -50,5 +52,7 @@ export function DemoEmbed({ name, url, providerName, launchPath, image }: { name
         </button>
       )}
     </div>
+    {on && cta?.casinos.length ? <DemoCta casinos={cta.casinos} slotName={name} slotKey={cta.slotKey} /> : null}
+    </>
   );
 }

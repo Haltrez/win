@@ -58,7 +58,6 @@ export default function Home() {
           <div><dt>Games</dt><dd>{slots.length.toLocaleString()}</dd></div>
           <div><dt>Official demos</dt><dd>{slots.filter((x) => x.demoUrl).length.toLocaleString()}</dd></div>
           <div><dt>Studios</dt><dd>{providers.length}</dd></div>
-          <div><dt>Data source</dt><dd>Provider game sheets</dd></div>
         </dl>
       </section>
 
