@@ -60,6 +60,14 @@ existing guides; 600–1,000 words; link to 3+ real slot pages and 1–2 `/best/
 queue. Use only data that is on the site or on official provider pages. Add new topic ideas to the end of the queue
 if you notice gaps.
 
+## 3b. Clips check
+
+```bash
+node scripts/check-clips.mjs   # removes nothing; lists YouTube clips that are gone or no longer embeddable
+```
+
+Delete any failing clip from `content/clips.json`. Only add clips that pass this check, come from the game studio's official channel or the creator's own channel (no compilation, casino or re-upload channels), and never download or re-upload video.
+
 ## 4. Quality gate (all must pass before opening the PR)
 
 ```bash

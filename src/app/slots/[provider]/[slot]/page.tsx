@@ -161,8 +161,8 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
 
         {clips.length ? (
           <>
-            <h2>{s.name} big wins from streamers</h2>
-            <p className="muted small">Shown with each streamer&apos;s permission. Streamers often bet large amounts; wins like these are rare. <Link href="/biggest-slot-wins">More verified big wins</Link>.</p>
+            <h2>{s.name} big win videos</h2>
+            <p className="muted small">Played through YouTube and credited to each channel. Streamers often bet large amounts; wins like these are rare. <Link href="/biggest-slot-wins">More verified big wins</Link>.</p>
             <div className="clips">{clips.map((c) => <ClipCard key={c.id} clip={c} host={new URL(SITE.url).hostname} />)}</div>
           </>
         ) : null}

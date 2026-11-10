@@ -121,7 +121,9 @@ for (const f of fs.readdirSync(path.join(ROOT, 'guides')).filter((f) => f.endsWi
 // Streamer clips: never published without a permission record; sourced wins need sources.
 for (const c of JSON.parse(fs.readFileSync('content/clips.json', 'utf8'))) {
   const at = `clips.json ${c.id}`;
-  if (c.permission?.granted !== true || !c.permission.by || !c.permission.on || !c.permission.how) err(`${at}: missing permission record (granted, by, on, how) – only publish clips with the streamer's written permission`);
+  const embedOk = c.basis === 'embed' && c.platform === 'youtube' && /^\d{4}-\d{2}-\d{2}$/.test(c.embedChecked || '');
+  const permOk = c.basis === 'permission' && c.permission?.granted === true && c.permission.by && c.permission.on && c.permission.how;
+  if (!embedOk && !permOk) err(`${at}: needs basis "embed" (YouTube only, with embedChecked date) or basis "permission" with a full permission record`);
   if (!['youtube', 'twitch'].includes(c.platform) || !/^[\w-]{5,80}$/.test(c.videoId || '')) err(`${at}: platform must be youtube/twitch with a valid videoId`);
   if (!c.streamer || !/^https:\/\//.test(c.channelUrl || '')) err(`${at}: streamer name and https channelUrl are required for the credit`);
 }

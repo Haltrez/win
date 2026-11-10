@@ -73,17 +73,17 @@ export default function BiggestWinsPage() {
           <li><strong>Regular slots have a ceiling.</strong> A slot&apos;s <Link href="/guides/how-max-win-works">max win</Link> is a fixed multiple of the bet. See the <Link href="/best/highest-max-win-slots">slots with the highest max wins</Link> on this site, all playable as free demos.</li>
         </ul>
 
-        <h2 id="streamer-wins">Streamer big wins</h2>
+        <h2 id="streamer-wins">Big win videos</h2>
         {clips.length ? (
           <>
-            <p>Real clips from slot streamers, shown with their permission and credited to their channels. Streamers often play with very large stakes and sometimes with money provided by a casino, so these are entertainment, not a guide to what to expect.</p>
+            <p>Max-win videos from game studios&apos; official channels and from slot streamers, played through YouTube&apos;s own player and credited to each channel. Streamers often play with very large stakes and sometimes with money provided by a casino, so these are entertainment, not a guide to what to expect.</p>
             <div className="clips">{clips.map((c) => <ClipCard key={c.id} clip={c} host={host} />)}</div>
           </>
         ) : (
-          <p>We only show streamer clips with the streamer&apos;s permission and a credit to their channel, and we haven&apos;t published any yet.</p>
+          <p>No clips are published yet.</p>
         )}
         <div className="notice">
-          <strong>Slot streamer?</strong> Send us a link to your clip through the <Link href="/contact">contact page</Link>. If we feature it, we credit and link your channel, and link the clip from the game&apos;s demo page.
+          <strong>Slot streamer?</strong> Send us a link to your clip through the <Link href="/contact">contact page</Link>. If we feature it, we credit and link your channel, and show the clip on the game&apos;s demo page. Want a video of yours removed? Tell us the same way and we&apos;ll take it down.
         </div>
       </section>
       <FAQ items={faq} />

@@ -22,7 +22,7 @@ export function ClipCard({ clip, host }: { clip: Clip; host: string }) {
       </div>
       <figcaption>
         <strong>{clip.title}</strong>
-        <span className="muted small">Clip by <a href={clip.channelUrl} target="_blank" rel="noopener">{clip.streamer}</a>, shown with permission{clip.winX ? ` · ${clip.winX.toLocaleString('en-US')}x win` : ''}</span>
+        <span className="muted small">Video by <a href={clip.channelUrl} target="_blank" rel="noopener">{clip.streamer}</a>{clip.basis === 'permission' ? ', shown with permission' : ' on YouTube'}{clip.winX ? ` · ${clip.winX.toLocaleString('en-US')}x win` : ''}</span>
       </figcaption>
     </figure>
   );

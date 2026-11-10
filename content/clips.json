@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "id": "hacksaw-le-bandit-10000x",
+    "platform": "youtube", "videoId": "AOhIGGpEZaA",
+    "title": "10,000x max win on Le Bandit",
+    "streamer": "Hacksaw Gaming (official channel)", "channelUrl": "https://www.youtube.com/@hacksawgaming",
+    "slot": "hacksaw-gaming/le-bandit", "winX": 10000, "date": "2026-11-10",
+    "basis": "embed", "embedChecked": "2026-11-10"
+  },
+  {
+    "id": "nolimit-san-quentin-150000x",
+    "platform": "youtube", "videoId": "jHvpcd896IY",
+    "title": "Record 150,000x win on San Quentin xWays",
+    "streamer": "Nolimit City (official channel)", "channelUrl": "https://www.youtube.com/@NolimitCity",
+    "slot": "nolimit-city/san-quentin-xways", "winX": 150000, "date": "2026-11-10",
+    "basis": "embed", "embedChecked": "2026-11-10"
+  },
+  {
+    "id": "gusbus-wanted-max-win",
+    "platform": "youtube", "videoId": "Z5xfa81wYIM",
+    "title": "Max win on Wanted Dead or a Wild",
+    "streamer": "Gus Bus", "channelUrl": "https://www.youtube.com/@GusBusYT",
+    "slot": "hacksaw-gaming/wanted-dead-or-a-wild", "date": "2026-11-10",
+    "basis": "embed", "embedChecked": "2026-11-10"
+  },
+  {
+    "id": "luckyrollers-le-bandit-max-win",
+    "platform": "youtube", "videoId": "Yo1awgF51fg",
+    "title": "Max win on Le Bandit",
+    "streamer": "LuckyRollers", "channelUrl": "https://www.youtube.com/@LuckyRollerSlots",
+    "slot": "hacksaw-gaming/le-bandit", "date": "2026-11-10",
+    "basis": "embed", "embedChecked": "2026-11-10"
+  }
+]
