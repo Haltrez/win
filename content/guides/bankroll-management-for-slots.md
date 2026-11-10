@@ -4,7 +4,7 @@ description: "A practical, honest guide to setting a slots budget, choosing a st
 category: strategy
 author: editorial-team
 publishedAt: 2026-11-01
-updatedAt: 2026-11-09
+updatedAt: 2026-11-10
 relatedCategories: [low-volatility-slots, medium-volatility-slots]
 faq:
   - q: "Is there a betting system that beats slots?"
@@ -46,3 +46,21 @@ Licensed casinos must let you set **deposit limits**, **loss limits**, **session
 - Assuming time of day or bonus-buy timing affects results.
 
 If gambling stops being fun, see our [responsible gambling page](/responsible-gambling) for free support and self-exclusion tools.
+
+## Using the numbers to size your session
+
+The stats on each slot page can help you set realistic expectations:
+
+- **Bonus frequency.** If a game's bonus triggers about once every 180 spins – a typical figure for the BGaming games that publish it – a 100-spin session has a good chance of seeing no bonus at all. Plan for that.
+- **Volatility.** On very high volatility games, budget for at least a few hundred spins if you want a reasonable chance of seeing the main feature – or lower your stake.
+- **Hit frequency.** A frequent hit rate keeps a balance moving, but most of those hits are smaller than your stake. See [hit frequency explained](/guides/hit-frequency-explained).
+
+## Bonus buys and boosters
+
+Bonus buys and features like Nolimit City's xBet multiply the cost per round. If you use them, size your budget in *buys*, not spins: a 100x buy at 0.20 costs 20.00 every time. Read [bonus buy explained](/guides/bonus-buy-explained) before you try them, and remember they are banned in some markets.
+
+## Use demo mode first
+
+Playing the [official demo](/guides/how-to-play-slot-demos) is the easiest way to see how a game uses your balance – how quickly it drains, how often the bonus appears and what a typical bonus pays – without risking anything.
+
+If you ever feel you're spending more than you planned, stop and use the tools on our [responsible gambling page](/responsible-gambling).

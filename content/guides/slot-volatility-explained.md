@@ -4,7 +4,7 @@ description: "What slot volatility (variance) means, how it changes the feel of 
 category: basics
 author: editorial-team
 publishedAt: 2026-11-01
-updatedAt: 2026-11-09
+updatedAt: 2026-11-10
 relatedCategories: [high-volatility-slots, low-volatility-slots, medium-volatility-slots, very-high-volatility-slots]
 relatedSlots: [starburst, wolf-gold, gates-of-olympus, mental]
 faq:
@@ -43,3 +43,22 @@ Whatever you choose, set a budget first. High volatility does not mean "due to p
 ## Try it in demo
 
 The best way to feel volatility is to play 200–300 demo spins of a [low volatility slot](/best/low-volatility-slots) and then a [high volatility slot](/best/high-volatility-slots). The difference is obvious within minutes, and it costs nothing.
+
+## How providers label volatility
+
+There's no industry-wide scale, so each studio uses its own:
+
+- **Pragmatic Play** uses a lightning-bolt scale, and we only show a rating when its game page states one.
+- **Hacksaw Gaming** uses a 1–5 scale; 5 is its most volatile rating, as on [Slayers Inc](/slots/hacksaw-gaming/slayers-inc).
+- **Nolimit City** publishes a numeric figure (standard deviation). Its own website groups these as Medium, High, Extreme and Insane – we map Extreme and Insane to "very high".
+- **Thunderkick** shows labels from Low to Very High, and some games, like [Beam Boys](/slots/hacksaw-gaming/beam-boys) from Hacksaw, even let you switch volatility modes in-game.
+
+Because the scales differ, compare volatility within the same studio where possible, and use max win and hit frequency as extra clues.
+
+## Volatility in our catalogue
+
+Very high volatility is now the most common rating among the games we list – a sign of how the market has shifted toward big bonus features and large max wins. If you prefer calmer games, our [low volatility slots](/best/low-volatility-slots) and [medium volatility slots](/best/medium-volatility-slots) lists are the place to start. Thunderkick and older Nolimit City titles such as [Dungeon Quest](/slots/nolimit-city/dungeon-quest) are good examples.
+
+## Volatility and hit frequency together
+
+A slot can pay often and still be very volatile: [Wild Clusters](/slots/bgaming/wild-clusters) lands a win about every 1.7 spins yet is rated very high volatility, because most hits are tiny and the real value is in rare features. Read [hit frequency explained](/guides/hit-frequency-explained) for more.

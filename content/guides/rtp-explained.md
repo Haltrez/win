@@ -4,7 +4,7 @@ description: "What RTP is, how it's calculated, why the same slot can have diffe
 category: basics
 author: editorial-team
 publishedAt: 2026-11-01
-updatedAt: 2026-11-09
+updatedAt: 2026-11-10
 relatedCategories: [high-rtp-slots, 97-rtp-slots, variable-rtp-slots]
 relatedSlots: [white-rabbit, jammin-jars, book-of-dead]
 faq:
@@ -51,3 +51,11 @@ Open the game's **info / paytable** screen and look for "theoretical return to p
 - It tells you almost nothing about a single session.
 - Always check which RTP version a casino runs – and prefer the highest one.
 - No RTP is above 100%. Over time, slots cost money to play.
+
+## RTP across providers
+
+Average published RTPs differ a little between studios. Among the games we list, BGaming averages about 96.5%, Pragmatic Play about 96.4% and Nolimit City about 96.1%. Thunderkick averages about 95.6%, pulled down by several recent releases published at around 94%. Hacksaw Gaming publishes RTP for only some of its games. See how the studios compare in our [slot providers guide](/guides/best-slot-providers).
+
+## Highest RTP slots
+
+A handful of games publish an RTP of 97% or more – Thunderkick's [1429 Uncharted Seas](/slots/thunderkick/1429-uncharted-seas) (98.6%), [Toki Time](/slots/thunderkick/toki-time) (97.1%) and [Barber Shop Uncut](/slots/thunderkick/barber-shop-uncut) (97.0%) among them. Browse the full [97% RTP slots](/best/97-rtp-slots) and [high RTP slots](/best/high-rtp-slots) lists.

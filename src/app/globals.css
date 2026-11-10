@@ -184,3 +184,11 @@ h2 { font-size: clamp(1.25rem, 2.4vw, 1.6rem); margin-top: 2em; }
   .slot-grid { gap: 8px; }
   .footer-cols { grid-template-columns: 1fr; }
 }
+
+/* two-column block that stacks on small screens */
+.cols-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+@media (max-width: 640px) { .cols-2 { grid-template-columns: 1fr; } }
+
+/* Markdown tables in guides: scroll inside their own box on narrow screens */
+.prose table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; border-collapse: collapse; }
+.prose th, .prose td { padding: .45rem .7rem; border-bottom: 1px solid var(--line); text-align: left; white-space: nowrap; }

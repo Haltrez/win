@@ -4,7 +4,7 @@ description: "What a slot's max win multiplier means, how win caps work, how oft
 category: basics
 author: editorial-team
 publishedAt: 2026-11-01
-updatedAt: 2026-11-09
+updatedAt: 2026-11-10
 relatedCategories: [highest-max-win-slots, 10000x-max-win-slots, 50000x-max-win-slots]
 relatedSlots: [tombstone-rip, san-quentin-xways, dead-or-alive-2]
 faq:
@@ -33,3 +33,19 @@ A higher max win doesn't make a slot better or give you better odds. We never in
 - [Highest max win slots](/best/highest-max-win-slots)
 - [Slots with 10,000x+ max win](/best/10000x-max-win-slots)
 - [Low max win slots](/best/low-max-win-slots) – often steadier to play
+
+## Max wins across studios
+
+The max win you'll see depends heavily on the studio. In our database the median published max win is about **5,000x** for BGaming and Pragmatic Play, **10,000x** for Hacksaw Gaming and **20,000x** for Nolimit City. Nolimit's [Tombstone Slaughter](/slots/nolimit-city/tombstone-slaughter) advertises 500,000x – the highest we list – and [San Quentin 2: Death Row](/slots/nolimit-city/san-quentin-2-death-row) 200,000x.
+
+## How rare is a max win?
+
+Studios rarely publish the odds, but Nolimit City does for some games: its data puts the probability of reaching the max win in the tens of millions of spins for high-cap titles. In other words, the max win is a theoretical ceiling that almost no player ever sees. It's also why games with huge caps tend to have low [hit frequencies](/guides/hit-frequency-explained) and long dry spells.
+
+## Capped rounds
+
+When a round reaches the max win, the game usually ends the feature immediately and pays the capped amount, even if more spins remain. Some games state this explicitly, for example Nolimit City's [Space Donkey](/slots/nolimit-city/space-donkey).
+
+## Choosing by max win
+
+A big max win is exciting, but it comes with higher volatility. If you want a calmer game, pick one with a modest cap – browse our [low max win slots](/best/low-max-win-slots). If you want the biggest ceilings, see the [highest max win slots](/best/highest-max-win-slots), and test them in demo mode first.

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { insightFaq, insightSentences, listInsights } from '@/lib/insights';
 import { notFound } from 'next/navigation';
 import { getCasinosForProvider, getProvider, getProviders, getSlotsByProvider, slotUrl } from '@/lib/data';
 import { getCategories, getCategorySlots, isIndexable } from '@/lib/categories';
@@ -46,6 +47,9 @@ export default async function ProviderPage({ params }: { params: Promise<P> }) {
         { q: `Is ${p.name} licensed?`, a: `${p.name} holds licences or approvals including ${p.licenses.join(', ')}.` },
       ]
     : [];
+  const ins = listInsights(slots);
+  const facts = insightSentences(ins, `${p.name} slots`, { showProviders: false });
+  for (const f of insightFaq(ins, `${p.name} slots`, `${p.name} slot`)) if (!/biggest max win|provider makes/.test(f.q)) faq.push(f);
   return (
     <>
       <Breadcrumbs items={[{ name: 'Providers', path: '/providers' }, { name: p.name, path: `/providers/${p.slug}` }]} />
@@ -53,6 +57,7 @@ export default async function ProviderPage({ params }: { params: Promise<P> }) {
       <p className="muted">{slots.length} slots reviewed{p.founded ? ` · Founded ${p.founded}` : ''}{p.headquarters ? ` · ${p.headquarters}` : ''} · Licences: {p.licenses.join(', ')}</p>
       <section className="prose"><p>{p.description}</p>
         {p.signatureMechanics?.length ? <p><strong>Signature mechanics:</strong> {p.signatureMechanics.join(', ')}.</p> : null}
+        {facts.length ? <><h2>{p.name} slots at a glance</h2><p>{facts.join(' ')}</p></> : null}
       </section>
       {slots.length ? (
         <>

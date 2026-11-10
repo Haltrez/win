@@ -6,7 +6,7 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 import type { CategoryDef } from '@/lib/types';
 
 export const metadata = buildMetadata({
-  title: `Best Slots ${SITE.year} – Lists by Max Win, Volatility, RTP & Feature`,
+  title: [`Best Slots ${SITE.year} – Lists by Max Win, Volatility, RTP & Feature`, `Best Slots ${SITE.year} – Lists by Max Win, RTP & Feature`, `Best Slots ${SITE.year} – Ranked Lists`],
   description: 'Every slot list we publish: highest max win, high and low volatility, high RTP, Megaways, bonus buy, cluster pays, themes and new releases.',
   path: '/best',
 });

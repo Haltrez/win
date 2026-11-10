@@ -34,6 +34,7 @@ export function Footer() {
             <h3>Guides</h3>
             <ul>
               <li><Link href="/guides/rtp-explained">RTP explained</Link></li>
+              <li><Link href="/glossary">Slot glossary</Link></li>
               <li><Link href="/guides/slot-volatility-explained">Volatility guide</Link></li>
               <li><Link href="/guides/how-max-win-works">How max win works</Link></li>
               <li><Link href="/guides/bankroll-management-for-slots">Bankroll management</Link></li>

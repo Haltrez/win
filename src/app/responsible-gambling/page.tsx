@@ -2,7 +2,7 @@ import { RG, SITE } from '@/lib/config';
 import { buildMetadata } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 
-export const metadata = buildMetadata({ title: 'Responsible Gambling – Limits, Self-Exclusion & Support', description: 'How to keep gambling safe: warning signs, deposit limits, self-exclusion schemes (GAMSTOP, Spelpaus, OASIS) and free, confidential support services.', path: '/responsible-gambling' });
+export const metadata = buildMetadata({ title: ['Responsible Gambling – Limits, Self-Exclusion & Support', 'Responsible Gambling – Limits & Support'], description: 'How to keep gambling safe: warning signs, deposit limits, self-exclusion schemes (GAMSTOP, Spelpaus, OASIS) and free, confidential support services.', path: '/responsible-gambling' });
 
 export default function Page() {
   return (

@@ -7,7 +7,7 @@ import { SlotSearch } from '@/components/SlotSearch';
 
 
 export const metadata = buildMetadata({
-  title: 'All Slots – Free Demos, RTP & Max Win Database',
+  title: [`Free Slot Demos – ${getSlots().length}+ Slots with RTP & Max Win`, 'All Slots – Free Demos, RTP & Max Win Database', 'All Slots – Free Demos & RTP'],
   description: `Search ${getSlots().length}+ online slots with free official demos. Filter by provider or browse A–Z and compare RTP, volatility and max win.`,
   path: '/slots',
 });

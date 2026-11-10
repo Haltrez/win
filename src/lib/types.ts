@@ -125,7 +125,8 @@ export interface Guide {
 export interface CategoryDef {
   slug: string;
   title: string; // H1 (year appended automatically when `yearly`)
-  metaTitle: string;
+  /** Title candidates, most descriptive first (see fitTitle). */
+  metaTitle: string[];
   metaDescription: string;
   intro: string;
   /** Selection rule */

@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }) {
   const c = getComparisons().find((x) => x.slug === pair);
   if (!c) return {};
   return buildMetadata({
-    title: `${c.a.name} vs ${c.b.name} – RTP, Volatility & Max Win Compared`,
+    title: [`${c.a.name} vs ${c.b.name} – RTP, Volatility & Max Win Compared`, `${c.a.name} vs ${c.b.name} – RTP & Max Win Compared`, `${c.a.name} vs ${c.b.name}: Which Slot Is Better?`, `${c.a.name} vs ${c.b.name} Slot Comparison`, `${c.a.name} vs ${c.b.name}`],
     description: `${c.a.name} (${c.a.rtp != null ? `${fmtRtp(c.a.rtp)}, ` : ''}${fmtX(c.a.maxWin)}) vs ${c.b.name} (${c.b.rtp != null ? `${fmtRtp(c.b.rtp)}, ` : ''}${fmtX(c.b.maxWin)}): features, volatility and which slot suits you. Free demos of both.`,
     path: `/compare/${c.slug}`,
   });
@@ -64,6 +64,15 @@ export default async function ComparePage({ params }: { params: Promise<P> }) {
         <p>Neither game is &quot;better&quot; in terms of your chances – choose the one whose features and volatility fit how you like to play, and try both demos first.</p>
         <h2>{a.name} in brief</h2><p>{a.review.split('\n')[0]}</p>
         <h2>{b.name} in brief</h2><p>{b.review.split('\n')[0]}</p>
+        <h2>Features compared</h2>
+        <div className="cols-2">
+          {[a, b].map((x) => (
+            <div key={x.slug}>
+              <h3>{x.name}</h3>
+              <ul>{x.features.map((f) => <li key={f.name}><strong>{f.name}:</strong> {f.description}</li>)}</ul>
+            </div>
+          ))}
+        </div>
       </section>
       <SlotGrid slots={[a, b]} />
       <CasinoModule casinos={getCasinos()} title="Where to play both" context={`compare:${c.slug}`} />

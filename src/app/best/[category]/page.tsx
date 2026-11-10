@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { insightFaq, insightSentences, listInsights } from '@/lib/insights';
+
 import { notFound } from 'next/navigation';
 import { getCategories, getCategory, getCategorySlots, isIndexable } from '@/lib/categories';
 import { getCasinos, getGuide, getProvider, slotUrl } from '@/lib/data';
@@ -33,11 +35,19 @@ export default async function CategoryPage({ params }: { params: Promise<P> }) {
   const siblings = getCategories().filter((x) => x.group === c.group && x.slug !== c.slug && isIndexable(x)).slice(0, 12);
   const guides = (c.relatedGuides ?? []).map(getGuide).filter(Boolean);
   const providers = [...new Set(top.map((s) => s.provider))].slice(0, 8);
+  const noun = c.title.replace(/\s*\d{4}$/, '').replace(/^Best\s+/, '').replace(/^(Slots?)\b/, (m) => m.toLowerCase());
+  const KEEP = new Set(['Megaways', 'Egyptian', 'Irish', 'Asian-Themed', 'Wild', 'West', 'RTP']);
+  const nounLc = noun.split(' ').map((w) => (/^\(?[A-Z][a-z]+(-[A-Za-z]+)?[,)]?$/.test(w) && !KEEP.has(w.replace(/[(,)]/g, '')) ? w.toLowerCase() : w)).join(' ');
+  const one = /^slots\b/.test(nounLc) ? nounLc.replace(/^slots/, 'slot') : nounLc.replace(/slots\b/, 'slot');
+  const ins = listInsights(slots);
+  const facts = insightSentences(ins, nounLc);
+  const faq = [...(c.faq ?? []), ...insightFaq(ins, nounLc, one)].filter((f, i, a) => a.findIndex((x) => x.q === f.q) === i);
   return (
     <>
       <Breadcrumbs items={[{ name: 'Best slots', path: '/best' }, { name: c.title, path: `/best/${c.slug}` }]} />
       <h1>{c.title}</h1>
       <section className="prose"><p>{c.intro}</p>
+        {facts.length ? <p>{facts.join(' ')}</p> : null}
         <p className="muted small">{slots.length} slots match this list. Rankings use our editorial review score and the published game data; they are not paid placements.</p>
       </section>
 
@@ -60,7 +70,7 @@ export default async function CategoryPage({ params }: { params: Promise<P> }) {
             <section key={s.slug} className="prose">
               <h3>{i + 1}. <Link href={slotUrl(s)}>{s.name}</Link> – {getProvider(s.provider)?.name}</h3>
               <p>{s.review.split('\n')[0]}</p>
-              <p className="muted small">{[`${fmtRtp(s.rtp)} RTP`, s.volatility ? `${volLabel(s.volatility)} volatility` : null, s.maxWin ? `${fmtX(s.maxWin)} max win` : null].filter(Boolean).join(' · ')}</p>
+              <p className="muted small">{[s.rtp != null ? `${fmtRtp(s.rtp)} RTP` : null, s.volatility ? `${volLabel(s.volatility)} volatility` : null, s.maxWin ? `${fmtX(s.maxWin)} max win` : null].filter(Boolean).join(' · ')}</p>
             </section>
           ))}
           <JsonLd data={itemList(c.title, top.map((s) => ({ name: s.name, path: slotUrl(s) })))} />
@@ -73,7 +83,7 @@ export default async function CategoryPage({ params }: { params: Promise<P> }) {
       {guides.length ? (<><h2>Learn more</h2><ul>{guides.map((g) => <li key={g!.slug}><Link href={`/guides/${g!.slug}`}>{g!.title}</Link></li>)}</ul></>) : null}
       {providers.length ? (<><h2>Providers in this list</h2><ul className="chips">{providers.map((p) => <li key={p}><Link href={`/providers/${p}`}>{getProvider(p)?.name}</Link></li>)}</ul></>) : null}
       {siblings.length ? (<><h2>Related lists</h2><ul className="chips">{siblings.map((x) => <li key={x.slug}><Link href={`/best/${x.slug}`}>{x.title}</Link></li>)}</ul></>) : null}
-      <FAQ items={c.faq ?? []} />
+      <FAQ items={faq} />
     </>
   );
 }

@@ -104,7 +104,7 @@ export function getCategories(): CategoryDef[] {
     return {
       ...d,
       title: d.title + y,
-      metaTitle: d.metaTitle ?? `${d.title}${y} – Free Demos, RTP & Max Win`,
+      metaTitle: d.metaTitle ? [d.metaTitle] : [`${d.title}${y} – Free Demos, RTP & Max Win`, `${d.title}${y} – Free Demos & RTP`, `${d.title}${y} – Free Demos`, `${d.title}${y}`],
       metaDescription:
         d.metaDescription ??
         `Compare the ${d.kw}${y ? ' of' + y : ''}: play free demos and check RTP, volatility and max win for every game. Independent reviews, 18+.`,

@@ -45,12 +45,67 @@ export const getCasinosForProvider = (provider: string) => getCasinos().filter((
 export const getAuthors = () => memo('authors', () => readJson<Author[]>('authors.json'));
 export const getAuthor = (slug: string) => getAuthors().find((a) => a.slug === slug) ?? getAuthors()[0];
 
+/** Family rules for series that share a brand rather than a name stem. */
+const FAMILY: [RegExp, string, string?][] = [
+  [/^le /i, 'le-smokey', 'hacksaw-gaming'],
+  [/^big bass/i, 'big-bass', 'pragmatic-play'],
+  [/^tombstone/i, 'tombstone', 'nolimit-city'],
+  [/^(donny|danny dollar)/i, 'cash-kings', 'hacksaw-gaming'],
+  [/^(the )?wildos/i, 'wildos', 'thunderkick'],
+];
+
+/** Normalised series key: strips sequel numbers, editions and subtitles ("Mental II" → "mental"). */
+export function seriesKey(s: Pick<Slot, 'name' | 'provider'>): string | null {
+  for (const [re, key, prov] of FAMILY) if (re.test(s.name) && (!prov || prov === s.provider)) return key;
+  let b = s.name.toLowerCase().replace(/[®™]/g, '').replace(/^epic\s+/, '').replace(/\s*[:\-–]\s.*$/, '');
+  b = b.replace(/\b(ii|iii|iv|\d{1,4}|reborn|deluxe|megaways|super|dice|xmas|christmas edition|hold\s*&\s*win|hold and win|xnudge|xways|xbomb|xsplit|xpays|scratch|ultra|extreme|returns|rising|unleashed|power nudge)\b.*$/, '').trim();
+  return b.length >= 4 ? `${s.provider}:${b}` : null;
+}
+
+const FAMILY_LABEL: Record<string, string> = { 'le-smokey': "Hacksaw's \"Le\" (Smokey)", 'big-bass': 'Big Bass', tombstone: 'Tombstone', 'cash-kings': 'Cash Kings', wildos: 'Wildos' };
+/** Human-readable series name: the family label, or the shortest member name without sequel suffixes. */
+export function seriesLabel(slot: Slot): string {
+  const k = seriesKey(slot);
+  if (k && FAMILY_LABEL[k]) return FAMILY_LABEL[k];
+  const all = [slot, ...getSeries(slot)].sort((a, b) => a.name.length - b.name.length);
+  return all[0].name.replace(/[®™]/g, '').replace(/\s*[:\-–]\s.*$/, '').replace(/\s+(II|III|\d+)$/, '').trim();
+}
+
+/** Other slots in the same series, oldest first. */
+export function getSeries(slot: Slot): Slot[] {
+  const k = seriesKey(slot);
+  if (!k) return [];
+  const groups = memo('series', () => {
+    const m = new Map<string, Slot[]>();
+    for (const s of getSlots()) { const key = seriesKey(s); if (key) m.set(key, [...(m.get(key) ?? []), s]); }
+    return m;
+  });
+  return (groups.get(k) ?? []).filter((s) => s.slug !== slot.slug).sort((a, b) => releaseKey(a).localeCompare(releaseKey(b)) || a.name.length - b.name.length);
+}
+
+/** Curated pairs from comparisons.json plus automatic "original vs sequel" pairs for every series. */
 export const getComparisons = () =>
-  memo('comparisons', () =>
-    readJson<[string, string][]>('comparisons.json')
+  memo('comparisons', () => {
+    const manual = readJson<[string, string][]>('comparisons.json');
+    const seen = new Set(manual.map(([a, b]) => [a, b].sort().join('|')));
+    const auto: [string, string][] = [];
+    const done = new Set<string>();
+    for (const s of getSlots()) {
+      const k = seriesKey(s);
+      if (!k || done.has(k)) continue;
+      done.add(k);
+      const fam = [s, ...getSeries(s)].sort((a, b) => releaseKey(a).localeCompare(releaseKey(b)) || a.name.length - b.name.length);
+      if (fam.length < 2) continue;
+      const [orig, ...rest] = fam;
+      for (const o of rest.slice(0, 6)) {
+        const key = [orig.slug, o.slug].sort().join('|');
+        if (!seen.has(key)) { seen.add(key); auto.push([orig.slug, o.slug]); }
+      }
+    }
+    return [...manual, ...auto]
       .map(([a, b]) => ({ slug: `${a}-vs-${b}`, a: getSlotBySlug(a)!, b: getSlotBySlug(b)! }))
-      .filter((c) => c.a && c.b),
-  );
+      .filter((c) => c.a && c.b);
+  });
 
 const isoDate = (d: unknown) => (d instanceof Date ? d.toISOString().slice(0, 10) : String(d));
 

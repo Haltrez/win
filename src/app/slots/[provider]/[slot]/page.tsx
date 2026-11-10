@@ -2,9 +2,9 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { marked } from 'marked';
 import { FEATURES } from '@/lib/config';
-import { getAuthor, getCasinosForProvider, getComparisons, getGuides, getProvider, getRelatedSlots, getSlot, getSlots, slotUrl } from '@/lib/data';
+import { getAuthor, getCasinosForProvider, getComparisons, getGuides, getProvider, getRelatedSlots, getSeries, seriesLabel, getSlot, getSlots, getSlotsByProvider, slotUrl } from '@/lib/data';
 import { getCategoriesForSlot } from '@/lib/categories';
-import { buildMetadata, slotDescription, slotTitle } from '@/lib/seo';
+import { abs, buildMetadata, slotDescription, slotTitle } from '@/lib/seo';
 import { slotGame } from '@/lib/schema';
 import { fmtDate, fmtRelease, fmtRtp, fmtX, VOLATILITY_LABEL, volScore } from '@/lib/format';
 import type { Slot } from '@/lib/types';
@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   const s = getSlot(provider, slot);
   const p = getProvider(provider);
   if (!s || !p) return {};
-  return buildMetadata({ title: slotTitle(s, p), absoluteTitle: true, description: slotDescription(s, p), path: slotUrl(s), type: 'article', modifiedTime: s.updatedAt, publishedTime: s.releaseDate ?? undefined });
+  return buildMetadata({ title: slotTitle(s, p), absoluteTitle: true, description: slotDescription(s, p), path: slotUrl(s), type: 'article', modifiedTime: s.updatedAt, publishedTime: s.releaseDate ?? undefined, ...(s.image ? { image: abs(s.image), imageSize: [480, 300] as [number, number], imageAlt: `${s.name} slot by ${p.name}` } : {}) });
 }
 
 function volatilityNote(s: Slot) {
@@ -40,6 +40,29 @@ function volatilityNote(s: Slot) {
   if (v >= 5) return `${s.name} is a high volatility slot: expect longer stretches between meaningful wins and larger swings in your balance than on a medium-volatility game. The bonus round carries much of the game's value.`;
   if (v >= 3) return `${s.name} sits in the medium volatility range, so wins arrive more regularly than on high-variance games but are usually smaller. It suits longer sessions at a steady stake.`;
   return `${s.name} is a low volatility slot with frequent small wins${s.maxWin ? ` and a modest ${fmtX(s.maxWin)} cap` : ''}. It won't produce huge hits, but your balance usually moves more slowly.`;
+}
+
+/** Guides matched to this slot's mechanics first, then the core RTP / volatility / max-win guides. */
+const MECH_GUIDE: [(s: Slot) => boolean, string][] = [
+  [(s) => s.mechanics.some((m) => ['xnudge', 'xways', 'xbomb'].includes(m)), 'nolimit-city-x-mechanics-explained'],
+  [(s) => s.provider === 'hacksaw-gaming' && /duel/i.test(s.review + s.features.map((f) => f.name).join(' ')), 'duelreels-explained'],
+  [(s) => s.mechanics.includes('hold-and-win'), 'hold-and-win-explained'],
+  [(s) => s.mechanics.includes('megaways'), 'what-is-megaways'],
+  [(s) => s.mechanics.includes('cluster-pays'), 'cluster-pays-explained'],
+  [(s) => s.mechanics.some((m) => ['tumble', 'cascades'].includes(m)), 'tumbling-reels-explained'],
+  [(s) => s.mechanics.some((m) => ['sticky-wilds', 'respins', 'walking-wilds'].includes(m)), 'sticky-wilds-and-respins-explained'],
+  [(s) => s.mechanics.includes('bonus-buy'), 'bonus-buy-explained'],
+  [(s) => !!s.hitRate, 'hit-frequency-explained'],
+  [(s) => s.mechanics.includes('free-spins'), 'free-spins-explained'],
+];
+function pickGuides(s: Slot) {
+  const all = getGuides();
+  const want = [
+    ...all.filter((g) => g.relatedSlots?.includes(s.slug)).map((g) => g.slug),
+    ...MECH_GUIDE.filter(([f]) => f(s)).map(([, g]) => g),
+    'rtp-explained', 'slot-volatility-explained', 'how-max-win-works',
+  ];
+  return [...new Set(want)].map((slug) => all.find((g) => g.slug === slug)).filter(Boolean).slice(0, 5) as ReturnType<typeof getGuides>;
 }
 
 function autoFaq(s: Slot, providerName: string) {
@@ -61,10 +84,12 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
   const url = slotUrl(s);
   const author = getAuthor(s.author);
   const casinos = getCasinosForProvider(p.slug);
-  const related = getRelatedSlots(s);
+  const series = getSeries(s);
+  const related = getRelatedSlots(s).filter((r) => !series.some((x) => x.slug === r.slug));
+  const moreFromProvider = getSlotsByProvider(p.slug).filter((x) => x.slug !== s.slug && !series.some((y) => y.slug === x.slug) && !related.some((y) => y.slug === x.slug)).slice(0, 10);
   const cats = getCategoriesForSlot(s);
   const comparisons = getComparisons().filter((c) => c.a.slug === s.slug || c.b.slug === s.slug);
-  const guides = getGuides().filter((g) => g.relatedSlots?.includes(s.slug) || ['rtp-explained', 'slot-volatility-explained', 'how-max-win-works'].includes(g.slug)).slice(0, 4);
+  const guides = pickGuides(s);
   const reviewHtml = marked.parse(s.review, { async: false }) as string;
 
   return (
@@ -145,6 +170,13 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
         </>
       ) : null}
 
+      {series.length ? (
+        <>
+          <h2>More from the {seriesLabel(s)} series</h2>
+          <ul>{series.map((x) => <li key={x.slug}><Link href={slotUrl(x)}>{x.name}</Link>{x.maxWin ? <span className="muted small"> · {fmtX(x.maxWin)} max win</span> : null}</li>)}</ul>
+        </>
+      ) : null}
+
       {comparisons.length ? (
         <>
           <h2>Comparisons</h2>
@@ -157,6 +189,7 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
 
       <h2>More from {p.name}</h2>
       <p>{p.description.split('. ').slice(0, 2).join('. ')}. <Link href={`/providers/${p.slug}`}>All {p.name} slots →</Link></p>
+      {moreFromProvider.length ? <ul className="chips">{moreFromProvider.map((x) => <li key={x.slug}><Link href={slotUrl(x)}>{x.name}</Link></li>)}</ul> : null}
 
       {guides.length ? (
         <>

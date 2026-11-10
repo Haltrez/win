@@ -19,7 +19,7 @@ export default async function sitemap(props: { id: Promise<string> }): Promise<M
   switch (id) {
     case 'slots':
       // At >45k slots, split this further by provider or chunk index (50k URL limit per file).
-      return slots.map((s) => ({ url: u(slotUrl(s)), lastModified: s.updatedAt, changeFrequency: 'monthly', priority: 0.8 }));
+      return slots.map((s) => ({ url: u(slotUrl(s)), lastModified: s.updatedAt, changeFrequency: 'monthly', priority: 0.8, ...(s.image ? { images: [u(s.image)] } : {}) }));
     case 'providers':
       return getProviders().filter((p) => getSlotsByProvider(p.slug).length).map((p) => {
         const ps = getSlotsByProvider(p.slug);
@@ -35,7 +35,7 @@ export default async function sitemap(props: { id: Promise<string> }): Promise<M
     default:
       return [
         { url: u('/'), lastModified: latest, changeFrequency: 'daily', priority: 1 },
-        ...['/slots', '/providers', '/best', '/guides', '/compare', ...(FEATURES.realMoney ? ['/casinos'] : [])].map((p) => ({ url: u(p), lastModified: latest, changeFrequency: 'weekly' as const, priority: 0.7 })),
+        ...['/slots', '/providers', '/best', '/guides', '/glossary', '/compare', ...(FEATURES.realMoney ? ['/casinos'] : [])].map((p) => ({ url: u(p), lastModified: latest, changeFrequency: 'weekly' as const, priority: 0.7 })),
         ...getLetters().map((l) => ({ url: u(`/slots/a-z/${l}`), lastModified: latest, changeFrequency: 'weekly' as const, priority: 0.3 })),
         ...['/about', '/how-we-review', ...(FEATURES.realMoney ? ['/affiliate-disclosure'] : []), '/responsible-gambling', '/contact', '/privacy', '/terms'].map((p) => ({ url: u(p), changeFrequency: 'yearly' as const, priority: 0.2 })),
       ];
