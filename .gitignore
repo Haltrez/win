@@ -13,3 +13,5 @@ screenshots/
 
 # weekly importer scratch
 .import/
+__pycache__/
+*.pyc
