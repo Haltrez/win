@@ -66,6 +66,8 @@ docs/                            strategy & operations
 - [Link building plan](docs/LINK-BUILDING.md)
 - [Operations: publishing, CMS, analytics, monitoring](docs/OPERATIONS.md)
 - [Compliance checklist](docs/COMPLIANCE.md)
+- [Weekly agent playbook](docs/WEEKLY-AGENT.md) – automated weekly update (new slots, data re-check, one guide) as a pull request
+- [Provider importers](scripts/import/README.md)
 
 ## Status of seed content
 

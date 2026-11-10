@@ -10,3 +10,6 @@ coverage/
 
 # Local preview screenshots
 screenshots/
+
+# weekly importer scratch
+.import/
