@@ -35,6 +35,14 @@ export function HeaderSearch() {
     return () => document.removeEventListener('pointerdown', onDown);
   }, []);
   useEffect(() => { if (bar) input.current?.focus(); }, [bar]);
+  // Search links (/slots?q=…, e.g. from Google's sitelinks search box) open with results showing.
+  useEffect(() => {
+    const init = new URLSearchParams(location.search).get('q');
+    if (!init) return;
+    setQ(init); load(); setOpen(true);
+    if (window.matchMedia('(max-width: 859px)').matches) setBar(true);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const res = useMemo(() => {
     const t = q.trim().toLowerCase();

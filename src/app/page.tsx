@@ -6,7 +6,6 @@ import { SITE } from '@/lib/config';
 import { SlotRail } from '@/components/SlotCard';
 import { AffiliateDisclosure } from '@/components/Disclosure';
 import { CasinoModule } from '@/components/CasinoModule';
-import { SlotSearch } from '@/components/SlotSearch';
 import { ProviderLogo } from '@/components/ProviderLogo';
 
 export const metadata = buildMetadata({
@@ -50,7 +49,6 @@ export default function Home() {
           Try {slots.length.toLocaleString()} slots in their official demo – no sign-up, no deposit – and check the numbers that matter: RTP,
           volatility, max win and how the bonus actually works.
         </p>
-        <SlotSearch />
         <ul className="quick" aria-label="Popular lists">
           {QUICK.map(([href, label]) => <li key={href}><Link href={href}>{label}</Link></li>)}
         </ul>

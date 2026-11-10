@@ -5,7 +5,6 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { SlotBrowser, type BrowserRow } from '@/components/SlotBrowser';
 import { VOLATILITY_LABEL, releaseKey } from '@/lib/format';
 import type { Volatility } from '@/lib/types';
-import { SlotSearch } from '@/components/SlotSearch';
 
 
 export const metadata = buildMetadata({
@@ -28,7 +27,6 @@ export default function SlotsIndex() {
       <Breadcrumbs items={[{ name: 'Slots', path: '/slots' }]} />
       <h1>All slots</h1>
       <p className="muted">{slots.length.toLocaleString()} slots with official free demos, RTP, volatility and max win.</p>
-      <SlotSearch />
       <nav aria-label="Browse A–Z" className="az-bar">
         {letters().map((l) => <Link key={l} href={`/slots/a-z/${l}`}>{l.toUpperCase()}</Link>)}
       </nav>
