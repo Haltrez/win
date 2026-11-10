@@ -26,7 +26,7 @@ export default function SlotsIndex() {
     <>
       <Breadcrumbs items={[{ name: 'Slots', path: '/slots' }]} />
       <h1>All slots</h1>
-      <p className="muted">{slots.length.toLocaleString()} slots with official free demos, RTP, volatility and max win.</p>
+      <p className="muted">{slots.length.toLocaleString()} slots with official free demos, RTP, volatility and max win. Prefer a spreadsheet view? See the <Link href="/slot-database">slot RTP database</Link>.</p>
       <nav aria-label="Browse A–Z" className="az-bar">
         {letters().map((l) => <Link key={l} href={`/slots/a-z/${l}`}>{l.toUpperCase()}</Link>)}
       </nav>

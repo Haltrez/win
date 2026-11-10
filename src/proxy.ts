@@ -24,5 +24,5 @@ export function proxy(req: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/((?!_next/|api/|go/|icon.svg|favicon.ico|search-index.json).*)'],
+  matcher: ['/((?!_next/|api/|go/|og/|icon.svg|favicon.ico|search-index.json|embed.js|feed.xml).*)'],
 };

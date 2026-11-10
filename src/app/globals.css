@@ -385,3 +385,38 @@ a.demo-facade, a.demo-facade:hover { text-decoration: none; }
   .hs-bar .hs-list { position: absolute; top: calc(100% + 6px); left: 0; right: 0; }
 }
 @media (min-width: 860px) and (max-width: 1060px) { .nav-desktop { gap: 14px; } .hs { max-width: 220px; } }
+
+/* Slot database */
+.db-filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 6px; }
+.db-filters input, .db-filters select { height: 40px; padding: 0 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg2); color: var(--text); font: inherit; font-size: .95rem; }
+.db-filters input { flex: 1 1 200px; min-width: 0; }
+.db-count { margin: 4px 0 8px; }
+.linklike { all: unset; color: var(--link, var(--brand)); cursor: pointer; text-decoration: underline; }
+.db-wrap { max-height: 75vh; overflow: auto; border: 1px solid var(--line); border-radius: 12px; }
+.db-table thead th { position: sticky; top: 0; background: var(--bg2); z-index: 1; padding: 0; }
+.db-table th button { all: unset; display: block; padding: 10px; cursor: pointer; font-weight: 700; white-space: nowrap; }
+.db-table td.num, .db-table th.num { text-align: right; white-space: nowrap; }
+.db-table th.num button { text-align: right; }
+.db-var { color: var(--muted); }
+
+/* New this week */
+.update { margin: 28px 0; padding-top: 4px; }
+.update h2 { margin-bottom: 8px; }
+.update-guides { list-style: none; padding: 0; margin: 0 0 12px; }
+.update-guides li { padding: 6px 0; }
+.tag { display: inline-block; font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; padding: 2px 8px; border-radius: 999px; background: color-mix(in srgb, var(--brand) 18%, transparent); color: var(--text); }
+
+/* Widget builder */
+.wb { display: grid; gap: 24px; margin: 16px 0 32px; }
+.wb-controls { display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.wb-label { font-weight: 700; margin-top: 6px; }
+.wb-search { position: relative; }
+.wb-search input { width: 100%; height: 42px; padding: 0 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg2); color: var(--text); font: inherit; }
+.wb-theme { display: flex; gap: 8px; }
+.wb-theme button { padding: 8px 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg2); color: var(--text); font: inherit; font-weight: 600; cursor: pointer; }
+.wb-theme button.on { border-color: var(--brand); box-shadow: inset 0 0 0 1px var(--brand); }
+.wb textarea { width: 100%; font: .85rem/1.45 ui-monospace, SFMono-Regular, Menlo, monospace; padding: 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg2); color: var(--text); resize: vertical; }
+.wb-controls .btn { align-self: flex-start; }
+.wb-preview { display: flex; flex-direction: column; gap: 10px; }
+@media (min-width: 860px) { .wb { grid-template-columns: 1fr 380px; align-items: start; } }
+.embed-link { display: block; margin-top: 10px; text-align: center; font-size: .85rem; color: var(--muted); }

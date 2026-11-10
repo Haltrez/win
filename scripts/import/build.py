@@ -104,7 +104,7 @@ def main():
                 s['image'] = make_thumb(g['imageFallback'], g['provider'], slug, 0.5)
             else:
                 problems.append(f'{slug}: thumbnail failed ({e})')
-        s.update({'related': [], 'sources': g['sources'], 'verified': True, 'lastVerified': today, 'updatedAt': today, 'author': 'editorial-team'})
+        s.update({'related': [], 'sources': g['sources'], 'verified': True, 'lastVerified': today, 'updatedAt': today, 'addedAt': today, 'author': 'editorial-team'})
         d = os.path.join(CONTENT, g['provider'])
         os.makedirs(d, exist_ok=True)
         with open(os.path.join(d, f'{slug}.json'), 'w') as f:

@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   const s = getSlot(provider, slot);
   const p = getProvider(provider);
   if (!s || !p) return {};
-  return buildMetadata({ title: slotTitle(s, p), absoluteTitle: true, description: slotDescription(s, p), path: slotUrl(s), type: 'article', modifiedTime: s.updatedAt, publishedTime: s.releaseDate ?? undefined, ...(s.image ? { image: abs(s.image), imageSize: [480, 360] as [number, number], imageAlt: `${s.name} slot by ${p.name}` } : {}) });
+  return buildMetadata({ title: slotTitle(s, p), absoluteTitle: true, description: slotDescription(s, p), path: slotUrl(s), type: 'article', modifiedTime: s.updatedAt, publishedTime: s.releaseDate ?? undefined, image: abs(`/og/${s.provider}/${s.slug}`), imageAlt: `${s.name} by ${p.name}: RTP, volatility and max win` });
 }
 
 function volatilityNote(s: Slot) {
@@ -116,6 +116,7 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
               </a>
             ) : null}
             <FavoriteButton id={`${s.provider}/${s.slug}`} name={s.name} url={url} />
+            <Link className="embed-link" href={`/widgets?slot=${s.provider}/${s.slug}`}>&lt;/&gt; Embed this slot on your site</Link>
           </div>
         </aside>
       </div>

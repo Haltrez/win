@@ -27,6 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${sans.variable} ${display.variable}`}>
       <body>
+        <link rel="alternate" type="application/rss+xml" title={`${SITE.name} – new slots and guides`} href="/feed.xml" />
         <a href="#main" className="skip">Skip to content</a>
         <Header />
         <main id="main" className="container">{children}</main>

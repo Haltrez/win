@@ -63,6 +63,8 @@ export interface Slot {
   lastVerified?: string | null;
   verified?: boolean;
   updatedAt: string;
+  /** Date the slot was added to the site (drives /new and the RSS feed). */
+  addedAt?: string;
   author: string;
 }
 
