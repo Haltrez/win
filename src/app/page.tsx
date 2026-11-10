@@ -51,6 +51,10 @@ export default function Home() {
           Try {slots.length.toLocaleString()} slots in their official demo – no sign-up, no deposit – and check the numbers that matter: RTP,
           volatility, max win and how the bonus actually works.
         </p>
+        <p className="hero-cta">
+          <a className="btn btn-primary btn-lg" href="/random" rel="nofollow"><span className="demo-play" aria-hidden /> Play a random demo</a>
+          <Link className="btn btn-ghost btn-lg" href="/tools/slot-finder">Find my slot</Link>
+        </p>
         <ul className="quick" aria-label="Popular lists">
           {QUICK.map(([href, label]) => <li key={href}><Link href={href}>{label}</Link></li>)}
         </ul>

@@ -72,13 +72,14 @@ export function DemoCta({ casinos, slotName, slotKey }: { casinos: CtaCasino[]; 
   return (
     <aside className="demo-cta-card" role="complementary" aria-label="Real-money offer">
       <div className="dcc-text">
-        <strong>Enjoying {slotName}? Play it for real at {c.name}</strong>
+        <span className="dcc-eyebrow">Real-money offer · 18+</span>
+        <strong className="dcc-title">Enjoying {slotName}? Play it for real at {c.name}</strong>
         <span className="dcc-bonus">{bonus}</span>
         <span className="dcc-terms">{c.terms} · <a href="/responsible-gambling">Play responsibly</a></span>
       </div>
       <div className="dcc-actions">
         <a className="btn btn-primary" {...(c.slug === 'example' ? { href: '#', onClick: (e: React.MouseEvent) => e.preventDefault() } : { href: `/go/${c.slug}?src=demo-cta&slot=${encodeURIComponent(slotKey)}`, target: '_blank', 'data-event': 'affiliate_click' })} rel="sponsored nofollow noopener">
-          Play for real
+          Play for real <span aria-hidden>→</span>
         </a>
         <button type="button" className="btn btn-ghost" onClick={() => { setShow(false); if (c.slug !== 'example') track('demo_cta_dismiss', { slot: slotKey }); }}>
           Not now

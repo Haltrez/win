@@ -15,6 +15,7 @@ export function SlotCard({ slot, rank }: { slot: Slot; rank?: number }) {
           <SlotThumb slot={slot} />
           {rank ? <span className="rank">#{rank}</span> : null}
           {slot.volatility ? <span className={`vol-badge vol-${slot.volatility}`}>{volLabel(slot.volatility)}</span> : null}
+          {slot.demoUrl || slot.demoLink ? <span className="card-play" aria-hidden><span className="card-play-btn"><i /> Play demo</span></span> : null}
         </div>
         <h3>{slot.name}</h3>
         <p className="slot-card-meta">
