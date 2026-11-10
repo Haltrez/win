@@ -48,7 +48,7 @@ Slots without `demoUrl` show "Official demo coming soon". Never embed demos from
 
 ## Thumbnails
 
-Slot thumbnails live in `public/slots/<provider>/<slug>.webp` (480×300, WebP). They are made from each provider's official game artwork (Pragmatic Play site thumbnails, BGaming game covers, Hacksaw catalogue thumbnails), fitted onto a blurred background so titles are never cropped. Providers publish this artwork for promotion, but confirm image usage terms in your affiliate or provider agreements before launch.
+Slot thumbnails live in `public/thumbs/<provider>/<slug>.webp` (480×360, 4:3 WebP). They are made from each provider's official game artwork (Pragmatic Play game CDN art, BGaming covers, Hacksaw catalogue thumbnails, Nolimit City icons, Thunderkick banners, Play'n GO logo over hero art). Art close to 4:3 is cropped full-bleed; very tall or wide art is fitted onto a blurred copy of itself, and transparent edges are flattened onto the art's own colours. Providers publish this artwork for promotion, but confirm image usage terms in your affiliate or provider agreements before launch.
 
 ## Data provenance for imported slots
 

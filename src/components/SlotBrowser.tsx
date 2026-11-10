@@ -56,7 +56,7 @@ export function SlotBrowser({ rows, providers, vols }: { rows: BrowserRow[]; pro
           <article key={r.u} className="slot-card">
             <Link href={r.u} className="slot-card-link">
               <div className="slot-card-media">
-                {r.img ? <Image src={r.img} alt={`${r.n} slot`} width={320} height={200} sizes="(max-width: 640px) 50vw, 240px" className="thumb" /> : <div className="thumb thumb-gen" style={{ aspectRatio: '16 / 10', background: '#334' }}><span>{r.n}</span></div>}
+                {r.img ? <Image src={r.img} alt={`${r.n} slot`} width={320} height={240} sizes="(max-width: 640px) 50vw, 240px" className="thumb" /> : <div className="thumb thumb-gen" style={{ aspectRatio: '4 / 3', background: '#334' }}><span>{r.n}</span></div>}
                 {r.vl ? <span className={`vol-badge vol-${r.v}`}>{r.vl}</span> : null}
               </div>
               <h3>{r.n}</h3>
