@@ -45,7 +45,7 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta }: {
           <span className="demo-stage">
             {image ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img className="demo-art" src={image} alt="" width={480} height={360} />
+              <img className="demo-art" src={image} alt={`${name} slot by ${providerName}`} width={480} height={360} />
             ) : null}
             <span className="demo-cta"><span className="demo-play" aria-hidden /> Play free demo</span>
           </span>
