@@ -1,6 +1,6 @@
 'use client';
 import { useRef, useState } from 'react';
-import { DemoCta, type CtaCasino } from './DemoCta';
+import { DemoCta, isCtaTest, type CtaCasino } from './DemoCta';
 
 /**
  * Click-to-load facade for official provider demos. The iframe (often several MB of game assets)
@@ -52,7 +52,7 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta }: {
         </button>
       )}
     </div>
-    {on && cta?.casinos.length ? <DemoCta casinos={cta.casinos} slotName={name} slotKey={cta.slotKey} /> : null}
+    {on && (cta?.casinos.length || isCtaTest()) ? <DemoCta casinos={cta?.casinos ?? []} slotName={name} slotKey={cta?.slotKey ?? name} /> : null}
     </>
   );
 }

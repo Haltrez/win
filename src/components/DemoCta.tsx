@@ -8,7 +8,9 @@ const FIRST_AFTER = 120; // seconds of visible demo play before the first prompt
 const EVERY = 120;       // seconds of visible play between prompts
 const MAX_PER_VISIT = 3; // across all games in one browser session
 const K_COUNT = 'demoCtaShown';
-const K_OFF = 'demoCtaOff';
+/** Test mode (?cta-test in the URL): example casino, first prompt after 10 s, then every 20 s. Never shown to normal visitors. */
+const TEST_CASINO: CtaCasino = { slug: 'example', name: 'Example Casino (test)', geos: [], bonus: { default: 'Example bonus text – your real offer appears here' }, terms: '18+. Example terms – real significant terms appear here.' };
+export const isCtaTest = () => typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('cta-test');
 
 const ss = {
   get: (k: string) => { try { return sessionStorage.getItem(k); } catch { return null; } },
@@ -21,8 +23,8 @@ function readGeo(): string | null {
 
 /**
  * Real-money prompt shown next to (below) a running demo – never over the game.
- * Timing counts only visible play time; first after 2 min, then every 2 min, max 3 per visit; "Not now" stops it
- * for the visit. Only casinos licensed for the visitor's country (geo cookie) are offered; unknown country = no prompt.
+ * Timing counts only visible play time; first after 2 min, then every 2 min, max 3 per visit; "Not now" closes the
+ * current prompt only. Only casinos licensed for the visitor's country (geo cookie) are offered; unknown country = no prompt.
  */
 export function DemoCta({ casinos, slotName, slotKey }: { casinos: CtaCasino[]; slotName: string; slotKey: string }) {
   const [casino, setCasino] = useState<{ c: CtaCasino; bonus: string } | null>(null);
@@ -31,22 +33,35 @@ export function DemoCta({ casinos, slotName, slotKey }: { casinos: CtaCasino[]; 
   const next = useRef(FIRST_AFTER);
 
   useEffect(() => {
-    const geo = readGeo();
-    if (!geo || !casinos.length) return;
-    const region = geo.split('-')[0];
-    const c = casinos.find((x) => x.geos.includes(geo) || x.geos.includes(region));
-    if (!c) return;
-    setCasino({ c, bonus: c.bonus[geo] || c.bonus[region] || c.bonus.default });
+    const test = isCtaTest();
+    let c: CtaCasino | undefined;
+    let bonus = '';
+    if (test) {
+      c = TEST_CASINO;
+      bonus = TEST_CASINO.bonus.default;
+      next.current = 10;
+    } else {
+      const geo = readGeo();
+      if (!geo || !casinos.length) return;
+      const region = geo.split('-')[0];
+      c = casinos.find((x) => x.geos.includes(geo) || x.geos.includes(region));
+      if (!c) return;
+      bonus = c.bonus[geo] || c.bonus[region] || c.bonus.default;
+    }
+    const cc = c;
+    setCasino({ c: cc, bonus });
+    const every = test ? 20 : EVERY;
+    const countKey = test ? `${K_COUNT}Test` : K_COUNT;
 
     const id = window.setInterval(() => {
       if (document.visibilityState !== 'visible') return;
-      if (ss.get(K_OFF) === '1' || Number(ss.get(K_COUNT) || 0) >= MAX_PER_VISIT) return;
+      if (Number(ss.get(countKey) || 0) >= MAX_PER_VISIT) return;
       played.current += 1;
       if (played.current >= next.current) {
-        next.current = played.current + EVERY;
-        ss.set(K_COUNT, String(Number(ss.get(K_COUNT) || 0) + 1));
+        next.current = played.current + every;
+        ss.set(countKey, String(Number(ss.get(countKey) || 0) + 1));
         setShow(true);
-        track('demo_cta_view', { slot: slotKey, casino: c.slug });
+        if (!test) track('demo_cta_view', { slot: slotKey, casino: cc.slug });
       }
     }, 1000);
     return () => window.clearInterval(id);
@@ -62,10 +77,10 @@ export function DemoCta({ casinos, slotName, slotKey }: { casinos: CtaCasino[]; 
         <span className="dcc-terms">{c.terms} · <a href="/responsible-gambling">Play responsibly</a></span>
       </div>
       <div className="dcc-actions">
-        <a className="btn btn-primary" href={`/go/${c.slug}?src=demo-cta&slot=${encodeURIComponent(slotKey)}`} rel="sponsored nofollow noopener" target="_blank" data-event="affiliate_click">
+        <a className="btn btn-primary" {...(c.slug === 'example' ? { href: '#', onClick: (e: React.MouseEvent) => e.preventDefault() } : { href: `/go/${c.slug}?src=demo-cta&slot=${encodeURIComponent(slotKey)}`, target: '_blank', 'data-event': 'affiliate_click' })} rel="sponsored nofollow noopener">
           Play for real
         </a>
-        <button type="button" className="btn btn-ghost" onClick={() => { ss.set(K_OFF, '1'); setShow(false); track('demo_cta_dismiss', { slot: slotKey }); }}>
+        <button type="button" className="btn btn-ghost" onClick={() => { setShow(false); if (c.slug !== 'example') track('demo_cta_dismiss', { slot: slotKey }); }}>
           Not now
         </button>
       </div>
