@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { ProviderLogo } from '@/components/ProviderLogo';
 import { insightFaq, insightSentences, listInsights } from '@/lib/insights';
 import { notFound } from 'next/navigation';
 import { getCasinosForProvider, getProvider, getProviders, getSlotsByProvider, slotUrl } from '@/lib/data';
@@ -53,7 +54,10 @@ export default async function ProviderPage({ params }: { params: Promise<P> }) {
   return (
     <>
       <Breadcrumbs items={[{ name: 'Providers', path: '/providers' }, { name: p.name, path: `/providers/${p.slug}` }]} />
-      <h1>{p.name} slots</h1>
+      <div className="provider-head">
+        <ProviderLogo p={p} size="md" />
+        <h1>{p.name} slots</h1>
+      </div>
       <p className="muted">{slots.length} slots reviewed{p.founded ? ` · Founded ${p.founded}` : ''}{p.headquarters ? ` · ${p.headquarters}` : ''} · Licences: {p.licenses.join(', ')}</p>
       <section className="prose"><p>{p.description}</p>
         {p.signatureMechanics?.length ? <p><strong>Signature mechanics:</strong> {p.signatureMechanics.join(', ')}.</p> : null}

@@ -7,6 +7,7 @@ import { SlotRail } from '@/components/SlotCard';
 import { AffiliateDisclosure } from '@/components/Disclosure';
 import { CasinoModule } from '@/components/CasinoModule';
 import { SlotSearch } from '@/components/SlotSearch';
+import { ProviderLogo } from '@/components/ProviderLogo';
 
 export const metadata = buildMetadata({
   title: `Free Slot Demos & Honest Slot Reviews (${SITE.year}) | ${SITE.name}`,
@@ -53,6 +54,12 @@ export default function Home() {
         <ul className="quick" aria-label="Popular lists">
           {QUICK.map(([href, label]) => <li key={href}><Link href={href}>{label}</Link></li>)}
         </ul>
+        <dl className="stat-strip">
+          <div><dt>Games</dt><dd>{slots.length.toLocaleString()}</dd></div>
+          <div><dt>Official demos</dt><dd>{slots.filter((x) => x.demoUrl).length.toLocaleString()}</dd></div>
+          <div><dt>Studios</dt><dd>{providers.length}</dd></div>
+          <div><dt>Data source</dt><dd>Provider game sheets</dd></div>
+        </dl>
       </section>
 
       <Section title="Top-rated slots" href="/best/best-slots" linkText="See all"><SlotRail slots={top} ranked label="Top-rated slots" /></Section>
@@ -61,8 +68,15 @@ export default function Home() {
       <Section title="Highest RTP" href="/best/high-rtp-slots" linkText="All high RTP slots"><SlotRail slots={highRtp} label="Highest RTP slots" /></Section>
 
       <Section title="Providers" href="/providers" linkText="All providers">
-        <ul className="tiles">
-          {providers.map(({ p, n }) => <li key={p.slug}><Link href={`/providers/${p.slug}`}>{p.name}<span className="count">{n}</span></Link></li>)}
+        <ul className="logo-tiles">
+          {providers.map(({ p, n }) => (
+            <li key={p.slug}>
+              <Link href={`/providers/${p.slug}`} aria-label={`${p.name} – ${n} slots`}>
+                <ProviderLogo p={p} size="md" />
+                <span className="logo-tile-meta">{p.name} <span className="count">{n}</span></span>
+              </Link>
+            </li>
+          ))}
         </ul>
       </Section>
 
@@ -80,14 +94,6 @@ export default function Home() {
         </div>
       </Section>
 
-      <section>
-        <h2>Why trust {SITE.name}?</h2>
-        <div className="cards-3">
-          <div className="info-card"><h3>Official demos only</h3><p className="muted small">Every demo is served by the game provider itself – with play-money credits.</p></div>
-          <div className="info-card"><h3>Verified numbers</h3><p className="muted small">RTP, volatility and max win come from provider game sheets, and we tell you when a game is offered in lower RTP versions.</p></div>
-          <div className="info-card"><h3>No hype</h3><p className="muted small">We never promise wins. Slots are games of chance and every review includes honest notes on volatility and risk.</p></div>
-        </div>
-      </section>
     </>
   );
 }

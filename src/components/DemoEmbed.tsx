@@ -6,7 +6,7 @@ import { useRef, useState } from 'react';
  * is only requested after an explicit click, which keeps LCP/INP/CLS unaffected on page load.
  * URLs are validated against the provider's allowlisted demo domains at build time (scripts/validate-content.mjs).
  */
-export function DemoEmbed({ name, url, providerName, launchPath }: { name: string; url?: string | null; providerName: string; launchPath: string }) {
+export function DemoEmbed({ name, url, providerName, launchPath, image }: { name: string; url?: string | null; providerName: string; launchPath: string; image?: string }) {
   const [on, setOn] = useState(false);
   const [src, setSrc] = useState<string | null>(null);
   const box = useRef<HTMLDivElement>(null);
@@ -38,10 +38,15 @@ export function DemoEmbed({ name, url, providerName, launchPath }: { name: strin
         <button className="demo-fs" onClick={fullscreen} aria-label={`Play ${name} full screen`}>⤢ Full screen</button>
         </>
       ) : (
-        <button className="demo-facade" onClick={start}>
-          <span className="play" aria-hidden>▶</span>
-          <span>Play {name} demo</span>
-          <span className="muted small">Free play – no real money, no sign-up · 18+</span>
+        <button className="demo-facade" onClick={start} aria-label={`Play the free ${name} demo`}>
+          {image ? <span className="demo-bg" style={{ backgroundImage: `url(${image})` }} aria-hidden /> : null}
+          <span className="demo-stage">
+            {image ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img className="demo-art" src={image} alt="" width={480} height={360} />
+            ) : null}
+            <span className="demo-cta"><span className="demo-play" aria-hidden /> Play free demo</span>
+          </span>
         </button>
       )}
     </div>

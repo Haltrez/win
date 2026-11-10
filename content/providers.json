@@ -21,7 +21,8 @@
       "Random multipliers",
       "Ante bet"
     ],
-    "description": "Pragmatic Play is one of the highest-volume slot studios in the world, releasing new titles almost every week. Its catalogue is built around a handful of proven engines – pay-anywhere tumbles with random multipliers (Gates of Olympus, Sweet Bonanza), fishing collect mechanics (Big Bass series) and hold-and-win games – which are then re-skinned and iterated with 1000 and Megaways variants. Most releases ship with a bonus buy and an ante bet option where regulation allows."
+    "description": "Pragmatic Play is one of the highest-volume slot studios in the world, releasing new titles almost every week. Its catalogue is built around a handful of proven engines – pay-anywhere tumbles with random multipliers (Gates of Olympus, Sweet Bonanza), fishing collect mechanics (Big Bass series) and hold-and-win games – which are then re-skinned and iterated with 1000 and Megaways variants. Most releases ship with a bonus buy and an ante bet option where regulation allows.",
+    "logo": "/providers/pragmatic-play.png"
   },
   {
     "slug": "hacksaw-gaming",
@@ -43,7 +44,8 @@
       "Sticky multiplier wilds",
       "High max wins"
     ],
-    "description": "Hacksaw Gaming started with scratch cards and grew into one of the most influential high-volatility slot studios. Its games are known for compact grids, aggressive variance, multiple purchasable bonus tiers and max wins that frequently sit at 10,000x or higher. The visual style is distinctive, with a darker, comic-book tone across hits like Wanted Dead or a Wild and Chaos Crew."
+    "description": "Hacksaw Gaming started with scratch cards and grew into one of the most influential high-volatility slot studios. Its games are known for compact grids, aggressive variance, multiple purchasable bonus tiers and max wins that frequently sit at 10,000x or higher. The visual style is distinctive, with a darker, comic-book tone across hits like Wanted Dead or a Wild and Chaos Crew.",
+    "logo": "/providers/hacksaw-gaming.png"
   },
   {
     "slug": "nolimit-city",
@@ -66,7 +68,8 @@
       "xSplit",
       "Enhancer cells"
     ],
-    "description": "Nolimit City (part of Evolution) is famous for extreme volatility, provocative themes and proprietary x-mechanics such as xWays, xNudge and xBomb. Its games regularly advertise six-figure max wins and include several layered bonus modes. They are entertaining to explore in demo mode precisely because real-money sessions can be extremely swingy."
+    "description": "Nolimit City (part of Evolution) is famous for extreme volatility, provocative themes and proprietary x-mechanics such as xWays, xNudge and xBomb. Its games regularly advertise six-figure max wins and include several layered bonus modes. They are entertaining to explore in demo mode precisely because real-money sessions can be extremely swingy.",
+    "logo": "/providers/nolimit-city.svg"
   },
   {
     "slug": "play-n-go",
@@ -90,7 +93,8 @@
       "Cluster pays",
       "Reactoonz-style energy meters"
     ],
-    "description": "Play'n GO is one of the most widely distributed slot studios and the home of Book of Dead, the game that defined the modern 'book' expanding-symbol format. Its catalogue spans classic five-reel titles to cluster pays games like Reactoonz and Moon Princess. Note that Play'n GO offers operators several RTP configurations for most titles, so always check the in-game info screen."
+    "description": "Play'n GO is one of the most widely distributed slot studios and the home of Book of Dead, the game that defined the modern 'book' expanding-symbol format. Its catalogue spans classic five-reel titles to cluster pays games like Reactoonz and Moon Princess. Note that Play'n GO offers operators several RTP configurations for most titles, so always check the in-game info screen.",
+    "logo": "/providers/play-n-go.webp"
   },
   {
     "slug": "push-gaming",
@@ -111,7 +115,8 @@
       "Mystery symbols",
       "Collect features"
     ],
-    "description": "Push Gaming is a mobile-first studio known for polished, original mechanics rather than high release volume. Jammin' Jars, Razor Shark and Big Bamboo each introduced features that were later widely imitated, and the studio has a strong reputation among streamers for well-designed bonus rounds."
+    "description": "Push Gaming is a mobile-first studio known for polished, original mechanics rather than high release volume. Jammin' Jars, Razor Shark and Big Bamboo each introduced features that were later widely imitated, and the studio has a strong reputation among streamers for well-designed bonus rounds.",
+    "logo": "/providers/push-gaming.png"
   },
   {
     "slug": "relax-gaming",
@@ -129,7 +134,8 @@
       "Money Train collector symbols",
       "Dream Drop jackpots"
     ],
-    "description": "Relax Gaming is both a studio and an aggregator. Its in-house hits include the Money Train series, whose persistent-symbol bonus round became one of the most copied features in the industry, and the Dream Drop progressive jackpot network."
+    "description": "Relax Gaming is both a studio and an aggregator. Its in-house hits include the Money Train series, whose persistent-symbol bonus round became one of the most copied features in the industry, and the Dream Drop progressive jackpot network.",
+    "logo": "/providers/relax-gaming.svg"
   },
   {
     "slug": "big-time-gaming",
@@ -147,7 +153,8 @@
       "Megaways",
       "Feature Drop"
     ],
-    "description": "Big Time Gaming (part of Evolution) invented the Megaways mechanic, where the number of symbols per reel changes on every spin, producing up to 117,649 ways to win. Bonanza launched the format in 2016 and BTG has since licensed Megaways to dozens of other studios."
+    "description": "Big Time Gaming (part of Evolution) invented the Megaways mechanic, where the number of symbols per reel changes on every spin, producing up to 117,649 ways to win. Bonanza launched the format in 2016 and BTG has since licensed Megaways to dozens of other studios.",
+    "logo": "/providers/big-time-gaming.svg"
   },
   {
     "slug": "netent",
@@ -169,7 +176,8 @@
       "Expanding wilds",
       "Classic five-reel design"
     ],
-    "description": "NetEnt is one of the original online slot developers and is now part of Evolution. Starburst, Gonzo's Quest and Dead or Alive are among the most-played slots ever made. Its classic catalogue tends towards lower and medium volatility, with notable exceptions like the Dead or Alive series."
+    "description": "NetEnt is one of the original online slot developers and is now part of Evolution. Starburst, Gonzo's Quest and Dead or Alive are among the most-played slots ever made. Its classic catalogue tends towards lower and medium volatility, with notable exceptions like the Dead or Alive series.",
+    "logo": "/providers/netent.svg"
   },
   {
     "slug": "red-tiger",
@@ -225,7 +233,9 @@
       "Distinctive art direction",
       "Multiplier trails"
     ],
-    "description": "Thunderkick is a boutique Swedish studio known for quirky, art-led slots and consistently high default RTPs."
+    "description": "Thunderkick is a boutique Swedish studio known for quirky, art-led slots and consistently high default RTPs.",
+    "logo": "/providers/thunderkick.svg",
+    "logoInvert": true
   },
   {
     "slug": "quickspin",
@@ -262,7 +272,8 @@
       "Jackpot King",
       "Megaways licences"
     ],
-    "description": "Blueprint Gaming is a UK-focused studio known for land-based-style games, branded titles and the Jackpot King progressive network."
+    "description": "Blueprint Gaming is a UK-focused studio known for land-based-style games, branded titles and the Jackpot King progressive network.",
+    "logo": "/providers/blueprint-gaming.svg"
   },
   {
     "slug": "yggdrasil",
@@ -355,6 +366,7 @@
       "Coin Respin jackpots",
       "Chance x2 / bonus buy"
     ],
-    "description": "BGaming is a Malta-based studio founded in 2018 with a large, fast-growing catalogue of slots and casual games. It is known for recurring characters such as Elvis Frog and Johnny Cash, its Bonanza family of pay-anywhere refilling-reel games, and the Merge Up cluster mechanic in which winning symbols upgrade into higher levels. Many newer BGaming titles publish unusually high default RTPs of around 97%, and the studio publishes extra statistics such as hit rate and average spins per free spins trigger. Most releases offer Chance x2 and a bonus buy where regulation allows."
+    "description": "BGaming is a Malta-based studio founded in 2018 with a large, fast-growing catalogue of slots and casual games. It is known for recurring characters such as Elvis Frog and Johnny Cash, its Bonanza family of pay-anywhere refilling-reel games, and the Merge Up cluster mechanic in which winning symbols upgrade into higher levels. Many newer BGaming titles publish unusually high default RTPs of around 97%, and the studio publishes extra statistics such as hit rate and average spins per free spins trigger. Most releases offer Chance x2 and a bonus buy where regulation allows.",
+    "logo": "/providers/bgaming.png"
   }
 ]

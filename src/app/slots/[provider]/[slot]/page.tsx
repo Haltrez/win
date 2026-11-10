@@ -10,6 +10,7 @@ import { fmtDate, fmtRelease, fmtRtp, fmtX, VOLATILITY_LABEL, volScore } from '@
 import type { Slot } from '@/lib/types';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
+import { VoteButtons } from '@/components/VoteButtons';
 import { DemoEmbed } from '@/components/DemoEmbed';
 import { StatsTable } from '@/components/StatsTable';
 import { AffiliateDisclosure } from '@/components/Disclosure';
@@ -96,18 +97,15 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
     <>
       <Breadcrumbs items={[{ name: 'Slots', path: '/slots' }, { name: p.name, path: `/providers/${p.slug}` }, { name: s.name, path: url }]} />
       <h1>{s.name} Demo &amp; Review</h1>
-      <p className="muted">
-        By <Link href={`/providers/${p.slug}`}>{p.name}</Link>{s.releaseDate ? ` · Released ${fmtRelease(s)}` : ''} · Reviewed by <Link href="/about">{author.name}</Link> · Updated {fmtDate(s.updatedAt)}
-      </p>
       <AffiliateDisclosure compact />
 
       <div className="slot-hero">
         <div>
-          <DemoEmbed name={s.name} url={s.demoUrl} providerName={p.name} launchPath={`/api/demo/${s.provider}/${s.slug}`} />
-          <p className="muted small">Demo mode uses virtual credits and is for entertainment and learning only. Demo results do not predict real-money results.</p>
+          <DemoEmbed name={s.name} url={s.demoUrl} providerName={p.name} launchPath={`/api/demo/${s.provider}/${s.slug}`} image={s.image ?? undefined} />
         </div>
         <aside className="side-card" aria-label={`${s.name} key facts`}>
           {s.rating ? <p><span className="score">{s.rating.toFixed(1)}</span><span className="muted">/10 our score</span></p> : null}
+          <VoteButtons id={`${s.provider}/${s.slug}`} name={s.name} />
           <StatsTable slot={s} provider={p} />
           <div className="cta-stack">
             {FEATURES.realMoney && casinos[0] ? (
@@ -116,7 +114,6 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
               </a>
             ) : null}
             <FavoriteButton id={`${s.provider}/${s.slug}`} name={s.name} url={url} />
-            <p className="muted small">18+ · Free demo play only. <Link href="/responsible-gambling">Gambling help</Link>.</p>
           </div>
         </aside>
       </div>

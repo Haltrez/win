@@ -78,6 +78,10 @@ export interface Provider {
   description: string;
   signatureMechanics?: string[];
   tier: 1 | 2 | 3;
+  /** Official logo in public/providers (white or colour version for dark backgrounds). */
+  logo?: string;
+  /** Logo is dark – invert it on the dark logo plate. */
+  logoInvert?: boolean;
 }
 
 export interface Casino {
