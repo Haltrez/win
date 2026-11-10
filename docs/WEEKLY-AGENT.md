@@ -89,7 +89,7 @@ End the PR body with the attribution line given in the session instructions.
 New pages can be pushed to Bing/IndexNow straight away (the owner or a later run can do this once the PR is live):
 
 ```bash
-node scripts/indexnow.mjs /slots/<provider>/<slug> /guides/<slug> ...
+node scripts/indexnow.mjs /new /slot-database /slots/<provider>/<slug> /guides/<slug> ...
 ```
 
 ## Rules that never change

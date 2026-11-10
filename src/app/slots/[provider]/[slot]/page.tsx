@@ -107,7 +107,7 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
         </div>
         <aside className="side-card" aria-label={`${s.name} key facts`}>
           {s.rating ? <p><span className="score">{s.rating.toFixed(1)}</span><span className="muted">/10 our score</span></p> : null}
-          <VoteButtons id={`${s.provider}/${s.slug}`} name={s.name} />
+          {process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL ? <VoteButtons id={`${s.provider}/${s.slug}`} name={s.name} /> : null}
           <StatsTable slot={s} provider={p} />
           <div className="cta-stack">
             {FEATURES.realMoney && casinos[0] ? (

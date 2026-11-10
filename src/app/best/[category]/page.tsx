@@ -55,6 +55,7 @@ export default async function CategoryPage({ params }: { params: Promise<P> }) {
 
       {slots.length === 0 ? <p className="notice">No slots match this list yet – we add new reviews every week.</p> : (
         <>
+          <h2 className="sr-only">Top {Math.min(12, top.length)} picks</h2>
           <SlotGrid slots={top.slice(0, 12)} ranked />
           <h2>Full comparison</h2>
           <div className="table-wrap">
