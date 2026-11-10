@@ -70,6 +70,13 @@ for (const s of slots) {
       if (!p?.demoDomains.some((d) => host === d || host.endsWith('.' + d))) err(`${at}: demoUrl host ${host} is not an allowlisted official demo domain for ${s.provider}`);
     } catch { err(`${at}: demoUrl is not a valid URL`); }
   }
+  if (s.demoLink) {
+    try {
+      const u = new URL(s.demoLink);
+      if (u.protocol !== 'https:') err(`${at}: demoLink must be https`);
+      if (!p?.demoDomains.some((d) => u.hostname === d || u.hostname.endsWith('.' + d))) err(`${at}: demoLink host ${u.hostname} is not an official domain for ${s.provider}`);
+    } catch { err(`${at}: demoLink is not a valid URL`); }
+  }
   const words = (s.review || '').split(/\s+/).length;
   if (words < 40) err(`${at}: review too short (${words} words)`);
   else if (words < 120) warn(`${at}: review is ${words} words – aim for 120+ before launch`);

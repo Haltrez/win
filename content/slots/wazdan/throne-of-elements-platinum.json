@@ -1,0 +1,56 @@
+{
+  "slug": "throne-of-elements-platinum",
+  "name": "Throne of Elements: Platinum",
+  "provider": "wazdan",
+  "rtp": 96.15,
+  "volatility": "high",
+  "maxWin": 2500,
+  "releaseDate": "2026-09-02",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "money-collect",
+    "grid-expansion",
+    "ante-bet"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Guardian symbols",
+      "description": "Sticky middle-row symbols that activate and unlock extra reels."
+    },
+    {
+      "name": "Cash Infinity",
+      "description": "Value symbols that stay locked until the bonus ends and add to the final total."
+    },
+    {
+      "name": "2,500x Grand Jackpot",
+      "description": "The top prize of the Hold the Jackpot bonus."
+    }
+  ],
+  "review": "Throne of Elements: Platinum is an elemental-themed Hold the Jackpot game on a 25-reel grid, built around reels that unlock as you play. Guardian symbols appear on the middle row, stay sticky and activate additional reels, so the playing area grows during a session.\n\nCash Infinity symbols lock in place until the end of the bonus and keep adding to the final total. A Cash Out timer turns Mystery Cash symbols into instant payouts when its countdown hits zero, and Chance Level lets you multiply the stake by up to 10x to trigger the bonus more often. The Grand Jackpot is 2,500x the bet. Wazdan lists a 96.15% RTP and high volatility. It suits players who like progression systems more than classic line wins.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/throne-of-elements-platinum",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/throne-of-elements-platinum.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/throne-of-elements-platinum"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "addedAt": "2026-11-10",
+  "author": "editorial-team"
+}

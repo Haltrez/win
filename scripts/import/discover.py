@@ -28,7 +28,7 @@ OUT_DIR = os.path.join(ROOT, '.import')
 # Marketing-style page titles that some providers use for game pages ("X - Free Demo & Slot Review", "X by BGaming").
 NAME_NOISE = [
     r'\s*[-–|:]\s*free demo.*$', r'\s+slot review.*$', r'\s+(slot\s+)?free demo$', r'\s+by bgaming$',
-    r"^open .*? in bgaming's\s+",
+    r"^open .*? in bgaming's\s+", r'\s*\((?:demo|game sheet)[^)]*\)$',
 ]
 
 

@@ -59,3 +59,5 @@ Average published RTPs differ a little between studios. Among the games we list,
 ## Highest RTP slots
 
 A handful of games publish an RTP of 97% or more – Thunderkick's [1429 Uncharted Seas](/slots/thunderkick/1429-uncharted-seas) (98.6%), [Toki Time](/slots/thunderkick/toki-time) (97.1%) and [Barber Shop Uncut](/slots/thunderkick/barber-shop-uncut) (97.0%) among them. Browse the full [97% RTP slots](/best/97-rtp-slots) and [high RTP slots](/best/high-rtp-slots) lists.
+
+**Try it with real numbers:** our [slot cost calculator](/tools/slot-cost-calculator) turns any slot's RTP into the expected cost of a session, and shows how much more a lower RTP version costs.

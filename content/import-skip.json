@@ -308,5 +308,11 @@
    "checked": "2026-11-10",
    "reason": "no public game details (client-area only)"
   }
+ },
+ "wazdan": {
+  "valentines-coins": {
+   "checked": "2026-11-10",
+   "reason": "not a slot (Reels / Lines:)"
+  }
  }
 }

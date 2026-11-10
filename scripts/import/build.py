@@ -27,7 +27,7 @@ from common import CONTENT, ROOT, make_thumb, vocab  # noqa: E402
 
 IMPORT = os.path.join(ROOT, '.import')
 XMECH = {'xNudge®': 'xnudge', 'xWays®': 'xways', 'xBomb®': 'xbomb', 'xBet®': 'ante-bet', 'Infectious xWays®': 'infectious-wilds'}
-NAMES = {'pragmatic-play': 'Pragmatic Play', 'bgaming': 'BGaming', 'hacksaw-gaming': 'Hacksaw Gaming', 'nolimit-city': 'Nolimit City', 'thunderkick': 'Thunderkick'}
+NAMES = {'pragmatic-play': 'Pragmatic Play', 'bgaming': 'BGaming', 'hacksaw-gaming': 'Hacksaw Gaming', 'nolimit-city': 'Nolimit City', 'thunderkick': 'Thunderkick', 'wazdan': 'Wazdan'}
 
 
 def fx(n):
@@ -45,6 +45,7 @@ def pros_cons(s, prov):
     if v in ('low', 'medium-low', 'medium'): P.append('Lower volatility suits longer, steadier sessions')
     if 'hold-and-win' in s['mechanics'] or 'jackpot' in s['mechanics']: P.append('Second route to big wins via respins or jackpots')
     if s.get('demoUrl'): P.append('Full game playable in the official free demo')
+    elif s.get('demoLink'): P.append(f'Free demo available on the {prov} website')
     if r is None: C.append(f"{prov} doesn't publish the RTP outside the game – check the info screen")
     elif r < 95: C.append(f'Below-average {r:.2f}% published RTP')
     elif r < 96: C.append(f'Slightly below-average {r:.2f}% RTP')
@@ -95,6 +96,7 @@ def main():
             if g.get(k): s[k] = g[k]
         s.update({'mechanics': mech, 'themes': rv.get('themes', []), 'features': rv['features'], 'review': rv['review'].strip()})
         s['demoUrl'] = g['demoUrl']
+        if g.get('demoLink'): s['demoLink'] = g['demoLink']  # official page with the free demo (provider forbids embedding)
         P, C = pros_cons(s, prov)
         s['pros'], s['cons'] = P, C
         try:

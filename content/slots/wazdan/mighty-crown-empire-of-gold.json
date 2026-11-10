@@ -1,0 +1,55 @@
+{
+  "slug": "mighty-crown-empire-of-gold",
+  "name": "Mighty Crown: Empire of Gold",
+  "provider": "wazdan",
+  "rtp": 96.13,
+  "volatility": "very-high",
+  "maxWin": 1500,
+  "releaseDate": "2026-08-06",
+  "releaseDatePrecision": "day",
+  "winType": "5 lines",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "ante-bet"
+  ],
+  "themes": [
+    "classic",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Empire Bonus",
+      "description": "Three Bonus symbols turn into wilds and start the bonus game."
+    },
+    {
+      "name": "Stacking multipliers",
+      "description": "If wilds cover every position, each awards x1 to x5, for a total multiplier of up to x15."
+    },
+    {
+      "name": "Chance Level",
+      "description": "A higher-bet option that raises the chance of triggering the bonus."
+    }
+  ],
+  "review": "Mighty Crown: Empire of Gold is a classic 3-reel slot with 5 paylines and an ancient-gold theme. It skips the hold-and-win formula that dominates Wazdan's catalogue in favour of one simple bonus.\n\nLanding three Bonus symbols opens the Empire Bonus, where each Bonus symbol becomes a wild. If the wilds cover every position, each one awards a multiplier from x1 to x5, which can stack to a total win multiplier of up to x15. Chance Level raises the bet to make the bonus more likely. Wazdan publishes a 96.13% RTP, very high volatility and a 1,500x max win, so despite the simple layout, wins arrive in bursts. It suits players who like old-school reels with a single big feature.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/mighty-crown-empire-of-gold",
+  "pros": [
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Modest 1,500x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/mighty-crown-empire-of-gold.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/mighty-crown-empire-of-gold"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "addedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -368,5 +368,28 @@
     ],
     "description": "BGaming is a Malta-based studio founded in 2018 with a large, fast-growing catalogue of slots and casual games. It is known for recurring characters such as Elvis Frog and Johnny Cash, its Bonanza family of pay-anywhere refilling-reel games, and the Merge Up cluster mechanic in which winning symbols upgrade into higher levels. Many newer BGaming titles publish unusually high default RTPs of around 97%, and the studio publishes extra statistics such as hit rate and average spins per free spins trigger. Most releases offer Chance x2 and a bonus buy where regulation allows.",
     "logo": "/providers/bgaming.png"
+  },
+  {
+    "slug": "wazdan",
+    "name": "Wazdan",
+    "founded": 2010,
+    "headquarters": "Malta",
+    "licenses": [
+      "MGA",
+      "UKGC",
+      "ONJN"
+    ],
+    "website": "https://wazdan.com",
+    "demoDomains": [
+      "wazdan.com"
+    ],
+    "tier": 2,
+    "signatureMechanics": [
+      "Volatility Levels (player-selectable volatility)",
+      "Classic 3-reel and fruit slots"
+    ],
+    "description": "Wazdan is a Malta-licensed studio founded in 2010, known for a large catalogue of classic-style and jackpot slots and for Volatility Levels, which lets players pick the volatility in many of its games.",
+    "logo": "/providers/wazdan.svg",
+    "logoInvert": true
   }
 ]

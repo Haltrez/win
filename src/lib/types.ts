@@ -63,6 +63,8 @@ export interface Slot {
   lastVerified?: string | null;
   verified?: boolean;
   updatedAt: string;
+  /** Official provider page with the free demo, when the provider doesn't allow embedding (opens in a new tab). */
+  demoLink?: string;
   /** Date the slot was added to the site (drives /new and the RSS feed). */
   addedAt?: string;
   author: string;

@@ -1,0 +1,53 @@
+{
+  "slug": "9-balls",
+  "name": "9 Balls",
+  "provider": "wazdan",
+  "rtp": 96.04,
+  "volatility": "high",
+  "maxWin": 2500,
+  "releaseDate": "2026-06-02",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "money-collect",
+    "ante-bet"
+  ],
+  "themes": [],
+  "features": [
+    {
+      "name": "Penalty Kick",
+      "description": "A countdown label on a reel that awards a prize when it reaches zero."
+    },
+    {
+      "name": "Cash Infinity",
+      "description": "Higher-value symbols that stay until the end of the next bonus round."
+    },
+    {
+      "name": "xG Chance Level",
+      "description": "A bet multiplier that raises the chance of entering the bonus."
+    }
+  ],
+  "review": "9 Balls is a football-themed Hold the Jackpot game from Wazdan, played on 9 reels in a stadium setting. It uses the studio's familiar formula with sports-themed names: Cash Infinity symbols are worth more and stay on the reels until the end of the next bonus round.\n\nThe Penalty Kick label is the base-game feature: once it attaches to a reel and its countdown reaches zero, it awards a prize. xG Chance Level is Wazdan's bet multiplier under a football name, raising the stake to make the respin bonus more likely. Wazdan publishes a 96.04% RTP, high volatility and a 2,500x max win. It is a straightforward pick for football fans who like jackpot-style respins rather than complex mechanics.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/9-balls",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/9-balls.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/9-balls"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "addedAt": "2026-11-10",
+  "author": "editorial-team"
+}

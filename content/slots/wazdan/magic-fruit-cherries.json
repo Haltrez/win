@@ -1,0 +1,56 @@
+{
+  "slug": "magic-fruit-cherries",
+  "name": "Magic Fruit$: Cherries",
+  "provider": "wazdan",
+  "rtp": 96.13,
+  "volatility": "medium",
+  "maxWin": 500,
+  "releaseDate": "2026-07-30",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "money-collect",
+    "ante-bet"
+  ],
+  "themes": [
+    "fruit"
+  ],
+  "features": [
+    {
+      "name": "Cash Out",
+      "description": "Stays on a reel for up to 15 spins, then pays a random prize plus its column's values."
+    },
+    {
+      "name": "Hold the Jackpot",
+      "description": "A respin bonus where collected values and jackpots are paid at the end."
+    },
+    {
+      "name": "Medium volatility",
+      "description": "A calmer profile than most Wazdan jackpot games, with a 500x top prize."
+    }
+  ],
+  "review": "Magic Fruit$: Cherries is a fruit-machine style jackpot game on 16 reels and one of the gentler Wazdan titles: the studio lists medium volatility and a 500x top prize, with a 96.13% RTP. That makes it a calmer option than the high-volatility Coins games.\n\nThe Cash Out symbol can appear on a random reel and stay for up to 15 spins, then pays a random prize plus the values of other symbols in the same column. Cash Infinity symbols stick until the Hold the Jackpot bonus ends, adding to the final collection. Chance Level lets you increase the bet to reach the bonus more often. It suits players who want the hold-and-win format with smaller swings.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/magic-fruit-cherries",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "Modest 500x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/magic-fruit-cherries.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/magic-fruit-cherries"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "addedAt": "2026-11-10",
+  "author": "editorial-team"
+}

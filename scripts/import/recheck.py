@@ -28,6 +28,7 @@ KEY_FROM_SOURCE = {
     'hacksaw-gaming': r'hacksawgaming\.com/games/([^/?#]+)',
     'nolimit-city': r'nolimitcity\.com/games/([^/?#]+)',
     'thunderkick': r'thunderkick\.com/games/([^/?#]+)',
+    'wazdan': r'wazdan\.com/games/([^/?#]+)',
 }
 FIELDS = ('rtp', 'rtpVariants', 'volatility', 'maxWin')
 

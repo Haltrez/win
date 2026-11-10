@@ -24,7 +24,7 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta, ext
     else if (url) setSrc(mobile ? url.replace('channel=desktop', 'channel=mobile') : url);
     setOn(true);
   };
-  if (!url)
+  if (!url && !externalUrl)
     return (
       <div className="demo demo-empty">
         {image ? <span className="demo-bg" style={{ backgroundImage: `url(${image})` }} aria-hidden /> : null}

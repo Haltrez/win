@@ -293,7 +293,11 @@ class Thunderkick:
         dm = re.search(r"data-play-game='([^']+)'", page)
         demo = json.loads(H.unescape(dm.group(1))).get('d') if dm else None
         g['demoUrl'] = H.unescape(demo) if demo and 'forfun.thunderkick.com' in demo else None
-        g['image'] = meta(page, 'og:image')
+        # og:image is often a generic company photo; use the game's own 600x450 icon (filename matches the name).
+        want = re.sub(r'[^a-z0-9]', '', g['name'].lower())
+        icons = sorted(set(re.findall(r'https://wazdan\.com/wp-content/uploads/[^"\' )]*?_icon_[^"\' )]*', page)))
+        stem = lambda u: re.sub(r'[^a-z0-9]', '', u.rsplit('/', 1)[-1].split('_icon_')[0].lower())
+        g['image'] = next((u for u in icons if stem(u) == want), None) or next((u for u in icons if want.startswith(stem(u)) and len(stem(u)) > 5), None)
         g['imageBias'] = 0.5
         g['sources'] = [url]
         pg = t.find('| Play Game | X |')
@@ -303,4 +307,66 @@ class Thunderkick:
         return g
 
 
-ADAPTERS = {a.id: a for a in (Pragmatic(), BGaming(), Hacksaw(), Nolimit(), Thunderkick())}
+
+# ------------------------------------------------------------------ Wazdan
+class Wazdan:
+    """wazdan.com game pages have a "Game Info" block (Reels / Lines, RTP, Max Win, Volatility, Theme, Release date).
+    Their demo launcher only runs on wazdan.com (it redirects elsewhere and the site forbids framing), so demoUrl stays
+    None and demoLink points visitors to the official game page, where the free demo is."""
+    id = 'wazdan'
+
+    def list_games(self):
+        idx = fetch('https://wazdan.com/sitemap_index.xml')
+        maps = [m for m in re.findall(r'<loc>([^<]+)</loc>', idx) if re.search(r'games?[-_]sitemap', m)]
+        games = []
+        for m in maps:
+            games += [(re.search(r'/games/([^/]+)/?$', u).group(1), u, lm) for u, lm in sitemap_urls(m, r'wazdan\.com/games/[^/]+/?$')]
+        return games
+
+    def fetch(self, key):
+        url = f'https://wazdan.com/games/{key}'
+        page = fetch(url)
+        t = text_of(page)
+        title = meta(page, 'og:title') or key
+        g = base(self.id, key, re.sub(r'\s*[-|–]\s*Wazdan.*$', '', title))
+        i = t.find('Game Info')
+        info = t[i:i + 900] if i >= 0 else ''
+        kv = dict((k.strip().lower(), v.strip()) for k, v in re.findall(r'\| ([A-Za-z /]+): \| ([^|]+?) (?=\|)', info))
+        gt = kv.get('game type', '')
+        if gt and gt.lower() != 'slots':
+            g['skip'] = f'not a slot ({gt})'
+            return g
+        r = re.search(r'RTP: \| ([\d.]+)', info)
+        if r and 80 <= float(r.group(1)) <= 99.9:
+            g['rtp'], g['rtpSource'] = float(r.group(1)), 'provider'
+        m = re.search(r'Max Win: \| ([\d,. ]+)x', info)
+        g['maxWin'] = int_x(m.group(1)) if m else None
+        v = kv.get('volatility')
+        if v:
+            g['volatilityRaw'] = v
+            g['volatility'] = VOL_WORD.get(v.lower())
+        rl = kv.get('reels / lines')
+        if rl:
+            reels, _, lines = (x.strip() for x in rl.partition('/'))
+            g['reelCount'] = int(reels) if reels.isdigit() else None  # count only; our 'reels' field is a grid like 5x3
+            g['winType'] = f'{lines} lines' if lines.isdigit() and int(lines) > 0 else None
+        d = re.search(r'Release date: \| (\d{4}-\d{2}-\d{2})', info)
+        if d:
+            g['releaseDate'], g['releaseDatePrecision'] = d.group(1), 'day'
+        g['theme'] = kv.get('theme')
+        # og:image is often a generic company photo; use the game's own 600x450 icon (filename matches the name).
+        want = re.sub(r'[^a-z0-9]', '', g['name'].lower())
+        icons = sorted(set(re.findall(r'https://wazdan\.com/wp-content/uploads/[^"\' )]*?_icon_[^"\' )]*', page)))
+        stem = lambda u: re.sub(r'[^a-z0-9]', '', u.rsplit('/', 1)[-1].split('_icon_')[0].lower())
+        g['image'] = next((u for u in icons if stem(u) == want), None) or next((u for u in icons if want.startswith(stem(u)) and len(stem(u)) > 5), None)
+        g['imageBias'] = 0.5
+        g['demoUrl'] = None
+        g['demoLink'] = url
+        g['sources'] = [url]
+        g['text'] = t[:i] if i > 0 else t[:4000]
+        if not g['image']:
+            g['skip'] = 'no official image'
+        return g
+
+
+ADAPTERS = {a.id: a for a in (Pragmatic(), BGaming(), Hacksaw(), Nolimit(), Thunderkick(), Wazdan())}

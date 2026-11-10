@@ -1,0 +1,55 @@
+{
+  "slug": "12-bells",
+  "name": "12 Bells",
+  "provider": "wazdan",
+  "rtp": 96.15,
+  "volatility": "high",
+  "maxWin": 750,
+  "releaseDate": "2024-11-06",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "ante-bet"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Two bonus rounds",
+      "description": "Hold the Jackpot respins plus the separate 12 Bells Bonus Game."
+    },
+    {
+      "name": "One Click 2 Grand",
+      "description": "Lets the 12 Bells Bonus Game award the Grand Jackpot with a single click."
+    },
+    {
+      "name": "Chance Level",
+      "description": "Raises the chance of entering either bonus round."
+    }
+  ],
+  "review": "12 Bells is the sequel to Wazdan's bell-themed jackpot game, played on 12 reels with two separate bonus rounds rather than one. The familiar Hold the Jackpot respin bonus is still here, with sticky Cash Infinity symbols raising its value.\n\nThe new part is the 12 Bells Bonus Game, a second round where a single click can award several prizes. Its One Click 2 Grand feature can award the Grand Jackpot directly. Chance Level improves the odds of reaching either bonus. The Grand Jackpot is a modest 750x the bet, the lowest ceiling in this batch, with a published 96.15% RTP and high volatility. It suits players who prefer more frequent, smaller bonus moments over chasing a huge top prize.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/12-bells",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Modest 750x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/12-bells.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/12-bells"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "addedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "mighty-hot-amazonia",
+  "name": "Mighty Hot: Amazonia",
+  "provider": "wazdan",
+  "rtp": 96.22,
+  "volatility": "medium-low",
+  "maxWin": 1500,
+  "releaseDate": "2026-06-30",
+  "releaseDatePrecision": "day",
+  "winType": "5 lines",
+  "mechanics": [
+    "paylines",
+    "multipliers"
+  ],
+  "themes": [
+    "classic",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Wall of symbols",
+      "description": "Filling the reels with one matching symbol pays the game's biggest wins."
+    },
+    {
+      "name": "Fortune wheel multiplier",
+      "description": "A wheel spins on full-wall wins to add a multiplier of up to 15x."
+    },
+    {
+      "name": "Low-medium volatility",
+      "description": "Steadier results than most modern slots, with straightforward rules."
+    }
+  ],
+  "review": "Mighty Hot: Amazonia is a retro 5-payline slot with a jungle theme and one of the lowest-volatility games in Wazdan's recent releases: the studio rates it low-medium, with a 96.22% RTP and a 1,500x max win.\n\nThere are no respin bonuses or collect symbols here. The main event is the wall of symbols: filling the reels with matching symbols pays the biggest wins, and a fortune wheel then spins to add a multiplier of up to 15x. The rest of the time it plays like a classic fruit-style slot with clear rules and quick spins. It is a good fit for players who want something simple and steady, or who are new to slots and don't want to learn a list of features first.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/mighty-hot-amazonia",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "Modest 1,500x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/mighty-hot-amazonia.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/mighty-hot-amazonia"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "addedAt": "2026-11-10",
+  "author": "editorial-team"
+}

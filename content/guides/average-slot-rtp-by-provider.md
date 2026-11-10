@@ -75,7 +75,7 @@ Our guide on [how to check a slot's RTP](/guides/how-to-check-slot-rtp) walks th
 
 ## Does a 0.3% difference matter?
 
-Over a single session, hardly at all. [Volatility](/guides/slot-volatility-explained) decides far more about how a short session feels than a few tenths of RTP. Over many sessions the gap adds up, and the bigger gaps (96.5% vs 94%, or 96% vs 88%) matter even over a few hundred spins. As a rough guide:
+Over a single session, hardly at all. [Volatility](/guides/slot-volatility-explained) decides far more about how a short session feels than a few tenths of RTP. Over many sessions the gap adds up (our [slot cost calculator](/tools/slot-cost-calculator) shows it in money for any game), and the bigger gaps (96.5% vs 94%, or 96% vs 88%) matter even over a few hundred spins. As a rough guide:
 
 - **96.5% or more:** above average for modern slots.
 - **95.5–96.5%:** typical.

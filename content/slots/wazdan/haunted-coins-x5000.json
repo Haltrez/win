@@ -1,0 +1,56 @@
+{
+  "slug": "haunted-coins-x5000",
+  "name": "Haunted Coins x5000",
+  "provider": "wazdan",
+  "rtp": 96.15,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2026-10-15",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "money-collect",
+    "ante-bet"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "5,000x Grand Jackpot",
+      "description": "The top prize of the Hold the Jackpot bonus, worth 5,000x the bet."
+    },
+    {
+      "name": "Cash Infinity",
+      "description": "Higher-value cash symbols that stick until the end of the bonus round."
+    },
+    {
+      "name": "Chance Level up to 10x",
+      "description": "Raise the bet by up to ten times to trigger the bonus more often."
+    }
+  ],
+  "review": "Haunted Coins x5000 is a Halloween take on Wazdan's Coins series, played on 9 reels with a Grand Jackpot worth 5,000x the bet, the biggest prize in this batch. Like the rest of the series, nearly everything builds towards the Hold the Jackpot respin bonus.\n\nCash Infinity symbols are worth more than regular cash symbols and stick to the reels until the end of the bonus. A Cash Out label can attach to the base game: it accumulates symbol values and pays a percentage when its countdown ends, after up to 20 spins. Chance Level multiplies the bet by up to 10x to make the bonus more likely. Wazdan lists a 96.15% RTP and very high volatility, so long quiet stretches are normal. Best for players chasing one big jackpot round.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/haunted-coins-x5000",
+  "pros": [
+    "Solid 5,000x win ceiling",
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/haunted-coins-x5000.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/haunted-coins-x5000"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "addedAt": "2026-11-10",
+  "author": "editorial-team"
+}

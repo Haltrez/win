@@ -1,0 +1,58 @@
+{
+  "slug": "cash-grotto",
+  "name": "Cash Grotto",
+  "provider": "wazdan",
+  "rtp": 96.13,
+  "volatility": "high",
+  "maxWin": 1500,
+  "releaseDate": "2025-10-02",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "money-collect",
+    "multipliers",
+    "ante-bet"
+  ],
+  "themes": [
+    "gems",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Hold the Jackpot",
+      "description": "4 Bonus symbols on the central reels start 3 respins, with jackpots up to 1,500x."
+    },
+    {
+      "name": "Moving Cash Out",
+      "description": "Moves down a reel collecting Bonus values and can multiply them by up to 300%."
+    },
+    {
+      "name": "Sticky to Infinity",
+      "description": "Mystery and Jackpot Mystery symbols lock in place until the bonus ends."
+    }
+  ],
+  "review": "Cash Grotto is an underground treasure game set across 24 separate reels, combining several Wazdan mechanics at once. Hold the Jackpot is triggered by landing 4 Bonus symbols on the highlighted central reels and starts with 3 respins to collect more symbols, with jackpots of up to 1,500x the bet.\n\nCash Infinity symbols stay on the reels until the bonus and make it more likely to trigger, while Sticky to Infinity locks Mystery and Jackpot Mystery symbols until the bonus ends. Moving Cash Out travels down a reel, collects the Bonus values on it and can multiply the total by up to 300%. Chance Level offers three bet multipliers that change bonus frequency, not payouts. Wazdan lists a 96.13% RTP and high volatility.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/cash-grotto",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Modest 1,500x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/cash-grotto.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/cash-grotto"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "addedAt": "2026-11-10",
+  "author": "editorial-team"
+}

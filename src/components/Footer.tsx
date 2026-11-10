@@ -36,6 +36,8 @@ export function Footer() {
               <li><Link href="/slot-database">Slot RTP database</Link></li>
               <li><Link href="/new">New this week</Link></li>
               <li><Link href="/widgets">Free slot widget</Link></li>
+              <li><Link href="/tools/slot-finder">Slot finder</Link></li>
+              <li><Link href="/tools/slot-cost-calculator">Slot cost calculator</Link></li>
               <li><Link href="/guides/rtp-explained">RTP explained</Link></li>
               <li><Link href="/glossary">Slot glossary</Link></li>
               <li><Link href="/guides/slot-volatility-explained">Volatility guide</Link></li>

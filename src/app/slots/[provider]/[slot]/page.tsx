@@ -102,7 +102,7 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
 
       <div className="slot-hero">
         <div>
-          <DemoEmbed name={s.name} url={s.demoUrl} providerName={p.name} launchPath={`/api/demo/${s.provider}/${s.slug}`} externalUrl={s.provider === 'push-gaming' && s.demoUrl ? `https://www.pushgaming.com/games/play/${s.slug}.html` : undefined} image={s.image ?? undefined}
+          <DemoEmbed name={s.name} url={s.demoUrl} providerName={p.name} launchPath={`/api/demo/${s.provider}/${s.slug}`} externalUrl={s.demoLink ?? (s.provider === 'push-gaming' && s.demoUrl ? `https://www.pushgaming.com/games/play/${s.slug}.html` : undefined)} image={s.image ?? undefined}
             cta={FEATURES.realMoney && casinos.length ? { slotKey: `${s.provider}/${s.slug}`, casinos: casinos.map((c) => ({ slug: c.slug, name: c.name, geos: c.geos, bonus: c.bonus, terms: c.terms })) } : undefined} />
         </div>
         <aside className="side-card" aria-label={`${s.name} key facts`}>
@@ -116,6 +116,7 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
               </a>
             ) : null}
             <FavoriteButton id={`${s.provider}/${s.slug}`} name={s.name} url={url} />
+            {s.rtp != null && s.rtpSource !== 'third-party' ? <Link className="embed-link" href={`/tools/slot-cost-calculator?slot=${s.provider}/${s.slug}`}>What does {s.rtp.toFixed(2)}% RTP cost per session? Calculate →</Link> : null}
             <Link className="embed-link" href={`/widgets?slot=${s.provider}/${s.slug}`}>&lt;/&gt; Embed this slot on your site</Link>
           </div>
         </aside>

@@ -16,10 +16,10 @@ pip install Pillow   # only if `python3 -c "import PIL"` fails
 
 The PR base branch is `claude/slots-demo-review-site-x1rmh3` (the branch Vercel deploys).
 
-## 1. New slots (target: 8–20 per week)
+## 1. New slots (target: 30–50 per week)
 
 ```bash
-python3 scripts/import/discover.py --max 6
+python3 scripts/import/discover.py --max 12   # 6 providers incl. Wazdan → up to ~70 candidates
 ```
 
 Read `.import/candidates.json`. For every candidate decide **publish** or **skip**:
@@ -28,6 +28,7 @@ Read `.import/candidates.json`. For every candidate decide **publish** or **skip
   - the title or theme is explicit, crude, or about a real atrocity or tragedy (brand safety). Also add it to `content/import-skip.json` with the reason.
   - it isn't really a slot (crash, dice, scratch, table game).
   - the official data looks broken (e.g. RTP outside 85–99%, max win of 0).
+- **Near-duplicates** (e.g. "25 Coins x3000" next to "36 Coins x3000"): publish only if you can write a review that is genuinely different (grid size, features, jackpot, volatility); otherwise skip with reason "near-duplicate – needs distinct review" (do NOT add to import-skip.json, so it comes back later).
 - **Publish**: write `.import/reviews.json` (format in `scripts/import/build.py`). For each game:
   - **review**: two short paragraphs, 90–160 words, original wording. Describe the grid, what the main mechanic actually does, the bonus structure and who the game suits. Base everything on the candidate's `text` and official numbers. **Never invent features or numbers.** Mention RTP and volatility only when the provider publishes them. Don't copy marketing sentences.
   - **features**: exactly 3 `{name, description}` pairs, one sentence each.
@@ -91,6 +92,11 @@ New pages can be pushed to Bing/IndexNow straight away (the owner or a later run
 ```bash
 node scripts/indexnow.mjs /new /slot-database /slots/<provider>/<slug> /guides/<slug> ...
 ```
+
+## Coverage notes
+
+- Wazdan's demo launcher only runs on wazdan.com, so Wazdan slots get `demoLink` (opens the official page) instead of an embedded demo. Push Gaming works the same way. Never try to get around a provider's embedding rules.
+- Candidate studios checked and why they're not imported yet: Quickspin (official demos, but RTP/max win only in PDF game sheets), Print Studios (demo didn't render in testing), Avatar UX and Endorphina (robots.txt disallows game pages), Habanero (robots.txt disallows game pages), Playson and Spinomenal (site refuses automated access), Big Time Gaming (blocks crawlers). Re-check occasionally; add an adapter in `scripts/import/providers.py` when one becomes viable.
 
 ## Rules that never change
 
