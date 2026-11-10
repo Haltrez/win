@@ -1,0 +1,56 @@
+{
+  "slug": "gaelic-gold",
+  "name": "Gaelic Gold",
+  "provider": "nolimit-city",
+  "rtp": 96.15,
+  "volatility": "medium",
+  "maxWin": 9837,
+  "releaseDate": "2020-03-15",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "hitRate": 5.58,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "irish"
+  ],
+  "features": [
+    {
+      "name": "xNudge Wild",
+      "description": "Three-row wilds that gain +1 per nudge."
+    },
+    {
+      "name": "Rainbow Spins",
+      "description": "Triggered by a Pot of Gold in the centre."
+    },
+    {
+      "name": "3x3 grid",
+      "description": "A compact layout."
+    }
+  ],
+  "review": "Gaelic Gold is a compact 3x3 Irish slot with a Medium volatility rating. A three-row xNudge Wild can land on any reel and always nudges into full view, adding +1 per nudge, and several wilds in one win add their multipliers together.\n\nA Pot of Gold landing in the centre position starts Rainbow Spins: five spins to begin with, with chances to extend. The cap is 9,837x, a lot for such a small grid. A tidy introduction to how xNudge works.",
+  "pros": [
+    "Solid 9,837x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=GaelicGold&language=en&device=desktop",
+  "image": "/slots/nolimit-city/gaelic-gold.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/gaelic-gold"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

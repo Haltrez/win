@@ -1,0 +1,52 @@
+{
+  "slug": "starstruck",
+  "name": "Starstruck",
+  "provider": "nolimit-city",
+  "rtp": 96.19,
+  "volatility": "medium",
+  "maxWin": 1635,
+  "releaseDate": "2019-03-27",
+  "releaseDatePrecision": "day",
+  "reels": "3x3",
+  "hitRate": 2.7,
+  "mechanics": [
+    "paylines",
+    "multipliers"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Multiplying Wilds",
+      "description": "x2, x3 or x5 stacked wilds that multiply together."
+    },
+    {
+      "name": "Hot Zone",
+      "description": "A Starstruck symbol on reel 2 triggers the feature."
+    },
+    {
+      "name": "High hit rate",
+      "description": "Wins on roughly 37% of spins."
+    }
+  ],
+  "review": "Starstruck is a compact 3x3 classic slot with five-row stacked wilds carrying x2, x3 or x5 multipliers. The x5 wilds only appear on the middle reel, and several wilds in the same line multiply together.\n\nLanding the Starstruck symbol in the hot zone on reel 2 triggers the feature. Nolimit rates it Medium volatility, with a 1,635x cap and a 37% hit rate. A simple, frequent-win game.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 1,635x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Starstruck&language=en&device=desktop",
+  "image": "/slots/nolimit-city/starstruck.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/starstruck"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

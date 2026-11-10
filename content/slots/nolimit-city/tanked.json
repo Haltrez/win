@@ -1,0 +1,58 @@
+{
+  "slug": "tanked",
+  "name": "Tanked",
+  "provider": "nolimit-city",
+  "rtp": 96.04,
+  "volatility": "high",
+  "maxWin": 25000,
+  "releaseDate": "2024-12-03",
+  "releaseDatePrecision": "day",
+  "hitRate": 4.96,
+  "mechanics": [
+    "money-collect",
+    "multipliers",
+    "grid-expansion",
+    "free-spins",
+    "ante-bet",
+    "xnudge",
+    "xbomb",
+    "bonus-buy"
+  ],
+  "themes": [
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "xLoot",
+      "description": "Characters collect symbols of their own colour."
+    },
+    {
+      "name": "Additive multipliers",
+      "description": "Any character can pick them up."
+    },
+    {
+      "name": "Tank Boosters",
+      "description": "Four power-ups, including rockets."
+    }
+  ],
+  "review": "Tanked introduced xLoot: tanks move around a 6x6 grid that can grow to 9x9, collecting symbols of their own colour. Multipliers can be picked up by any character and add together.\n\nFour Tank Boosters, such as rockets that blast walls, change the board, and xBomb, xSplit and xNudge also appear. Nolimit rates it High volatility, with a 25,000x cap.",
+  "pros": [
+    "Very high 25,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Tanked&language=en&device=desktop",
+  "image": "/slots/nolimit-city/tanked.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/tanked"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

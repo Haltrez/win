@@ -5,7 +5,7 @@
   "rtp": 96.08,
   "volatility": "very-high",
   "maxWin": 66666,
-  "releaseDate": "2021-04-27",
+  "releaseDate": "2021-08-31",
   "reels": "5x3–5x5",
   "paylines": "Up to 108 lines",
   "mechanics": [
@@ -43,13 +43,15 @@
     "tombstone-rip",
     "fire-in-the-hole-xbomb"
   ],
-  "demoUrl": null,
-  "image": null,
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Mental&language=en&device=desktop",
+  "image": "/slots/nolimit-city/mental.webp",
   "sources": [
-    "Provider game sheet / in-game info screen (verify before launch)"
+    "https://nolimitcity.com/games/mental"
   ],
-  "verified": false,
-  "lastVerified": null,
-  "updatedAt": "2026-11-09",
-  "author": "editorial-team"
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team",
+  "releaseDatePrecision": "day",
+  "hitRate": 2.92
 }

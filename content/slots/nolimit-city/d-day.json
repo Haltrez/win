@@ -1,0 +1,57 @@
+{
+  "slug": "d-day",
+  "name": "D-Day",
+  "provider": "nolimit-city",
+  "rtp": 96.12,
+  "volatility": "very-high",
+  "maxWin": 55555,
+  "releaseDate": "2024-02-13",
+  "releaseDatePrecision": "day",
+  "reels": "3-4-5-4-3",
+  "hitRate": 4.6,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "reel-modifiers",
+    "free-spins",
+    "ante-bet",
+    "bonus-buy"
+  ],
+  "themes": [
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Atomic Wild",
+      "description": "A random wild with a 10x–100x multiplier."
+    },
+    {
+      "name": "Bombers and Panzers",
+      "description": "Turn reels or rows wild."
+    },
+    {
+      "name": "Stukas",
+      "description": "Split symbols diagonally to double them."
+    }
+  ],
+  "review": "D-Day is a historical war slot on a diamond-shaped 3-4-5-4-3 grid, packed with random modifiers. Atomic Wild drops a 10x to 100x multiplier wild, Bombers turn whole reels wild, Stukas split symbols diagonally, and Panzers turn the low symbols on their row into wilds.\n\nThere are more, including the Howitzer, and they can stack up on the same spin. Nolimit rates it Extreme volatility, with a 55,555x ceiling. The theme won't suit everyone, but the modifier variety is huge.",
+  "pros": [
+    "Very high 55,555x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=DDay&language=en&device=desktop",
+  "image": "/slots/nolimit-city/d-day.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/d-day"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

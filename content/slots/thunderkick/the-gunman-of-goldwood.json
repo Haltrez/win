@@ -1,0 +1,53 @@
+{
+  "slug": "the-gunman-of-goldwood",
+  "name": "The Gunman of Goldwood",
+  "provider": "thunderkick",
+  "rtp": 94.31,
+  "volatility": "high",
+  "maxWin": 7500,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "10 paylines",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Multiplier wilds",
+      "description": "Boost wins."
+    },
+    {
+      "name": "Duels",
+      "description": "A base-game feature."
+    },
+    {
+      "name": "Random wilds",
+      "description": "Added in free spins."
+    }
+  ],
+  "review": "The Gunman of Goldwood is a 3x5, 10-line western with multiplier wilds, duels, and free spins with retriggers and random wilds.\n\nThunderkick rates it High volatility, with a 7,500x cap. The published RTP is 94.31%.\n\nDuels and multiplier wilds give the base game some bite, and random wilds land during the free spins. The 3x5 layout keeps it easy to follow.",
+  "pros": [
+    "Solid 7,500x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.31% published RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g83-94&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/the-gunman-of-goldwood.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/the-gunman-of-goldwood/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

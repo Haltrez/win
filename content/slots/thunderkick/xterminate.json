@@ -1,0 +1,53 @@
+{
+  "slug": "xterminate",
+  "name": "Xterminate",
+  "provider": "thunderkick",
+  "rtp": 94.12,
+  "volatility": "very-high",
+  "maxWin": 25000,
+  "releaseDate": null,
+  "reels": "6 reels",
+  "mechanics": [
+    "scatter-pays",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "sci-fi",
+    "space"
+  ],
+  "features": [
+    {
+      "name": "Scatter pays",
+      "description": "Wins anywhere."
+    },
+    {
+      "name": "Xterminate multiplier",
+      "description": "Boosts wins."
+    },
+    {
+      "name": "Charged wilds",
+      "description": "Electrify the reels."
+    }
+  ],
+  "review": "Xterminate is a 5x6 sci-fi slot with scatter-pay wins, the Xterminate multiplier and charged wilds.\n\nThunderkick rates it Very High volatility, with a 25,000x cap. The published RTP is 94.12%.\n\nScatter-pay wins count from anywhere on the 5x6 grid, and charged wilds plus the Xterminate multiplier drive the big hits. It's one of the studio's harder-edged recent games.",
+  "pros": [
+    "Very high 25,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.12% published RTP",
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g73-94&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/xterminate.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/xterminate/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

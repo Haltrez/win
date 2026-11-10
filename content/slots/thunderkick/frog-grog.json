@@ -1,0 +1,53 @@
+{
+  "slug": "frog-grog",
+  "name": "Frog Grog",
+  "provider": "thunderkick",
+  "rtp": 96.1,
+  "volatility": "low",
+  "maxWin": 1616,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "23 paylines",
+  "mechanics": [
+    "paylines",
+    "progressive-multiplier",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Wild frogs",
+      "description": "Substitute symbols."
+    },
+    {
+      "name": "Mystery game",
+      "description": "A pick-style feature."
+    },
+    {
+      "name": "Increasing multiplier",
+      "description": "Grows during the feature."
+    }
+  ],
+  "review": "Frog Grog is a 23-line witch's-brew slot with wild frogs, a mystery game and an increasing multiplier.\n\nThunderkick rates it Low volatility, with a 1,616x cap and a 96.1% RTP. A playful, approachable game.\n\nThe mystery game and the increasing multiplier keep things moving without big swings, which makes Frog Grog a good choice for long, low-stakes demo sessions. The bubbling-cauldron art is very charming.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 1,616x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g8&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/frog-grog.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/frog-grog/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

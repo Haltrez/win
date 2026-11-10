@@ -1,0 +1,58 @@
+{
+  "slug": "barbarian-fury",
+  "name": "Barbarian Fury",
+  "provider": "nolimit-city",
+  "rtp": 96.06,
+  "volatility": "high",
+  "maxWin": 8785,
+  "releaseDate": "2020-03-03",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "hitRate": 4.18,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "respins",
+    "free-spins",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fantasy",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "xNudge Roaring Wild",
+      "description": "Nudges until fully visible, +1 multiplier per nudge."
+    },
+    {
+      "name": "Barbarian Respin",
+      "description": "Matching barbarians lock for a respin."
+    },
+    {
+      "name": "Fury Spins",
+      "description": "The wild multiplier becomes sticky."
+    }
+  ],
+  "review": "Barbarian Fury is a 5x4 slot where a four-row xNudge Roaring Wild sits on reels 2, 3 and 4. It always nudges until fully visible, gaining +1 to its multiplier with each nudge, and several wild multipliers in one win combine.\n\nThree or more matching barbarians can trigger a Barbarian Respin, in which they nudge into full view and lock. Fury Spins make the wild multiplier sticky, so it stops resetting between spins, which is where the 8,785x cap comes into play. Nolimit rates it High volatility, one step below its most extreme games.",
+  "pros": [
+    "Solid 8,785x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=BarbarianFury&language=en&device=desktop",
+  "image": "/slots/nolimit-city/barbarian-fury.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/barbarian-fury"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

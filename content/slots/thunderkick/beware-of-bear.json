@@ -1,0 +1,53 @@
+{
+  "slug": "beware-of-bear",
+  "name": "Beware Of Bear",
+  "provider": "thunderkick",
+  "rtp": 94.29,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "6 reels",
+  "winType": "20 paylines",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Wild Swipe Respins",
+      "description": "The bear swipes wilds into place."
+    },
+    {
+      "name": "Beehive wilds",
+      "description": "Expanding wilds."
+    },
+    {
+      "name": "20 fixed paylines",
+      "description": "A 6x4 grid."
+    }
+  ],
+  "review": "Beware Of Bear is a 6x4 camping slot with 20 fixed paylines. Wilds and special wilds feed the Wild Swipe Respins feature, where the bear's paws push the action along, and expanding beehive wilds add more.\n\nThunderkick rates it High volatility, with a 10,000x cap. The published RTP is 94.29%.",
+  "pros": [
+    "High 10,000x win ceiling"
+  ],
+  "cons": [
+    "Below-average 94.29% published RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": null,
+  "image": "/slots/thunderkick/beware-of-bear.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/beware-of-bear/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

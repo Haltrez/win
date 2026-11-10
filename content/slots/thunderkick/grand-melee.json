@@ -1,0 +1,54 @@
+{
+  "slug": "grand-melee",
+  "name": "Grand Melee",
+  "provider": "thunderkick",
+  "rtp": 96.17,
+  "volatility": "high",
+  "maxWin": 5000,
+  "releaseDate": null,
+  "reels": "6 reels",
+  "winType": "1193 connecting ways",
+  "mechanics": [
+    "ways",
+    "respins",
+    "grid-expansion",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Sticky Respins",
+      "description": "Unlock combined features."
+    },
+    {
+      "name": "Game Area Expansion",
+      "description": "Grows the grid."
+    },
+    {
+      "name": "Symbol Upgrade",
+      "description": "Improves symbols."
+    }
+  ],
+  "review": "Grand Melee is a comic royal battle on 6 reels with 1,193 connecting ways. Sticky respins unlock game area expansion, symbol expansion and symbol upgrades.\n\nThunderkick rates it High volatility, with a 5,000x cap and a 96.17% RTP.\n\nThe sticky respins are where Grand Melee comes alive: every respin can expand the grid, enlarge symbols or upgrade them, so a modest start can snowball. The comedic medieval art matches the chaos.",
+  "pros": [
+    "Solid 5,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g63-96&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/grand-melee.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/grand-melee/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

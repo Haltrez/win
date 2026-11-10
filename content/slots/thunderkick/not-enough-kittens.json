@@ -1,0 +1,50 @@
+{
+  "slug": "not-enough-kittens",
+  "name": "Not Enough Kittens",
+  "provider": "thunderkick",
+  "rtp": 96.1,
+  "volatility": "low",
+  "maxWin": 3650,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "35 ways",
+  "mechanics": [
+    "ways",
+    "free-spins"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Double symbols",
+      "description": "Count as two."
+    },
+    {
+      "name": "Free spins",
+      "description": "With retriggers."
+    },
+    {
+      "name": "35 ways",
+      "description": "A 5-reel layout."
+    }
+  ],
+  "review": "Not Enough Kittens is a 35-ways slot about a cat-obsessed professor, with double symbols and free spins with retriggers.\n\nThunderkick rates it Low volatility, with a 3,650x cap and a 96.1% RTP.\n\nDouble symbols count as two of a kind, which helps ways wins add up quickly. The mad-professor cat theme is pure Thunderkick whimsy, with gentle maths behind it.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g14&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/not-enough-kittens.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/not-enough-kittens/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

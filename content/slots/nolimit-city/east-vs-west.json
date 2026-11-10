@@ -1,0 +1,60 @@
+{
+  "slug": "east-vs-west",
+  "name": "East Coast VS West Coast",
+  "provider": "nolimit-city",
+  "rtp": 96.04,
+  "volatility": "high",
+  "maxWin": 30618,
+  "releaseDate": "2021-02-02",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.3,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "infectious-wilds",
+    "respins",
+    "free-spins",
+    "xways",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "music",
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Drive-By Respins",
+      "description": "Two bonus symbols award a respin with an enhancer."
+    },
+    {
+      "name": "East Coast Spins",
+      "description": "Infectious xWays on every spin."
+    },
+    {
+      "name": "West Coast Spins",
+      "description": "A random enhancer each spin."
+    }
+  ],
+  "review": "East Coast VS West Coast is a 5x3 hip-hop rivalry slot with two free spins modes. Two bonus symbols trigger a Drive-By Respin, borrowing one enhancer from either coast.\n\nEast Coast Spins land Infectious xWays every spin, while West Coast Spins give each spin one of xWays, xNudge Wilds, multipliers or linked reels. Landing enough for both leads to Coast to Coast. Nolimit rates it High volatility, with a 30,618x cap.",
+  "pros": [
+    "Very high 30,618x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=EastVsWest&language=en&device=desktop",
+  "image": "/slots/nolimit-city/east-vs-west.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/east-vs-west"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

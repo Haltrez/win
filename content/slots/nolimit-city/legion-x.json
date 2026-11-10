@@ -1,0 +1,58 @@
+{
+  "slug": "legion-x",
+  "name": "Legion X",
+  "provider": "nolimit-city",
+  "rtp": 96.04,
+  "volatility": "very-high",
+  "maxWin": 31000,
+  "releaseDate": "2021-11-30",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.83,
+  "mechanics": [
+    "ways",
+    "infectious-wilds",
+    "multipliers",
+    "free-spins",
+    "xways",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "history"
+  ],
+  "features": [
+    {
+      "name": "xNudge Wilds",
+      "description": "Nudge up or down, +1 multiplier per step."
+    },
+    {
+      "name": "Infectious Wilds",
+      "description": "Turn a low symbol wild across the middle reels."
+    },
+    {
+      "name": "Outer-reel xWays",
+      "description": "Reveal 2–4 matching symbols."
+    }
+  ],
+  "review": "Legion X is a 5x3 Roman slot that combines three xMechanics. xNudge Wilds nudge up or down and gain +1 per step. Infectious Wilds on reels 1 and 5 turn every instance of a random low symbol on the middle reels wild, and xWays on the outer reels reveal two to four matching symbols.\n\nBecause two mechanics share the outer reels, the middle of the grid is where wins come together. Nolimit rates it Extreme volatility, with a 31,000x cap.",
+  "pros": [
+    "Very high 31,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=LegionX&language=en&device=desktop",
+  "image": "/slots/nolimit-city/legion-x.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/legion-x"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

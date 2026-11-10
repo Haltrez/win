@@ -1,0 +1,53 @@
+{
+  "slug": "triple-royal-gold",
+  "name": "Triple Royal Gold",
+  "provider": "thunderkick",
+  "rtp": 96.41,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": null,
+  "reels": "3 reels",
+  "winType": "27 ways",
+  "mechanics": [
+    "ways",
+    "cascades",
+    "progressive-multiplier",
+    "free-spins"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "BONUS letters",
+      "description": "Collect all five to trigger."
+    },
+    {
+      "name": "Up to 27x multiplier",
+      "description": "In the bonus."
+    },
+    {
+      "name": "Avalanche",
+      "description": "Cascading wins."
+    }
+  ],
+  "review": "Triple Royal Gold is a 3x3 cabinet-style slot with up to 27 ways, wilds and avalanches. Collect the letters B-O-N-U-S to trigger the bonus, where the multiplier can reach 27x.\n\nThunderkick rates it Very High volatility, with a 5,000x cap and a 96.41% RTP.",
+  "pros": [
+    "Solid 5,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g51-96&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/triple-royal-gold.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/triple-royal-gold/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

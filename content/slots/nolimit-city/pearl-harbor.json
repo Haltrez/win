@@ -1,0 +1,59 @@
+{
+  "slug": "pearl-harbor",
+  "name": "Pearl Harbor",
+  "provider": "nolimit-city",
+  "rtp": 96.21,
+  "volatility": "very-high",
+  "maxWin": 41127,
+  "releaseDate": "2022-12-07",
+  "releaseDatePrecision": "day",
+  "reels": "7x7",
+  "hitRate": 5.18,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "grid-expansion",
+    "multipliers",
+    "free-spins",
+    "ante-bet",
+    "xbomb",
+    "bonus-buy"
+  ],
+  "themes": [
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Active area",
+      "description": "Only part of the 7x7 grid starts in play."
+    },
+    {
+      "name": "Target symbols",
+      "description": "Expand the active area."
+    },
+    {
+      "name": "xBomb Wilds",
+      "description": "Clear up to ten neighbouring symbols."
+    }
+  ],
+  "review": "Pearl Harbor is a 7x7 historical war slot where only part of the grid starts active. Target symbols expand the active area, and scatters only count inside it. xBomb Wilds blow up as many as ten surrounding symbols.\n\nxSplit and xCluster add more ways to build wins. Nolimit rates it Extreme volatility, with a 41,127x cap. The real-world theme won't suit everyone.",
+  "pros": [
+    "Very high 41,127x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=PearlHarbor&language=en&device=desktop",
+  "image": "/slots/nolimit-city/pearl-harbor.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/pearl-harbor"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "san-quentin-manhunt",
+  "name": "San Quentin Manhunt",
+  "provider": "nolimit-city",
+  "rtp": 96.15,
+  "volatility": "very-high",
+  "maxWin": 46532,
+  "releaseDate": "2026-04-21",
+  "releaseDatePrecision": "day",
+  "reels": "1-3-5-5-3-1",
+  "hitRate": 4.78,
+  "mechanics": [
+    "scatter-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "xways",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Multiplier Blocks",
+      "description": "Each position builds its own multiplier."
+    },
+    {
+      "name": "Scatter wins",
+      "description": "Seven or more matching symbols anywhere."
+    },
+    {
+      "name": "Enhancer Cells",
+      "description": "Independent cells above and below each reel."
+    }
+  ],
+  "review": "San Quentin Manhunt is a scatter-pays prison slot on a 1-3-5-5-3-1 diamond grid. Seven or more matching symbols win and drop away, and every position has its own Multiplier Block, which grows each time that position is part of a win.\n\nEnhancer Cells above and below each reel spin independently. Nolimit rates it Extreme volatility, with a 46,532x cap.",
+  "pros": [
+    "Very high 46,532x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=SanQuentinManhunt&language=en&device=desktop",
+  "image": "/slots/nolimit-city/san-quentin-manhunt.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/san-quentin-manhunt"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "immortal-fruits",
+  "name": "Immortal Fruits",
+  "provider": "nolimit-city",
+  "rtp": 96.06,
+  "volatility": "high",
+  "maxWin": 2787,
+  "releaseDate": "2020-08-04",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "hitRate": 9.13,
+  "mechanics": [
+    "paylines",
+    "jackpot",
+    "gamble",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Stacked wilds",
+      "description": "Four-row wilds on reels 2–4."
+    },
+    {
+      "name": "xWheel Jackpots",
+      "description": "A wheel that pays until a multiplier repeats."
+    },
+    {
+      "name": "Gamble",
+      "description": "A 50/50 double-or-nothing option."
+    }
+  ],
+  "review": "Immortal Fruits is a 5x4 fruit slot with 50 lines and four-row stacked wilds on reels 2 to 4. Landing all three can cover the middle of the grid.\n\nThree bonus symbols open the xWheel Jackpots bonus, a fortune wheel that keeps paying until the same multiplier comes up twice. There's also a 50/50 gamble. Nolimit rates it High volatility, but the cap is a modest 2,787x and the hit rate low at 11%.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=ImmortalFruits&language=en&device=desktop",
+  "image": "/slots/nolimit-city/immortal-fruits.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/immortal-fruits"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

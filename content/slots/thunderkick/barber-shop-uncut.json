@@ -1,0 +1,54 @@
+{
+  "slug": "barber-shop-uncut",
+  "name": "Barber Shop Uncut",
+  "provider": "thunderkick",
+  "rtp": 97.0,
+  "volatility": "medium",
+  "maxWin": 2355,
+  "releaseDate": null,
+  "reels": "15 reels",
+  "winType": "40 paylines",
+  "mechanics": [
+    "paylines",
+    "respins",
+    "sticky-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Locking wins",
+      "description": "Winning symbols lock and respin."
+    },
+    {
+      "name": "Free spins",
+      "description": "Bonus game from scatters."
+    },
+    {
+      "name": "97.0% RTP",
+      "description": "Above average."
+    }
+  ],
+  "review": "Barber Shop Uncut is a 40-line slot set in Monsieur Stache's old-school barbershop. Winning symbols lock in place and trigger respins, and the bonus offers free spins.\n\nThunderkick rates it Medium volatility, with a 2,355x cap and a strong 97.0% RTP. A charming, well-balanced game.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 2,355x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-barbershop-a&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/barber-shop-uncut.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/barber-shop-uncut/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

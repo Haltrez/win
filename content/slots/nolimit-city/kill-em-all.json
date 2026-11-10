@@ -1,0 +1,55 @@
+{
+  "slug": "kill-em-all",
+  "name": "Kill Em All",
+  "provider": "nolimit-city",
+  "rtp": 96.06,
+  "volatility": "very-high",
+  "maxWin": 11916,
+  "releaseDate": "2025-05-20",
+  "releaseDatePrecision": "day",
+  "reels": "3x1",
+  "hitRate": 5.97,
+  "mechanics": [
+    "respins",
+    "multipliers",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fantasy",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Hack & Slash",
+      "description": "Every symbol except X triggers a respin."
+    },
+    {
+      "name": "Monster queue",
+      "description": "Fight monsters one at a time, each with its own lives."
+    },
+    {
+      "name": "Chest features",
+      "description": "Every chest pays and may add a multiplier."
+    }
+  ],
+  "review": "Kill Em All is an unusual three-reel, one-row arcade slot built like a dungeon crawler. Any non-X symbol triggers a respin, and three in one spin awards five more. Monsters line up in a queue, each with a number of lives, and you attack them one at a time.\n\nDefeated monsters drop chests that always pay and may add features such as 2x to 5x multipliers. Nolimit rates it Extreme volatility, with an 11,916x cap. It's closer to a mini-game than a traditional slot.",
+  "pros": [
+    "High 11,916x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=KillEmAll&language=en&device=desktop",
+  "image": "/slots/nolimit-city/kill-em-all.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/kill-em-all"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

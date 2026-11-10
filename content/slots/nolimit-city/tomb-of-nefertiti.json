@@ -1,0 +1,52 @@
+{
+  "slug": "tomb-of-nefertiti",
+  "name": "Tomb of Nefertiti",
+  "provider": "nolimit-city",
+  "rtp": 96.19,
+  "volatility": "medium",
+  "maxWin": 3768,
+  "releaseDate": "2019-11-05",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 4.21,
+  "mechanics": [
+    "paylines",
+    "respins",
+    "sticky-wilds"
+  ],
+  "themes": [
+    "egypt"
+  ],
+  "features": [
+    {
+      "name": "Win Respins",
+      "description": "Winning positions respin."
+    },
+    {
+      "name": "Sticky Wilds",
+      "description": "Never respin during Win Respins."
+    },
+    {
+      "name": "Wild Raider",
+      "description": "Up to nine assured wilds."
+    }
+  ],
+  "review": "Tomb of Nefertiti is a 5x3 Egyptian slot where every win awards a respin on the winning positions. Wilds land on reels 2 to 5 and never respin, so they hold their place for the whole sequence.\n\nWild Raider can drop up to nine wilds on the middle reels on any spin, and Curse of Nefertiti adds another random feature. Nolimit rates it Medium volatility, with a 3,768x cap.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=TombOfNefertiti&language=en&device=desktop",
+  "image": "/slots/nolimit-city/tomb-of-nefertiti.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/tomb-of-nefertiti"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

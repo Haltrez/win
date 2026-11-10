@@ -1,0 +1,58 @@
+{
+  "slug": "mental-2",
+  "name": "Mental II",
+  "provider": "nolimit-city",
+  "rtp": 96.06,
+  "volatility": "very-high",
+  "maxWin": 99999,
+  "releaseDate": "2025-03-25",
+  "releaseDatePrecision": "day",
+  "reels": "3-2-3-2-3",
+  "hitRate": 3.18,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "reel-modifiers",
+    "free-spins",
+    "xways",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Fire Frames",
+      "description": "Split 1–13 random positions into two."
+    },
+    {
+      "name": "Dead Patients",
+      "description": "Reveal multipliers from x5 to x500."
+    },
+    {
+      "name": "Enhancer Cells",
+      "description": "Activate as more Fire Frames land."
+    }
+  ],
+  "review": "Mental II returns to the asylum on a 3-2-3-2-3 grid. Fire Frames split one to thirteen random positions into two, and Enhancer Cells under reels 2 to 4 switch on as more frames appear. Two Dead Patient symbols reveal a patient with a multiplier from x5 up to x500.\n\nxWays, xSplit, xNudge and the new xMental pile on more features. Nolimit rates it Insane volatility, with a 99,999x cap, among the highest in the catalogue. Like the original, the theme is extremely dark.",
+  "pros": [
+    "Very high 99,999x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Mental2&language=en&device=desktop",
+  "image": "/slots/nolimit-city/mental-2.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/mental-2"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

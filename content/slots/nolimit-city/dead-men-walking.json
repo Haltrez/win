@@ -1,0 +1,59 @@
+{
+  "slug": "dead-men-walking",
+  "name": "Dead Men Walking",
+  "provider": "nolimit-city",
+  "rtp": 96.2,
+  "volatility": "very-high",
+  "maxWin": 25313,
+  "releaseDate": "2025-09-09",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 4.14,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "reel-modifiers",
+    "free-spins",
+    "xways",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror",
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Fire pits",
+      "description": "Three pits, each tied to a base-game feature."
+    },
+    {
+      "name": "Dead Man's March",
+      "description": "Triggered by a fully visible xNudge Wild."
+    },
+    {
+      "name": "Dead Man's Gold",
+      "description": "Three to five bonus symbols set the spin count."
+    }
+  ],
+  "review": "Dead Men Walking is a 5x3 slot with three fire pits above the reels, each linked to a different base-game feature. Stacked xNudge Wilds gain +1 per nudge and, once fully visible, trigger Dead Man's March.\n\nxWays and xSplit add more ways and symbols. Three, four or five bonus symbols award the matching number of Dead Man's Gold bonus spins. Nolimit rates it Extreme volatility, with a 25,313x cap and a slightly higher 96.2% RTP.",
+  "pros": [
+    "Very high 25,313x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=DeadMenWalking&language=en&device=desktop",
+  "image": "/slots/nolimit-city/dead-men-walking.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/dead-men-walking"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

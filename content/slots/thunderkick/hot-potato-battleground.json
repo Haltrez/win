@@ -1,0 +1,54 @@
+{
+  "slug": "hot-potato-battleground",
+  "name": "Hot Potato Battleground",
+  "provider": "thunderkick",
+  "rtp": 94.23,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "7 reels",
+  "winType": "Cluster pays (5+ symbols)",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "food",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Cell multiplier upgrades",
+      "description": "Grid positions grow multipliers."
+    },
+    {
+      "name": "Five feature symbols",
+      "description": "Different effects."
+    },
+    {
+      "name": "Cluster pays",
+      "description": "A 7x7 grid."
+    }
+  ],
+  "review": "Hot Potato: Battleground is a 7x7 cluster-pays slot set in a chaotic army camp, with cell multiplier upgrades and five feature symbols.\n\nThunderkick rates it High volatility, with a 10,000x cap. The published RTP is 94.23%.\n\nCell multipliers upgrade where wins land, so a busy area of the grid becomes more valuable. The five feature symbols each disrupt the camp differently, keeping the 7x7 board unpredictable.",
+  "pros": [
+    "High 10,000x win ceiling"
+  ],
+  "cons": [
+    "Below-average 94.23% published RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": null,
+  "image": "/slots/thunderkick/hot-potato-battleground.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/hot-potato-battleground/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

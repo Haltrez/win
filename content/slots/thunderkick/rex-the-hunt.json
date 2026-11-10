@@ -1,0 +1,51 @@
+{
+  "slug": "rex-the-hunt",
+  "name": "Rex the Hunt!",
+  "provider": "thunderkick",
+  "rtp": 96.16,
+  "volatility": "high",
+  "maxWin": 4000,
+  "releaseDate": null,
+  "reels": "6 reels",
+  "winType": "178 connecting ways",
+  "mechanics": [
+    "ways",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "178 connecting ways",
+      "description": "A 6-reel layout."
+    },
+    {
+      "name": "Wilds",
+      "description": "Substitute symbols."
+    },
+    {
+      "name": "Free spins",
+      "description": "A bonus game."
+    }
+  ],
+  "review": "Rex the Hunt! is a 6-reel dinosaur slot with 178 connecting ways, wilds and a free spins bonus.\n\nThunderkick rates it High volatility, with a 4,000x cap and a 96.16% RTP.\n\nThe 178 connecting ways give the grid an unusual shape, and wilds help bridge the gaps. Free spins are where the dinosaur hunt pays off.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g59-96&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/rex-the-hunt.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/rex-the-hunt/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

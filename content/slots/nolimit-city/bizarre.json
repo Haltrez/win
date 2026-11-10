@@ -1,0 +1,57 @@
+{
+  "slug": "bizarre",
+  "name": "Bizarre",
+  "provider": "nolimit-city",
+  "rtp": 96.06,
+  "volatility": "very-high",
+  "maxWin": 20000,
+  "releaseDate": "2025-11-18",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "hitRate": 4.07,
+  "mechanics": [
+    "ways",
+    "reel-modifiers",
+    "sticky-wilds",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "xSplit",
+      "description": "Splits symbols from reels 1 and 5 to add ways."
+    },
+    {
+      "name": "Chimera Spins",
+      "description": "A middle-reel scatter becomes a sticky wild."
+    },
+    {
+      "name": "Coinage",
+      "description": "A paid mode with only coins and special symbols."
+    }
+  ],
+  "review": "Bizarre is a 5x4 Nolimit City slot with a carnival-of-monsters theme. xSplit symbols land on reels 1 and 5, as single symbols or full four-row stacks, and split the symbols in their path to increase the number of ways.\n\nThree scatters start three Chimera Spins, where a scatter on the middle reel turns into a sticky wild. Super Chimera Spins add a super scatter for even more. A paid Coinage mode fills the reels with multiplier coins and special symbols. Nolimit rates it Extreme volatility, with a 20,000x cap.",
+  "pros": [
+    "Very high 20,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Bizarre&language=en&device=desktop",
+  "image": "/slots/nolimit-city/bizarre.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/bizarre"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

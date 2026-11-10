@@ -1,0 +1,53 @@
+{
+  "slug": "babushkas",
+  "name": "Babushkas",
+  "provider": "thunderkick",
+  "rtp": 95.8,
+  "volatility": "low",
+  "maxWin": 390,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "17 paylines",
+  "mechanics": [
+    "paylines",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Symbol upgrades",
+      "description": "Four features that pop dolls into better symbols."
+    },
+    {
+      "name": "Mystery bears",
+      "description": "Reveal surprise symbols."
+    },
+    {
+      "name": "Free spins",
+      "description": "Wilds on every spin."
+    }
+  ],
+  "review": "Babushkas is a 17-line slot built around Russian dolls that pop into smaller, more valuable versions. Four symbol-upgrade features keep the chain reaction going, mystery bears add surprises, and the bonus gives free spins with assured wilds.\n\nThunderkick rates it Low volatility, with a 390x cap and a 95.8% RTP. Very gentle.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Slightly below-average 95.80% RTP",
+    "Modest 390x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g5&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/babushkas.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/babushkas/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

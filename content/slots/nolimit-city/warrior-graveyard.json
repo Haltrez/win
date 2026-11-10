@@ -1,0 +1,57 @@
+{
+  "slug": "warrior-graveyard",
+  "name": "Warrior Graveyard xNudge®",
+  "provider": "nolimit-city",
+  "rtp": 96.16,
+  "volatility": "medium",
+  "maxWin": 9797,
+  "releaseDate": "2020-11-03",
+  "releaseDatePrecision": "day",
+  "reels": "6x3",
+  "hitRate": 3.99,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "free-spins",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fantasy",
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Tombstone xNudge Wilds",
+      "description": "Three-row wilds with additive multipliers."
+    },
+    {
+      "name": "Warrior Attack",
+      "description": "Matching warriors nudge to cover a reel."
+    },
+    {
+      "name": "Graveyard Spins",
+      "description": "8, 10 or 12 spins."
+    }
+  ],
+  "review": "Warrior Graveyard xNudge is a 6x3 fantasy slot with three-row Tombstone Wilds on reels 2 to 5. They always nudge into view, and their multipliers add up when they share a win.\n\nThree or more of the same warrior trigger Warrior Attack, nudging that symbol to cover the reel. Three, four or five scatters award 8, 10 or 12 Graveyard Spins. Nolimit rates it Medium volatility, with a 9,797x cap.",
+  "pros": [
+    "Solid 9,797x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=WarriorGraveyard&language=en&device=desktop",
+  "image": "/slots/nolimit-city/warrior-graveyard.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/warrior-graveyard"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

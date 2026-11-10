@@ -1,0 +1,52 @@
+{
+  "slug": "fortune-cats-golden-stacks",
+  "name": "Fortune Cats Golden Stacks!!",
+  "provider": "thunderkick",
+  "rtp": 96.14,
+  "volatility": null,
+  "maxWin": 2500,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "40 (up to 120 in Bonus)",
+  "mechanics": [
+    "paylines",
+    "grid-expansion",
+    "free-spins"
+  ],
+  "themes": [
+    "asian",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Golden stacks",
+      "description": "Stacked mystery symbols."
+    },
+    {
+      "name": "Extra play areas",
+      "description": "Up to 120 lines in the bonus."
+    },
+    {
+      "name": "Mystery symbols",
+      "description": "Reveal matching symbols."
+    }
+  ],
+  "review": "Fortune Cats Golden Stacks is a 40-line Asian slot with mystery symbols and golden stacks. Its bonus adds more play areas, raising the line count to 120.\n\nThunderkick lists a 96.14% RTP and a 2,500x cap, and publishes a numeric volatility figure rather than a label.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Thunderkick doesn't publish a volatility label for this game",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g47-96&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/fortune-cats-golden-stacks.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/fortune-cats-golden-stacks/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

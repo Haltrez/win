@@ -1,0 +1,55 @@
+{
+  "slug": "oktoberfest",
+  "name": "Oktoberfest",
+  "provider": "nolimit-city",
+  "rtp": 96.75,
+  "volatility": "medium",
+  "maxWin": 500,
+  "releaseDate": "2016-11-14",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 2.92,
+  "mechanics": [
+    "paylines",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "food",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Party Spins",
+      "description": "Random spins with one mid symbol super-stacked."
+    },
+    {
+      "name": "Prost Win-spins",
+      "description": "Stacked wilds on reels 2 and 4 trigger respins that always produce a win."
+    },
+    {
+      "name": "Bierspins",
+      "description": "Ten free spins from three scatters."
+    }
+  ],
+  "review": "Oktoberfest is one of Nolimit City's earliest slots: a 5x3 beer-hall game with a light tone and a gentle maths model. Party Spins randomly super-stack one mid-paying symbol across the reels, and the Pretzel Party Spin turns every low card symbol into something better for a single spin.\n\nStacked wilds on reels 2 and 4 trigger Prost Win-spins, respins in which the two characters toast and a win is assured. Three scatters award ten Bierspins. Nolimit rates it Medium volatility with a 34% hit rate and a 500x cap, so it's the opposite of the studio's modern reputation, and a relaxed demo choice.",
+  "pros": [
+    "Above-average 96.75% RTP",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 500x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Oktoberfest&language=en&device=desktop",
+  "image": "/slots/nolimit-city/oktoberfest.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/Oktoberfest"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

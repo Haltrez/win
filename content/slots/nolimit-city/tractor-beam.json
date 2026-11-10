@@ -1,0 +1,53 @@
+{
+  "slug": "tractor-beam",
+  "name": "Tractor Beam",
+  "provider": "nolimit-city",
+  "rtp": 96.01,
+  "volatility": "high",
+  "maxWin": 3408,
+  "releaseDate": "2019-07-02",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.15,
+  "mechanics": [
+    "paylines",
+    "expanding-symbols",
+    "free-spins"
+  ],
+  "themes": [
+    "space",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Beam 'Em Up",
+      "description": "Leaves only high symbols and wilds."
+    },
+    {
+      "name": "Clone Attack",
+      "description": "One animal returns in huge stacks."
+    },
+    {
+      "name": "Abduction Spins",
+      "description": "7, 9 or 12 free spins."
+    }
+  ],
+  "review": "Tractor Beam is a 5x3 farm-meets-UFO slot. Beam 'Em Up randomly beams away the non-organic symbols, leaving only high symbols and wilds. Clone Attack beams back one farm animal in huge stacks.\n\nThree or more scatters award 7, 9 or 12 Abduction Spins. Nolimit rates it High volatility, with a 3,408x cap and a 32% hit rate.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=TractorBeam&language=en&device=desktop",
+  "image": "/slots/nolimit-city/tractor-beam.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/tractor-beam"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

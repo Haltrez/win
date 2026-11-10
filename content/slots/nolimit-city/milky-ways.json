@@ -1,0 +1,58 @@
+{
+  "slug": "milky-ways",
+  "name": "Milky Ways",
+  "provider": "nolimit-city",
+  "rtp": 96.14,
+  "volatility": "medium",
+  "maxWin": 5664,
+  "releaseDate": "2020-06-24",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.01,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "grid-expansion",
+    "respins",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "space",
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "Solar Wilds",
+      "description": "x1–x3 multipliers that multiply together."
+    },
+    {
+      "name": "Milky Ways Spins",
+      "description": "The grid expands from 5x3 to 5x5."
+    },
+    {
+      "name": "Fusion Spins",
+      "description": "Winning symbols lock for a respin."
+    }
+  ],
+  "review": "Milky Ways is a bright 5x3 space slot with a Medium volatility rating. Solar Wilds reveal x1 to x3 multipliers that multiply together, so two or three in one win can add up quickly.\n\nThree scatters trigger Milky Ways Spins fairly often, expanding the grid from 5x3 to 5x5 for more ways. Any win in the bonus starts Fusion Spins, which lock winning symbols and respin. The cap is 5,664x, with a 33% hit rate. Approachable and fun.",
+  "pros": [
+    "Solid 5,664x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=MilkyWays&language=en&device=desktop",
+  "image": "/slots/nolimit-city/milky-ways.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/milky-ways"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

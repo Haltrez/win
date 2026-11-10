@@ -1,0 +1,58 @@
+{
+  "slug": "punk-rocker",
+  "name": "Punk Rocker",
+  "provider": "nolimit-city",
+  "rtp": 96.01,
+  "volatility": "high",
+  "maxWin": 15072,
+  "releaseDate": "2020-02-12",
+  "releaseDatePrecision": "day",
+  "reels": "6x3",
+  "hitRate": 4.68,
+  "mechanics": [
+    "ways",
+    "expanding-wilds",
+    "respins",
+    "free-spins",
+    "xways",
+    "bonus-buy"
+  ],
+  "themes": [
+    "music",
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "xWays",
+      "description": "Stretch reels up to six high, or 20 for characters."
+    },
+    {
+      "name": "Molotov Wilds",
+      "description": "Expand upward."
+    },
+    {
+      "name": "Riot Respin",
+      "description": "Locked wilds and an unlocked sixth reel."
+    }
+  ],
+  "review": "Punk Rocker is the original 6x3 punk slot. xWays mystery symbols hold two to four symbols and stretch the reels up to six high, and punk characters can super-expand up to 20 symbols high. Molotov Wilds expand upward.\n\nTwo scatters trigger the Riot Respin, which locks the Molotov Wilds and unlocks a sixth reel. Nolimit rates it High volatility, with a 15,072x cap.",
+  "pros": [
+    "Very high 15,072x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=PunkRocker&language=en&device=desktop",
+  "image": "/slots/nolimit-city/punk-rocker.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/punk-rocker"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

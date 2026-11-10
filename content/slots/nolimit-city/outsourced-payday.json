@@ -1,0 +1,55 @@
+{
+  "slug": "outsourced-payday",
+  "name": "Outsourced: Payday",
+  "provider": "nolimit-city",
+  "rtp": 96,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": "2024-12-17",
+  "releaseDatePrecision": "day",
+  "reels": "5x1",
+  "hitRate": 6.63,
+  "mechanics": [
+    "multipliers",
+    "free-spins",
+    "ante-bet",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Claw machine",
+      "description": "A claw picks symbols from a moving belt."
+    },
+    {
+      "name": "Claw Spins",
+      "description": "Grabbing the bonus symbol awards three spins."
+    },
+    {
+      "name": "Safe Claw booster",
+      "description": "A paid option that stops the claw from dropping."
+    }
+  ],
+  "review": "Outsourced: Payday swaps the reels for a claw machine. Five symbols ride a conveyor belt from right to left, and a claw tries to grab one, sometimes dropping it. Grabbing the bonus symbol without dropping it awards three Claw Spins, and each extra bonus picked up adds three more.\n\nA paid Safe Claw booster stops drops. Nolimit rates it High volatility, with a 10,000x cap. More arcade game than slot, and fun to watch.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Payday&language=en&device=desktop",
+  "image": "/slots/nolimit-city/outsourced-payday.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/outsourced-payday"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

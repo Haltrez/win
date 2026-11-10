@@ -1,0 +1,53 @@
+{
+  "slug": "beat-the-beast-griffins-gold-reborn",
+  "name": "Beat the Beast: Griffin's Gold - Reborn",
+  "provider": "thunderkick",
+  "rtp": 96.14,
+  "volatility": "very-high",
+  "maxWin": 22222,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "9 paylines",
+  "mechanics": [
+    "paylines",
+    "walking-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Roaming wilds",
+      "description": "Move around during free spins."
+    },
+    {
+      "name": "Wild multiplier",
+      "description": "Grows through the bonus."
+    },
+    {
+      "name": "22,222x cap",
+      "description": "The series' biggest."
+    }
+  ],
+  "review": "Beat the Beast: Griffin's Gold - Reborn revives the series finale on a 3x5 grid with 9 lines. The bonus game gives free spins with roaming wilds and a soaring wild multiplier.\n\nThunderkick rates it Very High volatility, with a 22,222x cap and a 96.14% RTP, the biggest ceiling in the Beat the Beast series.",
+  "pros": [
+    "Very high 22,222x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g75-96&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/beat-the-beast-griffins-gold-reborn.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/beat-the-beast-griffins-gold-reborn/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

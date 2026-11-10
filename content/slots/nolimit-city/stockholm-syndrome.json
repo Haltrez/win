@@ -1,0 +1,60 @@
+{
+  "slug": "stockholm-syndrome",
+  "name": "Stockholm Syndrome",
+  "provider": "nolimit-city",
+  "rtp": 96.08,
+  "volatility": "very-high",
+  "maxWin": 28873,
+  "releaseDate": "2024-08-20",
+  "releaseDatePrecision": "day",
+  "reels": "3-4-3-4-3",
+  "hitRate": 5.76,
+  "mechanics": [
+    "ways",
+    "cascades",
+    "infectious-wilds",
+    "multipliers",
+    "free-spins",
+    "ante-bet",
+    "xbomb",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "432 ways with cascades",
+      "description": "Winning symbols explode and refill."
+    },
+    {
+      "name": "Con Man Wild",
+      "description": "Unlocks the bottom of reel 3."
+    },
+    {
+      "name": "Reel xSplit",
+      "description": "Splits whole reels."
+    }
+  ],
+  "review": "Stockholm Syndrome is a heist slot on a 3-4-3-4-3 grid with 432 ways. Winning symbols explode and new ones fall in. A Con Man Wild landing fully on reel 3 unlocks the bottom position of that reel and adds a character symbol.\n\nxBomb Wilds, Infectious xWays, xNudge and Reel xSplit all appear. Nolimit rates it Insane volatility, with a 28,873x cap.",
+  "pros": [
+    "Very high 28,873x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=StockholmSyndrome&language=en&device=desktop",
+  "image": "/slots/nolimit-city/stockholm-syndrome.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/stockholm-syndrome"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

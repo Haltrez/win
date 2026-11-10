@@ -1,0 +1,61 @@
+{
+  "slug": "the-crypt",
+  "name": "The Crypt",
+  "provider": "nolimit-city",
+  "rtp": 96.05,
+  "volatility": "very-high",
+  "maxWin": 27000,
+  "releaseDate": "2023-09-05",
+  "releaseDatePrecision": "day",
+  "reels": "6x4",
+  "hitRate": 4.06,
+  "mechanics": [
+    "ways",
+    "cascades",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins",
+    "ante-bet",
+    "xways",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror",
+    "music"
+  ],
+  "features": [
+    {
+      "name": "xNudge Wilds",
+      "description": "Drop, gain up to x6, then cover the reel."
+    },
+    {
+      "name": "xWays",
+      "description": "Up to 46,656 ways."
+    },
+    {
+      "name": "Resurrection Spins",
+      "description": "Ten spins with assured xWays."
+    }
+  ],
+  "review": "The Crypt is a 6x4 cascading slot starring undead music legends. xNudge Wilds drop to the bottom, adding to their multiplier with each step up to x6, then expand to cover the reel. xWays mystery symbols hold two or three matching symbols and stretch reels up to six high, for up to 46,656 ways.\n\nThree scatters award ten Resurrection Spins with xWays assured. Nolimit rates it Extreme volatility, with a 27,000x cap. Its in-game label says \"Volatility Extreme\".",
+  "pros": [
+    "Very high 27,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=TheCrypt&language=en&device=desktop",
+  "image": "/slots/nolimit-city/the-crypt.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/the-crypt"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

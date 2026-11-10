@@ -1,0 +1,58 @@
+{
+  "slug": "loner",
+  "name": "Loner",
+  "provider": "nolimit-city",
+  "rtp": 96.06,
+  "volatility": "very-high",
+  "maxWin": 14999,
+  "releaseDate": "2024-05-21",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.57,
+  "mechanics": [
+    "ways",
+    "reel-modifiers",
+    "expanding-wilds",
+    "free-spins",
+    "ante-bet",
+    "infectious-wilds",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Monitors",
+      "description": "Reveal wilds, xSplits or features."
+    },
+    {
+      "name": "Big Wilds",
+      "description": "2x2 or 3x3 wilds on the middle reels."
+    },
+    {
+      "name": "Pin The Win",
+      "description": "A bouncing-logo bonus game."
+    }
+  ],
+  "review": "Loner is a 5x3 slot where monitor symbols on reels 1, 3 and 5 reveal wilds, xSplits or other features. Big Wilds in 2x2 or 3x3 sizes land on reels 2 to 4, and an xSplit can split them across every position they cover.\n\nThree monitors revealing Pin The Win starts a mini-game in which a logo bounces around the screen and pays whatever corner it hits. Nolimit rates it Extreme volatility, with a 14,999x cap.",
+  "pros": [
+    "High 14,999x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Loner&language=en&device=desktop",
+  "image": "/slots/nolimit-city/loner.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/loner"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

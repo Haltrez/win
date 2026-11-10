@@ -1,0 +1,54 @@
+{
+  "slug": "thor",
+  "name": "Thor Hammer Time",
+  "provider": "nolimit-city",
+  "rtp": 96.03,
+  "volatility": "medium",
+  "maxWin": 2328,
+  "releaseDate": "2019-08-01",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.0,
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Lightning Bonus",
+      "description": "Multipliers, sticky wilds or wild reels."
+    },
+    {
+      "name": "Rune Raze",
+      "description": "All runes become one symbol."
+    },
+    {
+      "name": "Hammer Time",
+      "description": "High symbols turn into Thor."
+    }
+  ],
+  "review": "Thor Hammer Time is a 5x3 Norse slot from Nolimit City's gentler early days. Thor's Lightning Bonus symbol on reel 5 awards a multiplier, random sticky wilds or sticky wild reels.\n\nRune Raze randomly turns every rune into one type, and Hammer Time turns all the high symbols into Thor. Nolimit rates it Medium volatility, with a 2,328x cap and a 33% hit rate.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 2,328x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Thor&language=en&device=desktop",
+  "image": "/slots/nolimit-city/thor.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/thor"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

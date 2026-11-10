@@ -1,0 +1,55 @@
+{
+  "slug": "esqueleto-explosivo-feliz-navidead",
+  "name": "Esqueleto Explosivo: Feliz Navidead",
+  "provider": "thunderkick",
+  "rtp": 94.22,
+  "volatility": "high",
+  "maxWin": 7500,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "Cluster pays (5+ symbols)",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "progressive-multiplier",
+    "free-spins"
+  ],
+  "themes": [
+    "music",
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Cluster pays",
+      "description": "A 5x5 grid with cascades."
+    },
+    {
+      "name": "Explosive wilds",
+      "description": "Clear space for new wins."
+    },
+    {
+      "name": "Bonus Mucho Multiplier",
+      "description": "Climbs higher in free spins."
+    }
+  ],
+  "review": "Esqueleto Explosivo: Feliz Navidead is a Christmas version of the 5x5 cluster game. Explosive wilds clear the way for cascades, and in the bonus the Mucho Multiplier can climb much higher.\n\nThunderkick rates it High volatility, with a 7,500x cap. The published RTP is 94.22%.",
+  "pros": [
+    "Solid 7,500x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.22% published RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g97-94&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/esqueleto-explosivo-feliz-navidead.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/esqueleto-explosivo-feliz-navidead/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

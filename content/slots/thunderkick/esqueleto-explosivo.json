@@ -1,0 +1,53 @@
+{
+  "slug": "esqueleto-explosivo",
+  "name": "Esqueleto Explosivo",
+  "provider": "thunderkick",
+  "rtp": 96.0,
+  "volatility": "low",
+  "maxWin": 700,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "17 paylines",
+  "mechanics": [
+    "paylines",
+    "cascades",
+    "progressive-multiplier"
+  ],
+  "themes": [
+    "music",
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Dropping symbols",
+      "description": "Wins clear and refill."
+    },
+    {
+      "name": "Mucho Multipliers",
+      "description": "Rise with each drop."
+    },
+    {
+      "name": "Explosivo Wild",
+      "description": "Explodes nearby symbols."
+    }
+  ],
+  "review": "Esqueleto Explosivo is Thunderkick's cult classic: Enrico Mortis and his mariachi band on a 17-line Day of the Dead slot with dropping symbols, Mucho Multipliers and the Explosivo Wild.\n\nThunderkick rates it Low volatility, with a 700x cap and a 96.0% RTP. Fun, charming and gentle.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 700x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-esqueleto-a&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/esqueleto-explosivo.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/esqueleto-explosivo/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

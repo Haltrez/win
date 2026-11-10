@@ -1,0 +1,56 @@
+{
+  "slug": "midas-golden-touch-christmas-edition",
+  "name": "Midas Golden Touch Christmas Edition",
+  "provider": "thunderkick",
+  "rtp": 96.17,
+  "volatility": "high",
+  "maxWin": 10100,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "15 paylines",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "sticky-wilds",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "mythology",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Boosting wilds",
+      "description": "Wilds increase wins."
+    },
+    {
+      "name": "Sticky wins",
+      "description": "Hold during the bonus."
+    },
+    {
+      "name": "Feature buy",
+      "description": "Skip to the bonus."
+    }
+  ],
+  "review": "Midas Golden Touch Christmas Edition is a snowy version of the 15-line Midas slot, with wilds that boost wins, a feature buy, and a bonus game with sticky wins.\n\nThunderkick rates it High volatility, with a 10,100x cap and a 96.17% RTP.\n\nSnow-covered columns and festive music give the Christmas edition its own feel.",
+  "pros": [
+    "High 10,100x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g72-96&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/midas-golden-touch-christmas-edition.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/midas-golden-touch-christmas-edition/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

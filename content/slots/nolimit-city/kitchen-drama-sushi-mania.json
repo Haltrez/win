@@ -1,0 +1,54 @@
+{
+  "slug": "kitchen-drama-sushi-mania",
+  "name": "Kitchen Drama: Sushi Mania",
+  "provider": "nolimit-city",
+  "rtp": 96.77,
+  "volatility": "medium",
+  "maxWin": 697,
+  "releaseDate": "2017-04-12",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.4,
+  "mechanics": [
+    "cascades",
+    "free-spins"
+  ],
+  "themes": [
+    "food",
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Collapsing reels",
+      "description": "Wins clear and new symbols drop in."
+    },
+    {
+      "name": "Bunshin Wilds",
+      "description": "Clone onto two more positions."
+    },
+    {
+      "name": "Wild Sushi Free Spins",
+      "description": "Ten spins where ingredients can turn wild."
+    }
+  ],
+  "review": "Kitchen Drama: Sushi Mania is one of Nolimit City's very first slots, a 5x3 cascading game set in a sushi kitchen. Winning with three sushi ingredients is part of the free spins trigger, and the free spins can turn every ingredient wild.\n\nBunshin Wilds clone themselves onto two more positions, and three or more cascades activate Kamisabi Attack. With Medium volatility, a 96.77% RTP and a 697x cap, it's a gentle, family-friendly slot.",
+  "pros": [
+    "Above-average 96.77% RTP",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 697x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=KitchenDramaSushiMania&language=en&device=desktop",
+  "image": "/slots/nolimit-city/kitchen-drama-sushi-mania.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/kitchen-drama-sushi-mania"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

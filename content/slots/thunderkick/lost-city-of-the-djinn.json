@@ -1,0 +1,53 @@
+{
+  "slug": "lost-city-of-the-djinn",
+  "name": "Lost City of the Djinn",
+  "provider": "thunderkick",
+  "rtp": 96.07,
+  "volatility": "very-high",
+  "maxWin": 25000,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "25 paylines",
+  "mechanics": [
+    "paylines",
+    "expanding-symbols",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Massive mystery symbol",
+      "description": "A large block that reveals one symbol."
+    },
+    {
+      "name": "Djinn Spins",
+      "description": "Pattern collect, upgrade and copy features."
+    },
+    {
+      "name": "Free spins",
+      "description": "A second bonus route."
+    }
+  ],
+  "review": "Lost City of the Djinn is a 25-line Arabian-nights slot with a massive mystery symbol and two bonuses: free spins, and Djinn Spins with pattern collect, upgrade and copy features.\n\nThunderkick rates it Very High volatility, with a 25,000x cap and a 96.07% RTP.",
+  "pros": [
+    "Very high 25,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g52-96&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/lost-city-of-the-djinn.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/lost-city-of-the-djinn/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

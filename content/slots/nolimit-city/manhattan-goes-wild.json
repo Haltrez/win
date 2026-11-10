@@ -1,0 +1,54 @@
+{
+  "slug": "manhattan-goes-wild",
+  "name": "Manhattan Goes Wild",
+  "provider": "nolimit-city",
+  "rtp": 96.16,
+  "volatility": "medium",
+  "maxWin": 2025,
+  "releaseDate": "2019-10-02",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.42,
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Bugsy / Betty Goes Wild",
+      "description": "A character turns wild for a spin."
+    },
+    {
+      "name": "Wild Party Respins",
+      "description": "Both characters lock as wild stacks."
+    },
+    {
+      "name": "Manhattan Freespins",
+      "description": "Collected premiums turn wild."
+    }
+  ],
+  "review": "Manhattan Goes Wild is a 5x3 gangster slot with Bugsy and Betty. Either character can randomly go wild for a spin, and landing both full-height triggers Wild Party Respins, with their stacks locked as wilds.\n\nThree or more scatters start the night-time Manhattan Freespins, where collecting premium symbols turns them wild. Nolimit rates it Medium volatility, with a 2,025x cap. A light, stylish entry-level game.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 2,025x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=ManhattanGoesWild&language=en&device=desktop",
+  "image": "/slots/nolimit-city/manhattan-goes-wild.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/manhattan-goes-wild"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

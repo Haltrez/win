@@ -1,0 +1,52 @@
+{
+  "slug": "lava-lava",
+  "name": "Lava Lava",
+  "provider": "thunderkick",
+  "rtp": 96.14,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "mechanics": [
+    "cascades",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Multiplier wilds",
+      "description": "Boost wins."
+    },
+    {
+      "name": "Avalanche",
+      "description": "Cascading wins."
+    },
+    {
+      "name": "Scatter explosions",
+      "description": "Scatters blow up symbols."
+    }
+  ],
+  "review": "Lava Lava is a 3x5 volcano slot with multiplier wilds, avalanches and scatter explosions in the realm of a volcano goddess.\n\nThunderkick rates it High volatility, with a 10,000x cap and a 96.14% RTP. Compact, with a lot packed in.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g49-96&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/lava-lava.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/lava-lava/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

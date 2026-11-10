@@ -1,0 +1,59 @@
+{
+  "slug": "brute-force",
+  "name": "Brute Force",
+  "provider": "nolimit-city",
+  "rtp": 96.08,
+  "volatility": "very-high",
+  "maxWin": 40000,
+  "releaseDate": "2024-10-08",
+  "releaseDatePrecision": "day",
+  "reels": "5x5",
+  "hitRate": 4.85,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "sticky-wilds",
+    "free-spins",
+    "ante-bet",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime",
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "xNudge Wilds",
+      "description": "Three types of stacked wilds with random multipliers."
+    },
+    {
+      "name": "xNudge Meter",
+      "description": "Adds up all the multipliers on winning symbols."
+    },
+    {
+      "name": "Super Brute Spins",
+      "description": "Nudge wilds can become sticky."
+    }
+  ],
+  "review": "Brute Force is a 5x5 action slot with three types of stacked xNudge Wilds that always nudge to full view and show a random multiplier. The xNudge Meter adds up every multiplier value on winning symbols, so you can see what a spin is worth as it builds.\n\nThree scatters give ten Brute Spins, and four give ten Super Brute Spins, where nudge wilds can turn sticky. Paid boosters ensure one or two xNudge Wilds per spin. Rated Insane volatility, with a 40,000x maximum.",
+  "pros": [
+    "Very high 40,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=BruteForce&language=en&device=desktop",
+  "image": "/slots/nolimit-city/brute-force.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/brute-force"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

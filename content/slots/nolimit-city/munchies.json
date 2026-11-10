@@ -1,0 +1,55 @@
+{
+  "slug": "munchies",
+  "name": "Munchies",
+  "provider": "nolimit-city",
+  "rtp": 96,
+  "volatility": "very-high",
+  "maxWin": 40000,
+  "releaseDate": "2024-11-19",
+  "releaseDatePrecision": "day",
+  "reels": "1-2-4",
+  "hitRate": 10.05,
+  "mechanics": [
+    "multipliers",
+    "free-spins",
+    "ante-bet",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Single-symbol reel",
+      "description": "Each spin shows one multiplier or a blank."
+    },
+    {
+      "name": "It's Alive!! Spins",
+      "description": "Ten spins where the reels multiply."
+    },
+    {
+      "name": "Devour Spins",
+      "description": "Extra spins and a carried-over top multiplier."
+    }
+  ],
+  "review": "Munchies is a stripped-back Nolimit City slot that shows a single symbol per spin: a multiplier or a blank. A bonus symbol starts ten It's Alive!! Spins, during which the reel count grows from one to two and then four reels linked together.\n\nLanding more bonus symbols leads into Devour Spins, with +5 spins per symbol and the best multiplier carried forward. Nolimit rates it Extreme volatility, with a 40,000x cap and a hit rate below 10%. A pure risk game.",
+  "pros": [
+    "Very high 40,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Munchies&language=en&device=desktop",
+  "image": "/slots/nolimit-city/munchies.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/munchies"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

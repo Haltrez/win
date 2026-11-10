@@ -1,0 +1,55 @@
+{
+  "slug": "flight-mode",
+  "name": "Flight Mode",
+  "provider": "nolimit-city",
+  "rtp": 96.07,
+  "volatility": "medium",
+  "maxWin": 5051,
+  "releaseDate": "2025-06-17",
+  "releaseDatePrecision": "day",
+  "reels": "6x4",
+  "hitRate": 4.96,
+  "mechanics": [
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Bombs",
+      "description": "Clear their whole row and reel when no wins remain."
+    },
+    {
+      "name": "xHole",
+      "description": "Re-shuffles the board when nothing else happens."
+    },
+    {
+      "name": "Multiplier Increasers",
+      "description": "Boost the next multiplier."
+    }
+  ],
+  "review": "Flight Mode is a 6x4 Nolimit City slot with a much gentler Medium volatility rating. When no wins remain, bombs clear their entire row and reel, and xHole sucks the symbols off the reels and spits them back out in new positions.\n\nMultiplier Increasers add their value to the next multiplier when they land. The cap is 5,051x, low for this studio, which makes Flight Mode one of the most approachable modern Nolimit games.",
+  "pros": [
+    "Solid 5,051x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=FlightMode&language=en&device=desktop",
+  "image": "/slots/nolimit-city/flight-mode.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/flight-mode"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

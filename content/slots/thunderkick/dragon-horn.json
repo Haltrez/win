@@ -1,0 +1,51 @@
+{
+  "slug": "dragon-horn",
+  "name": "Dragon Horn",
+  "provider": "thunderkick",
+  "rtp": 96.1,
+  "volatility": "high",
+  "maxWin": 8282,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "243 ways",
+  "mechanics": [
+    "ways",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Dragon Fire symbol",
+      "description": "A special feature symbol."
+    },
+    {
+      "name": "243 ways",
+      "description": "A 5-reel layout."
+    },
+    {
+      "name": "Bonus game",
+      "description": "Triggered by scatters."
+    }
+  ],
+  "review": "Dragon Horn is a 243-ways fantasy slot with knights, elves and orcs. A wild, a Dragon Fire symbol and a scatter-triggered bonus are its features.\n\nThunderkick rates it High volatility, with an 8,282x cap and a 96.1% RTP.\n\nThe Dragon Fire symbol is the key to the base game, and the scatter bonus is where the larger wins live. It's an older Thunderkick title with a classic fantasy look and simple rules.",
+  "pros": [
+    "Solid 8,282x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g23&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/dragon-horn.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/dragon-horn/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

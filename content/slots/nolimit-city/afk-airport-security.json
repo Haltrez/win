@@ -1,0 +1,56 @@
+{
+  "slug": "afk-airport-security",
+  "name": "AFK Airport Security",
+  "provider": "nolimit-city",
+  "rtp": 96.07,
+  "volatility": "very-high",
+  "maxWin": 19693,
+  "releaseDate": "2026-07-07",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 4.18,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "reel-modifiers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Feature meter",
+      "description": "Modifiers above the reels apply to the grid."
+    },
+    {
+      "name": "Full Body Scanner",
+      "description": "Turns selected low symbols into a premium."
+    },
+    {
+      "name": "Arm Slides",
+      "description": "Expands every wild into a full reel."
+    }
+  ],
+  "review": "AFK Airport Security is a 5x3 Nolimit City slot built around a feature meter above the reels. Each spin can fill it with modifiers that play out on the grid: Quarantine removes one or two low symbols, Full Body Scanner upgrades a low symbol to a premium, Not My Bag drops three to six matching mystery symbols, and Arm Slides expands every wild into a full reel.\n\nxZone and xSplit add further ways to grow or split the reels. Nolimit rates it Extreme volatility, with a max win of 19,693x. It's a satirical take on airport queues that plays like a modifier lottery on every spin.",
+  "pros": [
+    "Very high 19,693x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=AirportSecurity&language=en&device=desktop",
+  "image": "/slots/nolimit-city/afk-airport-security.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/afk-airport-security"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

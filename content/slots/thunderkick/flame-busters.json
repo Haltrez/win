@@ -1,0 +1,51 @@
+{
+  "slug": "flame-busters",
+  "name": "Flame Busters",
+  "provider": "thunderkick",
+  "rtp": 96.1,
+  "volatility": "high",
+  "maxWin": 5280,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "243 ways",
+  "mechanics": [
+    "ways",
+    "free-spins"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Fire symbols",
+      "description": "Special feature symbols."
+    },
+    {
+      "name": "Fire Drill",
+      "description": "A base-game feature."
+    },
+    {
+      "name": "Free spins",
+      "description": "A bonus game."
+    }
+  ],
+  "review": "Flame Busters is a 243-ways slot about firefighters saving tenants from a burning building. It has wilds, fire symbols, a Fire Drill feature and free spins.\n\nThunderkick rates it High volatility, with a 5,280x cap and a 96.1% RTP.\n\nThe Fire Drill can liven up ordinary spins, while the free spins hold most of the upside. The cartoon rescue story gives the game more personality than its simple 243-ways layout suggests.",
+  "pros": [
+    "Solid 5,280x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g10&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/flame-busters.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/flame-busters/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

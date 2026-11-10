@@ -1,0 +1,53 @@
+{
+  "slug": "owls",
+  "name": "Owls",
+  "provider": "nolimit-city",
+  "rtp": 96.22,
+  "volatility": "medium",
+  "maxWin": 1374,
+  "releaseDate": "2019-02-27",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.94,
+  "mechanics": [
+    "paylines",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Scatter Loot",
+      "description": "A stacked scatter on reel 3 pays."
+    },
+    {
+      "name": "Dream Spins",
+      "description": "One of three bonus types at random."
+    },
+    {
+      "name": "Ember Dream",
+      "description": "Flame symbols turn wild every spin."
+    }
+  ],
+  "review": "Owls is a 5x3 forest slot from the studio's early catalogue. A fully stacked scatter on reel 3 pays a scatter prize, and three scatters on reels 2, 3 and 4 award one of three Dream Spins bonuses at random.\n\nEmber Dream turns Flame Shard and Flame Chest symbols wild on every spin, and the other dreams have their own twists. Nolimit rates it Medium volatility, with a 1,374x cap. Calm, pretty and low-risk.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 1,374x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Owls&language=en&device=desktop",
+  "image": "/slots/nolimit-city/owls.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/owls"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

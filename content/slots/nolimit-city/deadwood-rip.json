@@ -1,0 +1,58 @@
+{
+  "slug": "deadwood-rip",
+  "name": "Deadwood R.I.P",
+  "provider": "nolimit-city",
+  "rtp": 96.09,
+  "volatility": "very-high",
+  "maxWin": 100000,
+  "releaseDate": "2024-06-04",
+  "releaseDatePrecision": "day",
+  "reels": "3-4-4-4-2",
+  "hitRate": 12.06,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "reel-modifiers",
+    "free-spins",
+    "ante-bet",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Double-symbol fifth reel",
+      "description": "Symbols on reel 5 count twice."
+    },
+    {
+      "name": "xSplit Reel Split Wild",
+      "description": "Two Diamondback scatters split a reel."
+    },
+    {
+      "name": "Quick Draw",
+      "description": "Triggered by a revolver cylinder."
+    }
+  ],
+  "review": "Deadwood R.I.P is a 5-reel western with a 3-4-4-4-2 layout, and its fifth reel is special: every symbol there counts double. Stacked xNudge Wilds only land on the three middle reels, and two Diamondback scatters activate an xSplit wild that halves and doubles the symbols on its reel.\n\nA revolver cylinder triggers Quick Draw, and xRip adds the studio's high-risk extras. Nolimit rates it Extreme volatility, with a 100,000x ceiling and an 8% hit rate. Wins are rare by design, so the demo is the place to try it.",
+  "pros": [
+    "Very high 100,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=DeadwoodRip&language=en&device=desktop",
+  "image": "/slots/nolimit-city/deadwood-rip.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/deadwood-rip"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

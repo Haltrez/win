@@ -1,0 +1,60 @@
+{
+  "slug": "the-border",
+  "name": "The Border",
+  "provider": "nolimit-city",
+  "rtp": 96.17,
+  "volatility": "very-high",
+  "maxWin": 44288,
+  "releaseDate": "2022-09-13",
+  "releaseDatePrecision": "day",
+  "reels": "6x6",
+  "hitRate": 3.38,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "ante-bet",
+    "free-spins",
+    "xways",
+    "xnudge",
+    "xbomb",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Cluster pays",
+      "description": "Five or more touching symbols."
+    },
+    {
+      "name": "xBomb Wilds",
+      "description": "Clear neighbours and raise the multiplier."
+    },
+    {
+      "name": "Boosted xRip",
+      "description": "A paid assured scatter."
+    }
+  ],
+  "review": "The Border is a 6x6 cluster slot with nearly every xMechanic. Clusters of five or more win and are destroyed, and xBomb Wilds clear neighbouring symbols and add +1 to the multiplier for the next collapse. Boosted xRip ensures a scatter on reel 1 for 50% extra.\n\nxWays, xSplit, xNudge and xCluster all appear. Nolimit rates it Extreme volatility, with a 44,288x cap.",
+  "pros": [
+    "Very high 44,288x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=TheBorder&language=en&device=desktop",
+  "image": "/slots/nolimit-city/the-border.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/the-border"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

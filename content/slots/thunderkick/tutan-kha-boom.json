@@ -1,0 +1,52 @@
+{
+  "slug": "tutan-kha-boom",
+  "name": "Tutan Kha-boom",
+  "provider": "thunderkick",
+  "rtp": 94.17,
+  "volatility": "medium",
+  "maxWin": 5000,
+  "releaseDate": null,
+  "reels": "3 reels",
+  "winType": "99 connecting ways",
+  "mechanics": [
+    "ways",
+    "free-spins"
+  ],
+  "themes": [
+    "egypt"
+  ],
+  "features": [
+    {
+      "name": "Explosive wild",
+      "description": "Tutan Kha-boom himself."
+    },
+    {
+      "name": "Bottoms Up",
+      "description": "A base-game feature."
+    },
+    {
+      "name": "99 ways",
+      "description": "A 5x3 layout."
+    }
+  ],
+  "review": "Tutan Kha-boom is a 5x3 Egyptian slot with 99 connecting ways. Tutan Kha-boom himself is the explosive wild, and the Bottoms Up feature adds more.\n\nThunderkick rates it Medium volatility, with a 5,000x cap. The published RTP is 94.17%.\n\nThe explosive wild and the Bottoms Up feature bring a party-in-the-tomb tone to a simple 5x3 grid with 99 ways.",
+  "pros": [
+    "Solid 5,000x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.17% published RTP",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g105-94&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/tutan-kha-boom.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/tutan-kha-boom/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

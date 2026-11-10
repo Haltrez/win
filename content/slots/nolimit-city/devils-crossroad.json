@@ -1,0 +1,56 @@
+{
+  "slug": "devils-crossroad",
+  "name": "Devil's Crossroad",
+  "provider": "nolimit-city",
+  "rtp": 96.06,
+  "volatility": "high",
+  "maxWin": 13180,
+  "releaseDate": "2024-01-09",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 4.6,
+  "mechanics": [
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror",
+    "music"
+  ],
+  "features": [
+    {
+      "name": "Cross sections",
+      "description": "Four crosses joined by a central Devil Wild."
+    },
+    {
+      "name": "Cross Wilds",
+      "description": "Symbols next to the centre can become wild."
+    },
+    {
+      "name": "Cross Multiplier",
+      "description": "Removing matching symbols raises the multiplier."
+    }
+  ],
+  "review": "Devil's Crossroad splits its grid into four cross-shaped sections, each with four symbols joined by a central Devil Wild. Winning symbols are removed, and symbols next to the centre may randomly turn wild.\n\nThe Cross Multiplier removes matching symbols from the other sections whenever a win happens, raising the multiplier for each one it takes. Nolimit rates it High volatility, with a 13,180x cap. It's one of the studio's more experimental layouts, and worth a few demo spins to understand.",
+  "pros": [
+    "High 13,180x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=DevilsCrossroad&language=en&device=desktop",
+  "image": "/slots/nolimit-city/devils-crossroad.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/devils-crossroad"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

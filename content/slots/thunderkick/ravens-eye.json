@@ -1,0 +1,53 @@
+{
+  "slug": "ravens-eye",
+  "name": "Raven's Eye",
+  "provider": "thunderkick",
+  "rtp": 96.1,
+  "volatility": "medium",
+  "maxWin": 1761,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "30 paylines",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Mystery symbols",
+      "description": "Reveal matching symbols."
+    },
+    {
+      "name": "Mystery Collect",
+      "description": "A bonus feature."
+    },
+    {
+      "name": "30 paylines",
+      "description": "A 5-reel layout."
+    }
+  ],
+  "review": "Raven's Eye is a 30-line druid slot with mystery symbols and a bonus game featuring Mystery Collect.\n\nThunderkick rates it Medium volatility, with a 1,761x cap and a 96.1% RTP.\n\nMystery symbols reveal matching icons to line up 30-line wins, and the Mystery Collect bonus gathers values together. A gentle, atmospheric druid game.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 1,761x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g24&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/ravens-eye.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/ravens-eye/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

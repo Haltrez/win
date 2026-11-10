@@ -1,0 +1,58 @@
+{
+  "slug": "duck-hunters-happy-hour",
+  "name": "Duck Hunters: Happy Hour",
+  "provider": "nolimit-city",
+  "rtp": 96.07,
+  "volatility": "very-high",
+  "maxWin": 33333,
+  "releaseDate": "2026-01-13",
+  "releaseDatePrecision": "day",
+  "reels": "4-5-6-6-5-4",
+  "hitRate": 6.0,
+  "mechanics": [
+    "scatter-pays",
+    "cascades",
+    "multipliers",
+    "infectious-wilds",
+    "free-spins",
+    "xways",
+    "bonus-buy"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Scatter wins",
+      "description": "Eight or more matching symbols anywhere."
+    },
+    {
+      "name": "Position multipliers",
+      "description": "xWays add 2x–8x to positions."
+    },
+    {
+      "name": "Doubling bombs",
+      "description": "3x3 blasts that double multipliers."
+    }
+  ],
+  "review": "Duck Hunters: Happy Hour is a scatter-pays spin-off on a 4-5-6-6-5-4 grid. Eight or more matching symbols win and drop out, xWays reveal symbols with 2x, 4x or 8x position multipliers, and infectious xWays spread to neighbours.\n\nBombs remove regular symbols in a 3x3 area and double the multipliers there. Nolimit rates it Extreme volatility, with a 33,333x cap. The diamond-shaped grid makes the middle positions the most valuable.",
+  "pros": [
+    "Very high 33,333x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=DuckHuntersHappyHour&language=en&device=desktop",
+  "image": "/slots/nolimit-city/duck-hunters-happy-hour.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/duck-hunters-happy-hour"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

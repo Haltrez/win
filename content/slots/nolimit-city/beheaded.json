@@ -1,0 +1,57 @@
+{
+  "slug": "beheaded",
+  "name": "Beheaded",
+  "provider": "nolimit-city",
+  "rtp": 96.03,
+  "volatility": "very-high",
+  "maxWin": 15950,
+  "releaseDate": "2024-06-18",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "hitRate": 3.68,
+  "mechanics": [
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "ante-bet",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Cut Reel",
+      "description": "Wins and the symbols below them drop away."
+    },
+    {
+      "name": "Progression Bar",
+      "description": "Five levels that award extra free spins."
+    },
+    {
+      "name": "Soul Wilds",
+      "description": "Collect souls from dropped premium symbols."
+    }
+  ],
+  "review": "Beheaded is a dark jungle slot on a 5x4 grid with a Cut Reel mechanic: winning symbols, and the symbols beneath them on each reel, are removed and the reels drop. A progression bar beneath the grid collects symbols through five levels, and each new level adds free spins.\n\nThree Soul Wilds have their own collectors, which gather souls from dropped premium symbols after a win. Ayahuasca Spins lead into the top-tier Tzantza Spins. Nolimit rates it Insane volatility, its highest rating, and caps it at 15,950x. It's not a slot for short sessions.",
+  "pros": [
+    "Very high 15,950x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Beheaded&language=en&device=desktop",
+  "image": "/slots/nolimit-city/beheaded.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/beheaded"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

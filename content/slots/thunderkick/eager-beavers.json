@@ -1,0 +1,53 @@
+{
+  "slug": "eager-beavers",
+  "name": "Eager Beavers",
+  "provider": "thunderkick",
+  "rtp": 94.29,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "6 reels",
+  "winType": "1 000 000 ways",
+  "mechanics": [
+    "ways",
+    "money-collect",
+    "free-spins"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Up to 1,000,000 ways",
+      "description": "Random reel heights."
+    },
+    {
+      "name": "Wild Rapids",
+      "description": "Wild features in the base game."
+    },
+    {
+      "name": "Cash Bonus Game",
+      "description": "Build, upgrade and collect."
+    }
+  ],
+  "review": "Eager Beavers is a 6-reel slot with random reel heights and up to 1,000,000 ways. Wild features fill the base game, and in the Cash Bonus Game you build, upgrade and collect.\n\nThunderkick rates it High volatility, with a 10,000x cap. The published RTP is 94.29%.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.29% published RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g77-94&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/eager-beavers.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/eager-beavers/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

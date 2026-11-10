@@ -1,0 +1,53 @@
+{
+  "slug": "bork-the-berzerker-hack-n-slash-edition",
+  "name": "Børk the Berzerker Hack ‘N’ Slash Edition",
+  "provider": "thunderkick",
+  "rtp": 97.3,
+  "volatility": null,
+  "maxWin": 2100,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "20 ways",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Expanding wilds",
+      "description": "Cover reels."
+    },
+    {
+      "name": "Bonus game",
+      "description": "A free spins round."
+    },
+    {
+      "name": "97.3% RTP",
+      "description": "Above average."
+    }
+  ],
+  "review": "Børk the Berzerker Hack 'N' Slash Edition is a 5-reel fantasy slot about a barbarian saving his beloved from an evil magician, with expanding wilds and a bonus game.\n\nThunderkick lists a 97.3% RTP and a 2,100x cap. It publishes a numeric volatility value instead of a label, so we don't show a rating.",
+  "pros": [
+    "Excellent 97.30% RTP – among the highest published",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Thunderkick doesn't publish a volatility label for this game",
+    "Modest 2,100x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-berzerker-a&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/bork-the-berzerker-hack-n-slash-edition.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/bork-the-berzerker-hack-n-slash-edition/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "true-kult",
+  "name": "True Kult",
+  "provider": "nolimit-city",
+  "rtp": 96.06,
+  "volatility": "very-high",
+  "maxWin": 23237,
+  "releaseDate": "2023-08-08",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.71,
+  "mechanics": [
+    "ways",
+    "grid-expansion",
+    "free-spins",
+    "ante-bet",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Baptism By Fire",
+      "description": "Stacks reveal Devotees or scatters."
+    },
+    {
+      "name": "Reel 6 unlock",
+      "description": "Two scatters open 729 ways."
+    },
+    {
+      "name": "The Seance",
+      "description": "Bonus from three scatters."
+    }
+  ],
+  "review": "True Kult is a 5x3 cult-horror slot. Baptism By Fire stacks reveal a high-paying Devotee or a scatter. Two or more scatters immediately open reel 6 for 729 ways, and three start The Seance bonus.\n\nStacked True Believer symbols only land on reel 6. Nolimit rates it Extreme volatility, with a 23,237x cap.",
+  "pros": [
+    "Very high 23,237x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=TrueKult&language=en&device=desktop",
+  "image": "/slots/nolimit-city/true-kult.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/true-kult"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

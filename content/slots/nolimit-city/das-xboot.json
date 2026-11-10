@@ -1,0 +1,58 @@
+{
+  "slug": "das-xboot",
+  "name": "Das xBoot",
+  "provider": "nolimit-city",
+  "rtp": 96.03,
+  "volatility": "very-high",
+  "maxWin": 55200,
+  "releaseDate": "2021-09-14",
+  "releaseDatePrecision": "day",
+  "reels": "6x4",
+  "hitRate": 4.51,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "free-spins",
+    "xways",
+    "xnudge",
+    "xbomb",
+    "bonus-buy"
+  ],
+  "themes": [
+    "history"
+  ],
+  "features": [
+    {
+      "name": "xNudge Wilds",
+      "description": "Four-row wilds that gain +1 per nudge."
+    },
+    {
+      "name": "xBomb Wild Multipliers",
+      "description": "Clear non-winning symbols and raise the multiplier."
+    },
+    {
+      "name": "Silent Hunter Spins",
+      "description": "Eight free spins from three bonus symbols."
+    }
+  ],
+  "review": "Das xBoot is the original 6x4 submarine slot that introduced xBomb. Four-row xNudge Wilds gain +1 to their multiplier with every nudge, xWays symbols reveal two or three of the same symbol to add ways, and xBomb Wilds blow away non-winning symbols on their reel while raising the multiplier.\n\nThree bonus symbols award eight Silent Hunter Spins, where all three mechanics can combine. Nolimit rates it Extreme volatility, with a 55,200x cap. It set the template for the sequel, Das xBoot 2wei!",
+  "pros": [
+    "Very high 55,200x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=DasxBoot&language=en&device=desktop",
+  "image": "/slots/nolimit-city/das-xboot.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/das-xboot"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

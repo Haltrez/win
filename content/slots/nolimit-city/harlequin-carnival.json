@@ -1,0 +1,58 @@
+{
+  "slug": "harlequin-carnival",
+  "name": "Harlequin Carnival",
+  "provider": "nolimit-city",
+  "rtp": 96.14,
+  "volatility": "high",
+  "maxWin": 5861,
+  "releaseDate": "2020-04-07",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.56,
+  "mechanics": [
+    "paylines",
+    "walking-wilds",
+    "multipliers",
+    "respins",
+    "free-spins",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Harlequin xNudge Wilds",
+      "description": "Three-row wilds gaining +1 per nudge."
+    },
+    {
+      "name": "Harlequin Respins",
+      "description": "Wilds walk left until they reach reel 1."
+    },
+    {
+      "name": "Harlequin Bonus",
+      "description": "Reel 5 always has an x3 wild."
+    }
+  ],
+  "review": "Harlequin Carnival is a 5x3 carnival slot with three-row Harlequin xNudge Wilds that can land on any reel and nudge into full view, adding +1 per step. In Harlequin Respins, these wilds walk one reel left with each respin until they reach the first reel.\n\nThree bonus symbols award eight Harlequin Bonus spins, with an assured Harlequin wild on reel 5 starting at x3. Nolimit rates it High volatility, with a 5,861x cap. The walking xNudge wilds are a good fit for each other.",
+  "pros": [
+    "Solid 5,861x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Harlequin&language=en&device=desktop",
+  "image": "/slots/nolimit-city/harlequin-carnival.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/harlequin-carnival"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

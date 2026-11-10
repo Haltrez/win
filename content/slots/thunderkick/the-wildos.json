@@ -1,0 +1,54 @@
+{
+  "slug": "the-wildos",
+  "name": "The Wildos",
+  "provider": "thunderkick",
+  "rtp": 96.15,
+  "volatility": "high",
+  "maxWin": 6250,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "15 paylines",
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "western",
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Sticky multiplier wilds",
+      "description": "Stay in place."
+    },
+    {
+      "name": "Bonus game",
+      "description": "Free spins."
+    },
+    {
+      "name": "15 paylines",
+      "description": "A 5-reel layout."
+    }
+  ],
+  "review": "The Wildos is the original prison-break game for Thunderkick's bandit trio: 15 lines, sticky multiplier wilds and a bonus game.\n\nThunderkick rates it High volatility, with a 6,250x cap and a 96.15% RTP.\n\nSticky multiplier wilds are the heart of the game: once they land in the bonus, they keep boosting wins until the round ends. A lively heist story from Thunderkick's bandit series.",
+  "pros": [
+    "Solid 6,250x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g61-96&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/the-wildos.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/the-wildos/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

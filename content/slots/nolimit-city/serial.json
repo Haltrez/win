@@ -1,0 +1,60 @@
+{
+  "slug": "serial",
+  "name": "Serial",
+  "provider": "nolimit-city",
+  "rtp": 96.07,
+  "volatility": "very-high",
+  "maxWin": 74800,
+  "releaseDate": "2022-11-08",
+  "releaseDatePrecision": "day",
+  "hitRate": 3.62,
+  "mechanics": [
+    "ways",
+    "respins",
+    "sticky-wilds",
+    "free-spins",
+    "xways",
+    "ante-bet",
+    "xnudge",
+    "infectious-wilds",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror",
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Sticky respins",
+      "description": "Wins stick, and every improvement adds a respin."
+    },
+    {
+      "name": "Enhancer Cells",
+      "description": "Two cells open on each respin."
+    },
+    {
+      "name": "xSplit Wild",
+      "description": "A last-reel wild that splits its row."
+    }
+  ],
+  "review": "Serial is a horror slot built around respins. Wins stick and trigger a respin, and every respin that improves the win awards another. Each respin opens two Enhancer Cells, which can reveal xWays stacks of two to four or other modifiers.\n\nThe xSplit Wild only lands on the last reel and splits every symbol on its row. Nolimit rates it Insane volatility, with a 74,800x cap. The theme is very dark.",
+  "pros": [
+    "Very high 74,800x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Serial&language=en&device=desktop",
+  "image": "/slots/nolimit-city/serial.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/serial"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

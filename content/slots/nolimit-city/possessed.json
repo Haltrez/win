@@ -1,0 +1,60 @@
+{
+  "slug": "possessed",
+  "name": "Possessed",
+  "provider": "nolimit-city",
+  "rtp": 96.06,
+  "volatility": "very-high",
+  "maxWin": 50000,
+  "releaseDate": "2024-03-05",
+  "releaseDatePrecision": "day",
+  "reels": "3-6-6-6-3",
+  "hitRate": 3.24,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "infectious-wilds",
+    "respins",
+    "free-spins",
+    "ante-bet",
+    "xnudge",
+    "xways",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Cross Wild",
+      "description": "A wild at the joint turns the whole cross wild at x2."
+    },
+    {
+      "name": "xActivation",
+      "description": "Respins that activate more of the grid."
+    },
+    {
+      "name": "Infectious xWays",
+      "description": "Reveal and spread symbol stacks."
+    }
+  ],
+  "review": "Possessed is a horror slot with a cross-shaped 3-6-6-6-3 grid. Wilds only land on the middle reel, and one at the joint of the cross turns the whole cross wild with a x2 multiplier. xNudge, xWays and Infectious xWays add more.\n\nxActivation symbols trigger respins that unlock more of the board. Nolimit rates it Extreme volatility, with a 50,000x cap and a fairly high 31% hit rate.",
+  "pros": [
+    "Very high 50,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Possessed&language=en&device=desktop",
+  "image": "/slots/nolimit-city/possessed.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/possessed"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

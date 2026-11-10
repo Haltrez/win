@@ -1,0 +1,56 @@
+{
+  "slug": "roadkill",
+  "name": "Roadkill",
+  "provider": "nolimit-city",
+  "rtp": 96.04,
+  "volatility": "high",
+  "maxWin": 11091,
+  "releaseDate": "2023-11-07",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 4.28,
+  "mechanics": [
+    "paylines",
+    "walking-wilds",
+    "money-collect",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Call to Arms",
+      "description": "Two scatters start a heart-based mode."
+    },
+    {
+      "name": "Jumping Wilds",
+      "description": "Animal wilds that move between rounds."
+    },
+    {
+      "name": "Collectors",
+      "description": "Each one linked to its own wild."
+    }
+  ],
+  "review": "Roadkill is a 5x3 cartoon slot about woodland animals fighting back. Two scatters start Call to Arms with two hearts, and a third during that mode leads to Team Assemble free spins.\n\nJumping Wild animals such as Papa Bear move around the battle area on reels 2 to 4 between rounds, each with a matching collector. xSplit also appears. Nolimit rates it High volatility, with an 11,091x cap.",
+  "pros": [
+    "High 11,091x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=RoadKill&language=en&device=desktop",
+  "image": "/slots/nolimit-city/roadkill.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/roadkill"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

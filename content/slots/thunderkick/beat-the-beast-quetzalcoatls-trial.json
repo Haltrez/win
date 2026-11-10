@@ -1,0 +1,53 @@
+{
+  "slug": "beat-the-beast-quetzalcoatls-trial",
+  "name": "Beat the Beast: Quetzalcoatl's Trial",
+  "provider": "thunderkick",
+  "rtp": 96.16,
+  "volatility": "very-high",
+  "maxWin": 5555,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "9 paylines",
+  "mechanics": [
+    "paylines",
+    "progressive-multiplier",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Wild collect",
+      "description": "Gather wilds through the bonus."
+    },
+    {
+      "name": "Symbol upgrades",
+      "description": "Improve symbols as you progress."
+    },
+    {
+      "name": "Five levels",
+      "description": "Progressive free spins."
+    }
+  ],
+  "review": "Beat the Beast: Quetzalcoatl's Trial is a jungle-temple slot whose bonus game includes wild collection, symbol upgrades and a five-level free spins mode.\n\nThunderkick rates it Very High volatility, with a 5,555x cap and a 96.16% RTP. Climbing the levels is what the game is about.",
+  "pros": [
+    "Solid 5,555x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g33&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/beat-the-beast-quetzalcoatls-trial.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/beat-the-beast-quetzalcoatls-trial/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

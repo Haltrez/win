@@ -1,0 +1,53 @@
+{
+  "slug": "hellapenos",
+  "name": "Hellapeños",
+  "provider": "thunderkick",
+  "rtp": 96.18,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "expanding-symbols",
+    "free-spins"
+  ],
+  "themes": [
+    "food",
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Multiplier wilds",
+      "description": "Boost wins."
+    },
+    {
+      "name": "Expanding devils",
+      "description": "Cover reels."
+    },
+    {
+      "name": "Free spins",
+      "description": "A bonus game."
+    }
+  ],
+  "review": "Hellapeños is a 5-reel chilli-themed slot set in the devil's own bar, with multiplier wilds, expanding devils and a free spins bonus.\n\nThunderkick rates it Very High volatility, with a 5,000x cap and a 96.18% RTP.\n\nThe expanding devils can cover whole reels, and multiplier wilds then boost those wide connections. Expect cheeky humour and spicy swings in equal measure.",
+  "pros": [
+    "Solid 5,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g68-96&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/hellapenos.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/hellapenos/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

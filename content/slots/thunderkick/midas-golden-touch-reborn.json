@@ -1,0 +1,56 @@
+{
+  "slug": "midas-golden-touch-reborn",
+  "name": "Midas Golden Touch - Reborn",
+  "provider": "thunderkick",
+  "rtp": 96.17,
+  "volatility": "high",
+  "maxWin": 10100,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "15 paylines",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "sticky-wilds",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "mythology",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Multiplier wilds",
+      "description": "Boost wins."
+    },
+    {
+      "name": "Sticky wins",
+      "description": "Hold in the bonus."
+    },
+    {
+      "name": "Feature buy",
+      "description": "Direct bonus entry."
+    }
+  ],
+  "review": "Midas Golden Touch - Reborn revives the original 15-line game with multiplier wilds, a feature buy and a bonus game with sticky wins.\n\nThunderkick rates it High volatility, with a 10,100x cap and a 96.17% RTP.\n\nThis refresh of the original game keeps the classic three-row layout and gold-drenched castle, now with a feature buy for impatient players.",
+  "pros": [
+    "High 10,100x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g53-96&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/midas-golden-touch-reborn.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/midas-golden-touch-reborn/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

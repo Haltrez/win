@@ -1,0 +1,56 @@
+{
+  "slug": "six-feet-under",
+  "name": "Six Feet Under",
+  "provider": "nolimit-city",
+  "rtp": 96.05,
+  "volatility": "very-high",
+  "maxWin": 30000,
+  "releaseDate": "2026-10-20",
+  "releaseDatePrecision": "day",
+  "reels": "6x6",
+  "hitRate": 4.57,
+  "mechanics": [
+    "cascades",
+    "money-collect",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Dirt layers",
+      "description": "Bottom rows fill with dirt that can hide gems."
+    },
+    {
+      "name": "Bomb types",
+      "description": "Each bomb clears its own pattern."
+    },
+    {
+      "name": "Gems",
+      "description": "Carry cash values when uncovered."
+    }
+  ],
+  "review": "Six Feet Under is a 6x6 graveyard slot where the bottom rows fill with dirt at random on each spin, and some dirt hides gems with cash values. Bombs come in several types, each clearing paying symbols and dirt in its own pattern, and digging deeper uncovers more gems.\n\nWilds substitute as usual. Nolimit rates it Extreme volatility, with a 30,000x cap. It's a twist on the Fire in the Hole digging idea, with a stronger focus on collecting.",
+  "pros": [
+    "Very high 30,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=SixFeetUnder&language=en&device=desktop",
+  "image": "/slots/nolimit-city/six-feet-under.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/six-feet-under"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

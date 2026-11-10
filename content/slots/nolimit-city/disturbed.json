@@ -1,0 +1,59 @@
+{
+  "slug": "disturbed",
+  "name": "Disturbed",
+  "provider": "nolimit-city",
+  "rtp": 96.1,
+  "volatility": "very-high",
+  "maxWin": 54391,
+  "releaseDate": "2023-05-10",
+  "releaseDatePrecision": "day",
+  "reels": "4-2-4-2-4",
+  "hitRate": 3.03,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "reel-modifiers",
+    "free-spins",
+    "xways",
+    "xnudge",
+    "ante-bet",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Enhancer Cells",
+      "description": "Up to four cells add modifiers each spin."
+    },
+    {
+      "name": "Mrs. Nudge",
+      "description": "An xNudge Wild on reel 3."
+    },
+    {
+      "name": "Pre-Op Spins",
+      "description": "Free spins that the Executioner scatter can upgrade."
+    }
+  ],
+  "review": "Disturbed is an asylum-themed slot on a 4-2-4-2-4 grid, where up to four Enhancer Cells can light up each spin to add xWays, splits and other modifiers. Mrs. Nudge, an xNudge Wild that only lands on reel 3, gains +1 per nudge.\n\nThree or more scatters start Pre-Op Spins, and an Executioner scatter on reel 3 can upgrade the bonus. Nolimit rates it Insane volatility, with a 54,391x ceiling and a fairly high 33% hit rate. The theme is deliberately unsettling.",
+  "pros": [
+    "Very high 54,391x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Disturbed&language=en&device=desktop",
+  "image": "/slots/nolimit-city/disturbed.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/disturbed"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

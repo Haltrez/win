@@ -1,0 +1,53 @@
+{
+  "slug": "hot-4-cash",
+  "name": "Hot 4 Cash",
+  "provider": "nolimit-city",
+  "rtp": 96.05,
+  "volatility": "medium",
+  "maxWin": 2154,
+  "releaseDate": "2019-08-15",
+  "releaseDatePrecision": "day",
+  "hitRate": 4.37,
+  "mechanics": [
+    "paylines",
+    "expanding-symbols",
+    "free-spins"
+  ],
+  "themes": [
+    "classic",
+    "music"
+  ],
+  "features": [
+    {
+      "name": "Hot Zones",
+      "description": "Symbols in four zones choose the feature."
+    },
+    {
+      "name": "Colossal Spins",
+      "description": "Reels 2–4 merge into one giant reel."
+    },
+    {
+      "name": "Disco Wild",
+      "description": "Lands in the centre of the middle reel."
+    }
+  ],
+  "review": "Hot 4 Cash is an early Nolimit City slot with a retro theme. Four Hot Zones decide which features trigger, depending on the symbols that land in them, including Super Freespins and Colossal Spins, where reels 2 to 4 merge into one giant reel.\n\nA Disco Wild on the centre position of the middle reel adds occasional bigger hits. Nolimit rates it Medium volatility, with a 2,154x cap. A gentle classic-style game.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 2,154x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Hot4Cash&language=en&device=desktop",
+  "image": "/slots/nolimit-city/hot-4-cash.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/hot-4-cash"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

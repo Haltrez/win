@@ -1,0 +1,54 @@
+{
+  "slug": "odins-gamble-reborn",
+  "name": "Odin's Gamble - Reborn",
+  "provider": "thunderkick",
+  "rtp": 96.15,
+  "volatility": "very-high",
+  "maxWin": 19333,
+  "releaseDate": null,
+  "reels": "6 reels",
+  "winType": "466 ways",
+  "mechanics": [
+    "ways",
+    "walking-wilds",
+    "multipliers",
+    "sticky-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Wild multipliers",
+      "description": "Boost wins."
+    },
+    {
+      "name": "Roaming wild stack",
+      "description": "Moves during the bonus."
+    },
+    {
+      "name": "Sticky wins",
+      "description": "Hold in free spins."
+    }
+  ],
+  "review": "Odin's Gamble - Reborn is a 4x6 Norse slot with 466 ways and wild multipliers. The bonus adds sticky wins and a roaming wild stack.\n\nThunderkick rates it Very High volatility, with a 19,333x cap and a 96.15% RTP.\n\nThe roaming wild stack in the bonus can move across the reels while sticky wins hold, and wild multipliers raise the stakes. Moody Norse art sets the tone.",
+  "pros": [
+    "Very high 19,333x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g80-96&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/odins-gamble-reborn.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/odins-gamble-reborn/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

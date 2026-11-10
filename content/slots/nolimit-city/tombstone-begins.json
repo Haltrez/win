@@ -1,0 +1,57 @@
+{
+  "slug": "tombstone-begins",
+  "name": "Tombstone Begins",
+  "provider": "nolimit-city",
+  "rtp": 96.02,
+  "volatility": "very-high",
+  "maxWin": 20000,
+  "releaseDate": "2026-05-12",
+  "releaseDatePrecision": "day",
+  "reels": "4-5-5-5-4",
+  "hitRate": 4.89,
+  "mechanics": [
+    "ways",
+    "respins",
+    "multipliers",
+    "free-spins",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Sticky Win Respins",
+      "description": "Winning symbols and their copies stay put."
+    },
+    {
+      "name": "Unleash",
+      "description": "All revolvers fire their remaining bullets."
+    },
+    {
+      "name": "Refill",
+      "description": "Reloads every revolver to six."
+    }
+  ],
+  "review": "Tombstone Begins is a 4-5-5-5-4 western prequel built on sticky Win Respins: winning symbols, and every other instance of them on the grid, stay put while the rest respins.\n\nRevolvers fire bullets across the board. An Unleash symbol makes them fire all their remaining shots, and a Refill symbol reloads them to six. xSplit and xNudge also appear. Nolimit rates it Extreme volatility, with a 20,000x cap.",
+  "pros": [
+    "Very high 20,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=TombstoneBegins&language=en&device=desktop",
+  "image": "/slots/nolimit-city/tombstone-begins.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/tombstone-begins"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

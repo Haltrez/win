@@ -1,0 +1,55 @@
+{
+  "slug": "gods-of-rock-reborn",
+  "name": "Gods of Rock! - Reborn",
+  "provider": "thunderkick",
+  "rtp": 96.05,
+  "volatility": "high",
+  "maxWin": 20000,
+  "releaseDate": null,
+  "reels": "6 reels",
+  "winType": "466 connecting ways",
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "music",
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Reel multipliers",
+      "description": "Boost whole reels."
+    },
+    {
+      "name": "Wild Encores",
+      "description": "Bring wilds back."
+    },
+    {
+      "name": "466 connecting ways",
+      "description": "A 6-reel layout."
+    }
+  ],
+  "review": "Gods of Rock! - Reborn is a 6-reel rock slot with 466 connecting ways. Wild symbols, reel multipliers, Wild Encores and a feature buy build toward the 20,000x maximum.\n\nThunderkick rates it High volatility, with a 96.05% RTP.\n\nWild Encores can bring wilds back for another round, and reel multipliers can stack up on the same spin. The Reborn edition keeps the original's stage-show presentation with refreshed visuals.",
+  "pros": [
+    "Very high 20,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g57-96&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/gods-of-rock-reborn.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/gods-of-rock-reborn/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

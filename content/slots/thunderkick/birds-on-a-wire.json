@@ -1,0 +1,53 @@
+{
+  "slug": "birds-on-a-wire",
+  "name": "Birds On A Wire",
+  "provider": "thunderkick",
+  "rtp": 96.1,
+  "volatility": "medium",
+  "maxWin": 9000,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "15 paylines",
+  "mechanics": [
+    "paylines",
+    "cascades",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Dropping symbols",
+      "description": "New symbols drop in after wins."
+    },
+    {
+      "name": "High Voltage multipliers",
+      "description": "Boost wins."
+    },
+    {
+      "name": "Inwinity Spin",
+      "description": "Keeps spinning while wins keep coming."
+    }
+  ],
+  "review": "Birds On A Wire is a cult Thunderkick slot where birds on electrified wires get zapped. It features dropping symbols, High Voltage multipliers, the Inwinity Spin and free spins.\n\nThunderkick rates it Medium volatility, with a 9,000x cap and a 96.1% RTP. Dark humour and strong features.",
+  "pros": [
+    "Solid 9,000x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-birds-a&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/birds-on-a-wire.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/birds-on-a-wire/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

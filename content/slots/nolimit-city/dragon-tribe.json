@@ -1,0 +1,58 @@
+{
+  "slug": "dragon-tribe",
+  "name": "Dragon Tribe",
+  "provider": "nolimit-city",
+  "rtp": 96.07,
+  "volatility": "high",
+  "maxWin": 27000,
+  "releaseDate": "2019-12-12",
+  "releaseDatePrecision": "day",
+  "reels": "6x4",
+  "hitRate": 4.64,
+  "mechanics": [
+    "ways",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins",
+    "xnudge",
+    "xways",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "xWays mystery symbols",
+      "description": "Hold up to three symbols for up to 20,736 ways."
+    },
+    {
+      "name": "xNudge Wilds",
+      "description": "Drop down, gain up to x6, then cover the reel."
+    },
+    {
+      "name": "Dragon Spins Extreme",
+      "description": "The upgraded bonus with both mechanics."
+    }
+  ],
+  "review": "Dragon Tribe is a 6x4 fantasy slot that pairs xWays and xNudge. xWays mystery symbols hold up to three symbols and extend reel height for up to 20,736 ways, while xNudge Wilds drop to the bottom of their reel, adding up to x6, before expanding to cover it.\n\nIts free spins come in two versions: standard Dragon Spins with xNudge Wilds, and Dragon Spins Extreme with both xNudge and xWays. Nolimit rates it High volatility, with a 27,000x cap.",
+  "pros": [
+    "Very high 27,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=DragonTribe&language=en&device=desktop",
+  "image": "/slots/nolimit-city/dragon-tribe.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/dragon-tribe"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

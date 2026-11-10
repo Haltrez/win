@@ -1,0 +1,58 @@
+{
+  "slug": "das-xboot-2wei",
+  "name": "Das xBoot 2wei!",
+  "provider": "nolimit-city",
+  "rtp": 95.94,
+  "volatility": "very-high",
+  "maxWin": 59999,
+  "releaseDate": "2025-12-16",
+  "releaseDatePrecision": "day",
+  "hitRate": 4.6,
+  "mechanics": [
+    "ways",
+    "grid-expansion",
+    "multipliers",
+    "free-spins",
+    "xbomb",
+    "xways",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Expanding grid",
+      "description": "Grows from 2-3-4-4-3-2 to larger shapes."
+    },
+    {
+      "name": "xBomb Wilds",
+      "description": "Explode non-winning symbols."
+    },
+    {
+      "name": "Torpedo Builder",
+      "description": "Triggered by a full boat in the binocular view."
+    }
+  ],
+  "review": "Das xBoot 2wei! is a submarine sequel with a variable six-reel grid that starts at 2-3-4-4-3-2 and can grow. Four-row xNudge Wilds gain +1 per nudge, xWays on reels 2 and 5 reveal symbol stacks, and xBomb wilds explode every symbol that isn't part of a win.\n\nThe Torpedo Builder triggers when a full boat appears in the binocular view above reels 5 and 6. The top mode is Silent Hunter Spins. Nolimit rates it Extreme volatility, with a 59,999x ceiling. Very busy and very swingy.",
+  "pros": [
+    "Very high 59,999x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Slightly below-average 95.94% RTP",
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=DasxBoot2&language=en&device=desktop",
+  "image": "/slots/nolimit-city/das-xboot-2wei.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/das-xboot-2wei"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

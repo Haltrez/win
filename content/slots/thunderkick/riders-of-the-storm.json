@@ -1,0 +1,54 @@
+{
+  "slug": "riders-of-the-storm",
+  "name": "Riders of the Storm",
+  "provider": "thunderkick",
+  "rtp": 96.15,
+  "volatility": "very-high",
+  "maxWin": 26426,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "243 ways",
+  "mechanics": [
+    "ways",
+    "walking-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy",
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Mystery Wild reels",
+      "description": "Reels can turn wild."
+    },
+    {
+      "name": "Volatility options",
+      "description": "Choose your bonus risk."
+    },
+    {
+      "name": "Walking wilds",
+      "description": "Move in the bonus."
+    }
+  ],
+  "review": "Riders of the Storm is a 243-ways slot with mystery wild reels and wild multipliers. Its bonus lets you choose a volatility option and includes walking wilds.\n\nThunderkick rates it Very High volatility, with a 26,426x cap and RTP of 96.14–96.15%.",
+  "pros": [
+    "Very high 26,426x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g25&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/riders-of-the-storm.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/riders-of-the-storm/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

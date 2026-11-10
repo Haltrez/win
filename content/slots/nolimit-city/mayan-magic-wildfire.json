@@ -1,0 +1,54 @@
+{
+  "slug": "mayan-magic-wildfire",
+  "name": "Mayan Magic Wildfire",
+  "provider": "nolimit-city",
+  "rtp": 96.04,
+  "volatility": "medium",
+  "maxWin": 1264,
+  "releaseDate": "2019-06-04",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 4.58,
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "history",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Mayan Wilds",
+      "description": "Make the centre position a sticky wild."
+    },
+    {
+      "name": "Mystery Sync",
+      "description": "Synchronises the three middle reels."
+    },
+    {
+      "name": "Both-ways pays",
+      "description": "Wins count left to right and right to left."
+    }
+  ],
+  "review": "Mayan Magic Wildfire is a 5x3 slot that pays both ways. A wild on the middle three reels makes the centre position a sticky wild, and Mystery Sync randomly matches the middle three reels for big both-ways wins.\n\nMystery Wild turns the centre symbol wild, along with any matching symbols. Nolimit rates it Medium volatility, with a 1,264x cap. It plays like a classic game, with frequent small wins.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 1,264x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=MayanMagic&language=en&device=desktop",
+  "image": "/slots/nolimit-city/mayan-magic-wildfire.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/mayan-magic-wildfire"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

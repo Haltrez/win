@@ -1,0 +1,53 @@
+{
+  "slug": "archie-ologgins-and-the-enchanted-masks",
+  "name": "Archie O'Loggins and the Enchanted Masks",
+  "provider": "thunderkick",
+  "rtp": 94.16,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "7 reels",
+  "winType": "Cluster pays (5+ symbols)",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "free-spins"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Cluster pays",
+      "description": "7x7 grid with avalanches."
+    },
+    {
+      "name": "Ability wilds",
+      "description": "Each wild has its own power."
+    },
+    {
+      "name": "Wild Field",
+      "description": "Transforms the reels."
+    }
+  ],
+  "review": "Archie O'Loggins and the Enchanted Masks is a 7x7 cluster-pays jungle adventure with cascading avalanches. Different wilds have their own abilities, and the Wild Field feature transforms the reels.\n\nThunderkick rates it Very High volatility, with a 10,000x cap. The published RTP is 94.16%, on the low side.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.16% published RTP",
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g86-94&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/archie-ologgins-and-the-enchanted-masks.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/archie-ologgins-and-the-enchanted-masks/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

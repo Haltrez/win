@@ -1,0 +1,57 @@
+{
+  "slug": "disorder",
+  "name": "Disorder",
+  "provider": "nolimit-city",
+  "rtp": 96.11,
+  "volatility": "very-high",
+  "maxWin": 23500,
+  "releaseDate": "2025-11-04",
+  "releaseDatePrecision": "day",
+  "reels": "4-3-4-3-4-3",
+  "hitRate": 3.85,
+  "mechanics": [
+    "ways",
+    "reel-modifiers",
+    "infectious-wilds",
+    "free-spins",
+    "xbomb",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Fire Frames",
+      "description": "Split any symbol that lands inside them."
+    },
+    {
+      "name": "Enhancer Cells",
+      "description": "Activate on reels 2, 4 and 6."
+    },
+    {
+      "name": "Variable bonus length",
+      "description": "Bonus and super bonus symbols set the spin count."
+    }
+  ],
+  "review": "Disorder is a 6-reel slot with a 4-3-4-3-4-3 layout. Fire Frames appear at random and split any symbol that lands in them, and Enhancer Cells at the bottom of reels 2, 4 and 6 activate depending on how many Fire Frames land.\n\nInfectious xWays and xBomb push the ways count higher. In the bonus, each bonus symbol adds +2 spins and each super bonus symbol +3, leading to Obsessive Compulsive Spins. Nolimit rates it Extreme volatility, with a 23,500x cap.",
+  "pros": [
+    "Very high 23,500x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Disorder&language=en&device=desktop",
+  "image": "/slots/nolimit-city/disorder.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/disorder"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

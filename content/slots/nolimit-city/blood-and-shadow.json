@@ -1,0 +1,56 @@
+{
+  "slug": "blood-and-shadow",
+  "name": "Blood & Shadow",
+  "provider": "nolimit-city",
+  "rtp": 96.13,
+  "volatility": "medium",
+  "maxWin": 6666,
+  "releaseDate": "2023-03-07",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "hitRate": 3.68,
+  "mechanics": [
+    "cascades",
+    "sticky-wilds",
+    "reel-modifiers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Tumbling wins",
+      "description": "Winning symbols are destroyed and the reels drop."
+    },
+    {
+      "name": "Ritual Bar",
+      "description": "Collects destroyed symbols toward bonus levels."
+    },
+    {
+      "name": "Cursed Spins",
+      "description": "Top bonus tier with xSplit active."
+    }
+  ],
+  "review": "Blood & Shadow is a 5x4 gothic tumbling slot. Winning combinations are destroyed and the remaining symbols drop, while a Ritual Bar under the reels counts destroyed symbols toward bonus levels. Each new level awards +2 Candle Spins, with +6 more for reaching Cursed Spins.\n\nSticky wilds land on reels 2 to 5 and, in the bonus, drop to the bottom and stay until they join a win. xSplit only appears in Cursed Spins. Nolimit rates it Medium volatility, unusual for the studio, with a 6,666x cap. A good first Nolimit game.",
+  "pros": [
+    "Solid 6,666x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=BloodAndShadow&language=en&device=desktop",
+  "image": "/slots/nolimit-city/blood-and-shadow.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/blood-and-shadow"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

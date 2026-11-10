@@ -1,0 +1,57 @@
+{
+  "slug": "the-cage",
+  "name": "The Cage",
+  "provider": "nolimit-city",
+  "rtp": 96.05,
+  "volatility": "high",
+  "maxWin": 25000,
+  "releaseDate": "2023-06-20",
+  "releaseDatePrecision": "day",
+  "reels": "3-4-3-4-3-4-3",
+  "hitRate": 3.13,
+  "mechanics": [
+    "ways",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "xbomb",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "5,184 ways",
+      "description": "An alternating 3-4 row grid."
+    },
+    {
+      "name": "Knockout xBombs",
+      "description": "Cross-shaped explosions."
+    },
+    {
+      "name": "Roundhouse Kick",
+      "description": "A near-miss feature for matching symbols."
+    }
+  ],
+  "review": "The Cage is a fight-night slot on a 3-4-3-4-3-4-3 grid with 5,184 ways and cascading wins. Wild Knockout xBombs explode in a cross pattern around themselves, and Roundhouse Kick is triggered when three to six of the same symbol line up without a win.\n\nNolimit rates it High volatility, with a 25,000x cap and a high 32% hit rate.",
+  "pros": [
+    "Very high 25,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=TheCage&language=en&device=desktop",
+  "image": "/slots/nolimit-city/the-cage.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/the-cage"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "misery-mining",
+  "name": "Misery Mining",
+  "provider": "nolimit-city",
+  "rtp": 96.09,
+  "volatility": "very-high",
+  "maxWin": 70000,
+  "releaseDate": "2022-03-15",
+  "releaseDatePrecision": "day",
+  "reels": "7x7",
+  "hitRate": 3.5,
+  "mechanics": [
+    "cascades",
+    "grid-expansion",
+    "multipliers",
+    "free-spins",
+    "xbomb",
+    "bonus-buy"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Collapsing Mine",
+      "description": "Barriers retreat as xBombs explode next to them."
+    },
+    {
+      "name": "xBomb Wild Multipliers",
+      "description": "Clear space and raise the multiplier."
+    },
+    {
+      "name": "Misery FreeSpins",
+      "description": "Start with a larger open area."
+    }
+  ],
+  "review": "Misery Mining is a 7x7 mining slot where only the central 3x3 area starts open. xBombs exploding next to a barrier push it back one step, gradually opening the grid and raising the multiplier.\n\nThree scatters or one or two super scatters trigger Misery FreeSpins, starting with a 3x3, 4x4 or 5x5 area, and xSize can enlarge symbols. Nolimit rates it Extreme volatility, with a 70,000x cap. A big, slow build.",
+  "pros": [
+    "Very high 70,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=MiseryMining&language=en&device=desktop",
+  "image": "/slots/nolimit-city/misery-mining.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/misery-mining"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

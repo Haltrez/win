@@ -1,0 +1,60 @@
+{
+  "slug": "the-crypt-2",
+  "name": "The Crypt 2",
+  "provider": "nolimit-city",
+  "rtp": 96.1,
+  "volatility": "very-high",
+  "maxWin": 31248,
+  "releaseDate": "2026-03-03",
+  "releaseDatePrecision": "day",
+  "reels": "6x4",
+  "hitRate": 4.94,
+  "mechanics": [
+    "ways",
+    "cascades",
+    "grid-expansion",
+    "multipliers",
+    "free-spins",
+    "xways",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror",
+    "music"
+  ],
+  "features": [
+    {
+      "name": "Locked rows",
+      "description": "The top three rows open via Forsaken Fingers."
+    },
+    {
+      "name": "Dropping xNudge Wilds",
+      "description": "Gain multipliers as they fall."
+    },
+    {
+      "name": "xWays",
+      "description": "Stretch reels with two or three symbols."
+    }
+  ],
+  "review": "The Crypt 2 is a 6-reel cascading sequel with seven rows, the top three locked until Forsaken Fingers open them. xNudge Wilds drop to the bottom of their reel, gaining a multiplier with each step, and become stacked wilds.\n\nxWays mystery symbols hold two or three symbols and stretch the reels. Nolimit rates it Extreme volatility, with a 31,248x cap.",
+  "pros": [
+    "Very high 31,248x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=TheCrypt2&language=en&device=desktop",
+  "image": "/slots/nolimit-city/the-crypt-2.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/the-crypt-2"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "shark-park",
+  "name": "Shark Park",
+  "provider": "thunderkick",
+  "rtp": 94.14,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "winType": "Cluster pays (5+ symbols)",
+  "mechanics": [
+    "cluster-pays",
+    "walking-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Hexagonal clusters",
+      "description": "An unusual grid."
+    },
+    {
+      "name": "Merging multiplier wilds",
+      "description": "Combine for bigger values."
+    },
+    {
+      "name": "Persistent wilds",
+      "description": "Stay in the bonus."
+    }
+  ],
+  "review": "Shark Park is a cluster-pays beach slot on a hexagonal grid. Multiplier wilds move and merge into bigger multipliers, and in the bonus they become persistent.\n\nThunderkick rates it High volatility, with a 10,000x cap. The published RTP is 94.14%.\n\nInflatables, sunscreen and circling fins give this beach-day version of the hexagonal cluster engine a summery feel.",
+  "pros": [
+    "High 10,000x win ceiling"
+  ],
+  "cons": [
+    "Below-average 94.14% published RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": null,
+  "image": "/slots/thunderkick/shark-park.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/shark-park/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

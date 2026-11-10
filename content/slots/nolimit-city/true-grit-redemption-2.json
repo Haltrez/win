@@ -1,0 +1,59 @@
+{
+  "slug": "true-grit-redemption-2",
+  "name": "True Grit Redemption 2",
+  "provider": "nolimit-city",
+  "rtp": 96.07,
+  "volatility": "very-high",
+  "maxWin": 34000,
+  "releaseDate": "2026-05-26",
+  "releaseDatePrecision": "day",
+  "reels": "2-3-4-4-3-2",
+  "hitRate": 4.38,
+  "mechanics": [
+    "ways",
+    "cascades",
+    "multipliers",
+    "infectious-wilds",
+    "free-spins",
+    "xways",
+    "xbomb",
+    "bonus-buy"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Enhancer row",
+      "description": "Brings xSplit, xWays and more."
+    },
+    {
+      "name": "xBomb",
+      "description": "Clears neighbours and raises the multiplier."
+    },
+    {
+      "name": "xSplit",
+      "description": "Splits a row and doubles its multipliers."
+    }
+  ],
+  "review": "True Grit Redemption 2 is a 6-reel western with six locked box positions and an enhancer row on top that brings xSplit, xWays and other symbols. xBombs clear neighbouring symbols, except wilds and special symbols, and raise the multiplier for the next collapse.\n\nxSplit splits every symbol in its row and doubles the multiplier on the split positions. Nolimit rates it Extreme volatility, with a 34,000x cap.",
+  "pros": [
+    "Very high 34,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=TrueGrit2&language=en&device=desktop",
+  "image": "/slots/nolimit-city/true-grit-redemption-2.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/true-grit-redemption-2"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

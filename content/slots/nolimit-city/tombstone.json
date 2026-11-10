@@ -1,0 +1,55 @@
+{
+  "slug": "tombstone",
+  "name": "Tombstone",
+  "provider": "nolimit-city",
+  "rtp": 96.19,
+  "volatility": "very-high",
+  "maxWin": 11456,
+  "releaseDate": "2019-05-02",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 4.89,
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins",
+    "xnudge"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Outlaw Wilds",
+      "description": "+1 multiplier per nudge."
+    },
+    {
+      "name": "Justice Spins",
+      "description": "Sticky wilds from two badges."
+    },
+    {
+      "name": "Gunslinger Spins",
+      "description": "Multipliers keep building."
+    }
+  ],
+  "review": "Tombstone is the 2019 original that started the series. Three-row Outlaw Wilds on reels 2 to 4 nudge into view, gaining +1 per step. A Sheriff badge on reel 1 and a Marshal badge on reel 5 award three Justice Spins with sticky wilds.\n\nThree scatters trigger ten Gunslinger Spins, where the wild multipliers don't reset. Nolimit rates it Extreme volatility, with an 11,456x cap and a 96.19% RTP.",
+  "pros": [
+    "High 11,456x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Tombstone&language=en&device=desktop",
+  "image": "/slots/nolimit-city/tombstone.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/tombstone"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

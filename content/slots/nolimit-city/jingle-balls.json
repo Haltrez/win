@@ -1,0 +1,59 @@
+{
+  "slug": "jingle-balls",
+  "name": "Jingle Balls",
+  "provider": "nolimit-city",
+  "rtp": 96.1,
+  "volatility": "very-high",
+  "maxWin": 12250,
+  "releaseDate": "2023-12-05",
+  "releaseDatePrecision": "day",
+  "reels": "3-3-4-4-5-5",
+  "hitRate": 4.41,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "reel-modifiers",
+    "free-spins",
+    "ante-bet",
+    "xways",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Reel-specific mechanics",
+      "description": "xWays, xNudge and xSplit each own a pair of reels."
+    },
+    {
+      "name": "xSplit Wilds",
+      "description": "Split the symbols on their reel."
+    },
+    {
+      "name": "Spirit Spins",
+      "description": "The mechanic placements swap in the bonus."
+    }
+  ],
+  "review": "Jingle Balls is a twisted Christmas slot on a 3-3-4-4-5-5 grid. xWays lands on reels 1 and 2 in the base game, xNudge Wilds on reels 3 and 4, and xSplit Wilds on reels 5 and 6. In the Spirit Spins bonus, the xWays and xSplit placements swap sides.\n\nEvery mechanic has its own reels, which makes the game easier to follow than most xMechanics games. Nolimit rates it Extreme volatility, with a 12,250x cap.",
+  "pros": [
+    "High 12,250x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=JingleBalls&language=en&device=desktop",
+  "image": "/slots/nolimit-city/jingle-balls.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/jingle-balls"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

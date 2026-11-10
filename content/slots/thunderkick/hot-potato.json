@@ -1,0 +1,52 @@
+{
+  "slug": "hot-potato",
+  "name": "Hot Potato",
+  "provider": "thunderkick",
+  "rtp": 96.16,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "7 reels",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Multiplier grid",
+      "description": "Position multipliers."
+    },
+    {
+      "name": "Sticky grids",
+      "description": "Persist in the bonus."
+    },
+    {
+      "name": "Exploding wilds",
+      "description": "Clear the board."
+    }
+  ],
+  "review": "Hot Potato is a 7x7 cluster-pays slot with exploding wilds, avalanches and a multiplier grid. In the bonus, free spins come with retriggers and sticky multiplier grids.\n\nThunderkick rates it Very High volatility, with a 10,000x cap and a 96.16% RTP.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g69-96&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/hot-potato.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/hot-potato/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

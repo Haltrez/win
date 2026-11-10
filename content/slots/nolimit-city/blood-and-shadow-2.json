@@ -1,0 +1,57 @@
+{
+  "slug": "blood-and-shadow-2",
+  "name": "Blood & Shadow 2",
+  "provider": "nolimit-city",
+  "rtp": 96.09,
+  "volatility": "very-high",
+  "maxWin": 16161,
+  "releaseDate": "2024-10-22",
+  "releaseDatePrecision": "day",
+  "reels": "5x5",
+  "hitRate": 3.68,
+  "mechanics": [
+    "cascades",
+    "sticky-wilds",
+    "reel-modifiers",
+    "free-spins",
+    "ante-bet",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Ritual Bar",
+      "description": "Five collection levels that unlock the grid."
+    },
+    {
+      "name": "Candle Spins",
+      "description": "Each level adds free spins."
+    },
+    {
+      "name": "Sticky drop wilds",
+      "description": "Wilds fall to the bottom and stay until they win."
+    }
+  ],
+  "review": "Blood & Shadow 2 is a 5x5 occult sequel where the bottom row starts locked and full of wilds. A Ritual Bar beneath the grid collects through five levels, and each level unlocks more of the board and awards +2 Candle Spins, with +6 spins for reaching Reign of Terror Spins.\n\nIn the bonuses, wilds drop to the bottom of their reel and stay sticky until they're part of a win. xSplit can split rows or reels to multiply symbols. Nolimit rates it Extreme volatility, with a 16,161x maximum, much more aggressive than the original.",
+  "pros": [
+    "Very high 16,161x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=BloodAndShadow2&language=en&device=desktop",
+  "image": "/slots/nolimit-city/blood-and-shadow-2.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/blood-and-shadow-2"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "catfish-hunters",
+  "name": "Catfish Hunters",
+  "provider": "nolimit-city",
+  "rtp": 96.03,
+  "volatility": "very-high",
+  "maxWin": 20000,
+  "releaseDate": "2026-03-17",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.29,
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "multipliers",
+    "free-spins",
+    "xways",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fishing",
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Electrical Frames",
+      "description": "Random frames that interact with fish symbols."
+    },
+    {
+      "name": "Imposter Wilds",
+      "description": "Transform into one of several character wilds."
+    },
+    {
+      "name": "Dark Water Spins",
+      "description": "Free spins with a global fish multiplier."
+    }
+  ],
+  "review": "Catfish Hunters is a 5x3 fishing slot. Electrical Frames appear at random at the start of a spin, and fish symbols with values interact with them. Imposter Wilds transform into one of several character wilds, each with its own effect, and xWays reveals stacks of two to four symbols, wilds or fish.\n\nThree bonus symbols give eight Dark Water Spins, with extra symbols adding more and a global fish multiplier in play. Nolimit rates it Extreme volatility, with a 20,000x cap and a 30% hit rate.",
+  "pros": [
+    "Very high 20,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=CatfishHunters&language=en&device=desktop",
+  "image": "/slots/nolimit-city/catfish-hunters.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/catfish-hunters"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

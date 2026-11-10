@@ -1,0 +1,53 @@
+{
+  "slug": "fruits",
+  "name": "Fruits",
+  "provider": "nolimit-city",
+  "rtp": 96.23,
+  "volatility": "medium",
+  "maxWin": 2910,
+  "releaseDate": "2019-01-30",
+  "releaseDatePrecision": "day",
+  "hitRate": 5.69,
+  "mechanics": [
+    "ways",
+    "respins",
+    "sticky-wilds",
+    "money-collect"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Mystery Wrappers",
+      "description": "Cover 4–9 positions and reveal one symbol."
+    },
+    {
+      "name": "Sticky Fruit Spins",
+      "description": "Respins while more wins land."
+    },
+    {
+      "name": "Lightning Rounds",
+      "description": "Five spins of collecting bolts."
+    }
+  ],
+  "review": "Fruits is an early Nolimit City fruit slot. Mystery Wrappers randomly cover four to nine positions and reveal one symbol, and four matching symbols on the first two reels trigger Sticky Fruit Spins, which continue while more winning symbols land.\n\nThree or more lightning bolts start the Lightning Rounds, five spins of collecting bolts. Nolimit rates it Medium volatility, with a 2,910x cap. A colourful, low-stress fruit game.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Fruits&language=en&device=desktop",
+  "image": "/slots/nolimit-city/fruits.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/fruits"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "hot-nudge",
+  "name": "Hot Nudge",
+  "provider": "nolimit-city",
+  "rtp": 96.29,
+  "volatility": "medium",
+  "maxWin": 2413,
+  "releaseDate": "2018-07-26",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "hitRate": 4.31,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "free-spins",
+    "xnudge"
+  ],
+  "themes": [
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Hot Wilds",
+      "description": "Four-high wilds that nudge to cover the reel."
+    },
+    {
+      "name": "Hot Symbol Nudge",
+      "description": "Stacked premiums nudge into view."
+    },
+    {
+      "name": "Freespins",
+      "description": "Seven spins with more Hot Wilds."
+    }
+  ],
+  "review": "Hot Nudge is a 5x4 steampunk slot and one of the first xNudge games. Four-high Hot Wilds on reels 2 to 4 always nudge to cover their reel, and Hot Symbol Nudge pulls matching stacked premiums into full view after one lands on the first two reels.\n\nThree scatters award seven free spins with more frequent Hot Wilds. Nolimit rates it Medium volatility, with a 2,413x cap. A good way to see where the studio's signature mechanic started.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 2,413x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=HotNudge&language=en&device=desktop",
+  "image": "/slots/nolimit-city/hot-nudge.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/hot-nudge"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

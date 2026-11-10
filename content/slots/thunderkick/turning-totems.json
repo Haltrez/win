@@ -1,0 +1,53 @@
+{
+  "slug": "turning-totems",
+  "name": "Turning Totems",
+  "provider": "thunderkick",
+  "rtp": 96.1,
+  "volatility": "low",
+  "maxWin": 9986,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "11 (two way wins)",
+  "mechanics": [
+    "paylines",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Thunder Reels",
+      "description": "Feature reels."
+    },
+    {
+      "name": "Sleeping wilds",
+      "description": "Wake up to substitute."
+    },
+    {
+      "name": "Two-way wins",
+      "description": "Lines pay both ways."
+    }
+  ],
+  "review": "Turning Totems is an 11-line slot with two-way wins, thunder reels, sleeping wilds, thunder snakes, respins and a bonus game.\n\nThunderkick rates it Low volatility, but with a 9,986x cap and a 96.1% RTP.\n\nThunder reels, sleeping wilds and thunder snakes give the base game plenty to watch. Despite the low volatility, the cap reaches nearly 10,000x.",
+  "pros": [
+    "Solid 9,986x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g7&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/turning-totems.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/turning-totems/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

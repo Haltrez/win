@@ -1,0 +1,55 @@
+{
+  "slug": "gluttony",
+  "name": "Gluttony",
+  "provider": "nolimit-city",
+  "rtp": 96.09,
+  "volatility": "high",
+  "maxWin": 32000,
+  "releaseDate": "2023-06-06",
+  "releaseDatePrecision": "day",
+  "reels": "5x5",
+  "hitRate": 3.96,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "food"
+  ],
+  "features": [
+    {
+      "name": "xZone Sauce",
+      "description": "Adds +1 multiplier to every neighbouring symbol."
+    },
+    {
+      "name": "Silver and Golden Bells",
+      "description": "Two scatter types that shape the bonus."
+    },
+    {
+      "name": "Wild Pots",
+      "description": "Bonus-only wilds with extra effects."
+    }
+  ],
+  "review": "Gluttony is a 5x5 food-fight slot with two kinds of scatter: silver bells on reels 2 to 4 and golden bells elsewhere. xZone Sauce adds +1 to the multiplier of every symbol and wild around it, including diagonals, and several sauces can overlap.\n\nWild Pots appear only in the bonus modes, from Order Up! to FEDCON 1, acting as wilds with extra effects. Nolimit rates it High volatility, with a 32,000x cap. Messy, loud and very Nolimit.",
+  "pros": [
+    "Very high 32,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Gluttony&language=en&device=desktop",
+  "image": "/slots/nolimit-city/gluttony.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/gluttony"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

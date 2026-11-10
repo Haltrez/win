@@ -1,0 +1,56 @@
+{
+  "slug": "land-of-the-free",
+  "name": "Land Of The Free",
+  "provider": "nolimit-city",
+  "rtp": 96.08,
+  "volatility": "very-high",
+  "maxWin": 57000,
+  "releaseDate": "2024-01-23",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "hitRate": 3.74,
+  "mechanics": [
+    "ways",
+    "reel-modifiers",
+    "free-spins",
+    "ante-bet",
+    "bonus-buy"
+  ],
+  "themes": [
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Conveyor Belt",
+      "description": "Brings reel-changing features each spin."
+    },
+    {
+      "name": "Stacked character wilds",
+      "description": "Full stacks convert to wilds."
+    },
+    {
+      "name": "Unlocked fifth reel",
+      "description": "Opens up in the bonus."
+    }
+  ],
+  "review": "Land Of The Free is a 5x4 patriotic slot with reel 5 locked in the base game and a conveyor belt under the bottom row. Each spin, the conveyor can bring different features that change the reels, and crates with bottles add more.\n\nFully stacked character symbols turn into stacked wilds, and all reels unlock in the bonus. xSplit and xGOD increase the potential. Nolimit rates it Extreme volatility, with a 57,000x cap.",
+  "pros": [
+    "Very high 57,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=LandOfTheFree&language=en&device=desktop",
+  "image": "/slots/nolimit-city/land-of-the-free.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/land-of-the-free"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

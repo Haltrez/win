@@ -1,0 +1,56 @@
+{
+  "slug": "golden-genie",
+  "name": "Golden Genie And The Walking Wilds",
+  "provider": "nolimit-city",
+  "rtp": 96.03,
+  "volatility": "high",
+  "maxWin": 9583,
+  "releaseDate": "2020-07-07",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 2.95,
+  "mechanics": [
+    "paylines",
+    "walking-wilds",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Genie Wishes",
+      "description": "Aladdin and his lamp turn into multiplier wilds."
+    },
+    {
+      "name": "Genie Lamps",
+      "description": "Wild reels 2 and 4, with wins paying both ways."
+    },
+    {
+      "name": "Genie Parade",
+      "description": "Walking wilds with growing multipliers."
+    }
+  ],
+  "review": "Golden Genie and the Walking Wilds is a 5x3 Arabian-nights slot. Aligning Aladdin with his lamp triggers Genie Wishes, turning both into wilds with x2 to x10 multipliers. Genie Lamps can cover reels 2 and 4 with wilds and make wins pay both ways.\n\nThree genie symbols start Genie Parade, where genie wilds walk left each spin and build up their multipliers. Nolimit rates it High volatility, with a 9,583x cap and a 34% hit rate. A good entry point to the studio.",
+  "pros": [
+    "Solid 9,583x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=GoldenGenie&language=en&device=desktop",
+  "image": "/slots/nolimit-city/golden-genie.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/golden-genie"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

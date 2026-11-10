@@ -1,0 +1,51 @@
+{
+  "slug": "well-of-wonders",
+  "name": "Well of wonders",
+  "provider": "thunderkick",
+  "rtp": 96.1,
+  "volatility": "low",
+  "maxWin": 2280,
+  "releaseDate": null,
+  "reels": "7 reels",
+  "mechanics": [
+    "scatter-pays",
+    "respins",
+    "multipliers"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Occurrence wins",
+      "description": "Pays by symbol counts."
+    },
+    {
+      "name": "Respins",
+      "description": "Triggered by features."
+    },
+    {
+      "name": "Fairy",
+      "description": "A special feature."
+    }
+  ],
+  "review": "Well of Wonders is a wishing-well slot with occurrence wins, respins, multipliers, wilds and a fairy.\n\nThunderkick rates it Low volatility, with a 2,280x cap and a 96.1% RTP.\n\nWins are counted by how many matching symbols appear, not by paylines, and the fairy feature can add wilds and multipliers. Low volatility keeps it relaxed.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 2,280x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g9&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/well-of-wonders.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/well-of-wonders/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "bounty-hunters",
+  "name": "Bounty Hunters",
+  "provider": "nolimit-city",
+  "rtp": 96.07,
+  "volatility": "very-high",
+  "maxWin": 52310,
+  "releaseDate": "2023-07-11",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.68,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "respins",
+    "free-spins",
+    "xnudge",
+    "ante-bet",
+    "bonus-buy"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Bounty Hunter Wild",
+      "description": "A three-row wild that always nudges into full view."
+    },
+    {
+      "name": "Mexican Standoff",
+      "description": "Bonus symbols on reels 1 and 5 respin their row."
+    },
+    {
+      "name": "Raid Spins",
+      "description": "Free spins from three scatters on reels 2–4."
+    }
+  ],
+  "review": "Bounty Hunters is a 5x3 western where scatters only land on reels 2, 3 and 4, and three of them award Raid Spins. The three-row Bounty Hunter Wild on those same reels always nudges to full view, and a related Few Dollars More wild builds on it.\n\nLanding bonus symbols on reels 1 and 5 in the same row triggers a Mexican Standoff, which respins that row. With a 52,310x cap and Extreme volatility, it's one of the bigger-ceiling Nolimit games.",
+  "pros": [
+    "Very high 52,310x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=BountyHunters&language=en&device=desktop",
+  "image": "/slots/nolimit-city/bounty-hunters.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/bounty-hunters"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

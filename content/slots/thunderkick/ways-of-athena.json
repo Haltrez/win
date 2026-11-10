@@ -1,0 +1,53 @@
+{
+  "slug": "ways-of-athena",
+  "name": "Ways of Athena",
+  "provider": "thunderkick",
+  "rtp": 94.21,
+  "volatility": "high",
+  "maxWin": 25000,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "243-43 923",
+  "mechanics": [
+    "ways",
+    "grid-expansion",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Growing ways",
+      "description": "243 up to 43,923."
+    },
+    {
+      "name": "Matching mystery symbols",
+      "description": "Reveal the same symbol."
+    },
+    {
+      "name": "Free spins",
+      "description": "Features increase."
+    }
+  ],
+  "review": "Ways of Athena is a 3x5 slot that starts with 243 ways and can grow to 43,923. Wilds and matching mystery symbols lead into free spins with increasing features.\n\nThunderkick rates it High volatility, with a 25,000x cap. The published RTP is 94.21%.",
+  "pros": [
+    "Very high 25,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.21% published RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g87-94&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/ways-of-athena.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/ways-of-athena/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

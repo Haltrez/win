@@ -1,0 +1,53 @@
+{
+  "slug": "pink-elephants",
+  "name": "Pink Elephants",
+  "provider": "thunderkick",
+  "rtp": 96.1,
+  "volatility": "high",
+  "maxWin": 8200,
+  "releaseDate": null,
+  "reels": "6 reels",
+  "winType": "4096 paylines",
+  "mechanics": [
+    "ways",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Mystery scatter",
+      "description": "Reveals the bonus trigger."
+    },
+    {
+      "name": "Symbol transformation",
+      "description": "In free spins."
+    },
+    {
+      "name": "Retriggers",
+      "description": "Extend the bonus."
+    }
+  ],
+  "review": "Pink Elephants is the original 4,096-ways game where tribal minions search for a magical peanut. A mystery scatter leads to free spins with symbol transformation and retriggers.\n\nThunderkick rates it High volatility, with an 8,200x cap and a 96.1% RTP.",
+  "pros": [
+    "Solid 8,200x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g13&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/pink-elephants.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/pink-elephants/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "ice-ice-yeti",
+  "name": "Ice Ice Yeti",
+  "provider": "nolimit-city",
+  "rtp": 96.16,
+  "volatility": "high",
+  "maxWin": 8820,
+  "releaseDate": "2018-11-15",
+  "releaseDatePrecision": "day",
+  "hitRate": 4.99,
+  "mechanics": [
+    "ways",
+    "grid-expansion",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Yeti Shake",
+      "description": "Breaks 2–10 ice blocks to open the grid."
+    },
+    {
+      "name": "Ice Ice Respins",
+      "description": "The Yeti Wild breaks blocks and awards a respin."
+    },
+    {
+      "name": "Expanding grid",
+      "description": "More of the board opens as ice breaks."
+    }
+  ],
+  "review": "Ice Ice Yeti is a slot whose reel area starts partly covered by ice blocks. Yeti Shake can trigger on any spin, breaking two to ten blocks to open up the grid. The Yeti Wild roars to break two or three blocks and award a respin, during which winning symbols stay put.\n\nNolimit rates it High volatility, with an 8,820x cap. It's a neat grid-expansion idea from the studio's early days, with charming cartoon art.",
+  "pros": [
+    "Solid 8,820x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=IceIceYeti&language=en&device=desktop",
+  "image": "/slots/nolimit-city/ice-ice-yeti.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/ice-ice-yeti"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

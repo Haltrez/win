@@ -5,7 +5,7 @@
   "rtp": 96.06,
   "volatility": "very-high",
   "maxWin": 60000,
-  "releaseDate": "2022-01-11",
+  "releaseDate": "2021-03-02",
   "reels": "6x3–6x6",
   "paylines": "Up to 46,656 ways",
   "mechanics": [
@@ -42,13 +42,15 @@
     "mental",
     "san-quentin-xways"
   ],
-  "demoUrl": null,
-  "image": null,
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=FireInTheHole&language=en&device=desktop",
+  "image": "/slots/nolimit-city/fire-in-the-hole-xbomb.webp",
   "sources": [
-    "Provider game sheet / in-game info screen (verify before launch)"
+    "https://nolimitcity.com/games/fire-in-the-hole"
   ],
-  "verified": false,
-  "lastVerified": null,
-  "updatedAt": "2026-11-09",
-  "author": "editorial-team"
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team",
+  "releaseDatePrecision": "day",
+  "hitRate": 3.85
 }

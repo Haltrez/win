@@ -1,0 +1,57 @@
+{
+  "slug": "san-quentin-2-death-row",
+  "name": "San Quentin 2: Death Row",
+  "provider": "nolimit-city",
+  "rtp": 96.13,
+  "volatility": "very-high",
+  "maxWin": 200000,
+  "releaseDate": "2024-09-24",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "hitRate": 3.72,
+  "mechanics": [
+    "ways",
+    "reel-modifiers",
+    "free-spins",
+    "xways",
+    "ante-bet",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Enhancer Cells",
+      "description": "Above and below each reel, revealing features."
+    },
+    {
+      "name": "Split Wild",
+      "description": "Splits every regular symbol on its reel."
+    },
+    {
+      "name": "200,000x cap",
+      "description": "The highest in the Nolimit City catalogue."
+    }
+  ],
+  "review": "San Quentin 2: Death Row has the highest cap in Nolimit City's catalogue: 200,000x. The 5x4 grid has locked Enhancer Cells above and below each reel, which can reveal premium symbols, wilds and other features when they open.\n\nSplit Wilds can land on any reel and split every regular symbol on it. One or two bonus symbols in the base game turn wild and open cells. It's rated Insane volatility, so treat it as a lottery ticket.",
+  "pros": [
+    "Very high 200,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=SanQuentin2&language=en&device=desktop",
+  "image": "/slots/nolimit-city/san-quentin-2-death-row.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/san-quentin-2-death-row"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

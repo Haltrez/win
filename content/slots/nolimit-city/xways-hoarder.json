@@ -1,0 +1,56 @@
+{
+  "slug": "xways-hoarder",
+  "name": "xWays Hoarder xSplit®",
+  "provider": "nolimit-city",
+  "rtp": 96.14,
+  "volatility": "high",
+  "maxWin": 11030,
+  "releaseDate": "2021-07-06",
+  "releaseDatePrecision": "day",
+  "hitRate": 4.64,
+  "mechanics": [
+    "ways",
+    "reel-modifiers",
+    "sticky-wilds",
+    "free-spins",
+    "xways",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "xSplit Wilds",
+      "description": "Split everything to the left on their row."
+    },
+    {
+      "name": "xWays",
+      "description": "Reveal 2–4 matching symbols."
+    },
+    {
+      "name": "Bunker Raid Spins",
+      "description": "Sticky xWays."
+    }
+  ],
+  "review": "xWays Hoarder xSplit is a doomsday-prepper slot. xSplit Wilds split every symbol to their left on the same row, and xWays reveal two to four symbols, all the same if several land.\n\nScatters trigger Bunker Raid Spins, where xWays become sticky, and they can upgrade to super scatters. Nolimit rates it High volatility, with an 11,030x cap.",
+  "pros": [
+    "High 11,030x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=XwaysHoarder&language=en&device=desktop",
+  "image": "/slots/nolimit-city/xways-hoarder.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/xways-hoarder"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

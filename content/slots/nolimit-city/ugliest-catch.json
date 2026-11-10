@@ -1,0 +1,58 @@
+{
+  "slug": "ugliest-catch",
+  "name": "Ugliest Catch",
+  "provider": "nolimit-city",
+  "rtp": 96.11,
+  "volatility": "very-high",
+  "maxWin": 50000,
+  "releaseDate": "2023-10-17",
+  "releaseDatePrecision": "day",
+  "reels": "5x5",
+  "hitRate": 4.35,
+  "mechanics": [
+    "ways",
+    "money-collect",
+    "multipliers",
+    "free-spins",
+    "ante-bet",
+    "xways",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Locked positions",
+      "description": "Scatters unlock their reel."
+    },
+    {
+      "name": "Enhancer Cells",
+      "description": "Reveal Fisherman Wilds, Big Berta or xWays."
+    },
+    {
+      "name": "Fish trophies",
+      "description": "Carry random multipliers."
+    }
+  ],
+  "review": "Ugliest Catch is a 5x5 fishing slot with locked positions. Each scatter opens the locked positions on its reel, and Enhancer Cells above and below each reel can reveal a Fisherman Wild, Big Berta, xWays or normal symbols.\n\nFish trophies and Big Berta carry random multipliers. Nolimit rates it Extreme volatility, with a 50,000x cap.",
+  "pros": [
+    "Very high 50,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=UgliestCatch&language=en&device=desktop",
+  "image": "/slots/nolimit-city/ugliest-catch.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/ugliest-catch"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "punk-rocker-2",
+  "name": "Punk Rocker 2",
+  "provider": "nolimit-city",
+  "rtp": 96.06,
+  "volatility": "very-high",
+  "maxWin": 30144,
+  "releaseDate": "2024-07-09",
+  "releaseDatePrecision": "day",
+  "reels": "6x3",
+  "hitRate": 4.8,
+  "mechanics": [
+    "ways",
+    "walking-wilds",
+    "respins",
+    "free-spins",
+    "xways",
+    "ante-bet",
+    "bonus-buy"
+  ],
+  "themes": [
+    "music",
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Riot Respins",
+      "description": "Bonus symbols become locked Molotov Wilds."
+    },
+    {
+      "name": "Three bonus modes",
+      "description": "Different jumping wild counts and train enhancers."
+    },
+    {
+      "name": "xWays",
+      "description": "Reveal symbol stacks."
+    }
+  ],
+  "review": "Punk Rocker 2 is a 6x3 sequel where two bonus symbols trigger Riot Respins: the bonus symbols become Molotov Wilds and lock their reels. The bonus comes in three flavours, DisOBEY, ChAos and Mass Transit BBQ Spins, each with different numbers of jumping wilds and train enhancers.\n\nxWays adds symbol stacks. Nolimit rates it Extreme volatility, with a 30,144x cap.",
+  "pros": [
+    "Very high 30,144x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=PunkRocker2&language=en&device=desktop",
+  "image": "/slots/nolimit-city/punk-rocker-2.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/punk-rocker-2"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "hot-turkey",
+  "name": "Hot Turkey",
+  "provider": "thunderkick",
+  "rtp": 94.13,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "7 reels",
+  "winType": "Cluster pays (5+ symbols)",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "food",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Wilds avalanche",
+      "description": "Cascading wins."
+    },
+    {
+      "name": "Exploding wilds",
+      "description": "Clear space."
+    },
+    {
+      "name": "Multiplier grid",
+      "description": "Position multipliers."
+    }
+  ],
+  "review": "Hot Turkey is a festive 7x7 cluster-pays slot with a wild avalanche, exploding wilds and a multiplier grid feature.\n\nThunderkick rates it Very High volatility, with a 10,000x cap. The published RTP is 94.13%.\n\nThis holiday version wraps Thunderkick's 7x7 cluster engine in a roast-dinner theme. The free spins carry the multiplier grid between spins, which is where the bigger wins come from.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.13% published RTP",
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g84-94&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/hot-turkey.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/hot-turkey/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

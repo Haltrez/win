@@ -1,0 +1,53 @@
+{
+  "slug": "tesla-jolt",
+  "name": "Tesla Jolt",
+  "provider": "nolimit-city",
+  "rtp": 96.61,
+  "volatility": "medium",
+  "maxWin": 582,
+  "releaseDate": "2018-03-21",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.12,
+  "mechanics": [
+    "paylines",
+    "free-spins"
+  ],
+  "themes": [
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Tesla Jolt",
+      "description": "Turns a random symbol wild."
+    },
+    {
+      "name": "Charged Wilds",
+      "description": "Three stored wilds are released back onto the reels."
+    },
+    {
+      "name": "Tesla Spins",
+      "description": "10, 15 or 20 free spins."
+    }
+  ],
+  "review": "Tesla Jolt is an early 5x3 Nolimit City slot where the Tesla Jolt symbol on reel 5 turns a random symbol into a wild. Three or more scatters award 10, 15 or 20 Tesla Spins with Charged Wilds: wilds on reels 2 to 4 are stored, and once three are stored they're released back onto their reel.\n\nNolimit rates it Medium volatility, with a 96.61% RTP and a 582x cap. A calm, steampunk-tinged classic.",
+  "pros": [
+    "Above-average 96.61% RTP",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 582x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=TeslaJolt&language=en&device=desktop",
+  "image": "/slots/nolimit-city/tesla-jolt.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/tesla-jolt"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

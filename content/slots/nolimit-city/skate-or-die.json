@@ -1,0 +1,57 @@
+{
+  "slug": "skate-or-die",
+  "name": "Skate or Die",
+  "provider": "nolimit-city",
+  "rtp": 96.03,
+  "volatility": "very-high",
+  "maxWin": 30000,
+  "releaseDate": "2024-09-10",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.6,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins",
+    "ante-bet",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "music"
+  ],
+  "features": [
+    {
+      "name": "Extra Sauce Row",
+      "description": "Multipliers above the reels feed the wilds."
+    },
+    {
+      "name": "xZone Wild",
+      "description": "Spreads its row multiplier to the surrounding area."
+    },
+    {
+      "name": "xNudge Wilds",
+      "description": "Land on any reel and nudge into view."
+    }
+  ],
+  "review": "Skate or Die is a 5x3 skate-park slot with an Extra Sauce Row above the reels holding potential multipliers of 2x, 3x, 4x and 10x. An xZone Wild landing beneath an active multiplier applies that value to every position around it.\n\nxNudge Wilds land on any reel and nudge into view, and the new xCrash adds more chaos. Nolimit rates it Extreme volatility, with a 30,000x cap.",
+  "pros": [
+    "Very high 30,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=SkateOrDie&language=en&device=desktop",
+  "image": "/slots/nolimit-city/skate-or-die.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/skate-or-die"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

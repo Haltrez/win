@@ -1,0 +1,53 @@
+{
+  "slug": "toki-time",
+  "name": "Toki Time",
+  "provider": "thunderkick",
+  "rtp": 97.1,
+  "volatility": "low",
+  "maxWin": 1130,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "11 paylines",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "respins"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Expanding wild respin",
+      "description": "Respins on wins."
+    },
+    {
+      "name": "Win both ways",
+      "description": "Lines pay in both directions."
+    },
+    {
+      "name": "97.1% RTP",
+      "description": "Above average."
+    }
+  ],
+  "review": "Toki Time is a cute 11-line slot. Expanding wilds trigger a respin on a win, and wins pay both ways.\n\nThunderkick rates it Low volatility, with a 1,130x cap and a 97.1% RTP. Relaxed and high-returning.\n\nThe expanding wild respin and both-ways wins make for frequent small hits, helped by one of the highest RTPs on the market at 97.1%. Cute alpine creatures complete the picture.",
+  "pros": [
+    "Excellent 97.10% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 1,130x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-tokitime&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/toki-time.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/toki-time/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

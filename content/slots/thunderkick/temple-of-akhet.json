@@ -1,0 +1,53 @@
+{
+  "slug": "temple-of-akhet",
+  "name": "Temple of Akhet",
+  "provider": "thunderkick",
+  "rtp": 94.19,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "6 reels",
+  "mechanics": [
+    "scatter-pays",
+    "walking-wilds",
+    "progressive-multiplier",
+    "free-spins"
+  ],
+  "themes": [
+    "egypt"
+  ],
+  "features": [
+    {
+      "name": "Occurrence Pay",
+      "description": "Wins depend on symbol counts."
+    },
+    {
+      "name": "Scarab Wild",
+      "description": "Moves across the reels."
+    },
+    {
+      "name": "Multiplier ladder",
+      "description": "Builds up."
+    }
+  ],
+  "review": "Temple of Akhet is a 5x6 Egyptian slot using Occurrence Pay, which pays by how many symbols appear on the reels. The Scarab Wild moves across the reels, and a dynamic multiplier ladder builds up.\n\nThunderkick rates it High volatility, with a 10,000x cap. The published RTP is 94.19%.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.19% published RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g107-94&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/temple-of-akhet.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/temple-of-akhet/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

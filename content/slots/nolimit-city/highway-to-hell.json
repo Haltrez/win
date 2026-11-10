@@ -1,0 +1,60 @@
+{
+  "slug": "highway-to-hell",
+  "name": "Highway to Hell",
+  "provider": "nolimit-city",
+  "rtp": 96.03,
+  "volatility": "high",
+  "maxWin": 20066,
+  "releaseDate": "2025-04-22",
+  "releaseDatePrecision": "day",
+  "reels": "6x4",
+  "hitRate": 3.6,
+  "mechanics": [
+    "cascades",
+    "multipliers",
+    "reel-modifiers",
+    "free-spins",
+    "ante-bet",
+    "xnudge",
+    "xways",
+    "bonus-buy"
+  ],
+  "themes": [
+    "music",
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Avasplit",
+      "description": "Remaining symbols randomly grow after a win."
+    },
+    {
+      "name": "Enhancer Cells",
+      "description": "Locked cells under the middle reels."
+    },
+    {
+      "name": "xNudge Wilds",
+      "description": "Nudge up or down into full view."
+    }
+  ],
+  "review": "Highway to Hell is a 6x4 rock-themed avalanche slot. Winning symbols explode, and Avasplit randomly grows some of the remaining symbols by one size. Locked Enhancer Cells sit under the middle four reels.\n\nBoth regular wilds and xNudge Wilds can land anywhere, with xNudge Wilds moving up or down until fully visible. xWays and xSplit pile on more ways. Nolimit rates it High volatility, with a 20,066x cap.",
+  "pros": [
+    "Very high 20,066x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=HighwayToHell&language=en&device=desktop",
+  "image": "/slots/nolimit-city/highway-to-hell.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/highway-to-hell"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

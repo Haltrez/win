@@ -1,0 +1,57 @@
+{
+  "slug": "punk-rocker-3",
+  "name": "Punk Rocker 3",
+  "provider": "nolimit-city",
+  "rtp": 96.04,
+  "volatility": "very-high",
+  "maxWin": 19089,
+  "releaseDate": "2026-04-07",
+  "releaseDatePrecision": "day",
+  "reels": "6x3",
+  "hitRate": 4.67,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "free-spins",
+    "xways",
+    "bonus-buy"
+  ],
+  "themes": [
+    "music",
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Wild Queue",
+      "description": "Up to three multiplier wilds wait below the reels."
+    },
+    {
+      "name": "Enhancer Train",
+      "description": "Brings features from above the reels."
+    },
+    {
+      "name": "xWays",
+      "description": "Symbol stacks of two to four."
+    }
+  ],
+  "review": "Punk Rocker 3 keeps the 6x3 layout and adds an Enhancer Train above the reels and a Wild Queue below. At the start of each round, up to three wilds with random multipliers can join the queue.\n\nxWays symbols hold two to four of the same symbol, all matching. Nolimit rates it Extreme volatility, with a 19,089x cap. It's the series' most structured game.",
+  "pros": [
+    "Very high 19,089x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=PunkRocker3&language=en&device=desktop",
+  "image": "/slots/nolimit-city/punk-rocker-3.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/punk-rocker-3"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

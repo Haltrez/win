@@ -1,0 +1,52 @@
+{
+  "slug": "the-creepy-carnival",
+  "name": "The Creepy Carnival",
+  "provider": "nolimit-city",
+  "rtp": 96.07,
+  "volatility": "medium",
+  "maxWin": 1595,
+  "releaseDate": "2019-07-16",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 4.11,
+  "mechanics": [
+    "paylines",
+    "free-spins"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Free spins",
+      "description": "Retriggers up to 50 spins."
+    },
+    {
+      "name": "Star Spin bar",
+      "description": "Stores high-symbol wins for a bonus spin."
+    },
+    {
+      "name": "Extra wilds",
+      "description": "The Star Spin adds wilds."
+    }
+  ],
+  "review": "The Creepy Carnival is a 5x3 spooky fairground slot. Three or more scatters start free spins that can retrigger up to 50 spins.\n\nEvery base-game win on high symbols is stored in the Star Spin bar, which later awards one free spin with extra wilds using those symbols. Nolimit rates it Medium volatility, with a 1,595x cap. A gentle game with a dark look.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 1,595x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=TheCreepyCarnival&language=en&device=desktop",
+  "image": "/slots/nolimit-city/the-creepy-carnival.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/the-creepy-carnival"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

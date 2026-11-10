@@ -1,0 +1,53 @@
+{
+  "slug": "second-thunder",
+  "name": "Second Thunder",
+  "provider": "thunderkick",
+  "rtp": 94.2,
+  "volatility": "high",
+  "maxWin": 12500,
+  "releaseDate": null,
+  "reels": "6 reels",
+  "winType": "50 paylines",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Wild Field",
+      "description": "Adds wilds to the grid."
+    },
+    {
+      "name": "Feature row",
+      "description": "Wilds, scatters and reel multipliers."
+    },
+    {
+      "name": "50 paylines",
+      "description": "A 5x6 grid."
+    }
+  ],
+  "review": "Second Thunder is a 5x6, 50-line Ragnarok slot. The Wild Field feature and a hidden feature row bring wilds, scatters and reel multipliers, and in the bonus the feature row stays active.\n\nThunderkick rates it High volatility, with a 12,500x cap. The published RTP is 94.20%.",
+  "pros": [
+    "High 12,500x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.20% published RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g99-94&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/second-thunder.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/second-thunder/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

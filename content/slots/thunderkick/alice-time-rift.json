@@ -1,0 +1,55 @@
+{
+  "slug": "alice-time-rift",
+  "name": "Alice: Time Rift",
+  "provider": "thunderkick",
+  "rtp": 94.1,
+  "volatility": "high",
+  "maxWin": 7500,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "10 paylines",
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy",
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Sticky Respins",
+      "description": "Scatters and wilds lock symbols in place."
+    },
+    {
+      "name": "Random bonus modifiers",
+      "description": "The bonus starts with a random boost."
+    },
+    {
+      "name": "10 paylines",
+      "description": "A classic 3x5 grid."
+    }
+  ],
+  "review": "Alice: Time Rift is a dark steampunk take on Wonderland on a 3x5 grid with 10 paylines. Scatters and wilds trigger sticky respins, locking symbols in place to build up wins and set up near-misses on the bonus.\n\nThunderkick rates it High volatility, with a 7,500x cap. The published RTP is 94.10%, so it returns less on average than many slots.",
+  "pros": [
+    "Solid 7,500x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.10% published RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g106-94&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/alice-time-rift.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/alice-time-rift/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

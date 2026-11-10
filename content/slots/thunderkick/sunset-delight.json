@@ -1,0 +1,51 @@
+{
+  "slug": "sunset-delight",
+  "name": "Sunset Delight",
+  "provider": "thunderkick",
+  "rtp": 96.3,
+  "volatility": "low",
+  "maxWin": 413,
+  "releaseDate": null,
+  "reels": "3 reels",
+  "winType": "5 paylines",
+  "mechanics": [
+    "paylines",
+    "free-spins"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "3 reels",
+      "description": "A classic layout."
+    },
+    {
+      "name": "5 paylines",
+      "description": "Simple lines."
+    },
+    {
+      "name": "Free spins",
+      "description": "A bonus game."
+    }
+  ],
+  "review": "Sunset Delight is a simple 3-reel, 5-line slot with wilds, scatters and free spins.\n\nThunderkick rates it Low volatility, with a 413x cap and a 96.3% RTP. A straightforward classic.\n\nWith just three reels, five lines and a low 413x cap, it's for players who want classic fruit-machine simplicity rather than feature overload. The low volatility keeps sessions steady.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 413x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g3&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/sunset-delight.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/sunset-delight/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

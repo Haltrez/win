@@ -1,0 +1,57 @@
+{
+  "slug": "bangkok-hilton",
+  "name": "Bangkok Hilton",
+  "provider": "nolimit-city",
+  "rtp": 96.1,
+  "volatility": "very-high",
+  "maxWin": 44444,
+  "releaseDate": "2025-10-28",
+  "releaseDatePrecision": "day",
+  "reels": "2-3-4-4-4-4",
+  "hitRate": 3.75,
+  "mechanics": [
+    "ways",
+    "reel-modifiers",
+    "sticky-wilds",
+    "free-spins",
+    "xways",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Enhancer Cells",
+      "description": "Unlock xSplit, xWays, sticky wilds or wild reels."
+    },
+    {
+      "name": "Bonus wilds",
+      "description": "Bonus symbols become wilds when they land."
+    },
+    {
+      "name": "Isolation Spins",
+      "description": "Seven free spins with cells unlocked on the trigger reels."
+    }
+  ],
+  "review": "Bangkok Hilton is a prison-break slot with an unusual 2-3-4-4-4-4 layout across six reels, and four locked Enhancer Cells above the last four. When a scatter opens a cell, it can reveal xSplit reels or rows, xWays, sticky wilds, wild reels or doubled inmate symbols.\n\nBonus symbols land on reels 3 to 6 and turn into wilds, and three of them start seven Isolation Spins with cells unlocked on the reels where they landed. Nolimit rates it Extreme volatility, with a 44,444x ceiling. It's dense and busy, best learned in demo mode.",
+  "pros": [
+    "Very high 44,444x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=BangkokHilton&language=en&device=desktop",
+  "image": "/slots/nolimit-city/bangkok-hilton.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/bangkok-hilton"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

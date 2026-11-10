@@ -1,0 +1,57 @@
+{
+  "slug": "tsar-wars",
+  "name": "Tsar Wars",
+  "provider": "nolimit-city",
+  "rtp": 96.05,
+  "volatility": "high",
+  "maxWin": 19775,
+  "releaseDate": "2025-07-22",
+  "releaseDatePrecision": "day",
+  "reels": "6x6",
+  "hitRate": 4.72,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "progressive-multiplier",
+    "free-spins",
+    "xbomb",
+    "bonus-buy"
+  ],
+  "themes": [
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Cluster pays",
+      "description": "Five or more connected symbols."
+    },
+    {
+      "name": "Big symbols",
+      "description": "2x2 and 3x3 sizes."
+    },
+    {
+      "name": "Avalanche multiplier",
+      "description": "+1x per avalanche."
+    }
+  ],
+  "review": "Tsar Wars is a 6x6 cluster slot where five or more connected symbols win and are destroyed. Symbols come in 1x1, 2x2 and 3x3 sizes, and every new avalanche after a win adds x1 to the multiplier.\n\nxBomb and Trapped Wilds help keep sequences going. Nolimit rates it High volatility, with a 19,775x cap.",
+  "pros": [
+    "Very high 19,775x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=TsarWars&language=en&device=desktop",
+  "image": "/slots/nolimit-city/tsar-wars.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/tsar-wars"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

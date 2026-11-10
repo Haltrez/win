@@ -1,0 +1,54 @@
+{
+  "slug": "dionysus-golden-feast",
+  "name": "Dionysus Golden Feast",
+  "provider": "thunderkick",
+  "rtp": 96.16,
+  "volatility": "high",
+  "maxWin": 7500,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "15 paylines",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology",
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Wild payline multipliers",
+      "description": "Wilds multiply their line."
+    },
+    {
+      "name": "Sticky Re-spin",
+      "description": "Locks symbols for respins."
+    },
+    {
+      "name": "Bonus scatter game",
+      "description": "Free spins from scatters."
+    }
+  ],
+  "review": "Dionysus Golden Feast is a 15-line slot about the god of wine, with wild payline multipliers, a sticky respin feature and a bonus scatter game.\n\nThunderkick rates it High volatility, with a 7,500x cap and a 96.16% RTP.\n\nBecause the wilds multiply the whole payline they sit on, a single wild on a premium line matters more than in most 15-line games. The sticky respins give near-misses a second chance to connect.",
+  "pros": [
+    "Solid 7,500x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g60-96&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/dionysus-golden-feast.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/dionysus-golden-feast/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "buffalo-hunter",
+  "name": "Buffalo Hunter",
+  "provider": "nolimit-city",
+  "rtp": 96.01,
+  "volatility": "high",
+  "maxWin": 12647,
+  "releaseDate": "2020-09-08",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "hitRate": 3.09,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "animals",
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Mystery dreamcatchers",
+      "description": "All reveal the same symbol."
+    },
+    {
+      "name": "Bonus choice",
+      "description": "Buffalo Horde or Prairie Multipliers."
+    },
+    {
+      "name": "Stampede Super Bonus",
+      "description": "Five scatters unlock the top bonus."
+    }
+  ],
+  "review": "Buffalo Hunter is a 5x4 prairie slot where dreamcatcher mystery symbols all reveal the same symbol. Three or four scatters let you choose a bonus: Buffalo Horde turns premiums into buffalo, and Prairie Multipliers add up to x5 to each premium. Both give +2 spins for every upgrade.\n\nFive scatters go straight to the Stampede Super Bonus. Nolimit rates it High volatility, with a 12,647x cap and a 32% hit rate, so wins come fairly often for the studio. It's a twist on the classic buffalo theme.",
+  "pros": [
+    "High 12,647x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=BuffaloHunter&language=en&device=desktop",
+  "image": "/slots/nolimit-city/buffalo-hunter.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/buffalo-hunter"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

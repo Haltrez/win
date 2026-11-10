@@ -1,0 +1,53 @@
+{
+  "slug": "big-fin-bay",
+  "name": "Big Fin Bay",
+  "provider": "thunderkick",
+  "rtp": 96.14,
+  "volatility": "high",
+  "maxWin": 15040,
+  "releaseDate": null,
+  "reels": "6 reels",
+  "winType": "5040 (117649 in the Bonus game)",
+  "mechanics": [
+    "ways",
+    "expanding-wilds",
+    "grid-expansion",
+    "free-spins"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "5,040 to 117,649 ways",
+      "description": "Ways grow in the bonus."
+    },
+    {
+      "name": "Expanding wilds",
+      "description": "Cover reels."
+    },
+    {
+      "name": "Mystery wild",
+      "description": "A random wild feature."
+    }
+  ],
+  "review": "Big Fin Bay is a 6-reel fishing slot with 5,040 ways in the base game and up to 117,649 in the bonus. Expanding wilds and a mystery wild feature help you hunt the golden marlin.\n\nThunderkick rates it High volatility, with a 15,040x cap and a 96.14% RTP.",
+  "pros": [
+    "Very high 15,040x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g37&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/big-fin-bay.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/big-fin-bay/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

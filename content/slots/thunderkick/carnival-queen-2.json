@@ -1,0 +1,54 @@
+{
+  "slug": "carnival-queen-2",
+  "name": "Carnival Queen 2",
+  "provider": "thunderkick",
+  "rtp": 94.18,
+  "volatility": "high",
+  "maxWin": 25000,
+  "releaseDate": null,
+  "reels": "6 reels",
+  "winType": "5040 to 117 649",
+  "mechanics": [
+    "ways",
+    "cascades",
+    "grid-expansion",
+    "free-spins"
+  ],
+  "themes": [
+    "music"
+  ],
+  "features": [
+    {
+      "name": "Random reel heights",
+      "description": "5,040 to 117,649 ways."
+    },
+    {
+      "name": "Avalanche",
+      "description": "Wins clear and refill."
+    },
+    {
+      "name": "Exploding wilds",
+      "description": "Triggered by wins."
+    }
+  ],
+  "review": "Carnival Queen 2 is a 6-reel festival slot with random reel heights, starting at 5,040 ways. Avalanche wins trigger exploding wilds and can raise the ways count up to 117,649.\n\nThunderkick rates it High volatility, with a 25,000x cap. The published RTP is 94.18%.",
+  "pros": [
+    "Very high 25,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.18% published RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g93-94&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/carnival-queen-2.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/carnival-queen-2/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

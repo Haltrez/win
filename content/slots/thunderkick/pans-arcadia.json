@@ -1,0 +1,52 @@
+{
+  "slug": "pans-arcadia",
+  "name": "Pan’s Arcadia",
+  "provider": "thunderkick",
+  "rtp": 96.1,
+  "volatility": "very-high",
+  "maxWin": 4320,
+  "releaseDate": null,
+  "reels": "6 reels",
+  "winType": "13 paylines",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Golden Nektar",
+      "description": "Triggers respins."
+    },
+    {
+      "name": "2x wilds",
+      "description": "Multiply wins."
+    },
+    {
+      "name": "Six-level bonus",
+      "description": "Progressive free spins."
+    }
+  ],
+  "review": "Pan's Arcadia is a 3x6, 13-line mythology slot. Golden Nektar triggers respins, a 2x multiplicative wild stirs things up, and the bonus game climbs through six levels.\n\nThunderkick rates it Very High volatility, with a 4,320x cap and a 96.10% RTP.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g98-96&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/pans-arcadia.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/pans-arcadia/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

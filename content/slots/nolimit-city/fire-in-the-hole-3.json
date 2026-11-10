@@ -1,0 +1,57 @@
+{
+  "slug": "fire-in-the-hole-3",
+  "name": "Fire in the Hole 3",
+  "provider": "nolimit-city",
+  "rtp": 96.05,
+  "volatility": "very-high",
+  "maxWin": 70000,
+  "releaseDate": "2025-06-03",
+  "releaseDatePrecision": "day",
+  "reels": "6x6",
+  "hitRate": 4.51,
+  "mechanics": [
+    "cascades",
+    "grid-expansion",
+    "multipliers",
+    "free-spins",
+    "xbomb",
+    "bonus-buy"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Collapsing Mine",
+      "description": "Rows open with each collapse."
+    },
+    {
+      "name": "Wild Mining",
+      "description": "Lines of matching symbols without a win turn wild."
+    },
+    {
+      "name": "xHole",
+      "description": "A new mechanic that shuffles the board."
+    }
+  ],
+  "review": "Fire in the Hole 3 returns to the collapsing mine, where rows open from three to six with each collapse. xBomb Wilds clear their neighbours and raise the multiplier, Wild Mining is triggered by lines of three to six matching symbols without a win, and buried features hide in the dirt.\n\nThe new xHole mechanic and xGOD add extra chaos. Nolimit rates it Insane volatility, with a 70,000x cap, the biggest in the series.",
+  "pros": [
+    "Very high 70,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=FireInTheHole3&language=en&device=desktop",
+  "image": "/slots/nolimit-city/fire-in-the-hole-3.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/fire-in-the-hole-3"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

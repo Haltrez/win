@@ -1,0 +1,57 @@
+{
+  "slug": "evil-goblins",
+  "name": "Evil Goblins xBomb®",
+  "provider": "nolimit-city",
+  "rtp": 96.14,
+  "volatility": "very-high",
+  "maxWin": 31969,
+  "releaseDate": "2021-10-12",
+  "releaseDatePrecision": "day",
+  "reels": "6x3",
+  "hitRate": 2.47,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "free-spins",
+    "xbomb",
+    "bonus-buy"
+  ],
+  "themes": [
+    "fantasy",
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Resurrection Wilds",
+      "description": "Three Dead Wilds revive with a multiplier."
+    },
+    {
+      "name": "Goblin Sacrifice",
+      "description": "Matches above the reels throw grenades."
+    },
+    {
+      "name": "xBomb",
+      "description": "Clears the board and adds +1 to the multiplier."
+    }
+  ],
+  "review": "Evil Goblins xBomb is a 6x3 fantasy slot where three Dead Wilds come back to life as Resurrection Wilds, and the last one to land carries a large multiplier. Match the goblin above a reel with the symbol beneath it for a Goblin Sacrifice, which throws a grenade.\n\nxBombs clear every symbol except scatters and special wilds, adding +1 to the multiplier each time. Nolimit rates it Extreme volatility, with a 31,969x cap and a high 40% hit rate.",
+  "pros": [
+    "Very high 31,969x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=EvilGoblins&language=en&device=desktop",
+  "image": "/slots/nolimit-city/evil-goblins.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/evil-goblins"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

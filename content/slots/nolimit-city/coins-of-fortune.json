@@ -1,0 +1,53 @@
+{
+  "slug": "coins-of-fortune",
+  "name": "Coins of Fortune",
+  "provider": "nolimit-city",
+  "rtp": 96.48,
+  "volatility": "medium",
+  "maxWin": 6015,
+  "releaseDate": "2018-06-28",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.58,
+  "mechanics": [
+    "paylines",
+    "walking-wilds",
+    "respins"
+  ],
+  "themes": [
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Dragon Nudge",
+      "description": "Three matching symbols on a reel reveal a dragon wild."
+    },
+    {
+      "name": "Lucky Respins",
+      "description": "Scatters walk left and are collected as they exit."
+    },
+    {
+      "name": "5x3 paylines",
+      "description": "A classic layout."
+    }
+  ],
+  "review": "Coins of Fortune is an early Nolimit City Asian-themed slot. Landing three matching symbols on one reel triggers Dragon Nudge, which reveals a stacked dragon wild on that reel and respins the rest.\n\nThree or more scatters start Lucky Respins, where scatters walk left each spin and are collected as they leave the reels. Nolimit rates it Medium volatility, with a 6,015x cap and 96.48% RTP. It's a gentle, readable game, a good choice for a calm session.",
+  "pros": [
+    "Solid 6,015x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=CoinsOfFortune&language=en&device=desktop",
+  "image": "/slots/nolimit-city/coins-of-fortune.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/coins-of-fortune"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "folsom-prison",
+  "name": "Folsom Prison",
+  "provider": "nolimit-city",
+  "rtp": 96.07,
+  "volatility": "very-high",
+  "maxWin": 75000,
+  "releaseDate": "2022-06-14",
+  "releaseDatePrecision": "day",
+  "hitRate": 4.42,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "reel-modifiers",
+    "ante-bet",
+    "free-spins",
+    "xways",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Toast Bet",
+      "description": "20% extra cost for an assured scatter on reel 2."
+    },
+    {
+      "name": "Cockroach Nest",
+      "description": "A second wild type."
+    },
+    {
+      "name": "Walk the Line",
+      "description": "Eight or more free spins."
+    }
+  ],
+  "review": "Folsom Prison is a prison slot whose reel area grows as you play. The optional Toast Bet costs 20% more and ensures a scatter on reel 2. Scatters only appear on the middle rows of reels 2 to 5.\n\nThree scatters start eight or more Walk the Line spins, and the Cockroach Nest is a second wild type. xWays and xSplit expand the ways. Nolimit rates it Insane volatility, with a 75,000x cap.",
+  "pros": [
+    "Very high 75,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=FolsomPrison&language=en&device=desktop",
+  "image": "/slots/nolimit-city/folsom-prison.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/folsom-prison"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

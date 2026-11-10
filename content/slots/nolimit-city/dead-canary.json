@@ -1,0 +1,58 @@
+{
+  "slug": "dead-canary",
+  "name": "Dead Canary",
+  "provider": "nolimit-city",
+  "rtp": 96.02,
+  "volatility": "very-high",
+  "maxWin": 65000,
+  "releaseDate": "2022-12-20",
+  "releaseDatePrecision": "day",
+  "reels": "3-4-3-4-3-4",
+  "hitRate": 3.82,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "reel-modifiers",
+    "free-spins",
+    "ante-bet",
+    "xbomb",
+    "bonus-buy"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Wild Mining",
+      "description": "Diagonal near-misses turn into wilds."
+    },
+    {
+      "name": "Barriers",
+      "description": "Block scatters until they're cleared."
+    },
+    {
+      "name": "xBomb cross blasts",
+      "description": "Clear a cross pattern and raise the multiplier."
+    }
+  ],
+  "review": "Dead Canary is a mining slot with an uneven 3-4-3-4-3-4 grid and barriers that block parts of the reels. If three to five matching symbols line up diagonally without a win, Wild Mining is triggered, and scatters that land behind a barrier don't count until it's cleared.\n\nxBomb Wilds explode in a cross pattern around themselves, clearing symbols and boosting the multiplier. The bonus is Canary Freespins. Nolimit rates it Extreme volatility, with a 65,000x ceiling.",
+  "pros": [
+    "Very high 65,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=DeadCanary&language=en&device=desktop",
+  "image": "/slots/nolimit-city/dead-canary.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/dead-canary"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

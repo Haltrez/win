@@ -1,0 +1,58 @@
+{
+  "slug": "apocalypse",
+  "name": "Apocalypse Super xNudge®",
+  "provider": "nolimit-city",
+  "rtp": 96.03,
+  "volatility": "very-high",
+  "maxWin": 20000,
+  "releaseDate": "2024-07-23",
+  "releaseDatePrecision": "day",
+  "reels": "6x4",
+  "hitRate": 3.98,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins",
+    "ante-bet",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror",
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "xNudge Wilds",
+      "description": "Nudge down a step at a time, gaining +1 multiplier per step."
+    },
+    {
+      "name": "Super xNudge",
+      "description": "Must land on the same row on reels 3 and 4."
+    },
+    {
+      "name": "Carnage and Doomsday Spins",
+      "description": "Bonus rounds from three or four scatters."
+    }
+  ],
+  "review": "Apocalypse Super xNudge is a 6x4 doomsday slot where xNudge Wilds on reels 2 to 5 drop to the bottom of their reel, adding +1 to their multiplier for every step. The Super xNudge Wild only lands on reels 3 and 4, and it activates only when both land on the same row.\n\nThree scatters start Carnage Spins and four start Doomsday Spins, both centred on stacking wild multipliers. A paid feature spin ensures a pair of Super xNudge Wilds in the same row. Nolimit rates it Extreme volatility, and it tops out at 20,000x.",
+  "pros": [
+    "Very high 20,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Apocalypse&language=en&device=desktop",
+  "image": "/slots/nolimit-city/apocalypse.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/apocalypse"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

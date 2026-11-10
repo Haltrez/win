@@ -1,0 +1,56 @@
+{
+  "slug": "pixies-vs-pirates",
+  "name": "Pixies vs Pirates",
+  "provider": "nolimit-city",
+  "rtp": 95.91,
+  "volatility": "high",
+  "maxWin": 11907,
+  "releaseDate": "2019-09-03",
+  "releaseDatePrecision": "day",
+  "hitRate": 3.24,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "free-spins",
+    "xways",
+    "xnudge"
+  ],
+  "themes": [
+    "fantasy",
+    "pirates"
+  ],
+  "features": [
+    {
+      "name": "xNudge Wilds",
+      "description": "+1 multiplier per nudge."
+    },
+    {
+      "name": "xWays Mystery Chests",
+      "description": "Reveal symbol stacks for more ways."
+    },
+    {
+      "name": "Battle Rounds",
+      "description": "Free spins with 11,664 ways."
+    }
+  ],
+  "review": "Pixies vs Pirates is a six-reel fantasy slot that pairs xNudge Wilds with xWays Mystery Chests. Wilds nudge into view and gain +1 per step, while chests reveal stacks of symbols to add ways.\n\nThree or more scatters start the Battle Rounds Freespins, where every reel is fully expanded for 11,664 ways and the wild multipliers can grow much higher. Nolimit rates it High volatility, with an 11,907x cap.",
+  "pros": [
+    "High 11,907x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Slightly below-average 95.91% RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=PixiesVsPirates&language=en&device=desktop",
+  "image": "/slots/nolimit-city/pixies-vs-pirates.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/pixies-vs-pirates"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

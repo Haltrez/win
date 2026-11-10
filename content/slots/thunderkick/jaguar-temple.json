@@ -1,0 +1,54 @@
+{
+  "slug": "jaguar-temple",
+  "name": "Jaguar Temple",
+  "provider": "thunderkick",
+  "rtp": 96.1,
+  "volatility": "medium",
+  "maxWin": 2045,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "20 paylines",
+  "mechanics": [
+    "paylines",
+    "expanding-symbols",
+    "expanding-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Expanding symbols",
+      "description": "Fill reels."
+    },
+    {
+      "name": "Expanding wilds",
+      "description": "Appear in the bonus."
+    },
+    {
+      "name": "20 paylines",
+      "description": "A 5-reel layout."
+    }
+  ],
+  "review": "Jaguar Temple is a 20-line Incan slot with expanding symbols and a bonus game with expanding wilds.\n\nThunderkick rates it Medium volatility, with a 2,045x cap and a 96.1% RTP.\n\nThe expanding symbols in the base game and the expanding wilds in the bonus give it a book-style rhythm. The medium-volatility maths make it calmer than most of the catalogue.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 2,045x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g19&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/jaguar-temple.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/jaguar-temple/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

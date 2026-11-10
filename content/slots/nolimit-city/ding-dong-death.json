@@ -1,0 +1,56 @@
+{
+  "slug": "ding-dong-death",
+  "name": "Ding Dong Death",
+  "provider": "nolimit-city",
+  "rtp": 96.08,
+  "volatility": "very-high",
+  "maxWin": 14280,
+  "releaseDate": "2026-09-22",
+  "releaseDatePrecision": "day",
+  "reels": "6x3",
+  "hitRate": 5.0,
+  "mechanics": [
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Death Meter",
+      "description": "Every third avalanche unlocks a symbol upgrade."
+    },
+    {
+      "name": "Dropping xNudge Wilds",
+      "description": "Gain +1 per symbol they pass on the way down."
+    },
+    {
+      "name": "Knock Knock",
+      "description": "A near-miss feature for horizontal matches."
+    }
+  ],
+  "review": "Ding Dong Death is a 6x3 avalanche slot with a five-level Death Meter. Every third avalanche unlocks a level, which turns all of a chosen character symbol into something better. xNudge Wilds drop to the bottom of their reel and gain +1 for every symbol they pass.\n\nIf three or more matching symbols line up horizontally without a win, Knock Knock is triggered. xSplit also appears, and the bonus is Ding Dong Spins. Nolimit rates it Extreme volatility, with a 14,280x cap.",
+  "pros": [
+    "High 14,280x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=DingDongDeath&language=en&device=desktop",
+  "image": "/slots/nolimit-city/ding-dong-death.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/ding-dong-death"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

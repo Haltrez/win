@@ -1,0 +1,58 @@
+{
+  "slug": "dead-dead-or-deader",
+  "name": "Dead, Dead Or Deader",
+  "provider": "nolimit-city",
+  "rtp": 96.09,
+  "volatility": "very-high",
+  "maxWin": 19349,
+  "releaseDate": "2025-02-25",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.72,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins",
+    "ante-bet",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror",
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Positional wild multipliers",
+      "description": "Wild values rise from 1x on the left reel upward."
+    },
+    {
+      "name": "xNudge Wilds",
+      "description": "Stacked wilds on reels 2–4 that gain multipliers."
+    },
+    {
+      "name": "Dead and Deader Spins",
+      "description": "Twelve free spins from three or four scatters."
+    }
+  ],
+  "review": "Dead, Dead Or Deader is a 5x3 slot where wild multipliers rise from left to right: the first reel's wilds are 1x, the next 2x and so on. Stacked xNudge Wilds appear on reels 2 to 4 and always nudge into view, adding to the multiplier with each step.\n\nScatters only land on reels 2 to 5. Three give twelve Dead Spins and four give twelve Deader Spins, where xNudge Wilds become more frequent. Nolimit rates it Extreme volatility, with a 19,349x maximum.",
+  "pros": [
+    "Very high 19,349x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=DeadDeadOrDeader&language=en&device=desktop",
+  "image": "/slots/nolimit-city/dead-dead-or-deader.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/dead-dead-or-deader"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

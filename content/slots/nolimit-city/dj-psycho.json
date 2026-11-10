@@ -1,0 +1,58 @@
+{
+  "slug": "dj-psycho",
+  "name": "DJ Psycho",
+  "provider": "nolimit-city",
+  "rtp": 96.05,
+  "volatility": "high",
+  "maxWin": 25420,
+  "releaseDate": "2023-08-22",
+  "releaseDatePrecision": "day",
+  "reels": "4x4",
+  "hitRate": 2.53,
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "progressive-multiplier",
+    "free-spins",
+    "ante-bet",
+    "bonus-buy"
+  ],
+  "themes": [
+    "music",
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "xCluster wins",
+      "description": "Clusters of three or more touching symbols."
+    },
+    {
+      "name": "xKnob",
+      "description": "Becomes a wild and raises the global multiplier."
+    },
+    {
+      "name": "Psycho Spins",
+      "description": "The global multiplier stays between spins."
+    }
+  ],
+  "review": "DJ Psycho is a 4x4 cluster slot where three or more touching symbols win and disappear. Transformed symbols gain a second value through Crossed Symbols, and the xKnob symbol turns into a wild and adds at least +1 to a global multiplier that becomes sticky during Psycho Spins.\n\nThe Break symbol shakes things up further. Nolimit rates it High volatility, with a 25,420x cap and a high 39.5% hit rate, so small wins come often while the global multiplier builds. The club setting fits the pace.",
+  "pros": [
+    "Very high 25,420x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=DjPsycho&language=en&device=desktop",
+  "image": "/slots/nolimit-city/dj-psycho.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/dj-psycho"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

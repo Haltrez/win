@@ -1,0 +1,54 @@
+{
+  "slug": "bass-hunter",
+  "name": "Bass Hunter",
+  "provider": "thunderkick",
+  "rtp": 94.19,
+  "volatility": "medium",
+  "maxWin": 5000,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "10 paylines",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "jackpot",
+    "respins"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Cash Fish",
+      "description": "Carry cash values."
+    },
+    {
+      "name": "Jackpot Fish",
+      "description": "Bigger fixed prizes."
+    },
+    {
+      "name": "Hunter Respin",
+      "description": "Keeps the fish collection going."
+    }
+  ],
+  "review": "Bass Hunter is a 3x5 fishing slot with 10 paylines. Cash Fish carry values, Jackpot Fish hold bigger prizes, and Mystery Fish hide surprises, while the Hunter Respin feature keeps the collecting going.\n\nThunderkick rates it Medium volatility, with a 5,000x cap. The published RTP is 94.19%.",
+  "pros": [
+    "Solid 5,000x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.19% published RTP",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g108-94&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/bass-hunter.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/bass-hunter/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

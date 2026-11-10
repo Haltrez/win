@@ -1,0 +1,57 @@
+{
+  "slug": "book-of-shadows",
+  "name": "Book of Shadows",
+  "provider": "nolimit-city",
+  "rtp": 96.01,
+  "volatility": "high",
+  "maxWin": 30338,
+  "releaseDate": "2020-08-20",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.0,
+  "mechanics": [
+    "paylines",
+    "expanding-symbols",
+    "free-spins",
+    "gamble",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Shadow Rows",
+      "description": "Pay extra for more rows and win lines."
+    },
+    {
+      "name": "Golden expanding symbol",
+      "description": "Can be redrawn at the start of the bonus."
+    },
+    {
+      "name": "Gamble to bonus",
+      "description": "Gamble a win for a shot at the free spins."
+    }
+  ],
+  "review": "Book of Shadows is Nolimit City's take on the book format, with a twist: Shadow Rows let you pay extra to add rows and win lines. More rows mean more frequent wins and bigger payouts, at a higher cost per spin.\n\nThree or more scatters, which are also wilds, award ten free spins with a golden expanding symbol, and you can redraw it if you don't like the first pick. There's a 50/50 gamble and a gamble-to-bonus option. Nolimit rates it High volatility, with a 30,338x ceiling, far above a typical book slot.",
+  "pros": [
+    "Very high 30,338x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=BookOfShadows&language=en&device=desktop",
+  "image": "/slots/nolimit-city/book-of-shadows.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/book-of-shadows"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

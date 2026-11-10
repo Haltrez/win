@@ -1,0 +1,54 @@
+{
+  "slug": "casino-win-spin",
+  "name": "Casino Win Spin",
+  "provider": "nolimit-city",
+  "rtp": 96.74,
+  "volatility": "medium",
+  "maxWin": 2000,
+  "releaseDate": "2018-01-31",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.54,
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "respins"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Hot Zones",
+      "description": "Matching symbols on reels 2 and 4 trigger features."
+    },
+    {
+      "name": "Expanding wilds",
+      "description": "Cover a whole reel."
+    },
+    {
+      "name": "Spin 'til You Win",
+      "description": "Respins that get boosted until a win lands."
+    }
+  ],
+  "review": "Casino Win Spin is an early Nolimit City slot with a classic 5x3 setup and two features triggered by Hot Zones on reels 2 and 4. Matching symbols in both zones can trigger expanding wilds that cover whole reels.\n\nThe other feature is Spin 'til You Win: respins that continue until a win lands, each failed spin boosting the next one. Nolimit rates it Medium volatility with a 2,000x cap. It's a gentle, old-school game, far from what the studio is known for today.",
+  "pros": [
+    "Above-average 96.74% RTP",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 2,000x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=CasinoWinSpin&language=en&device=desktop",
+  "image": "/slots/nolimit-city/casino-win-spin.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/casino-win-spin"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

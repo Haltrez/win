@@ -1,0 +1,54 @@
+{
+  "slug": "tiger-rush",
+  "name": "Tiger Rush",
+  "provider": "thunderkick",
+  "rtp": 96.3,
+  "volatility": "medium",
+  "maxWin": 1783,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "10 in Main Game, 25 in Bonus Game",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "grid-expansion",
+    "free-spins"
+  ],
+  "themes": [
+    "asian",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Expanding reels",
+      "description": "More lines in the bonus."
+    },
+    {
+      "name": "Expanding wilds",
+      "description": "Cover reels."
+    },
+    {
+      "name": "Bonus spins",
+      "description": "Free spins."
+    }
+  ],
+  "review": "Tiger Rush is an Asian tiger slot with 10 lines in the base game and 25 in the bonus. Expanding wilds, bonus spins and expanding reels are its features.\n\nThunderkick rates it Medium volatility, with a 1,783x cap and a 96.3% RTP.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 1,783x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g18&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/tiger-rush.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/tiger-rush/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "kiss-my-chainsaw",
+  "name": "Kiss My Chainsaw",
+  "provider": "nolimit-city",
+  "rtp": 96.1,
+  "volatility": "high",
+  "maxWin": 10900,
+  "releaseDate": "2023-04-11",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "hitRate": 3.5,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "grid-expansion",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Burnout",
+      "description": "Two scatters on the same row trigger it."
+    },
+    {
+      "name": "The Ride",
+      "description": "A 5x5 bonus with Charged Wilds up to 4x."
+    },
+    {
+      "name": "The Last Ride",
+      "description": "A assured scatter on reel 5."
+    }
+  ],
+  "review": "Kiss My Chainsaw is a 5x4 horror slot where scatters only land on reels 1, 3 and 5. Landing exactly two on the same row triggers Burnout. In The Ride bonus, an extra row is added for a 5x5 grid, and Charged Wilds grow up to 4x before they're destroyed.\n\nThe Last Ride works the same way but ensures a scatter on reel 5. xSplit appears too. Nolimit rates it High volatility, with a 10,900x cap.",
+  "pros": [
+    "High 10,900x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=KissMyChainsaw&language=en&device=desktop",
+  "image": "/slots/nolimit-city/kiss-my-chainsaw.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/kiss-my-chainsaw"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

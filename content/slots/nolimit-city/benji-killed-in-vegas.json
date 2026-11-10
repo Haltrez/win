@@ -1,0 +1,58 @@
+{
+  "slug": "benji-killed-in-vegas",
+  "name": "Benji Killed In Vegas",
+  "provider": "nolimit-city",
+  "rtp": 96.04,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": "2023-02-07",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 4.3,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "respins",
+    "free-spins",
+    "ante-bet",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Dead Presidents Nudge",
+      "description": "Fully landed premiums pull matching symbols into view."
+    },
+    {
+      "name": "2-Dice Respin",
+      "description": "Two scatters become x2 and x3 overlay multipliers."
+    },
+    {
+      "name": "VEGA$ Spins",
+      "description": "Nine free spins with x2–x4 overlays."
+    }
+  ],
+  "review": "Benji Killed In Vegas is a 5x3 crime slot set on the Strip. Its Dead Presidents Nudge is triggered when a premium symbol lands fully on one of the first three reels, pulling matching pieces into view elsewhere. A three-row xNudge Wild always becomes fully visible, adding +1 to its multiplier per nudge.\n\nTwo scatters give a dice respin, turning them into x2 and x3 overlay multipliers. Three scatters award nine VEGA$ Spins with x2, x3 and x4 overlays. xSplit also appears. Nolimit rates it High volatility, with a 10,000x maximum.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=BenjiKilledInVegas&language=en&device=desktop",
+  "image": "/slots/nolimit-city/benji-killed-in-vegas.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/benji-killed-in-vegas"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

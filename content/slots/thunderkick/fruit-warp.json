@@ -1,0 +1,51 @@
+{
+  "slug": "fruit-warp",
+  "name": "Fruit Warp",
+  "provider": "thunderkick",
+  "rtp": 97.0,
+  "volatility": "medium",
+  "maxWin": 11000,
+  "releaseDate": null,
+  "reels": "9 reels",
+  "mechanics": [
+    "cluster-pays",
+    "multipliers"
+  ],
+  "themes": [
+    "fruit",
+    "space"
+  ],
+  "features": [
+    {
+      "name": "Fruit Mode",
+      "description": "Five or more fruits activate it."
+    },
+    {
+      "name": "Dynamic multiplier",
+      "description": "Grows during the feature."
+    },
+    {
+      "name": "97.0% RTP",
+      "description": "Above average."
+    }
+  ],
+  "review": "Fruit Warp is a cluster-style fruit slot where five or more fruits activate Fruit Mode, with a dynamic multiplier that can make wins much bigger.\n\nThunderkick rates it Medium volatility, with an 11,000x cap and a strong 97.0% RTP. It doesn't use paylines.",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "High 11,000x win ceiling",
+    "Lower volatility suits longer, steadier sessions"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-fruittime&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/fruit-warp.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/fruit-warp/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

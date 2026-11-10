@@ -3,9 +3,9 @@
   "name": "San Quentin xWays",
   "provider": "nolimit-city",
   "rtp": 96.03,
-  "volatility": "very-high",
+  "volatility": "high",
   "maxWin": 150000,
-  "releaseDate": "2021-01-26",
+  "releaseDate": "2021-01-12",
   "reels": "5 reels",
   "paylines": "Up to 16,384 ways",
   "mechanics": [
@@ -36,7 +36,7 @@
     "Signature xWays mechanic"
   ],
   "cons": [
-    "Extremely high volatility",
+    "High volatility makes sessions swingy",
     "Bonuses are usually modest"
   ],
   "related": [
@@ -44,13 +44,15 @@
     "tombstone-rip",
     "fire-in-the-hole-xbomb"
   ],
-  "demoUrl": null,
-  "image": null,
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=SanQuentin&language=en&device=desktop",
+  "image": "/slots/nolimit-city/san-quentin-xways.webp",
   "sources": [
-    "Provider game sheet / in-game info screen (verify before launch)"
+    "https://nolimitcity.com/games/san-quentin"
   ],
-  "verified": false,
-  "lastVerified": null,
-  "updatedAt": "2026-11-09",
-  "author": "editorial-team"
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team",
+  "releaseDatePrecision": "day",
+  "hitRate": 2.92
 }

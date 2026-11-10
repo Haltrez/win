@@ -1,0 +1,58 @@
+{
+  "slug": "karen-maneater",
+  "name": "Karen Maneater",
+  "provider": "nolimit-city",
+  "rtp": 96,
+  "volatility": "very-high",
+  "maxWin": 11757,
+  "releaseDate": "2022-05-10",
+  "releaseDatePrecision": "day",
+  "reels": "6x3",
+  "hitRate": 4.07,
+  "mechanics": [
+    "ways",
+    "grid-expansion",
+    "infectious-wilds",
+    "free-spins",
+    "xways",
+    "ante-bet",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Expanding reels",
+      "description": "Scatters make the reels to their right taller."
+    },
+    {
+      "name": "Infectious xWays",
+      "description": "Reveal symbols and spread them."
+    },
+    {
+      "name": "Nudging last-reel wild",
+      "description": "Gains +1 per nudge."
+    }
+  ],
+  "review": "Karen Maneater is a satirical 6-reel slot that grows from three rows. Raccoon scatters land only on the middle four reels, and each one makes every reel to its right one position taller. Infectious xWays on the middle reels reveal two to four symbols and spread them.\n\nA wild on the last reel nudges to the bottom, gaining +1 per nudge. Nolimit rates it Insane volatility, with an 11,757x cap. Its expanding grid is the main draw.",
+  "pros": [
+    "High 11,757x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Karen&language=en&device=desktop",
+  "image": "/slots/nolimit-city/karen-maneater.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/karen-maneater"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

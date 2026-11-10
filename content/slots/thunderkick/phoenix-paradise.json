@@ -1,0 +1,54 @@
+{
+  "slug": "phoenix-paradise",
+  "name": "Phoenix Paradise",
+  "provider": "thunderkick",
+  "rtp": 96.13,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "15 paylines",
+  "mechanics": [
+    "paylines",
+    "walking-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "adventure",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Wild payline multipliers",
+      "description": "Multiply line wins."
+    },
+    {
+      "name": "Walking wild",
+      "description": "Moves across the reels."
+    },
+    {
+      "name": "Mystery wild activation",
+      "description": "Random wilds."
+    }
+  ],
+  "review": "Phoenix Paradise is a 3x5, 15-line jungle slot following explorer Jeanette. Wilds, wild payline multipliers, mystery wild activation and a walking wild feature drive the action.\n\nThunderkick rates it High volatility, with a 10,000x cap and a 96.13% RTP.\n\nCollecting the three phoenix eggs is the goal, and the walking wild can sweep across several winning lines. Wild payline multipliers boost every line a wild completes.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g50-96&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/phoenix-paradise.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/phoenix-paradise/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

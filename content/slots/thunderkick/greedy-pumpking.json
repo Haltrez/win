@@ -1,0 +1,53 @@
+{
+  "slug": "greedy-pumpking",
+  "name": "Greedy Pumpking",
+  "provider": "thunderkick",
+  "rtp": 94.15,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "winType": "Cluster pays (5+ symbols)",
+  "mechanics": [
+    "cluster-pays",
+    "walking-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "horror",
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "Hexagonal clusters",
+      "description": "An unusual grid."
+    },
+    {
+      "name": "Merging multiplier wilds",
+      "description": "Move and combine."
+    },
+    {
+      "name": "Persistent wilds",
+      "description": "Stay put in the bonus."
+    }
+  ],
+  "review": "Greedy Pumpking is a Halloween cluster slot on a hexagonal grid. Multiplier wilds move across the board and merge to grow stronger, and in the bonus they become persistent.\n\nThunderkick rates it High volatility, with a 10,000x cap. The published RTP is 94.15%.\n\nCandy corn, jack-o'-lanterns and a gluttonous pumpkin king set a gleefully spooky tone, and merging wilds on the honeycomb grid can stack up large multipliers.",
+  "pros": [
+    "High 10,000x win ceiling"
+  ],
+  "cons": [
+    "Below-average 94.15% published RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": null,
+  "image": "/slots/thunderkick/greedy-pumpking.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/greedy-pumpking/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

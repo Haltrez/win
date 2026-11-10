@@ -1,0 +1,55 @@
+{
+  "slug": "crystal-quest-frostlands",
+  "name": "Crystal Quest: Frostlands",
+  "provider": "thunderkick",
+  "rtp": 96.16,
+  "volatility": "high",
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "6 reels",
+  "winType": "4096 ways",
+  "mechanics": [
+    "ways",
+    "cascades",
+    "progressive-multiplier",
+    "expanding-symbols",
+    "free-spins"
+  ],
+  "themes": [
+    "adventure",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Massive symbols",
+      "description": "Large blocks for big wins."
+    },
+    {
+      "name": "Wild explosions",
+      "description": "Clear the reels."
+    },
+    {
+      "name": "Infinite multipliers",
+      "description": "Grow through cascades."
+    }
+  ],
+  "review": "Crystal Quest: Frostlands sends Gemma into icy mountains on 6 reels with 4,096 ways. Infinite multipliers, massive symbols, wild explosions and avalanches combine here.\n\nThunderkick rates it High volatility, with a 15,000x cap and a 96.16% RTP.\n\nMassive symbols take up several positions at once, so a single premium block can connect across many ways. It's the most feature-dense of the three Crystal Quest games, with the same uncapped multiplier.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g42&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/crystal-quest-frostlands.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/crystal-quest-frostlands/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "esqueleto-explosivo-3",
+  "name": "Esqueleto Explosivo 3",
+  "provider": "thunderkick",
+  "rtp": 94.22,
+  "volatility": "high",
+  "maxWin": 7500,
+  "releaseDate": null,
+  "winType": "Cluster pays (5+ symbols)",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "progressive-multiplier",
+    "free-spins"
+  ],
+  "themes": [
+    "music",
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Cluster pays",
+      "description": "A 5x5 grid."
+    },
+    {
+      "name": "Explosivo Wilds",
+      "description": "Blow up nearby symbols."
+    },
+    {
+      "name": "Mucho Multipliers",
+      "description": "Stack up through avalanches."
+    }
+  ],
+  "review": "Esqueleto Explosivo 3 moves the band to a 5x5 cluster grid with avalanches, Explosivo Wilds and stacking Mucho Multipliers.\n\nThunderkick rates it High volatility, with a 7,500x cap. The published RTP is 94.22%.\n\nMoving the series to a cluster grid changes the rhythm: wins come in bigger groups, and each avalanche feeds the Mucho Multiplier. The mariachi soundtrack is as catchy as ever.",
+  "pros": [
+    "Solid 7,500x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.22% published RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g82-94&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/esqueleto-explosivo-3.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/esqueleto-explosivo-3/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

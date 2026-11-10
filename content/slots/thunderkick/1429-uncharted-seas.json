@@ -1,0 +1,54 @@
+{
+  "slug": "1429-uncharted-seas",
+  "name": "1429 Uncharted Seas",
+  "provider": "thunderkick",
+  "rtp": 98.6,
+  "volatility": "low",
+  "maxWin": 670,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "25 paylines",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "pirates",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "98.6% RTP",
+      "description": "One of the highest published RTPs in the industry."
+    },
+    {
+      "name": "Expanding wilds",
+      "description": "Cover full reels."
+    },
+    {
+      "name": "Free spins",
+      "description": "A bonus game from scatters."
+    }
+  ],
+  "review": "1429 Uncharted Seas is one of Thunderkick's best-known games, a 5x3 nautical slot styled like an old map, with 25 paylines. Expanding wilds and a free spins bonus are the main features.\n\nIts standout number is the 98.6% RTP, one of the highest published for any video slot. With Low volatility and a 670x cap, it's built for long, steady sessions rather than big hits. A classic.",
+  "pros": [
+    "Excellent 98.60% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 670x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-uncharted&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/1429-uncharted-seas.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/1429-uncharted-seas/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

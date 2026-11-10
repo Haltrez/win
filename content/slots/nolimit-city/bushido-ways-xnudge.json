@@ -1,0 +1,58 @@
+{
+  "slug": "bushido-ways-xnudge",
+  "name": "Bushido Ways xNudge®",
+  "provider": "nolimit-city",
+  "rtp": 96.01,
+  "volatility": "high",
+  "maxWin": 30000,
+  "releaseDate": "2021-04-13",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "hitRate": 4.64,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "sticky-wilds",
+    "free-spins",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "asian",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Sliced Wilds",
+      "description": "Single wilds split into two or three."
+    },
+    {
+      "name": "Oni Transform",
+      "description": "Stacked samurai turn into the best symbol on the reels."
+    },
+    {
+      "name": "Geisha Spins",
+      "description": "Every nudge adds a sticky multiplier."
+    }
+  ],
+  "review": "Bushido Ways xNudge is a samurai slot where single-position wilds on reels 2 to 5 can slice into two or three wilds. Bonus symbols landing with stacked samurai trigger Oni Transform, turning them into the best-paying symbol on the reels.\n\nThree bonus symbols award eight Shogun Spins, and if the Wild Geisha lands at the same time you get eight Geisha Spins instead, where every nudge adds a sticky multiplier. Nolimit rates it High volatility, with a 30,000x cap.",
+  "pros": [
+    "Very high 30,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=BushidoWays&language=en&device=desktop",
+  "image": "/slots/nolimit-city/bushido-ways-xnudge.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/bushido-ways-xnudge"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "3-wildos",
+  "name": "3 Wildos",
+  "provider": "thunderkick",
+  "rtp": 94.2,
+  "volatility": "high",
+  "maxWin": 5000,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "9 paylines",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "sticky-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "western",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Multiplier wilds",
+      "description": "Boost base-game wins."
+    },
+    {
+      "name": "Three free spins modes",
+      "description": "Each with different power-ups."
+    },
+    {
+      "name": "Sticky multiplier wilds",
+      "description": "Appear in the bonus."
+    }
+  ],
+  "review": "3 Wildos is the third outing for Thunderkick's bandit gang, this time among pyramids and ruins on 5 reels with 9 paylines. Multiplier wilds add punch to base spins, and there are three free spins modes, each with its own power-ups.\n\nThe bonus brings retriggers and sticky multiplier wilds. Thunderkick rates it High volatility, with a 5,000x cap. Note the published RTP of 94.20%, below the industry average.",
+  "pros": [
+    "Solid 5,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.20% published RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g100-94&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/3-wildos.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/3-wildos/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

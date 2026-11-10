@@ -1,0 +1,57 @@
+{
+  "slug": "breakout",
+  "name": "Breakout",
+  "provider": "nolimit-city",
+  "rtp": 96.07,
+  "volatility": "high",
+  "maxWin": 20000,
+  "releaseDate": "2025-10-14",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "hitRate": 4.28,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "respins",
+    "sticky-wilds",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Syndicate Multipliers",
+      "description": "Apply a multiplier to every symbol of a matching premium."
+    },
+    {
+      "name": "Chain Reaction Respins",
+      "description": "Six or more matching premiums stick and respin."
+    },
+    {
+      "name": "Breakout and Clearout Spins",
+      "description": "Persistent multipliers and per-symbol lives."
+    }
+  ],
+  "review": "Breakout is a 5x4 prison slot where every premium symbol has a matching Syndicate Multiplier. When one lands, it passes its multiplier to every symbol of its type. Six or more of the same premium trigger a Chain Reaction Respin, where those symbols stick and new ones keep adding.\n\nBreakout Spins keep the Syndicate Multipliers between spins, and Clearout Spins give each premium symbol its own life counter. Nolimit rates it High volatility, with a 20,000x cap. The multiplier-per-symbol idea is easy to follow.",
+  "pros": [
+    "Very high 20,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Breakout&language=en&device=desktop",
+  "image": "/slots/nolimit-city/breakout.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/breakout"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

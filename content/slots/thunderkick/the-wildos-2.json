@@ -1,0 +1,54 @@
+{
+  "slug": "the-wildos-2",
+  "name": "The Wildos 2",
+  "provider": "thunderkick",
+  "rtp": 94.19,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "20 paylines",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "western",
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Multiplier wilds",
+      "description": "Boost wins."
+    },
+    {
+      "name": "Wanted feature",
+      "description": "A base-game feature."
+    },
+    {
+      "name": "Choose-your-bonus",
+      "description": "Pick the bonus path."
+    }
+  ],
+  "review": "The Wildos 2 is a 4x5, 20-line train-heist sequel with multiplier wilds, a Wanted feature and a bonus where you choose how the story goes.\n\nThunderkick rates it High volatility, with a 10,000x cap. The published RTP is 94.19%.\n\nThe Wanted feature and the choose-your-path bonus give this sequel more variety than the original. Multiplier wilds remain the backbone of the base game.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.19% published RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g88-94&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/the-wildos-2.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/the-wildos-2/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

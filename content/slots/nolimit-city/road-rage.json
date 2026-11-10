@@ -1,0 +1,55 @@
+{
+  "slug": "road-rage",
+  "name": "Road Rage",
+  "provider": "nolimit-city",
+  "rtp": 96.03,
+  "volatility": "high",
+  "maxWin": 36000,
+  "releaseDate": "2022-08-16",
+  "releaseDatePrecision": "day",
+  "reels": "3-4-3-4-3-4-3",
+  "hitRate": 4.27,
+  "mechanics": [
+    "ways",
+    "expanding-symbols",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Wild Cars",
+      "description": "Wilds with colour-coded effects."
+    },
+    {
+      "name": "Three bonus modes",
+      "description": "Morning Rush, H1ghway Jam and City Mayh3m."
+    },
+    {
+      "name": "Rage Buff",
+      "description": "Boosts the bonus before it starts."
+    }
+  ],
+  "review": "Road Rage is a traffic-jam slot on a 3-4-3-4-3-4-3 grid where every car is a wild with its own colour-coded effect. For example, the yellow Engine Breakdown car enlarges the other symbols.\n\nThree scatters trigger Morning Rush, four H1ghway Jam and five City Mayh3m, and a Rage Buff boosts each bonus before it starts. Nolimit rates it High volatility, with a 36,000x cap.",
+  "pros": [
+    "Very high 36,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=RoadRage&language=en&device=desktop",
+  "image": "/slots/nolimit-city/road-rage.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/road-rage"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "gator-hunters",
+  "name": "Gator Hunters",
+  "provider": "nolimit-city",
+  "rtp": 96.11,
+  "volatility": "very-high",
+  "maxWin": 25000,
+  "releaseDate": "2025-08-19",
+  "releaseDatePrecision": "day",
+  "reels": "6x5",
+  "hitRate": 5.8,
+  "mechanics": [
+    "scatter-pays",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "animals",
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Scatter wins",
+      "description": "Eight or more matching symbols anywhere."
+    },
+    {
+      "name": "Revolvers",
+      "description": "Fire multiplier bullets once the board settles."
+    },
+    {
+      "name": "Eater symbols",
+      "description": "Remove symbols when no wins remain."
+    }
+  ],
+  "review": "Gator Hunters is the original 6x5 scatter-pays swamp slot. Eight or more matching symbols win and drop out. Once wins dry up, Eater symbols clear more symbols, and Revolvers fire bullets with multiplier values across the board.\n\nRevolvers only fire when there are no Eaters left and no more wins, so they act as a final burst at the end of a sequence. Nolimit rates it Extreme volatility, with a 25,000x cap.",
+  "pros": [
+    "Very high 25,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=GatorHunters&language=en&device=desktop",
+  "image": "/slots/nolimit-city/gator-hunters.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/gator-hunters"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

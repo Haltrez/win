@@ -1,0 +1,53 @@
+{
+  "slug": "beat-the-beast-krakens-lair",
+  "name": "Beat the Beast: Kraken’s Lair",
+  "provider": "thunderkick",
+  "rtp": 96.12,
+  "volatility": "very-high",
+  "maxWin": 7777,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "9 ways",
+  "mechanics": [
+    "paylines",
+    "expanding-symbols",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology",
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Expanding wins",
+      "description": "Wins expand across the reels."
+    },
+    {
+      "name": "Free spins",
+      "description": "With retriggers."
+    },
+    {
+      "name": "9 lines",
+      "description": "A 5-reel layout."
+    }
+  ],
+  "review": "Beat the Beast: Kraken's Lair is an underwater 9-line slot with expanding wins and a bonus of free spins with retriggers.\n\nThunderkick rates it Very High volatility, with a 7,777x cap and a 96.12% RTP. A compact, sharp-edged entry in the series.",
+  "pros": [
+    "Solid 7,777x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g30&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/beat-the-beast-krakens-lair.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/beat-the-beast-krakens-lair/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

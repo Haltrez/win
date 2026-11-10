@@ -1,0 +1,54 @@
+{
+  "slug": "carnival-queen-reborn",
+  "name": "Carnival Queen - Reborn",
+  "provider": "thunderkick",
+  "rtp": 94.16,
+  "volatility": "medium",
+  "maxWin": 22700,
+  "releaseDate": null,
+  "reels": "6 reels",
+  "winType": "4096 ways",
+  "mechanics": [
+    "ways",
+    "cascades",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "music"
+  ],
+  "features": [
+    {
+      "name": "Avalanche",
+      "description": "Winning symbols clear and refill."
+    },
+    {
+      "name": "Multipliers",
+      "description": "Boost wins."
+    },
+    {
+      "name": "4,096 ways",
+      "description": "A 6-reel layout."
+    }
+  ],
+  "review": "Carnival Queen - Reborn brings back the Mardi Gras slot on 6 reels with 4,096 ways. Wilds and multipliers boost wins, and the avalanche feature keeps the reels moving.\n\nThunderkick rates it Medium volatility, with a 22,700x cap, a big ceiling for that rating. The published RTP is 94.16%.",
+  "pros": [
+    "Very high 22,700x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.16% published RTP",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g78-94&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/carnival-queen-reborn.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/carnival-queen-reborn/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

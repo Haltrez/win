@@ -1,0 +1,54 @@
+{
+  "slug": "crystal-quest-deep-jungle",
+  "name": "Crystal Quest: Deep Jungle",
+  "provider": "thunderkick",
+  "rtp": 96.14,
+  "volatility": "high",
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "6 reels",
+  "winType": "4096 ways",
+  "mechanics": [
+    "ways",
+    "cascades",
+    "progressive-multiplier",
+    "free-spins"
+  ],
+  "themes": [
+    "adventure",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Infinite multipliers",
+      "description": "No upper limit."
+    },
+    {
+      "name": "Avalanche",
+      "description": "Cascading wins."
+    },
+    {
+      "name": "Mystery feature",
+      "description": "Reveals matching symbols."
+    }
+  ],
+  "review": "Crystal Quest: Deep Jungle follows explorer Gemma on 6 reels with 4,096 ways. Infinite multipliers, avalanches and a mystery feature drive the action.\n\nThunderkick rates it High volatility, with a 15,000x cap and a 96.14% RTP.\n\nThe mystery feature reveals matching symbols across the grid, which works well with 4,096 ways. Pick this entry if you want the most straightforward version of the trilogy's cascade-and-multiplier loop.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g40&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/crystal-quest-deep-jungle.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/crystal-quest-deep-jungle/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

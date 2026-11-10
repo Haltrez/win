@@ -1,0 +1,53 @@
+{
+  "slug": "beat-the-beast-cerberus-inferno",
+  "name": "Beat the Beast: Cerberus' Inferno",
+  "provider": "thunderkick",
+  "rtp": 96.15,
+  "volatility": "very-high",
+  "maxWin": 6666,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "9 paylines",
+  "mechanics": [
+    "paylines",
+    "ways",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology",
+    "dogs"
+  ],
+  "features": [
+    {
+      "name": "Stacked wilds",
+      "description": "Cover full reels."
+    },
+    {
+      "name": "243-ways bonus",
+      "description": "Free spins switch to ways."
+    },
+    {
+      "name": "Retriggers",
+      "description": "Extend the bonus."
+    }
+  ],
+  "review": "Beat the Beast: Cerberus' Inferno is a 9-line underworld slot with stacked wilds. The free spins bonus switches to 243 ways with retriggers.\n\nThunderkick rates it Very High volatility, with a 6,666x cap and a 96.15% RTP. Part of the Beat the Beast series, which pits you against mythical monsters.",
+  "pros": [
+    "Solid 6,666x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g32&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/beat-the-beast-cerberus-inferno.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/beat-the-beast-cerberus-inferno/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "space-donkey",
+  "name": "Space Donkey",
+  "provider": "nolimit-city",
+  "rtp": 96.07,
+  "volatility": "high",
+  "maxWin": 14649,
+  "releaseDate": "2023-10-03",
+  "releaseDatePrecision": "day",
+  "reels": "6x6",
+  "hitRate": 3.61,
+  "mechanics": [
+    "cascades",
+    "sticky-wilds",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "space",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Abduction Wilds",
+      "description": "Stay after a win and get stronger as they fall."
+    },
+    {
+      "name": "Hellfire",
+      "description": "Three or more choppers trigger it."
+    },
+    {
+      "name": "14,649x cap",
+      "description": "The round ends once the cap is reached."
+    }
+  ],
+  "review": "Space Donkey is a 6x6 sci-fi slot. Abduction Wilds land on reels 2 to 6, stay on the grid after joining a win and move down while getting stronger for the next drop. Three or more chopper symbols trigger Hellfire.\n\nThe game spells out its cap: once a round's total passes 14,649x, it ends and pays that amount. Nolimit rates it High volatility.",
+  "pros": [
+    "High 14,649x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=SpaceDonkey&language=en&device=desktop",
+  "image": "/slots/nolimit-city/space-donkey.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/space-donkey"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

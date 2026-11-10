@@ -1,0 +1,59 @@
+{
+  "slug": "duck-hunters",
+  "name": "Duck Hunters",
+  "provider": "nolimit-city",
+  "rtp": 96.05,
+  "volatility": "very-high",
+  "maxWin": 30000,
+  "releaseDate": "2025-02-11",
+  "releaseDatePrecision": "day",
+  "reels": "6x5",
+  "hitRate": 5.86,
+  "mechanics": [
+    "scatter-pays",
+    "cascades",
+    "multipliers",
+    "infectious-wilds",
+    "free-spins",
+    "ante-bet",
+    "xways",
+    "bonus-buy"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Scatter wins",
+      "description": "Eight or more matching symbols anywhere."
+    },
+    {
+      "name": "xWays position multipliers",
+      "description": "2x, 4x or 8x on revealed positions."
+    },
+    {
+      "name": "Duck Hunt Spins",
+      "description": "Free spins where multipliers carry through."
+    }
+  ],
+  "review": "Duck Hunters is the original 6x5 scatter-pays game in the series. Eight or more matching symbols win and drop out, xWays reveal symbols with 2x, 4x or 8x position multipliers, and Infectious xWays spread the revealed symbol.\n\nBombs remove symbols in a 3x3 pattern and double symbol size where they explode. Duck Hunt Spins carry the multipliers through the bonus. Nolimit rates it Extreme volatility, with a 30,000x cap.",
+  "pros": [
+    "Very high 30,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=DuckHunters&language=en&device=desktop",
+  "image": "/slots/nolimit-city/duck-hunters.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/duck-hunters"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

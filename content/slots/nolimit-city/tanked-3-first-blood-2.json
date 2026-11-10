@@ -1,0 +1,55 @@
+{
+  "slug": "tanked-3-first-blood-2",
+  "name": "Tanked 3: First Blood 2",
+  "provider": "nolimit-city",
+  "rtp": 95.99,
+  "volatility": "high",
+  "maxWin": 25584,
+  "releaseDate": "2026-06-09",
+  "releaseDatePrecision": "day",
+  "reels": "4-5-6-5-6-5-4",
+  "hitRate": 4.94,
+  "mechanics": [
+    "money-collect",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "xLoot",
+      "description": "Characters collect gems of their colour."
+    },
+    {
+      "name": "Coins",
+      "description": "Worth 1x to 5,000x when picked up."
+    },
+    {
+      "name": "Bombs",
+      "description": "Fire in one or three directions."
+    }
+  ],
+  "review": "Tanked 3: First Blood 2 uses xLoot. Instead of paylines, character symbols move around a 4-5-6-5-6-5-4 grid and pick up gems of their own colour, while wilds can be collected by anyone. Coins worth 1x to 5,000x are also up for grabs.\n\nBombs fire in one or three directions, and xGlitch adds surprises. Nolimit rates it High volatility, with a 25,584x cap. More board game than slot.",
+  "pros": [
+    "Very high 25,584x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Slightly below-average 95.99% RTP",
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Tanked3&language=en&device=desktop",
+  "image": "/slots/nolimit-city/tanked-3-first-blood-2.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/tanked-3-first-blood-2"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

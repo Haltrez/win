@@ -1,0 +1,56 @@
+{
+  "slug": "el-paso",
+  "name": "El Paso Gunfight xNudge®",
+  "provider": "nolimit-city",
+  "rtp": 96.05,
+  "volatility": "very-high",
+  "maxWin": 44440,
+  "releaseDate": "2021-05-04",
+  "releaseDatePrecision": "day",
+  "hitRate": 3.51,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "walking-wilds",
+    "free-spins",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Stance choice",
+      "description": "Pick between two reel layouts."
+    },
+    {
+      "name": "Stoudenmire Wilds",
+      "description": "xNudge Wilds with growing multipliers."
+    },
+    {
+      "name": "Gunfight Spins",
+      "description": "Scatters turn into jumping wilds."
+    }
+  ],
+  "review": "El Paso Gunfight xNudge lets you choose your stance: a standard 4-3-3-3-2 reel setup or a more volatile 2-3-3-3-4. Stoudenmire xNudge Wilds nudge in with multipliers of x1 to x3 that grow with each nudge.\n\nDeputy and Marshal badges trigger raids that turn low or premium symbols into one chosen symbol, and landing both also enlarges the reels. Three scatters become jumping wilds in Gunfight Spins. Nolimit rates it Extreme volatility, with a 44,440x cap.",
+  "pros": [
+    "Very high 44,440x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=ElPaso&language=en&device=desktop",
+  "image": "/slots/nolimit-city/el-paso.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/el-paso"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

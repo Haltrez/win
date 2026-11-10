@@ -1,0 +1,54 @@
+{
+  "slug": "esqueleto-explosivo-2-reborn",
+  "name": "Esqueleto Explosivo 2",
+  "provider": "thunderkick",
+  "rtp": 96.13,
+  "volatility": "medium",
+  "maxWin": 5000,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "99 ways",
+  "mechanics": [
+    "ways",
+    "cascades",
+    "progressive-multiplier",
+    "free-spins"
+  ],
+  "themes": [
+    "music",
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Explosivo Wilds",
+      "description": "Explode surrounding symbols."
+    },
+    {
+      "name": "Mucho Multipliers",
+      "description": "Grow with consecutive drops."
+    },
+    {
+      "name": "Free spins",
+      "description": "Bonus game or feature buy."
+    }
+  ],
+  "review": "Esqueleto Explosivo 2 brings back the skeleton mariachis on 5 reels with 99 ways. Explosivo Wilds blow up symbols, Mucho Multipliers rise with each drop, and dropping symbols keep wins flowing.\n\nThunderkick rates it Medium volatility, with a 5,000x cap and a 96.13% RTP.",
+  "pros": [
+    "Solid 5,000x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g54-96&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/esqueleto-explosivo-2-reborn.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/esqueleto-explosivo-2-reborn/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

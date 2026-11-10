@@ -1,0 +1,52 @@
+{
+  "slug": "milk-the-cow",
+  "name": "Milk the Cow",
+  "provider": "thunderkick",
+  "rtp": 94.17,
+  "volatility": "high",
+  "maxWin": 5000,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "Cluster pays (5+ symbols)",
+  "mechanics": [
+    "cluster-pays",
+    "free-spins"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Cluster pays",
+      "description": "A 5x5 grid."
+    },
+    {
+      "name": "Free spins",
+      "description": "A bonus game."
+    },
+    {
+      "name": "Farm theme",
+      "description": "Playful visuals."
+    }
+  ],
+  "review": "Milk the Cow is a 5x5 farmyard cluster slot with a free spins bonus and a cheerful, relaxed presentation.\n\nThunderkick rates it High volatility, with a 5,000x cap. The published RTP is 94.17%.\n\nBehind the cartoon pastures sits High volatility and a 5,000x cap, so the free spins carry much of the game's value.",
+  "pros": [
+    "Solid 5,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Below-average 94.17% published RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g91-94&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/milk-the-cow.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/milk-the-cow/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

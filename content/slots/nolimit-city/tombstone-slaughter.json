@@ -1,0 +1,57 @@
+{
+  "slug": "tombstone-slaughter",
+  "name": "Tombstone Slaughter: El Gordo's Revenge",
+  "provider": "nolimit-city",
+  "rtp": 96,
+  "volatility": "very-high",
+  "maxWin": 500000,
+  "releaseDate": "2025-01-28",
+  "releaseDatePrecision": "day",
+  "reels": "2-3-3-3-3-2",
+  "hitRate": 10.65,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "free-spins",
+    "xnudge",
+    "ante-bet",
+    "bonus-buy"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Special sixth reel",
+      "description": "Only revolvers and characters land there."
+    },
+    {
+      "name": "xNudge Wilds",
+      "description": "Stacked wilds gaining +1 per nudge."
+    },
+    {
+      "name": "500,000x cap",
+      "description": "The highest in the catalogue."
+    }
+  ],
+  "review": "Tombstone Slaughter: El Gordo's Revenge is famous for its 500,000x cap, the highest Nolimit City has published. The 2-3-3-3-3-2 grid has a special sixth reel that only holds two-high revolvers and character symbols, and stacked xNudge Wilds gain +1 per nudge.\n\nSlaughter Scatters land on the middle four reels. It's rated Insane volatility, with a 9% hit rate. Play it in demo mode for the spectacle.",
+  "pros": [
+    "Very high 500,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=TombstoneSlaughter&language=en&device=desktop",
+  "image": "/slots/nolimit-city/tombstone-slaughter.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/tombstone-slaughter"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "fire-in-the-hole-2",
+  "name": "Fire in the Hole 2",
+  "provider": "nolimit-city",
+  "rtp": 96.07,
+  "volatility": "very-high",
+  "maxWin": 65000,
+  "releaseDate": "2024-02-22",
+  "releaseDatePrecision": "day",
+  "reels": "6x6",
+  "hitRate": 3.99,
+  "mechanics": [
+    "cascades",
+    "grid-expansion",
+    "multipliers",
+    "free-spins",
+    "ante-bet",
+    "xbomb",
+    "bonus-buy"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Collapsing Mine",
+      "description": "Rows open one at a time, up to six."
+    },
+    {
+      "name": "Buried features",
+      "description": "Dirt blocks hide wilds, splits and bonus symbols."
+    },
+    {
+      "name": "xBomb Wild Multipliers",
+      "description": "Clear neighbours and raise the multiplier."
+    }
+  ],
+  "review": "Fire in the Hole 2 is a 6x6 mining sequel. Each spin starts with three active rows, and every collapse opens another row, up to six. Dirt blocks hide wilds, split symbols or bonus symbols, which only activate once the dirt is cleared.\n\nxBomb Wilds clear adjacent symbols and raise the multiplier, and Wild Mining returns from the original. Nolimit rates it Insane volatility, with a 65,000x cap. It's a slow build that can end in huge cascades.",
+  "pros": [
+    "Very high 65,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=FireInTheHole2&language=en&device=desktop",
+  "image": "/slots/nolimit-city/fire-in-the-hole-2.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/fire-in-the-hole-2"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

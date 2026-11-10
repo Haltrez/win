@@ -1,0 +1,58 @@
+{
+  "slug": "true-grit-redemption",
+  "name": "True Grit Redemption",
+  "provider": "nolimit-city",
+  "rtp": 96.11,
+  "volatility": "very-high",
+  "maxWin": 20220,
+  "releaseDate": "2021-12-21",
+  "releaseDatePrecision": "day",
+  "reels": "6x5",
+  "hitRate": 4.11,
+  "mechanics": [
+    "ways",
+    "infectious-wilds",
+    "multipliers",
+    "free-spins",
+    "xways",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Wild Transform",
+      "description": "Matching symbols above and below a reel turn wild."
+    },
+    {
+      "name": "xNudge Wilds",
+      "description": "+1 per nudge."
+    },
+    {
+      "name": "Infectious xWays",
+      "description": "Spread revealed symbols."
+    }
+  ],
+  "review": "True Grit Redemption is a 6x5 western where matching the symbol above a reel with the one beneath it turns both into wilds. Stacked xNudge Wilds on the bottom reel always nudge into view, gaining +1 per step.\n\nxWays reveal two or three matching symbols, and Infectious xWays spread their effect. Nolimit rates it Extreme volatility, with a 20,220x cap.",
+  "pros": [
+    "Very high 20,220x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=TrueGrit&language=en&device=desktop",
+  "image": "/slots/nolimit-city/true-grit-redemption.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/true-grit-redemption"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

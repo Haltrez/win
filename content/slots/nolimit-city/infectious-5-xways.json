@@ -1,0 +1,57 @@
+{
+  "slug": "infectious-5-xways",
+  "name": "Infectious 5 xWays®",
+  "provider": "nolimit-city",
+  "rtp": 96.02,
+  "volatility": "very-high",
+  "maxWin": 55555,
+  "releaseDate": "2021-06-01",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "hitRate": 3.19,
+  "mechanics": [
+    "ways",
+    "infectious-wilds",
+    "free-spins",
+    "xways",
+    "bonus-buy"
+  ],
+  "themes": [
+    "horror",
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Infectious xWays",
+      "description": "Reveal symbol stacks and spread them across the reels."
+    },
+    {
+      "name": "Bonus choice",
+      "description": "Toxic Hazard or Lock n' Load."
+    },
+    {
+      "name": "Ordinary wilds",
+      "description": "Strong when combined with xWays."
+    }
+  ],
+  "review": "Infectious 5 xWays is a 5x4 slot built entirely around Infectious xWays. Mystery symbols reveal a stack of one symbol and spread it to other positions, while ordinary wilds can fill out the extra ways.\n\nThree or four bonus symbols let you choose between Toxic Hazard and Lock n' Load free spins, with an extra spin for four. Nolimit rates it Extreme volatility, with a 55,555x cap and a high 31% hit rate.",
+  "pros": [
+    "Very high 55,555x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Infectious5&language=en&device=desktop",
+  "image": "/slots/nolimit-city/infectious-5-xways.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/infectious-5-xways"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

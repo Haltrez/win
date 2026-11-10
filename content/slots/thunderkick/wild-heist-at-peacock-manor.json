@@ -1,0 +1,52 @@
+{
+  "slug": "wild-heist-at-peacock-manor",
+  "name": "Wild Heist at Peacock Manor",
+  "provider": "thunderkick",
+  "rtp": 96.1,
+  "volatility": "high",
+  "maxWin": 8483,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "17 paylines",
+  "mechanics": [
+    "paylines",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Mystery features",
+      "description": "Base-game surprises."
+    },
+    {
+      "name": "Symbol transformations",
+      "description": "In free spins."
+    },
+    {
+      "name": "Retriggers",
+      "description": "Extend the bonus."
+    }
+  ],
+  "review": "Wild Heist at Peacock Manor is a 17-line crime slot with mystery features in the base game and free spins with symbol transformations and retriggers.\n\nThunderkick rates it High volatility, with an 8,483x cap and a 96.1% RTP.\n\nMystery features in the base game keep spins unpredictable, while the bonus transforms symbols for bigger line wins. The gritty manor setting suits the crime story.",
+  "pros": [
+    "Solid 8,483x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g16&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/wild-heist-at-peacock-manor.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/wild-heist-at-peacock-manor/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

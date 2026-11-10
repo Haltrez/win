@@ -1,0 +1,57 @@
+{
+  "slug": "outsourced-2-balkan-engineering",
+  "name": "Outsourced 2 - Balkan Engineering",
+  "provider": "nolimit-city",
+  "rtp": 96.04,
+  "volatility": "very-high",
+  "maxWin": 11111,
+  "releaseDate": "2026-08-18",
+  "releaseDatePrecision": "day",
+  "reels": "4x5",
+  "hitRate": 4.07,
+  "mechanics": [
+    "ways",
+    "infectious-wilds",
+    "multipliers",
+    "free-spins",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Infectious xWays",
+      "description": "Reveal symbol stacks, or blockers."
+    },
+    {
+      "name": "Elevators",
+      "description": "Instant bonus or blocker, plus extra spins in the bonus."
+    },
+    {
+      "name": "xNudge Balkan Wild",
+      "description": "Lands anywhere and nudges with a multiplier."
+    }
+  ],
+  "review": "Outsourced 2 - Balkan Engineering is a 4x5 sequel. Infectious xWays reveal symbol stacks of two to four, or a blocker. Elevator symbols reveal an instant bonus or a blocker in the base game and award extra spins in the bonus.\n\nThe xNudge Balkan Wild can land anywhere and nudge with a growing multiplier. Nolimit rates it Extreme volatility, with an 11,111x cap.",
+  "pros": [
+    "High 11,111x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Outsourced2&language=en&device=desktop",
+  "image": "/slots/nolimit-city/outsourced-2-balkan-engineering.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/outsourced-2-balkan-engineering"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

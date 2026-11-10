@@ -1,0 +1,52 @@
+{
+  "slug": "spectra",
+  "name": "Spectra",
+  "provider": "thunderkick",
+  "rtp": 96.4,
+  "volatility": "medium",
+  "maxWin": 2400,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "30 paylines",
+  "mechanics": [
+    "paylines",
+    "respins"
+  ],
+  "themes": [
+    "music",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Nudging wilds",
+      "description": "Stacked wilds that nudge."
+    },
+    {
+      "name": "Respins",
+      "description": "Triggered by wilds."
+    },
+    {
+      "name": "96.4% RTP",
+      "description": "Above average."
+    }
+  ],
+  "review": "Spectra is a 30-line light-show slot with stacked, nudging wilds and respins.\n\nThunderkick rates it Medium volatility, with a 2,400x cap and a 96.4% RTP.\n\nThe nudging stacked wilds and respins give the game a hypnotic, steady rhythm, matched by its light-show visuals and synth soundtrack. A 96.4% RTP and medium volatility make it a calm, long-session choice.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 2,400x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g6&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/spectra.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/spectra/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

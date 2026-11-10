@@ -1,0 +1,53 @@
+{
+  "slug": "sword-of-khans-reborn",
+  "name": "Sword of Khans - Reborn",
+  "provider": "thunderkick",
+  "rtp": 95.36,
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5 reels",
+  "winType": "10 paylines",
+  "mechanics": [
+    "paylines",
+    "free-spins"
+  ],
+  "themes": [
+    "history",
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "10 paylines",
+      "description": "A 5-reel layout."
+    },
+    {
+      "name": "Free spins",
+      "description": "A bonus game."
+    },
+    {
+      "name": "Steppe theme",
+      "description": "A history setting."
+    }
+  ],
+  "review": "Sword of Khans - Reborn is a 5-reel, 10-line steppe slot with a free spins bonus built around the legendary blade.\n\nThunderkick rates it High volatility, with a 10,000x cap and a 95.36% RTP.\n\nThe 95.36% RTP sits a little below the market average, so it's worth knowing before you play. The free spins carry most of the potential.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Slightly below-average 95.36% RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://forfun.thunderkick.com/gamelauncher/play/generic?device=desktop&gameId=tk-s1-g79-95&operatorId=2&playMode=demo",
+  "image": "/slots/thunderkick/sword-of-khans-reborn.webp",
+  "related": [],
+  "sources": [
+    "https://www.thunderkick.com/games/sword-of-khans-reborn/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

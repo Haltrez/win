@@ -1,0 +1,55 @@
+{
+  "slug": "rock-bottom",
+  "name": "Rock Bottom",
+  "provider": "nolimit-city",
+  "rtp": 96.04,
+  "volatility": "high",
+  "maxWin": 19690,
+  "releaseDate": "2022-11-22",
+  "releaseDatePrecision": "day",
+  "hitRate": 3.19,
+  "mechanics": [
+    "ways",
+    "expanding-symbols",
+    "free-spins",
+    "ante-bet",
+    "bonus-buy"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Stage progression",
+      "description": "Each stage expands a character to four high."
+    },
+    {
+      "name": "Headshrinker and Insanity Spins",
+      "description": "Two bonus tiers with five stages."
+    },
+    {
+      "name": "xSplit",
+      "description": "Splits symbols for more ways."
+    }
+  ],
+  "review": "Rock Bottom is a tribal-themed slot. Three or four scatters start Headshrinker Spins, and more lead to Insanity Spins. Both run through five stages, and each stage turns one character symbol into a four-high stack.\n\nxCap and xSplit add further twists. Nolimit rates it High volatility, with a 19,690x cap and a 31% hit rate.",
+  "pros": [
+    "Very high 19,690x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=RockBottom&language=en&device=desktop",
+  "image": "/slots/nolimit-city/rock-bottom.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/rock-bottom"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

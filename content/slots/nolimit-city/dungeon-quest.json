@@ -1,0 +1,55 @@
+{
+  "slug": "dungeon-quest",
+  "name": "Dungeon Quest",
+  "provider": "nolimit-city",
+  "rtp": 96.27,
+  "volatility": "medium",
+  "maxWin": 450,
+  "releaseDate": "2018-09-27",
+  "releaseDatePrecision": "day",
+  "reels": "5x7",
+  "hitRate": 3.51,
+  "mechanics": [
+    "paylines",
+    "reel-modifiers",
+    "sticky-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Power Stone",
+      "description": "A random 2x2 wild area plus ore conversions."
+    },
+    {
+      "name": "Gem Forge",
+      "description": "Swaps every ore for a single chosen type."
+    },
+    {
+      "name": "Alchemy Spins",
+      "description": "Four spins that turn each ore wild in turn."
+    }
+  ],
+  "review": "Dungeon Quest is an early 5x7 Nolimit City fantasy slot built around ore symbols. Power Stone randomly turns a 2x2 area wild and converts every instance of one ore, and Gem Forge swaps all ores for a single randomly chosen one.\n\nThree scatters award four Alchemy Spins, each focused on one ore type, which turns wild and stays. Nolimit rates it Medium volatility with a 450x cap. It's the gentlest game in the catalogue, ideal for long, low-risk play.",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 450x max win",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=DungeonQuest&language=en&device=desktop",
+  "image": "/slots/nolimit-city/dungeon-quest.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/dungeon-quest"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

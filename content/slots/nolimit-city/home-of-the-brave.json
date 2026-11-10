@@ -1,0 +1,60 @@
+{
+  "slug": "home-of-the-brave",
+  "name": "Home of the Brave",
+  "provider": "nolimit-city",
+  "rtp": 96,
+  "volatility": "very-high",
+  "maxWin": 61446,
+  "releaseDate": "2025-03-11",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "hitRate": 4.26,
+  "mechanics": [
+    "ways",
+    "cascades",
+    "multipliers",
+    "free-spins",
+    "ante-bet",
+    "xbomb",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "food",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Hot Sauce Reels",
+      "description": "Side reels that fill with wilds."
+    },
+    {
+      "name": "Conveyor Belt",
+      "description": "Feeds new symbols into gaps."
+    },
+    {
+      "name": "xBomb",
+      "description": "Clears space and raises the multiplier."
+    }
+  ],
+  "review": "Home of the Brave is a 5x4 slot with a conveyor belt of symbols above the reels and two Hot Sauce Reels on the far left and right. When the Wild Launch Button lands, a Hot Sauce Reel fills partly or fully with wilds.\n\nSymbols from the conveyor drop into gaps left by wins or xBomb blasts, and xNudge and xSplit add more. Nolimit rates it Insane volatility, with a 61,446x cap.",
+  "pros": [
+    "Very high 61,446x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=HomeOfTheBrave&language=en&device=desktop",
+  "image": "/slots/nolimit-city/home-of-the-brave.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/home-of-the-brave"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

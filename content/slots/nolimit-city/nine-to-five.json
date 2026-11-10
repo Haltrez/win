@@ -1,0 +1,58 @@
+{
+  "slug": "nine-to-five",
+  "name": "Nine To Five",
+  "provider": "nolimit-city",
+  "rtp": 96.03,
+  "volatility": "very-high",
+  "maxWin": 9217,
+  "releaseDate": "2023-11-21",
+  "releaseDatePrecision": "day",
+  "reels": "5x4",
+  "hitRate": 4.55,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "free-spins",
+    "ante-bet",
+    "xways",
+    "xnudge",
+    "bonus-buy"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "xNudge Wilds",
+      "description": "On reels 2–5, +1 per nudge."
+    },
+    {
+      "name": "Wild variants",
+      "description": "Wilds transform into types with different effects."
+    },
+    {
+      "name": "xWays",
+      "description": "Reveal 2–4 matching symbols."
+    }
+  ],
+  "review": "Nine To Five is a 5x4 office satire slot. xNudge Wilds land on reels 2 to 5 and gain +1 per nudge, and xWays reveal two to four symbols, all the same if several land. Regular wilds on reels 2 to 5 transform into variants such as the Green Wild, which carries a random multiplier.\n\nNolimit rates it Insane volatility, with a 9,217x cap, an unusually low ceiling for that rating. Office humour with Nolimit City's usual edge.",
+  "pros": [
+    "Solid 9,217x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=NineToFive&language=en&device=desktop",
+  "image": "/slots/nolimit-city/nine-to-five.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/nine-to-five"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

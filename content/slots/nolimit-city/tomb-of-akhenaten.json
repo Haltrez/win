@@ -1,0 +1,56 @@
+{
+  "slug": "tomb-of-akhenaten",
+  "name": "Tomb of Akhenaten",
+  "provider": "nolimit-city",
+  "rtp": 96.09,
+  "volatility": "medium",
+  "maxWin": 20932,
+  "releaseDate": "2020-12-15",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 3.01,
+  "mechanics": [
+    "ways",
+    "respins",
+    "grid-expansion",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "egypt"
+  ],
+  "features": [
+    {
+      "name": "Sticky Win Spins",
+      "description": "Respins that grow up to 3,125 ways."
+    },
+    {
+      "name": "Pyramid Wilds",
+      "description": "A chance at a wild section on the last level."
+    },
+    {
+      "name": "Akhenaten Spins",
+      "description": "Three or more bonus symbols."
+    }
+  ],
+  "review": "Tomb of Akhenaten is an Egyptian slot where any win triggers Sticky Win Spins: up to three respins that expand the ways up to 3,125. On the final level, Pyramid Wilds can turn a section of the grid wild.\n\nThree or more bonus symbols start Akhenaten Spins. Nolimit rates it Medium volatility, but with a surprisingly high 20,932x cap and a 33% hit rate.",
+  "pros": [
+    "Very high 20,932x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=TombOfAkhenaten&language=en&device=desktop",
+  "image": "/slots/nolimit-city/tomb-of-akhenaten.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/tomb-of-akhenaten"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

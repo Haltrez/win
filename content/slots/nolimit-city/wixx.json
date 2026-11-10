@@ -1,0 +1,54 @@
+{
+  "slug": "wixx",
+  "name": "Wixx",
+  "provider": "nolimit-city",
+  "rtp": 96.61,
+  "volatility": "medium",
+  "maxWin": 2796,
+  "releaseDate": "2017-10-21",
+  "releaseDatePrecision": "day",
+  "reels": "5x3",
+  "hitRate": 5.38,
+  "mechanics": [
+    "paylines",
+    "respins",
+    "multipliers"
+  ],
+  "themes": [
+    "gems",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Wild Ruby Booster",
+      "description": "Red gems become stacked wilds."
+    },
+    {
+      "name": "Multiplier Topaz Booster",
+      "description": "Crystal pays at x5."
+    },
+    {
+      "name": "Sapphire Booster",
+      "description": "Blue gem respins."
+    }
+  ],
+  "review": "Wixx is an early 5x3 gem slot built around crystal boosters. A four-of-a-kind on red crystals awards a respin where the reds turn into stacked wilds, yellow crystals give a respin where crystal pays are multiplied by x5, and sapphires have their own booster.\n\nNolimit rates it Medium volatility, with a 96.61% RTP and a 2,796x cap. A tidy, classic gem game.",
+  "pros": [
+    "Above-average 96.61% RTP",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the RTP"
+  ],
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=Wixx&language=en&device=desktop",
+  "image": "/slots/nolimit-city/wixx.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/wixx"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}
