@@ -24,6 +24,10 @@ const nextConfig: NextConfig = {
       { source: '/go/:path*', headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }, { key: 'Cache-Control', value: 'private, no-store' }] },
     ];
   },
+  async rewrites() {
+    // /sitemap.xml serves the sitemap index (the split sitemaps live at /sitemap/<id>.xml).
+    return { beforeFiles: [{ source: '/sitemap.xml', destination: '/sitemap-index.xml' }], afterFiles: [], fallback: [] };
+  },
   async redirects() {
     return [
       // Common legacy/alias patterns -> canonical structure

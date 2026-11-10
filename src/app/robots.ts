@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
   if (SITE.noindex) return { rules: [{ userAgent: '*', disallow: '/' }] };
   return {
     rules: [{ userAgent: '*', allow: '/', disallow: ['/go/', '/api/', '/favorites'] }],
-    sitemap: SITEMAP_IDS.map((id) => `${SITE.url}/sitemap/${id}.xml`),
+    sitemap: [`${SITE.url}/sitemap.xml`, ...SITEMAP_IDS.map((id) => `${SITE.url}/sitemap/${id}.xml`)],
     host: SITE.url,
   };
 }
