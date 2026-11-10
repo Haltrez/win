@@ -1,0 +1,55 @@
+{
+  "slug": "life-and-death",
+  "name": "Life and Death",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "6x5",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "horror",
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Four Horsemen wilds",
+      "description": "Reel-specific wild multipliers with rising value ranges."
+    },
+    {
+      "name": "Additive multipliers",
+      "description": "Horsemen in the same win add their values together."
+    },
+    {
+      "name": "Expanding wild reels",
+      "description": "Horsemen grow into full reels in the bonus."
+    }
+  ],
+  "review": "Life and Death puts the Four Horsemen on reels 2 to 5, each as its own wild multiplier. Pestilence on reel 2 carries 2x to 4x, War on reel 3 carries 5x to 9x, and Famine and Death on reels 4 and 5 bring larger values still. Several horsemen in the same win add their values together.\n\nThe bonus rounds turn the horsemen into expanding wild reels, so a full line-up can light up the middle of the grid. Because each horseman is tied to a reel, it's easy to see what a spin is building toward. The maximum is 15,000x.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1460/{version}/index.html?language=en&channel=desktop&gameid=1460&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/life-and-death.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/life-and-death",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

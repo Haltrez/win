@@ -1,0 +1,55 @@
+{
+  "slug": "army-of-ares",
+  "name": "Army of Ares",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Wrath Reels",
+      "description": "Expanding wild reels with 2x–300x multipliers."
+    },
+    {
+      "name": "Bonus wilds",
+      "description": "Each Wrath Reel adds up to five random wilds."
+    },
+    {
+      "name": "Fear and Flame",
+      "description": "Free spins with at least one Wrath Reel every spin."
+    }
+  ],
+  "review": "Army of Ares is a war-god slot built around Wrath Reels. When a Wrath scatter lands it expands into a wild reel with an additive multiplier from 2x to 300x, and drops up to five extra wilds onto random positions. Multipliers on several Wrath Reels in the same win add together, left to right.\n\nOnly one Wrath symbol can land per reel, so the realistic best case is two or three reels lining up. The Fear and Flame bonus ensures at least one Wrath Reel on every spin, which keeps the bonus active. The maximum is 15,000x.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1977/{version}/index.html?language=en&channel=desktop&gameid=1977&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/army-of-ares.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/army-of-ares",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

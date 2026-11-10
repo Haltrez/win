@@ -1,0 +1,50 @@
+{
+  "slug": "blocks",
+  "name": "Blocks",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": null,
+  "reels": "3x3",
+  "mechanics": [
+    "cluster-pays"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "3x3 colour clusters",
+      "description": "Nine cubes with six colours each."
+    },
+    {
+      "name": "Risk settings",
+      "description": "Low, medium or high risk changes the cluster size and payouts."
+    },
+    {
+      "name": "Visible payouts",
+      "description": "Multipliers for every result are shown before you spin."
+    }
+  ],
+  "review": "Blocks is one of Hacksaw's Dare2Win games and arguably the smallest cluster slot around: nine six-sided cubes on a 3x3 grid. Each cube shows one of six colours, and you win by forming a cluster of matching colours.\n\nBefore you play, you choose low, medium or high risk. The higher the risk, the bigger the cluster needed (three, four or five matching blocks), and the larger the multipliers shown under the panel. That makes it unusually transparent, as you can see the payouts for each result before you spin. The top prize is 5,000x. It's closer to a mini-game than a feature-heavy video slot.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1380/{version}/index.html?language=en&channel=desktop&gameid=1380&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/blocks.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/blocks",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

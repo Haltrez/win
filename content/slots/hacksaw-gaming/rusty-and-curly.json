@@ -1,0 +1,55 @@
+{
+  "slug": "rusty-and-curly",
+  "name": "Rusty & Curly",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "multipliers",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Wild Posters",
+      "description": "Semi-sticky wilds with hearts that keep the respins going."
+    },
+    {
+      "name": "Poster multipliers",
+      "description": "Posters can carry 2x and higher multipliers."
+    },
+    {
+      "name": "Bonus-only max win",
+      "description": "The 10,000x cap is only reachable in two of the bonuses."
+    }
+  ],
+  "review": "Rusty & Curly is a goofy western on a 5x4 payline grid. Its Wild Posters arrive with hearts, a multiplier, or both. A poster stays and keeps awarding respins as long as it has at least one heart left, losing one heart per respin.\n\nMultipliers on posters run from 2x upward, and the bonuses add multiplier wild reels. Unusually, Hacksaw says the 10,000x maximum is only reachable in the Stick to the Plan! and Who Shot the Sheriff? bonuses, not the base game. A lighthearted game with a clever take on sticky wilds.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1404/{version}/index.html?language=en&channel=desktop&gameid=1404&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/rusty-and-curly.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/rusty-and-curly",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

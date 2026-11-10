@@ -1,0 +1,56 @@
+{
+  "slug": "stormborn",
+  "name": "Stormborn",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "hold-and-win",
+    "respins",
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Thunder Respins",
+      "description": "Five coins trigger a sticky hold-and-win round."
+    },
+    {
+      "name": "Collector Chests",
+      "description": "Collect every coin value, sometimes with a multiplier."
+    },
+    {
+      "name": "Hidden Epic Bonus",
+      "description": "An extra bonus that only triggers naturally."
+    }
+  ],
+  "review": "Stormborn is a Norse coin slot where five or more coins trigger Thunder Respins. During respins, only coins, Collector Chests and blanks can land, and everything that lands stays. Each new coin or chest keeps the round going, and at the end coins reveal bronze, silver or gold values of up to 500x.\n\nCollector Chests gather every coin value, sometimes with a multiplier, and several chests each collect once. There are two bonus games with two options each, plus a Hidden Epic Bonus that only triggers naturally. The maximum is 15,000x.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1875/{version}/index.html?language=en&channel=desktop&gameid=1875&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/stormborn.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/stormborn",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

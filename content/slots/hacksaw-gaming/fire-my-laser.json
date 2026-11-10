@@ -1,0 +1,54 @@
+{
+  "slug": "fire-my-laser",
+  "name": "Fire my Laser",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "7x6",
+  "mechanics": [
+    "cascades",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "sci-fi",
+    "space"
+  ],
+  "features": [
+    {
+      "name": "Bombs and Lasers",
+      "description": "Destroy symbols, which pay out as they're removed."
+    },
+    {
+      "name": "Chain reactions",
+      "description": "One blast can set off others."
+    },
+    {
+      "name": "Total Win Bar",
+      "description": "Collects the spin's winnings and pays at the end."
+    }
+  ],
+  "review": "Fire my Laser ditches traditional wins altogether. Two types of bomb and two types of laser destroy symbols on the grid, and every paying symbol destroyed pays according to the paytable, with blank symbols paying nothing. Destroyed symbols trigger cascades, and new bombs or lasers can be set off by other explosions.\n\nAll wins go into a Total Win Bar and are paid at the end of the spin. Bombs and lasers fire in a set order, from the bottom up and right to left. It's a sci-fi demolition game with a 15,000x ceiling, and one of the strangest designs in the catalogue.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1640/{version}/index.html?language=en&channel=desktop&gameid=1640&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/fire-my-laser.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/fire-my-laser",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -42,7 +42,7 @@ for (const r of parseCsv(fs.readFileSync(file, 'utf8'))) {
   fs.mkdirSync(dir, { recursive: true });
   const fp = path.join(dir, `${r.slug}.json`);
   const data = {
-    slug: r.slug, name: r.name, provider: r.provider, rtp: Number(r.rtp),
+    slug: r.slug, name: r.name, provider: r.provider, rtp: r.rtp ? Number(r.rtp) : null,
     ...(r.rtpVariants ? { rtpVariants: list(r.rtpVariants).map(Number) } : {}),
     volatility: r.volatility, maxWin: Number(r.maxWin), releaseDate: r.releaseDate, reels: r.reels, paylines: r.paylines,
     mechanics: list(r.mechanics), themes: list(r.themes), demoUrl: r.demoUrl || null,

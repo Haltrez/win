@@ -1,0 +1,54 @@
+{
+  "slug": "tiger-legends",
+  "name": "Tiger Legends",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "expanding-symbols",
+    "free-spins"
+  ],
+  "themes": [
+    "asian",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Legendary Frames",
+      "description": "Expand a high-paying Warrior across a larger area."
+    },
+    {
+      "name": "Four warriors",
+      "description": "Each premium symbol is its own character."
+    },
+    {
+      "name": "Supercharged bonuses",
+      "description": "Frames are stronger in free spins."
+    }
+  ],
+  "review": "Tiger Legends is a 5x4 martial-arts slot with four animal warriors. A Legendary Frame that lands on a high-paying Warrior symbol can expand it into a Legendary Frame Warrior covering a much larger area, which turns one premium symbol into a stack that's easy to connect.\n\nThe bonus rounds supercharge the frames. The presentation is cinematic, with dojo backdrops and fluid character art, and the 10,000x maximum is available in every mode. This is one of the studio's more straightforward recent games, a good one to try if the mechanic-heavy titles seem too complex.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1744/{version}/index.html?language=en&channel=desktop&gameid=1744&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/tiger-legends.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/tiger-legends",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

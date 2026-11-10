@@ -1,0 +1,54 @@
+{
+  "slug": "cursed-crypt",
+  "name": "Cursed Crypt",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "ways",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "egypt",
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Cursed Reels",
+      "description": "Curse symbols spread upward and re-roll the covered positions."
+    },
+    {
+      "name": "Wrath of Sobek",
+      "description": "Ten free spins with more frequent Curse symbols."
+    },
+    {
+      "name": "Tomb of Tutankhamun",
+      "description": "The upgraded four-scatter bonus."
+    }
+  ],
+  "review": "Cursed Crypt is a 5x4 ways slot set in an Egyptian tomb, with one central mechanic: when a Curse symbol lands it spreads upward to the top of its reel, and each cursed position is replaced with a random symbol. It works like a reel-filling modifier, re-rolling part of the grid to give you a second chance at a connection.\n\nThe Wrath of Sobek bonus gives ten free spins with more Curse symbols, and four scatters unlock the Tomb of Tutankhamun round, where you can also win extra spins. It's a simpler game than most recent Hacksaw releases, and the 10,000x cap is reachable in every mode.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1434/{version}/index.html?language=en&channel=desktop&gameid=1434&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/cursed-crypt.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/cursed-crypt",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

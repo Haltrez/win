@@ -1,0 +1,53 @@
+{
+  "slug": "sixsixsix",
+  "name": "SixSixSix",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 16666,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "horror",
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Wicked Wheels",
+      "description": "Spin for adding or multiplying values, free spins or a max win."
+    },
+    {
+      "name": "Blue and Red wheels",
+      "description": "Red wheels in the bonus carry bigger values."
+    },
+    {
+      "name": "Left-to-right order",
+      "description": "The sequence of wheel results decides the final multiplier."
+    }
+  ],
+  "review": "SixSixSix is a fiery slot where '6' symbols on reels 1, 3 and 5 trigger Wicked Wheels in their own positions. Blue wheels appear in the base game, with values including adding multipliers up to 100x, multiplying ones up to x10, a free spins trigger and an instant max win.\n\nRed wheels appear in the bonuses with bigger values, up to 500x adding. Several wheels resolve from left to right, so the order of adding and multiplying results matters. The 16,666x maximum suits the theme, and there's an Epic version for players who want more.",
+  "pros": [
+    "Very high 16,666x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1534/{version}/index.html?language=en&channel=desktop&gameid=1534&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/sixsixsix.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/sixsixsix",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

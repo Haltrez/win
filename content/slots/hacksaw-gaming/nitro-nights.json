@@ -1,0 +1,54 @@
+{
+  "slug": "nitro-nights",
+  "name": "Nitro Nights",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "cascades",
+    "free-spins"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Nitro Mode",
+      "description": "Adds nudges, special symbols and position multipliers."
+    },
+    {
+      "name": "Nudge bar",
+      "description": "Holds up to ten nudges that move the grid down one row at a time."
+    },
+    {
+      "name": "Position multipliers",
+      "description": "Fixed multipliers that add together inside a win."
+    }
+  ],
+  "review": "Nitro Nights is a 5x4 street-racing slot built around a Nitro Mode that can kick in on any spin. When it activates, at least five nudges are loaded into a bar outside the grid, five special symbols are dropped onto random positions, and up to three position multipliers are placed on the reels.\n\nOnce the wins are paid, the nudges fire one by one: every symbol moves down a row and new ones fall in, so the multiplier positions stay put while fresh symbols pass over them. Multipliers in the same win are added together. It's a neat twist on cascades, with up to ten nudges in the bar at once, and the cap is 15,000x.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2328/{version}/index.html?language=en&channel=desktop&gameid=2328&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/nitro-nights.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/nitro-nights",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

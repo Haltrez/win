@@ -1,0 +1,54 @@
+{
+  "slug": "dawn-of-kings",
+  "name": "Dawn of Kings",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "expanding-symbols",
+    "free-spins"
+  ],
+  "themes": [
+    "egypt",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Book wild-scatter",
+      "description": "Substitutes and triggers the free spins."
+    },
+    {
+      "name": "Triple Book of Dawn",
+      "description": "The four-Book bonus with extra expanding symbols."
+    },
+    {
+      "name": "Best of Book",
+      "description": "Plays both bonus types and keeps the better outcome."
+    }
+  ],
+  "review": "Dawn of Kings is Hacksaw's take on the classic Book slot: 5x3, paylines, and a Book symbol that acts as both wild and scatter. Explorer Amy Dawn leads you through the temple, and three Books start Book of Dawn free spins, four start Triple Book of Dawn, and five also pay a 1,000x prize on top.\n\nPairing three Books with the Best of Bonus symbol gives you the Best of Book option, which plays both bonus types and keeps the better result. If you know traditional book games, you'll learn it immediately, but the triple-expanding-symbol bonus gives it more upside, up to 10,000x.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1442/{version}/index.html?language=en&channel=desktop&gameid=1442&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/dawn-of-kings.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/dawn-of-kings",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

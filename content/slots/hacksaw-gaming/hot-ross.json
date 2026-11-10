@@ -1,0 +1,55 @@
+{
+  "slug": "hot-ross",
+  "name": "Hot Ross",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "5x5",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Ro$$ and Hot Ro$$",
+      "description": "Expanding wild cats; Hot Ro$$ also drags neighbouring Ro$$ symbols into full reels."
+    },
+    {
+      "name": "Wild multipliers",
+      "description": "Expanding through a wild adds a multiplier of up to 200x."
+    },
+    {
+      "name": "Activated reels",
+      "description": "In Nine Lives, a reel that lands Ro$$ keeps landing one every spin."
+    }
+  ],
+  "review": "Hot Ross brings back Ro$$ the cartoon cat from R.I.P. City for a sequel with three bonus rounds. Regular Ro$$ symbols expand down to the bottom of their reel, while Hot Ro$$ symbols fill the whole reel and pull Ro$$ symbols on the neighbouring reels up so they expand fully too.\n\nWhen either version expands through an ordinary wild, it picks up a multiplier of up to 200x that covers the whole expanded reel. The Nine Lives bonus adds activated reels where a Ro$$ lands on every spin for the rest of the round, which is where the 15,000x maximum becomes realistic. Expect long quiet stretches between the moments when two or three reels catch fire together.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2062/{version}/index.html?language=en&channel=desktop&gameid=2062&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/hot-ross.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/hot-ross",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

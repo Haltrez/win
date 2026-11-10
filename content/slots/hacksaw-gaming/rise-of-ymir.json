@@ -1,0 +1,55 @@
+{
+  "slug": "rise-of-ymir",
+  "name": "Rise of Ymir",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "multipliers",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Sticky Ymir wilds",
+      "description": "Lock in place with 1x–100x multipliers and award a respin."
+    },
+    {
+      "name": "Giant Ymir",
+      "description": "Four Ymirs on one reel merge and add up their multipliers."
+    },
+    {
+      "name": "Megamultiplier",
+      "description": "New Ymirs build up a multiplier in the bonus."
+    }
+  ],
+  "review": "Rise of Ymir is a 5x4 Norse payline slot about the frost giant whose body became the world. Ymir symbols are sticky wild multipliers. Each one locks in place with a value of 1x to 100x and awards a free respin once the wins are paid.\n\nIf four Ymirs stick on the same reel, they merge into a Giant Ymir that adds up all four multipliers and applies the total to the whole reel. In the bonuses, newly landed Ymirs also feed a Megamultiplier. The game opens with an atmospheric poem about giants and gods, and the 15,000x maximum is reachable in every mode.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1616/{version}/index.html?language=en&channel=desktop&gameid=1616&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/rise-of-ymir.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/rise-of-ymir",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

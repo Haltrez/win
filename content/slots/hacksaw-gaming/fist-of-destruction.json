@@ -1,0 +1,55 @@
+{
+  "slug": "fist-of-destruction",
+  "name": "Fist of Destruction",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "crime",
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Fist Wild Reels",
+      "description": "Expand upward from where they land if that completes a win."
+    },
+    {
+      "name": "Team punches",
+      "description": "Punching an opposing fighter or a wild adds a reel multiplier."
+    },
+    {
+      "name": "Choose your fighter",
+      "description": "A cosmetic choice with no effect on results."
+    }
+  ],
+  "review": "Fist of Destruction is a 5x4 street-fighter slot where Fist symbols rise into wild reels from wherever they land, but only if the expanded reel would join a win. Fists belong to the red or blue team. When a rising Fist punches through a fighter from the other team, or through a wild, it adds a multiplier to its wild reel.\n\nBefore you play, you can choose which fighters stand beside the grid, though Hacksaw says this has no effect on outcomes. In the bonus, the two teams also compete to raise their Victory Level. There are two bonus levels, and the cap is 10,000x. A Megamultiplier version followed later.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1408/{version}/index.html?language=en&channel=desktop&gameid=1408&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/fist-of-destruction.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/fist-of-destruction",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

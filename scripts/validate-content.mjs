@@ -46,14 +46,16 @@ const jaccard = (a, b) => { let i = 0; for (const x of a) if (b.has(x)) i++; ret
 
 for (const s of slots) {
   const at = s.__file;
-  for (const k of ['slug', 'name', 'provider', 'rtp', 'mechanics', 'themes', 'features', 'review', 'pros', 'cons', 'updatedAt', 'author'])
+  for (const k of ['slug', 'name', 'provider', 'mechanics', 'themes', 'features', 'review', 'pros', 'cons', 'updatedAt', 'author'])
     if (s[k] === undefined || s[k] === null || s[k] === '') err(`${at}: missing ${k}`);
+  if (!('rtp' in s)) err(`${at}: rtp must be present (use null when not published)`);
   if (slugSet.has(s.slug)) err(`${at}: duplicate slug "${s.slug}" (slugs must be globally unique for comparisons/related links)`);
   slugSet.add(s.slug);
   if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(s.slug)) err(`${at}: slug must be kebab-case`);
   const p = pmap.get(s.provider);
   if (!p) err(`${at}: unknown provider ${s.provider}`);
-  if (typeof s.rtp !== 'number' || s.rtp < 80 || s.rtp > 99.9) err(`${at}: rtp out of range (${s.rtp})`);
+  if (s.rtp !== null && (typeof s.rtp !== 'number' || s.rtp < 80 || s.rtp > 99.9)) err(`${at}: rtp out of range (${s.rtp})`);
+  if (s.rtpSource === 'third-party' && s.verified) err(`${at}: third-party RTP must not be marked verified`);
   // volatility / maxWin / releaseDate may be null when the provider doesn't publish them – never guess.
   if (s.volatility !== null && !VOL.includes(s.volatility)) err(`${at}: invalid volatility ${s.volatility} (use null if unpublished)`);
   if (s.maxWin !== null && !(s.maxWin > 0)) err(`${at}: maxWin must be > 0 or null`);

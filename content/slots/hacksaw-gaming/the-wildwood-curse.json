@@ -1,0 +1,54 @@
+{
+  "slug": "the-wildwood-curse",
+  "name": "The Wildwood Curse",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "6x5",
+  "mechanics": [
+    "sticky-wilds",
+    "respins",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Nightmare Respins",
+      "description": "Wilds stick and keep the respins going."
+    },
+    {
+      "name": "Cursed Clusters",
+      "description": "2x2 wild squares reveal one of three characters."
+    },
+    {
+      "name": "The Psycho",
+      "description": "A cluster with a multiplier that re-rolls every respin."
+    }
+  ],
+  "review": "The Wildwood Curse is a horror slot set in the woods, with Nightmare Respins. Any wild that lands sticks and triggers a respin, during which new wilds also stick, and the sequence continues as long as wilds keep landing, paying at every step.\n\nFour wilds in a 2x2 square form a Cursed Cluster that reveals one of three characters. The Psycho, for example, re-rolls a multiplier for its cluster on every respin. The cluster rule rewards wilds landing next to each other, not just landing at all. The maximum is 10,000x.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1891/{version}/index.html?language=en&channel=desktop&gameid=1891&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/the-wildwood-curse.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/the-wildwood-curse",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "rainbow-princess",
+  "name": "Rainbow Princess",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "6x5",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Magic Frame Multipliers",
+      "description": "Frames on the grid multiply any cluster that passes through them."
+    },
+    {
+      "name": "Additive frames",
+      "description": "Several frames in one cluster add together."
+    },
+    {
+      "name": "Super Cascades",
+      "description": "Remove every symbol of the winning type."
+    }
+  ],
+  "review": "Rainbow Princess is a sparkling cluster slot with Super Cascades and Magic Frame Multipliers. Whenever there's a winning cluster, frames can appear on random positions during a spin or cascade, each holding an adding multiplier that applies to any cluster passing through it.\n\nSeveral frames in the same cluster add together before multiplying the win, so a big cluster crossing two or three frames is the main goal. The values start at 2x and climb from there, and the maximum is 10,000x. The gem-and-stardust art is very polished.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1817/{version}/index.html?language=en&channel=desktop&gameid=1817&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/rainbow-princess.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/rainbow-princess",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

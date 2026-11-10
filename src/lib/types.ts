@@ -17,8 +17,10 @@ export interface Slot {
   slug: string;
   name: string;
   provider: string; // provider slug
-  /** Default (highest) published RTP in %. Operators may run lower configurations. */
-  rtp: number;
+  /** Default (highest) published RTP in %. Operators may run lower configurations. null = not published / not confirmed. */
+  rtp: number | null;
+  /** 'third-party': RTP not published by the provider; taken from two independent third-party databases that agree. */
+  rtpSource?: 'provider' | 'third-party';
   /** Other RTP configurations the provider offers operators. */
   rtpVariants?: number[];
   /** Provider-published volatility. null = not published by the provider (never guessed). */

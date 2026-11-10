@@ -1,0 +1,54 @@
+{
+  "slug": "danny-dollar",
+  "name": "Danny Dollar",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": "medium-high",
+  "maxWin": 12500,
+  "releaseDate": null,
+  "reels": "5x5",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "progressive-multiplier",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Dollar-Reels",
+      "description": "Danny symbols expand upward into wild reels."
+    },
+    {
+      "name": "Nudge symbols",
+      "description": "Shift reels to help wilds and wins connect."
+    },
+    {
+      "name": "Progressive global multiplier",
+      "description": "Builds up across the free spins."
+    }
+  ],
+  "review": "Danny Dollar is the second half of Hacksaw's Cash Kings, following Donny Dough. It's a 5x5 payline slot where Danny symbols expand upward into wild Dollar-Reels, nudges shift symbols into place, and a progressive global multiplier climbs through the bonus rounds.\n\nHacksaw describes it as medium-high volatility, a step softer than many of its titles, and caps it at 12,500x in every mode. The game-show presentation and stage curtains match Donny Dough well, and the two later teamed up in Donny and Danny. A good one to try if you liked the LootLines games but want more frequent wild action.",
+  "pros": [
+    "High 12,500x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1685/{version}/index.html?language=en&channel=desktop&gameid=1685&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/danny-dollar.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/danny-dollar",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "le-bunny",
+  "name": "Le Bunny",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 20000,
+  "releaseDate": null,
+  "reels": "6x5",
+  "mechanics": [
+    "cascades",
+    "money-collect",
+    "jackpot",
+    "free-spins"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Golden Squares",
+      "description": "Winning positions reveal coins, baskets, clovers or Jackpot Eggs."
+    },
+    {
+      "name": "Super Cascades",
+      "description": "Remove every symbol of the winning type."
+    },
+    {
+      "name": "Jackpot Eggs",
+      "description": "Award fixed jackpot prizes."
+    }
+  ],
+  "review": "Le Bunny dresses Smokey up as an Easter bunny. Winning symbols leave Golden Squares behind, and a Rainbow symbol turns them into bronze, silver or gold coins, basket collectors, green or gold clovers, or Jackpot Eggs.\n\nSuper Cascades clear every winning symbol type so new ones can drop in, which means a single spin can build several squares before the Rainbow arrives. The three bonuses raise the reveal rate, and the cap is 20,000x. This is the cascading member of the Le family, which makes it play a little differently from Le Fisherman and Le Santa.",
+  "pros": [
+    "Very high 20,000x win ceiling",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2195/{version}/index.html?language=en&channel=desktop&gameid=2195&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/le-bunny.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/le-bunny",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

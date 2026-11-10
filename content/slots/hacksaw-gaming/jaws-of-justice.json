@@ -1,0 +1,55 @@
+{
+  "slug": "jaws-of-justice",
+  "name": "Jaws of Justice",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "space",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Laser Sharks",
+      "description": "Fire beams that turn symbols wild."
+    },
+    {
+      "name": "Force Fields",
+      "description": "Bounce lasers back across the grid."
+    },
+    {
+      "name": "Wild multipliers",
+      "description": "Lasers hitting existing wilds add multipliers."
+    }
+  ],
+  "review": "Jaws of Justice is set in space, and its stars are Laser Sharks. When one activates, it fires straight up or diagonally to either side, turning every paying symbol in its path into a wild, and becomes a wild itself at the end of the spin.\n\nForce Fields on three edges of the grid bounce the lasers back, so one beam can zig-zag across the board, and hitting an existing wild adds a multiplier to it. The Killer Cosmos and Chompocalypse bonuses raise shark activity, and the cap is 10,000x. The rebounds make each laser fun to watch.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1946/{version}/index.html?language=en&channel=desktop&gameid=1946&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/jaws-of-justice.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/jaws-of-justice",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

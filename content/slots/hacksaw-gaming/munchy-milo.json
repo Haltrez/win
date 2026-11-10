@@ -1,0 +1,54 @@
+{
+  "slug": "munchy-milo",
+  "name": "Munchy Milo",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "7x7",
+  "mechanics": [
+    "cluster-pays",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "space",
+    "sci-fi"
+  ],
+  "features": [
+    {
+      "name": "Jolt Frames",
+      "description": "Spread in lines and convert symbols."
+    },
+    {
+      "name": "Chain Reaction",
+      "description": "Crossing a matching symbol triggers another frame."
+    },
+    {
+      "name": "Lift Off Luck",
+      "description": "Free spins with more frequent frames."
+    }
+  ],
+  "review": "Munchy Milo is a space-themed cluster slot whose Jolt Frames work much like Sun Princess's Sun Rays. A frame lands on a symbol at the start of a spin, then spreads in straight lines once wins are paid, turning everything it touches into that symbol.\n\nWhat sets it apart is the Chain Reaction: if a spread crosses a symbol of the same type it's copying, a new frame appears there and spreads again, which in theory can fill the board. The Lift Off Luck bonus improves frame odds, and the cap is 10,000x.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2219/{version}/index.html?language=en&channel=desktop&gameid=2219&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/munchy-milo.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/munchy-milo",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "death-becomes-you",
+  "name": "Death Becomes You",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Monster DuelReels",
+      "description": "Five monsters duel for reel multipliers."
+    },
+    {
+      "name": "Duel with Death",
+      "description": "A respin sequence where you duel Death with three lives."
+    },
+    {
+      "name": "Spelled trigger",
+      "description": "Low symbols spelling a word across a row start the sequence."
+    }
+  ],
+  "review": "Death Becomes You is a 5x4 horror slot that combines DuelReels with a duel against Death himself. VS symbols expand into wild reels when they'd join a win, showing one of five monsters, and the winning duelist's additive multiplier covers the reel.\n\nSpell out the game's word with low symbols across a row and you trigger a special sequence: Death expands over reels 2 to 4, and you duel him with three lives and a starting 5x multiplier. Win and your multiplier grows; lose and you lose a life. The cap is 15,000x, and it's a good twist on the DuelReels format.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2319/{version}/index.html?language=en&channel=desktop&gameid=2319&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/death-becomes-you.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/death-becomes-you",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

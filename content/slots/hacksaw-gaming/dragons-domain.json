@@ -1,0 +1,54 @@
+{
+  "slug": "dragons-domain",
+  "name": "Dragon's Domain",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "6x5",
+  "mechanics": [
+    "scatter-pays",
+    "cascades",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Charred Land wilds",
+      "description": "Multipliers with three charges that grow by 1x per cascade."
+    },
+    {
+      "name": "Dragonfire",
+      "description": "Dragons create extra Charred Land wilds."
+    },
+    {
+      "name": "All-scatter wins",
+      "description": "Matching symbols anywhere on the 6x5 grid pay."
+    }
+  ],
+  "review": "Dragon's Domain is a 6x5 scatter-pays cascade slot with knights, treasure and Charred Land wild multipliers. Each one lands with three charges and a value of 2x to 10x. It loses a charge after each win it joins but gains +1x every time the grid cascades, so a wild can grow quite a bit during a long chain.\n\nSeveral Charred Lands in the same win add their values together, and Dragon symbols breathe Dragonfire across the board to create more of them. There are two bonus games, and the cap is 10,000x. The charge system is a neat way to make wild multipliers both grow and expire.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1360/{version}/index.html?language=en&channel=desktop&gameid=1360&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/dragons-domain.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/dragons-domain",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

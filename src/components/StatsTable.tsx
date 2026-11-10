@@ -5,7 +5,7 @@ import { fmtRelease, fmtRtp, fmtX, volLabel } from '@/lib/format';
 export function StatsTable({ slot, provider }: { slot: Slot; provider: Provider }) {
   const rows: [string, React.ReactNode][] = [
     ['Provider', <Link key="p" href={`/providers/${provider.slug}`}>{provider.name}</Link>],
-    ['RTP', <>{fmtRtp(slot.rtp)}{slot.rtpVariants?.length ? <span className="muted small"> (also {slot.rtpVariants.map(fmtRtp).join(', ')})</span> : null}</>],
+    ['RTP', <>{fmtRtp(slot.rtp)}{slot.rtpSource === 'third-party' ? <span className="muted small"> (third-party figure, not confirmed by the provider)</span> : null}{slot.rtpVariants?.length ? <span className="muted small"> (also {slot.rtpVariants.map(fmtRtp).join(', ')})</span> : null}</>],
     ['Volatility', volLabel(slot.volatility)],
     ['Max win', fmtX(slot.maxWin)],
     ['Release date', fmtRelease(slot)],

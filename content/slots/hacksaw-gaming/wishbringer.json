@@ -1,0 +1,54 @@
+{
+  "slug": "wishbringer",
+  "name": "Wishbringer",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "6x4",
+  "mechanics": [
+    "ways",
+    "expanding-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Wild Cloud Rows",
+      "description": "Genies turn everything to their left on the row wild."
+    },
+    {
+      "name": "FS-friendly wilds",
+      "description": "Scatters under clouds still count toward bonuses."
+    },
+    {
+      "name": "Arabian Nights bonus",
+      "description": "Free spins with more frequent genies."
+    }
+  ],
+  "review": "Wishbringer is a 6x4 ways slot with a genie and a twist on the wild-row idea from Beam Boys. Genie symbols can land on reels 2 to 6 and blow clouds to the left along their row. Every position under a cloud becomes a wild, so a genie on the far right can turn the whole row wild.\n\nFS symbols stay active even when covered by a cloud, as long as they're part of a win, so you don't lose bonus triggers to your own wilds. The Arabian Nights bonus and its upgrades lean harder on genies, and the maximum is 10,000x.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1711/{version}/index.html?language=en&channel=desktop&gameid=1711&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/wishbringer.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/wishbringer",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "octo-attack",
+  "name": "Octo Attack",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "6x5",
+  "mechanics": [
+    "cascades",
+    "multipliers",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Ink Stains",
+      "description": "Mark every position that has held a win during the spin."
+    },
+    {
+      "name": "Tenta-Grab",
+      "description": "Copies one symbol into every stained position."
+    },
+    {
+      "name": "Wild multipliers",
+      "description": "Additive values from 1x to 10x."
+    }
+  ],
+  "review": "Octo Attack features Otto the Octopus and his Tenta-Grab mechanic. Winning symbols disappear and new ones drop in, but each winning position is marked with an Ink Stain. When the Eye of Otto lands on a grid with ink stains, he grabs one random symbol and copies it into every stained position, and his own.\n\nWilds can carry additive multipliers of 1x to 10x, so a grab that copies a wild across all the stains is the best result. Stains reset between spins, so the cascade itself is what builds the setup. The cap is 10,000x.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1584/{version}/index.html?language=en&channel=desktop&gameid=1584&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/octo-attack.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/octo-attack",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

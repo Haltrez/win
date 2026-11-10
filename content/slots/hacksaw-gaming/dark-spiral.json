@@ -1,0 +1,53 @@
+{
+  "slug": "dark-spiral",
+  "name": "Dark Spiral",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "6x4",
+  "mechanics": [
+    "cascades",
+    "expanding-symbols",
+    "free-spins"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Summoning symbols",
+      "description": "Stacks in three sizes that stay put and re-reveal through cascades."
+    },
+    {
+      "name": "Wild growth",
+      "description": "Adjacent wilds make a Summoning symbol grow."
+    },
+    {
+      "name": "Shattered and Twisted",
+      "description": "Bonus tiers with more Summoning symbols."
+    }
+  ],
+  "review": "Dark Spiral is a gothic horror slot with mirrors and twin girls, built around Summoning symbols. These land in three sizes and reveal a stack of one paying symbol or wild. When they're part of a win they stay on the grid while the other winning symbols cascade away, then reveal again for another chance at a win.\n\nA wild landing directly above or below a Summoning symbol makes it grow to cover that wild, so the stacks can get larger as a sequence continues. The Shattered and Twisted bonuses raise the summoning rate, and the cap is 10,000x. It's one of Hacksaw's darker-looking games.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2143/{version}/index.html?language=en&channel=desktop&gameid=2143&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/dark-spiral.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/dark-spiral",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

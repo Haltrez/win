@@ -1,0 +1,53 @@
+{
+  "slug": "beam-boys",
+  "name": "Beam Boys",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 12500,
+  "releaseDate": null,
+  "reels": "6x4",
+  "mechanics": [
+    "ways",
+    "expanding-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Volatility Switch",
+      "description": "Toggle between low and extreme volatility."
+    },
+    {
+      "name": "Wild Rows",
+      "description": "Laser cats turn every position to their left wild."
+    },
+    {
+      "name": "Free spins",
+      "description": "FS scatters unlock the bonus with more laser cats."
+    }
+  ],
+  "review": "Beam Boys is a 6x4 ways slot with cats and laser pointers, and the studio's rare Volatility Switch. A toggle outside the grid flips the game between low and extreme volatility: low gives smaller, more frequent wins, extreme gives bigger, rarer ones. That's why we don't list a single volatility rating.\n\nThe core mechanic is Wild Rows. Laser cats land on reels 2 to 6 and fire a beam to the left, turning every position on that row wild. Two cats on different rows can make huge ways counts. The maximum is 12,500x in both settings, and the switch makes it a good game for testing your own preference in demo mode.",
+  "pros": [
+    "High 12,500x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1426/{version}/index.html?language=en&channel=desktop&gameid=1426&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/beam-boys.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/beam-boys",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

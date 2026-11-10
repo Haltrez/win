@@ -1,0 +1,56 @@
+{
+  "slug": "donny-dough",
+  "name": "Donny Dough",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "winType": "14 paylines",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "crime",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "LootLines",
+      "description": "Winning lines of Multi-Dough symbols pay their combined value."
+    },
+    {
+      "name": "Four Multi-Dough types",
+      "description": "Adding and multiplying, with revealing versions of each."
+    },
+    {
+      "name": "14 paylines",
+      "description": "A 5x4 grid."
+    }
+  ],
+  "review": "Donny Dough is the game that introduced Hacksaw's LootLines. Multi-Dough symbols featuring Donny's grin come in four types, adding (1x–10x), revealing adding (15x–500x), multiplying (x2–x5) and revealing multiplying (x6–x25), and a winning line of them pays their combined value.\n\nBecause multiplying symbols act on everything to their left, a line ending with a x25 can be dramatic. The 5x4 grid has 14 paylines, the presentation is a gold-and-jewels game show, and the maximum is 10,000x. Danny Dollar and Donny and Danny followed.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1530/{version}/index.html?language=en&channel=desktop&gameid=1530&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/donny-dough.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/donny-dough",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

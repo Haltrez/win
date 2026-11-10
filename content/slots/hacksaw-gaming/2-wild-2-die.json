@@ -1,0 +1,54 @@
+{
+  "slug": "2-wild-2-die",
+  "name": "2 Wild 2 Die",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Silver and Gold Revolvers",
+      "description": "Fire one to six bullets that create wilds and wild multipliers."
+    },
+    {
+      "name": "Repeat hits",
+      "description": "A second hit adds a multiplier to an existing wild."
+    },
+    {
+      "name": "Best of Bonus",
+      "description": "Plays two bonus rounds and lets you take the better result."
+    }
+  ],
+  "review": "2 Wild 2 Die is a 5x4 western shootout with revolvers at its centre. Silver and Gold Revolver symbols land with one to six bullets and fire them at random positions. A first silver hit turns that spot wild, and repeat hits upgrade it to a wild multiplier. Gold bullets skip straight to a multiplier.\n\nIt gives the base game plenty of action, since every revolver fires, even when it doesn't land a win. There are two bonus rounds plus Hacksaw's Best of Bonus feature, which lets you see both bonus outcomes before picking one. The ceiling is 15,000x, and the dusty saloon setting is well drawn.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1400/{version}/index.html?language=en&channel=desktop&gameid=1400&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/2-wild-2-die.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/2-wild-2-die",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "cash-crew",
+  "name": "Cash Crew",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5x5",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Multipliers Gone Wild",
+      "description": "x2–x25 wild multipliers that multiply together."
+    },
+    {
+      "name": "Grab 'Em",
+      "description": "Collects cash and boosts values near multipliers."
+    },
+    {
+      "name": "Mystery multipliers",
+      "description": "x4 and higher reveal only when cash is collected."
+    }
+  ],
+  "review": "Cash Crew is a 5x5 heist slot with multiplier wilds that multiply together on a payline, from x2 to x25, rather than adding. They have a second job: when a Grab 'Em symbol lands, every cash symbol in the 3x3 area around a multiplier gets that multiplier applied.\n\nMultipliers of x4 and above land as question marks and reveal when cash is collected, so there's always a moment of suspense. Two bonus modes build on the collect system, and the cap is 10,000x.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1456/{version}/index.html?language=en&channel=desktop&gameid=1456&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/cash-crew.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/cash-crew",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

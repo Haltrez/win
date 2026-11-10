@@ -1,0 +1,55 @@
+{
+  "slug": "shaolin-master",
+  "name": "Shaolin Master",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5x6",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "progressive-multiplier",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Blue Chi Orbs",
+      "description": "Gain +1x for each win they're part of."
+    },
+    {
+      "name": "Red Chi Orbs",
+      "description": "Gain +1x for every symbol in the winning cluster."
+    },
+    {
+      "name": "Cascades",
+      "description": "Orbs grow as cascade chains continue."
+    }
+  ],
+  "review": "Shaolin Master is a cascading cluster slot set in a kung-fu dojo, with three kinds of Chi Orb wild multipliers. Blue orbs start at 1x and gain +1 each time they join a cluster win. Red orbs gain +1 for every symbol in the winning cluster, including orbs, so they grow much faster.\n\nA third type, the Balance orb, has its own rule, and all of them stay on the grid through cascades, which lets their values build up over a long chain. It's a smart progressive-multiplier design, and the cap is 10,000x.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1554/{version}/index.html?language=en&channel=desktop&gameid=1554&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/shaolin-master.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/shaolin-master",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

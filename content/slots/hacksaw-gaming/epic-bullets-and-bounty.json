@@ -1,0 +1,55 @@
+{
+  "slug": "epic-bullets-and-bounty",
+  "name": "Epic Bullets and Bounty",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 20000,
+  "releaseDate": null,
+  "reels": "5x5",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins",
+    "gamble"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Epic version",
+      "description": "Higher volatility than the standard game, according to Hacksaw."
+    },
+    {
+      "name": "Gamble upgrade",
+      "description": "Risk a triggered bonus for a shot at the Epic Bonus."
+    },
+    {
+      "name": "Bounty DuelReels",
+      "description": "Chained duels that combine reel multipliers."
+    }
+  ],
+  "review": "Epic Bullets and Bounty is the high-octane version of Bullets and Bounty. The DuelReels, Bounty duels and 20,000x ceiling stay the same, but Hacksaw says the volatility is higher, the BonusHunt FeatureSpins mode is more likely to hit a bonus, and you can gamble your way up into the Epic Bonus.\n\nOn Hacksaw's own scale this version is wilder than the original, so if you've played the standard game and want something more extreme, this is it. If you're new to either, start with the original. In both, the demo is the cheapest way to see how often a Bounty chain really comes together.",
+  "pros": [
+    "Very high 20,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2185/{version}/index.html?language=en&channel=desktop&gameid=2185&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/epic-bullets-and-bounty.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/epic-bullets-and-bounty",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

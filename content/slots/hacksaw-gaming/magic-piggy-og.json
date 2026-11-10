@@ -1,0 +1,54 @@
+{
+  "slug": "magic-piggy-og",
+  "name": "Magic Piggy OG",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 2500,
+  "releaseDate": null,
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Magic Hat reveals",
+      "description": "All piggies turn into wilds or Bill Stacks together."
+    },
+    {
+      "name": "Bill Stacks",
+      "description": "Cash prizes from 1x to 500x, added together."
+    },
+    {
+      "name": "Multiplier Coins",
+      "description": "Multiply one to five Bill Stacks by 2x–5x."
+    }
+  ],
+  "review": "Magic Piggy OG is the original 5x3 version of Magic Piggy, set on a magic-show stage. Magic Piggy symbols are mystery symbols that a Magic Hat activates: the hat shows what every piggy will become, either wilds or Bill Stack cash prizes, and all the piggies turn into the same thing.\n\nBill Stacks are worth 1x to 500x and are added together. Sometimes a piggy reveals a Multiplier Coin instead, which multiplies one to five Bill Stacks by 2x to 5x. The maximum is a modest 2,500x, so this plays more gently than most of the catalogue. A good pick for a relaxed demo session.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Modest 2,500x max win"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2258/{version}/index.html?language=en&channel=desktop&gameid=2258&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/magic-piggy-og.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/magic-piggy-og",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

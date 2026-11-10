@@ -1,0 +1,56 @@
+{
+  "slug": "the-jade-path-hold-and-win",
+  "name": "The Jade Path Hold & Win",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 2500,
+  "releaseDate": null,
+  "reels": "5x3",
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "jackpot",
+    "multipliers",
+    "respins"
+  ],
+  "themes": [
+    "animals",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Hold & Win",
+      "description": "Three orbs trigger sticky respins with three refilling lives."
+    },
+    {
+      "name": "Five jackpots",
+      "description": "Jackpot orbs award one of five fixed tiers."
+    },
+    {
+      "name": "Jaguar Multipliers",
+      "description": "Multiply every coin orb on the board."
+    }
+  ],
+  "review": "The Jade Path Hold & Win is a 5x3 jungle slot that features Queen Aisha and a classic hold-and-win round. Three coin or jackpot orbs trigger it, after which only orbs, Jaguar Multipliers and blanks can land. Each orb sticks and resets your three lives.\n\nAt the end, coin orbs pay their bet multiples, and jackpot orbs pay one of five jackpot tiers shown above the grid. Jaguar Multipliers boost every coin orb already on the board when they land, and refill your lives. With a 2,500x cap, it's a lower-ceiling game in the mainstream hold-and-win style.",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Modest 2,500x max win"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2670/{version}/index.html?language=en&channel=desktop&gameid=2670&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/the-jade-path-hold-and-win.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/the-jade-path-hold-%26-win",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

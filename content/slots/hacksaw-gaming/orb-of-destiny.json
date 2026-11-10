@@ -1,0 +1,55 @@
+{
+  "slug": "orb-of-destiny",
+  "name": "Orb of Destiny",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": "medium",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "6x4",
+  "winType": "14 paylines",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Lady Fortune wild reels",
+      "description": "Expanded wild reels carrying one to five multipliers."
+    },
+    {
+      "name": "Orb symbols",
+      "description": "Add extra multipliers to a landed Lady Fortune."
+    },
+    {
+      "name": "Additive multipliers",
+      "description": "Several Lady Fortune reels in one win add their values together."
+    }
+  ],
+  "review": "Orb of Destiny is a 6x4, 14-payline fortune-teller slot built around Lady Fortune, an expanding wild reel that lands with one to three multipliers displayed at its foot. Orb symbols that land alongside her add more multipliers, up to five per reel, and if several Lady Fortune reels share a win their values are added together first.\n\nThat makes the base game less about single big hits and more about stacking two or three expanded reels on the same spin. Hacksaw rates the game 3 out of 5 for volatility, which is moderate by the studio's standards, and caps wins at 10,000x. A good entry point if you find most Hacksaw releases too punishing.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Moderate volatility by Hacksaw's standards",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1474/{version}/index.html?language=en&channel=desktop&gameid=1474&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/orb-of-destiny.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/orb-of-destiny",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

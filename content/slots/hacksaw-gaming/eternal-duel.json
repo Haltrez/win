@@ -1,0 +1,54 @@
+{
+  "slug": "eternal-duel",
+  "name": "Eternal Duel",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "5x5",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "DuelReels",
+      "description": "Expanding wild reels with duel-decided multipliers."
+    },
+    {
+      "name": "FS DuelReels",
+      "description": "Free spin counts are decided by duels too."
+    },
+    {
+      "name": "Bonus upgrades",
+      "description": "Can lift the bonus to Zeus Fury or Eternal Destruction."
+    }
+  ],
+  "review": "Eternal Duel pits two divine brothers against each other on DuelReels. VS symbols that would join a win expand to cover their reel, and the winning duelist's multiplier applies to the whole reel. FS DuelReels work the same way, but for free spins: each one duels two spin values, and the winners are added to set your bonus length.\n\nBonus upgrades can also trigger here, moving you up to Zeus Fury or Eternal Destruction, depending on how many FS reels and upgrades land. The maximum is 15,000x. The FS duel adds something new to a familiar mechanic.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2148/{version}/index.html?language=en&channel=desktop&gameid=2148&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/eternal-duel.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/eternal-duel",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

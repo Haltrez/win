@@ -1,0 +1,55 @@
+{
+  "slug": "keep-em",
+  "name": "Keep'em",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": "medium",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "6x5",
+  "winType": "15,625 ways",
+  "mechanics": [
+    "ways",
+    "money-collect",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Cash'Em symbols",
+      "description": "Hold values from 1x to 1,000x."
+    },
+    {
+      "name": "Get'Em collector",
+      "description": "Collects all visible cash symbols when it lands."
+    },
+    {
+      "name": "15,625 ways",
+      "description": "A 6x5 ways grid with drop mechanics."
+    }
+  ],
+  "review": "Keep'em brings back Canny the Can, this time with Bob the Bird, on a 6x5 drop grid with 15,625 ways. The retro pixel style will be familiar to Hacksaw regulars. Cash symbols worth 1x to 1,000x land across the reels and are collected whenever a Get 'Em scatter appears alongside them.\n\nHacksaw gives it 3 out of 5 for volatility, so it plays steadier than the studio's flagship titles, and the collect mechanic produces frequent small cash pickups between larger features. The free spins build on Get 'Em collection, and the maximum is 10,000x in every mode.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Moderate volatility by Hacksaw's standards",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1494/{version}/index.html?language=en&channel=desktop&gameid=1494&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/keep-em.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/keep-em",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "bouncy-bombs",
+  "name": "Bouncy Bombs",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "6x5",
+  "mechanics": [
+    "scatter-pays",
+    "cascades",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fruit",
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "Bomb Multipliers",
+      "description": "Add their values together and multiply the round's total."
+    },
+    {
+      "name": "Revealing bombs",
+      "description": "Hide larger multipliers until they explode."
+    },
+    {
+      "name": "Total Win Bar",
+      "description": "Collects every win from the round."
+    }
+  ],
+  "review": "Bouncy Bombs is a 6x5 fruit scatter-pays slot where wins go into a Total Win Bar and bomb multipliers go off at the end of the round. Normal bombs show 2x to 4x, revealing bombs hide values from 5x upward, and all bombs on the grid add their values together before multiplying the total.\n\nThe bombs only pay if the round had at least one win, so a full board of bombs with no connection is a near miss. It's a very readable design, similar to other tumble-and-bomb games, and the cap is 10,000x in every mode.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1422/{version}/index.html?language=en&channel=desktop&gameid=1422&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/bouncy-bombs.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/bouncy-bombs",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

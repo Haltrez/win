@@ -1,0 +1,53 @@
+{
+  "slug": "freds-food-truck",
+  "name": "Freds Food Truck",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5x5",
+  "mechanics": [
+    "multipliers",
+    "progressive-multiplier",
+    "free-spins"
+  ],
+  "themes": [
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Green Chili multipliers",
+      "description": "Add up into a global round multiplier."
+    },
+    {
+      "name": "Big Menu bonus",
+      "description": "The multiplier keeps growing for the whole round."
+    },
+    {
+      "name": "Small Menu bonus",
+      "description": "Ten free spins from three scatters."
+    }
+  ],
+  "review": "Fred's Food Truck uses Green Chilies as its multiplier mechanic. When chilies land with a win, they reveal values that add up into a global multiplier for the whole round: one chili gives 1x–5x, two give 10x–20x, and three give 25x–100x.\n\nThe multiplier resets between base-game rounds, but in the Big Menu free spins every chili adds to a progressive total that keeps growing. Small Menu offers ten spins, Big Menu fifteen. It's a simple, cheerful design with a clear payoff, and the cap is 10,000x.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1229/{version}/index.html?language=en&channel=desktop&gameid=1229&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/freds-food-truck.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/freds-food-truck",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

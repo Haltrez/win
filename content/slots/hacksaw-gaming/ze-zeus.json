@@ -1,0 +1,54 @@
+{
+  "slug": "ze-zeus",
+  "name": "Ze Zeus",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "6x5",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Super Cascades",
+      "description": "Removes every symbol of a winning type, not just the winning cluster."
+    },
+    {
+      "name": "Win to Win",
+      "description": "Winning positions affect later cascades."
+    },
+    {
+      "name": "Three named bonuses",
+      "description": "All capable of the 10,000x maximum."
+    }
+  ],
+  "review": "Ze Zeus is a 6x5 cluster slot starring Hacksaw's comic thunder god. Its Super Cascades remove not only the winning symbols but every symbol of the same type on the grid, which clears space much faster than a normal tumble.\n\nWin to Win builds on that, as the positions of winning symbols carry on helping later cascades. Three themed bonus rounds, What If Zeus Was One of Us?, Ze Zeus Take the Wheel and Ze Zeus Might Superstar, all offer the 10,000x maximum, as does the base game. The cartoon style is light-hearted, but the cascades can run long once they start.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1508/{version}/index.html?language=en&channel=desktop&gameid=1508&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/ze-zeus.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/ze-zeus",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

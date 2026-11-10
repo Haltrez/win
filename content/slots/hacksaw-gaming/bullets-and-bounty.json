@@ -1,0 +1,54 @@
+{
+  "slug": "bullets-and-bounty",
+  "name": "Bullets and Bounty",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 20000,
+  "releaseDate": null,
+  "reels": "5x5",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Outlaw DuelReels",
+      "description": "Expanding wild reels where the winning duelist's 2x–100x multiplier applies."
+    },
+    {
+      "name": "Bounty DuelReels",
+      "description": "The bounty hunter can win up to three duels in a row and combine the multipliers."
+    },
+    {
+      "name": "True Grit bonus",
+      "description": "The first of three free spins tiers."
+    }
+  ],
+  "review": "Bullets and Bounty is a 5x5 western slot that features Quick Draw Kate and Hacksaw's DuelReels. When a VS symbol would be part of a win, it expands to cover its reel and becomes wild, and two duelists fight it out, with the winner's multiplier of 2x to 100x applied to everything on that reel.\n\nThe twist is Bounty DuelReels. Here a bounty hunter faces an outlaw, and if she wins she takes his multiplier and duels again, up to three times, adding up the values as she goes. That chain is what makes the 20,000x maximum possible. Three bonus rounds, starting with True Grit, raise the duel frequency.",
+  "pros": [
+    "Very high 20,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1799/{version}/index.html?language=en&channel=desktop&gameid=1799&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/bullets-and-bounty.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/Bullets-and-bounty",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -2,7 +2,7 @@ import type { Volatility } from './types';
 
 export const NOT_PUBLISHED = 'Not published';
 export const fmtX = (n: number | null | undefined) => (n == null ? NOT_PUBLISHED : `${n.toLocaleString('en-US')}x`);
-export const fmtRtp = (n: number) => `${n.toFixed(2)}%`;
+export const fmtRtp = (n: number | null | undefined) => (n == null ? NOT_PUBLISHED : `${n.toFixed(2)}%`);
 export const year = (iso: string | null | undefined) => (iso ? iso.slice(0, 4) : '');
 export const fmtDate = (iso: string) =>
   new Date(iso + (iso.length === 10 ? 'T00:00:00Z' : '')).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });

@@ -1,0 +1,55 @@
+{
+  "slug": "le-prechaun",
+  "name": "Le Prechaun",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "6x5",
+  "mechanics": [
+    "cluster-pays",
+    "multipliers",
+    "money-collect",
+    "free-spins"
+  ],
+  "themes": [
+    "irish",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Position multipliers",
+      "description": "Start at x2 and double with each win, up to x100."
+    },
+    {
+      "name": "Rainbow reveals",
+      "description": "Golden Squares reveal coins and clovers."
+    },
+    {
+      "name": "Lucky Charm Bar",
+      "description": "Awards extra spins and multipliers in the bonus."
+    }
+  ],
+  "review": "Le Prechaun dresses Smokey as a leprechaun on a 6x5 cluster grid. When the special symbol is part of a win, its position becomes a x2 position multiplier. Each later win on that spot doubles it again, up to x100, and several position multipliers in one win are multiplied together.\n\nOn top of that, Rainbow and Epic Rainbow symbols trigger Golden Square reveals as in the other Le games, and the bonuses add a Lucky Charm Bar for extra spins and multipliers. The highest bonus tier lands an Epic Rainbow on every spin. The cap is 15,000x.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2413/{version}/index.html?language=en&channel=desktop&gameid=2413&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/le-prechaun.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/le-prechaun",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

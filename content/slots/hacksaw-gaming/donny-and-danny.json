@@ -1,0 +1,55 @@
+{
+  "slug": "donny-and-danny",
+  "name": "Donny and Danny",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 12500,
+  "releaseDate": null,
+  "reels": "5x5",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "LootLines",
+      "description": "Donny symbols on a winning line pay their combined Cash Board values."
+    },
+    {
+      "name": "Dollar-Reels",
+      "description": "Danny expands upward and adds multipliers to every covered position."
+    },
+    {
+      "name": "Booster symbols",
+      "description": "Increase values in the higher bonus tiers."
+    }
+  ],
+  "review": "Donny and Danny brings the Cash Kings together. Donny symbols build LootLines: three or more on a winning payline, or a mix with Danny, each pick a value from the Cash Board, and the line pays their combined total. Danny symbols expand upward into Dollar-Reels after regular wins are paid.\n\nEvery position on a Dollar-Reel shows a multiplier and can join a LootLine, so the two characters make each other stronger. In the Make It Reign and Cash Kings Forever bonuses, Booster symbols push values higher. The maximum is 12,500x, matching Danny Dollar.",
+  "pros": [
+    "High 12,500x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2004/{version}/index.html?language=en&channel=desktop&gameid=2004&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/donny-and-danny.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/donny-and-danny",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

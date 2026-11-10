@@ -1,0 +1,56 @@
+{
+  "slug": "slayers-inc",
+  "name": "Slayers Inc",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": "very-high",
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "winType": "14 paylines",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "sci-fi",
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Slayer DuelReels",
+      "description": "Expanding wild reels where the surviving slayer's multiplier applies."
+    },
+    {
+      "name": "14 paylines",
+      "description": "A 5x4 grid."
+    },
+    {
+      "name": "Free spins",
+      "description": "Bonus rounds with more frequent VS symbols."
+    }
+  ],
+  "review": "Slayers Inc is a 5x4, 14-line cyberpunk slot and one of the original DuelReels games. A VS symbol that would join a win expands to cover its reel and shows two masked slayers with different multipliers. They duel, and the survivor's multiplier applies to the whole wild reel.\n\nHacksaw gives it 5 out of 5 for volatility, its highest rating, so expect long dry spells between duels that matter. The cap is 15,000x in every mode. If you've played Duel at Dawn or Phoenix DuelReels, this is the darker, more aggressive version of the same mechanic.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1482/{version}/index.html?language=en&channel=desktop&gameid=1482&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/slayers-inc.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/slayers-inc",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

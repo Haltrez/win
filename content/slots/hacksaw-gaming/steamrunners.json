@@ -1,0 +1,55 @@
+{
+  "slug": "steamrunners",
+  "name": "Steamrunners",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": "medium",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "sci-fi",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Gas Canisters",
+      "description": "Transform themselves and neighbouring symbols to build wins."
+    },
+    {
+      "name": "Sticky wild multipliers",
+      "description": "Wilds in the bonus stay for the rest of the round."
+    },
+    {
+      "name": "Three bonus rounds",
+      "description": "Different canister and wild upgrades in each tier."
+    }
+  ],
+  "review": "Steamrunners is a 5x4 steampunk payline slot set among airships and floating cities. Hacksaw describes it as medium volatility, which makes it one of the gentler games in the catalogue. Green Gas Canisters turn themselves and adjacent low-paying symbols or wilds into something more valuable, and other canisters feed explosive wilds.\n\nThe three bonus rounds introduce sticky wild multipliers, so a wild that lands early can keep paying for the rest of the feature. The maximum is 10,000x and is available in every mode. It's a good pick for longer demo sessions if you want Hacksaw's art and features without the extreme swings of its 5-out-of-5 titles.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Moderate volatility by Hacksaw's standards",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1871/{version}/index.html?language=en&channel=desktop&gameid=1871&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/steamrunners.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/steamrunners",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

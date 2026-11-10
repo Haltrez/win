@@ -1,0 +1,59 @@
+{
+  "slug": "le-pharaoh",
+  "name": "Le Pharaoh",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.18,
+  "rtpSource": "third-party",
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "6x5",
+  "mechanics": [
+    "paylines",
+    "respins",
+    "sticky-wilds",
+    "money-collect",
+    "free-spins"
+  ],
+  "themes": [
+    "egypt",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Sticky Re-drops",
+      "description": "Wins stick and re-drop until no new connections form."
+    },
+    {
+      "name": "Golden Squares",
+      "description": "Every sticky paying symbol marks a square for the Rainbow reveal."
+    },
+    {
+      "name": "Golden Riches",
+      "description": "Rainbows open Golden Squares into coins, clovers and pots."
+    }
+  ],
+  "review": "Le Pharaoh sends Smokey to Egypt with Sticky Re-drops at its core. Any winning combination locks in place and awards a re-drop. Symbols that extend the win or create new ones also stick, and the sequence repeats until nothing new connects. Every stuck paying symbol leaves a Golden Square behind.\n\nIf a Rainbow symbol is on the grid, those Golden Squares open to reveal coins, clovers and pots, so a long re-drop chain also sets up a bigger reveal. The two features work well together, and the 15,000x ceiling sits a little above the studio's usual 10,000x. This is one of the few Hacksaw games where two independent databases agree on the RTP.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "RTP comes from third-party databases, not from Hacksaw",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1562/{version}/index.html?language=en&channel=desktop&gameid=1562&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/le-pharaoh.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/le-pharaoh",
+    "In-game rules (official demo)",
+    "https://www.gambling.com/uk/online-casinos/slots/games/le-pharaoh",
+    "https://slotslaunch.com/hacksaw-gaming/le-pharaoh"
+  ],
+  "verified": false,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

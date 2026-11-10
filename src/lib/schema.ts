@@ -45,7 +45,7 @@ export const slotGame = (s: Slot, p: Provider, a: Author, url: string) => ({
   '@id': `${abs(url)}#game`,
   name: s.name,
   url: abs(url),
-  description: `${s.name} is an online slot by ${p.name} with ${s.rtp}% RTP${s.maxWin ? ` and a ${fmtX(s.maxWin)} max win` : ''}.`,
+  description: `${s.name} is an online slot by ${p.name} ${s.rtp != null ? ` with ${s.rtp}% RTP` : ''}${s.maxWin ? `${s.rtp != null ? ' and' : ' with'} a ${fmtX(s.maxWin)} max win` : ''}.`,
   ...(s.releaseDate ? { datePublished: s.releaseDate } : {}),
   ...(s.image ? { image: abs(s.image) } : {}),
   genre: ['Online slot', ...s.themes],

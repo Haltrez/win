@@ -1,0 +1,55 @@
+{
+  "slug": "pray-for-six",
+  "name": "Pray for Six",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 20000,
+  "releaseDate": null,
+  "reels": "6x5",
+  "mechanics": [
+    "cascades",
+    "multipliers",
+    "money-collect",
+    "free-spins"
+  ],
+  "themes": [
+    "horror",
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Total Win Bar",
+      "description": "Collects all cascade wins before multipliers apply."
+    },
+    {
+      "name": "Wailing Wheels",
+      "description": "Spin for cash, adding or multiplying values, or an instant max win."
+    },
+    {
+      "name": "Cascades",
+      "description": "Winning symbols clear and new ones drop in."
+    }
+  ],
+  "review": "Pray for Six is a cascading slot with a demonic nursery theme and a Total Win Bar that holds every win from a spin until the cascades end. '6' symbols activate only when at least one win has occurred, and each one triggers a Wailing Wheel at its position.\n\nEach wheel can stop on a bronze, silver or gold cash prize, an additive multiplier, a multiplicative multiplier, or an instant max win. Because the wheels resolve after the cascades, a couple of multiplicative results can hugely increase a modest total. It's the follow-up to Pray for Three, and Hacksaw lifted the cap to 20,000x.",
+  "pros": [
+    "Very high 20,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2115/{version}/index.html?language=en&channel=desktop&gameid=2115&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/pray-for-six.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/pray-for-six",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

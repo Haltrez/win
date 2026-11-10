@@ -1,0 +1,53 @@
+{
+  "slug": "evil-eyes",
+  "name": "Evil Eyes",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 12500,
+  "releaseDate": null,
+  "reels": "5x5",
+  "mechanics": [
+    "ways",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Evil Eye",
+      "description": "Marks a win, then spreads it right or down to the edge."
+    },
+    {
+      "name": "Evil Spread",
+      "description": "Turns every symbol in its path into the winning symbol."
+    },
+    {
+      "name": "Free spins",
+      "description": "More Evil Eyes in the bonus."
+    }
+  ],
+  "review": "Evil Eyes is a 5x5 ways slot where the Shade watches you from the reels. If the Evil Eye symbol lands under a winning symbol, it marks all the symbols in that win, then turns right or down and spreads the win to the edge of the grid by replacing everything in its path with the winning symbol.\n\nA downward spread through a high-paying win can fill a whole column. If the spread passes over the Eye itself, the Eye is replaced too. The bonus rounds make Evil Eyes more frequent, and the cap is 12,500x.",
+  "pros": [
+    "High 12,500x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1570/{version}/index.html?language=en&channel=desktop&gameid=1570&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/evil-eyes.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/evil-eyes",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

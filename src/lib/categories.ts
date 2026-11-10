@@ -11,7 +11,7 @@ import { getSlots } from './data';
 const mw = (s: Slot) => s.maxWin ?? 0;
 const byRating = (a: Slot, b: Slot) => (b.rating ?? 0) - (a.rating ?? 0) || mw(b) - mw(a) || releaseKey(b).localeCompare(releaseKey(a));
 const byMaxWin = (a: Slot, b: Slot) => mw(b) - mw(a);
-const byRtp = (a: Slot, b: Slot) => b.rtp - a.rtp;
+const byRtp = (a: Slot, b: Slot) => (b.rtp ?? 0) - (a.rtp ?? 0);
 const byNewest = (a: Slot, b: Slot) => releaseKey(b).localeCompare(releaseKey(a));
 const has = (m: Mechanic) => (s: Slot) => s.mechanics.includes(m);
 const theme = (t: Theme) => (s: Slot) => s.themes.includes(t);
@@ -70,9 +70,9 @@ function defs(): Def[] {
     { slug: 'medium-volatility-slots', title: 'Best Medium Volatility Slots', kw: 'medium volatility slots', group: 'volatility', yearly: true, intro: 'Medium volatility slots balance win frequency and win size – a good middle ground for longer sessions.', filter: (s) => ['medium', 'medium-low', 'medium-high'].includes(s.volatility ?? ''), sort: byRating, relatedGuides: ['slot-volatility-explained'] },
     { slug: 'low-volatility-slots', title: 'Best Low Volatility Slots', kw: 'low volatility slots', group: 'volatility', yearly: true, intro: 'Low volatility slots pay small wins frequently. Big wins are rare and max wins are lower, but your balance tends to move more slowly.', filter: (s) => s.volatility != null && volScore(s.volatility) <= 2, sort: byRating, relatedGuides: ['slot-volatility-explained'] },
     // ---- RTP
-    { slug: 'high-rtp-slots', title: 'High RTP Slots (96.5%+)', kw: 'high rtp slots', group: 'rtp', yearly: true, intro: 'Slots whose highest published RTP configuration is 96.5% or more. Casinos can choose lower RTP versions of the same game, so always check the info screen before you play.', filter: (s) => s.rtp >= 96.5, sort: byRtp, relatedGuides: ['rtp-explained'],
+    { slug: 'high-rtp-slots', title: 'High RTP Slots (96.5%+)', kw: 'high rtp slots', group: 'rtp', yearly: true, intro: 'Slots whose highest published RTP configuration is 96.5% or more. Casinos can choose lower RTP versions of the same game, so always check the info screen before you play.', filter: (s) => (s.rtp ?? 0) >= 96.5, sort: byRtp, relatedGuides: ['rtp-explained'],
       faq: [{ q: 'Does a higher RTP mean I will win?', a: 'No. RTP is a long-term theoretical average measured over millions of spins. In any single session the result can be very different, especially on high volatility slots.' }] },
-    { slug: '97-rtp-slots', title: 'Slots with 97% RTP or Higher', kw: '97% rtp slots', group: 'rtp', intro: 'The rare slots with a default RTP of 97% or above.', filter: (s) => s.rtp >= 97, sort: byRtp, relatedGuides: ['rtp-explained'] },
+    { slug: '97-rtp-slots', title: 'Slots with 97% RTP or Higher', kw: '97% rtp slots', group: 'rtp', intro: 'The rare slots with a default RTP of 97% or above.', filter: (s) => (s.rtp ?? 0) >= 97, sort: byRtp, relatedGuides: ['rtp-explained'] },
     { slug: 'variable-rtp-slots', title: 'Slots with Multiple RTP Versions', kw: 'slots with different rtp', group: 'rtp', intro: 'These slots are offered to casinos in several RTP configurations. The same game can return noticeably less at one casino than another.', filter: (s) => (s.rtpVariants?.length ?? 0) > 0, sort: byRtp, relatedGuides: ['rtp-explained', 'how-to-check-slot-rtp'] },
     // ---- Release
     { slug: 'new-slots', title: 'New Slot Releases', kw: 'new slots', group: 'release', intro: 'The latest slot releases we have reviewed, newest first. We add new games every week.', filter: () => true, sort: byNewest },

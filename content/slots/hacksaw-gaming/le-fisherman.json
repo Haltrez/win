@@ -1,0 +1,54 @@
+{
+  "slug": "le-fisherman",
+  "name": "Le Fisherman",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "6x5",
+  "mechanics": [
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fishing",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Golden Squares",
+      "description": "Winning positions reveal special symbols when a Rainbow lands."
+    },
+    {
+      "name": "Buckets",
+      "description": "Collect coins in a 3x3 area, or the whole grid for global buckets."
+    },
+    {
+      "name": "Epic Rainbow",
+      "description": "Reveals special symbols on every position."
+    }
+  ],
+  "review": "Le Fisherman sends Smokey ice fishing. Winning positions become Golden Squares, and when a Rainbow symbol is present those squares reveal coins, green or gold clovers, buckets or global buckets. Buckets collect from a 3x3 area around them, while global buckets collect from the whole grid.\n\nEpic Rainbows go further, revealing special symbols on every position. The On Thin Ice bonus keeps Golden Squares lit until they're activated, so they build up through the round. It's the fishing branch of the Le family, with a 15,000x ceiling and plenty of collect-style action.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2057/{version}/index.html?language=en&channel=desktop&gameid=2057&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/le-fisherman.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/le-fisherman",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

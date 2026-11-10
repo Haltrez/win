@@ -35,13 +35,14 @@ export default async function ProviderPage({ params }: { params: Promise<P> }) {
   const topMaxWin = [...slots].filter((s) => s.maxWin).sort((a, b) => b.maxWin! - a.maxWin!).slice(0, 8);
   const newest = slots.slice(0, 8);
   const biggest = [...slots].filter((s) => s.maxWin).sort((a, b) => b.maxWin! - a.maxWin!)[0];
-  const avgRtp = slots.length ? slots.reduce((t, s) => t + s.rtp, 0) / slots.length : 0;
+  const withRtp = slots.filter((s) => s.rtp != null);
+  const avgRtp = withRtp.length ? withRtp.reduce((t, s) => t + s.rtp!, 0) / withRtp.length : 0;
   const cats = getCategories().filter((c) => isIndexable(c) && getCategorySlots(c).some((s) => s.provider === p.slug) && c.group !== 'release').slice(0, 10);
   const faq = slots.length
     ? [
         { q: `What is the best ${p.name} slot?`, a: rated[0] ? `Based on our reviews, ${rated[0].name} is currently the highest-rated ${p.name} slot on our site, scoring ${rated[0].rating}/10.` : `We haven't scored ${p.name} slots yet. Popular picks include ${byRating.slice(0, 3).map((s) => s.name).join(', ')} – try them in demo and compare their RTP, volatility and max win below.` },
         ...(biggest ? [{ q: `Which ${p.name} slot has the highest max win?`, a: `${biggest.name} has the highest published max win among the ${p.name} slots we have reviewed, at ${fmtX(biggest.maxWin)} the stake.` }] : []),
-        { q: `What is the average RTP of ${p.name} slots?`, a: `Across the ${slots.length} ${p.name} slots we have reviewed, the average default RTP is ${fmtRtp(avgRtp)}. Many casinos run lower RTP configurations, so check the game info screen.` },
+        { q: `What is the average RTP of ${p.name} slots?`, a: `Across the ${withRtp.length} ${p.name} slots we list with a published RTP, the average default RTP is ${fmtRtp(avgRtp)}. Many casinos run lower RTP configurations, so check the game info screen.` },
         { q: `Is ${p.name} licensed?`, a: `${p.name} holds licences or approvals including ${p.licenses.join(', ')}.` },
       ]
     : [];

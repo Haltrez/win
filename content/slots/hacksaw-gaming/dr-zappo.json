@@ -1,0 +1,55 @@
+{
+  "slug": "dr-zappo",
+  "name": "Dr Zappo",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "sci-fi",
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "EyeBall beams",
+      "description": "Bottom-row EyeBalls fire up or diagonally and turn symbols into wilds."
+    },
+    {
+      "name": "Stacking wild multipliers",
+      "description": "A beam hitting an existing wild adds a new multiplier to it."
+    },
+    {
+      "name": "Three free spins modes",
+      "description": "More EyeBalls, at least two per spin, or double-direction shots."
+    }
+  ],
+  "review": "Dr Zappo is a 5x4 payline slot with a mad scientist, his sidekick Mr. Brain and a monster loose in Electric City. EyeBall symbols can only land on the bottom row, and once the grid settles each one fires straight up or diagonally, turning every paying symbol in its path into a wild that may carry an additive multiplier.\n\nHitting an existing wild gives it a multiplier, and hitting a wild that already has one adds a further value, so overlapping beams are what you're hoping for. The bonus rounds increase EyeBall frequency, ensure at least two per spin, or make each one shoot in two directions. The top prize is 10,000x, reachable in every mode.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2253/{version}/index.html?language=en&channel=desktop&gameid=2253&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/dr-zappo.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/dr-zappo",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

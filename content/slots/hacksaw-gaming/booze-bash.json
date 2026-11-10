@@ -1,0 +1,53 @@
+{
+  "slug": "booze-bash",
+  "name": "Booze Bash",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 12500,
+  "releaseDate": null,
+  "reels": "6x4",
+  "mechanics": [
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "food",
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Match-2-Win",
+      "description": "Wins form when matching left and right symbol halves meet on connected reels."
+    },
+    {
+      "name": "Multiplier pairs",
+      "description": "Completed pairs apply a global multiplier of up to 20x."
+    },
+    {
+      "name": "Three bonus games",
+      "description": "Triggered by FS pairs, starting with Guilty As Gin."
+    }
+  ],
+  "review": "Booze Bash replaces paylines with a Match-2-Win system: every symbol arrives as a left or right half, and you win by lining up a matching pair across connected reels 1–2, 3–4 or 5–6. It's an unusual layout that takes a few spins to read, but the logic is simple once you see it.\n\nMultiplier pairs work the same way, with an \"x\" on one half and a number on the other. A completed pair applies to every win on the spin, up to 20x. Landing a single FS pair is enough to trigger the Guilty As Gin free spins, and three bonus tiers lead up to the 12,500x ceiling. A fresh mechanic from a studio that rarely repeats itself.",
+  "pros": [
+    "High 12,500x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1783/{version}/index.html?language=en&channel=desktop&gameid=1783&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/booze-bash.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/booze-bash",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

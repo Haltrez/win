@@ -44,7 +44,7 @@ export function buildMetadata(m: MetaInput): Metadata {
 /** "[Slot Name] Demo & Review – [Max Win]x Max Win | [Provider] ([Year])" */
 export function slotTitle(s: Slot, p: Provider) {
   const y = year(s.releaseDate);
-  const hook = s.maxWin ? `${fmtX(s.maxWin)} Max Win` : `${fmtRtp(s.rtp)} RTP`;
+  const hook = s.maxWin ? `${fmtX(s.maxWin)} Max Win` : s.rtp != null ? `${fmtRtp(s.rtp)} RTP` : 'Free Play';
   return `${s.name} Demo & Review – ${hook} | ${p.name}${y ? ` (${y})` : ''}`;
 }
 
@@ -52,7 +52,7 @@ export function slotTitle(s: Slot, p: Provider) {
 export function slotDescription(s: Slot, p: Provider) {
   const vol = s.volatility ? VOLATILITY_LABEL[s.volatility].toLowerCase() : null;
   const feature = s.features[0]?.name.toLowerCase();
-  const facts = [`${fmtRtp(s.rtp)} RTP`, vol ? `${vol} volatility` : null, s.maxWin ? `${fmtX(s.maxWin)} max win` : null].filter(Boolean) as string[];
+  const facts = [s.rtp != null ? `${fmtRtp(s.rtp)} RTP` : null, vol ? `${vol} volatility` : null, s.maxWin ? `${fmtX(s.maxWin)} max win` : null].filter(Boolean) as string[];
   const list = facts.length > 1 ? `${facts.slice(0, -1).join(', ')} and ${facts[facts.length - 1]}` : facts[0];
   let d = `Play the free ${s.name} demo by ${p.name}: ${list}.`;
   const tails = [feature ? ` See how the ${feature} feature works. Honest review, no sign-up.` : '', ' Honest review, no sign-up.', ' No sign-up needed.', ''];

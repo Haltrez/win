@@ -15,7 +15,7 @@ export function SlotCard({ slot, rank }: { slot: Slot; rank?: number }) {
       </Link>
       <p className="muted small"><Link href={`/providers/${slot.provider}`}>{p?.name}</Link></p>
       <dl className="mini-stats">
-        <div><dt>RTP</dt><dd>{fmtRtp(slot.rtp)}</dd></div>
+        <div><dt>RTP</dt><dd title={slot.rtp == null ? "Not published by the provider" : undefined}>{slot.rtp == null ? "N/A" : fmtRtp(slot.rtp)}</dd></div>
         <div><dt>Max win</dt><dd>{slot.maxWin ? `${slot.maxWin.toLocaleString('en-US')}x` : '–'}</dd></div>
         <div><dt>Volatility</dt><dd>{slot.volatility ? volLabel(slot.volatility) : '–'}</dd></div>
       </dl>

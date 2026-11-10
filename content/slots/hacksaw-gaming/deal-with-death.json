@@ -1,0 +1,54 @@
+{
+  "slug": "deal-with-death",
+  "name": "Deal With Death",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 20000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "horror",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Poker Mode",
+      "description": "Each row becomes a five-card poker hand."
+    },
+    {
+      "name": "Joker types",
+      "description": "Hand, global and Triple Trouble multipliers."
+    },
+    {
+      "name": "Classic Mode",
+      "description": "A standard payline base game."
+    }
+  ],
+  "review": "Deal With Death switches between two modes. Classic Mode is a normal payline slot, but Joker symbols trigger Poker Mode, turning every paying symbol into a playing card. Each row then plays as its own five-card poker hand and pays from a poker paytable.\n\nThe jokers do more than complete a hand: Hand Multiplier Jokers boost their row, Global Multiplier Jokers boost everything, and Triple Trouble Jokers reshuffle the cards to deal the three best hands possible. The cap is 20,000x. It's a refreshingly different idea, and fun if you know your poker hands.",
+  "pros": [
+    "Very high 20,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2000/{version}/index.html?language=en&channel=desktop&gameid=2000&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/deal-with-death.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/deal-with-death",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

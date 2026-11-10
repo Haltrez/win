@@ -1,0 +1,58 @@
+{
+  "slug": "frkn-bananas",
+  "name": "FRKN Bananas",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.31,
+  "rtpSource": "third-party",
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "6x5",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "fruit"
+  ],
+  "features": [
+    {
+      "name": "Spreading Bananas",
+      "description": "Wild multipliers that spread left or up to the edge of the grid."
+    },
+    {
+      "name": "Shared multiplier",
+      "description": "Spawned bananas copy the original's multiplier."
+    },
+    {
+      "name": "Win-only spreading",
+      "description": "Bananas only spread if it completes a win."
+    }
+  ],
+  "review": "FRKN Bananas is a monkey-themed slot whose Spreading Banana wilds point left or up. When one lands, it spreads more bananas to the edge of the grid in that direction, but only if the spread would complete at least one win. Every banana reveals a multiplier, and the bananas it spawns copy that value.\n\nA single banana pointing left from reel 6 can turn a whole row into multiplier wilds, which is the main moment to look for. The cap is 10,000x. Along with Le Pharaoh, it's one of only two games in this batch where two independent databases agree on the RTP.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "RTP comes from third-party databases, not from Hacksaw",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1693/{version}/index.html?language=en&channel=desktop&gameid=1693&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/frkn-bananas.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/frkn-bananas",
+    "In-game rules (official demo)",
+    "https://www.gambling.com/uk/online-casinos/slots/games/frkn-bananas",
+    "https://slotslaunch.com/hacksaw-gaming/frkn-bananas"
+  ],
+  "verified": false,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

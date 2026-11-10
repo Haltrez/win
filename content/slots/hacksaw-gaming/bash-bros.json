@@ -1,0 +1,54 @@
+{
+  "slug": "bash-bros",
+  "name": "Bash Bros",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "money-collect",
+    "expanding-symbols",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Cash Stacks",
+      "description": "Expand upward with multipliers of up to 10,000x."
+    },
+    {
+      "name": "Oskar's bash",
+      "description": "Replaces a reel with a new Cash Stack."
+    },
+    {
+      "name": "Fred's smash",
+      "description": "Compresses stacks and doubles their multipliers."
+    }
+  ],
+  "review": "Bash Bros features Oskar and Fred, two brothers who smash the grid. Cash symbols expand upward into Cash Stacks with bet multipliers of up to 10,000x, and all stacks on the grid add their values together.\n\nOnce the grid settles with at least one stack showing, Oskar may knock a reel out and replace it with a new Cash Stack, or Fred may squash the stacks together and double their multipliers. The Bros Before Blows bonus increases stack frequency, and the cap is 10,000x.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1928/{version}/index.html?language=en&channel=desktop&gameid=1928&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/bash-bros.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/bash-bros",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

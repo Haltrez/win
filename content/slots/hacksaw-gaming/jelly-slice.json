@@ -1,0 +1,54 @@
+{
+  "slug": "jelly-slice",
+  "name": "Jelly Slice",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": "medium",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "winType": "Up to 1204 ways",
+  "mechanics": [
+    "ways",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "Slicer",
+      "description": "Cuts symbols into 2–4 pieces to multiply the ways."
+    },
+    {
+      "name": "Up to 1,204 ways",
+      "description": "The ways count changes with every slice."
+    },
+    {
+      "name": "Free spins",
+      "description": "Bonus rounds with more frequent Slicers."
+    }
+  ],
+  "review": "Jelly Slice is a 5x4 ways slot set in a sweet factory, built around the Slicer. Before the drop, each reel may get a Slicer that cuts every symbol passing through it into two, three or four pieces, increasing the ways count up to 1,204.\n\nMore pieces mean more ways and more chances for matches to connect. Hacksaw rates it 3 out of 5 for volatility, so it plays steadier than many of its titles, and the 10,000x maximum is reachable in every mode. Jenny and Jinny's candy factory looks bright and cheerful.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Moderate volatility by Hacksaw's standards",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1452/{version}/index.html?language=en&channel=desktop&gameid=1452&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/jelly-slice.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/jelly-slice",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "the-count",
+  "name": "The Count",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 12500,
+  "releaseDate": null,
+  "reels": "5x5",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Bloody Wilds",
+      "description": "Expand downward and can reveal multipliers of up to 500x."
+    },
+    {
+      "name": "Wild Bats",
+      "description": "Wilds that can carry their own multiplier."
+    },
+    {
+      "name": "Epic Wild Bats",
+      "description": "Spread their multiplier to every other wild on the grid."
+    }
+  ],
+  "review": "The Count is a vampire slot set in a castle full of creatures. Blood symbols expand downward into Bloody Wilds when that completes a win, acting as wilds or revealing multipliers of up to 500x. Wild Bats land as wilds or with their own multiplier of up to 500x.\n\nEpic Wild Bats spread their value to every expanded Bloody Wild and other bat on the grid, which is where the big wins come from. The bonuses, from Bat to the Bone to Rest in Pieces, increase bat frequency, and the maximum is 12,500x. Gothic, playful and dangerous all at once.",
+  "pros": [
+    "High 12,500x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1803/{version}/index.html?language=en&channel=desktop&gameid=1803&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/the-count.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/the-count",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

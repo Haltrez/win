@@ -44,7 +44,7 @@ function volatilityNote(s: Slot) {
 
 function autoFaq(s: Slot, providerName: string) {
   const f = [
-    { q: `What is the RTP of ${s.name}?`, a: `The highest published RTP of ${s.name} is ${fmtRtp(s.rtp)}.${s.rtpVariants?.length ? ` ${providerName} also offers casinos versions at ${s.rtpVariants.map(fmtRtp).join(', ')}, so check the game's info screen to see which one you are playing.` : ' Casinos may be able to configure a lower RTP – always check the in-game info screen.'}` },
+    { q: `What is the RTP of ${s.name}?`, a: s.rtp == null ? `${providerName} has not published an RTP for ${s.name}, and we don't guess. The in-game info screen shows the exact RTP of the version a casino is running.` : `The ${s.rtpSource === 'third-party' ? 'RTP reported by independent slot databases' : 'highest published RTP'} of ${s.name} is ${fmtRtp(s.rtp)}.${s.rtpSource === 'third-party' ? ` ${providerName} has not confirmed this figure, so check the in-game info screen.` : ''}${s.rtpVariants?.length ? ` ${providerName} also offers casinos versions at ${s.rtpVariants.map(fmtRtp).join(', ')}, so check the game's info screen to see which one you are playing.` : ' Casinos may be able to configure a lower RTP – always check the in-game info screen.'}` },
     ...(s.maxWin ? [{ q: `What is the max win on ${s.name}?`, a: `${s.name} has a maximum win of ${fmtX(s.maxWin)} your stake. Max wins are extremely rare and should not be expected in normal play.` }] : []),
     ...(s.volatility ? [{ q: `Is ${s.name} high volatility?`, a: `${s.name} is rated ${VOLATILITY_LABEL[s.volatility].toLowerCase()} volatility by ${providerName}. ${volScore(s.volatility) >= 5 ? 'Wins are less frequent but can be larger.' : 'Wins tend to be more frequent but smaller.'}` }] : []),
     { q: `Can I play ${s.name} for free?`, a: s.demoUrl ? `Yes. You can play the official ${s.name} demo on this page with play money – no sign-up or deposit required.` : `We only embed official demos. The ${s.name} demo will appear on this page once ${providerName} makes it available for our region.` },
@@ -116,8 +116,11 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
 
         <h2>{s.name} RTP, volatility and max win</h2>
         <p>
-          <strong>RTP:</strong> the default return to player is {fmtRtp(s.rtp)}, meaning that over a very large number of spins the game is designed to
-          pay back around {s.rtp.toFixed(1)} units for every 100 wagered. {s.rtpVariants?.length ? `It is also offered at ${s.rtpVariants.map(fmtRtp).join(', ')} – a casino running the lowest version keeps noticeably more of every bet.` : 'Some casinos may run a lower configuration; the info screen inside the game shows the exact figure.'}{' '}
+          <strong>RTP:</strong>{' '}
+          {s.rtp == null ? (
+            <>{p.name} does not publish an RTP for {s.name} outside the game, and we don&apos;t publish unconfirmed numbers. Open the info screen inside the game to see the RTP of the version you are playing.{' '}</>
+          ) : (<>the {s.rtpSource === 'third-party' ? 'return to player reported by independent slot databases' : 'default return to player'} is {fmtRtp(s.rtp)}, meaning that over a very large number of spins the game is designed to
+          pay back around {s.rtp.toFixed(1)} units for every 100 wagered. {s.rtpSource === 'third-party' ? `${p.name} has not published this figure itself, so treat it as unconfirmed. ` : ''}{s.rtpVariants?.length ? `It is also offered at ${s.rtpVariants.map(fmtRtp).join(', ')} – a casino running the lowest version keeps noticeably more of every bet.` : 'Some casinos may run a lower configuration; the info screen inside the game shows the exact figure.'}{' '}</>)}
           <Link href="/guides/rtp-explained">How RTP works</Link>.
         </p>
         <p><strong>Volatility:</strong> {volatilityNote(s)} <Link href="/guides/slot-volatility-explained">Volatility explained</Link>.</p>

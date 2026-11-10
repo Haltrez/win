@@ -1,0 +1,55 @@
+{
+  "slug": "dorks-of-the-deep",
+  "name": "Dorks of the Deep",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fishing",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Treasure Chest wild reels",
+      "description": "Expand into full wild reels when they complete a win."
+    },
+    {
+      "name": "Three character tiers",
+      "description": "Octopus, Mermaid and Ocean King, with rising multipliers."
+    },
+    {
+      "name": "Additive multipliers",
+      "description": "Several wild reels in one win add together."
+    }
+  ],
+  "review": "Dorks of the Deep is an underwater slot where Treasure Chests expand into full wild reels if that completes a win. Each expanded reel shows one of three characters with a different multiplier range: the Octopus (2x–9x), the Mermaid (10x–20x) and the Ocean King (25x–200x).\n\nSeveral wild reels in the same win add their multipliers together, so an Ocean King paired with a Mermaid is a great result. The cartoon style is cheerful, and the cap is 10,000x. Easy to follow, with a clear sense of what each character is worth.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1430/{version}/index.html?language=en&channel=desktop&gameid=1430&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/dorks-of-the-deep.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/dorks-of-the-deep",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

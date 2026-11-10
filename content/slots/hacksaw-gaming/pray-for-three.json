@@ -1,0 +1,54 @@
+{
+  "slug": "pray-for-three",
+  "name": "Pray for Three",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 13333,
+  "releaseDate": null,
+  "reels": "5x5",
+  "mechanics": [
+    "cascades",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "horror",
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Wheel of Sin",
+      "description": "Up to three sections of adding and multiplying values."
+    },
+    {
+      "name": "Prayer Hands",
+      "description": "Decide how many wheel sections activate."
+    },
+    {
+      "name": "Total Win Bar",
+      "description": "Collects cascade wins before the wheel applies."
+    }
+  ],
+  "review": "Pray for Three is a cascading slot with fallen angels and a Wheel of Sin outside the grid. Prayer Hand symbols that land during a win reveal a number from one to three, which sets how many sections of the wheel activate. The sections combine adding multipliers of up to 333x with multiplying ones of up to x33.\n\nAll wins from the spin go into the Total Win Bar before the wheel applies, so a long cascade followed by a three-section hit is the big outcome. The odd 13,333x maximum fits the theme. A sequel, Pray for Six, followed.",
+  "pros": [
+    "High 13,333x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1736/{version}/index.html?language=en&channel=desktop&gameid=1736&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/pray-for-three.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/pray-for-three",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

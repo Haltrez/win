@@ -1,0 +1,53 @@
+{
+  "slug": "marlin-masters",
+  "name": "Marlin Masters",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 7500,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Marlin cash prizes",
+      "description": "Worth 1x to 1,000x."
+    },
+    {
+      "name": "Fisherman",
+      "description": "Collects every Marlin with a multiplier of up to 20x."
+    },
+    {
+      "name": "LootLines",
+      "description": "Three or more Marlins on a line also pay."
+    }
+  ],
+  "review": "Marlin Masters is the original deep-sea collect slot that led to Atlantis. Marlin symbols display cash prizes of 1x to 1,000x your bet, and you win them through a Fisherman, who collects every Marlin on the grid and can apply a multiplier of up to 20x, or through a LootLine of three or more.\n\nA neat detail: very large values are shortened on screen, but Hacksaw states that the displayed amount is the minimum you'll receive. The 7,500x maximum is lower than the sequel's, making this the gentler of the two.",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1681/{version}/index.html?language=en&channel=desktop&gameid=1681&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/marlin-masters.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/marlin-masters",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

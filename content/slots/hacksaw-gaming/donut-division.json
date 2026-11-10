@@ -1,0 +1,55 @@
+{
+  "slug": "donut-division",
+  "name": "Donut Division",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 12500,
+  "releaseDate": null,
+  "reels": "6x5",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "crime",
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Gooey Guns",
+      "description": "Fire a row of wilds to the left."
+    },
+    {
+      "name": "Row multipliers",
+      "description": "Every wild on a row shares the gun's 1x–100x value."
+    },
+    {
+      "name": "Multi-row wins",
+      "description": "Lines can collect multipliers from several rows."
+    }
+  ],
+  "review": "Donut Division is a doughnut-shop cop slot with Gooey Guns. When a gun lands, it fires Gooey Wilds to the left across its row and then turns into a wild itself. Guns can land with multipliers from 1x to 100x, which every wild on that row shares.\n\nIf a winning line passes through gooey rows from several guns, all their multipliers count. Two guns on different rows with decent values can make a very big hit. The maximum is 12,500x. The third-party databases we checked disagree on its RTP, so we haven't listed one.",
+  "pros": [
+    "High 12,500x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1608/{version}/index.html?language=en&channel=desktop&gameid=1608&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/donut-division.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/donut-division",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

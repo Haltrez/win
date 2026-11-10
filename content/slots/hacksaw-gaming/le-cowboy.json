@@ -1,0 +1,55 @@
+{
+  "slug": "le-cowboy",
+  "name": "Le Cowboy",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 25000,
+  "releaseDate": null,
+  "reels": "6x5",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "western",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Revolver Reveal",
+      "description": "Wilds in winning clusters become cylinders with 2–6 shots."
+    },
+    {
+      "name": "Super Cascades",
+      "description": "Every symbol of the winning type is removed."
+    },
+    {
+      "name": "Ordered firing",
+      "description": "Cylinders fire top to bottom, left to right."
+    }
+  ],
+  "review": "Le Cowboy puts Smokey in a ten-gallon hat on a cluster grid with Super Cascades. Its Revolver Reveal works like this: when a winning cluster includes a wild, that wild becomes a Revolver Cylinder scatter with two to six shots, which fires once all the cascades have settled.\n\nEach shot hits a grid position, and the same position can be hit more than once, triggering reveals on the board. Several cylinders fire in order from top to bottom and left to right. With a 25,000x ceiling, it has the highest cap of the Le games in this batch, and the cluster format sets it apart from the payline titles in the series.",
+  "pros": [
+    "Very high 25,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1924/{version}/index.html?language=en&channel=desktop&gameid=1924&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/le-cowboy.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/le-cowboy",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

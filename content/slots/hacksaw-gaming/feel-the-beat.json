@@ -1,0 +1,53 @@
+{
+  "slug": "feel-the-beat",
+  "name": "Feel the Beat",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5x5",
+  "mechanics": [
+    "paylines",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "music"
+  ],
+  "features": [
+    {
+      "name": "Speaker mechanic",
+      "description": "Speakers on two or more reels flip their connecting lines into one symbol."
+    },
+    {
+      "name": "5x5 paylines",
+      "description": "A square grid with payline wins."
+    },
+    {
+      "name": "Free spins",
+      "description": "Bonus rounds with improved Speaker chances."
+    }
+  ],
+  "review": "Feel the Beat is a 5x5 party slot where the Speaker symbol does the heavy lifting. When speakers land on at least two different reels, every winning payline that connects them is highlighted, and all symbols on those lines, including wilds, FS symbols and the speakers themselves, flip into the same paying symbol.\n\nTwo speakers on the same reel don't activate, so position matters. The flip can turn a small connection into several full lines at once. The visuals are bright, with a pulsing soundtrack, and the 10,000x maximum is available in every mode, including the free spins rounds. Worth a few demo spins just to watch how the speaker lines resolve.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1372/{version}/index.html?language=en&channel=desktop&gameid=1372&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/feel-the-beat.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/feel-the-beat",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

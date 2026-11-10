@@ -1,0 +1,55 @@
+{
+  "slug": "grug-make-fire",
+  "name": "Grug Make Fire",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "adventure",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Burning symbols",
+      "description": "Set the reel on fire above where they land."
+    },
+    {
+      "name": "Burnt Multipliers",
+      "description": "Burnt high-paying symbols add multipliers to connected wins."
+    },
+    {
+      "name": "Wildfire Bar",
+      "description": "Progresses through levels in the top bonus."
+    }
+  ],
+  "review": "Grug Make Fire is a 5x4 prehistoric payline slot about a caveman, dinosaurs and the discovery of fire. Burning symbols set fire to their reel above where they land. Burnt low-paying symbols turn into another special symbol, and burnt high-paying symbols become Burnt Multipliers that add their value to every win they're part of.\n\nEach high-paying symbol has its own burnt multiplier, so a burning reel full of premium symbols is the best outcome. In the top bonus, the Wildfire Bar is progressive and climbs through levels as the round continues. The cap is 10,000x in every mode.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2166/{version}/index.html?language=en&channel=desktop&gameid=2166&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/grug-make-fire.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/grug-make-fire",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "twisted-lab",
+  "name": "Twisted Lab",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": "high",
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "5x5",
+  "winType": "19 paylines",
+  "mechanics": [
+    "paylines",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "sci-fi",
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "RotoGrid",
+      "description": "Rotates the grid 90 degrees per charge, up to four times."
+    },
+    {
+      "name": "19 paylines",
+      "description": "Wins are recalculated after each rotation."
+    },
+    {
+      "name": "Free spins",
+      "description": "More RotoGrid activity in the bonus."
+    }
+  ],
+  "review": "Twisted Lab is a 5x5, 19-line slot that rotates the whole grid. A RotoGrid symbol lands with one to four charges, and each charge turns the grid 90 degrees clockwise, with paylines recalculated after every rotation, so a spin that looked like a miss can turn into a winner.\n\nMr. Melker and Pat the Rat run the lab, which nods to other Hacksaw characters such as Canny and the Chaos Crew. Hacksaw rates it 4 out of 5 for volatility, with a 15,000x maximum. It's one of the studio's most original mechanics.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1514/{version}/index.html?language=en&channel=desktop&gameid=1514&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/twisted-lab.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/twisted-lab",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

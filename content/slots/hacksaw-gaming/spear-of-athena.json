@@ -1,0 +1,56 @@
+{
+  "slug": "spear-of-athena",
+  "name": "Spear of Athena",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "6x5",
+  "mechanics": [
+    "paylines",
+    "respins",
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology",
+    "history"
+  ],
+  "features": [
+    {
+      "name": "Goddess Respins",
+      "description": "Wins mark Flaming Frames and keep respinning while they grow."
+    },
+    {
+      "name": "Fortune Reveals",
+      "description": "Frames turn into coins, shields or amphoras."
+    },
+    {
+      "name": "Omen of War",
+      "description": "Frames stay highlighted throughout the bonus."
+    }
+  ],
+  "review": "Spear of Athena mixes respins with a coin reveal. Any win triggers a Goddess Respin and marks its symbols with Flaming Frames, and the respin continues while wins grow or new ones form. If a Fortune symbol is on the grid when the respins end, every frame flips over.\n\nFrames can reveal bronze, silver or gold coins, green or red shields that boost nearby or all coins, or amphoras that collect everything visible. The Omen of War bonus keeps frames active after they're used, so the board fills up. The maximum is 15,000x. It's a richer version of the Le Pharaoh design.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1938/{version}/index.html?language=en&channel=desktop&gameid=1938&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/spear-of-athena.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/spear-of-athena",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

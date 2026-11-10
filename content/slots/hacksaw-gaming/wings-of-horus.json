@@ -1,0 +1,54 @@
+{
+  "slug": "wings-of-horus",
+  "name": "Wings of Horus",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "5x6",
+  "mechanics": [
+    "paylines",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "egypt",
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Orb of the Moon",
+      "description": "Upgrades every instance of one symbol type."
+    },
+    {
+      "name": "Orb of the Sun",
+      "description": "Upgrades two symbol types at once."
+    },
+    {
+      "name": "HORUS bonus",
+      "description": "Spelling HORUS with low symbols pays 500x."
+    }
+  ],
+  "review": "Wings of Horus is an Egyptian revenge story with two transforming orbs. The Orb of the Moon picks one random symbol type on the grid and upgrades every instance of it, and itself, to a higher-paying symbol or a wild. The Orb of the Sun does the same for two symbol types at once.\n\nThere's also Sacred Scripture: if the low symbols spell HORUS horizontally, you get a flat 500x prize. The Revenge of the Pharaoh free spins add two progression bars that unlock better features as you go. The maximum is 15,000x, and the orbs make base-game spins more lively than in a classic Egyptian slot.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1612/{version}/index.html?language=en&channel=desktop&gameid=1612&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/wings-of-horus.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/wings-of-horus",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

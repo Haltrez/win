@@ -1,0 +1,54 @@
+{
+  "slug": "rad-maxx",
+  "name": "Rad Maxx",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 12500,
+  "releaseDate": null,
+  "reels": "5x5",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Crazy Cat wilds",
+      "description": "2x–20x multipliers that multiply together."
+    },
+    {
+      "name": "Pay Direction Arrows",
+      "description": "Extra directions in which lines pay."
+    },
+    {
+      "name": "Wild Plus",
+      "description": "Activates one to three more pay directions."
+    }
+  ],
+  "review": "Rad Maxx gives Maxx the Mouse from R.I.P. City his own game, with Crazy Cat wild multipliers worth 2x to 20x. Several cats in the same win multiply together rather than add, so two mid-range cats in one line can make a big win.\n\nThe unusual mechanic is Pay Direction Arrows outside the grid. Left-to-right is always active, but Wild Plus symbols switch on one to three more directions clockwise, so the same symbols can pay in several ways. The maximum is 12,500x.",
+  "pros": [
+    "High 12,500x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1732/{version}/index.html?language=en&channel=desktop&gameid=1732&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/rad-maxx.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/rad-maxx",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

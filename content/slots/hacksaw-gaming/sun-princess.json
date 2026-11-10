@@ -1,0 +1,53 @@
+{
+  "slug": "sun-princess",
+  "name": "Sun Princess",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "7x7",
+  "mechanics": [
+    "cluster-pays",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Sun Ray Frames",
+      "description": "Spread vertically, horizontally or four ways, copying the framed symbol."
+    },
+    {
+      "name": "Wild frames",
+      "description": "A frame on a wild spreads wilds across the grid."
+    },
+    {
+      "name": "Free spins",
+      "description": "Bonus rounds with more Sun Ray activity."
+    }
+  ],
+  "review": "Sun Princess is a bright cluster-style slot where Sun Ray Frames reshape the grid. A frame can land on a low, high or wild symbol at the start of a spin and, once wins are paid, spreads in straight lines vertically, horizontally or in all four directions, turning everything in its path into the symbol it landed on.\n\nA four-way frame on a wild is the dream outcome, because it can paint a cross of wilds through the middle of the grid. The free spins rounds tilt the odds toward frames and stronger spreads. The ceiling is 10,000x, and the soft pastel art is a nice change from the studio's grittier titles.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1914/{version}/index.html?language=en&channel=desktop&gameid=1914&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/sun-princess.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/sun-princess",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

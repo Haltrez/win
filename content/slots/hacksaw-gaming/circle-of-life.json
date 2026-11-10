@@ -1,0 +1,56 @@
+{
+  "slug": "circle-of-life",
+  "name": "Circle of Life",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "multipliers",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Tree wilds",
+      "description": "Reveal additive multipliers of 2x–100x."
+    },
+    {
+      "name": "Tree of Life",
+      "description": "Winning trees stick and grow up a row each respin."
+    },
+    {
+      "name": "Respin chains",
+      "description": "Keep going while the tree keeps winning."
+    }
+  ],
+  "review": "Circle of Life is a nature-themed slot with Tree symbols that act as wilds and reveal additive multipliers from 2x to 100x. When a tree joins a win, a respin is triggered. The tree sticks and grows upward by one row into a Tree of Life, while everything else respins.\n\nThe sequence continues as long as the growing tree keeps forming wins, so a tree can climb to the top of the reel and add more to each new win. Several trees in one win add their values together. The cap is 15,000x, and the art is gentle and warm.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2019/{version}/index.html?language=en&channel=desktop&gameid=2019&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/circle-of-life.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/circle-of-life",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

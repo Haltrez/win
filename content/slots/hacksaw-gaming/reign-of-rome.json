@@ -1,0 +1,55 @@
+{
+  "slug": "reign-of-rome",
+  "name": "Reign of Rome",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "5x5",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "history",
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "LootLines",
+      "description": "Winning lines of Tribute symbols pay their combined value."
+    },
+    {
+      "name": "Four Tribute types",
+      "description": "Adding, revealing adding, multiplying and revealing multiplying values."
+    },
+    {
+      "name": "Left-to-right maths",
+      "description": "Multipliers apply to the total built up to their left."
+    }
+  ],
+  "review": "Reign of Rome builds on the LootLines idea from Donny Dough: Tribute symbols forming a winning payline create a LootLine, and their values are combined left to right before being multiplied by your bet. Adding tributes contribute 1x to 10x, revealing ones 15x to 500x, and multiplying tributes double to quintuple the running total.\n\nBecause multiplying tributes act on whatever has built up before them, position along the line really matters. A line of small adders followed by an x5 can turn into something decent. With a 15,000x maximum and four tribute types to track, it takes a few spins to learn, but the Roman setting keeps it readable.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1728/{version}/index.html?language=en&channel=desktop&gameid=1728&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/reign-of-rome.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/reign-of-rome",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

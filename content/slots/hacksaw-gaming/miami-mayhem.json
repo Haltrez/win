@@ -1,0 +1,55 @@
+{
+  "slug": "miami-mayhem",
+  "name": "Miami Mayhem",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "5x4",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Crew Reels",
+      "description": "Expanding wild reels with 2x–100x multipliers."
+    },
+    {
+      "name": "Missions",
+      "description": "Three respins to land a win with the target symbol."
+    },
+    {
+      "name": "Wanted Level",
+      "description": "Raises the minimum Crew Reel multiplier."
+    }
+  ],
+  "review": "Miami Mayhem is a neon heist slot with a five-member crew. A Crew symbol that lands in a win expands into a full Crew Reel, acts as a wild and can reveal a multiplier of 2x to 100x, and several reels add their values together.\n\nLanding a Wanted symbol starts a Mission: three respins and a target symbol you need to win with. Each completed mission raises your Wanted Level, which raises the minimum multipliers on later Crew Reels. The Hit bonus keeps that progress across free spins, and the cap is 15,000x. It's a clever mix of goals and multipliers.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1824/{version}/index.html?language=en&channel=desktop&gameid=1824&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/miami-mayhem.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/miami-mayhem",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

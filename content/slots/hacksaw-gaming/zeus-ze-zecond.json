@@ -1,0 +1,55 @@
+{
+  "slug": "zeus-ze-zecond",
+  "name": "Zeus Ze Zecond",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 20000,
+  "releaseDate": null,
+  "reels": "6x5",
+  "mechanics": [
+    "paylines",
+    "respins",
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Wonder Reveal",
+      "description": "Vertical Wonder stacks reveal symbols, wilds or Wonder Reels."
+    },
+    {
+      "name": "Pots of Olympus",
+      "description": "Collect all visible coin and diamond values into one prize."
+    },
+    {
+      "name": "Wonder Meter",
+      "description": "Fills toward full-grid reward spins in Godly Ascension."
+    }
+  ],
+  "review": "Zeus Ze Zecond is a sequel that blends the Ze Zeus character with the Le Zeus reveal mechanic. Wonder symbols drop vertically on reels 2 to 5 and reveal high-paying symbols, wilds or full Wonder Reels. Any win made with revealed symbols triggers sticky respins that continue until nothing new connects or a Wonder Reel appears.\n\nWonder Reels hold coins, diamonds, clovers and Pots of Olympus, which gather everything into one total. In the Godly Ascension bonus, a Wonder Meter fills toward reward spins on a full grid of Wonder symbols, with the minimum coin tier rising on each one. That's where the 20,000x maximum comes into play.",
+  "pros": [
+    "Very high 20,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/2077/{version}/index.html?language=en&channel=desktop&gameid=2077&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/zeus-ze-zecond.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/zeus-ze-zecond",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

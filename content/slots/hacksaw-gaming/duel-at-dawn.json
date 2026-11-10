@@ -1,0 +1,54 @@
+{
+  "slug": "duel-at-dawn",
+  "name": "Duel at Dawn",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 15000,
+  "releaseDate": null,
+  "reels": "5x5",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "DuelReels",
+      "description": "Outlaw vs Sheriff duels for multipliers of 2x to 200x."
+    },
+    {
+      "name": "Outlaw Feature",
+      "description": "Outlaw symbols expand into full reels."
+    },
+    {
+      "name": "Additive multipliers",
+      "description": "Several DuelReels in one win add together."
+    }
+  ],
+  "review": "Duel at Dawn is the western where Hacksaw's DuelReels began: the Outlaw faces the Sheriff on every expanded VS reel. The multiplier range runs from 2x to 200x, the survivor's value covers the whole wild reel, and several reels in one win add together.\n\nThe Outlaw Feature adds a separate route: an Outlaw symbol expands into a full reel by itself. It's the blueprint for many of the duel games listed here, and the cap is 15,000x. The third-party databases we checked disagree on its RTP, so we don't list one.",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1620/{version}/index.html?language=en&channel=desktop&gameid=1620&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/duel-at-dawn.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/duel-at-dawn",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}

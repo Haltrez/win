@@ -1,0 +1,56 @@
+{
+  "slug": "get-the-cheese",
+  "name": "Get the CHEESE",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "reels": "6x5",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "multipliers",
+    "walking-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Cheese clear",
+      "description": "A cheese in a win clears everything except FS symbols and wilds."
+    },
+    {
+      "name": "Jumping Wild Multipliers",
+      "description": "Normal wilds gain +1x and Epic wilds +10x per jump."
+    },
+    {
+      "name": "Super Cascades",
+      "description": "Remove every symbol of the winning type."
+    }
+  ],
+  "review": "Get the CHEESE is a cluster slot full of mice, using Hacksaw's Super Cascades, where every symbol of a winning type is removed. A cheese symbol in a winning cluster goes further, clearing the whole grid except FS symbols and wild multipliers.\n\nThose wilds jump to a new position after every cascade. Normal ones start at 1x and add +1x per jump, and Epic ones start at 10x and add +10x, with up to four on the board at once. A long cascade with an Epic wild hopping around is how you reach the 10,000x maximum.",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
+    "Provider doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "demoUrl": "https://static-live.hacksawgaming.com/1580/{version}/index.html?language=en&channel=desktop&gameid=1580&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "image": "/slots/hacksaw-gaming/get-the-cheese.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/get-the-cheese",
+    "In-game rules (official demo)"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "author": "editorial-team"
+}
