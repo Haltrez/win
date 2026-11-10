@@ -448,3 +448,9 @@ a.demo-facade, a.demo-facade:hover { text-decoration: none; }
 .finder-results img, .finder-noimg { width: 100%; height: auto; aspect-ratio: 4 / 3; border-radius: 8px; object-fit: cover; background: var(--bg); display: block; }
 .finder-name { font-weight: 700; }
 .finder-meta { font-size: .8rem; color: var(--muted); }
+
+/* Full screen fallback (iPhone Safari has no element Fullscreen API) */
+.demo.demo-fake-fs { position: fixed; inset: 0; z-index: 2000; width: 100vw; height: 100vh; height: 100dvh; max-height: none; aspect-ratio: auto; border-radius: 0; }
+.demo-fake-fs .demo-fs { top: max(8px, env(safe-area-inset-top)); bottom: auto; right: max(8px, env(safe-area-inset-right)); }
+.demo:fullscreen { border-radius: 0; aspect-ratio: auto; max-height: none; }
+.demo-fake-fs .demo-fs, .demo:fullscreen .demo-fs { min-width: 36px; padding: 4px 10px; opacity: .8; }

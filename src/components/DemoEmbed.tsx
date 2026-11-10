@@ -1,5 +1,5 @@
 'use client';
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { DemoCta, isCtaTest, type CtaCasino } from './DemoCta';
 
 /**
@@ -11,11 +11,41 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta, ext
   const [on, setOn] = useState(false);
   const [src, setSrc] = useState<string | null>(null);
   const box = useRef<HTMLDivElement>(null);
-  const fullscreen = () => {
-    const el = box.current as (HTMLDivElement & { webkitRequestFullscreen?: () => void }) | null;
+  // Full screen: the real Fullscreen API where it exists (Android, desktop); iPhone Safari only allows it for <video>,
+  // so there we expand the game to fill the viewport instead ("fake" full screen) with a close button.
+  const [fs, setFs] = useState<'off' | 'real' | 'fake'>('off');
+  useEffect(() => {
+    const onChange = () => { if (!document.fullscreenElement && fs === 'real') setFs('off'); };
+    document.addEventListener('fullscreenchange', onChange);
+    document.addEventListener('webkitfullscreenchange', onChange);
+    return () => { document.removeEventListener('fullscreenchange', onChange); document.removeEventListener('webkitfullscreenchange', onChange); };
+  }, [fs]);
+  useEffect(() => {
+    if (fs !== 'fake') return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setFs('off'); };
+    document.addEventListener('keydown', onKey);
+    return () => { document.body.style.overflow = prev; document.removeEventListener('keydown', onKey); };
+  }, [fs]);
+  const fullscreen = async () => {
+    const el = box.current as (HTMLDivElement & { webkitRequestFullscreen?: () => Promise<void> | void }) | null;
     if (!el) return;
-    if (el.requestFullscreen) el.requestFullscreen().catch(() => {});
-    else el.webkitRequestFullscreen?.();
+    if (fs !== 'off') {
+      if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
+      setFs('off');
+      return;
+    }
+    try {
+      if (el.requestFullscreen && document.fullscreenEnabled) await el.requestFullscreen();
+      else if (el.webkitRequestFullscreen) await el.webkitRequestFullscreen();
+      else throw new Error('unsupported');
+      setFs('real');
+      // Phones: prefer landscape for games (ignored where not allowed).
+      (screen.orientation as ScreenOrientation & { lock?: (o: string) => Promise<void> })?.lock?.('landscape').catch(() => {});
+    } catch {
+      setFs('fake');
+    }
   };
   const start = () => {
     const mobile = window.matchMedia('(max-width: 768px)').matches;
@@ -42,11 +72,11 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta, ext
     );
   return (
     <>
-    <div className={`demo${on ? ' playing' : ''}`} ref={box}>
+    <div className={`demo${on ? ' playing' : ''}${fs === 'fake' ? ' demo-fake-fs' : ''}`} ref={box}>
       {on ? (
         <>
         <iframe src={src ?? undefined} title={`${name} free demo by ${providerName}`} allow="fullscreen; autoplay" allowFullScreen sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-pointer-lock" />
-        <button className="demo-fs" onClick={fullscreen} aria-label={`Play ${name} full screen`}>⤢ Full screen</button>
+        <button className="demo-fs" onClick={fullscreen} aria-label={fs === 'off' ? `Play ${name} full screen` : 'Exit full screen'}>{fs === 'off' ? '⤢ Full screen' : '✕'}</button>
         </>
       ) : (
         externalUrl ? (
