@@ -538,3 +538,18 @@ a.demo-facade, a.demo-facade:hover { text-decoration: none; }
   .demo-stage { gap: 12px; }
   .play-bar { position: fixed; left: 12px; right: 12px; bottom: max(12px, env(safe-area-inset-bottom)); z-index: 40; display: flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 18px; border-radius: 999px; background: var(--cta); color: var(--brand-ink); font: 800 1rem var(--font); box-shadow: 0 10px 30px rgba(0,0,0,.45), var(--cta-glow); cursor: pointer; text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 }
+
+/* Biggest wins + streamer clips */
+.win { margin-top: 8px; scroll-margin-top: 80px; }
+.win-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px; margin: 10px 0 14px; }
+.win-facts div { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; }
+.win-facts dt { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 700; }
+.win-facts dd { margin: 2px 0 0; font-weight: 600; }
+.clips { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); margin: 12px 0; }
+.clip { margin: 0; }
+.clip-frame { position: relative; aspect-ratio: 16 / 9; border-radius: 12px; overflow: hidden; background: #000; }
+.clip-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.clip-play { all: unset; cursor: pointer; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #0b0f17 center / cover no-repeat; }
+.clip figcaption { display: flex; flex-direction: column; gap: 2px; margin-top: 6px; }
+.notice + .table-wrap { margin-top: 16px; }
+@media (min-width: 640px) { .win-facts { grid-template-columns: repeat(2, 1fr); } }

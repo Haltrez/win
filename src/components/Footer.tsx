@@ -33,6 +33,7 @@ export function Footer() {
           <div>
             <h3>Guides</h3>
             <ul>
+              <li><Link href="/biggest-slot-wins">Biggest slot wins ever</Link></li>
               <li><Link href="/slot-database">Slot RTP database</Link></li>
               <li><Link href="/new">New this week</Link></li>
               <li><Link href="/widgets">Free slot widget</Link></li>

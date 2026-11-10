@@ -1,0 +1,86 @@
+[
+  {
+    "id": "megabucks-2003",
+    "amount": "$39,713,982",
+    "amountShort": "$39.7 million",
+    "game": "Megabucks",
+    "maker": "IGT",
+    "where": "Excalibur, Las Vegas (land-based casino)",
+    "date": "21 March 2003",
+    "sortDate": "2003-03-21",
+    "type": "land-based",
+    "stake": "About $100 put into the machine",
+    "story": "A 25-year-old software engineer from Los Angeles put about $100 into a Megabucks machine at the Excalibur and hit the state-wide progressive jackpot. Guinness World Records lists it as the largest slot machine win ever, and more than twenty years later no slot has paid more in a single hit. Megabucks jackpots are paid in yearly instalments unless the winner takes a smaller lump sum.",
+    "sources": [
+      { "name": "Guinness World Records – Largest slot machine win", "url": "https://guinnessworldrecords.com/world-records/68225-largest-slot-machine-win" },
+      { "name": "Las Vegas Sun, 24 March 2003", "url": "https://m.lasvegassun.com/news/2003/mar/24/record-jackpot-claimed-by-calif-engineer/" }
+    ]
+  },
+  {
+    "id": "absolootly-mad-2021",
+    "amount": "€19,430,723",
+    "amountShort": "€19.4 million",
+    "game": "Absolootly Mad: Mega Moolah",
+    "maker": "Microgaming (now Games Global)",
+    "where": "Napoleon Sports & Casino, Belgium (online)",
+    "date": "Late April 2021",
+    "sortDate": "2021-04-27",
+    "type": "online",
+    "stake": "A €15 spin, according to the casino",
+    "story": "A Belgian player, who chose to stay anonymous, landed the Mega jackpot on Absolootly Mad: Mega Moolah at Napoleon Sports & Casino. At €19.4 million it is the largest payout the Mega Moolah progressive network has made, beating the €18.9 million record from 2018. Trade press reported the win in the last days of April 2021.",
+    "sources": [
+      { "name": "SBC News, 30 April 2021", "url": "https://www.sbcnews.co.uk/igaming/2021/04/30/player-lands-world-record-e19-4m-slot-win-napoleon/" },
+      { "name": "Napoleon press release (European Gaming)", "url": "https://europeangaming.eu/portal/press-releases/2025/04/30/91538/world-record-biggest-online-jackpot-ever-falls-at-napoleon-belgian-player-wins-19430723-60-euros/" }
+    ]
+  },
+  {
+    "id": "mega-moolah-2018",
+    "amount": "€18,915,872",
+    "amountShort": "€18.9 million",
+    "game": "Mega Moolah",
+    "maker": "Microgaming (now Games Global)",
+    "where": "Grand Mondial Casino (online)",
+    "date": "28 September 2018",
+    "sortDate": "2018-09-28",
+    "type": "online",
+    "stake": "Not published; the win was on a mobile phone",
+    "story": "A Grand Mondial Casino player hit the Mega Moolah jackpot on a mobile phone after the prize pool had been building for months. At the time it was the biggest online slot jackpot on record, and it stayed the Mega Moolah record until the Belgian win in 2021.",
+    "sources": [
+      { "name": "CasinoBeats, 4 October 2018", "url": "https://casinobeats.com/2018/10/04/mega-moolah-sets-new-high-with-e18-9m-win/" },
+      { "name": "InterGame Online", "url": "https://intergameonline.com/igaming/news/mega-moolah-sets-new-record-with-189m-payout" }
+    ]
+  },
+  {
+    "id": "mega-moolah-2015",
+    "amount": "€17,879,645",
+    "amountShort": "€17.9 million (£13.2 million)",
+    "game": "Mega Moolah",
+    "maker": "Microgaming (now Games Global)",
+    "where": "Betway (online)",
+    "date": "6 October 2015",
+    "sortDate": "2015-10-06",
+    "type": "online",
+    "stake": "A 25p spin, from a £30 deposit",
+    "story": "British soldier Jon Heywood won £13.2 million on a 25p spin at Betway. Guinness World Records certified it as the largest jackpot payout in an online slot machine game after Betway and Microgaming submitted evidence, including verification from the testing agency eCOGRA. Heywood received his certificate at the ICE gaming show in early 2016.",
+    "sources": [
+      { "name": "Guinness World Records – Largest jackpot payout in an online slot machine game", "url": "https://guinnessworldrecords.com/world-records/largest-jackpot-payout-in-an-online-slot-machine-game" },
+      { "name": "Guinness World Records news, March 2016", "url": "https://www.guinnessworldrecords.com/news/2016/3/british-soldier-receives-guinness-world-records-certificate-for-his-record-slot-m-419237" }
+    ]
+  },
+  {
+    "id": "mega-fortune-2013",
+    "amount": "€17,861,813",
+    "amountShort": "€17.9 million",
+    "game": "Mega Fortune",
+    "maker": "NetEnt",
+    "where": "Paf.com, Finland (online)",
+    "date": "20 January 2013",
+    "sortDate": "2013-01-20",
+    "type": "online",
+    "stake": "Not confirmed in the sources we checked",
+    "story": "A player in Helsinki won the Mega Fortune jackpot at Paf, the gaming company owned by the Åland government. It beat the previous online record, an €11.7 million Mega Fortune win from September 2011, by more than a third, and held the online record until Jon Heywood's Mega Moolah win in 2015 passed it by about €18,000.",
+    "sources": [
+      { "name": "Paf press release, January 2013", "url": "https://www.pr.com/press-release/468623" }
+    ]
+  }
+]

@@ -23,6 +23,7 @@ const QUICK: [string, string][] = [
   ['/best/highest-max-win-slots', 'Biggest max wins'],
   ['/best/low-volatility-slots', 'Low volatility'],
   ['/best/megaways-slots', 'Megaways'],
+  ['/biggest-slot-wins', 'Biggest wins ever'],
 ];
 
 function Section({ title, href, linkText, children }: { title: string; href: string; linkText: string; children: React.ReactNode }) {

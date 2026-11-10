@@ -118,6 +118,16 @@ for (const f of fs.readdirSync(path.join(ROOT, 'guides')).filter((f) => f.endsWi
   if (BANNED.test(body.replace(/no (guide|strategy)[^.]*guarantee[^.]*\./gi, ''))) warn(`guides/${f}: check wording – "${body.match(BANNED)[0]}"`);
 }
 
+// Streamer clips: never published without a permission record; sourced wins need sources.
+for (const c of JSON.parse(fs.readFileSync('content/clips.json', 'utf8'))) {
+  const at = `clips.json ${c.id}`;
+  if (c.permission?.granted !== true || !c.permission.by || !c.permission.on || !c.permission.how) err(`${at}: missing permission record (granted, by, on, how) – only publish clips with the streamer's written permission`);
+  if (!['youtube', 'twitch'].includes(c.platform) || !/^[\w-]{5,80}$/.test(c.videoId || '')) err(`${at}: platform must be youtube/twitch with a valid videoId`);
+  if (!c.streamer || !/^https:\/\//.test(c.channelUrl || '')) err(`${at}: streamer name and https channelUrl are required for the credit`);
+}
+for (const w of JSON.parse(fs.readFileSync('content/big-wins.json', 'utf8'))) {
+  if (!w.sources?.length || w.sources.some((x) => !/^https:\/\//.test(x.url))) err(`big-wins.json ${w.id}: every win needs at least one https source`);
+}
 const verbose = process.argv.includes('--verbose');
 console.log(`Content check: ${slots.length} slots, ${providers.length} providers, ${casinos.length} casinos`);
 if (warnings.length) {
