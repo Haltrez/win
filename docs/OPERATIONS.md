@@ -139,3 +139,9 @@ The git workflow scales to a few writers. For a larger team, plug in a headless 
 - Not added yet: cashy.com and cashyglobal.com refuse automated access, so the offer terms must come from the owner/marketing kit. Banner offer: 100% up to $3,000.
 
 - Cashy studios: owner confirmed Cashy carries all 12 studios on the site (2026-11-11).
+
+### Starz Partners promo update (2026-11-11)
+- Mikhail set promo codes: BitStarz 50 FS no deposit (40x, $100 max win, $0.20 spin); Cashy 150% up to $3,000 (40x). Fixed 40% NGR for the account.
+- New promo links: BitStarz https://bzstarz2.com/bigtntdfo, Cashy https://gocashy.com/beixdsb7w (old links still valid but replaced).
+- BitStarz terms: no-deposit spins NOT available in AR, AT, CL, FI, IN, NO, ZA (and others); welcome package NOT available in AT, FI. So BitStarz is no longer shown in AT and FI; the no-deposit offer text is shown only in CA, NZ, IE, JP, MX, UY, EC, CR; others see the welcome package.
+- Open question for Mikhail: do the new links apply the promo automatically, or must players enter a code?
