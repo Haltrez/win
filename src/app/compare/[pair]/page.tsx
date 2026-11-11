@@ -6,7 +6,6 @@ import { fmtRelease, fmtRtp, fmtX, volLabel, volScore } from '@/lib/format';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { FAQ } from '@/components/FAQ';
 import { SlotGrid } from '@/components/SlotCard';
-import { AffiliateDisclosure } from '@/components/Disclosure';
 import { CasinoModule } from '@/components/CasinoModule';
 
 type P = { pair: string };
@@ -51,7 +50,6 @@ export default async function ComparePage({ params }: { params: Promise<P> }) {
     <>
       <Breadcrumbs items={[{ name: 'Compare', path: '/compare' }, { name: `${a.name} vs ${b.name}`, path: `/compare/${c.slug}` }]} />
       <h1>{a.name} vs {b.name}</h1>
-      <AffiliateDisclosure compact />
       <div className="table-wrap">
         <table className="cmp">
           <thead><tr><th></th><th><Link href={slotUrl(a)}>{a.name}</Link></th><th><Link href={slotUrl(b)}>{b.name}</Link></th></tr></thead>

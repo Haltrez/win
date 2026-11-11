@@ -11,7 +11,6 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { SlotGrid } from '@/components/SlotCard';
 import { JsonLd } from '@/components/JsonLd';
 import { FAQ } from '@/components/FAQ';
-import { AffiliateDisclosure } from '@/components/Disclosure';
 import { CasinoModule } from '@/components/CasinoModule';
 
 type P = { category: string };
@@ -80,7 +79,6 @@ export default async function CategoryPage({ params }: { params: Promise<P> }) {
         </>
       )}
 
-      <AffiliateDisclosure />
       <CasinoModule casinos={getCasinos()} title="Where to play these slots" context={`best:${c.slug}`} />
 
       {guides.length || providers.length || siblings.length ? (

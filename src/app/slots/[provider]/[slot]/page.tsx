@@ -13,7 +13,6 @@ import { JsonLd } from '@/components/JsonLd';
 import { VoteButtons } from '@/components/VoteButtons';
 import { DemoEmbed } from '@/components/DemoEmbed';
 import { StatsTable } from '@/components/StatsTable';
-import { AffiliateDisclosure } from '@/components/Disclosure';
 import { CasinoModule } from '@/components/CasinoModule';
 import { SlotRail } from '@/components/SlotCard';
 import { ClipCard } from '@/components/ClipCard';
@@ -109,7 +108,6 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
         {s.name}
         <span className="slot-kicker">{demo ? <> Demo · free play &amp; review</> : <> Slot review</>} · {p.name}</span>
       </h1>
-      <AffiliateDisclosure compact />
 
       <div className="slot-hero">
         <div>

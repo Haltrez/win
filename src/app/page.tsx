@@ -5,7 +5,6 @@ import { getCategories, getCategorySlots } from '@/lib/categories';
 import { buildMetadata } from '@/lib/seo';
 import { SITE } from '@/lib/config';
 import { SlotRail } from '@/components/SlotCard';
-import { AffiliateDisclosure } from '@/components/Disclosure';
 import { CasinoModule } from '@/components/CasinoModule';
 import { ProviderLogo } from '@/components/ProviderLogo';
 
@@ -84,7 +83,6 @@ export default function Home() {
         </ul>
       </Section>
 
-      <AffiliateDisclosure />
 
       <Section title="Learn how slots work" href="/guides" linkText="All guides">
         <div className="cards-3">

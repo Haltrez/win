@@ -10,7 +10,6 @@ import { fmtRtp, fmtX, volLabel, year } from '@/lib/format';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { SlotGrid } from '@/components/SlotCard';
 import { JsonLd } from '@/components/JsonLd';
-import { AffiliateDisclosure } from '@/components/Disclosure';
 import { CasinoModule } from '@/components/CasinoModule';
 import { FAQ } from '@/components/FAQ';
 
@@ -98,7 +97,6 @@ export default async function ProviderPage({ params }: { params: Promise<P> }) {
       )}
       {guides.length ? (<><h2>Guides featuring {p.name}</h2><ul className="inline-links">{guides.map((g) => <li key={g.slug}><Link href={`/guides/${g.slug}`}>{g.title.split(/[:(]/)[0].trim()}</Link></li>)}</ul></>) : null}
       {cats.length ? (<><h2>{p.name} slots by type</h2><ul className="inline-links">{cats.map((c) => <li key={c.slug}><Link href={`/best/${c.slug}`}>{c.title.replace(/\s+\d{4}$/, '')}</Link></li>)}</ul></>) : null}
-      <AffiliateDisclosure />
       <CasinoModule casinos={getCasinosForProvider(p.slug)} title={`Casinos with ${p.name} slots`} context={`provider:${p.slug}`} />
       <FAQ items={faq} title={`${p.name} FAQ`} />
     </>

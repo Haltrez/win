@@ -58,7 +58,7 @@ export function CasinoModuleClient({ casinos, title, context, slotName }: { casi
         </ol>
       )}
       <p className="muted small">
-        Casino availability and bonuses depend on your country; check each casino&apos;s terms. Real-money play involves risk – you can lose your stake. <a href="/responsible-gambling">Play responsibly</a>.
+        We may earn a commission from these links. Availability and bonuses depend on your country; check each casino&apos;s terms. Real-money play involves risk – you can lose your stake. <a href="/responsible-gambling">Play responsibly</a>.
         {casinos.some((c) => c.placeholder) ? ' [Placeholder partners – replace in content/casinos.json before launch.]' : ''}
       </p>
     </section>
