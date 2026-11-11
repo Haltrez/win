@@ -118,5 +118,12 @@ The git workflow scales to a few writers. For a larger team, plug in a headless 
 ### 7Bit Casino – entry added (2026-11-11), offers still off
 
 - `content/casinos.json`: 7Bit with tracking link, official logo, welcome pack wording and terms taken from 7bitcasino.com/bonus-terms (35x wagering, 14 days, $20 minimum). Rating 0 = no score shown.
-- Shown only in: Canada without Ontario, NZ, IE, FI, NO, AT, IN, ZA. India cannot receive 7Bit no-deposit offers (deposit welcome pack is fine).
+- Shown only in: Canada without Ontario, NZ, IE, FI, NO, AT, IN, ZA. 
 - The three placeholder casinos were removed. BitStarz, Cashy and Mirax still need tracking links, logos (BitStarz logo saved) and terms.
+
+### Mirax Casino – entry added (2026-11-11), offers still off
+
+- Same programme as 7Bit (7Bit Partners). Tracking link, official logo, welcome package and terms from miraxcasino.com/bonus-terms-and-conditions (35x, 14 days, min 0.00028 BTC, free-spin winnings capped at 0.0014 BTC).
+- Restricted-country list (terms, effective 15.06.2026) is identical to 7Bit's. Mirax also bars some countries from ALL promotions, including Finland, so FI is left out.
+- Shown only in: Canada without Ontario, NZ, IE, NO, AT, IN, ZA. Ireland, India and South Africa cannot get Mirax no-deposit offers (the deposit welcome package is fine).
+- Licence: the terms refer to Curaçao law but state no licence number; confirm before relying on it.

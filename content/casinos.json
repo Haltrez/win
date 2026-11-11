@@ -55,5 +55,58 @@
    "Crypto and standard payment methods",
    "Carries all the main studios on this site"
   ]
+ },
+ {
+  "slug": "mirax",
+  "name": "Mirax Casino",
+  "logo": "/casinos/mirax.svg",
+  "licenses": [
+   "Curaçao (see the casino's site for licence details)"
+  ],
+  "geos": [
+   "CA-AB",
+   "CA-BC",
+   "CA-MB",
+   "CA-NB",
+   "CA-NL",
+   "CA-NS",
+   "CA-NT",
+   "CA-NU",
+   "CA-PE",
+   "CA-QC",
+   "CA-SK",
+   "CA-YT",
+   "NZ",
+   "IE",
+   "NO",
+   "AT",
+   "IN",
+   "ZA"
+  ],
+  "links": {
+   "default": "https://mirax.partners/pqhpy8lbn"
+  },
+  "bonus": {
+   "default": "Welcome package: 325% up to 5 BTC + 150 free spins over your first four deposits"
+  },
+  "terms": "18+. New players only. Min deposit 0.00028 BTC. Bonus and free-spin winnings must be wagered 35x within 14 days. Free-spin winnings capped at 0.0014 BTC. Max bet limits apply while wagering. Bonus codes needed for deposits 2–4. Full bonus terms apply.",
+  "minDeposit": "0.00028 BTC",
+  "wagering": "35x",
+  "providers": [
+   "pragmatic-play",
+   "bgaming",
+   "nolimit-city",
+   "thunderkick",
+   "play-n-go",
+   "netent",
+   "relax-gaming",
+   "blueprint-gaming"
+  ],
+  "rating": 0,
+  "pros": [
+   "Welcome package spread over four deposits",
+   "Crypto-focused payments",
+   "No cash-out cap on the match bonus"
+  ]
  }
 ]
