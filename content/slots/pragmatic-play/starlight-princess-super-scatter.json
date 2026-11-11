@@ -1,0 +1,54 @@
+{
+  "slug": "starlight-princess-super-scatter",
+  "name": "Starlight Princess Super Scatter",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 50000,
+  "releaseDate": "2025-10-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Multipliers to 500x",
+      "description": "Base-game multipliers add together at the end of each tumble sequence."
+    },
+    {
+      "name": "Running total free spins",
+      "description": "In the bonus, winning multipliers build a total that stays for the round."
+    },
+    {
+      "name": "Super Scatters",
+      "description": "One to four Super Scatters in the trigger pay 100x up to 50,000x."
+    }
+  ],
+  "review": "Starlight Princess Super Scatter adds Super Scatters to Pragmatic's anime-styled tumble slot. In the base game, multiplier symbols worth up to 500x can land and are added together at the end of the tumble sequence before applying to the total win.\n\nFour or more scatters trigger the bonus, where any multiplier landing on a winning tumble joins a running total. Triggering it with one to four Super Scatters also pays an instant 100x to 50,000x. Pragmatic lists a 96.50% RTP. It plays like Gates of Olympus Super Scatter with a different theme, and suits players who like that formula.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20starprss&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Very high 50,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/starlight-princess-super-scatter.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/starlight-princess-super-scatter/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

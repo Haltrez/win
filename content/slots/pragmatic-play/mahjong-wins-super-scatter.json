@@ -1,0 +1,55 @@
+{
+  "slug": "mahjong-wins-super-scatter",
+  "name": "Mahjong Wins Super Scatter",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 100000,
+  "releaseDate": "2025-05-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "ways",
+    "tumble",
+    "multipliers",
+    "progressive-multiplier",
+    "free-spins"
+  ],
+  "themes": [
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Golden tiles",
+      "description": "Gold tiles in a win leave a wild behind for the next tumble."
+    },
+    {
+      "name": "Tumble multiplier",
+      "description": "Consecutive tumbles raise the win multiplier up to 5x in the base game."
+    },
+    {
+      "name": "Super Scatters to 100,000x",
+      "description": "One to four Super Scatters in the trigger pay 50x up to 100,000x."
+    }
+  ],
+  "review": "Mahjong Wins Super Scatter is a 5×5 mahjong-tile slot with up to 2,000 ways to win and one of the highest ceilings in Pragmatic's catalogue: Super Scatters can lead to wins of up to 100,000x. In the base game, a win multiplier rises with consecutive tumbles, up to 5x.\n\nPaying symbols on reels two to four can randomly be marked gold; a gold tile in a win leaves a wild behind for the next tumble. Three scatters give 10 free spins, plus two per extra scatter, with all of reel three gold. One to four Super Scatters in the trigger pay 50x, 500x, 5,000x or 100,000x. Pragmatic lists a 96.50% RTP.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysmwss&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Very high 100,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/mahjong-wins-super-scatter.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/mahjong-wins-super-scatter/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

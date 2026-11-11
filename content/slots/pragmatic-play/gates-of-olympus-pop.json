@@ -1,0 +1,55 @@
+{
+  "slug": "gates-of-olympus-pop",
+  "name": "Gates of Olympus POP",
+  "provider": "pragmatic-play",
+  "rtp": 96.54,
+  "volatility": null,
+  "maxWin": 25000,
+  "releaseDate": "2026-07-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins",
+    "jackpot"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Compact pay-anywhere grid",
+      "description": "Five or more matching symbols anywhere on the 3×5 grid win, with tumbles."
+    },
+    {
+      "name": "Multipliers to 1,000x",
+      "description": "Multipliers stay through a tumble sequence and are added together at the end."
+    },
+    {
+      "name": "Scatter jackpots",
+      "description": "Scatter and Super Scatter combinations can award one of three jackpots, up to 25,000x."
+    }
+  ],
+  "review": "Gates of Olympus POP shrinks Zeus's game onto a compact 3×5 grid. Five to nine or more matching symbols anywhere pay, tumbles follow each win, and multiplier symbols with values up to 1,000x can land in both the base game and the bonus. They stay on screen through the tumble sequence and are added together at the end.\n\nThree or more scatters or Super Scatters start 15 free spins, with five more for two further scatters, and multipliers on winning spins build a running total. Scatter and Super Scatter combinations in the base game can also award one of three jackpots, up to 25,000x. Pragmatic lists a 96.54% RTP.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10olymppop&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.54% RTP",
+    "Very high 25,000x win ceiling",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/gates-of-olympus-pop.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/gates-of-olympus-pop/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

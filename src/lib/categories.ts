@@ -81,6 +81,18 @@ function defs(): Def[] {
     { slug: 'streamer-favourite-slots', title: 'Popular High-Variance Bonus Slots', kw: 'popular bonus slots', group: 'style', intro: 'High-variance slots with multi-stage bonus rounds that are popular in the slot community. Popularity says nothing about your odds.', filter: (s) => volScore(s.volatility) >= 5 && mw(s) >= 10000 && s.mechanics.includes('free-spins'), sort: byRating },
     { slug: 'simple-slots-for-beginners', title: 'Simple Slots for Beginners', kw: 'easy slots for beginners', group: 'style', intro: 'Slots with straightforward rules and one or two features – ideal for learning in demo mode.', filter: (s) => s.mechanics.length <= 4, sort: byRating, relatedGuides: ['how-slots-work'] },
   ];
+  // ---- Popular game series (searched by name)
+  const byName = (re: RegExp, prov?: string) => (s: Slot) => re.test(s.name) && (!prov || s.provider === prov);
+  const series: [string, string, string, string, (s: Slot) => boolean][] = [
+    ['super-scatter-slots', 'Super Scatter Slots', 'super scatter slots', 'Pragmatic Play\'s Super Scatter editions add a special scatter that pays an instant prize – up to 50,000x when four land – whenever it helps trigger the bonus.', byName(/super scatter/i)],
+    ['big-bass-slots', 'Big Bass Slots – Every Edition', 'big bass slots', 'Every Big Bass game we cover: the fishing series where a fisherman wild collects fish money symbols in free spins, with retriggers that raise the win multiplier.', byName(/big bass/i)],
+    ['pragmatic-1000-slots', 'Pragmatic Play 1000 Editions', 'pragmatic 1000 slots', 'The "1000" editions of Pragmatic Play hits raise multiplier caps (often to 1,000x) and max wins compared with the originals, with the same core gameplay.', byName(/\b(1000|2500)\b/, 'pragmatic-play')],
+    ['dog-house-slots', 'The Dog House Slots – Every Edition', 'dog house slots', 'Every Dog House game: Pragmatic Play\'s dog-themed series built on multiplier wilds that stay sticky in free spins.', byName(/dog house/i)],
+    ['gates-of-olympus-slots', 'Gates of Olympus Slots – Every Edition', 'gates of olympus slots', 'Every Gates of Olympus version, from the 2021 original to the 1000, 2500 and Super Scatter editions – all pay-anywhere tumble slots with Zeus\'s multipliers.', byName(/gates of olympus/i)],
+    ['sweet-bonanza-slots', 'Sweet Bonanza Slots – Every Edition', 'sweet bonanza slots', 'Every Sweet Bonanza version: the candy pay-anywhere series with tumbles and multiplier bombs in free spins.', byName(/sweet bonanza/i)],
+    ['hacksaw-le-series-slots', 'Hacksaw "Le" Series Slots (Smokey)', 'hacksaw le slots', 'Every game in Hacksaw Gaming\'s "Le" series starring Smokey the raccoon, from Le Bandit onwards – mostly cluster games with golden squares, rainbows and coins.', byName(/^Le /, 'hacksaw-gaming')],
+  ];
+  for (const [slug, title, kw, intro, filter] of series) out.push({ slug, title, kw, group: 'style', intro, filter, sort: byRating });
   for (const [m, slug, title, intro, guides] of mech) {
     const ms = Array.isArray(m) ? m : [m];
     out.push({ slug, title: `Best ${title}`, kw: title.toLowerCase(), group: 'mechanics', yearly: true, intro, filter: (s) => ms.some((x) => s.mechanics.includes(x)), sort: byRating, relatedGuides: guides });
