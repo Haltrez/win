@@ -65,6 +65,7 @@ export default function Home() {
         </dl>
       </section>
 
+      <CasinoModule casinos={getCasinos()} title="Top casino bonuses" context="home" />
       <RecentSlots />
       <Section title="Top-rated slots" href="/best/best-slots" linkText="See all"><SlotRail slots={top} ranked label="Top-rated slots" /></Section>
       <Section title="New releases" href="/best/new-slots" linkText="All new slots"><SlotRail slots={newest} label="New releases" /></Section>
@@ -85,7 +86,6 @@ export default function Home() {
       </Section>
 
       <AffiliateDisclosure />
-      <CasinoModule casinos={getCasinos()} title="Licensed casinos we recommend" context="home" />
 
       <Section title="Learn how slots work" href="/guides" linkText="All guides">
         <div className="cards-3">

@@ -16,7 +16,7 @@ export function CasinoModuleClient({ casinos, title, context, slotName }: { casi
   useEffect(() => { setGeo(readGeo()); setReady(true); }, []);
   const region = geo?.split('-')[0];
   // Offers are shown only once the visitor's country is known and a casino accepts it – never by default.
-  const list = ready && geo ? casinos.filter((c) => c.geos.includes(geo) || (region && c.geos.includes(region))) : [];
+  const list = !FEATURES.geoFilter ? casinos : ready && geo ? casinos.filter((c) => c.geos.includes(geo) || (region && c.geos.includes(region))) : [];
   if (!enabled) return null;
   const bonusFor = (c: Casino) => (geo && c.bonus[geo]) || (region && c.bonus[region]) || c.bonus.default;
   const offerFor = (c: Casino) => (geo && c.offer?.[geo]) || (region && c.offer?.[region]) || c.offer?.default || { title: bonusFor(c) };
@@ -26,7 +26,7 @@ export function CasinoModuleClient({ casinos, title, context, slotName }: { casi
       <h2 id={`cas-${context}`}>{title}</h2>
       {casinos.length === 0 ? (
         <p className="muted">We don&apos;t have a licensed partner casino carrying this game yet. You can still play it in free demo mode on this page.</p>
-      ) : !ready ? (
+      ) : FEATURES.geoFilter && !ready ? (
         <p className="muted">Checking which casinos are available in your country…</p>
       ) : list.length === 0 ? (
         <>
@@ -58,7 +58,7 @@ export function CasinoModuleClient({ casinos, title, context, slotName }: { casi
         </ol>
       )}
       <p className="muted small">
-        Offers depend on your location. Real-money play involves risk – you can lose your stake. <a href="/responsible-gambling">Play responsibly</a>.
+        Casino availability and bonuses depend on your country; check each casino&apos;s terms. Real-money play involves risk – you can lose your stake. <a href="/responsible-gambling">Play responsibly</a>.
         {casinos.some((c) => c.placeholder) ? ' [Placeholder partners – replace in content/casinos.json before launch.]' : ''}
       </p>
     </section>

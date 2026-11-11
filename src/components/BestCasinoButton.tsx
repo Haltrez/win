@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
+import { FEATURES } from '@/lib/config';
 
 type C = { slug: string; name: string; geos: string[] };
 const readGeo = () => { const m = document.cookie.match(/(?:^|; )geo=([^;]+)/); return m ? decodeURIComponent(m[1]) : null; };
@@ -8,6 +9,7 @@ const readGeo = () => { const m = document.cookie.match(/(?:^|; )geo=([^;]+)/); 
 export function BestCasinoButton({ casinos, label, src, slot }: { casinos: C[]; label: string; src: string; slot?: string }) {
   const [c, setC] = useState<C | null>(null);
   useEffect(() => {
+    if (!FEATURES.geoFilter) { setC(casinos[0] ?? null); return; }
     const geo = readGeo();
     if (!geo) return;
     const region = geo.split('-')[0];

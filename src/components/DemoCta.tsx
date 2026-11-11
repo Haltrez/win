@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import { track } from './Analytics';
+import { FEATURES } from '@/lib/config';
 
 export type CtaCasino = { slug: string; name: string; geos: string[]; bonus: Record<string, string>; terms: string };
 
@@ -41,12 +42,12 @@ export function DemoCta({ casinos, slotName, slotKey }: { casinos: CtaCasino[]; 
       bonus = TEST_CASINO.bonus.default;
       next.current = 10;
     } else {
-      const geo = readGeo();
-      if (!geo || !casinos.length) return;
+      const geo = readGeo() || '';
+      if (!casinos.length || (FEATURES.geoFilter && !geo)) return;
       const region = geo.split('-')[0];
-      c = casinos.find((x) => x.geos.includes(geo) || x.geos.includes(region));
+      c = FEATURES.geoFilter ? casinos.find((x) => x.geos.includes(geo) || x.geos.includes(region)) : casinos[0];
       if (!c) return;
-      bonus = c.bonus[geo] || c.bonus[region] || c.bonus.default;
+      bonus = (geo && c.bonus[geo]) || (region && c.bonus[region]) || c.bonus.default;
     }
     const cc = c;
     setCasino({ c: cc, bonus });

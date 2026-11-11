@@ -17,10 +17,16 @@ export function StatsTable({ slot, provider }: { slot: Slot; provider: Provider 
     ...(slot.minBet != null && slot.maxBet != null ? [['Bet range', `${slot.minBet} – ${slot.maxBet}`] as [string, string]] : []),
     ['Bonus buy', slot.mechanics.includes('bonus-buy') ? 'Yes (not available in all markets)' : 'No'],
   ];
+  const tiles: [string, string][] = [['RTP', fmtRtp(slot.rtp)], ['Volatility', volLabel(slot.volatility)], ['Max win', fmtX(slot.maxWin)], ['Provider', provider.name]];
   return (
+    <>
+    <dl className="stat-tiles">{tiles.map(([k, v]) => <div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl>
+    <details className="stats-more"><summary>All game details</summary>
     <table className="stats">
       <caption className="sr-only">{slot.name} key facts</caption>
       <tbody>{rows.map(([k, v]) => <tr key={k}><th scope="row">{k}</th><td>{v}</td></tr>)}</tbody>
     </table>
+    </details>
+    </>
   );
 }

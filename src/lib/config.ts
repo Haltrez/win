@@ -5,6 +5,8 @@
  */
 export const FEATURES = {
   realMoney: process.env.NEXT_PUBLIC_REAL_MONEY !== '0', // on by default; set NEXT_PUBLIC_REAL_MONEY=0 to switch off
+  /** Owner's choice: offers shown in every country. Set NEXT_PUBLIC_GEO_FILTER=1 to show each casino only where it accepts players. */
+  geoFilter: process.env.NEXT_PUBLIC_GEO_FILTER === '1',
 } as const;
 
 export const SITE = {
