@@ -121,7 +121,7 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
           {process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL ? <VoteButtons id={`${s.provider}/${s.slug}`} name={s.name} /> : null}
           <StatsTable slot={s} provider={p} />
           <div className="cta-stack">
-            {FEATURES.realMoney && casinos.length ? <BestCasinoButton casinos={casinos.map((c) => ({ slug: c.slug, name: c.name, geos: c.geos }))} label="Play for real" src="slot-hero" slot={`${s.provider}/${s.slug}`} /> : null}
+            {FEATURES.realMoney && casinos.length ? <BestCasinoButton casinos={casinos.map((c) => ({ slug: c.slug, name: c.name, geos: c.geos }))} label="Claim bonus" src="slot-hero" slot={`${s.provider}/${s.slug}`} /> : null}
             <FavoriteButton id={`${s.provider}/${s.slug}`} name={s.name} url={url} />
           </div>
         </aside>
