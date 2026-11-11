@@ -106,7 +106,20 @@
    "default": "Welcome bonus: 100% up to $3,000"
   },
   "terms": "18+. New players only. T&Cs apply.",
-  "providers": [],
+  "providers": [
+   "pragmatic-play",
+   "bgaming",
+   "hacksaw-gaming",
+   "nolimit-city",
+   "thunderkick",
+   "wazdan",
+   "push-gaming",
+   "play-n-go",
+   "netent",
+   "relax-gaming",
+   "big-time-gaming",
+   "blueprint-gaming"
+  ],
   "rating": 0,
   "pros": [
    "Fast withdrawals",

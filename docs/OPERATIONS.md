@@ -137,3 +137,5 @@ The git workflow scales to a few writers. For a larger team, plug in a headless 
 - Tracking link https://gocashy.com/bbbnmct7k (from the banner script; 302s to cashyglobal.com with our stag).
 - Logo received from the owner: public/casinos/cashy.png (dark artwork, use `"logoLight": true`).
 - Not added yet: cashy.com and cashyglobal.com refuse automated access, so the offer terms must come from the owner/marketing kit. Banner offer: 100% up to $3,000.
+
+- Cashy studios: owner confirmed Cashy carries all 12 studios on the site (2026-11-11).
