@@ -79,7 +79,7 @@ export function DemoCta({ casinos, slotName, slotKey }: { casinos: CtaCasino[]; 
       </div>
       <div className="dcc-actions">
         <a className="btn btn-primary" {...(c.slug === 'example' ? { href: '#', onClick: (e: React.MouseEvent) => e.preventDefault() } : { href: `/go/${c.slug}?src=demo-cta&slot=${encodeURIComponent(slotKey)}`, target: '_blank', 'data-event': 'affiliate_click' })} rel="sponsored nofollow noopener">
-          Play for real <span aria-hidden>→</span>
+          Claim now <span aria-hidden>→</span>
         </a>
         <button type="button" className="btn btn-ghost" onClick={() => { setShow(false); if (c.slug !== 'example') track('demo_cta_dismiss', { slot: slotKey }); }}>
           Not now
