@@ -4,8 +4,8 @@ import { track } from './Analytics';
 
 export type CtaCasino = { slug: string; name: string; geos: string[]; bonus: Record<string, string>; terms: string };
 
-const FIRST_AFTER = 120; // seconds of visible demo play before the first prompt
-const EVERY = 120;       // seconds of visible play between prompts
+const FIRST_AFTER = 60; // seconds of visible demo play before the first prompt
+const EVERY = 60;        // seconds of visible play between prompts
 const MAX_PER_VISIT = 3; // across all games in one browser session
 const K_COUNT = 'demoCtaShown';
 /** Test mode (?cta-test in the URL): example casino, first prompt after 10 s, then every 20 s. Never shown to normal visitors. */
@@ -23,7 +23,7 @@ function readGeo(): string | null {
 
 /**
  * Real-money prompt shown next to (below) a running demo – never over the game.
- * Timing counts only visible play time; first after 2 min, then every 2 min, max 3 per visit; "Not now" closes the
+ * Timing counts only visible play time; first after 1 min, then every 1 min, max 3 per visit; "Not now" closes the
  * current prompt only. Only casinos licensed for the visitor's country (geo cookie) are offered; unknown country = no prompt.
  */
 export function DemoCta({ casinos, slotName, slotKey }: { casinos: CtaCasino[]; slotName: string; slotKey: string }) {
