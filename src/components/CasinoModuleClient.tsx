@@ -38,7 +38,7 @@ export function CasinoModuleClient({ casinos, title, context, slotName }: { casi
                 <div>
                   {c.logo ? (
                     // eslint-disable-next-line @next/next/no-img-element
-                    <img className="casino-logo" src={c.logo} alt={`${c.name} logo`} width={120} height={32} loading="lazy" />
+                    <img className={`casino-logo${c.logoLight ? ' casino-logo-light' : ''}`} src={c.logo} alt={`${c.name} logo`} width={120} height={32} loading="lazy" />
                   ) : null}
                   <strong>{c.name}</strong>
                   <div className="muted small">{c.licenses.join(' · ')}</div>

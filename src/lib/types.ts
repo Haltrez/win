@@ -93,6 +93,8 @@ export interface Casino {
   name: string;
   /** Official logo in /public/casinos (shown on a dark plate). */
   logo?: string;
+  /** The logo is dark artwork: show it on a white plate instead. */
+  logoLight?: boolean;
   /** Licences held, e.g. "UKGC 00000", "MGA/B2C/000/0000". Verify before publishing. */
   licenses: string[];
   /** ISO-3166 alpha-2 countries where the operator is licensed AND you hold an affiliate agreement. */

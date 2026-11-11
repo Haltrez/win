@@ -135,4 +135,5 @@ The git workflow scales to a few writers. For a larger team, plug in a headless 
 
 ### Cashy – pending
 - Tracking link https://gocashy.com/bbbnmct7k (from the banner script; 302s to cashyglobal.com with our stag).
-- Not added yet: cashy.com and cashyglobal.com refuse automated access, so the offer terms and logo must come from the owner/marketing kit. Banner offer: 100% up to $3,000.
+- Logo received from the owner: public/casinos/cashy.png (dark artwork, use `"logoLight": true`).
+- Not added yet: cashy.com and cashyglobal.com refuse automated access, so the offer terms must come from the owner/marketing kit. Banner offer: 100% up to $3,000.
