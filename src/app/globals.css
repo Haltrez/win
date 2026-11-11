@@ -555,3 +555,5 @@ a.demo-facade, a.demo-facade:hover { text-decoration: none; }
 @media (min-width: 640px) { .win-facts { grid-template-columns: repeat(2, 1fr); } }
 .casino-logo { display: block; height: 30px; width: auto; max-width: 150px; object-fit: contain; object-position: left; background: #10151f; border-radius: 8px; padding: 6px 10px; margin-bottom: 6px; box-sizing: content-box; }
 .casino-logo-light { background: #fff; }
+.best-casino { flex-direction: column; gap: 0; width: 100%; line-height: 1.2; padding-top: 10px; padding-bottom: 10px; }
+.best-casino-sub { font-size: .75rem; font-weight: 700; opacity: .75; }

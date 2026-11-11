@@ -17,6 +17,7 @@ import { AffiliateDisclosure } from '@/components/Disclosure';
 import { CasinoModule } from '@/components/CasinoModule';
 import { SlotRail } from '@/components/SlotCard';
 import { ClipCard } from '@/components/ClipCard';
+import { BestCasinoButton } from '@/components/BestCasinoButton';
 import { getClipsForSlot } from '@/lib/wins';
 import { FAQ } from '@/components/FAQ';
 import { FavoriteButton } from '@/components/Favorites';
@@ -120,11 +121,7 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
           {process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL ? <VoteButtons id={`${s.provider}/${s.slug}`} name={s.name} /> : null}
           <StatsTable slot={s} provider={p} />
           <div className="cta-stack">
-            {FEATURES.realMoney && casinos[0] ? (
-              <a className="btn btn-primary" href={`/go/${casinos[0].slug}?src=slot-hero&slot=${s.slug}`} rel="sponsored nofollow noopener" target="_blank" data-event="affiliate_click">
-                Play {s.name} for real money
-              </a>
-            ) : null}
+            {FEATURES.realMoney && casinos.length ? <BestCasinoButton casinos={casinos.map((c) => ({ slug: c.slug, name: c.name, geos: c.geos }))} label={`Play ${s.name} for real`} src="slot-hero" slot={`${s.provider}/${s.slug}`} /> : null}
             <FavoriteButton id={`${s.provider}/${s.slug}`} name={s.name} url={url} />
           </div>
         </aside>
