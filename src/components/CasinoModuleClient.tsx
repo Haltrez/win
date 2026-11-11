@@ -36,6 +36,10 @@ export function CasinoModuleClient({ casinos, title, context, slotName }: { casi
               <div className="casino-name">
                 <span className="rank">{i + 1}</span>
                 <div>
+                  {c.logo ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img className="casino-logo" src={c.logo} alt={`${c.name} logo`} width={120} height={32} loading="lazy" />
+                  ) : null}
                   <strong>{c.name}</strong>
                   <div className="muted small">{c.licenses.join(' · ')}</div>
                 </div>
@@ -48,7 +52,7 @@ export function CasinoModuleClient({ casinos, title, context, slotName }: { casi
                 <a className="btn btn-primary" href={`/go/${c.slug}?src=${encodeURIComponent(context)}&pos=${i + 1}`} rel="sponsored nofollow noopener" target="_blank" data-event="affiliate_click">
                   {slotName ? `Play ${slotName} for real` : 'Visit casino'}
                 </a>
-                <span className="muted small">Score {c.rating.toFixed(1)}/10</span>
+                {c.rating ? <span className="muted small">Score {c.rating.toFixed(1)}/10</span> : null}
               </div>
             </li>
           ))}

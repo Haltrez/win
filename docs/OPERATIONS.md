@@ -114,3 +114,9 @@ The git workflow scales to a few writers. For a larger team, plug in a headless 
 - Differs from Starz: 7Bit restricts Japan, Mexico, Argentina, Chile, Uruguay, Ecuador, Costa Rica, Singapore, Hong Kong; Starz restricts Brazil, Russia.
 - Suggested allowlist if the owner joins: `CA-*` without Ontario, `NZ, IE, FI, NO, AT, IN, ZA` (same caution as Starz: leave out DE, SE, DK, IT, CH, AU, CA-ON, BR).
 - Not confirmed: affiliate programme's own country rules (7bitpartners.com refuses automated access), bonus-restricted countries (separate Bonus Terms), commission plan, other brands in the programme.
+
+### 7Bit Casino – entry added (2026-11-11), offers still off
+
+- `content/casinos.json`: 7Bit with tracking link, official logo, welcome pack wording and terms taken from 7bitcasino.com/bonus-terms (35x wagering, 14 days, $20 minimum). Rating 0 = no score shown.
+- Shown only in: Canada without Ontario, NZ, IE, FI, NO, AT, IN, ZA. India cannot receive 7Bit no-deposit offers (deposit welcome pack is fine).
+- The three placeholder casinos were removed. BitStarz, Cashy and Mirax still need tracking links, logos (BitStarz logo saved) and terms.

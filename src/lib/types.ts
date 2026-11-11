@@ -91,6 +91,8 @@ export interface Provider {
 export interface Casino {
   slug: string;
   name: string;
+  /** Official logo in /public/casinos (shown on a dark plate). */
+  logo?: string;
   /** Licences held, e.g. "UKGC 00000", "MGA/B2C/000/0000". Verify before publishing. */
   licenses: string[];
   /** ISO-3166 alpha-2 countries where the operator is licensed AND you hold an affiliate agreement. */
@@ -102,6 +104,7 @@ export interface Casino {
   minDeposit?: string;
   wagering?: string;
   providers: string[]; // provider slugs available at the casino
+  /** Our own score out of 10; 0 = not rated yet (hidden). */
   rating: number;
   pros: string[];
   placeholder?: boolean;

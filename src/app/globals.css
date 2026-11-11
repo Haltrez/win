@@ -553,3 +553,4 @@ a.demo-facade, a.demo-facade:hover { text-decoration: none; }
 .clip figcaption { display: flex; flex-direction: column; gap: 2px; margin-top: 6px; }
 .notice + .table-wrap { margin-top: 16px; }
 @media (min-width: 640px) { .win-facts { grid-template-columns: repeat(2, 1fr); } }
+.casino-logo { display: block; height: 30px; width: auto; max-width: 150px; object-fit: contain; object-position: left; background: #10151f; border-radius: 8px; padding: 6px 10px; margin-bottom: 6px; box-sizing: content-box; }
