@@ -1,0 +1,52 @@
+{
+  "slug": "rise-of-fortuna",
+  "name": "Rise of Fortuna",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": null,
+  "mechanics": [
+    "multipliers",
+    "jackpot",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Fortuna Wheels",
+      "description": "Regular, Super and Epic wheels award multipliers or jackpots."
+    },
+    {
+      "name": "Cash Prize Bar",
+      "description": "Collects every wheel value and pays it as a multiple of the bet."
+    },
+    {
+      "name": "Three bonus games",
+      "description": "Three, four or five FS symbols unlock increasingly strong free spins."
+    }
+  ],
+  "review": "Rise of Fortuna is built around wheels. When a Fortuna symbol lands it triggers a Regular, Super or Epic Fortuna Wheel, whose arrow stops on one of 12 slices containing additive multipliers, multiplicative multipliers or jackpot prizes. Every wheel value is collected by the Cash Prize Bar and paid as a multiple of your bet.\n\nThree FS symbols give 10 free spins with more wheels, four give 10 spins where every wheel is Super or Epic, and five unlock the strongest bonus. Hacksaw doesn't publish RTP, volatility or max win outside the game. It suits players who like wheel features.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2213/{version}/index.html?language=en&channel=desktop&gameid=2213&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
+    "Hacksaw Gaming doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/rise-of-fortuna.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/rise-of-fortuna"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

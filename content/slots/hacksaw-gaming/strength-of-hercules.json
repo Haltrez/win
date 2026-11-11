@@ -1,0 +1,51 @@
+{
+  "slug": "strength-of-hercules",
+  "name": "Strength of Hercules",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": null,
+  "mechanics": [
+    "reel-modifiers",
+    "expanding-wilds",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "RotoGrid",
+      "description": "The grid rotates a quarter turn, up to three times per spin, creating new wins."
+    },
+    {
+      "name": "Connecting wilds",
+      "description": "Wilds on the same reel connect and fill every position between them."
+    },
+    {
+      "name": "Might of Hercules",
+      "description": "Turns every instance of a random low-paying symbol into wilds."
+    }
+  ],
+  "review": "Strength of Hercules uses Hacksaw's RotoGrid mechanic: each RotoGrid symbol turns the whole grid a quarter turn clockwise, which can create new wins, with up to three rotations per spin.\n\nAfter each rotation, wilds on the same reel connect and fill every position between them, so repeated rotations can spread wilds across the grid. Might of Hercules can also strike once the grid settles, turning every instance of a random low-paying symbol into wilds. Hacksaw doesn't publish RTP, volatility or max win outside the game. It suits players who like unusual grid mechanics.",
+  "demoUrl": "https://static-live.hacksawgaming.com/1697/{version}/index.html?language=en&channel=desktop&gameid=1697&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
+    "Hacksaw Gaming doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/strength-of-hercules.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/strength-of-hercules"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

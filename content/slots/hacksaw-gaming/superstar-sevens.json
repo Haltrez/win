@@ -1,0 +1,51 @@
+{
+  "slug": "superstar-sevens",
+  "name": "Superstar Sevens",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": null,
+  "mechanics": [
+    "cascades",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Cascade Counter",
+      "description": "Removed symbols build a multiplier applied to the final win."
+    },
+    {
+      "name": "Lightning symbols",
+      "description": "A Lightning symbol plus a win activates the counter; Epic Lightning adds more."
+    },
+    {
+      "name": "Three bonus games",
+      "description": "More FS symbols give free spins with more frequent Lightning."
+    }
+  ],
+  "review": "Superstar Sevens gives the classic sevens theme Hacksaw's cascade treatment. Landing a Lightning symbol together with a win activates the Cascade Counter: removed non-winning symbols turn into a multiplier, each removed symbol adds to it, and the final win is multiplied once all cascades finish. An Epic Lightning adds another multiplier.\n\nThree FS symbols give 10 free spins with more Lightning, four give 10 spins with Lightning on every spin, and five unlock the top bonus. Hacksaw doesn't publish RTP, volatility or max win outside the game. It suits players who like classic symbols with modern multipliers.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2138/{version}/index.html?language=en&channel=desktop&gameid=2138&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
+    "Hacksaw Gaming doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/superstar-sevens.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/superstar-sevens"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

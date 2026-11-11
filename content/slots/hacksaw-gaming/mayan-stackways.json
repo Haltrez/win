@@ -1,0 +1,52 @@
+{
+  "slug": "mayan-stackways",
+  "name": "Mayan Stackways",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": "medium-high",
+  "maxWin": 10000,
+  "releaseDate": null,
+  "mechanics": [
+    "ways",
+    "money-collect",
+    "free-spins"
+  ],
+  "themes": [
+    "history",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Stackways",
+      "description": "Symbols stack up to 10 high per reel, for up to 100,000 ways."
+    },
+    {
+      "name": "Stack Spins",
+      "description": "Empowered reels land a Stackways symbol on every spin of the bonus."
+    },
+    {
+      "name": "Golden Opportunity",
+      "description": "A rare Mayan Gold variant that always pays at least 500x."
+    }
+  ],
+  "review": "Mayan Stackways is a jungle-ruins slot on a 5-reel, 4-row grid using Hacksaw's Stackways mechanic. Symbols can stack up to 10 high on each reel, raising the ways to win to a maximum of 100,000. Hacksaw describes it as medium-high volatility with a 10,000x max win.\n\nIn the Stack Spins bonus, landing a special symbol empowers a reel so a Stackways symbol always lands there for the rest of the feature. The Mayan Gold bonus collects ancient coins, and its rare Golden Opportunity variant always pays at least 500x the bet. It suits players who like ways games with building reels.",
+  "demoUrl": "https://static-live.hacksawgaming.com/1275/{version}/index.html?language=en&channel=desktop&gameid=1275&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/mayan-stackways.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/mayan-stackways"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

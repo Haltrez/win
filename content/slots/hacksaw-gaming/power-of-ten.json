@@ -1,0 +1,53 @@
+{
+  "slug": "power-of-ten",
+  "name": "Power of Ten",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "mechanics": [
+    "paylines",
+    "jackpot",
+    "bonus-buy"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Power Wheels",
+      "description": "Spin to award 10x, 100x, 1,000x or the max win, adding together."
+    },
+    {
+      "name": "Five in a row",
+      "description": "Five wheels on one row raise the possible values on every wheel."
+    },
+    {
+      "name": "High-Roller FeatureSpins",
+      "description": "Only Power Arrows land, aiming at the max win."
+    }
+  ],
+  "review": "Power of Ten is a salon-themed paylines slot centred on Power Wheels and a 10,000x max win. A Power Wheel waits until line wins are paid, then spins to award 10x, 100x, 1,000x or the max win; several wheels add their values together.\n\nFive Power Wheels in a row on the same line raise every wheel's possible values to 100x, 1,000x or the max win, and a max win result ends the round immediately. The High-Roller FeatureSpins mode lands only Power Arrow symbols for a direct shot at the max win. Hacksaw doesn't publish RTP or volatility outside the game.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2234/{version}/index.html?language=en&channel=desktop&gameid=2234&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
+    "Hacksaw Gaming doesn't publish a volatility rating for this game",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
+  ],
+  "image": "/thumbs/hacksaw-gaming/power-of-ten.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/power-of-ten"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

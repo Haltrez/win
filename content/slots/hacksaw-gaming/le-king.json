@@ -1,0 +1,53 @@
+{
+  "slug": "le-king",
+  "name": "Le King",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": null,
+  "mechanics": [
+    "cluster-pays",
+    "money-collect",
+    "jackpot",
+    "free-spins"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Golden Squares",
+      "description": "Winning positions turn golden and reveal prizes when a Neon Rainbow lands."
+    },
+    {
+      "name": "Treasure Pots",
+      "description": "Pots collect and store the value of all visible coins."
+    },
+    {
+      "name": "Four jackpots",
+      "description": "Jackpot Markers award one of four jackpots and can combine."
+    }
+  ],
+  "review": "Le King is a Le series game built around Golden Squares. When a win hits, the squares behind the winning symbols turn golden; a Neon Rainbow symbol activates them to reveal Coins, Clovers, Treasure Pots or Jackpot Markers, then reactivates them to repeat the process.\n\nClovers boost nearby or all coins, and Treasure Pots store the value of all coins and other pots. Jackpot Markers each carry one of four jackpots and combine when several activate. Hacksaw doesn't publish RTP, volatility or max win outside the game, so check the demo's info screen. It suits fans of Le Bandit who want added jackpots.",
+  "demoUrl": "https://static-live.hacksawgaming.com/1787/{version}/index.html?language=en&channel=desktop&gameid=1787&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
+    "Hacksaw Gaming doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/le-king.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/le-king"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

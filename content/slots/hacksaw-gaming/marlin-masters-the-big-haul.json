@@ -1,0 +1,52 @@
+{
+  "slug": "marlin-masters-the-big-haul",
+  "name": "Marlin Masters: The Big Haul",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Paylines and LootLines",
+      "description": "Wins come from regular paylines plus Hacksaw's LootLine wins."
+    },
+    {
+      "name": "5×4 grid",
+      "description": "A classic five-reel, four-row layout."
+    },
+    {
+      "name": "10,000x max win",
+      "description": "Hacksaw's stated top prize for the game."
+    }
+  ],
+  "review": "Marlin Masters: The Big Haul is a 5-reel, 4-row fishing slot with both paylines and LootLine wins, following Big Bob and his boat Bettsy the Beaut as he chases a marlin. Hacksaw lists a 10,000x max win on the game page.\n\nThe theme is relaxed beach fishing, but the mechanics lean on collecting values across the grid in the bonus, as in most Hacksaw fishing games. Hacksaw doesn't publish the RTP or volatility for this title outside the game, so open the info screen in the demo to see them. It suits fans of Big Bass-style fishing slots who want Hacksaw's take on the theme.",
+  "demoUrl": "https://static-live.hacksawgaming.com/1811/{version}/index.html?language=en&channel=desktop&gameid=1811&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
+    "Hacksaw Gaming doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/marlin-masters-the-big-haul.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/marlin-masters-the-big-haul"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

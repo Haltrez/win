@@ -206,8 +206,9 @@ class Hacksaw:
         g['gameId'] = gid
         i = t.find(g['name'])
         g['text'] = t[max(0, i): i + 4000]
-        if g['maxWin'] is None:
-            g['skip'] = 'no official max win published'
+        # Missing figures are shown as "Not published"; only skip pages with no usable description at all.
+        if g['maxWin'] is None and g['volatility'] is None and g['rtp'] is None and len(g['text']) < 400:
+            g['skip'] = 'no official game data or description'
         return g
 
 

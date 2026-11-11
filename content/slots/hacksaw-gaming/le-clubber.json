@@ -1,0 +1,59 @@
+{
+  "slug": "le-clubber",
+  "name": "Le Clubber",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.34,
+  "rtpVariants": [
+    94.23,
+    92.17
+  ],
+  "volatility": "medium",
+  "maxWin": 10000,
+  "releaseDate": "2026-11-03",
+  "releaseDatePrecision": "day",
+  "winType": "Cluster",
+  "mechanics": [
+    "cluster-pays",
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Marked Squares",
+      "description": "Winning positions are marked and can later reveal coins and other symbols."
+    },
+    {
+      "name": "Rainbow activation",
+      "description": "A Rainbow symbol turns Marked Squares into Coins, Buckets of Gold and Clovers."
+    },
+    {
+      "name": "Building bonus",
+      "description": "In the bonus games Marked Squares accumulate, raising the value of each Rainbow."
+    }
+  ],
+  "review": "Le Clubber puts Smokey the raccoon in charge of a nightclub in Hacksaw's Le series. It is a cluster game where winning positions become Marked Squares; a Rainbow symbol activates them to reveal Coins, Buckets of Gold and Four-Leaf Clovers that boost coin values.\n\nThree or more FS symbols trigger the bonus games, where Marked Squares build up across spins and give the Rainbow more to work with. Hacksaw publishes 3/5 volatility, a 10,000x max win and RTP versions of 96.34%, 94.23% and 92.17%. It suits players who already like Le Bandit's square-and-rainbow mechanic and want it with a new theme.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2468/{version}/index.html?language=en&channel=desktop&gameid=2468&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 92.17% RTP",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/le-clubber.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/le-clubber"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

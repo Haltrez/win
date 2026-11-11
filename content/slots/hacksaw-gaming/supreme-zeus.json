@@ -1,0 +1,59 @@
+{
+  "slug": "supreme-zeus",
+  "name": "Supreme Zeus",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.39,
+  "rtpVariants": [
+    94.3,
+    92.31,
+    86.32
+  ],
+  "volatility": "high",
+  "maxWin": 12500,
+  "releaseDate": "2026-07-30",
+  "releaseDatePrecision": "day",
+  "winType": "Ways",
+  "mechanics": [
+    "ways",
+    "money-collect",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "CoinWays",
+      "description": "Gold Coins in ways wins add up to 10x each to the Coin Bar."
+    },
+    {
+      "name": "Hot 100 bonus",
+      "description": "Three Hot 100 symbols award a bonus with 100 free spins."
+    },
+    {
+      "name": "Ways to win",
+      "description": "Wins pay across ways rather than fixed lines."
+    }
+  ],
+  "review": "Supreme Zeus brings Hacksaw's Zeus back on a ways-to-win grid with its CoinWays mechanic. Gold Coin symbols add values of up to 10x to a Coin Bar when they are part of a CoinWays win.\n\nThree or more FS symbols trigger the bonus game, and landing three Hot 100 symbols opens the Hot 100 bonus with 100 free spins, far longer than a normal Hacksaw feature. Hacksaw publishes 4/5 volatility, a 12,500x max win and RTP versions from 96.39% down to 86.32%. It suits players who like long bonus rounds.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2458/{version}/index.html?language=en&channel=desktop&gameid=2458&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "High 12,500x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 86.32% RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/supreme-zeus.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/supreme-zeus"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

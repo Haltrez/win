@@ -1,0 +1,61 @@
+{
+  "slug": "le-vampire",
+  "name": "Le Vampire",
+  "provider": "hacksaw-gaming",
+  "rtp": 97.0,
+  "rtpVariants": [
+    96.0,
+    94.0,
+    92.0,
+    86.0
+  ],
+  "volatility": "medium",
+  "maxWin": 15000,
+  "releaseDate": "2026-10-01",
+  "releaseDatePrecision": "day",
+  "winType": "Cluster",
+  "mechanics": [
+    "cluster-pays",
+    "money-collect",
+    "free-spins"
+  ],
+  "themes": [
+    "horror",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Progressive Symbol Bar",
+      "description": "Filling the bar awards extra free spins and Rainbow symbols."
+    },
+    {
+      "name": "97% RTP version",
+      "description": "Hacksaw's top published RTP version is 97%, with lower versions available to casinos."
+    },
+    {
+      "name": "15,000x max win",
+      "description": "The highest ceiling in the Le series so far."
+    }
+  ],
+  "review": "Le Vampire moves Smokey into a spooky castle for a cluster game with a progressive Symbol Bar. Filling the bar awards extra free spins and Rainbow symbols, and reaching its fourth level in the bonus unlocks the biggest rewards.\n\nIt stands out for its numbers: Hacksaw lists a top RTP version of 97%, among the highest of any Hacksaw slot, alongside 96%, 94%, 92% and 86% versions casinos can choose. Volatility is 3/5 and the max win is 15,000x. Check the info screen to see which RTP a casino runs. It suits Le series fans who want a higher ceiling.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2582/{version}/index.html?language=en&channel=desktop&gameid=2582&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Very high 15,000x win ceiling",
+    "Lower volatility suits longer, steadier sessions"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 86.00% RTP",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/le-vampire.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/le-vampire"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

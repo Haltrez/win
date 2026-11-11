@@ -1,0 +1,54 @@
+{
+  "slug": "the-luxe",
+  "name": "The Luxe",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 20000,
+  "releaseDate": null,
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "jackpot",
+    "free-spins"
+  ],
+  "themes": [
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Golden Frames",
+      "description": "Frames reveal multipliers or jackpots that apply when part of a win."
+    },
+    {
+      "name": "Multipliers 2x–100x",
+      "description": "Several Multiplier Frames in one win are added together."
+    },
+    {
+      "name": "Four jackpots",
+      "description": "Jackpot Frames award one of four bet-based jackpots."
+    }
+  ],
+  "review": "The Luxe is a high-society paylines slot built around Golden Frames, with a 20,000x max win listed by Hacksaw. Frames land on positions during a spin and reveal either a multiplier or a jackpot once the grid settles, and count when their symbol is part of a winning line.\n\nMultiplier Frames range from 2x to 100x and add together when several are in one win. Jackpot Frames award one of four jackpots, starting with the 25x Mini, either in a win or when collected by a Clover Crystal. Frames clear after each spin. Hacksaw doesn't publish RTP or volatility outside the game. It suits players who like multipliers and jackpots.",
+  "demoUrl": "https://static-live.hacksawgaming.com/1897/{version}/index.html?language=en&channel=desktop&gameid=1897&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "Very high 20,000x win ceiling",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
+    "Hacksaw Gaming doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/the-luxe.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/the-luxe"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

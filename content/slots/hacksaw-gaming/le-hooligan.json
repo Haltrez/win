@@ -1,0 +1,58 @@
+{
+  "slug": "le-hooligan",
+  "name": "Le Hooligan",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.34,
+  "rtpVariants": [
+    94.23,
+    92.17
+  ],
+  "volatility": "medium",
+  "maxWin": 10000,
+  "releaseDate": "2026-06-08",
+  "releaseDatePrecision": "day",
+  "winType": "Cluster",
+  "mechanics": [
+    "cluster-pays",
+    "money-collect",
+    "free-spins"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Marked Squares",
+      "description": "Winning positions turn into squares that reveal Coins, Clovers and Buckets of Gold."
+    },
+    {
+      "name": "Three bonus games",
+      "description": "Three to five FS symbols trigger one of three bonus rounds."
+    },
+    {
+      "name": "10,000x ceiling",
+      "description": "A higher max win than its 2,500x sister game, Le Football Fan."
+    }
+  ],
+  "review": "Le Hooligan is the higher-volatility twin of Le Football Fan, with the same stadium theme and Smokey rallying the crowd. Wins are cluster-based, and winning positions become Marked Squares that can transform into Coins, Clover symbols and Buckets of Gold.\n\nThree, four or five FS symbols trigger one of three bonus games. Hacksaw rates it 3/5 volatility with a 10,000x max win, four times Le Football Fan's ceiling, and publishes RTP versions of 96.34%, 94.23% and 92.17%. It suits players who like the football theme but want a bigger top prize.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2470/{version}/index.html?language=en&channel=desktop&gameid=2470&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 92.17% RTP",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/le-hooligan.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/le-hooligan"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

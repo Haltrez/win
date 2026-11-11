@@ -1,0 +1,60 @@
+{
+  "slug": "sand-and-ashes",
+  "name": "Sand and Ashes",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.27,
+  "rtpVariants": [
+    94.21,
+    92.3,
+    86.19
+  ],
+  "volatility": "medium",
+  "maxWin": 10000,
+  "releaseDate": "2026-05-14",
+  "releaseDatePrecision": "day",
+  "winType": "Paylines",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "reel-modifiers",
+    "free-spins"
+  ],
+  "themes": [
+    "egypt"
+  ],
+  "features": [
+    {
+      "name": "Wild Scarab Multipliers",
+      "description": "Wilds with multipliers up to 999x on every payline they join."
+    },
+    {
+      "name": "Sandstorms",
+      "description": "Nudge every scarab wild on the grid to form new winning lines."
+    },
+    {
+      "name": "Bonus game",
+      "description": "Three or more FS symbols trigger free spins."
+    }
+  ],
+  "review": "Sand and Ashes is an Ancient Egypt paylines slot built around Wild Scarab Multipliers. These scarabs apply a multiplier of up to 999x to every payline win they are part of, which is where the big results come from.\n\nSandstorms nudge every Wild Scarab Multiplier on the grid, moving them into new positions and creating fresh winning lines. Three or more FS symbols trigger the bonus game. Hacksaw publishes 3/5 volatility, a 10,000x max win and RTP versions from 96.27% down to 86.19%. It suits players who like multiplier wilds over cluster cascades.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2243/{version}/index.html?language=en&channel=desktop&gameid=2243&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 86.19% RTP",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/sand-and-ashes.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/sand-and-ashes"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

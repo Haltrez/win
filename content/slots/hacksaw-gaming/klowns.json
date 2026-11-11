@@ -1,0 +1,53 @@
+{
+  "slug": "klowns",
+  "name": "Klowns",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 10000,
+  "releaseDate": null,
+  "mechanics": [
+    "scatter-pays",
+    "cascades",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Total Win Bar",
+      "description": "All wins in a round are collected, then Klown Multipliers are applied to the total."
+    },
+    {
+      "name": "Needle Boxes",
+      "description": "Clear all low- or high-paying symbols, paying a small amount for each."
+    },
+    {
+      "name": "Drop cascades",
+      "description": "Winning symbols are removed and new ones fall in."
+    }
+  ],
+  "review": "Klowns is a horror-carnival slot on a 6-reel, 5-row grid with drop cascades and all-scatter wins, hosted by Lester and Jester. Hacksaw states a 10,000x max win, reachable in every game mode.\n\nAll wins in a round are collected in a Total Win Bar, and any activated Klown Multipliers are applied to that total at the end of the spin. Needle Boxes clear symbols once the grid settles: low-symbol boxes remove every low-paying symbol and pay 0.1x the bet for each, and high-symbol boxes do the same for premiums. Hacksaw doesn't publish RTP or volatility for this game outside the game itself.",
+  "demoUrl": "https://static-live.hacksawgaming.com/1438/{version}/index.html?language=en&channel=desktop&gameid=1438&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
+    "Hacksaw Gaming doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/klowns.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/klowns"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

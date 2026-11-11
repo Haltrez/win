@@ -1,0 +1,60 @@
+{
+  "slug": "le-sortudo",
+  "name": "Le Sortudo",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.27,
+  "rtpVariants": [
+    94.29,
+    92.23,
+    86.28
+  ],
+  "volatility": "medium",
+  "maxWin": 2500,
+  "releaseDate": "2026-08-04",
+  "releaseDatePrecision": "day",
+  "winType": "Paylines",
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "jackpot",
+    "money-collect"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Coin wins",
+      "description": "Three or more Coins or Jackpot Markers pay their values after regular wins."
+    },
+    {
+      "name": "Two Hold & Win games",
+      "description": "Rainbow and Epic Rainbow symbols trigger the two Hold & Win rounds."
+    },
+    {
+      "name": "Jackpot Markers",
+      "description": "Markers can land alongside coins to add jackpot prizes."
+    }
+  ],
+  "review": "Le Sortudo sends Smokey to Brazil for a coin-and-jackpot paylines game. Three or more Coin symbols or Jackpot Markers, in any combination, pay their values after regular wins, and coin values are cash prizes paid as multiples of your bet.\n\nRainbow and Epic Rainbow symbols trigger the two Hold & Win games, where coins and jackpots are collected. Hacksaw publishes 3/5 volatility, a 2,500x max win and RTP versions from 96.27% down to 86.28%. It plays much like Le Bandit Hold & Win, and suits players who prefer hold-and-win jackpots over cluster cascades.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2613/{version}/index.html?language=en&channel=desktop&gameid=2613&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 86.28% RTP",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/le-sortudo.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/le-sortudo"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

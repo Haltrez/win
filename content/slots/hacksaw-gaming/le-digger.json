@@ -1,0 +1,54 @@
+{
+  "slug": "le-digger",
+  "name": "Le Digger",
+  "provider": "hacksaw-gaming",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": null,
+  "mechanics": [
+    "cascades",
+    "money-collect",
+    "multipliers",
+    "free-spins",
+    "gamble"
+  ],
+  "themes": [
+    "animals",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Layers and Dynamite",
+      "description": "Wins and dynamite strip layers off the grid, working down to the golden layer."
+    },
+    {
+      "name": "Golden Reveals",
+      "description": "The third layer reveals Coins, Clovers and Collectors."
+    },
+    {
+      "name": "Three bonus games",
+      "description": "FS symbols trigger bonuses, the first with a gamble option."
+    }
+  ],
+  "review": "Le Digger sends Smokey treasure-hunting through layered ground. On a win, every symbol of the winning type is removed along with one layer behind it. Dynamite thrown by Smokey removes more symbols and layers, and Wild Dynamite clears a 3×3 area.\n\nOnce the third layer is reached, Golden Reveals show Coins, Green and Gold Clovers and Collectors: Clovers boost coins and Collectors gather them. Three bonus games build on this, the first starting with three FS symbols and offering a gamble or 10 free spins with a Dynamite Collector. Hacksaw doesn't publish RTP, volatility or max win outside the game.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2229/{version}/index.html?language=en&channel=desktop&gameid=2229&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
+    "Hacksaw Gaming doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/le-digger.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/le-digger"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

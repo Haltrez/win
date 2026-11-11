@@ -1,0 +1,57 @@
+{
+  "slug": "minted-mike",
+  "name": "Minted Mike",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.31,
+  "rtpVariants": [
+    94.29,
+    92.27,
+    86.36
+  ],
+  "volatility": "medium",
+  "maxWin": 5000,
+  "releaseDate": "2026-08-27",
+  "releaseDatePrecision": "day",
+  "winType": "Paylines",
+  "mechanics": [
+    "paylines",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [],
+  "features": [
+    {
+      "name": "Hot Line Multipliers",
+      "description": "Painted lines carry multipliers up to 183x on every win they touch."
+    },
+    {
+      "name": "Upgradeable bonus",
+      "description": "Ink the City can upgrade to Tag and Dash, keeping Hot Line progress."
+    },
+    {
+      "name": "Paylines",
+      "description": "Wins pay on fixed paylines."
+    }
+  ],
+  "review": "Minted Mike is an urban street-art slot where Mike paints Hot Lines across the grid to escape the police. Hot Line Multipliers worth up to 183x can be painted on and apply to every win the Hot Lines are part of.\n\nThe bonus has two stages: the Ink the City bonus can be upgraded to Tag and Dash, and any Hot Line progression carries over when it does. Hacksaw publishes 3/5 volatility, a 5,000x max win and RTP versions from 96.31% down to 86.36%. It suits players who like multipliers that build up over a bonus.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2248/{version}/index.html?language=en&channel=desktop&gameid=2248&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "Solid 5,000x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 86.36% RTP",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/minted-mike.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/minted-mike"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

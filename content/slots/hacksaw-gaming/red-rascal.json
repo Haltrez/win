@@ -1,0 +1,60 @@
+{
+  "slug": "red-rascal",
+  "name": "Red Rascal",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.34,
+  "rtpVariants": [
+    94.29,
+    92.26,
+    86.35
+  ],
+  "volatility": "high",
+  "maxWin": 15000,
+  "releaseDate": "2026-05-21",
+  "releaseDatePrecision": "day",
+  "winType": "Paylines",
+  "mechanics": [
+    "paylines",
+    "respins",
+    "money-collect",
+    "expanding-symbols"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Rascal respins",
+      "description": "Three or more Rascals together trigger a respin where Colossal Rascals can form."
+    },
+    {
+      "name": "Pendulum",
+      "description": "Switches between Coin and Wild mode, turning Rascals into coins or wilds."
+    },
+    {
+      "name": "15,000x max win",
+      "description": "High 4/5 volatility with a 15,000x ceiling."
+    }
+  ],
+  "review": "Red Rascal is a devilish funhouse slot on paylines. When three or more Rascal symbols land together they trigger a respin where Colossal Rascals can form, and a pendulum switches between Coin and Wild mode before turning every Rascal into Coins, Colossal Coins, Wilds or Colossal Wilds.\n\nThat pendulum decides how each respin pays out, which keeps the base game unpredictable. Hacksaw publishes 4/5 volatility, a 15,000x max win and RTP versions from 96.34% down to 86.35%. It suits players who want a high-volatility game with a clear central mechanic.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2274/{version}/index.html?language=en&channel=desktop&gameid=2274&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "Very high 15,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 86.35% RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/red-rascal.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/red-rascal"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

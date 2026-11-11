@@ -1,0 +1,60 @@
+{
+  "slug": "wicked-grin",
+  "name": "Wicked Grin",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.27,
+  "rtpVariants": [
+    94.32,
+    92.28,
+    86.28
+  ],
+  "volatility": "medium",
+  "maxWin": 10000,
+  "releaseDate": "2026-10-08",
+  "releaseDatePrecision": "day",
+  "winType": "All-Scatter",
+  "mechanics": [
+    "scatter-pays",
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Wicked Grin multipliers",
+      "description": "Wicked Grin symbols can reveal up to 20x on coins."
+    },
+    {
+      "name": "Diamond Coins",
+      "description": "Diamond Coins can reveal values up to 500x."
+    },
+    {
+      "name": "Two bonus games",
+      "description": "FS and Super FS symbols trigger one of two free-spins rounds."
+    }
+  ],
+  "review": "Wicked Grin is a black-and-white, all-scatter coin game hosted by Boney Bill. Wicked Grin symbols can reveal multipliers of up to 20x that apply to coins, and Diamond Coins can reveal values of up to 500x.\n\nExpanding at least one FS or Super FS symbol triggers one of two bonus games, with the Super version offering the stronger round. Hacksaw publishes 3/5 volatility, a 10,000x max win and RTP versions from 96.27% down to 86.28%. Its striking monochrome look sets it apart, and it suits players who like coin-collecting games.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2347/{version}/index.html?language=en&channel=desktop&gameid=2347&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 86.28% RTP",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/wicked-grin.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/wicked-grin"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

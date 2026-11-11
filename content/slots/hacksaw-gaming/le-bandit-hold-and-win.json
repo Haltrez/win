@@ -1,0 +1,59 @@
+{
+  "slug": "le-bandit-hold-and-win",
+  "name": "Le Bandit Hold & Win",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.27,
+  "rtpVariants": [
+    94.29,
+    92.23,
+    86.28
+  ],
+  "volatility": "medium",
+  "maxWin": 2500,
+  "releaseDate": null,
+  "winType": "Paylines",
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "jackpot",
+    "money-collect"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Coin wins",
+      "description": "Three or more Coins or Jackpot Markers pay after regular wins."
+    },
+    {
+      "name": "Two Hold & Win games",
+      "description": "Rainbow and Epic Rainbow symbols start the Hold & Win rounds."
+    },
+    {
+      "name": "Jackpot Markers",
+      "description": "Markers add jackpot prizes to coin wins."
+    }
+  ],
+  "review": "Le Bandit Hold & Win reworks Hacksaw's best-known Le series game as a coin-and-jackpot paylines slot. Three or more Coin symbols or Jackpot Markers, in any mix, pay their values after regular wins, with coins paying as multiples of your bet.\n\nRainbow and Epic Rainbow symbols trigger two Hold & Win games where coins and jackpots stick and build. Hacksaw publishes 3/5 volatility, a 2,500x max win and RTP versions from 96.27% down to 86.28%. It is a lower-ceiling, steadier option than the original Le Bandit, suiting players who prefer hold-and-win to cluster cascades.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2465/{version}/index.html?language=en&channel=desktop&gameid=2465&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 86.28% RTP",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/le-bandit-hold-and-win.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/le-bandit-hold-%26-win"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}
