@@ -1,0 +1,52 @@
+{
+  "slug": "the-great-chicken-escape",
+  "name": "The Great Chicken Escape",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2019-07-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "20 paylines",
+      "description": "Line wins on a classic 3×5 grid."
+    },
+    {
+      "name": "Random gang features",
+      "description": "The chicken gang can trigger random symbols or expanding wilds."
+    },
+    {
+      "name": "Five-stage escape bonus",
+      "description": "Five bonus games with increasing payouts as the tunnel gets built."
+    }
+  ],
+  "review": "The Great Chicken Escape is a lighter, comic slot from 2019: a 3×5 grid with 20 paylines, following Charlie and his chicken gang as they try to break out of a farm camp. Pragmatic describes it as a story-led game rather than a high-volatility chase.\n\nDuring play the gang can trigger random symbols or expanding wilds to help form wins. The escape itself runs through five bonus games, each building a stretch of tunnel, with payouts increasing as you progress. Pragmatic lists a 96.50% RTP and doesn't publish a max win on its page. Its official description is short, so the free demo is the best way to see how the five bonus stages play out.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20chicken&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/the-great-chicken-escape.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/the-great-chicken-escape-slot/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

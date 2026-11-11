@@ -1,0 +1,53 @@
+{
+  "slug": "buffalo-king-untamed-megaways",
+  "name": "Buffalo King Untamed Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.02,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-06-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "multipliers",
+    "progressive-multiplier",
+    "free-spins"
+  ],
+  "themes": [
+    "animals",
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Mesa multiplier wilds",
+      "description": "Wilds carry a multiplier between 1x and 5x."
+    },
+    {
+      "name": "Growing wild multipliers",
+      "description": "In free spins, every winning wild raises all wild multipliers by 1x for the round."
+    },
+    {
+      "name": "Retriggers",
+      "description": "Three or more scatters during the bonus add five to 20 more free spins."
+    }
+  ],
+  "review": "Buffalo King Untamed Megaways is the latest Buffalo King game, with buffalo and other prairie animals filling Megaways reels where the number of ways to win changes every spin. The mesa wilds are the main base-game feature: each carries a multiplier between 1x and 5x.\n\nFour or more scatters award 10 to 20 free spins. During the bonus, every time a wild is part of a winning combination, all wild multipliers go up by 1x for the rest of the round, so the feature gets stronger the longer it runs. Three or more scatters retrigger it with five to 20 more spins. Pragmatic lists a 96.02% RTP. It suits players who like Megaways bonuses with multipliers that keep growing.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysbkingasc&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/buffalo-king-untamed-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/buffalo-king-untamed-megaways/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}
