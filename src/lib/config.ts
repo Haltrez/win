@@ -4,7 +4,7 @@
  * licensed partners are in place.
  */
 export const FEATURES = {
-  realMoney: process.env.NEXT_PUBLIC_REAL_MONEY === '1',
+  realMoney: process.env.NEXT_PUBLIC_REAL_MONEY !== '0', // on by default; set NEXT_PUBLIC_REAL_MONEY=0 to switch off
 } as const;
 
 export const SITE = {
