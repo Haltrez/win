@@ -95,3 +95,14 @@ The git workflow scales to a few writers. For a larger team, plug in a headless 
 | Community big-win gallery | Planned | Requires moderation, proof (screenshot + casino), and editorial framing ("wins are rare; losses aren't posted"). Avoid glorifying wins – keep RG messaging prominent |
 | Demo tournaments / leaderboards | Planned | Demo-credit only (no prizes of monetary value without legal review – prize promotions can be regulated as gambling). Needs accounts + anti-cheat |
 | Bonus comparison tables | ✅ basic | `CasinoModule` – extend with wagering/max-cashout columns |
+
+## Starz Partners (BitStarz, Cashy) – agreed setup, not live yet
+
+- Deal: 40% of net gaming revenue, monthly, no negative carryover, EUR. Promo code requested: SCATTERDROP.
+- Operator's restricted countries (never show offers): US, GR, GB, ES, FR, NL, IL, LT, SK, BE, AO, AL, IQ, JM, UG, PK, IR, PA, LB, ZW, MU, NI, YE, CF, CI, SD, LR, SY, KY, SO, CG, RU, CZ, RS, CU, PT, GE, HU, UA, EE, BG, LV, LI, PL, RO, CW, CY, BR.
+- Owner-approved allowlist for `geos` (offers shown only here):
+  `CA-AB, CA-BC, CA-MB, CA-NB, CA-NL, CA-NS, CA-NT, CA-NU, CA-PE, CA-QC, CA-SK, CA-YT` (Canada without Ontario),
+  `NZ, IE, FI, NO, AT, JP, IN, ZA, MX, AR, CL, UY, EC, CR`.
+- Deliberately left out although not on the operator's list: DE, SE, DK, IT, CH, AU, CA-ON, CO, PE (local rules against promoting casinos without a local licence).
+- Still needed from the owner before switching on: both tracking links, one logo per brand, bonus wording and terms.
+- To go live: replace the placeholder entries in `content/casinos.json`, then set `NEXT_PUBLIC_REAL_MONEY=1` in Vercel and redeploy.
