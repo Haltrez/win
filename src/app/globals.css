@@ -648,3 +648,21 @@ h1 { letter-spacing: -.03em; }
 .hero-cta .btn { flex: 1 1 auto; white-space: nowrap; }
 @media (max-width: 420px) { .hero-cta .btn-lg { padding: 12px 14px; font-size: .98rem; } }
 .side-card > p:first-child { margin-top: 0; }
+
+/* Hero buttons: two equal columns, never overflow */
+.hero-cta { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; max-width: 520px; }
+.hero-cta .btn { width: 100%; min-width: 0; padding-left: 12px; padding-right: 12px; white-space: nowrap; }
+@media (max-width: 420px) { .hero-cta .btn-lg { font-size: .95rem; min-height: 50px; padding: 12px 10px; } }
+
+/* Quick links: tidy tile grid instead of a scrolling pill strip */
+.quick, .quick { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin: 14px 0 0; padding: 0; overflow: visible; max-width: 520px; }
+.quick li { min-width: 0; }
+.quick a { display: flex; align-items: center; justify-content: center; gap: 6px; height: 44px; padding: 0 8px; border-radius: 12px; border: 1px solid var(--line2); background: var(--card); font-size: .86rem; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.quick a:hover { border-color: #ffb21a; transform: none; }
+.quick-ico { color: #ffb52e; font-size: .9rem; line-height: 1; }
+@media (max-width: 640px) { .quick { margin-right: 0; padding-right: 0; } }
+@media (min-width: 900px) { .quick { grid-template-columns: repeat(6, minmax(0, 1fr)); max-width: 900px; } }
+.logo { white-space: nowrap; }
+@media (max-width: 380px) { .logo { font-size: 1.05rem; } .quick a { font-size: .8rem; gap: 4px; padding: 0 6px; } }
+.stat-strip div { justify-content: flex-end; }
+.stat-strip dt { white-space: nowrap; }

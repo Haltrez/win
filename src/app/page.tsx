@@ -16,14 +16,13 @@ export const metadata = buildMetadata({
   path: '/',
 });
 
-const QUICK: [string, string][] = [
-  ['/best/best-slots', 'Top rated'],
-  ['/best/new-slots', 'New releases'],
-  ['/best/high-rtp-slots', 'High RTP'],
-  ['/best/highest-max-win-slots', 'Biggest max wins'],
-  ['/best/low-volatility-slots', 'Low volatility'],
-  ['/best/megaways-slots', 'Megaways'],
-  ['/biggest-slot-wins', 'Biggest wins ever'],
+const QUICK: [string, string, string][] = [
+  ['/best/best-slots', 'Top rated', '★'],
+  ['/best/new-slots', 'New', '✦'],
+  ['/best/high-rtp-slots', 'High RTP', '%'],
+  ['/best/highest-max-win-slots', 'Max wins', '⚡'],
+  ['/best/megaways-slots', 'Megaways', '▦'],
+  ['/biggest-slot-wins', 'Big wins', '🏆'],
 ];
 
 function Section({ title, href, linkText, children }: { title: string; href: string; linkText: string; children: React.ReactNode }) {
@@ -52,15 +51,15 @@ export default function Home() {
           volatility, max win and how the bonus actually works.
         </p>
         <p className="hero-cta">
-          <a className="btn btn-primary btn-lg" href="/random" rel="nofollow"><span className="demo-play" aria-hidden /> Play a random demo</a>
+          <a className="btn btn-primary btn-lg" href="/random" rel="nofollow"><span className="demo-play" aria-hidden /> Random demo</a>
           <Link className="btn btn-ghost btn-lg" href="/tools/slot-finder">Find my slot</Link>
         </p>
         <ul className="quick" aria-label="Popular lists">
-          {QUICK.map(([href, label]) => <li key={href}><Link href={href}>{label}</Link></li>)}
+          {QUICK.map(([href, label, icon]) => <li key={href}><Link href={href}><span className="quick-ico" aria-hidden>{icon}</span>{label}</Link></li>)}
         </ul>
         <dl className="stat-strip">
           <div><dt>Games</dt><dd>{slots.length.toLocaleString()}</dd></div>
-          <div><dt>Official demos</dt><dd>{slots.filter((x) => x.demoUrl).length.toLocaleString()}</dd></div>
+          <div><dt>Demos</dt><dd>{slots.filter((x) => x.demoUrl).length.toLocaleString()}</dd></div>
           <div><dt>Studios</dt><dd>{providers.length}</dd></div>
         </dl>
       </section>
