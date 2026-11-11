@@ -1,5 +1,69 @@
 [
  {
+  "slug": "bitstarz",
+  "name": "BitStarz",
+  "logo": "/casinos/bitstarz.svg",
+  "licenses": [
+   "Curaçao Gaming Authority, OGL/2024/165/0185 (Gareton B.V.)"
+  ],
+  "geos": [
+   "CA-AB",
+   "CA-BC",
+   "CA-MB",
+   "CA-NB",
+   "CA-NL",
+   "CA-NS",
+   "CA-NT",
+   "CA-NU",
+   "CA-PE",
+   "CA-QC",
+   "CA-SK",
+   "CA-YT",
+   "NZ",
+   "IE",
+   "FI",
+   "NO",
+   "AT",
+   "JP",
+   "IN",
+   "ZA",
+   "MX",
+   "AR",
+   "CL",
+   "UY",
+   "EC",
+   "CR"
+  ],
+  "links": {
+   "default": "https://bzstarz2.com/bgjlng4de"
+  },
+  "bonus": {
+   "default": "Welcome package: up to 5 BTC + 180 free spins over your first four deposits"
+  },
+  "terms": "18+. New players only. Bonuses must be wagered 40x before withdrawal. The 180 free spins are credited 20 per day after the first deposit. Free-spin games vary by country. Full bonus terms apply.",
+  "wagering": "40x",
+  "providers": [
+   "pragmatic-play",
+   "bgaming",
+   "hacksaw-gaming",
+   "nolimit-city",
+   "thunderkick",
+   "wazdan",
+   "push-gaming",
+   "play-n-go",
+   "netent",
+   "relax-gaming",
+   "big-time-gaming",
+   "blueprint-gaming"
+  ],
+  "rating": 0,
+  "pros": [
+   "Running since 2014",
+   "Carries every studio on this site",
+   "Fast crypto cashouts"
+  ]
+ },
+ {
   "slug": "7bit",
   "name": "7Bit Casino",
   "logo": "/casinos/7bit.svg",

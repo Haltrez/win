@@ -127,3 +127,12 @@ The git workflow scales to a few writers. For a larger team, plug in a headless 
 - Restricted-country list (terms, effective 15.06.2026) is identical to 7Bit's. Mirax also bars some countries from ALL promotions, including Finland, so FI is left out.
 - Shown only in: Canada without Ontario, NZ, IE, NO, AT, IN, ZA. Ireland, India and South Africa cannot get Mirax no-deposit offers (the deposit welcome package is fine).
 - Licence: the terms refer to Curaçao law but state no licence number; confirm before relying on it.
+
+### BitStarz – entry added (2026-11-11), offers still off
+- Tracking link https://bzstarz2.com/bgjlng4de (taken from the banner script the panel issues; it 302s to gotobitstarz.com with our stag). We never embed the panel's banner scripts.
+- Licence and operator from bitstarz.com/terms 1.2; 40x wagering and 180 FS schedule from bitstarz.com/bonus-terms-and-conditions.
+- Countries: the agreed Starz allowlist.
+
+### Cashy – pending
+- Tracking link https://gocashy.com/bbbnmct7k (from the banner script; 302s to cashyglobal.com with our stag).
+- Not added yet: cashy.com and cashyglobal.com refuse automated access, so the offer terms and logo must come from the owner/marketing kit. Banner offer: 100% up to $3,000.
