@@ -1,0 +1,53 @@
+{
+  "slug": "starlight-christmas",
+  "name": "Starlight Christmas",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2022-11-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Pay anywhere",
+      "description": "Clusters of 12 or more matching symbols anywhere on the grid win."
+    },
+    {
+      "name": "Multipliers to 500x",
+      "description": "Multiplier symbols can land on any spin and boost the tumble's wins."
+    },
+    {
+      "name": "Tumbles",
+      "description": "Winning symbols are removed and replaced, allowing several wins per spin."
+    }
+  ],
+  "review": "Starlight Christmas is the holiday edition of Starlight Princess, using the same characters on a 6×5 grid. Wins pay for clusters of 12 or more matching symbols anywhere, and tumbles clear winning symbols so new ones can drop in.\n\nMultipliers worth up to 500x can land on any spin and apply to the tumble sequence they appear in. Pragmatic lists a 96.50% RTP. If you like Starlight Princess or Gates of Olympus, this plays in a very similar way with a festive theme, so it is an easy pick around the holidays.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20schristmas&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/starlight-christmas.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/starlight-christmas/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

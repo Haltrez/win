@@ -1,0 +1,52 @@
+{
+  "slug": "big-bass-blast",
+  "name": "Big Bass Blast",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2026-06-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Base-game wild multipliers",
+      "description": "Fisherman wilds on reels one and five can carry up to 10x."
+    },
+    {
+      "name": "Fish up to 500x",
+      "description": "Wilds collect fish money symbols in both the base game and the bonus."
+    },
+    {
+      "name": "Hook trigger",
+      "description": "With two scatters, a hook can reel in a third to start free spins."
+    }
+  ],
+  "review": "Big Bass Blast adds an electric twist to the Big Bass formula. Fisherman wilds can appear on reels one and five with a random multiplier of up to 10x in the base game, and throughout the game wilds collect fish money symbols worth up to 500x.\n\nThree or more scatters trigger up to nine free spins, and when only two land on the electrified grid, a hook feature can reel in a third. In the bonus every seventh wild adds five spins and raises the multiplier to 2x, then 3x, then 10x. Pragmatic lists a 96.50% RTP. It suits series fans who want base-game multipliers.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10bbasblitz&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/big-bass-blast.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/big-bass-blast/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

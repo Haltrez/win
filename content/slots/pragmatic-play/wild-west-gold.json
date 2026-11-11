@@ -1,0 +1,53 @@
+{
+  "slug": "wild-west-gold",
+  "name": "Wild West Gold",
+  "provider": "pragmatic-play",
+  "rtp": 96.51,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2020-03-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "western"
+  ],
+  "features": [
+    {
+      "name": "Multiplier wilds",
+      "description": "Wilds carry 2x, 3x or 5x, added together in the same win."
+    },
+    {
+      "name": "Sticky bonus wilds",
+      "description": "In free spins every multiplier wild stays in place."
+    },
+    {
+      "name": "Retriggers",
+      "description": "Two to five scatters in the bonus add four to 20 spins."
+    }
+  ],
+  "review": "Wild West Gold is a 5×4 Western slot that has stayed popular for its sticky multiplier wilds. In the base game, wilds come with 2x, 3x or 5x multipliers, added together when more than one is part of a win.\n\nThree scatters trigger eight free spins, and two to five scatters during the round add four to 20 more. In the bonus every multiplier wild is sticky, so wilds build up across the reels for the rest of the feature. Pragmatic lists a 96.51% RTP. It suits players who like a simple bonus that can snowball.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs40wildwest&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.51% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/wild-west-gold.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/wild-west-gold-slot/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "floating-dragon-hold-and-spin",
+  "name": "Floating Dragon Hold and Spin",
+  "provider": "pragmatic-play",
+  "rtp": 96.71,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2021-03-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "hold-and-win",
+    "respins",
+    "money-collect",
+    "free-spins"
+  ],
+  "themes": [
+    "asian"
+  ],
+  "features": [
+    {
+      "name": "Hold & Spin",
+      "description": "Three middle-reel money symbols start respins where each new one pays all values."
+    },
+    {
+      "name": "Diamonds",
+      "description": "Diamond symbols worth 100x to 4,993x can land in the respin round."
+    },
+    {
+      "name": "Fish collect free spins",
+      "description": "Wild collectors pay fish money symbols worth up to 500x."
+    }
+  ],
+  "review": "Floating Dragon Hold and Spin combines two bonuses. Three money symbols worth 1x–20x on the middle reel start the Hold & Spin round with three respins, where all other symbols become money symbols; each new one pays all visible values and resets the respins to three. Diamonds worth 100x to 4,993x can also appear.\n\nThree, four or five scatters award 10, 15 or 20 free spins, where wild collect symbols pay fish money symbols worth up to 500x, and every fourth wild adds 10 spins. Pragmatic lists a 5,000x maximum and a 96.71% RTP. It suits players who like having two routes to a big win.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10floatdrg&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.71% RTP",
+    "Solid 5,000x win ceiling",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/floating-dragon-hold-and-spin.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/floating-dragon-hold-and-spin/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

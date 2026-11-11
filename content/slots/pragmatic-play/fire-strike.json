@@ -1,0 +1,52 @@
+{
+  "slug": "fire-strike",
+  "name": "Fire Strike",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2019-09-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "jackpot"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "10 paylines",
+      "description": "A classic 3×5 layout with ten fixed lines."
+    },
+    {
+      "name": "Fire Strike bonus",
+      "description": "Six or more Fire Strike symbols anywhere pay a direct bonus."
+    },
+    {
+      "name": "Full-screen jackpot",
+      "description": "15 wild Fire Strike symbols award a jackpot of up to 25,000x."
+    }
+  ],
+  "review": "Fire Strike is a classic-style 3×5 slot with 10 paylines and a modern twist. Alongside regular line wins, Fire Strike symbols pay direct bonuses whenever six or more land anywhere on the reels, so the game can pay without lines.\n\nThe top prize is a jackpot of up to 25,000x the bet for filling the screen with 15 wild Fire Strike symbols. There are no free spins or complicated modifiers. Pragmatic lists a 96.50% RTP. It suits players who like old-school fruit-machine style games with one big target.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10firestrike&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/fire-strike.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/fire-strike-slot/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "gates-of-olympus-2500",
+  "name": "Gates of Olympus 2500",
+  "provider": "pragmatic-play",
+  "rtp": 96.51,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2026-09-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Multipliers to 2,500x",
+      "description": "Multiplier symbols can land on any tumble, and all of them on a spin are added together."
+    },
+    {
+      "name": "Free-spins wheel",
+      "description": "A wheel spin before the bonus decides which free-spins mode is played."
+    },
+    {
+      "name": "Retriggers",
+      "description": "Three or more scatters during the bonus add five more free spins."
+    }
+  ],
+  "review": "Gates of Olympus 2500 pushes the Zeus formula further, with multiplier symbols up to 2,500x and a choice of free-spins modes decided by a wheel. Eight to 12 or more matching symbols anywhere on the 6×5 grid win and start a tumble; all multipliers landing on the same spin are added together and applied to the total.\n\nFour or more scatters award 15 free spins, and three more add five. Before the round starts a wheel picks the mode, including one where multipliers on winning spins build a running total. Pragmatic lists a 96.51% RTP. It suits players who know the original and want bigger multipliers.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20olympmmd&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.51% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/gates-of-olympus-2500.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/gates-of-olympus-2500/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

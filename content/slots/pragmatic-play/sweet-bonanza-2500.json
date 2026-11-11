@@ -1,0 +1,54 @@
+{
+  "slug": "sweet-bonanza-2500",
+  "name": "Sweet Bonanza 2500",
+  "provider": "pragmatic-play",
+  "rtp": 96.52,
+  "volatility": null,
+  "maxWin": 25000,
+  "releaseDate": "2026-04-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "Pay anywhere",
+      "description": "Eight or more matching symbols anywhere on the grid win, with tumbles after each win."
+    },
+    {
+      "name": "Bombs up to 2,500x",
+      "description": "In free spins, candy bomb multipliers can land with values up to 2,500x."
+    },
+    {
+      "name": "Retriggers",
+      "description": "Three or more lollipops during the bonus award five extra free spins."
+    }
+  ],
+  "review": "Sweet Bonanza 2500 is the latest entry in Pragmatic's best-known candy series. Eight to 12 or more matching treats anywhere on the 6×5 grid pay instantly, and winning symbols tumble away for new ones.\n\nFour or more lollipop scatters trigger 10 free spins, where candy bomb multipliers now reach 2,500x, and three more scatters add five spins. Pragmatic lists wins of up to 25,000x and a 96.52% RTP. Compared with the original, the base game is the same; the difference is the much bigger bomb values in the bonus. It suits players who enjoy the original and want more upside from the feature.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20swbon2500&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.52% RTP",
+    "Very high 25,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/sweet-bonanza-2500.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/sweet-bonanza-2500/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

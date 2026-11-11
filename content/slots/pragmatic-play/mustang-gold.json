@@ -1,0 +1,54 @@
+{
+  "slug": "mustang-gold",
+  "name": "Mustang Gold",
+  "provider": "pragmatic-play",
+  "rtp": 96.53,
+  "volatility": null,
+  "maxWin": 12000,
+  "releaseDate": "2018-12-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "money-collect",
+    "jackpot",
+    "free-spins"
+  ],
+  "themes": [
+    "western",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Collect on reel five",
+      "description": "A collect symbol pays every money symbol on reels one to four."
+    },
+    {
+      "name": "Jackpot Reveal",
+      "description": "Match three symbols to win a 50x, 100x, 200x or 1,000x jackpot."
+    },
+    {
+      "name": "Free spins",
+      "description": "Eight free spins with more money and collect symbols, endlessly retriggerable."
+    }
+  ],
+  "review": "Mustang Gold is a Wild West money-collect slot with a 12,000x maximum win. Money symbols on reels one to four carry 1x–35x, and a collect symbol landing on reel five at the same time pays all of them.\n\nCollecting a money symbol with the jackpot value starts the Jackpot Reveal, where matching three symbols wins a 50x, 100x, 200x or 1,000x jackpot. Three scatters award eight free spins with more money and collect symbols, retriggered endlessly by three more scatters. Pragmatic lists a 96.53% RTP. It suits players who like straightforward collect games with jackpots.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs25mustang&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.53% RTP",
+    "High 12,000x win ceiling",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/mustang-gold.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/mustang-gold-slot/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

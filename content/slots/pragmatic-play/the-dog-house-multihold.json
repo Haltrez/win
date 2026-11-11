@@ -1,0 +1,53 @@
+{
+  "slug": "the-dog-house-multihold",
+  "name": "The Dog House Multihold",
+  "provider": "pragmatic-play",
+  "rtp": 96.06,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2023-02-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "sticky-wilds",
+    "multipliers",
+    "free-spins",
+    "grid-expansion"
+  ],
+  "themes": [
+    "dogs",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Multiplier wilds",
+      "description": "Wilds carry 2x or 3x and their multipliers add together in a win."
+    },
+    {
+      "name": "Up to four grids",
+      "description": "Scatters during the bonus unlock up to four sets of reels with extra spins."
+    },
+    {
+      "name": "Copied sticky wilds",
+      "description": "Wilds on the latest grid copy to newly unlocked grids and stay sticky."
+    }
+  ],
+  "review": "The Dog House Multihold puts the dogs on a 5×3 grid where wilds carry a 2x or 3x multiplier, added together when several are in one win.\n\nThree bonus symbols trigger seven free spins on one grid. Three scatters unlock a second grid, then a third and a fourth, each adding one to three spins. Wilds that land on the newest grid copy across to the newly unlocked ones and stay sticky for the rest of the round, so a strong first grid can fill all four. Pragmatic lists a 96.06% RTP. It suits players who like bonuses that grow as they go.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20doghousemh&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/the-dog-house-multihold.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/the-dog-house-multihold/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

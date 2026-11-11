@@ -1,0 +1,52 @@
+{
+  "slug": "rise-of-giza-powernudge",
+  "name": "Rise of Giza PowerNudge",
+  "provider": "pragmatic-play",
+  "rtp": 96.49,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2021-07-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "progressive-multiplier",
+    "free-spins",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "egypt"
+  ],
+  "features": [
+    {
+      "name": "PowerNudge",
+      "description": "Winning reels nudge down to reveal new symbols that can win again."
+    },
+    {
+      "name": "Scarab scatters",
+      "description": "Collecting three scarab overlays triggers the free spins."
+    },
+    {
+      "name": "Progressive multiplier",
+      "description": "In free spins the multiplier rises by 1x with each nudge and each spin."
+    }
+  ],
+  "review": "Rise of Giza PowerNudge is a 10-payline Egyptian slot built on Pragmatic's PowerNudge mechanic, where winning reels nudge down to give the next symbols a chance to win too.\n\nThe scarab lands as a scatter overlay; collecting three triggers the free spins. In the bonus a progressive multiplier starts and increases by 1x with every nudge and every following free spin, so long sequences get steadily more valuable. Pragmatic lists a 96.49% RTP. It suits players who like simple line slots with one feature that keeps building.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10nudgeit&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/rise-of-giza-powernudge.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/rise-of-giza-powernudge/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

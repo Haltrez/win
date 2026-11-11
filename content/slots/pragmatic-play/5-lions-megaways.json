@@ -1,0 +1,53 @@
+{
+  "slug": "5-lions-megaways",
+  "name": "5 Lions Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2021-06-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "asian",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Megaways reels",
+      "description": "Reel heights change each spin, so the ways to win vary."
+    },
+    {
+      "name": "Seven bonus options",
+      "description": "Choose between more free spins or bigger wild multipliers when the bonus starts."
+    },
+    {
+      "name": "Wilds up to 40x",
+      "description": "Multiplier wilds in the bonus can be worth up to 40x."
+    }
+  ],
+  "review": "5 Lions Megaways is the Megaways version of Pragmatic's Asian-themed lion slot. The number of symbols on each reel changes every spin, which changes how many ways there are to win.\n\nThe bonus is the main event. Three or more bonus symbols anywhere trigger it, and you then pick one of seven free-spins options, trading the number of spins against the size of the wild multipliers: up to 25 free spins, or wilds worth up to 40x. Published RTP is 96.50%. That choice suits players who like deciding between a steadier bonus and a riskier one.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswayslions&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/5-lions-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/5-lions-megaways/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

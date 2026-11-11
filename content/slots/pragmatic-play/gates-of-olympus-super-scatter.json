@@ -1,0 +1,54 @@
+{
+  "slug": "gates-of-olympus-super-scatter",
+  "name": "Gates of Olympus Super Scatter",
+  "provider": "pragmatic-play",
+  "rtp": null,
+  "volatility": null,
+  "maxWin": 50000,
+  "releaseDate": "2025-03-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Pay anywhere with tumbles",
+      "description": "Eight to 30 matching symbols anywhere win, and winning symbols are replaced by new ones."
+    },
+    {
+      "name": "Super Scatters",
+      "description": "One to four Super Scatters in the trigger pay 100x, 500x, 5,000x or the 50,000x maximum instantly."
+    },
+    {
+      "name": "Running multiplier free spins",
+      "description": "In 15 free spins every multiplier on a winning spin adds to a total that stays for the round."
+    }
+  ],
+  "review": "Gates of Olympus Super Scatter is a special edition of the classic pay-anywhere slot. Eight to 30 matching symbols anywhere on the grid win, wins tumble away, and Zeus's multiplier orbs worth up to 500x can land on any spin, with several orbs added together.\n\nFour or more scatters start 15 free spins where every multiplier on a winning spin joins a running total for the rest of the round. The new Super Scatter changes the trigger: one in the triggering spin pays 100x instantly, two pay 500x, three 5,000x and four the 50,000x maximum. It suits fans of the original who want a bigger ceiling.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20olympgold&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Very high 50,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish the RTP outside the game – check the info screen",
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/gates-of-olympus-super-scatter.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/gates-of-olympus-super-scatter/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

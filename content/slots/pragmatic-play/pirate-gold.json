@@ -1,0 +1,55 @@
+{
+  "slug": "pirate-gold",
+  "name": "Pirate Gold",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2019-03-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "free-spins"
+  ],
+  "themes": [
+    "pirates"
+  ],
+  "features": [
+    {
+      "name": "40 paylines",
+      "description": "Line wins on a 5×4 grid with 40 fixed lines."
+    },
+    {
+      "name": "Money bag respins",
+      "description": "Eight money bags start a respin round with treasures, jackpots and multipliers."
+    },
+    {
+      "name": "Wild crew free spins",
+      "description": "In free spins the pirate crew symbols turn wild for stacked wins."
+    }
+  ],
+  "review": "Pirate Gold is a 5×4 pirate slot with 40 paylines and two features. Landing eight money bags starts the Respin Round, where money bags can carry treasure values, jackpots and multipliers, and the round can be retriggered.\n\nIn the free spins feature the pirate crew symbols become wild, which can create big, stacked wins across the 40 lines. Pragmatic lists a 96.50% RTP. It is one of the studio's older games but still widely played, and suits players who like a respin bonus alongside classic line wins.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs40pirate&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/pirate-gold.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/pirate-gold-slot/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

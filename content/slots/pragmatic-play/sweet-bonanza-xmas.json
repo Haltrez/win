@@ -1,0 +1,52 @@
+{
+  "slug": "sweet-bonanza-xmas",
+  "name": "Sweet Bonanza Xmas",
+  "provider": "pragmatic-play",
+  "rtp": 96.48,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2019-11-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "Pay anywhere",
+      "description": "Matching symbols anywhere on the grid win, with tumbles after each win."
+    },
+    {
+      "name": "Bombs up to 100x",
+      "description": "Multiplier bombs in free spins can be worth up to 100x."
+    },
+    {
+      "name": "Combined multipliers",
+      "description": "All bombs in a tumble sequence are added together and applied at the end."
+    }
+  ],
+  "review": "Sweet Bonanza Xmas is the festive version of Sweet Bonanza, with the same pay-anywhere tumble game given a frozen, Christmas look. Matching candies anywhere on the grid pay and tumble away for new symbols.\n\nFour or more scatters trigger 10 free spins, where multiplier bombs worth up to 100x can land. Every multiplier that lands during a tumble sequence stays on the grid until it ends, and their combined value is then applied to the win. Pragmatic lists a 96.48% RTP. It plays the same as the original, so it suits anyone who likes Sweet Bonanza and wants the holiday theme.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20sbxmas&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/sweet-bonanza-xmas.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/sweet-bonanza-xmas-slot/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

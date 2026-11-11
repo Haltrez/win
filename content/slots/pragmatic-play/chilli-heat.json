@@ -1,0 +1,54 @@
+{
+  "slug": "chilli-heat",
+  "name": "Chilli Heat",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2018-01-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "free-spins"
+  ],
+  "themes": [
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Money respins",
+      "description": "Six money symbols start respins where each new one resets the count."
+    },
+    {
+      "name": "Grande jackpot",
+      "description": "Filling the grid with money symbols awards the 1,000x Grande jackpot."
+    },
+    {
+      "name": "Premium free spins",
+      "description": "Eight free spins with only high-paying symbols, retriggered by three scatters."
+    }
+  ],
+  "review": "Chilli Heat is a Mexican fiesta slot on a 5×3 grid built around a money-symbol respin bonus. Money symbols carry values from 1x to 100x or a Mini or Major jackpot, and six or more trigger three respins.\n\nDuring the respins only sticky money symbols land and each one resets the count to three. When respins run out, every value on screen is paid; filling the whole grid awards the Grande jackpot worth 1,000x. Three scatters give eight free spins with only high-paying symbols, retriggered endlessly by three more. Published RTP is 96.50%. It suits hold-and-win fans.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs25chilli&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/chilli-heat.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/chilli-heat-slot/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

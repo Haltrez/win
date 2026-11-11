@@ -1,0 +1,53 @@
+{
+  "slug": "big-bass-bonanza-1000",
+  "name": "Big Bass Bonanza 1000",
+  "provider": "pragmatic-play",
+  "rtp": 96.51,
+  "volatility": null,
+  "maxWin": 20000,
+  "releaseDate": "2025-03-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "money-collect",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Fish up to 1,000x",
+      "description": "Fisherman wilds collect all money symbols on screen during free spins."
+    },
+    {
+      "name": "Reel-in trigger",
+      "description": "When two scatters land, a third can be added to start the bonus."
+    },
+    {
+      "name": "Multiplier retriggers",
+      "description": "Every fourth wild adds 10 spins and a 2x, 3x, then 10x multiplier."
+    }
+  ],
+  "review": "Big Bass Bonanza 1000 is the high-ceiling version of the slot that started the Big Bass series, with wins of up to 20,000x. Three to five scatters award 10, 15 or 20 free spins, and when only two land, a third can be reeled in to trigger the round anyway.\n\nDuring free spins, the fisherman wild collects every visible fish money symbol, now worth up to 1,000x. Every fourth wild adds 10 more spins and lifts the multiplier to 2x, 3x and finally 10x. Pragmatic lists a 96.51% RTP. It plays exactly like the original, with much bigger fish.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10bbbnz1000&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.51% RTP",
+    "Very high 20,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/big-bass-bonanza-1000.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/big-bass-bonanza-1000/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

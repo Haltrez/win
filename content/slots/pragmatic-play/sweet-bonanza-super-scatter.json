@@ -1,0 +1,54 @@
+{
+  "slug": "sweet-bonanza-super-scatter",
+  "name": "Sweet Bonanza Super Scatter",
+  "provider": "pragmatic-play",
+  "rtp": 96.51,
+  "volatility": null,
+  "maxWin": 50000,
+  "releaseDate": "2025-07-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "pay-anywhere",
+    "tumble",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "Pay anywhere",
+      "description": "Eight or more matching candies anywhere on the 6×5 grid pay, with tumbles after each win."
+    },
+    {
+      "name": "Super Scatters",
+      "description": "Super Scatters in the trigger pay 100x, 500x, 5,000x or 50,000x depending on how many land."
+    },
+    {
+      "name": "Sticky bomb multipliers",
+      "description": "In free spins, multipliers up to 100x stay on the grid until the feature ends."
+    }
+  ],
+  "review": "Sweet Bonanza Super Scatter keeps the familiar 6×5 candy grid: eight to 12 or more matching symbols anywhere pay up to 50x, and four to six scatters pay 3x–100x while triggering 10 free spins.\n\nThe Super Scatter is the new part. One in the triggering spin awards 100x instantly, two award 500x, three 5,000x, and four the 50,000x maximum. During free spins, multiplier bombs worth up to 100x stay on the grid until the end of the feature and are added together at the end of each tumble. Pragmatic lists a 96.51% RTP. It suits Sweet Bonanza fans chasing a higher top prize.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20swbonsup&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.51% RTP",
+    "Very high 50,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/sweet-bonanza-super-scatter.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/sweet-bonanza-super-scatter/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

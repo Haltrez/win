@@ -1,0 +1,53 @@
+{
+  "slug": "big-bass-bonanza-megaways",
+  "name": "Big Bass Bonanza Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.7,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2021-11-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "money-collect",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Megaways reels",
+      "description": "Reel heights change every spin, changing the number of ways to win."
+    },
+    {
+      "name": "Money fish to 4,000x",
+      "description": "Fishermen collect all money symbols that land alongside them."
+    },
+    {
+      "name": "Up to 25 free spins",
+      "description": "Three to six scatters award 10 to 25 spins, with multiplier retriggers."
+    }
+  ],
+  "review": "Big Bass Bonanza Megaways puts the fishing formula on Megaways reels, so the number of ways to win changes on every spin. The bonus is where it pays: three, four, five or six scatters award 10, 15, 20 or 25 free spins.\n\nDuring free spins, fisherman symbols collect the values of all money symbols that land with them, worth up to 4,000x each. Every fourth fisherman adds 10 more spins and a win multiplier of 2x, then 3x, then 10x. Pragmatic lists a 96.70% RTP. It suits Big Bass fans who want more ways and bigger fish values.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysbbb&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.70% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/big-bass-bonanza-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/big-bass-bonanza-megaways/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

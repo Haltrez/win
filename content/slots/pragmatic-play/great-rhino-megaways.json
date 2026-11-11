@@ -1,0 +1,54 @@
+{
+  "slug": "great-rhino-megaways",
+  "name": "Great Rhino Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 20000,
+  "releaseDate": "2020-04-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "tumble",
+    "progressive-multiplier",
+    "free-spins"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "200,000+ ways",
+      "description": "Megaways reels with tumbles create over 200,000 ways to win."
+    },
+    {
+      "name": "Pick your bonus",
+      "description": "Choose between 15 and 23 free spins with multipliers up to 10x."
+    },
+    {
+      "name": "Climbing multiplier",
+      "description": "Each tumble win in the bonus raises the multiplier by 1x."
+    }
+  ],
+  "review": "Great Rhino Megaways combines tumbling reels with more than 200,000 ways to win and an African wildlife theme. Pragmatic lists a maximum win of 20,000x the bet and a 96.50% RTP.\n\nFour to six scatters trigger the bonus, where you choose between more free spins and higher starting multipliers: 15 to 23 spins with multipliers up to 10x. Every tumble win during the feature raises the multiplier by 1x, and three or more scatters landing together add five more spins, with no limit. It suits players who like Megaways bonuses where the multiplier keeps climbing.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysrhino&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Very high 20,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/great-rhino-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/great-rhino-megaways-slot/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

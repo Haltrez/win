@@ -1,0 +1,52 @@
+{
+  "slug": "madame-destiny-megaways",
+  "name": "Madame Destiny Megaways",
+  "provider": "pragmatic-play",
+  "rtp": 96.56,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2021-01-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "megaways",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Megaways reels",
+      "description": "The number of symbols per reel changes each spin, changing the ways to win."
+    },
+    {
+      "name": "2x wild",
+      "description": "Madame Destiny substitutes for symbols and doubles any win she is part of."
+    },
+    {
+      "name": "Wheel of fate",
+      "description": "A wheel decides up to 12 free spins and a multiplier of up to 25x."
+    }
+  ],
+  "review": "Madame Destiny Megaways turns Pragmatic's fortune-teller slot into a Megaways game, with a changing number of ways to win on every spin. Black cats, candles and tarot cards fill the reels, and Madame Destiny is the wild, doubling any win she is part of.\n\nThree to six scatters pay 5x to 100x the stake and start the free spins, where a wheel spin decides the number of spins, up to 12, and a win multiplier of up to 25x. Published RTP is 96.56%. The wheel gives every bonus a different shape, which suits players who like variety in their features.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vswaysmadame&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.56% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/madame-destiny-megaways.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/madame-destiny-megaways/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

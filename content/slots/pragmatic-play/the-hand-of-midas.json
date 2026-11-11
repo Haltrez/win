@@ -1,0 +1,53 @@
+{
+  "slug": "the-hand-of-midas",
+  "name": "The Hand of Midas",
+  "provider": "pragmatic-play",
+  "rtp": 96.54,
+  "volatility": null,
+  "maxWin": 5000,
+  "releaseDate": "2021-02-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "sticky-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Multiplier wilds",
+      "description": "Each base-game wild adds a 1x, 2x or 3x multiplier to the total win."
+    },
+    {
+      "name": "Minimum win bonus",
+      "description": "The bonus pays at least 10x, 20x or 30x depending on scatters."
+    },
+    {
+      "name": "Sticky wilds",
+      "description": "Wilds stay in place for the whole free-spins round."
+    }
+  ],
+  "review": "The Hand of Midas is a Greek-myth slot with a 5,000x maximum win. Every wild landing in the base game adds a random 1x, 2x or 3x multiplier to the spin's total win, and several wilds stack their multipliers.\n\nThree, four or five scatters trigger the bonus with a minimum win of 10x, 20x or 30x. Each scatter spins a mini reel worth one to three free spins, so five scatters can give up to 45, and wilds stay sticky throughout. If the minimum isn't reached by the end, an extra mini reel is awarded per triggering scatter. Pragmatic lists a 96.54% RTP.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20midas&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.54% RTP",
+    "Solid 5,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/the-hand-of-midas.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/the-hand-of-midas/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

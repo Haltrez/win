@@ -1,0 +1,53 @@
+{
+  "slug": "fruit-party-2",
+  "name": "Fruit Party 2",
+  "provider": "pragmatic-play",
+  "rtp": 96.53,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2021-07-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "cluster-pays",
+    "tumble",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fruit"
+  ],
+  "features": [
+    {
+      "name": "Multiplier wilds",
+      "description": "Winning clusters can leave a 2x wild that doubles on later tumbles, up to 256x."
+    },
+    {
+      "name": "Bigger bonus wilds",
+      "description": "In free spins, wild multipliers start at 3x and can reach 729x."
+    },
+    {
+      "name": "10–25 free spins",
+      "description": "Three to seven scatters set the number of spins, with five more on a retrigger."
+    }
+  ],
+  "review": "Fruit Party 2 is a cluster-pays fruit slot where every winning cluster can leave a wild behind. That wild comes with a 2x multiplier and, on later tumbles, can reappear and double its value up to 256x. Several wilds in one cluster add their multipliers together.\n\nThree to seven scatters start 10 to 25 free spins, where random wild multipliers begin at 3x and can climb to 729x, and three or more scatters add five spins. Pragmatic lists a 96.53% RTP. It suits players who like bright, fast cluster games with multipliers that keep building.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20fparty2&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.53% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/fruit-party-2.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/fruit-party-2/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

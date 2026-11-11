@@ -1,0 +1,52 @@
+{
+  "slug": "big-bass-splash-1000",
+  "name": "Big Bass Splash 1000",
+  "provider": "pragmatic-play",
+  "rtp": 96.52,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2025-11-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "money-collect",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Pre-bonus modifiers",
+      "description": "A fishing animation can unlock up to five modifiers before free spins begin."
+    },
+    {
+      "name": "Fish up to 1,000x",
+      "description": "Fisherman wilds collect all money symbols on screen, worth up to 1,000x each."
+    },
+    {
+      "name": "Multiplier retriggers",
+      "description": "Every fourth wild adds 10 spins and a 2x, 3x and finally 10x multiplier."
+    }
+  ],
+  "review": "Big Bass Splash 1000 is a supercharged entry in Pragmatic's fishing series. Three to five scatters trigger 10 to 20 free spins, and before they start a fishing animation can unlock up to five modifiers: more money symbols, special symbols, extra spins, or starting the round at level two.\n\nIn the bonus, fisherman wilds collect every fish money symbol on screen, with values up to 1,000x. Every fourth wild adds 10 spins and raises the win multiplier to 2x, then 3x, then 10x. Published RTP is 96.52%. It suits players who know the Big Bass formula and want bigger fish values.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10bbsplashx&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.52% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/big-bass-splash-1000.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/big-bass-splash-1000/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

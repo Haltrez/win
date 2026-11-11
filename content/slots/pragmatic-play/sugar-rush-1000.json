@@ -1,0 +1,52 @@
+{
+  "slug": "sugar-rush-1000",
+  "name": "Sugar Rush 1000",
+  "provider": "pragmatic-play",
+  "rtp": 96.0,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2024-03-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "cluster-pays",
+    "tumble",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "Cluster pays on 7×7",
+      "description": "Groups of five or more adjacent matching symbols win, then tumble away for new symbols."
+    },
+    {
+      "name": "Spot multipliers to 1,024x",
+      "description": "Repeat explosions on the same square add a multiplier that doubles each time, up to 1,024x."
+    },
+    {
+      "name": "Free spins",
+      "description": "Scatters trigger free spins where marked spots and their multipliers carry through the round."
+    }
+  ],
+  "review": "Sugar Rush 1000 takes the original cluster-pays candy slot to a 7×7 grid where five or more touching symbols win. Every win tumbles away and new symbols drop in, so a single spin can chain several payouts.\n\nThe key mechanic is the spot multiplier. Each exploding winning symbol marks its square; a second explosion there adds a 2x multiplier, which then doubles with every further hit, up to 1,024x. Multipliers under a winning cluster are applied to it. Pragmatic lists the RTP at 96.00%. It suits players who enjoy watching a grid build towards a big tumble, and who accept long quiet stretches in between.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20sugarrushx&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/sugar-rush-1000.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/sugar-rush-1000/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

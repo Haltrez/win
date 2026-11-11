@@ -1,0 +1,54 @@
+{
+  "slug": "the-big-dog-house",
+  "name": "The Big Dog House",
+  "provider": "pragmatic-play",
+  "rtp": 96.53,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2026-05-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "expanding-wilds",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "dogs",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Supersized wilds",
+      "description": "Wilds can land as 1×1, expanded 1×3 or colossal 3×3, each with 2x or 3x."
+    },
+    {
+      "name": "Mini-reel spin count",
+      "description": "Nine mini reels decide up to 27 free spins before the bonus starts."
+    },
+    {
+      "name": "Ghost wilds",
+      "description": "Ghost wilds substitute and can remove random sticky wilds from the grid."
+    }
+  ],
+  "review": "The Big Dog House is the newest Dog House game, with wilds that can land as a normal symbol, an expanded 1×3 wild or a 3×3 colossal wild. All wilds carry a 2x or 3x multiplier, and multipliers combine for bigger payouts.\n\nThree paw scatters trigger the bonus: nine mini reels spin first to award up to 27 free spins. Wild multipliers are sticky during the feature, and ghost wilds worth up to 3x can land, substituting for symbols but also removing random sticky wilds before the next spin. Pragmatic lists a 96.53% RTP. It suits fans of the series who want bigger wild shapes.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20bgdoghouse&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.53% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/the-big-dog-house.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/the-big-dog-house/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}

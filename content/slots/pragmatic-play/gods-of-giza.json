@@ -1,0 +1,52 @@
+{
+  "slug": "gods-of-giza",
+  "name": "Gods of Giza",
+  "provider": "pragmatic-play",
+  "rtp": 96.01,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2023-03-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "cluster-pays",
+    "cascades",
+    "free-spins"
+  ],
+  "themes": [
+    "egypt",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Clusters of three",
+      "description": "Three or more adjacent matching symbols win on the 5×5 grid."
+    },
+    {
+      "name": "Countdown wilds",
+      "description": "Each win creates a wild, some with a countdown before they leave the grid."
+    },
+    {
+      "name": "Up to 120 free spins",
+      "description": "Four or more scatters award 15 spins, with more scatters adding more."
+    }
+  ],
+  "review": "Gods of Giza is an Egyptian cluster slot on a 5×5 grid, where three or more touching symbols form a win. Winning symbols cascade away, and every win also creates a wild, so later wins become easier within the same sequence.\n\nSome wilds carry a countdown that drops by one with each win they are part of before they disappear. Four or more scatters award 15 free spins, and more scatters unlock more, up to 120 spins in total. Pragmatic lists a 96.01% RTP. It suits players who like cascading cluster games with long bonus rounds.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10gizagods&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/gods-of-giza.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/gods-of-giza/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "addedAt": "2026-11-11",
+  "author": "editorial-team"
+}
