@@ -19,6 +19,7 @@ export const website = () => ({
   '@type': 'WebSite',
   '@id': `${SITE.url}/#website`,
   name: SITE.name,
+  alternateName: [SITE.name.replace(/\s+/g, ''), new URL(SITE.url).hostname.replace(/^www\./, '')],
   url: SITE.url,
   publisher: { '@id': `${SITE.url}/#organization` },
   potentialAction: { '@type': 'SearchAction', target: `${SITE.url}/slots?q={search_term_string}`, 'query-input': 'required name=search_term_string' },

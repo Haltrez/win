@@ -60,7 +60,7 @@ export function Footer() {
             </ul>
           </div>
         </div>
-        <p className="legal">
+        <p className="legal" data-nosnippet="">
           {SITE.name} is an independent information site. We do not operate gambling services and you cannot gamble for real money on this
           site. Demos use play money only.{FEATURES.realMoney ? ' Some links are affiliate links: we may earn a commission if you sign up with a casino, at no extra cost to you – this never affects our review scores.' : ''} Online gambling is restricted or illegal in some jurisdictions; check
           your local laws. You must be {RG.minAge}+ (or the legal age in your country, if higher) to gamble.
