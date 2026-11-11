@@ -127,6 +127,8 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
         </aside>
       </div>
 
+      <CasinoModule casinos={casinos} title="Ready to play for real?" context={`slot:${s.slug}`} slotName={s.name} />
+
       <div className="section-head"><h2>Play next: slots like {s.name}</h2><Link href={`/providers/${p.slug}`}>All {p.name} slots →</Link></div>
       <SlotRail slots={related} label={`Slots like ${s.name}`} />
 
@@ -191,7 +193,6 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
         </div>
       </section>
 
-      <CasinoModule casinos={casinos} title={`Best casinos to play ${s.name}`} context={`slot:${s.slug}`} slotName={s.name} />
 
 
       <h2>Explore more</h2>

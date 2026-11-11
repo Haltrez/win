@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { FEATURES, RG, SITE } from '@/lib/config';
-import { getProviders, getSlotsByProvider } from '@/lib/data';
+import { getCasinos, getProviders, getSlotsByProvider } from '@/lib/data';
 import { getCategory } from '@/lib/categories';
 
 export function Footer() {
@@ -60,6 +60,11 @@ export function Footer() {
             </ul>
           </div>
         </div>
+        {FEATURES.realMoney ? (
+          <p className="legal partners-line">
+            Casino partners: {getCasinos().map((c) => c.name).join(' · ')}. Offers are shown only in countries each casino accepts. <Link href="/affiliate-disclosure">Affiliate disclosure</Link>
+          </p>
+        ) : null}
         <p className="legal" data-nosnippet="">
           {SITE.name} is an independent information site. We do not operate gambling services and you cannot gamble for real money on this
           site. Demos use play money only.{FEATURES.realMoney ? ' Some links are affiliate links: we may earn a commission if you sign up with a casino, at no extra cost to you – this never affects our review scores.' : ''} Online gambling is restricted or illegal in some jurisdictions; check

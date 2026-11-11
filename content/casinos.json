@@ -67,7 +67,46 @@
    "Running since 2014",
    "Carries every studio on this site",
    "Fast crypto cashouts"
-  ]
+  ],
+  "badge": "Exclusive",
+  "offer": {
+   "default": {
+    "title": "Up to 5 BTC",
+    "sub": "+ 180 free spins welcome package"
+   },
+   "CA": {
+    "title": "50 free spins",
+    "sub": "No deposit needed · then up to 5 BTC"
+   },
+   "NZ": {
+    "title": "50 free spins",
+    "sub": "No deposit needed · then up to 5 BTC"
+   },
+   "IE": {
+    "title": "50 free spins",
+    "sub": "No deposit needed · then up to 5 BTC"
+   },
+   "JP": {
+    "title": "50 free spins",
+    "sub": "No deposit needed · then up to 5 BTC"
+   },
+   "MX": {
+    "title": "50 free spins",
+    "sub": "No deposit needed · then up to 5 BTC"
+   },
+   "UY": {
+    "title": "50 free spins",
+    "sub": "No deposit needed · then up to 5 BTC"
+   },
+   "EC": {
+    "title": "50 free spins",
+    "sub": "No deposit needed · then up to 5 BTC"
+   },
+   "CR": {
+    "title": "50 free spins",
+    "sub": "No deposit needed · then up to 5 BTC"
+   }
+  }
  },
  {
   "slug": "cashy",
@@ -131,7 +170,14 @@
    "Fast withdrawals",
    "100-level VIP programme with cash rewards from level 1",
    "Weekly cashback"
-  ]
+  ],
+  "badge": "Exclusive",
+  "offer": {
+   "default": {
+    "title": "150% up to $3,000",
+    "sub": "Exclusive welcome bonus"
+   }
+  }
  },
  {
   "slug": "7bit",
@@ -188,7 +234,14 @@
    "Welcome pack spread over four deposits",
    "Crypto and standard payment methods",
    "Carries all the main studios on this site"
-  ]
+  ],
+  "badge": "Popular",
+  "offer": {
+   "default": {
+    "title": "325% up to 5.25 BTC",
+    "sub": "+ 250 free spins"
+   }
+  }
  },
  {
   "slug": "mirax",
@@ -241,6 +294,12 @@
    "Welcome package spread over four deposits",
    "Crypto-focused payments",
    "No cash-out cap on the match bonus"
-  ]
+  ],
+  "offer": {
+   "default": {
+    "title": "325% up to 5 BTC",
+    "sub": "+ 150 free spins"
+   }
+  }
  }
 ]

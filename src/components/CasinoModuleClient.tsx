@@ -19,6 +19,7 @@ export function CasinoModuleClient({ casinos, title, context, slotName }: { casi
   const list = ready && geo ? casinos.filter((c) => c.geos.includes(geo) || (region && c.geos.includes(region))) : [];
   if (!enabled) return null;
   const bonusFor = (c: Casino) => (geo && c.bonus[geo]) || (region && c.bonus[region]) || c.bonus.default;
+  const offerFor = (c: Casino) => (geo && c.offer?.[geo]) || (region && c.offer?.[region]) || c.offer?.default || { title: bonusFor(c) };
 
   return (
     <section className="casinos" aria-labelledby={`cas-${context}`}>
@@ -28,38 +29,36 @@ export function CasinoModuleClient({ casinos, title, context, slotName }: { casi
       ) : !ready ? (
         <p className="muted">Checking which casinos are available in your country…</p>
       ) : list.length === 0 ? (
-        <p className="muted">{geo ? "We don't currently list a casino for your location." : "We couldn't detect your country, so we're not showing casino offers."} You can still play every slot in free demo mode.</p>
+        <>
+          <p className="muted">{geo ? "None of our casino partners accept players from your location, so we don't show offers here." : "We couldn't detect your country, so we're not showing casino offers."} You can still play every slot in free demo mode.</p>
+          <p className="muted small">Our partners: {casinos.map((c) => c.name).join(' · ')}. <a href="/affiliate-disclosure">Affiliate disclosure</a></p>
+        </>
       ) : (
-        <ol className="casino-list">
-          {list.map((c, i) => (
-            <li key={c.slug} className="casino-row">
-              <div className="casino-name">
-                <span className="rank">{i + 1}</span>
-                <div>
+        <ol className="casino-grid">
+          {list.map((c, i) => {
+            const o = offerFor(c);
+            return (
+              <li key={c.slug} className="casino-tile">
+                {c.badge ? <span className="casino-ribbon">{c.badge}</span> : null}
+                <div className={`casino-tile-logo${c.logoLight ? ' light' : ''}`}>
                   {c.logo ? (
                     // eslint-disable-next-line @next/next/no-img-element
-                    <img className={`casino-logo${c.logoLight ? ' casino-logo-light' : ''}`} src={c.logo} alt={`${c.name} logo`} width={120} height={32} loading="lazy" />
-                  ) : null}
-                  <strong>{c.name}</strong>
-                  <div className="muted small">{c.licenses.join(' · ')}</div>
+                    <img src={c.logo} alt={`${c.name} logo`} width={160} height={48} />
+                  ) : <strong>{c.name}</strong>}
                 </div>
-              </div>
-              <div className="casino-bonus">
-                <div>{bonusFor(c)}</div>
-                <div className="tcs">{c.terms}</div>
-              </div>
-              <div className="casino-cta">
-                <a className="btn btn-primary" href={`/go/${c.slug}?src=${encodeURIComponent(context)}&pos=${i + 1}`} rel="sponsored nofollow noopener" target="_blank" data-event="affiliate_click">
-                  {slotName ? `Play ${slotName} for real` : 'Visit casino'}
+                <p className="casino-offer">{o.title}</p>
+                {o.sub ? <p className="casino-offer-sub">{o.sub}</p> : null}
+                <a className="btn btn-primary casino-get" href={`/go/${c.slug}?src=${encodeURIComponent(context)}&pos=${i + 1}`} rel="sponsored nofollow noopener" target="_blank" data-event="affiliate_click">
+                  Get bonus
                 </a>
-                {c.rating ? <span className="muted small">Score {c.rating.toFixed(1)}/10</span> : null}
-              </div>
-            </li>
-          ))}
+                <p className="casino-tc">18+ | T&amp;Cs apply</p>
+              </li>
+            );
+          })}
         </ol>
       )}
       <p className="muted small">
-        18+. Offers and availability depend on your location. Real-money play involves risk – you can lose your stake. Set limits before you play.
+        Offers depend on your location. Real-money play involves risk – you can lose your stake. <a href="/responsible-gambling">Play responsibly</a>.
         {casinos.some((c) => c.placeholder) ? ' [Placeholder partners – replace in content/casinos.json before launch.]' : ''}
       </p>
     </section>

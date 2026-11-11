@@ -95,6 +95,10 @@ export interface Casino {
   logo?: string;
   /** The logo is dark artwork: show it on a white plate instead. */
   logoLight?: boolean;
+  /** Short ribbon on the casino tile, e.g. "Exclusive". Keep it true. */
+  badge?: string;
+  /** Tile offer per geo or "default": big headline + small line. Falls back to `bonus`. */
+  offer?: Record<string, { title: string; sub?: string }>;
   /** Licences held, e.g. "UKGC 00000", "MGA/B2C/000/0000". Verify before publishing. */
   licenses: string[];
   /** ISO-3166 alpha-2 countries where the operator is licensed AND you hold an affiliate agreement. */
