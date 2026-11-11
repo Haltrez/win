@@ -106,3 +106,11 @@ The git workflow scales to a few writers. For a larger team, plug in a headless 
 - Deliberately left out although not on the operator's list: DE, SE, DK, IT, CH, AU, CA-ON, CO, PE (local rules against promoting casinos without a local licence).
 - Still needed from the owner before switching on: both tracking links, one logo per brand, bonus wording and terms.
 - To go live: replace the placeholder entries in `content/casinos.json`, then set `NEXT_PUBLIC_REAL_MONEY=1` in Vercel and redeploy.
+
+## 7Bit Partners (7Bit Casino) – researched, not agreed yet
+
+- Source: 7bitcasino.com/terms-and-conditions, clause 3.4 (checked 2026-11-11). Long restricted list; notable countries NOT on it:
+  Canada, Australia, New Zealand, Germany, Austria, Switzerland, Ireland, Italy, Denmark, Finland, Norway, Luxembourg, Malta, Slovenia, Brazil, India, South Africa, Russia, Kazakhstan.
+- Differs from Starz: 7Bit restricts Japan, Mexico, Argentina, Chile, Uruguay, Ecuador, Costa Rica, Singapore, Hong Kong; Starz restricts Brazil, Russia.
+- Suggested allowlist if the owner joins: `CA-*` without Ontario, `NZ, IE, FI, NO, AT, IN, ZA` (same caution as Starz: leave out DE, SE, DK, IT, CH, AU, CA-ON, BR).
+- Not confirmed: affiliate programme's own country rules (7bitpartners.com refuses automated access), bonus-restricted countries (separate Bonus Terms), commission plan, other brands in the programme.
