@@ -30,7 +30,8 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ casi
   const country = countryOf(req);
   const region = req.headers.get('x-vercel-ip-country-region');
   const geoKey = region && c.geos.includes(`${country}-${region}`) ? `${country}-${region}` : country;
-  const allowed = !country || c.geos.includes(geoKey) || c.geos.includes(country);
+  // Unknown country = not allowed: we never send a visitor to an offer unless their country is on the casino's list.
+  const allowed = Boolean(country) && (c.geos.includes(geoKey) || c.geos.includes(country));
   if (!allowed) return NextResponse.redirect(new URL('/casinos?unavailable=1', req.url), 302);
 
   const clickId = crypto.randomUUID();
