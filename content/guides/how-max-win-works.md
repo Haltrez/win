@@ -36,7 +36,7 @@ A higher max win doesn't make a slot better or give you better odds. We never in
 
 ## Max wins across studios
 
-The max win you'll see depends heavily on the studio. In our database the median published max win is about **5,000x** for BGaming and Pragmatic Play, **10,000x** for Hacksaw Gaming and **20,000x** for Nolimit City. Nolimit's [Tombstone Slaughter](/slots/nolimit-city/tombstone-slaughter) advertises 500,000x – the highest we list – and [San Quentin 2: Death Row](/slots/nolimit-city/san-quentin-2-death-row) 200,000x.
+The max win you'll see depends heavily on the studio. In our database the median published max win is about **5,000x** for BGaming and Pragmatic Play, **10,000x** for Hacksaw Gaming and **20,000x** for Nolimit City. Nolimit's [Tombstone Slaughter](/slots/nolimit-city/tombstone-slaughter) advertises 500,000x – the highest we list – and [San Quentin 2: Death Row](/slots/nolimit-city/san-quentin-2-death-row) 200,000x. Caps have also grown over time; our [max-win inflation study](/guides/slot-max-win-inflation) tracks how far, year by year.
 
 ## How rare is a max win?
 

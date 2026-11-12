@@ -42,6 +42,7 @@ A free spins round plays out like normal spins with improvements. A hold and win
 - [Wolf Gold](/slots/pragmatic-play/wolf-gold) – the Pragmatic Play classic with Money Respins and three fixed jackpots.
 - [Big Bass Hold & Spinner](/slots/pragmatic-play/big-bass-hold-and-spinner) – the Big Bass fishing formula with a hold-and-spin twist.
 - [Money Train 3](/slots/relax-gaming/money-train-3) – the high-volatility benchmark for the format.
+- [16 Coins x5000](/slots/wazdan/16-coins-x5000) – Wazdan's Hold the Jackpot take, with sticky Cash Infinity symbols. Our [Wazdan guide](/guides/wazdan-slots-explained) covers how their version and Chance Level work.
 
 Browse every game with the feature in our [hold and win slots list](/best/hold-and-win-slots), or see [money collect slots](/best/money-collect-slots) for the fishing-style cousin of the mechanic.
 

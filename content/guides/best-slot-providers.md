@@ -46,7 +46,7 @@ Thunderkick is the most art-driven studio here, from [Esqueleto Explosivo](/slot
 
 ## Hacksaw Gaming – tiered bonuses and DuelReels
 
-Hacksaw built its reputation on compact grids, three-tier bonuses and the [DuelReels](/guides/duelreels-explained) mechanic. Its "Le" series starring Smokey the raccoon – from [Le Bandit](/slots/hacksaw-gaming/le-bandit) to [Le Cowboy](/slots/hacksaw-gaming/le-cowboy) – is one of the most recognisable in slots.
+Hacksaw built its reputation on compact grids, three-tier bonuses and the [DuelReels](/guides/duelreels-explained) mechanic. Its "Le" series starring Smokey the raccoon – from [Le Bandit](/slots/hacksaw-gaming/le-bandit) to [Le Cowboy](/slots/hacksaw-gaming/le-cowboy) – is one of the most recognisable in slots. Our [Le series guide](/guides/hacksaw-le-series-explained) compares every Smokey game.
 
 ## How to choose
 

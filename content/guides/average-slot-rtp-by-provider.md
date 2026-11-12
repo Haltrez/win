@@ -57,6 +57,10 @@ Every one of Nolimit City's 130 slots sits between **95.91% and 96.77%**. If you
 
 Thunderkick's median (96.10%) is normal, but its average is the lowest of the big five because **35 of its 107 games are published at about 94%**, for example [The Golden Pot and Pints](/slots/thunderkick/the-golden-pot-and-pints) at 94.08%. At the other end is [1429 Uncharted Seas](/slots/thunderkick/1429-uncharted-seas) at 98.60%, the highest RTP on our whole site. With Thunderkick, the specific game matters more than with any other studio we track.
 
+### Wazdan: the tightest range of all
+
+Outside the big five, Wazdan is even more uniform: its games on our site are all published between 96.04% and 96.41%. Its games differ in how they use Chance Level and Hold the Jackpot, which we cover in our [Wazdan guide](/guides/wazdan-slots-explained).
+
 ### Hacksaw: high headline numbers, many versions
 
 Hacksaw headlines around 96.3%, with [Le Prechaun](/slots/hacksaw-gaming/le-prechaun) at 97.52%. But **29 of the 31 Hacksaw games with an official RTP also list lower versions**, some as low as 86%. That makes Hacksaw the clearest example of the next point.

@@ -47,6 +47,9 @@ function volatilityNote(s: Slot) {
 
 /** Guides matched to this slot's mechanics first, then the core RTP / volatility / max-win guides. */
 const MECH_GUIDE: [(s: Slot) => boolean, string][] = [
+  [(s) => /super scatter/i.test(s.name), 'super-scatter-slots-explained'],
+  [(s) => s.provider === 'hacksaw-gaming' && /^le /i.test(s.name), 'hacksaw-le-series-explained'],
+  [(s) => s.provider === 'wazdan', 'wazdan-slots-explained'],
   [(s) => s.mechanics.some((m) => ['xnudge', 'xways', 'xbomb'].includes(m)), 'nolimit-city-x-mechanics-explained'],
   [(s) => s.provider === 'hacksaw-gaming' && /duel/i.test(s.review + s.features.map((f) => f.name).join(' ')), 'duelreels-explained'],
   [(s) => s.mechanics.includes('hold-and-win'), 'hold-and-win-explained'],
@@ -57,6 +60,7 @@ const MECH_GUIDE: [(s: Slot) => boolean, string][] = [
   [(s) => s.mechanics.includes('bonus-buy'), 'bonus-buy-explained'],
   [(s) => !!s.hitRate, 'hit-frequency-explained'],
   [(s) => s.mechanics.includes('free-spins'), 'free-spins-explained'],
+  [(s) => (s.maxWin ?? 0) >= 20000, 'slot-max-win-inflation'],
 ];
 function pickGuides(s: Slot) {
   const all = getGuides();

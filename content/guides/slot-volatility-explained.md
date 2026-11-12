@@ -25,7 +25,7 @@ Imagine two games, each returning 96%. Game A pays 1.5x your stake roughly every
 
 ## How to recognise volatility
 
-- **Max win:** caps of 10,000x+ almost always mean high volatility. See [how max win works](/guides/how-max-win-works).
+- **Max win:** caps of 10,000x+ almost always mean high volatility. See [how max win works](/guides/how-max-win-works) and our data on [max-win inflation](/guides/slot-max-win-inflation).
 - **Hit frequency:** if published, a lower percentage usually means higher volatility.
 - **Feature dependence:** if almost all the game's value comes from free spins, it's volatile.
 - **Provider rating:** most studios publish a volatility rating (often 1–5 or low/medium/high).

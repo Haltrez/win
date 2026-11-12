@@ -20,7 +20,7 @@ The **free spins round** is still the most common bonus in online slots. It's wh
 
 ## How free spins trigger
 
-The usual trigger is **three or more scatter symbols** in one spin. Variations include scatters that only land on certain reels, bonus symbols that must land on the same row, or meters that fill over several spins. Some games award extra spins for each additional scatter.
+The usual trigger is **three or more scatter symbols** in one spin. Variations include scatters that only land on certain reels, bonus symbols that must land on the same row, or meters that fill over several spins. Some games award extra spins for each additional scatter. Pragmatic's Super Scatter editions go further and pay an instant prize for special scatters in the trigger; see [Super Scatter slots explained](/guides/super-scatter-slots-explained).
 
 ## What makes free spins better than base spins
 
