@@ -34,7 +34,7 @@
       "description": "Persistent multipliers and per-symbol lives."
     }
   ],
-  "review": "Breakout is a 5x4 prison slot where every premium symbol has a matching Syndicate Multiplier. When one lands, it passes its multiplier to every symbol of its type. Six or more of the same premium trigger a Chain Reaction Respin, where those symbols stick and new ones keep adding.\n\nBreakout Spins keep the Syndicate Multipliers between spins, and Clearout Spins give each premium symbol its own life counter. Nolimit rates it High volatility, with a 20,000x cap. The multiplier-per-symbol idea is easy to follow.",
+  "review": "A prison game where every premium symbol has its own Syndicate Multiplier – when one lands, it passes its multiplier to every symbol of its type. Six or more of the same premium trigger a Chain Reaction Respin, where they stick and new ones keep adding.\n\nBreakout Spins keep the multipliers between spins, and Clearout Spins give each premium its own life counter. The multiplier-per-symbol idea is easy to follow. High volatility, 20,000x max.",
   "pros": [
     "Very high 20,000x win ceiling",
     "Full game playable in the official free demo"

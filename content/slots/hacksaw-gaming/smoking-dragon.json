@@ -31,7 +31,7 @@
       "description": "Double their multiplier on every row cascade."
     }
   ],
-  "review": "Smoking Dragon uses a Row Cascade rather than a standard tumble. After any win, the bottom row is removed, everything moves down one row, and a fresh row drops in at the top. The sequence continues while the same win remains, grows or new wins appear.\n\nWilds can land with additive multipliers from 2x to 100x. Epic Wilds double their multiplier on every row cascade, so one landing near the top can grow a lot as it moves down. The maximum is 10,000x, and the row-by-row movement is easy to follow.",
+  "review": "Instead of a normal tumble, this has a Row Cascade: after a win, the bottom row disappears, everything drops down one row, and a fresh row falls in at the top. It keeps going while the win stays, grows, or new ones appear.\n\nWilds land with 2x to 100x adding multipliers, and Epic Wilds double their multiplier on every row cascade – so one landing near the top can grow a lot on the way down. Easy to follow. 10,000x max.",
   "pros": [
     "High 10,000x win ceiling",
     "Full game playable in the official free demo"
