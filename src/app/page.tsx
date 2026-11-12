@@ -9,9 +9,9 @@ import { CasinoModule } from '@/components/CasinoModule';
 import { ProviderLogo } from '@/components/ProviderLogo';
 
 export const metadata = buildMetadata({
-  title: `Demo Slots: Play ${Math.floor(getSlots().length / 50) * 50}+ Free Slot Demos (${SITE.year}) | ${SITE.name}`,
+  title: `Demo Slots: Play ${Math.floor(getSlots().length / 10) * 10}+ Free Slot Demos (${SITE.year}) | ${SITE.name}`,
   absoluteTitle: true,
-  description: `Play ${getSlots().length}+ demo slots free: official demos from Pragmatic Play, Hacksaw, Nolimit City and more, no sign-up. RTP, volatility and max win for every game. 18+.`,
+  description: `Play ${Math.floor(getSlots().length / 10) * 10}+ demo slots free: official demos from Pragmatic Play, Hacksaw, Nolimit City and more, no sign-up. RTP, volatility and max win for every game. 18+.`,
   path: '/',
 });
 
@@ -44,9 +44,9 @@ export default function Home() {
   return (
     <>
       <section className="hero">
-        <h1>Free demo slots with honest, data-first reviews</h1>
+        <h1>Demo slots: play free slot demos</h1>
         <p>
-          Try {slots.length.toLocaleString()} slots in their official demo – no sign-up, no deposit – and check the numbers that matter: RTP,
+          Play free demos of {slots.length.toLocaleString()} slots from the official studios – no sign-up, no deposit – and check the numbers that matter: RTP,
           volatility, max win and how the bonus actually works.
         </p>
         <p className="hero-cta">

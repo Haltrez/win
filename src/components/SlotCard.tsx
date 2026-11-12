@@ -17,7 +17,7 @@ export function SlotCard({ slot, rank }: { slot: Slot; rank?: number }) {
           {slot.volatility ? <span className={`vol-badge vol-${slot.volatility}`}>{volLabel(slot.volatility)}</span> : null}
           {slot.demoUrl || slot.demoLink ? <span className="card-play" aria-hidden><span className="card-play-btn"><i /> Play demo</span></span> : null}
         </div>
-        <h3>{slot.name}</h3>
+        <p className="sc-name">{slot.name}</p>
         <p className="slot-card-meta">
           <span className="prov">{p?.name}</span>
           {stats.length ? <span className="stats">{stats.join(' · ')}</span> : null}

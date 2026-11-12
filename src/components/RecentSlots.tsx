@@ -31,7 +31,7 @@ export function RecentSlots({ exclude }: { exclude?: string }) {
                   ) : <span className="finder-noimg" />}
                   <span className="card-play" aria-hidden><span className="card-play-btn"><i /> Play demo</span></span>
                 </div>
-                <h3>{r.n}</h3>
+                <p className="sc-name">{r.n}</p>
                 <p className="slot-card-meta"><span className="prov">{r.p}</span></p>
               </Link>
             </article>

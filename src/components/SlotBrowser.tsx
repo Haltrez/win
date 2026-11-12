@@ -59,7 +59,7 @@ export function SlotBrowser({ rows, providers, vols }: { rows: BrowserRow[]; pro
                 {r.img ? <Image src={r.img} alt={`${r.n} slot`} width={320} height={240} sizes="(max-width: 640px) 50vw, 240px" className="thumb" /> : <div className="thumb thumb-gen" style={{ aspectRatio: '4 / 3', background: '#334' }}><span>{r.n}</span></div>}
                 {r.vl ? <span className={`vol-badge vol-${r.v}`}>{r.vl}</span> : null}
               </div>
-              <h3>{r.n}</h3>
+              <p className="sc-name">{r.n}</p>
               <p className="slot-card-meta">
                 <span className="prov">{r.p}</span>
                 <span className="stats">{[r.rtp != null ? `${r.rtp.toFixed(2)}% RTP` : null, r.mw ? `${r.mw.toLocaleString('en-US')}x` : null].filter(Boolean).join(' · ')}</span>

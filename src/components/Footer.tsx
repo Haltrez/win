@@ -23,15 +23,15 @@ export function Footer() {
         </section>
         <div className="footer-cols">
           <div>
-            <h3>Providers</h3>
+            <p className="footer-h">Providers</p>
             <ul>{providers.map((p) => <li key={p.slug}><Link href={`/providers/${p.slug}`}>{p.name} slots</Link></li>)}</ul>
           </div>
           <div>
-            <h3>Best slots</h3>
+            <p className="footer-h">Best slots</p>
             <ul>{cats.map((c) => <li key={c.slug}><Link href={`/best/${c.slug}`}>{c.slug === 'best-slots' ? 'Top-rated slots' : c.title.replace(/^Best /, '').replace(/\s+\d{4}$/, '')}</Link></li>)}</ul>
           </div>
           <div>
-            <h3>Guides</h3>
+            <p className="footer-h">Guides</p>
             <ul>
               <li><Link href="/biggest-slot-wins">Biggest slot wins ever</Link></li>
               <li><Link href="/slot-database">Slot RTP database</Link></li>
@@ -48,7 +48,7 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h3>{SITE.name}</h3>
+            <p className="footer-h">{SITE.name}</p>
             <ul>
               <li><Link href="/about">About us</Link></li>
               <li><Link href="/how-we-review">How we review</Link></li>
@@ -62,7 +62,7 @@ export function Footer() {
         </div>
         {FEATURES.realMoney ? (
           <p className="legal partners-line">
-            Casino partners: {getCasinos().map((c) => c.name).join(' · ')}. Offers are shown only in countries each casino accepts. <Link href="/affiliate-disclosure">Affiliate disclosure</Link>
+            Casino partners: {getCasinos().map((c) => c.name).join(' · ')}. <Link href="/affiliate-disclosure">Affiliate disclosure</Link>
           </p>
         ) : null}
         <p className="legal" data-nosnippet="">
