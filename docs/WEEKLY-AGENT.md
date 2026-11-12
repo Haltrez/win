@@ -50,6 +50,14 @@ python3 scripts/import/build.py
 Then look at every new thumbnail in `public/thumbs/<provider>/<slug>.webp`. If one is badly cropped (title cut off),
 re-run `make_thumb` from `scripts/import/common.py` with a different `ybias` (0 = keep top, 1 = keep bottom).
 
+### Meta descriptions for new slots
+
+For every slot you add, also add an entry to `content/slot-descriptions.json` (key `provider/slug`): one line, 110–158
+characters, written like a regular player describing the game to a friend – casual, specific to that game's theme and
+features, never a template. Include the word "demo" when the game has one. Any RTP or max-win figure must match the
+official data exactly. No invented personal experiences ("I hit…", "my last session") and no promotional claims.
+Run `python3 scripts/check-slot-descriptions.py` – it must report 0 problems.
+
 ## 2. Data re-check (drift)
 
 ```bash
@@ -76,6 +84,8 @@ node scripts/check-clips.mjs   # removes nothing; lists YouTube clips that are g
 Delete any failing clip from `content/clips.json`. Only add clips that pass this check, come from the game studio's official channel or the creator's own channel (no compilation, casino or re-upload channels), and never download or re-upload video.
 
 ## 4. Quality gate (all must pass before publishing)
+
+- `python3 scripts/check-slot-descriptions.py` reports 0 problems;
 
 ```bash
 node scripts/validate-content.mjs          # must end with "No blocking errors"

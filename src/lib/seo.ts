@@ -2,6 +2,10 @@ import type { Metadata } from 'next';
 import { SITE } from './config';
 import { clip, fmtRtp, fmtX, VOLATILITY_LABEL, year } from './format';
 import type { Provider, Slot } from './types';
+import SLOT_DESC from '../../content/slot-descriptions.json';
+
+/** Hand-written meta descriptions, keyed "provider/slug". Slots without one fall back to the data-driven text. */
+const HAND_DESC = SLOT_DESC as Record<string, string>;
 
 export const abs = (p: string) => `${SITE.url}${p === '/' ? '' : p}`;
 
@@ -89,6 +93,8 @@ export function slotTitle(s: Slot, p: Provider): string[] {
 
 /** Unique, data-driven meta description. Leads with "[Slot] demo" when one is playable. Optional parts are added only while they fit. */
 export function slotDescription(s: Slot, p: Provider) {
+  const hand = HAND_DESC[`${s.provider}/${s.slug}`];
+  if (hand) return hand;
   const vol = s.volatility ? VOLATILITY_LABEL[s.volatility].toLowerCase() : null;
   const feature = s.features[0]?.name.toLowerCase();
   const facts = [s.rtp != null ? `${fmtRtp(s.rtp)} RTP` : null, vol ? `${vol} volatility` : null, s.maxWin ? `${fmtX(s.maxWin)} max win` : null].filter(Boolean) as string[];
