@@ -16,6 +16,8 @@ export const SITE = {
   description:
     'Play free slot demos from official providers and read independent reviews with RTP, volatility and max win data. No sign-up, no deposit, 18+ only.',
   locale: 'en',
+  /** Web3Forms access key for the contact form (public by design – it only lets the form deliver to the owner's inbox; the address itself is never exposed). Empty = form shows a 'not available yet' note. */
+  contactFormKey: '',
   /** X/Twitter handle for twitter:site, e.g. "@scatterdrop". Left empty until the account exists. */
   twitter: process.env.NEXT_PUBLIC_TWITTER_HANDLE || undefined,
   noindex: process.env.NEXT_PUBLIC_NOINDEX === '1',
