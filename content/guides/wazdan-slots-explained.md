@@ -1,6 +1,6 @@
 ---
 title: "Wazdan Slots Explained: Hold the Jackpot, Chance Level and Cash Infinity"
-description: "Wazdan reuses a small set of features across almost every game. Here's what Hold the Jackpot, Chance Level, Cash Infinity and Cash Out do, with official data for 21 Wazdan slots."
+description: "What Wazdan's Hold the Jackpot, Chance Level, Cash Infinity and Cash Out features do, with official RTP and max win data for 21 Wazdan slots."
 category: providers
 author: editorial-team
 publishedAt: 2026-11-12

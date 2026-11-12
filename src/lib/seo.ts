@@ -104,5 +104,8 @@ export function providerTitle(p: Provider, count: number): string[] {
   return [`${p.name} Demo Slots – Play ${count} Free Demos (${SITE.year})`, `${p.name} Demo Slots – ${count} Free Demos`, `${p.name} Demo Slots – Free Play`, `${p.name} Demo Slots`];
 }
 export function providerDescription(p: Provider, count: number) {
-  return `Play ${count} ${p.name} demo slots free, with RTP, volatility and max win data. Compare their best games and signature mechanics${p.signatureMechanics?.length ? ` like ${p.signatureMechanics.slice(0, 2).join(' and ')}` : ''}.`;
+  const m = (p.signatureMechanics ?? []).slice(0, 2).map((x) => x.replace(/^[A-Z](?=[a-z])/, (c) => c.toLowerCase()));
+  const base = `Play ${count} free ${p.name} demo slots with official RTP, volatility and max win data`;
+  const full = m.length === 2 ? `${base}, from ${m[0]} to ${m[1]}.` : m.length === 1 ? `${base}, including ${m[0]}.` : `${base}.`;
+  return full.length <= 158 ? full : `${base}.`;
 }

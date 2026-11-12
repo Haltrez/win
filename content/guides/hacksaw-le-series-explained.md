@@ -1,6 +1,6 @@
 ---
 title: "Hacksaw's Le Series Explained: Every Smokey Slot from Le Bandit to Le Clubber"
-description: "Le Bandit, Le Pharaoh, Le Viking, Le Vampire and more: how Hacksaw Gaming's Le series works, what changes between games, and official RTP and max win for each."
+description: "Le Bandit, Le Pharaoh, Le Vampire and more: how Hacksaw's Le series works, what changes between games, and the official RTP and max win of each."
 category: providers
 author: editorial-team
 publishedAt: 2026-11-11

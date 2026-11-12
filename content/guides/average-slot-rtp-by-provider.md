@@ -1,6 +1,6 @@
 ---
 title: "Average Slot RTP by Provider: 711 Games Compared (2026 Data)"
-description: "Which slot providers publish the highest RTPs? We compared the official RTP of 711 slots from BGaming, Pragmatic Play, Hacksaw, Nolimit City, Thunderkick and more."
+description: "Which slot providers publish the highest RTPs? We compared the official RTP of 711 slots from BGaming, Pragmatic Play, Hacksaw, Nolimit City and more."
 category: providers
 author: editorial-team
 publishedAt: 2026-11-10
