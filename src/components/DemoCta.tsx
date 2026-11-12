@@ -5,8 +5,8 @@ import { FEATURES } from '@/lib/config';
 
 export type CtaCasino = { slug: string; name: string; geos: string[]; bonus: Record<string, string>; terms: string };
 
-const FIRST_AFTER = 60; // seconds of visible demo play before the first prompt
-const EVERY = 60;        // seconds of visible play between prompts
+const FIRST_AFTER = 90; // seconds of visible demo play before the first prompt
+const EVERY = 90;        // seconds of visible play between prompts
 const MAX_PER_VISIT = 3; // across all games in one browser session
 const K_COUNT = 'demoCtaShown';
 /** Test mode (?cta-test in the URL): example casino, first prompt after 10 s, then every 20 s. Never shown to normal visitors. */
@@ -23,9 +23,9 @@ function readGeo(): string | null {
 }
 
 /**
- * Real-money prompt shown next to (below) a running demo – never over the game.
- * Timing counts only visible play time; first after 1 min, then every 1 min, max 3 per visit; "Not now" closes the
- * current prompt only. Only casinos licensed for the visitor's country (geo cookie) are offered; unknown country = no prompt.
+ * Real-money prompt that pops up over a running demo (inside the demo frame, so it also shows in full screen).
+ * Timing counts only visible play time; first after 90 s, then every 90 s, max 3 per visit. Never on page load.
+ * "Keep playing", the ✕, a click on the backdrop or Esc closes the current prompt only. Only casinos licensed for the visitor's country (geo cookie) are offered; unknown country = no prompt.
  */
 export function DemoCta({ casinos, slotName, slotKey }: { casinos: CtaCasino[]; slotName: string; slotKey: string }) {
   const [casino, setCasino] = useState<{ c: CtaCasino; bonus: string } | null>(null);
@@ -68,24 +68,29 @@ export function DemoCta({ casinos, slotName, slotKey }: { casinos: CtaCasino[]; 
     return () => window.clearInterval(id);
   }, [casinos, slotKey]);
 
+  useEffect(() => {
+    if (!show) return;
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setShow(false); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [show]);
+
   if (!casino || !show) return null;
   const { c, bonus } = casino;
+  const close = () => { setShow(false); if (c.slug !== 'example') track('demo_cta_dismiss', { slot: slotKey }); };
   return (
-    <aside className="demo-cta-card" role="complementary" aria-label="Real-money offer">
-      <div className="dcc-text">
-        <span className="dcc-eyebrow">Real-money offer · 18+</span>
-        <strong className="dcc-title">Enjoying {slotName}? Play it for real at {c.name}</strong>
-        <span className="dcc-bonus">{bonus}</span>
-        <span className="dcc-terms">{c.terms} · <a href="/responsible-gambling">Play responsibly</a></span>
-      </div>
-      <div className="dcc-actions">
-        <a className="btn btn-primary" {...(c.slug === 'example' ? { href: '#', onClick: (e: React.MouseEvent) => e.preventDefault() } : { href: `/go/${c.slug}?src=demo-cta&slot=${encodeURIComponent(slotKey)}`, target: '_blank', 'data-event': 'affiliate_click' })} rel="sponsored nofollow noopener">
+    <div className="dcp" role="dialog" aria-modal="false" aria-label="Real-money offer" onClick={(e) => { if (e.target === e.currentTarget) close(); }}>
+      <div className="dcp-card">
+        <button type="button" className="dcp-x" onClick={close} aria-label="Close offer">✕</button>
+        <span className="dcp-eyebrow">Play {slotName} for real</span>
+        <strong className="dcp-bonus">{bonus}</strong>
+        <span className="dcp-casino">at {c.name}</span>
+        <a className="btn btn-primary dcp-go" {...(c.slug === 'example' ? { href: '#', onClick: (e: React.MouseEvent) => e.preventDefault() } : { href: `/go/${c.slug}?src=demo-cta&slot=${encodeURIComponent(slotKey)}`, target: '_blank', 'data-event': 'affiliate_click' })} rel="sponsored nofollow noopener">
           Claim now <span aria-hidden>→</span>
         </a>
-        <button type="button" className="btn btn-ghost" onClick={() => { setShow(false); if (c.slug !== 'example') track('demo_cta_dismiss', { slot: slotKey }); }}>
-          Not now
-        </button>
+        <button type="button" className="dcp-keep" onClick={close}>Keep playing the demo</button>
+        <span className="dcp-terms">{c.terms} <a href="/responsible-gambling">Play responsibly</a></span>
       </div>
-    </aside>
+    </div>
   );
 }

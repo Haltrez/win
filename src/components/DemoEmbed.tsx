@@ -89,6 +89,7 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta, ext
         <>
         <iframe src={src ?? undefined} title={`${name} free demo by ${providerName}`} allow="fullscreen; autoplay" allowFullScreen sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-pointer-lock" />
         <button className="demo-fs" onClick={fullscreen} aria-label={fs === 'off' ? `Play ${name} full screen` : 'Exit full screen'}>{fs === 'off' ? '⤢ Full screen' : '✕'}</button>
+        {cta?.casinos.length || isCtaTest() ? <DemoCta casinos={cta?.casinos ?? []} slotName={name} slotKey={cta?.slotKey ?? name} /> : null}
         </>
       ) : (
         externalUrl ? (
@@ -121,7 +122,6 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta, ext
         ? <a className="play-bar" href={externalUrl} target="_blank" rel="noopener" onClick={remember}><span className="demo-play" aria-hidden /> Play {name} demo</a>
         : <button type="button" className="play-bar" onClick={() => { box.current?.scrollIntoView({ block: 'center' }); start(); }}><span className="demo-play" aria-hidden /> Play {name} demo</button>
     ) : null}
-    {on && (cta?.casinos.length || isCtaTest()) ? <DemoCta casinos={cta?.casinos ?? []} slotName={name} slotKey={cta?.slotKey ?? name} /> : null}
     </>
   );
 }

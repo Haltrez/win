@@ -676,3 +676,32 @@ h1 { letter-spacing: -.03em; }
 .contact-form .hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
 .form-ok { padding: 14px 16px; border-radius: 10px; background: rgba(46,160,67,.15); border: 1px solid rgba(46,160,67,.5); }
 .form-err { color: var(--danger-text, #ff7b72); margin: 0; }
+
+/* Real-money pop-up over the running demo */
+.demo { position: relative; }
+.dcp { position: absolute; inset: 0; z-index: 5; display: grid; place-items: center; padding: 10px; background: rgba(5, 8, 14, .55); backdrop-filter: blur(2px); animation: dcp-fade .25s ease-out; }
+.dcp-card { position: relative; display: grid; justify-items: center; gap: 6px; width: min(380px, 100%); max-height: 100%; overflow: auto; padding: 22px 20px 14px; text-align: center; color: #fff; border-radius: 18px;
+  background: radial-gradient(120% 90% at 50% 0%, #2a1d0b 0%, #141925 55%, #0d111a 100%);
+  box-shadow: 0 0 0 2px #ffb02e, 0 0 28px rgba(255, 160, 30, .65), 0 0 70px rgba(255, 110, 20, .35);
+  animation: dcp-pop .45s cubic-bezier(.2, 1.4, .4, 1), dcp-glow 2.2s ease-in-out .5s infinite; }
+.dcp-x { position: absolute; top: 8px; right: 8px; width: 32px; height: 32px; border-radius: 50%; border: 0; background: rgba(255,255,255,.1); color: #fff; font-size: .95rem; cursor: pointer; }
+.dcp-x:hover { background: rgba(255,255,255,.2); }
+.dcp-eyebrow { font-size: .8rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #ffc85a; }
+.dcp-bonus { font-family: var(--font-display, var(--font)); font-size: 1.45rem; line-height: 1.15; }
+.dcp-casino { color: rgba(255,255,255,.75); font-size: .95rem; margin-bottom: 4px; }
+.dcp-go { width: 100%; min-height: 50px; font-size: 1.1rem; justify-content: center; }
+.dcp-keep { background: none; border: 0; color: rgba(255,255,255,.7); font: inherit; font-size: .9rem; padding: 6px; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.dcp-terms { font-size: .72rem; color: rgba(255,255,255,.55); }
+.dcp-terms a { color: inherit; }
+@keyframes dcp-fade { from { opacity: 0; } }
+@keyframes dcp-pop { from { opacity: 0; transform: scale(.7); } }
+@keyframes dcp-glow { 50% { box-shadow: 0 0 0 2px #ffc85a, 0 0 40px rgba(255, 170, 40, .9), 0 0 100px rgba(255, 110, 20, .5); } }
+@media (max-width: 640px) {
+  .dcp-card { padding: 14px 14px 8px; gap: 3px; border-radius: 14px; }
+  .dcp-bonus { font-size: 1.1rem; }
+  .dcp-casino, .dcp-eyebrow { font-size: .75rem; }
+  .dcp-go { min-height: 42px; font-size: 1rem; }
+  .dcp-keep { font-size: .8rem; padding: 2px; }
+  .dcp-terms { font-size: .65rem; }
+}
+@media (prefers-reduced-motion: reduce) { .dcp, .dcp-card { animation: none; } }
