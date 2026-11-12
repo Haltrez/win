@@ -31,7 +31,7 @@
       "description": "Additive values from 1x to 10x."
     }
   ],
-  "review": "Octo Attack features Otto the Octopus and his Tenta-Grab mechanic. Winning symbols disappear and new ones drop in, but each winning position is marked with an Ink Stain. When the Eye of Otto lands on a grid with ink stains, he grabs one random symbol and copies it into every stained position, and his own.\n\nWilds can carry additive multipliers of 1x to 10x, so a grab that copies a wild across all the stains is the best result. Stains reset between spins, so the cascade itself is what builds the setup. The cap is 10,000x.",
+  "review": "Otto the Octopus and his Tenta-Grab. Winning symbols vanish and new ones drop in, but each winning spot gets marked with an Ink Stain. When the Eye of Otto lands, he grabs one random symbol and copies it into every stain – and his own spot.\n\nWilds can carry 1x to 10x multipliers, so Otto copying a wild across all the stains is the dream. Stains reset between spins, so the cascade itself builds the setup. 10,000x max.",
   "pros": [
     "High 10,000x win ceiling",
     "Full game playable in the official free demo"

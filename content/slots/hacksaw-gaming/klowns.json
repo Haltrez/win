@@ -29,7 +29,7 @@
       "description": "Winning symbols are removed and new ones fall in."
     }
   ],
-  "review": "Klowns is a horror-carnival slot on a 6-reel, 5-row grid with drop cascades and all-scatter wins, hosted by Lester and Jester. Hacksaw states a 10,000x max win, reachable in every game mode.\n\nAll wins in a round are collected in a Total Win Bar, and any activated Klown Multipliers are applied to that total at the end of the spin. Needle Boxes clear symbols once the grid settles: low-symbol boxes remove every low-paying symbol and pay 0.1x the bet for each, and high-symbol boxes do the same for premiums. Hacksaw doesn't publish RTP or volatility for this game outside the game itself.",
+  "review": "A horror carnival hosted by Lester and Jester, on a 6x5 grid with drop cascades and all-scatter wins.\n\nEvery win in a round goes into a Total Win Bar, and any activated Klown Multipliers hit that total at the end. Needle Boxes clear symbols once the grid settles – low boxes remove every low symbol and pay 0.1x the bet for each, high boxes do the same for premiums. 10,000x max in every mode; Hacksaw doesn't publish RTP or volatility outside the game.",
   "demoUrl": "https://static-live.hacksawgaming.com/1438/{version}/index.html?language=en&channel=desktop&gameid=1438&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
   "pros": [
     "High 10,000x win ceiling",

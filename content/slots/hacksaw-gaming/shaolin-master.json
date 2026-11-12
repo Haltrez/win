@@ -31,7 +31,7 @@
       "description": "Orbs grow as cascade chains continue."
     }
   ],
-  "review": "Shaolin Master is a cascading cluster slot set in a kung-fu dojo, with three kinds of Chi Orb wild multipliers. Blue orbs start at 1x and gain +1 each time they join a cluster win. Red orbs gain +1 for every symbol in the winning cluster, including orbs, so they grow much faster.\n\nA third type, the Balance orb, has its own rule, and all of them stay on the grid through cascades, which lets their values build up over a long chain. It's a smart progressive-multiplier design, and the cap is 10,000x.",
+  "review": "A kung-fu dojo cluster game with three kinds of Chi Orb wild multipliers. Blue orbs start at 1x and gain +1 every time they join a win. Red orbs gain +1 for every symbol in the winning cluster, so they grow much faster.\n\nThe third type, the Balance orb, has its own rule, and all of them stay through cascades – so a long chain lets their values really build. A smart progressive-multiplier design. 10,000x max.",
   "pros": [
     "High 10,000x win ceiling",
     "Full game playable in the official free demo"

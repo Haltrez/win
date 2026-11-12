@@ -31,7 +31,7 @@
       "description": "Collects every win from the round."
     }
   ],
-  "review": "Bouncy Bombs is a 6x5 fruit scatter-pays slot where wins go into a Total Win Bar and bomb multipliers go off at the end of the round. Normal bombs show 2x to 4x, revealing bombs hide values from 5x upward, and all bombs on the grid add their values together before multiplying the total.\n\nThe bombs only pay if the round had at least one win, so a full board of bombs with no connection is a near miss. It's a very readable design, similar to other tumble-and-bomb games, and the cap is 10,000x in every mode.",
+  "review": "A 6x5 fruit scatter-pays game where wins go into a Total Win Bar and the bombs go off at the end of the round. Normal bombs show 2x to 4x, revealing bombs hide 5x and up, and every bomb on the grid adds together before multiplying the total.\n\nThe catch: bombs only count if there was at least one win that round, so a board full of bombs with no win is a painful near miss. Very easy to follow. 10,000x max in every mode.",
   "pros": [
     "High 10,000x win ceiling",
     "Full game playable in the official free demo"

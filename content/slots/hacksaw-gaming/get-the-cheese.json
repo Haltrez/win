@@ -32,7 +32,7 @@
       "description": "Remove every symbol of the winning type."
     }
   ],
-  "review": "Get the CHEESE is a cluster slot full of mice, using Hacksaw's Super Cascades, where every symbol of a winning type is removed. A cheese symbol in a winning cluster goes further, clearing the whole grid except FS symbols and wild multipliers.\n\nThose wilds jump to a new position after every cascade. Normal ones start at 1x and add +1x per jump, and Epic ones start at 10x and add +10x, with up to four on the board at once. A long cascade with an Epic wild hopping around is how you reach the 10,000x maximum.",
+  "review": "A cluster game full of mice, with Super Cascades that clear every symbol of a winning type. A cheese symbol in a winning cluster goes further – it clears the whole grid except FS symbols and wild multipliers.\n\nThose wilds hop to a new spot after every cascade: normal ones start at 1x and add +1x per jump, Epic ones start at 10x and add +10x, with up to four on the board. A long cascade with an Epic wild bouncing around is the road to the 10,000x max.",
   "pros": [
     "High 10,000x win ceiling",
     "Full game playable in the official free demo"
