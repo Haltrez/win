@@ -1,9 +1,10 @@
 # Weekly agent playbook
 
-A scheduled Claude Code session runs this every **Monday morning (Europe/Riga)**. It never publishes directly:
-it opens **one pull request** for the owner to review and merge. Merging deploys to Vercel.
+A scheduled Claude Code session runs this every **Monday morning (Europe/Riga)**. It is **fully automatic** (owner
+decision, Nov 2026): when every check in step 4 passes, it publishes itself by pushing to the deploy branch, and Vercel
+deploys. Only when a check fails does it fall back to a pull request for the owner, so nothing broken goes live.
 
-Follow the steps in order. If a step fails, keep going with the others and explain the failure in the PR.
+Follow the steps in order. If a step fails, keep going with the others and explain the failure in the report.
 
 ## 0. Setup
 
@@ -14,7 +15,7 @@ npm ci
 pip install Pillow   # only if `python3 -c "import PIL"` fails
 ```
 
-The PR base branch is `claude/slots-demo-review-site-x1rmh3` (the branch Vercel deploys).
+The deploy branch is `claude/slots-demo-review-site-x1rmh3` (Vercel deploys every push to it).
 
 ## Publishing pace (owner rule, Nov 2026)
 
@@ -74,7 +75,7 @@ node scripts/check-clips.mjs   # removes nothing; lists YouTube clips that are g
 
 Delete any failing clip from `content/clips.json`. Only add clips that pass this check, come from the game studio's official channel or the creator's own channel (no compilation, casino or re-upload channels), and never download or re-upload video.
 
-## 4. Quality gate (all must pass before opening the PR)
+## 4. Quality gate (all must pass before publishing)
 
 ```bash
 node scripts/validate-content.mjs          # must end with "No blocking errors"
@@ -87,25 +88,35 @@ Then start the server (`npx next start -p 3123`) and check:
   - other providers: the `demoUrl` responds;
 - no horizontal overflow at 375px on the home page, `/slots`, one new slot page and the new guide (Playwright).
 
-## 5. Pull request
+## 5. Publish (automatic)
 
-Commit with a clear message and push `weekly/YYYY-MM-DD`, then open a PR into `claude/slots-demo-review-site-x1rmh3`
-titled `Weekly update YYYY-MM-DD: N new slots, 1 guide, M data fixes`. In the body:
-- new slots (name · provider · RTP · max win), and skipped candidates with reasons;
-- data changes from the re-check (old → new);
-- the new guide;
-- anything that failed or needs a human (blocked sites, unreachable sources, layout issues);
-- 2–3 suggestions for the owner (e.g. outreach angles from new data, ideas for the topic queue).
+Commit with a clear message, e.g. `Weekly update YYYY-MM-DD: N new slots, G guides, M data fixes`.
 
-End the PR body with the attribution line given in the session instructions.
+**If every step-4 check passed:**
+```bash
+git fetch origin claude/slots-demo-review-site-x1rmh3
+git rebase origin/claude/slots-demo-review-site-x1rmh3   # pick up anything the owner pushed this week
+npm run build                                           # re-check after the rebase
+git push origin HEAD:claude/slots-demo-review-site-x1rmh3
+```
+Plain fast-forward push only – never `--force`. If the rebase conflicts or the rebuilt site fails, don't push: use the fallback.
 
-## 6. After the owner merges
+**Fallback (any check failed, rebase conflict, or anything you're unsure about):** push `weekly/YYYY-MM-DD` and open a PR
+into `claude/slots-demo-review-site-x1rmh3` explaining what failed. Don't merge it – the owner decides.
 
-New pages can be pushed to Bing/IndexNow straight away (the owner or a later run can do this once the PR is live):
+## 6. After publishing
+
+Wait until the new pages return 200 on https://www.scatterdrop.com (Vercel usually takes 1–3 minutes), then submit them:
 
 ```bash
 node scripts/indexnow.mjs /new /slot-database /slots/<provider>/<slug> /guides/<slug> ...
 ```
+
+## 7. Report
+
+End the session with a short report (it is sent to the owner's phone): published or PR (with link); new slots (name ·
+provider · RTP · max win); skipped candidates with reasons; data changes (old → new); new guides; anything that failed or
+needs a human; 2–3 suggestions (outreach angles from new data, topic-queue ideas).
 
 ## Coverage notes
 
@@ -117,6 +128,6 @@ node scripts/indexnow.mjs /new /slot-database /slots/<provider>/<slug> /guides/<
 - Official provider sources only. Respect robots.txt. A site that blocks crawlers (e.g. bigtimegaming.com) is skipped, never worked around.
 - Don't scrape competitors (Bigwinboard, SlotCatalog, Casino.guru and similar).
 - Never guess RTP, volatility or max win. If it isn't published, store `null` ("Not published").
-- Real-money features stay off (`NEXT_PUBLIC_REAL_MONEY` unset). Don't add casino links or affiliate content.
-- Don't change layout, design or site config in the weekly PR. Suggest such changes in the PR body instead.
-- No PR merges, force-pushes or pushes to the deploy branch. The owner merges.
+- Casino offers, affiliate links, real-money and geo settings (`content/casinos.json`, `FEATURES` in `src/lib/config.ts`, the casino/CTA components) are owner decisions: leave them exactly as they are – never switch them off, edit or add to them.
+- Don't change layout, design or site config. Suggest such changes in the report instead.
+- Only content (slots, guides, topic queue, import-skip list) is published automatically. Never force-push, never rewrite history, never merge someone else's PR.
