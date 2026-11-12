@@ -17,6 +17,21 @@ pip install Pillow   # only if `python3 -c "import PIL"` fails
 
 The deploy branch is `claude/slots-demo-review-site-x1rmh3` (Vercel deploys every push to it).
 
+### Prepared content branch (check every week)
+
+If `origin/claude/next-week-content` exists and is not yet merged into the deploy branch
+(`git merge-base --is-ancestor origin/claude/next-week-content HEAD` fails), merge it first:
+
+```bash
+git fetch origin claude/next-week-content
+git merge --no-edit origin/claude/next-week-content
+```
+
+It holds slots and guides already written and checked (Nov 2026: 27 Wazdan slots + 3 guides = 30 pages). They count
+towards this week's pace ceiling, so cap fresh imports at the remainder (~20 pages) and skip step 3 if the branch
+already ticked guides in `content/topic-queue.md`. Re-run the quality gate after merging. Slots and guides in the
+branch have `addedAt`/`publishedAt` dates set when they were prepared; set them to today's date before publishing.
+
 ## Publishing pace (owner rule, Nov 2026)
 
 New domain: grow steadily, never in bursts. Hard ceiling for ALL new indexable pages combined (slots + guides + lists): **~50 per week**, and no single day above ~30. If the owner or another session already published this week, count those pages and fill only the remainder. Quality beats volume: every page needs official data and text written for that game – no templated or thin pages, no near-duplicates. If Search Console shows impressions falling after a batch, pause new pages for a week.
