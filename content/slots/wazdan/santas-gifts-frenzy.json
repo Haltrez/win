@@ -1,0 +1,55 @@
+{
+  "slug": "santas-gifts-frenzy",
+  "name": "Santa's Gifts Frenzy",
+  "provider": "wazdan",
+  "rtp": 96.12,
+  "volatility": "medium-high",
+  "maxWin": 1500,
+  "releaseDate": "2025-12-05",
+  "releaseDatePrecision": "day",
+  "winType": "20 lines",
+  "mechanics": [
+    "paylines",
+    "jackpot",
+    "money-collect",
+    "ante-bet"
+  ],
+  "themes": [
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Cash Out",
+      "description": "Instant cash wins on any spin."
+    },
+    {
+      "name": "Jackpot gifts",
+      "description": "Gifts can hide jackpots; fill the grid for the 1,500x Grand."
+    },
+    {
+      "name": "Chance Level",
+      "description": "Double the bet to see more jackpots inside the gifts."
+    }
+  ],
+  "review": "Santa's Gifts Frenzy is Wazdan's Christmas slot: 20 paylines, festive food and gift symbols, and a jackpot hunt hidden inside the presents. Cash Out symbols give instant wins on any spin.\n\nGift symbols can contain jackpots, and filling the grid with gifts awards the Grand Jackpot of 1,500x the bet. Chance Level lets you double the bet to increase the chance of jackpots appearing inside the gifts. Wazdan rates it medium-high volatility with a 96.12% RTP. A seasonal pick that's easy to follow if you just want something festive to try in demo.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/santas-gifts-frenzy",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "Modest 1,500x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/santas-gifts-frenzy.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/santas-gifts-frenzy"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

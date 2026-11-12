@@ -1,0 +1,53 @@
+{
+  "slug": "magic-fruits-dice",
+  "name": "Magic Fruits Dice",
+  "provider": "wazdan",
+  "rtp": 96.41,
+  "volatility": "medium-low",
+  "maxWin": 40,
+  "releaseDate": "2026-03-12",
+  "releaseDatePrecision": "day",
+  "winType": "5 lines",
+  "mechanics": [
+    "paylines"
+  ],
+  "themes": [
+    "fruit",
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "3 reels, 5 paylines",
+      "description": "Classic layout with no bonus round to wait for."
+    },
+    {
+      "name": "Joker symbol",
+      "description": "The top symbol pays when three land on a payline."
+    },
+    {
+      "name": "40x max win",
+      "description": "One of the lowest caps on our site, with low-medium volatility."
+    }
+  ],
+  "review": "Magic Fruits Dice is about as simple as modern slots get: three reels, five paylines, dice-style fruit symbols and no bonus round. The one special symbol is a joker, the highest-paying symbol, which can land beside low-paying symbols and pays when three line up on a payline.\n\nThe max win is just 40x the bet, one of the lowest on our site, and Wazdan rates it low-medium volatility with a 96.41% RTP. That makes it a calm, low-stakes option for long sessions rather than a game for chasing big hits. Use our low max win list if you like this style.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/magic-fruits-dice",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "Modest 40x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/magic-fruits-dice.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/magic-fruits-dice"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

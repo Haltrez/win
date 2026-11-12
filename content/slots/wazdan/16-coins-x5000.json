@@ -1,0 +1,56 @@
+{
+  "slug": "16-coins-x5000",
+  "name": "16 Coins x5000",
+  "provider": "wazdan",
+  "rtp": 96.17,
+  "volatility": "high",
+  "maxWin": 5000,
+  "releaseDate": "2025-10-09",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "money-collect",
+    "ante-bet"
+  ],
+  "themes": [
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "5,000x Grand Jackpot",
+      "description": "Fill the 16-reel grid in Hold the Jackpot for the top prize."
+    },
+    {
+      "name": "Cash Out countdown",
+      "description": "Collects Bonus values and pays them out, boosted by up to 300%."
+    },
+    {
+      "name": "Cash Infinity",
+      "description": "High-value symbols stay until the end of the next bonus round."
+    }
+  ],
+  "review": "16 Coins x5000 spreads the Coins formula over 16 individual reels and raises the Grand Jackpot to 5,000x – the top end for the series. Cash Infinity symbols are high-value symbols that stay on the reels until the end of the next bonus round, increasing both win potential and the chance of triggering Hold the Jackpot.\n\nIn the bonus you get three respins, each new symbol resets the counter, and filling the grid can award the Grand. Cash Out labels carry a countdown, collect values from Bonus symbols and pay the total when the counter hits zero, multiplied by up to 300%. Wazdan lists high volatility and a 96.17% RTP. Chance Level raises the stake to make bonuses more likely without changing prize values.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/16-coins-x5000",
+  "pros": [
+    "Solid 5,000x win ceiling",
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/16-coins-x5000.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/16-coins-x5000"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

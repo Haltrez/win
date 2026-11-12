@@ -1,0 +1,55 @@
+{
+  "slug": "eggs-of-fortune",
+  "name": "Eggs of Fortune",
+  "provider": "wazdan",
+  "rtp": 96.12,
+  "volatility": "very-high",
+  "maxWin": 5000,
+  "releaseDate": "2025-08-07",
+  "releaseDatePrecision": "day",
+  "winType": "5 lines",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "money-collect",
+    "ante-bet"
+  ],
+  "themes": [
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Two Cash Out features",
+      "description": "Two separate ways to collect bonus prizes in the base game."
+    },
+    {
+      "name": "Free Spins with Collectors",
+      "description": "Collectors and Countdown Boosters build towards the bonus round."
+    },
+    {
+      "name": "Chance Level",
+      "description": "x2, x5 or x10 bet options increase the odds of features."
+    }
+  ],
+  "review": "Eggs of Fortune is a five-line jewelled-egg slot with a 5,000x max win and the highest volatility rating Wazdan uses: Extreme. It's built around two Cash Out features in the base game, which give you two separate routes to bonus prizes on any spin.\n\nCollector symbols and Countdown Boosters build up towards the Free Spins round, where the collected values pay out. Chance Level offers three settings – x2, x5 and x10 the bet – that raise the odds of features at a higher cost per spin. Wazdan lists a 96.12% RTP. With only five lines and an extreme rating, this is one for patient players; try plenty of demo spins first.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/eggs-of-fortune",
+  "pros": [
+    "Solid 5,000x win ceiling",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/eggs-of-fortune.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/eggs-of-fortune"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

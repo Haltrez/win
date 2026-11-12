@@ -16,7 +16,13 @@ pip install Pillow   # only if `python3 -c "import PIL"` fails
 
 The PR base branch is `claude/slots-demo-review-site-x1rmh3` (the branch Vercel deploys).
 
-## 1. New slots (target: 30–50 per week)
+## Publishing pace (owner rule, Nov 2026)
+
+New domain: grow steadily, never in bursts. Hard ceiling for ALL new indexable pages combined (slots + guides + lists): **~50 per week**, and no single day above ~30. If the owner or another session already published this week, count those pages and fill only the remainder. Quality beats volume: every page needs official data and text written for that game – no templated or thin pages, no near-duplicates. If Search Console shows impressions falling after a batch, pause new pages for a week.
+
+**Focus: smaller providers and less-known games** (Wazdan, Thunderkick's back catalogue, smaller BGaming titles) rather than more famous hits that every big site already covers – that's where a new site can rank.
+
+## 1. New slots (target: 25–45 per week, within the pace ceiling)
 
 ```bash
 python3 scripts/import/discover.py --max 12   # 6 providers incl. Wazdan → up to ~70 candidates

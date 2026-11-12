@@ -1,0 +1,55 @@
+{
+  "slug": "fishermans-luck",
+  "name": "Fisherman's Luck",
+  "provider": "wazdan",
+  "rtp": 96.13,
+  "volatility": "medium",
+  "maxWin": 2500,
+  "releaseDate": "2026-03-05",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "money-collect",
+    "free-spins",
+    "multipliers",
+    "jackpot",
+    "ante-bet"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Gainer symbols",
+      "description": "Collect Cash and Jackpot values below them for up to 10 spins."
+    },
+    {
+      "name": "Free Spins",
+      "description": "Gainers stay for the whole round, with Boosters and Gain to Infinity."
+    },
+    {
+      "name": "Cash Out",
+      "description": "Top-reel symbols net the values below and pay them out."
+    }
+  ],
+  "review": "Fisherman's Luck is Wazdan's take on the fishing-collector theme. Gainer symbols are its version of the fisherman: they stay in play for up to 10 spins, gathering every Cash and Jackpot value on the reels beneath them, and multipliers can raise their value.\n\nIn Free Spins, Gainers stay until the end of the round, Gain Boosters extend them, and Gain to Infinity keeps them active throughout. Cash Out symbols on the top reels net the values below and pay them out. The Grand Jackpot is 2,500x the bet; Wazdan rates it medium volatility with a 96.13% RTP. A steadier alternative to the Big Bass style of game.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/fishermans-luck",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/fishermans-luck.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/fishermans-luck"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "bumba-meu-boi-coin",
+  "name": "Bumba Meu Boi Coin",
+  "provider": "wazdan",
+  "rtp": 96.14,
+  "volatility": "medium-high",
+  "maxWin": 500,
+  "releaseDate": "2026-01-29",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "ante-bet"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Magic Coin back matrix",
+      "description": "Symbols stick on a second set of reels until the bonus."
+    },
+    {
+      "name": "Boi Da Fortuna Bonus",
+      "description": "A hold-and-win bonus built for the two-layer layout."
+    },
+    {
+      "name": "Extra Lives",
+      "description": "Up to three extra bonus spins at the start of the round."
+    }
+  ],
+  "review": "Bumba Meu Boi Coin takes the Coins series to a Brazilian folk festival and gives it an unusual two-layer layout. When a Magic Coin lands, it activates a back matrix where game symbols stick and wait for the bonus.\n\nThe Boi Da Fortuna Bonus is a Hold the Jackpot style round designed for this layout, and Extra Lives can give up to three bonus spins at the start if you gather enough Extra Life symbols. The Grand Jackpot is 500x the bet, which is low for the series, and Wazdan rates it medium-high volatility with a 96.14% RTP. It's a gentler Coins game than most, with a theme you won't see elsewhere.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/bumba-meu-boi-coin",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "Modest 500x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/bumba-meu-boi-coin.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/bumba-meu-boi-coin"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "ox-coin",
+  "name": "Ox Coin",
+  "provider": "wazdan",
+  "rtp": 96.21,
+  "volatility": "high",
+  "maxWin": 2500,
+  "releaseDate": "2026-05-28",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "grid-expansion",
+    "ante-bet"
+  ],
+  "themes": [
+    "asian",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Magic Coin",
+      "description": "Corner symbols switch on extra reels and enlarge the layout."
+    },
+    {
+      "name": "Ox Bonus",
+      "description": "A 25-reel bonus round with a 2,500x Grand Jackpot."
+    },
+    {
+      "name": "Extra Lives",
+      "description": "Up to three more spins after the respins run out."
+    }
+  ],
+  "review": "Ox Coin is one of Wazdan's oddest layouts: one main reel surrounded by a grid of smaller ones, with an Asian prosperity theme. Magic Coin symbols on the corner reels switch on extra reels, so the playing area grows as you spin.\n\nThe Ox Bonus is played on 25 reels with a Grand Jackpot of 2,500x the bet. Extra Lives can add up to three more spins after your respins run out, which makes a big difference in a Hold-and-Win style round. Chance Level offers three bet multipliers that change the odds of the bonus. Wazdan lists high volatility and a 96.21% RTP.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/ox-coin",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/ox-coin.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/ox-coin"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

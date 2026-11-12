@@ -24,3 +24,4 @@ Add ideas at the bottom. Data-led pieces (marked 📊) double as link-building a
 - [ ] Hacksaw "Epic" editions explained (Epic Ze Zeus, Epic SixSixSix – what changes vs the original) – `hacksaw-epic-editions-explained`
 - [ ] Big Bass series compared: every edition's features and max win – `big-bass-series-compared`
 - [x] Super Scatter slots explained (Pragmatic Super Scatter editions) – `super-scatter-slots-explained`
+- [x] Wazdan slots explained: Hold the Jackpot, Chance Level, Cash Infinity – `wazdan-slots-explained`
