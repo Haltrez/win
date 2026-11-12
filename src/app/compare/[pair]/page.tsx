@@ -18,6 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }) {
   return buildMetadata({
     title: [`${c.a.name} vs ${c.b.name} – RTP, Volatility & Max Win Compared`, `${c.a.name} vs ${c.b.name} – RTP & Max Win Compared`, `${c.a.name} vs ${c.b.name}: Which Slot Is Better?`, `${c.a.name} vs ${c.b.name} Slot Comparison`, `${c.a.name} vs ${c.b.name}`],
     description: `${c.a.name} (${c.a.rtp != null ? `${fmtRtp(c.a.rtp)}, ` : ''}${fmtX(c.a.maxWin)}) vs ${c.b.name} (${c.b.rtp != null ? `${fmtRtp(c.b.rtp)}, ` : ''}${fmtX(c.b.maxWin)}): features, volatility and which slot suits you. Free demos of both.`,
+    noindex: true, // templated page: useful for visitors, kept out of Google's index
     path: `/compare/${c.slug}`,
   });
 }
