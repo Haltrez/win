@@ -1,0 +1,56 @@
+{
+  "slug": "12-coins-grand-diamond-edition",
+  "name": "12 Coins Grand Diamond Edition",
+  "provider": "wazdan",
+  "rtp": 96.14,
+  "volatility": "high",
+  "maxWin": 5000,
+  "releaseDate": "2025-02-26",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "money-collect",
+    "ante-bet"
+  ],
+  "themes": [
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "5,000x Grand Jackpot",
+      "description": "The top prize in the Hold the Jackpot round."
+    },
+    {
+      "name": "Boosted Cash Out",
+      "description": "The Diamond Edition's stronger base-game prize feature."
+    },
+    {
+      "name": "Chance Level",
+      "description": "Raise your bet to get into the bonus more often."
+    }
+  ],
+  "review": "The Diamond Edition of 12 Coins pushes the Grand Jackpot up to 5,000x, one of the biggest prizes in the Coins series. It plays on 12 reels, and the Hold the Jackpot round is still the heart of it.\n\nThe other upgrade is Cash Out. Wazdan calls this the most rewarding version of the feature, built to give you more prizes during the base game, so you're not just waiting for the bonus. Cash Infinity and Chance Level are both here as usual. High volatility, 96.14% RTP. If you like the Coins idea but want a huge top prize on a smaller grid, this is the one.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/12-coins-grand-diamond-edition",
+  "pros": [
+    "Solid 5,000x win ceiling",
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/12-coins-grand-diamond-edition.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/12-coins-grand-diamond-edition"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

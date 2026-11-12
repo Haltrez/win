@@ -1,0 +1,56 @@
+{
+  "slug": "9-lions-hold-the-jackpot",
+  "name": "9 Lions Hold the Jackpot",
+  "provider": "wazdan",
+  "rtp": 96.14,
+  "volatility": "high",
+  "maxWin": 750,
+  "releaseDate": "2024-07-10",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "ante-bet"
+  ],
+  "themes": [
+    "asian",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Hold the Jackpot",
+      "description": "The respin round where you chase the Grand Jackpot."
+    },
+    {
+      "name": "9 Lions Bonus Game",
+      "description": "A second bonus with the One Click 2 Grand feature."
+    },
+    {
+      "name": "Chance Level",
+      "description": "Raise your bet to reach the bonus more often."
+    }
+  ],
+  "review": "Lions under the starlit savannah, with two bonus rounds. Hold the Jackpot is the familiar respin round where you chase the Grand, and the 9 Lions Bonus Game adds One Click 2 Grand, a direct shot at the top prize.\n\nCash Infinity and Chance Level are here as usual. The top prize is 750x, with high volatility and a 96.14% RTP. Its soundtrack earned a SiGMA East Europe Awards 2024 nomination, so it's worth playing with the sound on. Having two separate bonuses gives it more variety than most Wazdan jackpot games.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/9-lions-hold-the-jackpot",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Modest 750x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/9-lions-hold-the-jackpot.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/9-lions-hold-the-jackpot"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

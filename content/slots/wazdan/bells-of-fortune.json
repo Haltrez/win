@@ -1,0 +1,55 @@
+{
+  "slug": "bells-of-fortune",
+  "name": "Bells of Fortune",
+  "provider": "wazdan",
+  "rtp": 96.1,
+  "volatility": "high",
+  "maxWin": 1000,
+  "releaseDate": "2025-08-28",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "ante-bet"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Hold the Jackpot",
+      "description": "4 Bonus symbols on the central reels start 3 respins."
+    },
+    {
+      "name": "Bells of Fortune Bonus",
+      "description": "Fill the Bells Matrix, then pick gates to reveal prizes."
+    },
+    {
+      "name": "Click 2 Grand",
+      "description": "A chance to win the Grand Jackpot straight from the pick bonus."
+    }
+  ],
+  "review": "Bells on 16 separate reels with two different bonus rounds. Land 4 Bonus symbols on the central reels for Hold the Jackpot, where you get 3 respins to fill the grid. Cash Infinity symbols are especially handy on those central four spots because they stick and make the trigger more likely.\n\nThe second bonus comes from filling the Bells Matrix across all reels. You pick gates to reveal prizes, and Click 2 Grand gives a shot at the Grand Jackpot. Both rounds top out at 1,000x. High volatility, 96.1% RTP, and Chance Level offers three bet multipliers. Similar to 12 Bells, but with a pick-style second bonus.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/bells-of-fortune",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Modest 1,000x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/bells-of-fortune.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/bells-of-fortune"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

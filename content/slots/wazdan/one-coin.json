@@ -1,0 +1,56 @@
+{
+  "slug": "one-coin",
+  "name": "One Coin",
+  "provider": "wazdan",
+  "rtp": 96.17,
+  "volatility": "medium",
+  "maxWin": 500,
+  "releaseDate": "2024-10-10",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "multipliers",
+    "ante-bet"
+  ],
+  "themes": [
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "One reel",
+      "description": "The whole game plays on a single reel."
+    },
+    {
+      "name": "Mystery Multiplier",
+      "description": "A Bonus symbol that multiplies bonus wins by up to 10x."
+    },
+    {
+      "name": "500x Grand Jackpot",
+      "description": "The top prize in Hold the Jackpot."
+    }
+  ],
+  "review": "The strangest Coins game of all: the whole thing plays on a single reel. It sounds limiting, but everything still revolves around Hold the Jackpot, with the series' usual build-up squeezed into one column.\n\nThe extra twist is the Mystery Multiplier, a Bonus symbol that can multiply your bonus round wins by up to 10x. The Grand Jackpot is 500x, and Chance Level helps you get into the bonus more easily. Medium volatility, 96.17% RTP. It picked up three industry award nominations, and it's worth a look just to see how different it feels from the bigger-grid Coins games.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/one-coin",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "Modest 500x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/one-coin.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/one-coin"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "hot-slot-platinum-coins",
+  "name": "Hot Slot: Platinum Coins",
+  "provider": "wazdan",
+  "rtp": 96.15,
+  "volatility": "high",
+  "maxWin": 2500,
+  "releaseDate": "2026-02-27",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "ante-bet"
+  ],
+  "themes": [
+    "classic",
+    "fruit"
+  ],
+  "features": [
+    {
+      "name": "2,500x Grand Jackpot",
+      "description": "The top prize in the Hold the Jackpot round."
+    },
+    {
+      "name": "Cash Infinity",
+      "description": "Sticky symbols that raise your chance of reaching the bonus."
+    },
+    {
+      "name": "Chance Level",
+      "description": "Multiply your bet to trigger the bonus more often."
+    }
+  ],
+  "review": "The Platinum step-up from Hot Slot: Gold Coins. Same recipe of retro Hot Slot reels plus the Coins bonus, but the Grand Jackpot jumps to 2,500x and volatility rises to high.\n\nCash Infinity symbols stick to the reels and push you towards Hold the Jackpot, and the Hot Slot symbols are there to keep base-game wins ticking over. Chance Level multiplies your bet in exchange for better bonus odds. 96.15% RTP. Think of it as the bigger-risk, bigger-ceiling version of Gold Coins: longer waits, but a much higher top prize when the bonus fills up.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/hot-slot-platinum-coins",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/hot-slot-platinum-coins.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/hot-slot-platinum-coins"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

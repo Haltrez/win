@@ -1,0 +1,54 @@
+{
+  "slug": "power-of-gods-valhalla-extremely-light",
+  "name": "Power of Gods: Valhalla Extremely Light",
+  "provider": "wazdan",
+  "rtp": 96.23,
+  "volatility": "high",
+  "maxWin": 2145,
+  "releaseDate": "2024-05-23",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Sticky Bonus symbols",
+      "description": "Stick to the reels to help you trigger the bonus."
+    },
+    {
+      "name": "Hold the Jackpot",
+      "description": "The respin bonus with a 1,000x Grand Jackpot."
+    },
+    {
+      "name": "Extremely Light",
+      "description": "Quick loading and battery-friendly on mobile."
+    }
+  ],
+  "review": "Norse gods in Wazdan's light, mobile-first format. It's built for quick loading and less battery drain, so it's a good fit if you mostly play on your phone.\n\nThe gameplay is simple: Sticky Bonus symbols help you into Hold the Jackpot, where the Grand Jackpot is worth 1,000x and the overall max win is 2,145x. High volatility, and a 96.23% RTP that's on the high side for Wazdan. There isn't much more to it than that, which is the point. Compare it with Medusa Extremely Light for a version with a higher ceiling.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/power-of-gods-valhalla-extremely-light",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Modest 2,145x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/power-of-gods-valhalla-extremely-light.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/power-of-gods-valhalla-extremely-light"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "magic-of-the-ring",
+  "name": "Magic Of The Ring",
+  "provider": "wazdan",
+  "rtp": 96.47,
+  "volatility": "high",
+  "maxWin": 5150,
+  "releaseDate": "2013-12-17",
+  "releaseDatePrecision": "day",
+  "winType": "20 lines",
+  "mechanics": [
+    "paylines",
+    "free-spins",
+    "expanding-symbols"
+  ],
+  "themes": [
+    "fantasy"
+  ],
+  "features": [
+    {
+      "name": "Ring scatter",
+      "description": "The ring is both wild and scatter, paying anywhere on the reels."
+    },
+    {
+      "name": "Expanding Bonus Symbol",
+      "description": "A random symbol expands over whole reels during Free Spins."
+    },
+    {
+      "name": "10 Free Spins",
+      "description": "Triggered by 3, 4 or 5 ring scatters."
+    }
+  ],
+  "review": "An old-school book game from 2013, and one of Wazdan's longest-running titles. The ring symbol does double duty: it's the wild, and it pays as a scatter anywhere on the reels.\n\nThree, four or five rings start 10 Free Spins. Before they begin, a Bonus Symbol is picked at random, and during the round it can expand over whole reels and pay in any position. That's where the 5,150x max win comes from. High volatility, and a 96.47% RTP, the highest of any Wazdan game on our site. If you like Book of Dead-style games, this is a worthy older alternative.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/magic-of-the-ring",
+  "pros": [
+    "Solid 5,150x win ceiling",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/magic-of-the-ring.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/magic-of-the-ring"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

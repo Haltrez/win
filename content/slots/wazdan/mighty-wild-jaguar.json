@@ -1,0 +1,56 @@
+{
+  "slug": "mighty-wild-jaguar",
+  "name": "Mighty Wild: Jaguar",
+  "provider": "wazdan",
+  "rtp": 96.14,
+  "volatility": "high",
+  "maxWin": 750,
+  "releaseDate": "2025-01-29",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "ante-bet"
+  ],
+  "themes": [
+    "animals",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Two bonus rounds",
+      "description": "Hold the Jackpot and Wild Rampage, each triggered separately."
+    },
+    {
+      "name": "Sticky to Infinity",
+      "description": "Helps you enter the bonus and boosts wins when you do."
+    },
+    {
+      "name": "Chance Level",
+      "description": "Raise your bet to reach the bonus more easily."
+    }
+  ],
+  "review": "The jungle entry in Wazdan's Mighty Wild series, with two bonus rounds to aim for: Hold the Jackpot and Wild Rampage, the series' signature feature.\n\nCash Infinity and Sticky to Infinity both help you get into the bonus, with Sticky to Infinity also making the wins bigger when you do. Chance Level lets you raise your bet for easier bonus entry. The Grand Jackpot is 750x, on the modest side, with high volatility and a 96.14% RTP. Wazdan doesn't publish much detail about how Wild Rampage plays here, so the demo is the best way to see it. Compare it with Mighty Wild: Gorilla for a version with a bigger ceiling.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/mighty-wild-jaguar",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Modest 750x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/mighty-wild-jaguar.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/mighty-wild-jaguar"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

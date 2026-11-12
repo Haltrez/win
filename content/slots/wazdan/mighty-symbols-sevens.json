@@ -1,0 +1,57 @@
+{
+  "slug": "mighty-symbols-sevens",
+  "name": "Mighty Symbols: Sevens",
+  "provider": "wazdan",
+  "rtp": 96.17,
+  "volatility": "medium-low",
+  "maxWin": 2000,
+  "releaseDate": "2024-04-09",
+  "releaseDatePrecision": "day",
+  "winType": "10 lines",
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "ante-bet"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Mighty Sevens",
+      "description": "Giant wild sevens that substitute for all symbols except scatters."
+    },
+    {
+      "name": "Hold the Jackpot",
+      "description": "The respin bonus, paying up to 2,000x."
+    },
+    {
+      "name": "Chance Level",
+      "description": "Raise your bet for better bonus odds."
+    }
+  ],
+  "review": "Giant sevens that rain down as wilds. The Mighty Sevens substitute for every symbol except scatters, and because they're big, they can cover a lot of the reels at once.\n\nHold the Jackpot is the bonus, with a top prize of 2,000x your bet, and Chance Level helps you get there more often. Wazdan rates it medium-low volatility with a 96.17% RTP, which is unusually calm for a game with a 2,000x ceiling. A good pick if you want jackpot features without the long dry spells of the high-volatility Coins games.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/mighty-symbols-sevens",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "Modest 2,000x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/mighty-symbols-sevens.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/mighty-symbols-sevens"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

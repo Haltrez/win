@@ -1,0 +1,55 @@
+{
+  "slug": "mighty-symbols-jokers",
+  "name": "Mighty Symbols: Jokers",
+  "provider": "wazdan",
+  "rtp": 96.14,
+  "volatility": "high",
+  "maxWin": 750,
+  "releaseDate": "2024-10-03",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "ante-bet"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Jokers Rampage",
+      "description": "A separate joker-themed bonus game."
+    },
+    {
+      "name": "Hold the Jackpot",
+      "description": "The respin bonus with a 750x top prize."
+    },
+    {
+      "name": "Chance Level",
+      "description": "Raise your bet to reach the bonus more often."
+    }
+  ],
+  "review": "The joker joins Wazdan's Mighty Symbols series, with two bonus rounds: the usual Hold the Jackpot and Jokers Rampage, a separate bonus game.\n\nCash Infinity and Chance Level both help you reach the bonus. The top prize is 750x, with high volatility and a 96.14% RTP, so it's a modest ceiling for the risk. Wazdan's description is mostly marketing and doesn't explain how Jokers Rampage actually plays, so the demo is the best way to find out what it does. Pair it with Mighty Symbols: Sevens if you want the lower-volatility version of the series.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/mighty-symbols-jokers",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Modest 750x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/mighty-symbols-jokers.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/mighty-symbols-jokers"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

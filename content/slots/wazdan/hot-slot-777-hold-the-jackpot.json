@@ -1,0 +1,58 @@
+{
+  "slug": "hot-slot-777-hold-the-jackpot",
+  "name": "Hot Slot: 777 Hold the Jackpot",
+  "provider": "wazdan",
+  "rtp": 96.14,
+  "volatility": "high",
+  "maxWin": 1500,
+  "releaseDate": "2025-05-15",
+  "releaseDatePrecision": "day",
+  "winType": "10 lines",
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "ante-bet"
+  ],
+  "themes": [
+    "classic",
+    "fruit"
+  ],
+  "features": [
+    {
+      "name": "Hold the Jackpot",
+      "description": "The respin bonus with a 1,500x Grand Jackpot."
+    },
+    {
+      "name": "Cash Infinity",
+      "description": "Sticky symbols that make the bonus easier to reach."
+    },
+    {
+      "name": "Chance Level",
+      "description": "Raise your bet for better bonus odds."
+    }
+  ],
+  "review": "Retro Hot Slot reels with the Hold the Jackpot bonus bolted on. The base game is simple sevens-and-fruit play, and the bonus is where the jackpots live, topping out at a 1,500x Grand.\n\nCash Infinity symbols stick and make the bonus easier to reach, and Wazdan says each one pays a cash prize whenever the round is activated, so landing them never feels wasted. Chance Level lets you raise your bet for better bonus odds. High volatility, 96.14% RTP. A straightforward choice for players who like old-school reels but get bored without a bonus to aim for.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/hot-slot-777-hold-the-jackpot",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Modest 1,500x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/hot-slot-777-hold-the-jackpot.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/hot-slot-777-hold-the-jackpot"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "mighty-wild-panther-grand-diamond-edition",
+  "name": "Mighty Wild: Panther Grand Diamond Edition",
+  "provider": "wazdan",
+  "rtp": 96.16,
+  "volatility": "high",
+  "maxWin": 5000,
+  "releaseDate": "2024-08-13",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "money-collect",
+    "ante-bet"
+  ],
+  "themes": [
+    "animals",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Wild Rampage",
+      "description": "The Mighty Wild series' signature bonus round."
+    },
+    {
+      "name": "Hold the Jackpot",
+      "description": "The respin bonus, alongside Wild Rampage."
+    },
+    {
+      "name": "Cash Out",
+      "description": "Extra paths to wins in the base game."
+    }
+  ],
+  "review": "The top-tier Panther game in the Mighty Wild series, with a 5,000x max win. Like the other Mighty Wild titles, there are two bonus rounds: Hold the Jackpot and Wild Rampage.\n\nOn top of those, you get Cash Infinity, Chance Level and Cash Out, which adds more ways to win in the base game. It was nominated for Best Slot Design at the SiGMA East Europe Awards 2024, and the art is a big part of the appeal. High volatility, 96.16% RTP. It's the Mighty Wild game with the biggest ceiling, so expect it to be the most patient play too.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/mighty-wild-panther-grand-diamond-edition",
+  "pros": [
+    "Solid 5,000x win ceiling",
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/mighty-wild-panther-grand-diamond-edition.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/mighty-wild-panther-grand-diamond-edition"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

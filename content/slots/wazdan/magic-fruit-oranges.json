@@ -1,0 +1,56 @@
+{
+  "slug": "magic-fruit-oranges",
+  "name": "Magic Fruit$: Oranges",
+  "provider": "wazdan",
+  "rtp": 96.14,
+  "volatility": "medium-low",
+  "maxWin": 100,
+  "releaseDate": "2026-03-26",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "ante-bet"
+  ],
+  "themes": [
+    "fruit",
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Cash Out",
+      "description": "A label on a random reel that stays for up to 5 spins, then pays the prize that lands on it."
+    },
+    {
+      "name": "Cash Infinity",
+      "description": "Symbols that stick until the Hold the Jackpot bonus ends."
+    },
+    {
+      "name": "100x top prize",
+      "description": "One of the lowest ceilings in Wazdan's range, built for steady play."
+    }
+  ],
+  "review": "A very low-key jackpot game. The top prize is only 100x, one of the lowest in Wazdan's range, and the studio rates it medium-low volatility with a 96.14% RTP. This is about small, regular moments, not a big score.\n\nCash Out is the base-game feature: a label can appear on a random reel and stay for up to 5 spins, then pays whatever prize symbol lands on it. Cash Infinity symbols stick until the Hold the Jackpot bonus ends, and Chance Level lets you raise your bet to reach that bonus more often. A relaxed pick for long, low-stakes sessions, and a calmer cousin of Magic Fruit$: Cherries.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/magic-fruit-oranges",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "Modest 100x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/magic-fruit-oranges.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/magic-fruit-oranges"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

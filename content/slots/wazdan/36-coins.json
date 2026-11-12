@@ -1,0 +1,56 @@
+{
+  "slug": "36-coins",
+  "name": "36 Coins",
+  "provider": "wazdan",
+  "rtp": 96.16,
+  "volatility": "high",
+  "maxWin": 2000,
+  "releaseDate": "2024-05-29",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "money-collect",
+    "ante-bet"
+  ],
+  "themes": [
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Sticky to Infinity",
+      "description": "Cluster Collector, Mystery and Jackpot Mystery symbols stick until the next bonus ends."
+    },
+    {
+      "name": "Cluster Collector",
+      "description": "Gathers values from neighbouring symbols on the 6x6 grid."
+    },
+    {
+      "name": "2,000x Grand Jackpot",
+      "description": "The top prize in Hold the Jackpot."
+    }
+  ],
+  "review": "The original 36 Coins, on a 6x6 layout with a 2,000x Grand. Sticky to Infinity keeps Cluster Collector, Mystery and Jackpot Mystery symbols on the reels until the end of the next bonus, so the board slowly builds up before Hold the Jackpot starts.\n\nThe Cluster Collector makes the most of the 36-reel grid by gathering nearby values. Cash Infinity offers larger prizes and easier bonus entry, and Chance Level multiplies your bet for better odds. High volatility, 96.16% RTP. If you want the bigger 3,000x ceiling, 36 Coins x3000 is the follow-up.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/36-coins",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Modest 2,000x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/36-coins.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/36-coins"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

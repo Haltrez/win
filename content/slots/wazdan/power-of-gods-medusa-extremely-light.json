@@ -1,0 +1,54 @@
+{
+  "slug": "power-of-gods-medusa-extremely-light",
+  "name": "Power of Gods: Medusa Extremely Light",
+  "provider": "wazdan",
+  "rtp": 96.18,
+  "volatility": "high",
+  "maxWin": 2500,
+  "releaseDate": "2024-07-03",
+  "releaseDatePrecision": "day",
+  "winType": "10 lines",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Sticky Bonus symbols",
+      "description": "Stay on the reels for up to 9 respins to help trigger the bonus."
+    },
+    {
+      "name": "Hold the Jackpot",
+      "description": "The respin bonus, paying up to 2,500x."
+    },
+    {
+      "name": "Extremely Light",
+      "description": "A lighter version that loads faster and runs smoothly on mobile."
+    }
+  ],
+  "review": "A lighter, faster-loading version of Wazdan's Power of Gods: Medusa, made with mobile in mind. The gameplay is built around Sticky Bonus symbols that stay on the reels for up to 9 respins, raising your chance of triggering Hold the Jackpot.\n\nThat bonus can pay up to 2,500x your bet. High volatility, 96.18% RTP. The \"Extremely Light\" label is about the tech, not the maths: Wazdan made it smoother and less demanding on your phone. A good one if the full-size Wazdan games feel slow on your device, and the sticky symbols give the base game a bit of build-up between bonuses.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/power-of-gods-medusa-extremely-light",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/power-of-gods-medusa-extremely-light.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/power-of-gods-medusa-extremely-light"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

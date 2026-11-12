@@ -1,0 +1,56 @@
+{
+  "slug": "book-of-faith",
+  "name": "Book of Faith",
+  "provider": "wazdan",
+  "rtp": 96.13,
+  "volatility": "high",
+  "maxWin": 5000,
+  "releaseDate": "2023-12-05",
+  "releaseDatePrecision": "day",
+  "winType": "10 lines",
+  "mechanics": [
+    "free-spins",
+    "expanding-symbols",
+    "money-collect",
+    "ante-bet"
+  ],
+  "themes": [
+    "fantasy",
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Expanding symbols",
+      "description": "Fill whole reels in Free Spins, then turn into Bonus Cash symbols."
+    },
+    {
+      "name": "Collectors",
+      "description": "Gather Bonus Cash values and pay them at the end of Free Spins."
+    },
+    {
+      "name": "Collect to Infinity",
+      "description": "Keeps a Collector active for the whole bonus."
+    }
+  ],
+  "review": "A book game with a Wazdan twist. In Free Spins, the expanding symbol fills whole reels like you'd expect, but then it shape-shifts into Bonus Cash symbols that Collectors above the reels can pick up.\n\nCollect to Infinity is the big one: land it below a Collector and that Collector keeps gathering prizes for the rest of the bonus. Together, those features take the max win to 5,000x. Chance Level lets you multiply your bet up to 6x to reach Free Spins more often. High volatility, 96.13% RTP. Its soundtrack won silver at the CasinoBeats Game Developer Awards 2024, so keep the sound on.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/book-of-faith",
+  "pros": [
+    "Solid 5,000x win ceiling",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/book-of-faith.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/book-of-faith"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

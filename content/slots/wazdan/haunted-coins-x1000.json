@@ -1,0 +1,55 @@
+{
+  "slug": "haunted-coins-x1000",
+  "name": "Haunted Coins x1000",
+  "provider": "wazdan",
+  "rtp": 96.18,
+  "volatility": "high",
+  "maxWin": 1000,
+  "releaseDate": "2025-10-21",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "ante-bet"
+  ],
+  "themes": [
+    "horror"
+  ],
+  "features": [
+    {
+      "name": "Hold the Jackpot",
+      "description": "The respin bonus where coins stick and the top prize is a 1,000x Grand Jackpot."
+    },
+    {
+      "name": "Cash Infinity",
+      "description": "Special coins that build momentum towards the bonus round."
+    },
+    {
+      "name": "Chance Level",
+      "description": "Three bet multipliers (x2, x4, x6) that raise the odds of triggering the bonus."
+    }
+  ],
+  "review": "The spooky little sibling of Haunted Coins x5000, built on the same Coins idea: almost everything you do in the base game is about getting into Hold the Jackpot, and Cash Infinity symbols that land along the way help you get there.\n\nThe difference is the ceiling. The Grand Jackpot here is 1,000x, not 5,000x, so it's a smaller, slightly gentler version of the game. Chance Level gives three bet multipliers (x2, x4 or x6) that make the bonus more likely in exchange for a higher stake. Wazdan lists high volatility and a 96.18% RTP. Worth a few demo spins if you like the Coins format but don't want to chase the biggest jackpot.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/haunted-coins-x1000",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Modest 1,000x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/haunted-coins-x1000.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/haunted-coins-x1000"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "sizzling-eggs-grand-platinum-edition",
+  "name": "Sizzling Eggs Grand Platinum Edition",
+  "provider": "wazdan",
+  "rtp": 96.11,
+  "volatility": "very-high",
+  "maxWin": 4000,
+  "releaseDate": "2025-06-26",
+  "releaseDatePrecision": "day",
+  "winType": "5 lines",
+  "mechanics": [
+    "free-spins",
+    "money-collect",
+    "ante-bet"
+  ],
+  "themes": [
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Collector symbol",
+      "description": "Gathers Bonus symbol values during Free Spins and pays at the end."
+    },
+    {
+      "name": "Collect to Infinity",
+      "description": "Keeps a Collector collecting for the whole bonus."
+    },
+    {
+      "name": "Cash Out",
+      "description": "Extra ways to win prizes in the base game."
+    }
+  ],
+  "review": "A free spins game, not a Hold the Jackpot one, which makes it a nice change in Wazdan's line-up. The Collector symbol is the star: it gathers values from Bonus symbols throughout Free Spins and pays the total at the end.\n\nCollect to Infinity upgrades a Collector so it keeps collecting for the rest of the round, and that's where the 4,000x max win comes from. Cash Out adds more chances to win in the base game, and Chance Level's three options make Free Spins easier to trigger. Very high volatility, 96.11% RTP. Expect long quiet spells, then a bonus that can snowball.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/sizzling-eggs-grand-platinum-edition",
+  "pros": [
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/sizzling-eggs-grand-platinum-edition.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/sizzling-eggs-grand-platinum-edition"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

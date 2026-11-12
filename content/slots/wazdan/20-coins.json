@@ -1,0 +1,55 @@
+{
+  "slug": "20-coins",
+  "name": "20 Coins",
+  "provider": "wazdan",
+  "rtp": 96.18,
+  "volatility": "high",
+  "maxWin": 1500,
+  "releaseDate": "2023-12-07",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "ante-bet"
+  ],
+  "themes": [
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Sticky to Infinity",
+      "description": "Mystery and Jackpot Mystery symbols stay until the next bonus ends."
+    },
+    {
+      "name": "Chance Level",
+      "description": "Three levels (2x, 4x, 6x) for easier bonus access."
+    },
+    {
+      "name": "1,500x Grand Jackpot",
+      "description": "The top prize in Hold the Jackpot."
+    }
+  ],
+  "review": "The Coins game that picked up Game of the Year and Rising Star nominations at the SlotsCalendar Awards 2024. It has 20 positions and a 1,500x Grand Jackpot.\n\nSticky to Infinity lets Mystery and Jackpot Mystery symbols stay until the end of the next bonus, so the base game slowly sets up a better Hold the Jackpot round. Cash Infinity does its usual job, and Chance Level comes in three levels, 2x, 4x and 6x, making the bonus easier to reach. High volatility, 96.18% RTP. A solid entry point into the Coins series.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/20-coins",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Modest 1,500x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/20-coins.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/20-coins"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}

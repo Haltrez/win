@@ -1,0 +1,57 @@
+{
+  "slug": "hot-slot-gold-coins",
+  "name": "Hot Slot: Gold Coins",
+  "provider": "wazdan",
+  "rtp": 96.15,
+  "volatility": "medium",
+  "maxWin": 750,
+  "releaseDate": "2025-04-24",
+  "releaseDatePrecision": "day",
+  "winType": "10 lines",
+  "mechanics": [
+    "hold-and-win",
+    "jackpot",
+    "respins",
+    "ante-bet"
+  ],
+  "themes": [
+    "classic",
+    "fruit"
+  ],
+  "features": [
+    {
+      "name": "Cash Infinity",
+      "description": "Red symbols lock onto the reels and bring you closer to the bonus."
+    },
+    {
+      "name": "Hold the Jackpot",
+      "description": "The respin round with a 750x Grand Jackpot on top."
+    },
+    {
+      "name": "Hot Slot symbols",
+      "description": "Extra symbols aimed at more frequent base-game wins."
+    }
+  ],
+  "review": "Two Wazdan series rolled into one: the retro Hot Slot reels and the Coins bonus. Special red Cash Infinity symbols lock onto the reels and keep you close to Hold the Jackpot, while new Hot Slot symbols are there to give the base game more frequent wins.\n\nThe Grand Jackpot is 750x, which is low for a Coins game, and Wazdan rates it medium volatility with a 96.15% RTP. That makes it a softer entry point than the high-volatility Coins titles. Chance Level lets you raise your bet for a better shot at the bonus. If Hot Slot: Diamond Coins feels like too much, this is the gentler version.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/hot-slot-gold-coins",
+  "pros": [
+    "Lower volatility suits longer, steadier sessions",
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "Modest 750x max win",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/hot-slot-gold-coins.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/hot-slot-gold-coins"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-12",
+  "updatedAt": "2026-11-12",
+  "addedAt": "2026-11-12",
+  "author": "editorial-team"
+}
