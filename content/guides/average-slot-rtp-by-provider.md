@@ -59,7 +59,7 @@ Thunderkick's median (96.10%) is normal, but its average is the lowest of the bi
 
 ### Wazdan: the tightest range of all
 
-Outside the big five, Wazdan is even more uniform: its games on our site are all published between 96.04% and 96.41%. Its games differ in how they use Chance Level and Hold the Jackpot, which we cover in our [Wazdan guide](/guides/wazdan-slots-explained).
+Outside the big five, Wazdan is even more uniform: its games on our site are all published between 96.04% and 96.47%. Its games differ in how they use Chance Level and Hold the Jackpot, which we cover in our [Wazdan guide](/guides/wazdan-slots-explained).
 
 ### Hacksaw: high headline numbers, many versions
 
