@@ -127,6 +127,8 @@ export interface Author {
 export interface Guide {
   slug: string;
   title: string;
+  /** Shorter title for search results when `title` is too long (~60 chars max). */
+  metaTitle?: string;
   description: string;
   category: 'basics' | 'strategy' | 'mechanics' | 'responsible-gambling' | 'regional' | 'providers' | 'comparisons';
   author: string;

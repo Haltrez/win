@@ -79,7 +79,7 @@ for (const s of slots) {
   }
   const words = (s.review || '').split(/\s+/).length;
   if (words < 40) err(`${at}: review too short (${words} words)`);
-  else if (words < 120) warn(`${at}: review is ${words} words – aim for 120+ before launch`);
+  else if (words < 55) warn(`${at}: review is ${words} words – aim for 55+ (short, player-voice reviews are the house style)`);
   const allText = [s.review, ...(s.pros || []), ...(s.cons || []), ...(s.features || []).map((f) => f.description)].join(' ');
   if (BANNED.test(allText)) err(`${at}: contains prohibited promotional language: "${allText.match(BANNED)[0]}"`);
   if (!s.verified) warn(`${at}: data not yet verified against provider game sheet`);

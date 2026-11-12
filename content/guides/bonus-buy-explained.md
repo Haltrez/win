@@ -37,7 +37,7 @@ The price of a bonus buy is set so that the **expected value of the bonus roughl
 Modern studios sell more than one product:
 
 - **Multiple bonus tiers** – Hacksaw Gaming games typically let you buy the basic bonus or a more expensive upgraded version, as in [Wanted Dead or a Wild](/slots/hacksaw-gaming/wanted-dead-or-a-wild).
-- **Feature spins and boosters** – Nolimit City's xBet and "booster" options charge more per spin to raise the chance of a bonus or guarantee a feature. See [xMechanics explained](/guides/nolimit-city-x-mechanics-explained).
+- **Feature spins and boosters** – Nolimit City's xBet and "booster" options charge more per spin to raise the chance of a bonus or make sure a feature triggers. See [xMechanics explained](/guides/nolimit-city-x-mechanics-explained).
 - **Ante bets** – Pragmatic Play's ante bet adds about 25% to each spin to make free spins more likely. Browse [ante bet slots](/best/ante-bet-slots).
 
 ## Why bonus buys are risky

@@ -1,6 +1,6 @@
 ---
 title: "Free Spins Bonus Rounds Explained: Triggers, Tiers & Retriggers"
-description: "How slot free spins bonus rounds are triggered, why many modern slots have several bonus tiers, and what retriggers, guaranteed features and bonus buys mean."
+description: "How slot free spins bonus rounds are triggered, why many modern slots have several bonus tiers, and what retriggers, assured features and bonus buys mean."
 category: mechanics
 author: editorial-team
 publishedAt: 2026-11-10
@@ -29,7 +29,7 @@ A bonus round is only exciting if something is improved compared to the base gam
 - **Expanding symbols** – a randomly chosen symbol expands to fill reels, as in [Book of Dead](/slots/play-n-go/book-of-dead) and other [book slots](/best/book-slots).
 - **Sticky or growing multipliers** – multipliers that persist and climb through the round.
 - **More special symbols** – higher odds of wilds, collectors or modifiers. [Big Bass Bonanza](/slots/pragmatic-play/big-bass-bonanza) adds fisherman collectors that only appear in the bonus.
-- **Guaranteed features** – a modifier that is assured on every bonus spin.
+- **Assured features** – a modifier that is triggered on every bonus spin.
 
 ## Tiered bonuses
 

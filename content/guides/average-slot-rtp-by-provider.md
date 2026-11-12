@@ -4,7 +4,7 @@ description: "Which slot providers publish the highest RTPs? We compared the off
 category: providers
 author: editorial-team
 publishedAt: 2026-11-10
-updatedAt: 2026-11-10
+updatedAt: 2026-11-12
 relatedCategories: [high-rtp-slots, 97-rtp-slots, variable-rtp-slots]
 relatedSlots: [1429-uncharted-seas, the-catfather, cats-soup, le-prechaun, sweet-bonanza-pop, the-golden-pot-and-pints]
 faq:

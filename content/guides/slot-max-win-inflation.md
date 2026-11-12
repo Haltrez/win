@@ -1,5 +1,6 @@
 ---
 title: "Max-Win Inflation: How Slot Max Wins Grew from 5,000x to 10,000x+ (Data)"
+metaTitle: "Slot Max-Win Inflation: 5,000x to 10,000x+ (Data)"
 description: "We charted the official max win of 761 slots by release year. The typical cap doubled from 5,000x to 10,000x – and the extreme end keeps climbing."
 category: comparisons
 author: editorial-team

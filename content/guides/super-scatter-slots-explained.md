@@ -1,5 +1,6 @@
 ---
 title: "Super Scatter Slots Explained: How Pragmatic's Super Scatters Pay Up to 100,000x"
+metaTitle: "Super Scatter Slots Explained: Pays Up to 100,000x"
 description: "What a Super Scatter does, how much one, two, three or four pay, and how the Super Scatter editions of Gates of Olympus, Sweet Bonanza and Sugar Rush compare."
 category: mechanics
 author: editorial-team

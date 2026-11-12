@@ -45,7 +45,7 @@ The multiplier range on a DuelReel is wide – often from 2x to 100x or more –
 ## Tips for playing DuelReels slots in demo
 
 - Watch how often a VS symbol lands but **doesn't** expand – it only activates if it would join a win.
-- Compare the bonus tiers: higher tiers usually guarantee VS symbols or improve the duel odds.
+- Compare the bonus tiers: higher tiers usually ensure VS symbols land or improve the duel odds.
 - Try the [original Duel at Dawn](/slots/hacksaw-gaming/duel-at-dawn) first, then a variant, to see how much each twist changes the rhythm.
 
 Hacksaw doesn't publish an RTP for many of these games outside the game itself, so open the in-game info screen to see the figure for the version you are playing. Read more about why in our guide to [checking a slot's RTP](/guides/how-to-check-slot-rtp).

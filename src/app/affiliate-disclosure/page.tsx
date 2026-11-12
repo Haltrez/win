@@ -23,7 +23,7 @@ export default function Page() {
             <li key={c.slug}>
               {c.logo ? (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img className={`casino-logo${c.logoLight ? ' casino-logo-light' : ''}`} src={c.logo} alt="" width={120} height={32} loading="lazy" />
+                <img className={`casino-logo${c.logoLight ? ' casino-logo-light' : ''}`} src={c.logo} alt={`${c.name} logo`} width={120} height={32} loading="lazy" />
               ) : null}
               <strong>{c.name}</strong>
             </li>

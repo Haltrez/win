@@ -5,7 +5,7 @@ import { SITEMAP_IDS } from './sitemap';
 export default function robots(): MetadataRoute.Robots {
   if (SITE.noindex) return { rules: [{ userAgent: '*', disallow: '/' }] };
   return {
-    rules: [{ userAgent: '*', allow: '/', disallow: ['/go/', '/api/', '/favorites'] }],
+    rules: [{ userAgent: '*', allow: '/', disallow: ['/go/', '/api/', '/favorites', '/random'] }],
     sitemap: [`${SITE.url}/sitemap.xml`, ...SITEMAP_IDS.map((id) => `${SITE.url}/sitemap/${id}.xml`)],
     host: SITE.url,
   };

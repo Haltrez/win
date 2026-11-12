@@ -3,7 +3,7 @@ import { buildMetadata } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { ContactForm } from '@/components/ContactForm';
 
-export const metadata = buildMetadata({ title: 'Contact', description: `Contact the ${SITE.name} team – corrections, partnerships and press.`, path: '/contact' });
+export const metadata = buildMetadata({ title: 'Contact', description: `Contact the ${SITE.name} team about data corrections, missing slots, partnerships or press. Send us a message through the form.`, path: '/contact' });
 
 export default function Page() {
   return (

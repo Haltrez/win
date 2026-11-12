@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }) {
   const { slug } = await params;
   const g = getGuide(slug);
   if (!g) return {};
-  return buildMetadata({ title: g.title, description: g.description, path: `/guides/${g.slug}`, type: 'article', publishedTime: g.publishedAt, modifiedTime: g.updatedAt });
+  return buildMetadata({ title: [g.title, ...(g.metaTitle ? [g.metaTitle] : [])], description: g.description, path: `/guides/${g.slug}`, type: 'article', publishedTime: g.publishedAt, modifiedTime: g.updatedAt });
 }
 
 export default async function GuidePage({ params }: { params: Promise<P> }) {
