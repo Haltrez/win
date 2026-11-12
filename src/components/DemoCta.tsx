@@ -7,9 +7,10 @@ export type CtaCasino = { slug: string; name: string; geos: string[]; bonus: Rec
 
 const FIRST_AFTER = 90; // seconds of visible demo play before the first prompt
 const EVERY = 90;        // seconds of visible play between prompts
-const MAX_PER_VISIT = 3; // across all games in one browser session
+const FAST_COUNT = 3;    // the first 3 prompts in a visit come every EVERY seconds…
+const LATER_EVERY = 300; // …after that, one every 5 minutes of play
 const K_COUNT = 'demoCtaShown';
-/** Test mode (?cta-test in the URL): example casino, first prompt after 10 s, then every 20 s. Never shown to normal visitors. */
+/** Test mode (?cta-test in the URL): example casino, first prompt after 10 s, then every 20 s (40 s after the third). Never shown to normal visitors. */
 const TEST_CASINO: CtaCasino = { slug: 'example', name: 'Example Casino (test)', geos: [], bonus: { default: 'Example bonus text – your real offer appears here' }, terms: '18+. Example terms – real significant terms appear here.' };
 export const isCtaTest = () => typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('cta-test');
 
@@ -24,7 +25,8 @@ function readGeo(): string | null {
 
 /**
  * Real-money prompt that pops up over a running demo (inside the demo frame, so it also shows in full screen).
- * Timing counts only visible play time; first after 90 s, then every 90 s, max 3 per visit. Never on page load.
+ * Timing counts only visible play time; first after 90 s, then every 90 s for the first 3 in a visit, then every 5 min.
+ * Never on page load.
  * "Keep playing", the ✕, a click on the backdrop or Esc closes the current prompt only. Only casinos licensed for the visitor's country (geo cookie) are offered; unknown country = no prompt.
  */
 export function DemoCta({ casinos, slotName, slotKey }: { casinos: CtaCasino[]; slotName: string; slotKey: string }) {
@@ -53,14 +55,15 @@ export function DemoCta({ casinos, slotName, slotKey }: { casinos: CtaCasino[]; 
     setCasino({ c: cc, bonus });
     const every = test ? 20 : EVERY;
     const countKey = test ? `${K_COUNT}Test` : K_COUNT;
+    if (!test && Number(ss.get(countKey) || 0) >= FAST_COUNT) next.current = LATER_EVERY;
 
     const id = window.setInterval(() => {
       if (document.visibilityState !== 'visible') return;
-      if (Number(ss.get(countKey) || 0) >= MAX_PER_VISIT) return;
       played.current += 1;
       if (played.current >= next.current) {
-        next.current = played.current + every;
-        ss.set(countKey, String(Number(ss.get(countKey) || 0) + 1));
+        const shown = Number(ss.get(countKey) || 0) + 1;
+        ss.set(countKey, String(shown));
+        next.current = played.current + (shown >= FAST_COUNT ? (test ? 40 : LATER_EVERY) : every);
         setShow(true);
         if (!test) track('demo_cta_view', { slot: slotKey, casino: cc.slug });
       }
