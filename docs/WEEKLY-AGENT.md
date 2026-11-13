@@ -38,7 +38,7 @@ New domain: grow steadily, never in bursts. Hard ceiling for ALL new indexable p
 
 **Focus: smaller providers and less-known games** (Wazdan, Thunderkick's back catalogue, smaller BGaming titles) rather than more famous hits that every big site already covers – that's where a new site can rank.
 
-## 1. New slots (target: 25–45 per week, within the pace ceiling)
+## 1. New slots (target: 20–30 per week – guides take the rest of the pace ceiling)
 
 ```bash
 python3 scripts/import/discover.py --max 12   # 6 providers incl. Wazdan → up to ~70 candidates
@@ -52,6 +52,12 @@ Read `.import/candidates.json`. For every candidate decide **publish** or **skip
   - the official data looks broken (e.g. RTP outside 85–99%, max win of 0).
 - **Near-duplicates** (e.g. "25 Coins x3000" next to "36 Coins x3000"): publish only if you can write a review that is genuinely different (grid size, features, jackpot, volatility); otherwise skip with reason "near-duplicate – needs distinct review" (do NOT add to import-skip.json, so it comes back later).
 - **Publish**: write `.import/reviews.json` (format in `scripts/import/build.py`). For each game:
+  - **Search wording (owner rule, from 16 Nov 2026 – the validator enforces the first three):** players search
+    "<name> slot", "<name> demo", "play <name> free", "<name> free spins", "<name> bonus buy", "<name> rtp", "<name> max win".
+    So: (1) the first sentence names the game, (2) call it a slot at least once ("<name> slot"), (3) mention the free demo,
+    (4) name the provider, (5) use the plain words players use for the mechanics – "free spins", "bonus buy",
+    "hold and win", "multipliers", "megaways" – alongside the provider's trademarked names. Still written like a player,
+    never a keyword list: each phrase once, where it reads naturally.
   - **review**: two short paragraphs, 90–160 words, original wording. Describe the grid, what the main mechanic actually does, the bonus structure and who the game suits. Base everything on the candidate's `text` and official numbers. **Never invent features or numbers.** Mention RTP and volatility only when the provider publishes them. Don't copy marketing sentences.
   - **features**: exactly 3 `{name, description}` pairs, one sentence each.
   - **mechanics / themes**: only values from `src/lib/types.ts`.
@@ -83,9 +89,23 @@ python3 scripts/import/recheck.py --per-provider 15
 - If a changed number also appears in the review text (e.g. "rated 4 out of 5"), fix the wording by hand.
 - Report "source unreachable / no official page" items in the PR; don't guess replacements.
 
-## 3. One new guide or article
+## 3. Guides: 3 per week – 2 long-tail + 1 broad (owner rule, Nov 2026)
 
-Long-tail first (SEO avalanche, owner rule): take the first unchecked topic in the "Long-tail first" section of `content/topic-queue.md`; only when it is empty move to "Broad topics". Title = the exact search phrase, answer it in the first paragraph. Otherwise: take the first unchecked topic in `content/topic-queue.md`, write `content/guides/<slug>.md` (same front-matter as
+Write two topics from the "Long-tail first" section of `content/topic-queue.md` and one from "Broad topics". All three
+count towards the weekly pace ceiling, so slots fill the rest (normally 20–30). If the long-tail section runs out,
+add new specific topics to it first (from Search Console queries the owner shares, "X vs Y" pairs of sequels on the
+site, and data lists only we have).
+
+## 3a. Keyword refresh of existing reviews (20 per week)
+
+Rewrite 20 existing slot reviews to follow the search-wording rule in step 1 (name in the first sentence, "slot",
+the free demo, provider, plain mechanic words). Keep the facts and the player voice; this is an edit, not a new page,
+so it doesn't count towards the pace ceiling. Start with the most-searched games (Pragmatic Play hits, Hacksaw "Le"
+series, Nolimit City classics), then work through the rest. Set `updatedAt` to today on each.
+
+### Guide format (applies to all guides)
+
+For each guide: take the next unchecked topic in its section of `content/topic-queue.md`. Long-tail guides: title = the exact search phrase, answer it in the first paragraph, 500–900 words. Broad guides: take the topic, write `content/guides/<slug>.md` (same front-matter as
 existing guides; 600–1,000 words; link to 3+ real slot pages and 1–2 `/best/` lists that exist), then tick it in the
 queue. Use only data that is on the site or on official provider pages. Add new topic ideas to the end of the queue
 if you notice gaps.

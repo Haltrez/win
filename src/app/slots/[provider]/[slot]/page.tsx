@@ -62,6 +62,17 @@ const MECH_GUIDE: [(s: Slot) => boolean, string][] = [
   [(s) => s.mechanics.includes('free-spins'), 'free-spins-explained'],
   [(s) => (s.maxWin ?? 0) >= 20000, 'slot-max-win-inflation'],
 ];
+/** Features heading in the words players search for ("X free spins and bonus buy"). */
+function featureHeading(s: Slot): string {
+  const parts: string[] = [];
+  if (s.mechanics.includes('free-spins')) parts.push('free spins');
+  if (s.mechanics.includes('hold-and-win')) parts.push('hold and win');
+  if (s.mechanics.includes('bonus-buy')) parts.push('bonus buy');
+  if (!parts.length) return `${s.name} features and bonus rounds`;
+  const list = parts.length === 1 ? parts[0] : `${parts.slice(0, -1).join(', ')} and ${parts[parts.length - 1]}`;
+  return `${s.name} features: ${list}`;
+}
+
 function pickGuides(s: Slot) {
   const all = getGuides();
   const want = [
@@ -110,7 +121,7 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
       <Breadcrumbs items={[{ name: 'Slots', path: '/slots' }, { name: p.name, path: `/providers/${p.slug}` }, { name: s.name, path: url }]} />
       <h1 className="slot-h1">
         {s.name}
-        <span className="slot-kicker">{demo ? <> Demo · free play &amp; review</> : <> Slot review</>} · {p.name}</span>
+        <span className="slot-kicker">{demo ? <> Slot demo · free play &amp; review</> : <> Slot review</>} · {p.name}</span>
       </h1>
 
       <div className="slot-hero">
@@ -135,7 +146,7 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
       <SlotRail slots={related} label={`Slots like ${s.name}`} />
 
       <section className="prose" aria-labelledby="review-h">
-        <h2 id="review-h">{s.name} review</h2>
+        <h2 id="review-h">{s.name} slot review</h2>
         <div dangerouslySetInnerHTML={{ __html: reviewHtml }} />
 
         {s.playNotes ? (
@@ -168,7 +179,7 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
           </>
         ) : null}
 
-        <h2>Features and bonus rounds</h2>
+        <h2>{featureHeading(s)}</h2>
         <dl className="feature-list">
           {s.features.map((f) => (<div key={f.name}><dt>{f.name}</dt><dd>{f.description}</dd></div>))}
         </dl>
