@@ -17,7 +17,7 @@ export function generateMetadata() {
   const n = getSlots().length;
   return buildMetadata({
     title: [`Slot RTP Database: ${n} Slots by RTP, Volatility & Max Win`, `Slot RTP List: ${n} Slots Compared`, 'Slot RTP Database'],
-    description: `Sortable list of ${n} online slots with official RTP, volatility, max win and release year from Pragmatic Play, Hacksaw, Nolimit City, BGaming and more. Free CSV download.`,
+    description: `Check the RTP of ${n} online slots: a sortable list with official RTP, volatility, max win and release year. Filter by provider. Free CSV download.`,
     path: '/slot-database',
   });
 }

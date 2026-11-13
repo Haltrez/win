@@ -114,11 +114,19 @@ export function getCategories(): CategoryDef[] {
   _cats = defs().map((d) => {
     const y = d.yearly ? ` ${SITE.year}` : '';
     // Search-intent overrides for lists Search Console shows us ranking for.
+    if (d.slug === 'highest-max-win-slots') {
+      const n = getSlots().filter(d.filter).length;
+      d = {
+        ...d,
+        metaTitle: `Max Win Slots${y}: Highest Max Wins Ranked`,
+        metaDescription: `The ${n} slots with the biggest max wins, ranked by official max win multiplier, with RTP, volatility and free demos. 18+.`,
+      };
+    }
     if (d.slug === 'bonus-buy-slots') {
       const n = getSlots().filter(d.filter).length;
       d = {
         ...d,
-        metaTitle: `Bonus Buy Slots${y}: Free Demo Play`,
+        metaTitle: `Bonus Buy & Feature Buy Slots${y}: Free Demos`,
         metaDescription: `Compare ${n} bonus buy slots by RTP, volatility and max win, and try the feature buy free in demo mode with play money. No sign-up, 18+.`,
       };
     }
