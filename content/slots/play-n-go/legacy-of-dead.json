@@ -5,7 +5,7 @@
   "rtp": 96.58,
   "volatility": "high",
   "maxWin": 5000,
-  "releaseDate": "2020-01-07",
+  "releaseDate": "2020-01-02",
   "reels": "5x3",
   "paylines": "10",
   "mechanics": [
@@ -38,7 +38,7 @@
   "demoUrl": "https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&gid=legacyofdead&lang=en_GB&practice=1&channel=desktop&demo=2",
   "image": "/thumbs/play-n-go/legacy-of-dead.webp",
   "sources": [
-    "Provider game sheet / in-game info screen (verify before launch)"
+    "https://www.playngo.com/games/legacy-of-dead"
   ],
   "verified": false,
   "lastVerified": null,

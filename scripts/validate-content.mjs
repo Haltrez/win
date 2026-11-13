@@ -77,6 +77,14 @@ for (const s of slots) {
       if (!p?.demoDomains.some((d) => u.hostname === d || u.hostname.endsWith('.' + d))) err(`${at}: demoLink host ${u.hostname} is not an official domain for ${s.provider}`);
     } catch { err(`${at}: demoLink is not a valid URL`); }
   }
+  // Search wording rule for slots added from 16 Nov 2026 (owner rule): the review must use the words players search.
+  if ((s.addedAt || '') >= '2026-11-16') {
+    const r = (s.review || '').toLowerCase();
+    const first = r.split(/(?<=[.!?])\s/)[0] || '';
+    if (!first.includes(s.name.toLowerCase())) err(`${at}: review's first sentence must name the game ("${s.name}")`);
+    if (!/\bslot\b/.test(r)) err(`${at}: review must call it a slot (e.g. "${s.name} slot")`);
+    if (!/\b(demo|free play|play free|for free)\b/.test(r)) err(`${at}: review must mention the free demo`);
+  }
   const words = (s.review || '').split(/\s+/).length;
   if (words < 40) err(`${at}: review too short (${words} words)`);
   else if (words < 55) warn(`${at}: review is ${words} words – aim for 55+ (short, player-voice reviews are the house style)`);

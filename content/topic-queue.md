@@ -3,6 +3,28 @@
 The weekly agent takes the first unchecked item, writes it as `content/guides/<slug>.md`, and ticks it here.
 Add ideas at the bottom. Data-led pieces (marked 📊) double as link-building assets – mention them in the PR.
 
+## Long-tail first (SEO avalanche – owner rule, Nov 2026)
+
+Work through this section before the broad topics below. Each piece answers ONE specific, low-competition search
+(the title is the search phrase), gives the answer in the first paragraph, uses only data on the site or official
+provider pages, and runs 500–900 words. When the owner shares Search Console queries, add the specific ones here.
+
+- [ ] Gates of Olympus vs Gates of Olympus 1000: what actually changes – `gates-of-olympus-vs-gates-of-olympus-1000`
+- [ ] Sweet Bonanza vs Sweet Bonanza 1000: what actually changes – `sweet-bonanza-vs-sweet-bonanza-1000`
+- [ ] Le Bandit vs Le Pharaoh: which Hacksaw Le game suits you – `le-bandit-vs-le-pharaoh`
+- [ ] 📊 Slots with the lowest RTP (official figures, and why it matters) – `lowest-rtp-slots`
+- [ ] 📊 Slots where the bonus triggers most often (BGaming's published bonus frequency) – `slots-with-most-frequent-bonus`
+- [ ] 📊 Every Hacksaw slot's RTP versions, from highest to lowest – `hacksaw-rtp-versions-list`
+- [ ] Thunderkick slots with 97%+ RTP – `highest-rtp-thunderkick-slots`
+- [ ] Sugar Rush vs Sugar Rush 1000: what actually changes – `sugar-rush-vs-sugar-rush-1000`
+- [ ] Wanted Dead or a Wild vs Dead or Alive 2 – `wanted-dead-or-a-wild-vs-dead-or-alive-2`
+- [ ] 📊 Slots that pay most often (BGaming's published hit rates) – `slots-that-pay-most-often`
+- [ ] Starlight Princess vs Starlight Princess 1000: what actually changes – `starlight-princess-vs-starlight-princess-1000`
+- [ ] San Quentin xWays vs San Quentin 2: Death Row – `san-quentin-vs-san-quentin-2`
+- [ ] Wazdan Grand Gold, Platinum and Diamond Editions: what the names mean – `wazdan-editions-explained`
+
+## Broad topics
+
 - [x] 📊 Average RTP by slot provider (BGaming, Pragmatic Play, Nolimit City, Thunderkick, Hacksaw) – `average-slot-rtp-by-provider`
 - [x] 📊 Max-win inflation: how advertised max wins grew by release year – `slot-max-win-inflation`
 - [ ] Megaways vs cluster pays: which suits which player – `megaways-vs-cluster-pays`

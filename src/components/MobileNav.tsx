@@ -27,6 +27,8 @@ export function MobileNav({ items }: { items: { href: string; label: string }[] 
           {items.map((n) => (
             <li key={n.href}><Link href={n.href} aria-current={pathname === n.href ? 'page' : undefined}>{n.label}</Link></li>
           ))}
+          {/* A form, not a link: crawlers and SEO tools don't follow it, so the ever-changing redirect isn't reported as a link. */}
+          <li><form action="/random" method="get"><button type="submit" className="nav-panel-btn">▶ Play a random demo</button></form></li>
         </ul>
       </nav>
     </div>

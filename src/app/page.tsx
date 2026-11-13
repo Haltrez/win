@@ -50,7 +50,7 @@ export default function Home() {
           volatility, max win and how the bonus actually works.
         </p>
         <p className="hero-cta">
-          <a className="btn btn-primary btn-lg" href="/random" rel="nofollow"><span className="demo-play" aria-hidden /> Random demo</a>
+          <form action="/random" method="get" className="random-form"><button type="submit" className="btn btn-primary btn-lg"><span className="demo-play" aria-hidden /> Random demo</button></form>
           <Link className="btn btn-ghost btn-lg" href="/tools/slot-finder">Find my slot</Link>
         </p>
         <ul className="quick" aria-label="Popular lists">

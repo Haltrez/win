@@ -20,7 +20,7 @@ type Def = Omit<CategoryDef, 'metaTitle' | 'metaDescription'> & { metaTitle?: st
 
 const mech: [Mechanic | Mechanic[], string, string, string, string[]?][] = [
   ['megaways', 'megaways-slots', 'Megaways Slots', 'Megaways slots change the number of symbols on each reel every spin, creating up to 117,649 (or more) ways to win. The format was invented by Big Time Gaming and licensed to many other studios.', ['what-is-megaways']],
-  ['bonus-buy', 'bonus-buy-slots', 'Bonus Buy Slots', 'Bonus buy (feature buy) slots let you pay a fixed multiple of your stake to go straight to the bonus round. Bonus buys are banned in some markets, including Great Britain, and they do not change the long-term RTP in your favour.', ['bonus-buy-explained']],
+  ['bonus-buy', 'bonus-buy-slots', 'Bonus Buy Slots', 'Bonus buy (feature buy) slots let you pay a fixed multiple of your stake to go straight to the bonus round. Almost every game below has a free demo, and most official demos let you try the bonus buy with play money, so you can see what a bought bonus really pays before risking anything. Bonus buys are banned in some markets, including Great Britain, and they do not change the long-term RTP in your favour.', ['bonus-buy-explained']],
   ['cluster-pays', 'cluster-pays-slots', 'Cluster Pays Slots', 'Cluster pays slots award wins for groups of matching symbols touching horizontally or vertically, instead of paylines.', ['cluster-pays-explained']],
   ['pay-anywhere', 'pay-anywhere-slots', 'Pay Anywhere Slots', 'Pay-anywhere (scatter pays) slots pay when enough matching symbols land anywhere on the grid – no lines or adjacency needed.'],
   [['tumble', 'cascades'], 'tumbling-reels-slots', 'Tumbling & Cascading Reels Slots', 'In tumbling or cascading slots, winning symbols disappear and new ones drop in, allowing several wins from a single paid spin.'],
@@ -113,6 +113,23 @@ export function getCategories(): CategoryDef[] {
   if (_cats) return _cats;
   _cats = defs().map((d) => {
     const y = d.yearly ? ` ${SITE.year}` : '';
+    // Search-intent overrides for lists Search Console shows us ranking for.
+    if (d.slug === 'highest-max-win-slots') {
+      const n = getSlots().filter(d.filter).length;
+      d = {
+        ...d,
+        metaTitle: `Max Win Slots${y}: Highest Max Wins Ranked`,
+        metaDescription: `The ${n} slots with the biggest max wins, ranked by official max win multiplier, with RTP, volatility and free demos. 18+.`,
+      };
+    }
+    if (d.slug === 'bonus-buy-slots') {
+      const n = getSlots().filter(d.filter).length;
+      d = {
+        ...d,
+        metaTitle: `Bonus Buy & Feature Buy Slots${y}: Free Demos`,
+        metaDescription: `Compare ${n} bonus buy slots by RTP, volatility and max win, and try the feature buy free in demo mode with play money. No sign-up, 18+.`,
+      };
+    }
     return {
       ...d,
       title: d.title + y,
