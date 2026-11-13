@@ -16,10 +16,10 @@ export function Header() {
           <ul className="nav-desktop">
             {NAV.map((n) => <li key={n.href}><Link href={n.href}>{n.label}</Link></li>)}
             <li><Link href="/favorites" aria-label="Your favourite slots">♥</Link></li>
-            <li><a className="btn btn-primary btn-sm" href="/random" rel="nofollow">Random demo</a></li>
+            <li><form action="/random" method="get" className="random-form"><button type="submit" className="btn btn-primary btn-sm">Random demo</button></form></li>
           </ul>
         </nav>
-        <MobileNav items={[...NAV.map((n) => ({ href: n.href, label: n.label })), { href: '/favorites', label: 'Favourites' }, { href: '/random', label: '▶ Play a random demo' }]} />
+        <MobileNav items={[...NAV.map((n) => ({ href: n.href, label: n.label })), { href: '/favorites', label: 'Favourites' }]} />
       </div>
     </header>
   );
