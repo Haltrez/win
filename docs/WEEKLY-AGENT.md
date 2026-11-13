@@ -85,7 +85,7 @@ python3 scripts/import/recheck.py --per-provider 15
 
 ## 3. One new guide or article
 
-Take the first unchecked topic in `content/topic-queue.md`, write `content/guides/<slug>.md` (same front-matter as
+Long-tail first (SEO avalanche, owner rule): take the first unchecked topic in the "Long-tail first" section of `content/topic-queue.md`; only when it is empty move to "Broad topics". Title = the exact search phrase, answer it in the first paragraph. Otherwise: take the first unchecked topic in `content/topic-queue.md`, write `content/guides/<slug>.md` (same front-matter as
 existing guides; 600–1,000 words; link to 3+ real slot pages and 1–2 `/best/` lists that exist), then tick it in the
 queue. Use only data that is on the site or on official provider pages. Add new topic ideas to the end of the queue
 if you notice gaps.
