@@ -15,17 +15,14 @@ export function ContactForm() {
     if (f.get('botcheck')) return;
     setState('sending');
     try {
-      const r = await fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify({
-          access_key: SITE.contactFormKey,
-          subject: `[${SITE.name}] ${f.get('topic')}: ${String(f.get('name') || '').slice(0, 60)}`,
-          from_name: SITE.name,
-          name: f.get('name'), email: f.get('email'), topic: f.get('topic'), message: f.get('message'),
-          page: location.href,
-        }),
-      });
+      // Plain FormData = a "simple" request with no CORS preflight (the method Web3Forms documents).
+      const body = new FormData();
+      body.append('access_key', SITE.contactFormKey);
+      body.append('subject', `[${SITE.name}] ${f.get('topic')}: ${String(f.get('name') || '').slice(0, 60)}`);
+      body.append('from_name', SITE.name);
+      for (const k of ['name', 'email', 'topic', 'message']) body.append(k, String(f.get(k) ?? ''));
+      body.append('page', location.href);
+      const r = await fetch('https://api.web3forms.com/submit', { method: 'POST', body });
       const j = await r.json().catch(() => ({}));
       setState(r.ok && j.success !== false ? 'sent' : 'error');
     } catch { setState('error'); }
@@ -39,7 +36,7 @@ export function ContactForm() {
       <label>Topic<select name="topic" defaultValue={TOPICS[0]}>{TOPICS.map((t) => <option key={t}>{t}</option>)}</select></label>
       <label>Message<textarea name="message" required minLength={10} maxLength={4000} rows={6} /></label>
       <input type="checkbox" name="botcheck" className="hp" tabIndex={-1} autoComplete="off" aria-hidden />
-      <button className="btn btn-primary" disabled={state === 'sending'}>{state === 'sending' ? 'Sending…' : 'Send message'}</button>
+      <button type="submit" className="btn btn-primary" disabled={state === 'sending'}>{state === 'sending' ? 'Sending…' : 'Send message'}</button>
       {state === 'error' ? <p className="form-err" role="alert">Sorry, that didn&apos;t send. Please try again in a minute.</p> : null}
     </form>
   );
