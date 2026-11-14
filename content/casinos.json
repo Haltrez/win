@@ -1,6 +1,7 @@
 [
  {
   "slug": "bitstarz",
+  "promoCode": "SCATTERDROP",
   "name": "BitStarz",
   "logo": "/casinos/bitstarz.svg",
   "licenses": [
@@ -110,6 +111,7 @@
  },
  {
   "slug": "cashy",
+  "promoCode": "SCATTERDROP",
   "name": "Cashy",
   "logo": "/casinos/cashy.webp",
   "logoLight": true,

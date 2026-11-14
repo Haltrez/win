@@ -95,6 +95,8 @@ export interface Casino {
   logo?: string;
   /** The logo is dark artwork: show it on a white plate instead. */
   logoLight?: boolean;
+  /** Promo code from the affiliate manager, shown on the tile with a copy button. */
+  promoCode?: string;
   /** Short ribbon on the casino tile, e.g. "Exclusive". Keep it true. */
   badge?: string;
   /** Tile offer per geo or "default": big headline + small line. Falls back to `bonus`. */

@@ -48,6 +48,7 @@ export function CasinoModuleClient({ casinos, title, context, slotName }: { casi
                 </div>
                 <p className="casino-offer">{o.title}</p>
                 {o.sub ? <p className="casino-offer-sub">{o.sub}</p> : null}
+                {c.promoCode ? <PromoCode code={c.promoCode} /> : null}
                 <a className="btn btn-primary casino-get" href={`/go/${c.slug}?src=${encodeURIComponent(context)}&pos=${i + 1}`} rel="sponsored nofollow noopener" target="_blank" data-event="affiliate_click">
                   Get bonus
                 </a>
@@ -62,5 +63,22 @@ export function CasinoModuleClient({ casinos, title, context, slotName }: { casi
         {casinos.some((c) => c.placeholder) ? ' [Placeholder partners – replace in content/casinos.json before launch.]' : ''}
       </p>
     </section>
+  );
+}
+
+/** Promo code with one-tap copy (falls back to plain text if the clipboard isn't available). */
+function PromoCode({ code }: { code: string }) {
+  const [copied, setCopied] = useState(false);
+  return (
+    <button
+      type="button"
+      className="casino-code"
+      aria-label={`Copy promo code ${code}`}
+      onClick={() => {
+        try { navigator.clipboard?.writeText(code).then(() => { setCopied(true); setTimeout(() => setCopied(false), 1500); }); } catch {}
+      }}
+    >
+      Code: <strong>{code}</strong> <span aria-hidden>{copied ? '✓' : '⧉'}</span>
+    </button>
   );
 }
