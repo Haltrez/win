@@ -47,3 +47,31 @@ provider pages, and runs 500–900 words. When the owner shares Search Console q
 - [ ] Big Bass series compared: every edition's features and max win – `big-bass-series-compared`
 - [x] Super Scatter slots explained (Pragmatic Super Scatter editions) – `super-scatter-slots-explained`
 - [x] Wazdan slots explained: Hold the Jackpot, Chance Level, Cash Infinity – `wazdan-slots-explained`
+
+## BabyLoveGrowth calendar (inspiration, Nov–Dec 2026)
+
+Topics BabyLoveGrowth queued for 16 Nov – 6 Dec (search volume / difficulty from their tool). Written in their style
+(TL;DR, table of contents, comparison table, how to read the numbers, demo first, responsible play, FAQ, sources,
+recommended demos). Drafts live in `content/drafts/`. Avoid publishing a topic BabyLoveGrowth also publishes.
+
+- [ ] frankenstein slot machine – 1,300 / 29
+- [ ] cascading reels slots – 140 / 27
+- [ ] hot hot fruit demo – 480 / 17
+- [ ] betty boop slots – 320 / 7
+- [ ] ultimate fire link china street – 210 / 13
+- [ ] buy feature slots – 210 / 24
+- [ ] buffalo rising slot – 590 / 28
+- [ ] progressive jackpot slots – 6,600 / 15
+- [ ] bonus wheel slots – 1,000 / 7
+- [ ] casino payment methods – 590 / 17
+- [ ] golden chaos – 5,400 / 14
+- [ ] wolf run slots – 880 / 24
+- [ ] cash collect slots – 320 / 27
+- [ ] black widow slot machine – 260 / 27
+- [ ] golden crown – 22,200 / 3
+- [ ] wild symbols slots – 320 / 14
+- [ ] golden treasure – 9,900 / 5
+- [ ] scatter symbol slots – 260 / 16
+- [ ] zeus vs typhon – 590 / 13
+- [ ] lucky little devil – 880 / 9
+- [ ] classic 3 reel slots – 320 / 15
