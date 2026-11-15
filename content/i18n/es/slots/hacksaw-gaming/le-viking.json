@@ -1,0 +1,18 @@
+{
+ "description": "Juega la demo de Le Viking gratis: Smokey con casco vikingo y los Raid Spins de mantener y ganar con tres vidas. 10,000x máx.",
+ "review": "Smokey con casco de cuernos. El plato fuerte son los Raid Spins: consigue seis monedas de cualquier tipo y entras en una ronda de mantener y ganar con tres vidas, donde las monedas, diamantes y tréboles se quedan fijos hasta el final.\n\nCada moneda, diamante o trébol nuevo te devuelve a tres vidas; tres respins vacíos seguidos y se acaba. Al final, monedas y diamantes revelan valores en efectivo (las de bronce pueden valer solo 0.2x) y los tréboles aumentan lo que tienen alrededor. Formato conocido con el toque de Hacksaw. 10,000x máx.",
+ "features": [
+  {
+   "name": "Raid Spins",
+   "description": "Seis monedas activan una ronda de respins fijos con tres vidas que se recargan."
+  },
+  {
+   "name": "Tipos de moneda",
+   "description": "Monedas de bronce, plata y oro, además de diamantes, revelan valores en efectivo."
+  },
+  {
+   "name": "Tréboles",
+   "description": "Los tréboles verdes y dorados aumentan el valor de las monedas cercanas o de todas."
+  }
+ ]
+}
