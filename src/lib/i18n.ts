@@ -15,7 +15,7 @@ export const isLocale = (x: string): x is Locale => (LOCALES as readonly string[
 export const HREFLANG: Record<Locale, string> = { es: 'es', pt: 'pt-BR', de: 'de', sv: 'sv' };
 
 /** Countries where our current (Curaçao-licensed) partners are offshore operators: show the offshore warning there. */
-export const OFFSHORE_WARNING_COUNTRIES = ['ES', 'CO', 'BR', 'DE', 'SE', 'AU', 'GR', 'GE', 'CY'];
+export const OFFSHORE_WARNING_COUNTRIES: string[] = []; // notice switched off by the owner (Nov 2026)
 
 export type SlotTranslation = {
   /** Optional search title; falls back to the template. */
