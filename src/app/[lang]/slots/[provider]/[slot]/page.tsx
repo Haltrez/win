@@ -19,7 +19,7 @@ export function generateStaticParams(): Params[] {
   return LOCALES.flatMap((lang) => translatedSlots(lang).map((s) => ({ lang, provider: s.provider, slot: s.slug })));
 }
 
-const OG_LOCALE: Record<Locale, string> = { es: 'es_ES', de: 'de_DE', sv: 'sv_SE' };
+const OG_LOCALE: Record<Locale, string> = { es: 'es_ES', pt: 'pt_BR', de: 'de_DE', sv: 'sv_SE' };
 
 function load(lang: string, provider: string, slot: string) {
   if (!isLocale(lang)) return null;

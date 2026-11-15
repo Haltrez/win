@@ -7,15 +7,15 @@ import fs from 'node:fs';
 import path from 'node:path';
 import type { Slot } from './types';
 
-export const LOCALES = ['es', 'de', 'sv'] as const;
+export const LOCALES = ['es', 'pt', 'de', 'sv'] as const;
 export type Locale = (typeof LOCALES)[number];
 export const isLocale = (x: string): x is Locale => (LOCALES as readonly string[]).includes(x);
 
 /** hreflang codes: Spanish targets Spain and Latin America, so it stays language-only. */
-export const HREFLANG: Record<Locale, string> = { es: 'es', de: 'de', sv: 'sv' };
+export const HREFLANG: Record<Locale, string> = { es: 'es', pt: 'pt-BR', de: 'de', sv: 'sv' };
 
 /** Countries where our current (Curaçao-licensed) partners are offshore operators: show the offshore warning there. */
-export const OFFSHORE_WARNING_COUNTRIES: Record<string, Locale> = { ES: 'es', DE: 'de', SE: 'sv' };
+export const OFFSHORE_WARNING_COUNTRIES = ['ES', 'CO', 'BR', 'DE', 'SE', 'AU'];
 
 export type SlotTranslation = {
   /** Optional search title; falls back to the template. */
