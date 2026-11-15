@@ -317,7 +317,7 @@
    "default": "https://mo.zenlaneo.com/redirect.aspx?pid=422914&bid=1483"
   },
   "bonus": {
-   "default": "Welcome bonus for new players – see PlayAmo's site for the current offer and terms"
+   "default": "Welcome offer: €200 bonus + 50 free spins for new players"
   },
   "terms": "18+. New players only. T&Cs apply.",
   "providers": [
@@ -339,8 +339,8 @@
   ],
   "offer": {
    "default": {
-    "title": "Welcome bonus",
-    "sub": "New players · see the casino for current terms"
+    "title": "€200 bonus",
+    "sub": "+ 50 free spins welcome offer"
    }
   }
  }
