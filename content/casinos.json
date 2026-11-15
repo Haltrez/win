@@ -307,6 +307,7 @@
  {
   "slug": "playamo",
   "name": "PlayAmo",
+  "logo": "/casinos/playamo.webp",
   "licenses": [
    "Curaçao (see the casino's site for licence details)"
   ],
@@ -314,7 +315,10 @@
    "*"
   ],
   "links": {
-   "default": "https://mo.zenlaneo.com/redirect.aspx?pid=422914&bid=1483"
+   "default": "https://mo.zenlaneo.com/redirect.aspx?pid=422914&bid=1483",
+   "DE": "https://mo.zenlaneo.com/redirect.aspx?pid=422914&bid=1511&lpid=87",
+   "AT": "https://mo.zenlaneo.com/redirect.aspx?pid=422914&bid=1511&lpid=87",
+   "CH": "https://mo.zenlaneo.com/redirect.aspx?pid=422914&bid=1511&lpid=87"
   },
   "bonus": {
    "default": "Welcome offer: €200 bonus + 50 free spins for new players"
