@@ -6,6 +6,7 @@ import { getAuthor, getCasinosForProvider, getComparisons, getGuides, getProvide
 import { getCategoriesForSlot } from '@/lib/categories';
 import { abs, buildMetadata, hasDemo, slotDescription, slotTitle } from '@/lib/seo';
 import { slotGame } from '@/lib/schema';
+import { HREFLANG, localeSlotUrl, slotLanguages } from '@/lib/i18n';
 import { fmtDate, fmtRelease, fmtRtp, fmtX, VOLATILITY_LABEL, volScore } from '@/lib/format';
 import type { Slot } from '@/lib/types';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
@@ -33,7 +34,8 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   const s = getSlot(provider, slot);
   const p = getProvider(provider);
   if (!s || !p) return {};
-  return buildMetadata({ title: slotTitle(s, p), absoluteTitle: true, description: slotDescription(s, p), path: slotUrl(s), type: 'article', modifiedTime: s.updatedAt, publishedTime: s.releaseDate ?? undefined, image: abs(`/og/${s.provider}/${s.slug}`), imageAlt: `${s.name} by ${p.name}: RTP, volatility and max win` });
+  const langs = slotLanguages(s);
+  return buildMetadata({ title: slotTitle(s, p), absoluteTitle: true, description: slotDescription(s, p), path: slotUrl(s), type: 'article', modifiedTime: s.updatedAt, publishedTime: s.releaseDate ?? undefined, image: abs(`/og/${s.provider}/${s.slug}`), imageAlt: `${s.name} by ${p.name}: RTP, volatility and max win`, ...(langs.length ? { languages: { en: slotUrl(s), 'x-default': slotUrl(s), ...Object.fromEntries(langs.map((l) => [HREFLANG[l], localeSlotUrl(l, s)])) } } : {}) });
 }
 
 function volatilityNote(s: Slot) {

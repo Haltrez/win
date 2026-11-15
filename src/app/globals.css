@@ -709,3 +709,10 @@ h1 { letter-spacing: -.03em; }
   .dcp-terms { font-size: .65rem; }
 }
 @media (prefers-reduced-motion: reduce) { .dcp, .dcp-card { animation: none; } }
+
+/* Translated sections: short menu, always visible */
+.lang-nav { display: flex; list-style: none; margin: 0; padding: 0; gap: 16px; }
+.offshore-notice { margin: 0 0 14px; }
+.lang-slot-list { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 14px; }
+.lang-slot-list a { display: flex; flex-direction: column; gap: 4px; color: var(--text); text-decoration: none; }
+.lang-slot-list img { width: 100%; height: auto; border-radius: 10px; }

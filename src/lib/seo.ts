@@ -38,6 +38,10 @@ interface MetaInput {
   image?: string;
   imageSize?: [number, number];
   imageAlt?: string;
+  /** hreflang → path for every language version of this page (include 'en' and 'x-default'). */
+  languages?: Record<string, string>;
+  /** Open Graph locale, e.g. 'es_ES'. Defaults to en_GB. */
+  ogLocale?: string;
 }
 
 export function buildMetadata(m: MetaInput): Metadata {
@@ -49,7 +53,7 @@ export function buildMetadata(m: MetaInput): Metadata {
   return {
     title: fit.absolute ? { absolute: title } : title,
     description: clip(m.description),
-    alternates: { canonical: url },
+    alternates: { canonical: url, ...(m.languages ? { languages: Object.fromEntries(Object.entries(m.languages).map(([k, v]) => [k, abs(v)])) } : {}) },
     robots: noindex ? { index: false, follow: true } : { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
     openGraph: {
       title,
@@ -57,7 +61,7 @@ export function buildMetadata(m: MetaInput): Metadata {
       url,
       siteName: SITE.name,
       type: m.type ?? 'website',
-      locale: 'en_GB',
+      locale: m.ogLocale ?? 'en_GB',
       images: [{ url: ogImage, width: m.imageSize?.[0] ?? 1200, height: m.imageSize?.[1] ?? 630, ...(m.imageAlt ? { alt: m.imageAlt } : {}) }],
       ...(m.type === 'article' ? { publishedTime: m.publishedTime, modifiedTime: m.modifiedTime } : {}),
     },

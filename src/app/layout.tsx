@@ -2,8 +2,6 @@ import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import { Inter, Sora } from 'next/font/google';
 import { SITE } from '@/lib/config';
-import { Header } from '@/components/Header';
-import { Footer } from '@/components/Footer';
 import { AgeGate, AGE_GATE_BOOT } from '@/components/AgeGate';
 import { Analytics } from '@/components/Analytics';
 import { JsonLd } from '@/components/JsonLd';
@@ -30,9 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: AGE_GATE_BOOT }} />
         <link rel="alternate" type="application/rss+xml" title={`${SITE.name} – new slots and guides`} href="/feed.xml" />
         <a href="#main" className="skip">Skip to content</a>
-        <Header />
-        <main id="main" className="container">{children}</main>
-        <Footer />
+        {children}
         <AgeGate />
         <Analytics />
         <JsonLd data={[organization(), website()]} />
