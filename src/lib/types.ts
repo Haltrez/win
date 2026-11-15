@@ -103,7 +103,7 @@ export interface Casino {
   offer?: Record<string, { title: string; sub?: string }>;
   /** Licences held, e.g. "UKGC 00000", "MGA/B2C/000/0000". Verify before publishing. */
   licenses: string[];
-  /** ISO-3166 alpha-2 countries where the operator is licensed AND you hold an affiliate agreement. */
+  /** ISO-3166 alpha-2 countries where the operator is licensed AND you hold an affiliate agreement. "*" = every country. */
   geos: string[];
   /** Affiliate tracking URLs per geo; "default" used when geo allowed but no specific link. */
   links: Record<string, string>;
