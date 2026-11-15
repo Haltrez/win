@@ -16,7 +16,7 @@ const EN: CasinoLabels = {
   noPartner: "We don't have a licensed partner casino carrying this game yet. You can still play it in free demo mode on this page.",
 };
 /** Visitors from these countries see the offshore notice (our partners are not licensed there). */
-const OFFSHORE_COUNTRIES = ['ES', 'CO', 'BR', 'DE', 'SE', 'AU'];
+const OFFSHORE_COUNTRIES = ['ES', 'CO', 'BR', 'DE', 'SE', 'AU', 'GR', 'GE'];
 
 function readGeo(): string | null {
   const m = document.cookie.match(/(?:^|; )geo=([^;]+)/);
