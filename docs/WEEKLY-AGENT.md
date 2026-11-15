@@ -17,6 +17,13 @@ pip install Pillow   # only if `python3 -c "import PIL"` fails
 
 The deploy branch is `claude/slots-demo-review-site-x1rmh3` (Vercel deploys every push to it).
 
+### This week only (run of 16 Nov 2026) – owner schedule
+
+Publish the prepared branch (below) and **nothing else new**: skip step 1 imports, step 3 guides (the branch already
+has 4) and step 3a review refreshes. The Spanish section launches separately on Wed 18 Nov, and the pace for the week
+is full. Still run the data re-check (step 2), quality gate, publish and report. From the run of 23 Nov, the normal
+weekly routine below applies again, plus step 3c.
+
 ### Prepared content branch (check every week)
 
 If `origin/claude/next-week-content` exists and is not yet merged into the deploy branch
@@ -109,6 +116,21 @@ For each guide: take the next unchecked topic in its section of `content/topic-q
 existing guides; 600–1,000 words; link to 3+ real slot pages and 1–2 `/best/` lists that exist), then tick it in the
 queue. Use only data that is on the site or on official provider pages. Add new topic ideas to the end of the queue
 if you notice gaps.
+
+## 3c. Spanish pages (from 23 Nov 2026, once `src/lib/i18n.ts` exists on the deploy branch)
+
+Add **~10 Spanish game pages a week** (they count towards the pace ceiling). For each, write
+`content/i18n/es/slots/<provider>/<slug>.json` with `description`, `review` and `features` translated from the English
+slot. Rules:
+- Pick popular games that have a demo and no Spanish page yet (Pragmatic Play, Hacksaw, Nolimit City, BGaming hits first).
+- Neutral Latin American Spanish ("tragamonedas", "giros gratis", "compra de bono"); keep numbers exactly as the
+  English data, in the same format (96.5%, 5,000x).
+- `description` ≤158 characters, starting "Juega la demo de <name> gratis" and naming the main feature.
+- `review`: a faithful, natural translation of the English review (same facts, nothing invented). Name the game in the
+  first sentence and say "tragamonedas" at least once.
+- No promise words ("garantizado", "sin riesgo", "dinero fácil").
+- Build and check the page renders at `/es/slots/<provider>/<slug>`; it appears in `/sitemap/es.xml` automatically.
+Other languages (pt, de, sv) are added only when the owner asks.
 
 ## 3b. Clips check
 
