@@ -13,7 +13,7 @@ export function BestCasinoButton({ casinos, label, src, slot }: { casinos: C[]; 
     const geo = readGeo();
     if (!geo) return;
     const region = geo.split('-')[0];
-    setC(casinos.find((x) => x.geos.includes(geo) || x.geos.includes(region)) ?? null);
+    setC(casinos.find((x) => x.geos.includes('*') || x.geos.includes(geo) || x.geos.includes(region)) ?? null);
   }, [casinos]);
   if (!c) return null;
   return (

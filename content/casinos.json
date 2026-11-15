@@ -303,5 +303,45 @@
     "sub": "+ 150 free spins"
    }
   }
+ },
+ {
+  "slug": "playamo",
+  "name": "PlayAmo",
+  "licenses": [
+   "Curaçao (see the casino's site for licence details)"
+  ],
+  "geos": [
+   "*"
+  ],
+  "links": {
+   "default": "https://mo.zenlaneo.com/redirect.aspx?pid=422914&bid=1483"
+  },
+  "bonus": {
+   "default": "Welcome offer: €200 bonus + 50 free spins for new players"
+  },
+  "terms": "18+. New players only. T&Cs apply.",
+  "providers": [
+   "pragmatic-play",
+   "bgaming",
+   "play-n-go",
+   "nolimit-city",
+   "thunderkick",
+   "wazdan",
+   "push-gaming",
+   "relax-gaming",
+   "big-time-gaming",
+   "netent",
+   "hacksaw-gaming"
+  ],
+  "rating": 0,
+  "pros": [
+   "Large slot library from major studios"
+  ],
+  "offer": {
+   "default": {
+    "title": "€200 bonus",
+    "sub": "+ 50 free spins welcome offer"
+   }
+  }
  }
 ]

@@ -32,7 +32,7 @@ export function CasinoModuleClient({ casinos, title, context, slotName, t }: { c
   useEffect(() => { setGeo(readGeo()); setReady(true); }, []);
   const region = geo?.split('-')[0];
   // Offers are shown only once the visitor's country is known and a casino accepts it – never by default.
-  const list = !FEATURES.geoFilter ? casinos : ready && geo ? casinos.filter((c) => c.geos.includes(geo) || (region && c.geos.includes(region))) : [];
+  const list = !FEATURES.geoFilter ? casinos : ready && geo ? casinos.filter((c) => c.geos.includes('*') || c.geos.includes(geo) || (region && c.geos.includes(region))) : [];
   if (!enabled) return null;
   const bonusFor = (c: Casino) => (geo && c.bonus[geo]) || (region && c.bonus[region]) || c.bonus.default;
   const offerFor = (c: Casino) => (geo && c.offer?.[geo]) || (region && c.offer?.[region]) || c.offer?.default || { title: bonusFor(c) };
