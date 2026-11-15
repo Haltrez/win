@@ -6,11 +6,13 @@ import { getCasinosForProvider, getProvider, getSlot, slotUrl } from '@/lib/data
 import { abs, buildMetadata, hasDemo } from '@/lib/seo';
 import { fmtRelease, fmtRtp, fmtX } from '@/lib/format';
 import { HREFLANG, LOCALES, getSlotTranslation, isLocale, localeSlotUrl, slotLanguages, translatedSlots, type Locale } from '@/lib/i18n';
-import { DICT, f } from '@/lib/i18n-dict';
+import { DICT, f, localizeCasino } from '@/lib/i18n-dict';
 import { JsonLd } from '@/components/JsonLd';
 import { DemoEmbed } from '@/components/DemoEmbed';
 import { CasinoModule } from '@/components/CasinoModule';
 import { FAQ } from '@/components/FAQ';
+import { getLists } from '@/lib/i18n-lists';
+import { getCategory, getCategorySlots } from '@/lib/categories';
 
 type Params = { lang: string; provider: string; slot: string };
 export const dynamicParams = false;
@@ -42,9 +44,10 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   const d = load(lang, provider, slot);
   if (!d) return {};
   const { s, p, tr, t } = d;
-  const title = tr.title ?? f(t.titleTemplate, { name: s.name, rtp: s.rtp != null ? fmtRtp(s.rtp) : '–', max: s.maxWin ? fmtX(s.maxWin) : '–' });
+  const v = { name: s.name, provider: p.name, rtp: s.rtp != null ? fmtRtp(s.rtp) : '–', max: s.maxWin ? fmtX(s.maxWin) : '–' };
+  const titles = [...(tr.title ? [tr.title] : []), ...t.titleCandidates.filter((c) => s.rtp != null || !c.includes('{rtp}')).map((c) => f(c, v))];
   return buildMetadata({
-    title: [title, `${s.name} – ${t.kicker}`], absoluteTitle: true,
+    title: titles, absoluteTitle: true,
     description: tr.description || f(t.descTemplate, { name: s.name, provider: p.name }),
     path: localeSlotUrl(d.lang, s), type: 'article', modifiedTime: s.updatedAt,
     image: abs(`/og/${s.provider}/${s.slug}`), languages: languages(s), ogLocale: OG_LOCALE[d.lang],
@@ -56,7 +59,7 @@ export default async function LocalSlotPage({ params }: { params: Promise<Params
   const d = load(lang, provider, slot);
   if (!d) notFound();
   const { s, p, tr, t } = d;
-  const casinos = getCasinosForProvider(p.slug);
+  const casinos = getCasinosForProvider(p.slug).map((c) => localizeCasino(c, t));
   const demo = hasDemo(s);
   const vol = s.volatility ? t.vol[s.volatility] ?? s.volatility : null;
   const others = translatedSlots(d.lang).filter((x) => !(x.provider === s.provider && x.slug === s.slug)).slice(0, 12)
@@ -77,6 +80,11 @@ export default async function LocalSlotPage({ params }: { params: Promise<Params
     ...(s.bonusRate ? [[t.stats.bonusFreq, f(t.stats.bonusFreqVal, { n: Math.round(s.bonusRate) })] as [string, string]] : []),
     [t.stats.bonusBuy, s.mechanics.includes('bonus-buy') ? t.stats.bonusBuyYes : t.stats.no],
   ];
+  const mechWords = (['free-spins', 'hold-and-win', 'bonus-buy', 'megaways'] as const).filter((m) => s.mechanics.includes(m)).map((m) => t.mech[m]);
+  const featureHeading = () => (mechWords.length
+    ? f(t.mech.featuresWith, { name: s.name, list: mechWords.length === 1 ? mechWords[0] : `${mechWords.slice(0, -1).join(', ')} ${t.mech.and} ${mechWords[mechWords.length - 1]}` })
+    : f(t.slot.featuresH, { name: s.name }));
+  const inLists = getLists(d.lang).filter((l) => { const c = getCategory(l.base); return c && getCategorySlots(c).some((x) => x.provider === s.provider && x.slug === s.slug); });
   const crumbs = [{ name: t.home, path: `/${d.lang}` }, { name: s.name, path: localeSlotUrl(d.lang, s) }];
 
   return (
@@ -116,7 +124,7 @@ export default async function LocalSlotPage({ params }: { params: Promise<Params
 
         {tr.features.length ? (
           <>
-            <h2>{f(t.slot.featuresH, { name: s.name })}</h2>
+            <h2>{featureHeading()}</h2>
             <dl className="feature-list">{tr.features.map((x) => <div key={x.name}><dt>{x.name}</dt><dd>{x.description}</dd></div>)}</dl>
           </>
         ) : null}
@@ -128,6 +136,13 @@ export default async function LocalSlotPage({ params }: { params: Promise<Params
       </section>
 
       <FAQ items={faq} title={f(t.slot.faqH, { name: s.name })} />
+
+      {inLists.length ? (
+        <section>
+          <h2>{t.listsH}</h2>
+          <ul className="inline-links">{inLists.map((l) => <li key={l.slug}><Link href={`/${d.lang}/${l.slug}`}>{l.h1}</Link></li>)}</ul>
+        </section>
+      ) : null}
 
       {others.length ? (
         <section>

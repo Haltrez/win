@@ -5,6 +5,8 @@ import { buildMetadata } from '@/lib/seo';
 import { fmtRtp, fmtX } from '@/lib/format';
 import { HREFLANG, activeLocales, isLocale, localeSlotUrl, translatedSlots } from '@/lib/i18n';
 import { DICT } from '@/lib/i18n-dict';
+import { getLists } from '@/lib/i18n-lists';
+import { FAQ } from '@/components/FAQ';
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
@@ -28,6 +30,12 @@ export default async function LangHome({ params }: { params: Promise<{ lang: str
         <h1>{t.homeH1}</h1>
         <p className="lead">{t.homeIntro}</p>
       </section>
+      {getLists(lang).length ? (
+        <>
+          <h2>{t.listsH}</h2>
+          <ul className="inline-links">{getLists(lang).map((l) => <li key={l.slug}><Link href={`/${lang}/${l.slug}`}>{l.h1}</Link></li>)}</ul>
+        </>
+      ) : null}
       <h2>{t.homeListH}</h2>
       {slots.length ? (
         <ul className="lang-slot-list">
@@ -45,6 +53,7 @@ export default async function LangHome({ params }: { params: Promise<{ lang: str
           ))}
         </ul>
       ) : null}
+      <FAQ items={t.homeFaq} title={t.faqTitle} />
     </>
   );
 }

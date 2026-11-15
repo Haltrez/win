@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { FEATURES, SITE } from '@/lib/config';
 import { getGuides, getLetters, getProviders, getSlots, getSlotsByProvider, slotUrl } from '@/lib/data';
 import { getCategories, getCategorySlots, isIndexable } from '@/lib/categories';
+import { getLists, listLanguages } from '@/lib/i18n-lists';
 import { HREFLANG, activeLocales, isLocale, localeSlotUrl, slotLanguages, translatedSlots } from '@/lib/i18n';
 
 /** Split sitemaps by content type so indexing can be monitored per type in Search Console. */
@@ -24,6 +25,7 @@ export default async function sitemap(props: { id: Promise<string> }): Promise<M
     const home = { en: u('/'), ...Object.fromEntries(activeLocales().map((l) => [HREFLANG[l], u(`/${l}`)])) };
     return [
       { url: u(`/${id}`), lastModified: latest, changeFrequency: 'weekly', priority: 0.8, alternates: { languages: home } },
+      ...getLists(id).map((l) => ({ url: u(`/${id}/${l.slug}`), lastModified: latest, changeFrequency: 'weekly' as const, priority: 0.8, alternates: { languages: Object.fromEntries(Object.entries(listLanguages(l.base)).filter(([k]) => k !== 'x-default').map(([k, v]) => [k, u(v)])) } })),
       ...translatedSlots(id).map((x) => {
         const s = slots.find((y) => y.provider === x.provider && y.slug === x.slug)!;
         const langs = { en: u(slotUrl(s)), ...Object.fromEntries(slotLanguages(s).map((l) => [HREFLANG[l], u(localeSlotUrl(l, s))])) };
