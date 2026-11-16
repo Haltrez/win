@@ -6,7 +6,7 @@ import { FEATURES } from '@/lib/config';
 /** Interface text; localised pages pass their own (see lib/i18n-dict.ts). */
 export type CasinoLabels = { title?: string; getBonus: string; tc: string; checking: string; none: string; partners: string; disclosure: string; note: string; playResponsibly: string; code: string; copy: string; offshoreTitle: string; offshoreText: string; noPartner?: string };
 const EN: CasinoLabels = {
-  getBonus: 'Get bonus', tc: '18+ | T&Cs apply', checking: 'Checking which casinos are available in your country…',
+  getBonus: 'Claim bonus', tc: '18+ | T&Cs apply', checking: 'Checking which casinos are available in your country…',
   none: "None of our casino partners accept players from your location, so we don't show offers here. You can still play every slot in free demo mode.",
   partners: 'Our partners', disclosure: 'Affiliate disclosure',
   note: "We may earn a commission from these links. Availability and bonuses depend on your country; check each casino's terms. Real-money play involves risk – you can lose your stake.",
