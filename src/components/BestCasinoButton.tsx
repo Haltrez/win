@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { FEATURES } from '@/lib/config';
+import { geoAllowed, geoExcluded } from '@/lib/geo-match';
 
 type C = { slug: string; name: string; geos: string[] };
 const readGeo = () => { const m = document.cookie.match(/(?:^|; )geo=([^;]+)/); return m ? decodeURIComponent(m[1]) : null; };
@@ -9,11 +10,11 @@ const readGeo = () => { const m = document.cookie.match(/(?:^|; )geo=([^;]+)/); 
 export function BestCasinoButton({ casinos, label, src, slot }: { casinos: C[]; label: string; src: string; slot?: string }) {
   const [c, setC] = useState<C | null>(null);
   useEffect(() => {
-    if (!FEATURES.geoFilter) { setC(casinos[0] ?? null); return; }
     const geo = readGeo();
+    if (!FEATURES.geoFilter) { setC(casinos.find((x) => !geoExcluded(x.geos, geo?.split('-')[0], geo)) ?? null); return; }
     if (!geo) return;
     const region = geo.split('-')[0];
-    setC(casinos.find((x) => x.geos.includes('*') || x.geos.includes(geo) || x.geos.includes(region)) ?? null);
+    setC(casinos.find((x) => geoAllowed(x.geos, region, geo)) ?? null);
   }, [casinos]);
   if (!c) return null;
   return (

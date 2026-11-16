@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { track } from './Analytics';
 import { FEATURES } from '@/lib/config';
+import { geoAllowed, geoExcluded } from '@/lib/geo-match';
 
 export type CtaCasino = { slug: string; name: string; geos: string[]; bonus: Record<string, string>; terms: string };
 
@@ -47,7 +48,7 @@ export function DemoCta({ casinos, slotName, slotKey }: { casinos: CtaCasino[]; 
       const geo = readGeo() || '';
       if (!casinos.length || (FEATURES.geoFilter && !geo)) return;
       const region = geo.split('-')[0];
-      c = FEATURES.geoFilter ? casinos.find((x) => x.geos.includes('*') || x.geos.includes(geo) || x.geos.includes(region)) : casinos[0];
+      c = FEATURES.geoFilter ? casinos.find((x) => geoAllowed(x.geos, region, geo)) : casinos.find((x) => !geoExcluded(x.geos, region, geo));
       if (!c) return;
       bonus = (geo && c.bonus[geo]) || (region && c.bonus[region]) || c.bonus.default;
     }

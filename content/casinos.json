@@ -1,351 +1,405 @@
 [
- {
-  "slug": "bitstarz",
-  "promoCode": "SCATTERDROP",
-  "name": "BitStarz",
-  "logo": "/casinos/bitstarz.svg",
-  "licenses": [
-   "Curaçao Gaming Authority, OGL/2024/165/0185 (Gareton B.V.)"
-  ],
-  "geos": [
-   "CA-AB",
-   "CA-BC",
-   "CA-MB",
-   "CA-NB",
-   "CA-NL",
-   "CA-NS",
-   "CA-NT",
-   "CA-NU",
-   "CA-PE",
-   "CA-QC",
-   "CA-SK",
-   "CA-YT",
-   "NZ",
-   "IE",
-   "NO",
-   "JP",
-   "IN",
-   "ZA",
-   "MX",
-   "AR",
-   "CL",
-   "UY",
-   "EC",
-   "CR"
-  ],
-  "links": {
-   "default": "https://bzstarz2.com/bigtntdfo"
+  {
+    "slug": "koalabet",
+    "name": "KoalaBet",
+    "logo": "/casinos/koalabet.webp",
+    "licenses": [
+      "Anjouan (see the casino's site for licence details)"
+    ],
+    "geos": [
+      "*",
+      "!US",
+      "!KP",
+      "!IR",
+      "!MM"
+    ],
+    "links": {
+      "default": "https://koalabet.io"
+    },
+    "bonus": {
+      "default": "Welcome bonus for new players"
+    },
+    "terms": "18+. New players only. T&Cs apply.",
+    "providers": [
+      "avatarux",
+      "bgaming",
+      "big-time-gaming",
+      "blueprint-gaming",
+      "elk-studios",
+      "games-global",
+      "hacksaw-gaming",
+      "netent",
+      "nolimit-city",
+      "play-n-go",
+      "pragmatic-play",
+      "print-studios",
+      "push-gaming",
+      "quickspin",
+      "red-tiger",
+      "relax-gaming",
+      "thunderkick",
+      "wazdan",
+      "yggdrasil"
+    ],
+    "rating": 1,
+    "pros": [
+      "Large slot library from major studios"
+    ],
+    "badge": "Top pick",
+    "offer": {
+      "default": {
+        "title": "Welcome bonus",
+        "sub": "for new players"
+      }
+    }
   },
-  "bonus": {
-   "default": "Welcome package: up to 5 BTC + 180 free spins over your first four deposits",
-   "CA": "Exclusive: 50 free spins with no deposit, then a welcome package of up to 5 BTC + 180 free spins",
-   "NZ": "Exclusive: 50 free spins with no deposit, then a welcome package of up to 5 BTC + 180 free spins",
-   "IE": "Exclusive: 50 free spins with no deposit, then a welcome package of up to 5 BTC + 180 free spins",
-   "JP": "Exclusive: 50 free spins with no deposit, then a welcome package of up to 5 BTC + 180 free spins",
-   "MX": "Exclusive: 50 free spins with no deposit, then a welcome package of up to 5 BTC + 180 free spins",
-   "UY": "Exclusive: 50 free spins with no deposit, then a welcome package of up to 5 BTC + 180 free spins",
-   "EC": "Exclusive: 50 free spins with no deposit, then a welcome package of up to 5 BTC + 180 free spins",
-   "CR": "Exclusive: 50 free spins with no deposit, then a welcome package of up to 5 BTC + 180 free spins"
+  {
+    "slug": "bitstarz",
+    "promoCode": "SCATTERDROP",
+    "name": "BitStarz",
+    "logo": "/casinos/bitstarz.svg",
+    "licenses": [
+      "Curaçao Gaming Authority, OGL/2024/165/0185 (Gareton B.V.)"
+    ],
+    "geos": [
+      "CA-AB",
+      "CA-BC",
+      "CA-MB",
+      "CA-NB",
+      "CA-NL",
+      "CA-NS",
+      "CA-NT",
+      "CA-NU",
+      "CA-PE",
+      "CA-QC",
+      "CA-SK",
+      "CA-YT",
+      "NZ",
+      "IE",
+      "NO",
+      "JP",
+      "IN",
+      "ZA",
+      "MX",
+      "AR",
+      "CL",
+      "UY",
+      "EC",
+      "CR"
+    ],
+    "links": {
+      "default": "https://bzstarz2.com/bigtntdfo"
+    },
+    "bonus": {
+      "default": "Welcome package: up to 5 BTC + 180 free spins over your first four deposits",
+      "CA": "Exclusive: 50 free spins with no deposit, then a welcome package of up to 5 BTC + 180 free spins",
+      "NZ": "Exclusive: 50 free spins with no deposit, then a welcome package of up to 5 BTC + 180 free spins",
+      "IE": "Exclusive: 50 free spins with no deposit, then a welcome package of up to 5 BTC + 180 free spins",
+      "JP": "Exclusive: 50 free spins with no deposit, then a welcome package of up to 5 BTC + 180 free spins",
+      "MX": "Exclusive: 50 free spins with no deposit, then a welcome package of up to 5 BTC + 180 free spins",
+      "UY": "Exclusive: 50 free spins with no deposit, then a welcome package of up to 5 BTC + 180 free spins",
+      "EC": "Exclusive: 50 free spins with no deposit, then a welcome package of up to 5 BTC + 180 free spins",
+      "CR": "Exclusive: 50 free spins with no deposit, then a welcome package of up to 5 BTC + 180 free spins"
+    },
+    "terms": "18+. New players only. T&Cs apply.",
+    "wagering": "40x",
+    "providers": [
+      "pragmatic-play",
+      "bgaming",
+      "hacksaw-gaming",
+      "nolimit-city",
+      "thunderkick",
+      "wazdan",
+      "push-gaming",
+      "play-n-go",
+      "netent",
+      "relax-gaming",
+      "big-time-gaming",
+      "blueprint-gaming"
+    ],
+    "rating": 0,
+    "pros": [
+      "Running since 2014",
+      "Carries every studio on this site",
+      "Fast crypto cashouts"
+    ],
+    "badge": "Exclusive",
+    "offer": {
+      "default": {
+        "title": "Up to 5 BTC",
+        "sub": "+ 180 free spins welcome package"
+      },
+      "CA": {
+        "title": "50 free spins",
+        "sub": "No deposit needed · then up to 5 BTC"
+      },
+      "NZ": {
+        "title": "50 free spins",
+        "sub": "No deposit needed · then up to 5 BTC"
+      },
+      "IE": {
+        "title": "50 free spins",
+        "sub": "No deposit needed · then up to 5 BTC"
+      },
+      "JP": {
+        "title": "50 free spins",
+        "sub": "No deposit needed · then up to 5 BTC"
+      },
+      "MX": {
+        "title": "50 free spins",
+        "sub": "No deposit needed · then up to 5 BTC"
+      },
+      "UY": {
+        "title": "50 free spins",
+        "sub": "No deposit needed · then up to 5 BTC"
+      },
+      "EC": {
+        "title": "50 free spins",
+        "sub": "No deposit needed · then up to 5 BTC"
+      },
+      "CR": {
+        "title": "50 free spins",
+        "sub": "No deposit needed · then up to 5 BTC"
+      }
+    }
   },
-  "terms": "18+. New players only. T&Cs apply.",
-  "wagering": "40x",
-  "providers": [
-   "pragmatic-play",
-   "bgaming",
-   "hacksaw-gaming",
-   "nolimit-city",
-   "thunderkick",
-   "wazdan",
-   "push-gaming",
-   "play-n-go",
-   "netent",
-   "relax-gaming",
-   "big-time-gaming",
-   "blueprint-gaming"
-  ],
-  "rating": 0,
-  "pros": [
-   "Running since 2014",
-   "Carries every studio on this site",
-   "Fast crypto cashouts"
-  ],
-  "badge": "Exclusive",
-  "offer": {
-   "default": {
-    "title": "Up to 5 BTC",
-    "sub": "+ 180 free spins welcome package"
-   },
-   "CA": {
-    "title": "50 free spins",
-    "sub": "No deposit needed · then up to 5 BTC"
-   },
-   "NZ": {
-    "title": "50 free spins",
-    "sub": "No deposit needed · then up to 5 BTC"
-   },
-   "IE": {
-    "title": "50 free spins",
-    "sub": "No deposit needed · then up to 5 BTC"
-   },
-   "JP": {
-    "title": "50 free spins",
-    "sub": "No deposit needed · then up to 5 BTC"
-   },
-   "MX": {
-    "title": "50 free spins",
-    "sub": "No deposit needed · then up to 5 BTC"
-   },
-   "UY": {
-    "title": "50 free spins",
-    "sub": "No deposit needed · then up to 5 BTC"
-   },
-   "EC": {
-    "title": "50 free spins",
-    "sub": "No deposit needed · then up to 5 BTC"
-   },
-   "CR": {
-    "title": "50 free spins",
-    "sub": "No deposit needed · then up to 5 BTC"
-   }
+  {
+    "slug": "cashy",
+    "promoCode": "SCATTERDROP",
+    "name": "Cashy",
+    "logo": "/casinos/cashy.webp",
+    "logoLight": true,
+    "licenses": [
+      "Licence details on the casino's site"
+    ],
+    "geos": [
+      "CA-AB",
+      "CA-BC",
+      "CA-MB",
+      "CA-NB",
+      "CA-NL",
+      "CA-NS",
+      "CA-NT",
+      "CA-NU",
+      "CA-PE",
+      "CA-QC",
+      "CA-SK",
+      "CA-YT",
+      "NZ",
+      "IE",
+      "FI",
+      "NO",
+      "AT",
+      "JP",
+      "IN",
+      "ZA",
+      "MX",
+      "AR",
+      "CL",
+      "UY",
+      "EC",
+      "CR"
+    ],
+    "links": {
+      "default": "https://gocashy.com/beixdsb7w"
+    },
+    "bonus": {
+      "default": "Exclusive: 150% welcome bonus up to $3,000"
+    },
+    "terms": "18+. New players only. T&Cs apply.",
+    "providers": [
+      "pragmatic-play",
+      "bgaming",
+      "hacksaw-gaming",
+      "nolimit-city",
+      "thunderkick",
+      "wazdan",
+      "push-gaming",
+      "play-n-go",
+      "netent",
+      "relax-gaming",
+      "big-time-gaming",
+      "blueprint-gaming"
+    ],
+    "rating": 0,
+    "pros": [
+      "Fast withdrawals",
+      "100-level VIP programme with cash rewards from level 1",
+      "Weekly cashback"
+    ],
+    "badge": "Exclusive",
+    "offer": {
+      "default": {
+        "title": "150% up to $3,000",
+        "sub": "Exclusive welcome bonus"
+      }
+    }
+  },
+  {
+    "slug": "7bit",
+    "name": "7Bit Casino",
+    "logo": "/casinos/7bit.svg",
+    "licenses": [
+      "Curaçao Gaming Authority"
+    ],
+    "geos": [
+      "CA-AB",
+      "CA-BC",
+      "CA-MB",
+      "CA-NB",
+      "CA-NL",
+      "CA-NS",
+      "CA-NT",
+      "CA-NU",
+      "CA-PE",
+      "CA-QC",
+      "CA-SK",
+      "CA-YT",
+      "NZ",
+      "IE",
+      "FI",
+      "NO",
+      "AT",
+      "IN",
+      "ZA"
+    ],
+    "links": {
+      "default": "https://7bit.partners/piymfrjsr"
+    },
+    "bonus": {
+      "default": "Welcome pack: 325% up to 5.25 BTC + 250 free spins over your first four deposits"
+    },
+    "terms": "18+. New players only. T&Cs apply.",
+    "minDeposit": "$20",
+    "wagering": "35x",
+    "providers": [
+      "pragmatic-play",
+      "bgaming",
+      "hacksaw-gaming",
+      "nolimit-city",
+      "thunderkick",
+      "wazdan",
+      "push-gaming",
+      "play-n-go",
+      "netent",
+      "relax-gaming",
+      "blueprint-gaming"
+    ],
+    "rating": 0,
+    "pros": [
+      "Welcome pack spread over four deposits",
+      "Crypto and standard payment methods",
+      "Carries all the main studios on this site"
+    ],
+    "badge": "Popular",
+    "offer": {
+      "default": {
+        "title": "325% up to 5.25 BTC",
+        "sub": "+ 250 free spins"
+      }
+    }
+  },
+  {
+    "slug": "mirax",
+    "name": "Mirax Casino",
+    "logo": "/casinos/mirax.svg",
+    "licenses": [
+      "Curaçao (see the casino's site for licence details)"
+    ],
+    "geos": [
+      "CA-AB",
+      "CA-BC",
+      "CA-MB",
+      "CA-NB",
+      "CA-NL",
+      "CA-NS",
+      "CA-NT",
+      "CA-NU",
+      "CA-PE",
+      "CA-QC",
+      "CA-SK",
+      "CA-YT",
+      "NZ",
+      "IE",
+      "NO",
+      "AT",
+      "IN",
+      "ZA"
+    ],
+    "links": {
+      "default": "https://mirax.partners/po7jctlhu"
+    },
+    "bonus": {
+      "default": "Welcome package: 325% up to 5 BTC + 150 free spins over your first four deposits"
+    },
+    "terms": "18+. New players only. T&Cs apply.",
+    "minDeposit": "0.00028 BTC",
+    "wagering": "35x",
+    "providers": [
+      "pragmatic-play",
+      "bgaming",
+      "nolimit-city",
+      "thunderkick",
+      "play-n-go",
+      "netent",
+      "relax-gaming",
+      "blueprint-gaming"
+    ],
+    "rating": 0,
+    "pros": [
+      "Welcome package spread over four deposits",
+      "Crypto-focused payments",
+      "No cash-out cap on the match bonus"
+    ],
+    "offer": {
+      "default": {
+        "title": "325% up to 5 BTC",
+        "sub": "+ 150 free spins"
+      }
+    }
+  },
+  {
+    "slug": "playamo",
+    "name": "PlayAmo",
+    "logo": "/casinos/playamo.webp",
+    "licenses": [
+      "Curaçao (see the casino's site for licence details)"
+    ],
+    "geos": [
+      "*"
+    ],
+    "links": {
+      "default": "https://mo.zenlaneo.com/redirect.aspx?pid=422914&bid=1483",
+      "DE": "https://mo.zenlaneo.com/redirect.aspx?pid=422914&bid=1511&lpid=87",
+      "AT": "https://mo.zenlaneo.com/redirect.aspx?pid=422914&bid=1511&lpid=87",
+      "CH": "https://mo.zenlaneo.com/redirect.aspx?pid=422914&bid=1511&lpid=87"
+    },
+    "bonus": {
+      "default": "Welcome offer: €200 bonus + 50 free spins for new players"
+    },
+    "terms": "18+. New players only. T&Cs apply.",
+    "providers": [
+      "pragmatic-play",
+      "bgaming",
+      "play-n-go",
+      "nolimit-city",
+      "thunderkick",
+      "wazdan",
+      "push-gaming",
+      "relax-gaming",
+      "big-time-gaming",
+      "netent",
+      "hacksaw-gaming"
+    ],
+    "rating": 0,
+    "pros": [
+      "Large slot library from major studios"
+    ],
+    "offer": {
+      "default": {
+        "title": "€200 bonus",
+        "sub": "+ 50 free spins welcome offer"
+      }
+    }
   }
- },
- {
-  "slug": "cashy",
-  "promoCode": "SCATTERDROP",
-  "name": "Cashy",
-  "logo": "/casinos/cashy.webp",
-  "logoLight": true,
-  "licenses": [
-   "Licence details on the casino's site"
-  ],
-  "geos": [
-   "CA-AB",
-   "CA-BC",
-   "CA-MB",
-   "CA-NB",
-   "CA-NL",
-   "CA-NS",
-   "CA-NT",
-   "CA-NU",
-   "CA-PE",
-   "CA-QC",
-   "CA-SK",
-   "CA-YT",
-   "NZ",
-   "IE",
-   "FI",
-   "NO",
-   "AT",
-   "JP",
-   "IN",
-   "ZA",
-   "MX",
-   "AR",
-   "CL",
-   "UY",
-   "EC",
-   "CR"
-  ],
-  "links": {
-   "default": "https://gocashy.com/beixdsb7w"
-  },
-  "bonus": {
-   "default": "Exclusive: 150% welcome bonus up to $3,000"
-  },
-  "terms": "18+. New players only. T&Cs apply.",
-  "providers": [
-   "pragmatic-play",
-   "bgaming",
-   "hacksaw-gaming",
-   "nolimit-city",
-   "thunderkick",
-   "wazdan",
-   "push-gaming",
-   "play-n-go",
-   "netent",
-   "relax-gaming",
-   "big-time-gaming",
-   "blueprint-gaming"
-  ],
-  "rating": 0,
-  "pros": [
-   "Fast withdrawals",
-   "100-level VIP programme with cash rewards from level 1",
-   "Weekly cashback"
-  ],
-  "badge": "Exclusive",
-  "offer": {
-   "default": {
-    "title": "150% up to $3,000",
-    "sub": "Exclusive welcome bonus"
-   }
-  }
- },
- {
-  "slug": "7bit",
-  "name": "7Bit Casino",
-  "logo": "/casinos/7bit.svg",
-  "licenses": [
-   "Curaçao Gaming Authority"
-  ],
-  "geos": [
-   "CA-AB",
-   "CA-BC",
-   "CA-MB",
-   "CA-NB",
-   "CA-NL",
-   "CA-NS",
-   "CA-NT",
-   "CA-NU",
-   "CA-PE",
-   "CA-QC",
-   "CA-SK",
-   "CA-YT",
-   "NZ",
-   "IE",
-   "FI",
-   "NO",
-   "AT",
-   "IN",
-   "ZA"
-  ],
-  "links": {
-   "default": "https://7bit.partners/piymfrjsr"
-  },
-  "bonus": {
-   "default": "Welcome pack: 325% up to 5.25 BTC + 250 free spins over your first four deposits"
-  },
-  "terms": "18+. New players only. T&Cs apply.",
-  "minDeposit": "$20",
-  "wagering": "35x",
-  "providers": [
-   "pragmatic-play",
-   "bgaming",
-   "hacksaw-gaming",
-   "nolimit-city",
-   "thunderkick",
-   "wazdan",
-   "push-gaming",
-   "play-n-go",
-   "netent",
-   "relax-gaming",
-   "blueprint-gaming"
-  ],
-  "rating": 0,
-  "pros": [
-   "Welcome pack spread over four deposits",
-   "Crypto and standard payment methods",
-   "Carries all the main studios on this site"
-  ],
-  "badge": "Popular",
-  "offer": {
-   "default": {
-    "title": "325% up to 5.25 BTC",
-    "sub": "+ 250 free spins"
-   }
-  }
- },
- {
-  "slug": "mirax",
-  "name": "Mirax Casino",
-  "logo": "/casinos/mirax.svg",
-  "licenses": [
-   "Curaçao (see the casino's site for licence details)"
-  ],
-  "geos": [
-   "CA-AB",
-   "CA-BC",
-   "CA-MB",
-   "CA-NB",
-   "CA-NL",
-   "CA-NS",
-   "CA-NT",
-   "CA-NU",
-   "CA-PE",
-   "CA-QC",
-   "CA-SK",
-   "CA-YT",
-   "NZ",
-   "IE",
-   "NO",
-   "AT",
-   "IN",
-   "ZA"
-  ],
-  "links": {
-   "default": "https://mirax.partners/po7jctlhu"
-  },
-  "bonus": {
-   "default": "Welcome package: 325% up to 5 BTC + 150 free spins over your first four deposits"
-  },
-  "terms": "18+. New players only. T&Cs apply.",
-  "minDeposit": "0.00028 BTC",
-  "wagering": "35x",
-  "providers": [
-   "pragmatic-play",
-   "bgaming",
-   "nolimit-city",
-   "thunderkick",
-   "play-n-go",
-   "netent",
-   "relax-gaming",
-   "blueprint-gaming"
-  ],
-  "rating": 0,
-  "pros": [
-   "Welcome package spread over four deposits",
-   "Crypto-focused payments",
-   "No cash-out cap on the match bonus"
-  ],
-  "offer": {
-   "default": {
-    "title": "325% up to 5 BTC",
-    "sub": "+ 150 free spins"
-   }
-  }
- },
- {
-  "slug": "playamo",
-  "name": "PlayAmo",
-  "logo": "/casinos/playamo.webp",
-  "licenses": [
-   "Curaçao (see the casino's site for licence details)"
-  ],
-  "geos": [
-   "*"
-  ],
-  "links": {
-   "default": "https://mo.zenlaneo.com/redirect.aspx?pid=422914&bid=1483",
-   "DE": "https://mo.zenlaneo.com/redirect.aspx?pid=422914&bid=1511&lpid=87",
-   "AT": "https://mo.zenlaneo.com/redirect.aspx?pid=422914&bid=1511&lpid=87",
-   "CH": "https://mo.zenlaneo.com/redirect.aspx?pid=422914&bid=1511&lpid=87"
-  },
-  "bonus": {
-   "default": "Welcome offer: €200 bonus + 50 free spins for new players"
-  },
-  "terms": "18+. New players only. T&Cs apply.",
-  "providers": [
-   "pragmatic-play",
-   "bgaming",
-   "play-n-go",
-   "nolimit-city",
-   "thunderkick",
-   "wazdan",
-   "push-gaming",
-   "relax-gaming",
-   "big-time-gaming",
-   "netent",
-   "hacksaw-gaming"
-  ],
-  "rating": 0,
-  "pros": [
-   "Large slot library from major studios"
-  ],
-  "offer": {
-   "default": {
-    "title": "€200 bonus",
-    "sub": "+ 50 free spins welcome offer"
-   }
-  }
- }
 ]
