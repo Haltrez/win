@@ -17,7 +17,7 @@
       "default": "https://koalabet.io"
     },
     "bonus": {
-      "default": "Welcome bonus for new players"
+      "default": "Welcome bonus up to $700 for new players"
     },
     "terms": "18+. New players only. T&Cs apply.",
     "providers": [
@@ -48,8 +48,8 @@
     "badge": "Top pick",
     "offer": {
       "default": {
-        "title": "Welcome bonus",
-        "sub": "for new players"
+        "title": "Up to $700",
+        "sub": "welcome bonus for new players"
       }
     }
   },
