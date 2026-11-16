@@ -50,7 +50,7 @@ export function CasinoModuleClient({ casinos, title, context, slotName }: { casi
                 {o.sub ? <p className="casino-offer-sub">{o.sub}</p> : null}
                 {c.promoCode ? <PromoCode code={c.promoCode} /> : null}
                 <a className="btn btn-primary casino-get" href={`/go/${c.slug}?src=${encodeURIComponent(context)}&pos=${i + 1}`} rel="sponsored nofollow noopener" target="_blank" data-event="affiliate_click">
-                  Get bonus
+                  Claim bonus
                 </a>
                 <p className="casino-tc">18+ | T&amp;Cs apply</p>
               </li>
