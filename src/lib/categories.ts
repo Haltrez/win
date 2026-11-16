@@ -130,6 +130,14 @@ export function getCategories(): CategoryDef[] {
         metaDescription: `Compare ${n} bonus buy slots by RTP, volatility and max win, and try the feature buy free in demo mode with play money. No sign-up, 18+.`,
       };
     }
+    if (d.slug === 'free-spins-slots') {
+      const n = getSlots().filter(d.filter).length;
+      d = {
+        ...d,
+        metaTitle: `Slots with Free Spins & Bonus Rounds${y}: Free Demos`,
+        metaDescription: `${n} slots with free spins and bonus rounds, compared by RTP, volatility and max win. Play every bonus free in demo mode, no sign-up. 18+.`,
+      };
+    }
     return {
       ...d,
       title: d.title + y,

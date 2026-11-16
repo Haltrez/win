@@ -111,7 +111,7 @@ export function providerTitle(p: Provider, count: number): string[] {
 }
 export function providerDescription(p: Provider, count: number) {
   const m = (p.signatureMechanics ?? []).slice(0, 2).map((x) => (/[A-Z]/.test(x.slice(1)) ? x : x.replace(/^[A-Z]/, (c) => c.toLowerCase())));
-  const base = `Play ${count} free ${p.name} demo slots with official RTP, volatility and max win data`;
+  const base = `Play ${count} ${p.name} demo slots free: official demos, free play with no sign-up, plus RTP, volatility and max win for every game`;
   const full = m.length === 2 ? `${base}, from ${m[0]} to ${m[1]}.` : m.length === 1 ? `${base}, including ${m[0]}.` : `${base}.`;
   return full.length <= 158 ? full : `${base}.`;
 }

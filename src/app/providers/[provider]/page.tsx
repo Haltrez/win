@@ -62,7 +62,7 @@ export default async function ProviderPage({ params }: { params: Promise<P> }) {
         <h1>{p.name} demo slots</h1>
       </div>
       <p className="muted">{slots.length} slots reviewed{p.founded ? ` · Founded ${p.founded}` : ''}{p.headquarters ? ` · ${p.headquarters}` : ''} · Licences: {p.licenses.join(', ')}</p>
-      <section className="prose"><p>{p.description}</p>
+      <section className="prose"><p>Every {p.name} slot on this page opens the official {p.name} demo: free play with virtual credits, no sign-up and no download.</p><p>{p.description}</p>
         {p.signatureMechanics?.length ? <p><strong>Signature mechanics:</strong> {p.signatureMechanics.join(', ')}.</p> : null}
         {facts.length ? <><h2>{p.name} slots at a glance</h2><p>{facts.join(' ')}</p></> : null}
       </section>
