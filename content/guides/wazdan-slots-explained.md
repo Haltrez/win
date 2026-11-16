@@ -1,18 +1,18 @@
 ---
 title: "Wazdan Slots Explained: Hold the Jackpot, Chance Level and Cash Infinity"
 metaTitle: "Wazdan Slots Explained: Hold the Jackpot & Chance Level"
-description: "What Wazdan's Hold the Jackpot, Chance Level, Cash Infinity and Cash Out features do, with official RTP and max win data for 21 Wazdan slots."
+description: "What Wazdan's Hold the Jackpot, Chance Level, Cash Infinity and Cash Out features do, with official RTP and max win data for 48 Wazdan slots."
 category: providers
 author: editorial-team
 publishedAt: 2026-11-12
-updatedAt: 2026-11-12
+updatedAt: 2026-11-16
 relatedCategories: [hold-and-win-slots, jackpot-slots, ante-bet-slots, money-collect-slots]
 relatedSlots: [16-coins-x5000, 25-coins-grand-gold-edition, mighty-wild-gorilla, hot-slot-777-diamond-crown, magic-fruits-dice, ox-coin]
 faq:
   - q: "What is Chance Level in Wazdan slots?"
     a: "Chance Level is Wazdan's optional bet multiplier. You pay more per spin (typically x2, x5 or x10) and in return the bonus round or jackpot features trigger more often. In most games it doesn't change prize values, only how often features appear."
   - q: "What is the RTP of Wazdan slots?"
-    a: "The 21 Wazdan games on our site are published between 96.04% and 96.41%, with almost all of them at 96.1–96.2%. Wazdan is one of the most consistent studios we track."
+    a: "The 48 Wazdan games on our site are published between 96.04% and 96.47%, and 42 of them sit at 96.1–96.2%. Wazdan is one of the most consistent studios we track."
   - q: "Can I play Wazdan demos on Scatter Drop?"
     a: "Wazdan's demo launcher only runs on wazdan.com, so our Wazdan pages link to the free demo on the official game page instead of embedding it."
 ---
@@ -44,17 +44,17 @@ What it means in practice: you're paying more per spin to see the bonus sooner. 
 
 Newer Wazdan games add a **collector** layer on top. **Cash Out** symbols gather the values below them and pay them out – in [16 Coins x5000](/slots/wazdan/16-coins-x5000) after a countdown, with a boost of up to 300%. In [Mighty Wild: Gorilla](/slots/wazdan/mighty-wild-gorilla) and [Fisherman's Luck](/slots/wazdan/fishermans-luck), Collector or Gainer symbols stay for up to 10 spins, collecting cash and jackpot values. Find similar games in our [money collect slots list](/best/money-collect-slots).
 
-## Wazdan in numbers (official data, 21 games)
+## Wazdan in numbers (official data, 48 games)
 
 | | Wazdan |
 |---|---|
-| RTP range | 96.04% – 96.41% |
+| RTP range | 96.04% – 96.47% |
 | Typical RTP | 96.1–96.2% |
-| Median max win | 2,500x |
-| Highest max win | 5,000x ([16 Coins x5000](/slots/wazdan/16-coins-x5000), [Haunted Coins x5000](/slots/wazdan/haunted-coins-x5000), [Eggs of Fortune](/slots/wazdan/eggs-of-fortune), [Hot Slot: 777 Diamond Crown](/slots/wazdan/hot-slot-777-diamond-crown)) |
+| Median max win | about 2,070x |
+| Highest max win | 5,150x ([Magic Of The Ring](/slots/wazdan/magic-of-the-ring)), then 5,000x in games like [16 Coins x5000](/slots/wazdan/16-coins-x5000) and [12 Coins Grand Diamond Edition](/slots/wazdan/12-coins-grand-diamond-edition) |
 | Lowest max win | 40x ([Magic Fruits Dice](/slots/wazdan/magic-fruits-dice)) |
 
-Two things stand out. First, the RTP barely moves from game to game, so the choice between Wazdan slots is about features and volatility, not price. Second, the max wins are modest: a median of 2,500x, against 20,000x for Nolimit City and 10,000x for Hacksaw (see our [max-win inflation study](/guides/slot-max-win-inflation)). Wazdan aims for frequent jackpot features with mid-sized caps rather than one huge outcome.
+Two things stand out. First, the RTP barely moves from game to game, so the choice between Wazdan slots is about features and volatility, not price. Second, the max wins are modest: a median of about 2,070x, against 20,000x for Nolimit City and 10,000x for Hacksaw (see our [max-win inflation study](/guides/slot-max-win-inflation)). Wazdan aims for frequent jackpot features with mid-sized caps rather than one huge outcome.
 
 ## Which Wazdan game to try first
 
@@ -63,5 +63,7 @@ Two things stand out. First, the RTP barely moves from game to game, so the choi
 - **Most going on per spin:** [Mighty Wild: Gorilla](/slots/wazdan/mighty-wild-gorilla), with Collectors, Free Spins and Hold the Jackpot.
 - **Calmest:** [Magic Fruits Dice](/slots/wazdan/magic-fruits-dice) – three reels, no bonus, a 40x cap.
 - **Strangest layout:** [Ox Coin](/slots/wazdan/ox-coin), where the grid grows around one main reel.
+- **Just one reel:** [One Coin](/slots/wazdan/one-coin), the whole Coins formula squeezed into a single column.
+- **A book game, Wazdan style:** [Book of Faith](/slots/wazdan/book-of-faith), where expanded symbols turn into cash for Collectors.
 
 Every Wazdan page on Scatter Drop links to the free official demo on wazdan.com.

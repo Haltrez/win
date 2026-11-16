@@ -310,7 +310,23 @@
   }
  },
  "wazdan": {
+  "16-coins-diamond-burning-board": {
+   "checked": "2026-11-12",
+   "reason": "not a slot (Reels / Lines:)"
+  },
+  "9-bells": {
+   "checked": "2026-11-12",
+   "reason": "no official image"
+  },
+  "9-coins-burning-board": {
+   "checked": "2026-11-12",
+   "reason": "not a slot (Reels / Lines:)"
+  },
   "9-coins-gold-burning-board": {
+   "checked": "2026-11-12",
+   "reason": "not a slot (Reels / Lines:)"
+  },
+  "9-coins-platinum-burning-board": {
    "checked": "2026-11-12",
    "reason": "not a slot (Reels / Lines:)"
   },
@@ -322,7 +338,15 @@
    "checked": "2026-11-12",
    "reason": "no official image"
   },
+  "magic-fruits-deluxe-burning-board": {
+   "checked": "2026-11-12",
+   "reason": "not a slot (Reels / Ways to Win:)"
+  },
   "mighty-fish-blue-marlin-burning-board": {
+   "checked": "2026-11-12",
+   "reason": "not a slot (Reels / Lines:)"
+  },
+  "mighty-wild-panther-burning-board": {
    "checked": "2026-11-12",
    "reason": "not a slot (Reels / Lines:)"
   },
