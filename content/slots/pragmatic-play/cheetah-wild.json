@@ -3,8 +3,8 @@
   "name": "Cheetah Wild",
   "provider": "pragmatic-play",
   "rtp": 96.5,
-  "volatility": null,
-  "maxWin": null,
+  "volatility": "low",
+  "maxWin": 5000,
   "releaseDate": "2026-10-01",
   "releaseDatePrecision": "month",
   "mechanics": [
@@ -48,5 +48,7 @@
   "lastVerified": "2026-11-10",
   "updatedAt": "2026-11-12",
   "author": "editorial-team",
-  "addedAt": "2026-11-10"
+  "addedAt": "2026-11-10",
+  "volatilitySource": "third-party",
+  "maxWinSource": "third-party"
 }

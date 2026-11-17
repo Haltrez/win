@@ -3,8 +3,8 @@
   "name": "Fangtastic Freespins",
   "provider": "pragmatic-play",
   "rtp": 96.51,
-  "volatility": null,
-  "maxWin": null,
+  "volatility": "high",
+  "maxWin": 2100,
   "releaseDate": "2024-09-01",
   "releaseDatePrecision": "month",
   "mechanics": [
@@ -51,5 +51,7 @@
   "lastVerified": "2026-11-09",
   "updatedAt": "2026-11-12",
   "author": "editorial-team",
-  "addedAt": "2026-11-09"
+  "addedAt": "2026-11-09",
+  "volatilitySource": "third-party",
+  "maxWinSource": "third-party"
 }

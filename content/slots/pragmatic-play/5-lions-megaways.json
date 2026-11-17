@@ -3,8 +3,8 @@
   "name": "5 Lions Megaways",
   "provider": "pragmatic-play",
   "rtp": 96.5,
-  "volatility": null,
-  "maxWin": null,
+  "volatility": "high",
+  "maxWin": 5000,
   "releaseDate": "2021-06-01",
   "releaseDatePrecision": "month",
   "mechanics": [
@@ -48,5 +48,7 @@
   "lastVerified": "2026-11-11",
   "updatedAt": "2026-11-12",
   "addedAt": "2026-11-11",
-  "author": "editorial-team"
+  "author": "editorial-team",
+  "volatilitySource": "third-party",
+  "maxWinSource": "third-party"
 }

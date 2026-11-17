@@ -3,7 +3,7 @@
   "name": "Chilli Heat",
   "provider": "pragmatic-play",
   "rtp": 96.5,
-  "volatility": null,
+  "volatility": "medium",
   "maxWin": null,
   "releaseDate": "2018-01-01",
   "releaseDatePrecision": "month",
@@ -49,5 +49,6 @@
   "lastVerified": "2026-11-11",
   "updatedAt": "2026-11-12",
   "addedAt": "2026-11-11",
-  "author": "editorial-team"
+  "author": "editorial-team",
+  "volatilitySource": "third-party"
 }

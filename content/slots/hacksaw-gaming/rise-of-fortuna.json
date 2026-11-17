@@ -3,8 +3,8 @@
   "name": "Rise of Fortuna",
   "provider": "hacksaw-gaming",
   "rtp": null,
-  "volatility": null,
-  "maxWin": null,
+  "volatility": "medium",
+  "maxWin": 10000,
   "releaseDate": null,
   "mechanics": [
     "multipliers",
@@ -46,5 +46,7 @@
   "lastVerified": "2026-11-11",
   "updatedAt": "2026-11-12",
   "addedAt": "2026-11-11",
-  "author": "editorial-team"
+  "author": "editorial-team",
+  "volatilitySource": "third-party",
+  "maxWinSource": "third-party"
 }
