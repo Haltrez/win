@@ -3,7 +3,7 @@
   "name": "Donny Dough",
   "provider": "hacksaw-gaming",
   "rtp": null,
-  "volatility": null,
+  "volatility": "medium",
   "maxWin": 10000,
   "releaseDate": null,
   "reels": "5x4",
@@ -51,5 +51,6 @@
   "lastVerified": "2026-11-10",
   "updatedAt": "2026-11-12",
   "author": "editorial-team",
-  "addedAt": "2026-11-09"
+  "addedAt": "2026-11-09",
+  "volatilitySource": "third-party"
 }

@@ -3,7 +3,7 @@
   "name": "Dusk Princess",
   "provider": "hacksaw-gaming",
   "rtp": null,
-  "volatility": null,
+  "volatility": "medium",
   "maxWin": 10000,
   "releaseDate": null,
   "mechanics": [
@@ -47,5 +47,6 @@
   "lastVerified": "2026-11-10",
   "updatedAt": "2026-11-12",
   "author": "editorial-team",
-  "addedAt": "2026-11-10"
+  "addedAt": "2026-11-10",
+  "volatilitySource": "third-party"
 }
