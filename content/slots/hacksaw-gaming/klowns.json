@@ -29,15 +29,13 @@
       "description": "Winning symbols are removed and new ones fall in."
     }
   ],
-  "review": "A horror carnival hosted by Lester and Jester, on a 6x5 grid with drop cascades and all-scatter wins.\n\nEvery win in a round goes into a Total Win Bar, and any activated Klown Multipliers hit that total at the end. Needle Boxes clear symbols once the grid settles – low boxes remove every low symbol and pay 0.1x the bet for each, high boxes do the same for premiums. 10,000x max in every mode; Hacksaw doesn't publish RTP or volatility outside the game.",
+  "review": "A horror carnival hosted by Lester and Jester, on a 6x5 grid with drop cascades and all-scatter wins.\n\nEvery win in a round goes into a Total Win Bar, and any activated Klown Multipliers hit that total at the end. Needle Boxes clear symbols once the grid settles – low boxes remove every low symbol and pay 0.1x the bet for each, high boxes do the same for premiums. 10,000x max in every mode.",
   "demoUrl": "https://static-live.hacksawgaming.com/1438/{version}/index.html?language=en&channel=desktop&gameid=1438&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
   "pros": [
     "High 10,000x win ceiling",
     "Full game playable in the official free demo"
   ],
   "cons": [
-    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
-    "Hacksaw Gaming doesn't publish a volatility rating for this game",
     "Short-session results can differ widely from the long-term average"
   ],
   "image": "/thumbs/hacksaw-gaming/klowns.webp",

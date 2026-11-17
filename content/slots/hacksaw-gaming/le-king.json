@@ -29,15 +29,13 @@
       "description": "Jackpot Markers award one of four jackpots and can combine."
     }
   ],
-  "review": "A Le game built around Golden Squares. When a win hits, the squares behind it turn gold; a Neon Rainbow switches them on to reveal Coins, Clovers, Treasure Pots or Jackpot Markers – then switches them on again to repeat it.\n\nClovers boost nearby or all coins, Treasure Pots store every coin and pot value, and Jackpot Markers each carry one of four jackpots, combining when several activate. Hacksaw doesn't publish RTP, volatility or max win outside the game – check the info screen. Le Bandit plus jackpots.",
+  "review": "A Le game built around Golden Squares. When a win hits, the squares behind it turn gold; a Neon Rainbow switches them on to reveal Coins, Clovers, Treasure Pots or Jackpot Markers – then switches them on again to repeat it.\n\nClovers boost nearby or all coins, Treasure Pots store every coin and pot value, and Jackpot Markers each carry one of four jackpots, combining when several activate. Le Bandit plus jackpots.",
   "demoUrl": "https://static-live.hacksawgaming.com/1787/{version}/index.html?language=en&channel=desktop&gameid=1787&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
   "pros": [
     "Second route to big wins via respins or jackpots",
     "Full game playable in the official free demo"
   ],
   "cons": [
-    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
-    "Hacksaw Gaming doesn't publish a volatility rating for this game",
     "Short-session results can differ widely from the long-term average"
   ],
   "image": "/thumbs/hacksaw-gaming/le-king.webp",

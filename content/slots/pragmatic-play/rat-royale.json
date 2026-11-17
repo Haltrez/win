@@ -3,8 +3,8 @@
   "name": "Rat Royale",
   "provider": "pragmatic-play",
   "rtp": 96.52,
-  "volatility": null,
-  "maxWin": null,
+  "volatility": "medium",
+  "maxWin": 15000,
   "releaseDate": "2026-10-01",
   "releaseDatePrecision": "month",
   "mechanics": [
@@ -39,7 +39,6 @@
     "Full game playable in the official free demo"
   ],
   "cons": [
-    "Pragmatic Play doesn't publish a volatility rating for this game",
     "Short-session results can differ widely from the long-term average"
   ],
   "image": "/thumbs/pragmatic-play/rat-royale.webp",
@@ -51,5 +50,7 @@
   "lastVerified": "2026-11-10",
   "updatedAt": "2026-11-12",
   "author": "editorial-team",
-  "addedAt": "2026-11-10"
+  "addedAt": "2026-11-10",
+  "volatilitySource": "third-party",
+  "maxWinSource": "third-party"
 }

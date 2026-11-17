@@ -28,15 +28,13 @@
       "description": "Hacksaw's stated top prize for the game."
     }
   ],
-  "review": "Big Bob and his boat Bettsy the Beaut chase a marlin on a 5x4 grid that pays on both paylines and LootLines.\n\nIt's a relaxed beach-fishing theme, but in the bonus it's all about collecting values across the grid, like most Hacksaw fishing games. Hacksaw lists a 10,000x max but doesn't publish RTP or volatility outside the game, so check the info screen in the demo. Hacksaw's take on the Big Bass style.",
+  "review": "Big Bob and his boat Bettsy the Beaut chase a marlin on a 5x4 grid that pays on both paylines and LootLines.\n\nIt's a relaxed beach-fishing theme, but in the bonus it's all about collecting values across the grid, like most Hacksaw fishing games. Max win is 10,000x. Hacksaw's take on the Big Bass style.",
   "demoUrl": "https://static-live.hacksawgaming.com/1811/{version}/index.html?language=en&channel=desktop&gameid=1811&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
   "pros": [
     "High 10,000x win ceiling",
     "Full game playable in the official free demo"
   ],
   "cons": [
-    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
-    "Hacksaw Gaming doesn't publish a volatility rating for this game",
     "Short-session results can differ widely from the long-term average"
   ],
   "image": "/thumbs/hacksaw-gaming/marlin-masters-the-big-haul.webp",

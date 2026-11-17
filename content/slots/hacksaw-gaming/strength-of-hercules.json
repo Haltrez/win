@@ -28,14 +28,12 @@
       "description": "Turns every instance of a random low-paying symbol into wilds."
     }
   ],
-  "review": "Hacksaw's RotoGrid: every RotoGrid symbol turns the whole grid a quarter turn clockwise – up to three times a spin – which can create brand-new wins.\n\nAfter each turn, wilds on the same reel connect and fill everything between them, so repeated rotations can spread wilds all over. Might of Hercules can also strike once the grid settles, turning every copy of a random low symbol wild. Hacksaw doesn't publish RTP, volatility or max win outside the game. Great if you like weird grids.",
+  "review": "Hacksaw's RotoGrid: every RotoGrid symbol turns the whole grid a quarter turn clockwise – up to three times a spin – which can create brand-new wins.\n\nAfter each turn, wilds on the same reel connect and fill everything between them, so repeated rotations can spread wilds all over. Might of Hercules can also strike once the grid settles, turning every copy of a random low symbol wild. Great if you like weird grids.",
   "demoUrl": "https://static-live.hacksawgaming.com/1697/{version}/index.html?language=en&channel=desktop&gameid=1697&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
   "pros": [
     "Full game playable in the official free demo"
   ],
   "cons": [
-    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
-    "Hacksaw Gaming doesn't publish a volatility rating for this game",
     "Short-session results can differ widely from the long-term average"
   ],
   "image": "/thumbs/hacksaw-gaming/strength-of-hercules.webp",

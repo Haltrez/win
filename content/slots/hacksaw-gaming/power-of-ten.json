@@ -28,7 +28,7 @@
       "description": "Only Power Arrows land, aiming at the max win."
     }
   ],
-  "review": "A salon-themed paylines game built around Power Wheels. After line wins pay, each wheel spins for 10x, 100x, 1,000x or the max win, and several wheels add together.\n\nFive Power Wheels in a row on one line upgrade every wheel to 100x, 1,000x or the max win – and hitting the max ends the round instantly. The High-Roller FeatureSpins mode lands only Power Arrows for a direct shot at the 10,000x max. Hacksaw doesn't publish RTP or volatility outside the game.",
+  "review": "A salon-themed paylines game built around Power Wheels. After line wins pay, each wheel spins for 10x, 100x, 1,000x or the max win, and several wheels add together.\n\nFive Power Wheels in a row on one line upgrade every wheel to 100x, 1,000x or the max win – and hitting the max ends the round instantly. The High-Roller FeatureSpins mode lands only Power Arrows for a direct shot at the 10,000x max.",
   "demoUrl": "https://static-live.hacksawgaming.com/2234/{version}/index.html?language=en&channel=desktop&gameid=2234&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
   "pros": [
     "High 10,000x win ceiling",
@@ -36,8 +36,6 @@
     "Full game playable in the official free demo"
   ],
   "cons": [
-    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
-    "Hacksaw Gaming doesn't publish a volatility rating for this game",
     "Bonus buy is costly and banned in some markets (e.g. Great Britain)"
   ],
   "image": "/thumbs/hacksaw-gaming/power-of-ten.webp",

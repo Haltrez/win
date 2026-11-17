@@ -4,7 +4,7 @@
   "provider": "pragmatic-play",
   "rtp": 96.48,
   "volatility": null,
-  "maxWin": null,
+  "maxWin": 21175,
   "releaseDate": "2019-11-01",
   "releaseDatePrecision": "month",
   "mechanics": [
@@ -36,7 +36,6 @@
     "Full game playable in the official free demo"
   ],
   "cons": [
-    "Pragmatic Play doesn't publish a volatility rating for this game",
     "Short-session results can differ widely from the long-term average"
   ],
   "image": "/thumbs/pragmatic-play/sweet-bonanza-xmas.webp",
@@ -48,5 +47,6 @@
   "lastVerified": "2026-11-11",
   "updatedAt": "2026-11-12",
   "addedAt": "2026-11-11",
-  "author": "editorial-team"
+  "author": "editorial-team",
+  "maxWinSource": "third-party"
 }

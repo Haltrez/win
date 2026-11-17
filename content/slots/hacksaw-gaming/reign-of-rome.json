@@ -37,8 +37,6 @@
     "Full game playable in the official free demo"
   ],
   "cons": [
-    "Hacksaw doesn't publish the RTP outside the game – check the info screen",
-    "Provider doesn't publish a volatility rating for this game",
     "Short-session results can differ widely from the long-term average"
   ],
   "demoUrl": "https://static-live.hacksawgaming.com/1728/{version}/index.html?language=en&channel=desktop&gameid=1728&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",

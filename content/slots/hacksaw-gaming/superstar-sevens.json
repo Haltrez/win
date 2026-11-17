@@ -28,14 +28,12 @@
       "description": "More FS symbols give free spins with more frequent Lightning."
     }
   ],
-  "review": "Classic sevens with Hacksaw's cascade treatment. Land a Lightning symbol with a win and the Cascade Counter switches on: every removed non-winning symbol adds to a multiplier, and the final win gets multiplied once the cascades finish. Epic Lightning adds another multiplier on top.\n\nThree FS give 10 spins with more Lightning, four give 10 with Lightning every spin, five unlock the top bonus. Hacksaw doesn't publish RTP, volatility or max win outside the game. Old-school symbols, modern maths.",
+  "review": "Classic sevens with Hacksaw's cascade treatment. Land a Lightning symbol with a win and the Cascade Counter switches on: every removed non-winning symbol adds to a multiplier, and the final win gets multiplied once the cascades finish. Epic Lightning adds another multiplier on top.\n\nThree FS give 10 spins with more Lightning, four give 10 with Lightning every spin, five unlock the top bonus. Old-school symbols, modern maths.",
   "demoUrl": "https://static-live.hacksawgaming.com/2138/{version}/index.html?language=en&channel=desktop&gameid=2138&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
   "pros": [
     "Full game playable in the official free demo"
   ],
   "cons": [
-    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
-    "Hacksaw Gaming doesn't publish a volatility rating for this game",
     "Short-session results can differ widely from the long-term average"
   ],
   "image": "/thumbs/hacksaw-gaming/superstar-sevens.webp",

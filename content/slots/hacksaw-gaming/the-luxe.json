@@ -29,7 +29,7 @@
       "description": "Jackpot Frames award one of four bet-based jackpots."
     }
   ],
-  "review": "High society on paylines, built around Golden Frames. Frames land during a spin and reveal a multiplier or a jackpot once the grid settles – and count when their symbol is part of a winning line.\n\nMultiplier Frames run from 2x to 100x and add together; Jackpot Frames award one of four jackpots, starting with the 25x Mini, either in a win or when collected by a Clover Crystal. Frames clear each spin. 20,000x max; Hacksaw doesn't publish RTP or volatility outside the game.",
+  "review": "High society on paylines, built around Golden Frames. Frames land during a spin and reveal a multiplier or a jackpot once the grid settles – and count when their symbol is part of a winning line.\n\nMultiplier Frames run from 2x to 100x and add together; Jackpot Frames award one of four jackpots, starting with the 25x Mini, either in a win or when collected by a Clover Crystal. Frames clear each spin. Max win is 20,000x.",
   "demoUrl": "https://static-live.hacksawgaming.com/1897/{version}/index.html?language=en&channel=desktop&gameid=1897&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
   "pros": [
     "Very high 20,000x win ceiling",
@@ -37,8 +37,6 @@
     "Full game playable in the official free demo"
   ],
   "cons": [
-    "Hacksaw Gaming doesn't publish the RTP outside the game – check the info screen",
-    "Hacksaw Gaming doesn't publish a volatility rating for this game",
     "Short-session results can differ widely from the long-term average"
   ],
   "image": "/thumbs/hacksaw-gaming/the-luxe.webp",

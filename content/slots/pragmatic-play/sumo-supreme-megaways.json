@@ -4,7 +4,7 @@
   "provider": "pragmatic-play",
   "rtp": 96.55,
   "volatility": null,
-  "maxWin": null,
+  "maxWin": 12500,
   "releaseDate": "2024-07-01",
   "releaseDatePrecision": "month",
   "mechanics": [
@@ -36,7 +36,6 @@
     "Full game playable in the official free demo"
   ],
   "cons": [
-    "Provider doesn't publish a volatility rating",
     "No confirmed official max win figure",
     "Short-session results can differ widely from the RTP"
   ],
@@ -51,5 +50,6 @@
   "lastVerified": "2026-11-09",
   "updatedAt": "2026-11-12",
   "author": "editorial-team",
-  "addedAt": "2026-11-09"
+  "addedAt": "2026-11-09",
+  "maxWinSource": "third-party"
 }
