@@ -3,7 +3,7 @@
   "name": "Gates of Olympus Xmas 1000",
   "provider": "pragmatic-play",
   "rtp": 96.5,
-  "volatility": null,
+  "volatility": "high",
   "maxWin": 15000,
   "releaseDate": "2024-11-01",
   "releaseDatePrecision": "month",
@@ -52,5 +52,6 @@
   "lastVerified": "2026-11-09",
   "updatedAt": "2026-11-12",
   "author": "editorial-team",
-  "addedAt": "2026-11-09"
+  "addedAt": "2026-11-09",
+  "volatilitySource": "third-party"
 }

@@ -3,7 +3,7 @@
   "name": "Fire Portals",
   "provider": "pragmatic-play",
   "rtp": 96.06,
-  "volatility": null,
+  "volatility": "high",
   "maxWin": 10000,
   "releaseDate": "2024-03-01",
   "releaseDatePrecision": "month",
@@ -51,5 +51,6 @@
   "lastVerified": "2026-11-09",
   "updatedAt": "2026-11-12",
   "author": "editorial-team",
-  "addedAt": "2026-11-09"
+  "addedAt": "2026-11-09",
+  "volatilitySource": "third-party"
 }

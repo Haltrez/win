@@ -3,7 +3,7 @@
   "name": "Himalayan Wild",
   "provider": "pragmatic-play",
   "rtp": 96.5,
-  "volatility": null,
+  "volatility": "high",
   "maxWin": 5000,
   "releaseDate": "2024-10-01",
   "releaseDatePrecision": "month",
@@ -54,5 +54,6 @@
   "lastVerified": "2026-11-09",
   "updatedAt": "2026-11-12",
   "author": "editorial-team",
-  "addedAt": "2026-11-09"
+  "addedAt": "2026-11-09",
+  "volatilitySource": "third-party"
 }
