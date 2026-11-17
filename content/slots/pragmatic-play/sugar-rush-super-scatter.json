@@ -3,7 +3,7 @@
   "name": "Sugar Rush Super Scatter",
   "provider": "pragmatic-play",
   "rtp": 96.58,
-  "volatility": null,
+  "volatility": "high",
   "maxWin": 50000,
   "releaseDate": "2026-01-01",
   "releaseDatePrecision": "month",
@@ -49,5 +49,6 @@
   "lastVerified": "2026-11-11",
   "updatedAt": "2026-11-12",
   "addedAt": "2026-11-11",
-  "author": "editorial-team"
+  "author": "editorial-team",
+  "volatilitySource": "third-party"
 }
