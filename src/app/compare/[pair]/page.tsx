@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }) {
   if (!c) return {};
   return buildMetadata({
     title: [`${c.a.name} vs ${c.b.name} – RTP, Volatility & Max Win Compared`, `${c.a.name} vs ${c.b.name} – RTP & Max Win Compared`, `${c.a.name} vs ${c.b.name}: Which Slot Is Better?`, `${c.a.name} vs ${c.b.name} Slot Comparison`, `${c.a.name} vs ${c.b.name}`],
-    description: `${c.a.name} (${c.a.rtp != null ? `${fmtRtp(c.a.rtp)}, ` : ''}${fmtX(c.a.maxWin)}) vs ${c.b.name} (${c.b.rtp != null ? `${fmtRtp(c.b.rtp)}, ` : ''}${fmtX(c.b.maxWin)}): features, volatility and which slot suits you. Free demos of both.`,
+    description: `${c.a.name} (${[c.a.rtp != null ? fmtRtp(c.a.rtp) : null, c.a.maxWin ? fmtX(c.a.maxWin) : null].filter(Boolean).join(', ') || 'free demo'}) vs ${c.b.name} (${[c.b.rtp != null ? fmtRtp(c.b.rtp) : null, c.b.maxWin ? fmtX(c.b.maxWin) : null].filter(Boolean).join(', ') || 'free demo'}): features, volatility and which slot suits you. Free demos of both.`,
     noindex: true, // templated page: useful for visitors, kept out of Google's index
     path: `/compare/${c.slug}`,
   });
@@ -44,9 +44,9 @@ export default async function ComparePage({ params }: { params: Promise<P> }) {
   const bigger = a.maxWin == null || b.maxWin == null || a.maxWin === b.maxWin ? null : a.maxWin > b.maxWin ? a : b;
   const verdict = [
     higherRtp ? `${higherRtp.name} has the higher default RTP (${fmtRtp(higherRtp.rtp)}), though the gap matters only over very long play.` : a.rtp == null || b.rtp == null ? 'An RTP comparison is not possible because one of the games has no published RTP.' : 'Both games share the same default RTP.',
-    swingier ? `${swingier.name} is the more volatile game – expect bigger swings and longer dry spells.` : 'Both are rated with the same volatility.',
-    bigger ? `${bigger.name} offers the bigger max win at ${fmtX(bigger.maxWin)}.` : 'Both share the same max win cap.',
-  ];
+    swingier ? `${swingier.name} is the more volatile game – expect bigger swings and longer dry spells.` : a.volatility && b.volatility ? 'Both are rated with the same volatility.' : null,
+    bigger ? `${bigger.name} offers the bigger max win at ${fmtX(bigger.maxWin)}.` : a.maxWin && b.maxWin ? 'Both share the same max win cap.' : null,
+  ].filter(Boolean) as string[];
   return (
     <>
       <Breadcrumbs items={[{ name: 'Compare', path: '/compare' }, { name: `${a.name} vs ${b.name}`, path: `/compare/${c.slug}` }]} />

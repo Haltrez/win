@@ -39,7 +39,7 @@ export async function GET(_req: Request, { params }: { params: Promise<{ provide
   if (!s) return new Response('Not found', { status: 404 });
   const p = getProvider(s.provider);
   const art = await artDataUrl(s.image, SITE.url);
-  const stats: [string, string][] = [['RTP', fmtRtp(s.rtp)], ['Volatility', volLabel(s.volatility)], ['Max win', fmtX(s.maxWin)]];
+  const stats = ([s.rtp != null ? ['RTP', fmtRtp(s.rtp)] : null, s.volatility ? ['Volatility', volLabel(s.volatility)] : null, s.maxWin ? ['Max win', fmtX(s.maxWin)] : null].filter(Boolean)) as [string, string][];
   const nameSize = s.name.length > 26 ? 52 : s.name.length > 18 ? 62 : 72;
 
   return new ImageResponse(

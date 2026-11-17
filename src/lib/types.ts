@@ -23,6 +23,10 @@ export interface Slot {
   rtpSource?: 'provider' | 'third-party';
   /** Other RTP configurations the provider offers operators. */
   rtpVariants?: number[];
+  /** 'third-party': not published by the provider; two independent slot databases agree. */
+  volatilitySource?: 'third-party';
+  /** 'third-party': not published by the provider; two independent slot databases agree. */
+  maxWinSource?: 'third-party';
   /** Provider-published volatility. null = not published by the provider (never guessed). */
   volatility: Volatility | null;
   /** Max win as a multiple of the base stake. null = not published by the provider. */

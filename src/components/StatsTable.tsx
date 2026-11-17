@@ -6,8 +6,8 @@ export function StatsTable({ slot, provider }: { slot: Slot; provider: Provider 
   const rows: [string, React.ReactNode][] = [
     ['Provider', <Link key="p" href={`/providers/${provider.slug}`}>{provider.name}</Link>],
     ['RTP', <>{fmtRtp(slot.rtp)}{slot.rtpSource === 'third-party' ? <span className="muted small"> (third-party figure, not confirmed by the provider)</span> : null}{slot.rtpVariants?.length ? <span className="muted small"> (also {slot.rtpVariants.map(fmtRtp).join(', ')})</span> : null}</>],
-    ['Volatility', volLabel(slot.volatility)],
-    ['Max win', fmtX(slot.maxWin)],
+    ...(slot.volatility ? [['Volatility', <>{volLabel(slot.volatility)}{slot.volatilitySource === 'third-party' ? <span className="muted small"> (reported by independent slot databases)</span> : null}</>] as [string, React.ReactNode]] : []),
+    ...(slot.maxWin ? [['Max win', <>{fmtX(slot.maxWin)}{slot.maxWinSource === 'third-party' ? <span className="muted small"> (reported by independent slot databases)</span> : null}</>] as [string, React.ReactNode]] : []),
     ['Release date', fmtRelease(slot)],
     ...(slot.reels ? [['Layout', slot.reels] as [string, string]] : []),
     ...(slot.paylines || slot.winType ? [['Paylines / ways', (slot.paylines ?? slot.winType)!] as [string, string]] : []),
@@ -17,7 +17,12 @@ export function StatsTable({ slot, provider }: { slot: Slot; provider: Provider 
     ...(slot.minBet != null && slot.maxBet != null ? [['Bet range', `${slot.minBet} – ${slot.maxBet}`] as [string, string]] : []),
     ['Bonus buy', slot.mechanics.includes('bonus-buy') ? 'Yes (not available in all markets)' : 'No'],
   ];
-  const tiles: [string, string][] = [['RTP', fmtRtp(slot.rtp)], ['Volatility', volLabel(slot.volatility)], ['Max win', fmtX(slot.maxWin)], ['Provider', provider.name]];
+  const tiles = ([
+    slot.rtp != null ? ['RTP', fmtRtp(slot.rtp)] : null,
+    slot.volatility ? ['Volatility', volLabel(slot.volatility)] : null,
+    slot.maxWin ? ['Max win', fmtX(slot.maxWin)] : null,
+    ['Provider', provider.name],
+  ].filter(Boolean)) as [string, string][];
   return (
     <>
     <dl className="stat-tiles">{tiles.map(([k, v]) => <div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl>
