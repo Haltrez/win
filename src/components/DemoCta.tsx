@@ -30,7 +30,11 @@ function readGeo(): string | null {
  * Never on page load.
  * "Keep playing", the ✕, a click on the backdrop or Esc closes the current prompt only. Only casinos licensed for the visitor's country (geo cookie) are offered; unknown country = no prompt.
  */
-export function DemoCta({ casinos, slotName, slotKey }: { casinos: CtaCasino[]; slotName: string; slotKey: string }) {
+export type CtaLabels = { eyebrow: string; at: string; claim: string; keep: string; label: string; close: string; playResponsibly: string };
+const CTA_EN: CtaLabels = { eyebrow: 'Play {name} for real', at: 'at {casino}', claim: 'Claim now', keep: 'Keep playing the demo', label: 'Real-money offer', close: 'Close offer', playResponsibly: 'Play responsibly' };
+
+export function DemoCta({ casinos, slotName, slotKey, t }: { casinos: CtaCasino[]; slotName: string; slotKey: string; t?: Partial<CtaLabels> }) {
+  const L = { ...CTA_EN, ...t };
   const [casino, setCasino] = useState<{ c: CtaCasino; bonus: string } | null>(null);
   const [show, setShow] = useState(false);
   const played = useRef(0);
@@ -83,17 +87,17 @@ export function DemoCta({ casinos, slotName, slotKey }: { casinos: CtaCasino[]; 
   const { c, bonus } = casino;
   const close = () => { setShow(false); if (c.slug !== 'example') track('demo_cta_dismiss', { slot: slotKey }); };
   return (
-    <div className="dcp" role="dialog" aria-modal="false" aria-label="Real-money offer" onClick={(e) => { if (e.target === e.currentTarget) close(); }}>
+    <div className="dcp" role="dialog" aria-modal="false" aria-label={L.label} onClick={(e) => { if (e.target === e.currentTarget) close(); }}>
       <div className="dcp-card">
-        <button type="button" className="dcp-x" onClick={close} aria-label="Close offer">✕</button>
-        <span className="dcp-eyebrow">Play {slotName} for real</span>
+        <button type="button" className="dcp-x" onClick={close} aria-label={L.close}>✕</button>
+        <span className="dcp-eyebrow">{L.eyebrow.replace('{name}', slotName)}</span>
         <strong className="dcp-bonus">{bonus}</strong>
-        <span className="dcp-casino">at {c.name}</span>
+        <span className="dcp-casino">{L.at.replace('{casino}', c.name)}</span>
         <a className="btn btn-primary dcp-go" {...(c.slug === 'example' ? { href: '#', onClick: (e: React.MouseEvent) => e.preventDefault() } : { href: `/go/${c.slug}?src=demo-cta&slot=${encodeURIComponent(slotKey)}`, target: '_blank', 'data-event': 'affiliate_click' })} rel="sponsored nofollow noopener">
-          Claim now <span aria-hidden>→</span>
+          {L.claim} <span aria-hidden>→</span>
         </a>
-        <button type="button" className="dcp-keep" onClick={close}>Keep playing the demo</button>
-        <span className="dcp-terms">{c.terms} <a href="/responsible-gambling">Play responsibly</a></span>
+        <button type="button" className="dcp-keep" onClick={close}>{L.keep}</button>
+        <span className="dcp-terms">{c.terms} <a href="/responsible-gambling">{L.playResponsibly}</a></span>
       </div>
     </div>
   );

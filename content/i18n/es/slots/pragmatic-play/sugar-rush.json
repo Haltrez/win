@@ -1,0 +1,14 @@
+{
+ "description": "Juega la demo de Sugar Rush gratis: premios por grupos en una cuadrícula de 7x7 y casillas multiplicadoras que se duplican hasta 128x. RTP 96.5%.",
+ "review": "Premios por grupos en una cuadrícula de dulces de 7x7, con un sistema de multiplicadores por casilla muy ingenioso. Cada premio deja una marca, y los premios repetidos en la misma casilla duplican un multiplicador hasta llegar a 128x.\n\nEn el juego base las marcas se borran en cada giro, pero en los giros gratis se quedan, así que una cuadrícula bien marcada al final del bono es donde están los grandes premios. Uno de los motores de Pragmatic más satisfactorios de ver crecer. Volatilidad alta, 5,000x máx., RTP 96.5%.",
+ "features": [
+  {
+   "name": "Casillas multiplicadoras",
+   "description": "Cuando un símbolo ganador explota, su casilla queda marcada; un segundo premio en la misma casilla activa un multiplicador que se duplica cada vez, hasta 128x."
+  },
+  {
+   "name": "Giros gratis",
+   "description": "De 3 a 7 scatters dan de 10 a 30 giros gratis, y las casillas marcadas y sus multiplicadores se quedan toda la ronda."
+  }
+ ]
+}

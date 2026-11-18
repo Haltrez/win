@@ -1,0 +1,14 @@
+{
+ "description": "Juega la demo de Fire Joker gratis: un clásico compacto de 3x3 con cinco líneas, Respin of Fire y rueda de multiplicadores de hasta 10x.",
+ "review": "Un clásico compacto de 3x3 con cinco líneas y dos funciones sencillas. No intenta competir con los juegos modernos más variables: es una tragamonedas de frutas rápida y sin complicaciones, ideal para el móvil.\n\nEl Respin of Fire se activa cuando dos rodillos se llenan del mismo símbolo sin premio, y te da otra oportunidad en el último rodillo. Llena la cuadrícula con un solo símbolo y gira la Rueda de multiplicadores, de 2x a 10x. Volatilidad media y un tope bajo de 800x. Perfecta para aprender lo básico.",
+ "features": [
+  {
+   "name": "Respin of Fire",
+   "description": "Cuando dos rodillos se llenan del mismo símbolo y no hay premio, el tercer rodillo vuelve a girar."
+  },
+  {
+   "name": "Rueda de multiplicadores",
+   "description": "Una pantalla llena de un solo símbolo activa una rueda de multiplicadores de hasta 10x."
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "description": "Juega la demo de Sugar Rush 1000 gratis: grupos de dulces en 7x7 con casillas multiplicadoras que se duplican hasta 1,024x. RTP 96%.",
+ "review": "El juego de grupos de dulces en una cuadrícula de 7x7, ahora con multiplicadores mucho más grandes. Cinco o más símbolos iguales que se tocan ganan y desaparecen.\n\nCada símbolo que explota marca su casilla; una segunda explosión ahí añade un multiplicador de 2x que se duplica con cada golpe, ahora hasta 1,024x, y los multiplicadores bajo un grupo ganador se aplican a él. Ver cómo se llena la cuadrícula es toda la diversión, aunque hay rachas largas sin nada. RTP 96%.",
+ "features": [
+  {
+   "name": "Grupos en 7x7",
+   "description": "Grupos de cinco o más símbolos iguales y adyacentes ganan y desaparecen para dejar caer otros nuevos."
+  },
+  {
+   "name": "Casillas hasta 1,024x",
+   "description": "Las explosiones repetidas en la misma casilla añaden un multiplicador que se duplica cada vez, hasta 1,024x."
+  },
+  {
+   "name": "Giros gratis",
+   "description": "Los scatters activan giros gratis donde las casillas marcadas y sus multiplicadores se mantienen toda la ronda."
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
-import { DemoCta, isCtaTest, type CtaCasino } from './DemoCta';
+import { DemoCta, isCtaTest, type CtaCasino, type CtaLabels } from './DemoCta';
 import { rememberSlot } from './RecentSlots';
 
 /**
@@ -8,7 +8,13 @@ import { rememberSlot } from './RecentSlots';
  * is only requested after an explicit click, which keeps LCP/INP/CLS unaffected on page load.
  * URLs are validated against the provider's allowlisted demo domains at build time (scripts/validate-content.mjs).
  */
-export function DemoEmbed({ name, url, providerName, launchPath, image, cta, externalUrl }: { externalUrl?: string; name: string; url?: string | null; providerName: string; launchPath: string; image?: string; cta?: { casinos: CtaCasino[]; slotKey: string } }) {
+/** Interface text; localised pages pass their own (see lib/i18n-dict.ts). */
+export type DemoLabels = { play: string; playOn: string; playNamed: string; fullscreen: string; exitFs: string; noDemoTitle: string; noDemoText: string; artAlt: string; iframeTitle: string };
+const DEMO_EN: DemoLabels = { play: 'Play free demo', playOn: 'Play free demo on {provider}', playNamed: 'Play {name} demo', fullscreen: '⤢ Full screen', exitFs: 'Exit full screen', noDemoTitle: 'No free demo from {provider} yet', noDemoText: 'We only embed official demos. Read the review below or try a similar slot.', artAlt: '{name} slot by {provider}', iframeTitle: '{name} free demo by {provider}' };
+
+export function DemoEmbed({ name, url, providerName, launchPath, image, cta, externalUrl, t, ctaT, lang }: { t?: Partial<DemoLabels>; ctaT?: Partial<CtaLabels>; lang?: string; externalUrl?: string; name: string; url?: string | null; providerName: string; launchPath: string; image?: string; cta?: { casinos: CtaCasino[]; slotKey: string } }) {
+  const L = { ...DEMO_EN, ...t };
+  const fill = (s: string) => s.replace('{name}', name).replace('{provider}', providerName);
   const [on, setOn] = useState(false);
   const [src, setSrc] = useState<string | null>(null);
   const box = useRef<HTMLDivElement>(null);
@@ -62,8 +68,12 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta, ext
     remember();
     const mobile = window.matchMedia('(max-width: 768px)').matches;
     // Templated URLs ({version}, {uuid}) are resolved server-side; plain official URLs load directly.
-    if (url && url.includes('{')) setSrc(`${launchPath}${mobile ? '?channel=mobile' : ''}`);
-    else if (url) setSrc(mobile ? url.replace('channel=desktop', 'channel=mobile') : url);
+    const q = new URLSearchParams();
+    if (mobile) q.set('channel', 'mobile');
+    if (lang) q.set('lang', lang);
+    const withLang = (u: string) => (lang ? u.replace(/([?&](?:language|lang)=)en\b/i, `$1${lang}`) : u);
+    if (url && url.includes('{')) setSrc(`${launchPath}${q.size ? `?${q}` : ''}`);
+    else if (url) setSrc(withLang(mobile ? url.replace('channel=desktop', 'channel=mobile') : url));
     setOn(true);
   };
   if (!url && !externalUrl)
@@ -73,11 +83,11 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta, ext
         <span className="demo-stage">
           {image ? (
             // eslint-disable-next-line @next/next/no-img-element
-            <img className="demo-art" src={image} alt={`${name} slot by ${providerName}`} width={480} height={360} />
+            <img className="demo-art" src={image} alt={fill(L.artAlt)} width={480} height={360} />
           ) : null}
           <span className="demo-note">
-            <strong>No free demo from {providerName} yet</strong>
-            <span>We only embed official demos. Read the review below or try a similar slot.</span>
+            <strong>{fill(L.noDemoTitle)}</strong>
+            <span>{L.noDemoText}</span>
           </span>
         </span>
       </div>
@@ -87,31 +97,31 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta, ext
     <div className={`demo${on ? ' playing' : ''}${fs === 'fake' ? ' demo-fake-fs' : ''}`} ref={box}>
       {on ? (
         <>
-        <iframe src={src ?? undefined} title={`${name} free demo by ${providerName}`} allow="fullscreen; autoplay" allowFullScreen sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-pointer-lock" />
-        <button className="demo-fs" onClick={fullscreen} aria-label={fs === 'off' ? `Play ${name} full screen` : 'Exit full screen'}>{fs === 'off' ? '⤢ Full screen' : '✕'}</button>
-        {cta?.casinos.length || isCtaTest() ? <DemoCta casinos={cta?.casinos ?? []} slotName={name} slotKey={cta?.slotKey ?? name} /> : null}
+        <iframe src={src ?? undefined} title={fill(L.iframeTitle)} allow="fullscreen; autoplay" allowFullScreen sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-pointer-lock" />
+        <button className="demo-fs" onClick={fullscreen} aria-label={fs === 'off' ? L.fullscreen.replace('⤢ ', '') : L.exitFs}>{fs === 'off' ? L.fullscreen : '✕'}</button>
+        {cta?.casinos.length || isCtaTest() ? <DemoCta casinos={cta?.casinos ?? []} slotName={name} slotKey={cta?.slotKey ?? name} t={ctaT} /> : null}
         </>
       ) : (
         externalUrl ? (
-          <a className="demo-facade" href={externalUrl} target="_blank" rel="noopener" onClick={remember} aria-label={`Play the free ${name} demo on ${providerName}'s website`}>
+          <a className="demo-facade" href={externalUrl} target="_blank" rel="noopener" onClick={remember} aria-label={fill(L.playOn)}>
           {image ? <span className="demo-bg" style={{ backgroundImage: `url(${image})` }} aria-hidden /> : null}
           <span className="demo-stage">
             {image ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img className="demo-art" src={image} alt={`${name} slot by ${providerName}`} width={480} height={360} />
+              <img className="demo-art" src={image} alt={fill(L.artAlt)} width={480} height={360} />
             ) : null}
-            <span className="demo-cta"><span className="demo-play" aria-hidden /> Play free demo on {providerName}</span>
+            <span className="demo-cta"><span className="demo-play" aria-hidden /> {fill(L.playOn)}</span>
           </span>
           </a>
         ) : (
-        <button className="demo-facade" onClick={start} aria-label={`Play the free ${name} demo`}>
+        <button className="demo-facade" onClick={start} aria-label={fill(L.playNamed)}>
           {image ? <span className="demo-bg" style={{ backgroundImage: `url(${image})` }} aria-hidden /> : null}
           <span className="demo-stage">
             {image ? (
               // eslint-disable-next-line @next/next/no-img-element
-              <img className="demo-art" src={image} alt={`${name} slot by ${providerName}`} width={480} height={360} />
+              <img className="demo-art" src={image} alt={fill(L.artAlt)} width={480} height={360} />
             ) : null}
-            <span className="demo-cta"><span className="demo-play" aria-hidden /> Play free demo</span>
+            <span className="demo-cta"><span className="demo-play" aria-hidden /> {L.play}</span>
           </span>
         </button>
         )
@@ -119,8 +129,8 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta, ext
     </div>
     {!on && away ? (
       externalUrl
-        ? <a className="play-bar" href={externalUrl} target="_blank" rel="noopener" onClick={remember}><span className="demo-play" aria-hidden /> Play {name} demo</a>
-        : <button type="button" className="play-bar" onClick={() => { box.current?.scrollIntoView({ block: 'center' }); start(); }}><span className="demo-play" aria-hidden /> Play {name} demo</button>
+        ? <a className="play-bar" href={externalUrl} target="_blank" rel="noopener" onClick={remember}><span className="demo-play" aria-hidden /> {fill(L.playNamed)}</a>
+        : <button type="button" className="play-bar" onClick={() => { box.current?.scrollIntoView({ block: 'center' }); start(); }}><span className="demo-play" aria-hidden /> {fill(L.playNamed)}</button>
     ) : null}
     </>
   );

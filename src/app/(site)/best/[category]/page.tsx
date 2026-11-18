@@ -3,6 +3,7 @@ import { insightFaq, insightSentences, listInsights } from '@/lib/insights';
 
 import { notFound } from 'next/navigation';
 import { getCategories, getCategory, getCategorySlots, isIndexable } from '@/lib/categories';
+import { listLanguages } from '@/lib/i18n-lists';
 import { getCasinos, getGuide, getGuides, getProvider, slotUrl } from '@/lib/data';
 import { buildMetadata } from '@/lib/seo';
 import { itemList } from '@/lib/schema';
@@ -22,7 +23,8 @@ export async function generateMetadata({ params }: { params: Promise<P> }) {
   const { category } = await params;
   const c = getCategory(category);
   if (!c) return {};
-  return buildMetadata({ title: c.metaTitle, description: c.metaDescription, path: `/best/${c.slug}`, noindex: !isIndexable(c) });
+  const langs = listLanguages(c.slug);
+  return buildMetadata({ title: c.metaTitle, description: c.metaDescription, path: `/best/${c.slug}`, noindex: !isIndexable(c), ...(Object.keys(langs).length > 2 ? { languages: langs } : {}) });
 }
 
 export default async function CategoryPage({ params }: { params: Promise<P> }) {

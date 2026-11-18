@@ -34,6 +34,8 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ prov
   }
   url = url.replace('{uuid}', crypto.randomUUID());
   if (req.nextUrl.searchParams.get('channel') === 'mobile') url = url.replace('channel=desktop', 'channel=mobile');
+  const lang = req.nextUrl.searchParams.get('lang');
+  if (lang && /^(es|pt|de|sv)$/.test(lang)) url = url.replace(/([?&](?:language|lang)=)en\b/i, `$1${lang}`);
 
   const host = new URL(url).hostname;
   if (!p.demoDomains.some((d) => host === d || host.endsWith('.' + d))) return new NextResponse('Forbidden', { status: 403 });
