@@ -4,7 +4,7 @@ import { track } from './Analytics';
 import { FEATURES } from '@/lib/config';
 import { geoAllowed, geoExcluded } from '@/lib/geo-match';
 
-export type CtaCasino = { slug: string; name: string; geos: string[]; bonus: Record<string, string>; terms: string };
+export type CtaCasino = { slug: string; name: string; geos: string[]; bonus: Record<string, string>; terms: string; cta?: string; sweeps?: boolean };
 
 const FIRST_AFTER = 90; // seconds of visible demo play before the first prompt
 const EVERY = 90;        // seconds of visible play between prompts
@@ -90,11 +90,11 @@ export function DemoCta({ casinos, slotName, slotKey, t }: { casinos: CtaCasino[
     <div className="dcp" role="dialog" aria-modal="false" aria-label={L.label} onClick={(e) => { if (e.target === e.currentTarget) close(); }}>
       <div className="dcp-card">
         <button type="button" className="dcp-x" onClick={close} aria-label={L.close}>✕</button>
-        <span className="dcp-eyebrow">{L.eyebrow.replace('{name}', slotName)}</span>
+        <span className="dcp-eyebrow">{c.sweeps ? `Like ${slotName}? Play social slots for free` : L.eyebrow.replace('{name}', slotName)}</span>
         <strong className="dcp-bonus">{bonus}</strong>
         <span className="dcp-casino">{L.at.replace('{casino}', c.name)}</span>
         <a className="btn btn-primary dcp-go" {...(c.slug === 'example' ? { href: '#', onClick: (e: React.MouseEvent) => e.preventDefault() } : { href: `/go/${c.slug}?src=demo-cta&slot=${encodeURIComponent(slotKey)}`, target: '_blank', 'data-event': 'affiliate_click' })} rel="sponsored nofollow noopener">
-          {L.claim} <span aria-hidden>→</span>
+          {c.cta ?? L.claim} <span aria-hidden>→</span>
         </a>
         <button type="button" className="dcp-keep" onClick={close}>{L.keep}</button>
         <span className="dcp-terms">{c.terms} <a href="/responsible-gambling">{L.playResponsibly}</a></span>

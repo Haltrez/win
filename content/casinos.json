@@ -54,6 +54,240 @@
     }
   },
   {
+    "slug": "casinoclick",
+    "name": "Casino.Click",
+    "logo": "/casinos/casinoclick.svg",
+    "sweeps": true,
+    "cta": "Play for free",
+    "licenses": [
+      "US sweepstakes & social casino – free to play, no purchase necessary"
+    ],
+    "geos": [
+      "@strict",
+      "US",
+      "US-CA",
+      "US-CT",
+      "US-ID",
+      "US-IN",
+      "US-LA",
+      "US-ME",
+      "US-MT",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-TN",
+      "!US-MI",
+      "!US-NV",
+      "!US-WA"
+    ],
+    "links": {
+      "default": "https://partners.goaffiliates.com/_tdy0piJikMjKto_EPcZApGNd7ZgqdRLk/1/",
+      "US-CA": "https://partners.goaffiliates.com/_tdy0piJikMjUOsjNOfgKeWNd7ZgqdRLk/1/?pg=1",
+      "US-CT": "https://partners.goaffiliates.com/_tdy0piJikMjUOsjNOfgKeWNd7ZgqdRLk/1/?pg=1",
+      "US-ID": "https://partners.goaffiliates.com/_tdy0piJikMjUOsjNOfgKeWNd7ZgqdRLk/1/?pg=1",
+      "US-IN": "https://partners.goaffiliates.com/_tdy0piJikMjUOsjNOfgKeWNd7ZgqdRLk/1/?pg=1",
+      "US-LA": "https://partners.goaffiliates.com/_tdy0piJikMjUOsjNOfgKeWNd7ZgqdRLk/1/?pg=1",
+      "US-ME": "https://partners.goaffiliates.com/_tdy0piJikMjUOsjNOfgKeWNd7ZgqdRLk/1/?pg=1",
+      "US-MT": "https://partners.goaffiliates.com/_tdy0piJikMjUOsjNOfgKeWNd7ZgqdRLk/1/?pg=1",
+      "US-NJ": "https://partners.goaffiliates.com/_tdy0piJikMjUOsjNOfgKeWNd7ZgqdRLk/1/?pg=1",
+      "US-NY": "https://partners.goaffiliates.com/_tdy0piJikMjUOsjNOfgKeWNd7ZgqdRLk/1/?pg=1",
+      "US-OK": "https://partners.goaffiliates.com/_tdy0piJikMjUOsjNOfgKeWNd7ZgqdRLk/1/?pg=1",
+      "US-TN": "https://partners.goaffiliates.com/_tdy0piJikMjUOsjNOfgKeWNd7ZgqdRLk/1/?pg=1"
+    },
+    "bonus": {
+      "default": "300,000 GC + 22 FREE SC for $9.99 with sign-up + first purchase",
+      "US-CA": "300,000 GC for $9.99 with sign-up + first purchase",
+      "US-CT": "300,000 GC for $9.99 with sign-up + first purchase",
+      "US-ID": "300,000 GC for $9.99 with sign-up + first purchase",
+      "US-IN": "300,000 GC for $9.99 with sign-up + first purchase",
+      "US-LA": "300,000 GC for $9.99 with sign-up + first purchase",
+      "US-ME": "300,000 GC for $9.99 with sign-up + first purchase",
+      "US-MT": "300,000 GC for $9.99 with sign-up + first purchase",
+      "US-NJ": "300,000 GC for $9.99 with sign-up + first purchase",
+      "US-NY": "300,000 GC for $9.99 with sign-up + first purchase",
+      "US-OK": "300,000 GC for $9.99 with sign-up + first purchase",
+      "US-TN": "300,000 GC for $9.99 with sign-up + first purchase"
+    },
+    "terms": "18+. No purchase necessary. Void where prohibited. Terms apply.",
+    "providers": [
+      "hacksaw-gaming",
+      "relax-gaming",
+      "netent",
+      "nolimit-city"
+    ],
+    "rating": 0.5,
+    "pros": [
+      "Free to play – no purchase necessary"
+    ],
+    "offer": {
+      "default": {
+        "title": "300,000 GC + 22 FREE SC",
+        "sub": "for $9.99 with sign-up + first purchase"
+      },
+      "US-CA": {
+        "title": "300,000 GC",
+        "sub": "for $9.99 with sign-up + first purchase"
+      },
+      "US-CT": {
+        "title": "300,000 GC",
+        "sub": "for $9.99 with sign-up + first purchase"
+      },
+      "US-ID": {
+        "title": "300,000 GC",
+        "sub": "for $9.99 with sign-up + first purchase"
+      },
+      "US-IN": {
+        "title": "300,000 GC",
+        "sub": "for $9.99 with sign-up + first purchase"
+      },
+      "US-LA": {
+        "title": "300,000 GC",
+        "sub": "for $9.99 with sign-up + first purchase"
+      },
+      "US-ME": {
+        "title": "300,000 GC",
+        "sub": "for $9.99 with sign-up + first purchase"
+      },
+      "US-MT": {
+        "title": "300,000 GC",
+        "sub": "for $9.99 with sign-up + first purchase"
+      },
+      "US-NJ": {
+        "title": "300,000 GC",
+        "sub": "for $9.99 with sign-up + first purchase"
+      },
+      "US-NY": {
+        "title": "300,000 GC",
+        "sub": "for $9.99 with sign-up + first purchase"
+      },
+      "US-OK": {
+        "title": "300,000 GC",
+        "sub": "for $9.99 with sign-up + first purchase"
+      },
+      "US-TN": {
+        "title": "300,000 GC",
+        "sub": "for $9.99 with sign-up + first purchase"
+      }
+    }
+  },
+  {
+    "slug": "freespin",
+    "name": "FreeSpin.com",
+    "logo": "/casinos/freespin.webp",
+    "sweeps": true,
+    "cta": "Play for free",
+    "licenses": [
+      "US sweepstakes & social casino – free to play, no purchase necessary"
+    ],
+    "geos": [
+      "@strict",
+      "US",
+      "US-CA",
+      "US-CT",
+      "US-ID",
+      "US-IN",
+      "US-LA",
+      "US-ME",
+      "US-MT",
+      "US-NJ",
+      "US-NY",
+      "US-OK",
+      "US-TN",
+      "!US-MI",
+      "!US-NV",
+      "!US-WA"
+    ],
+    "links": {
+      "default": "https://partners.goaffiliates.com/_tdy0piJikMhiHMh1Fo8vcmNd7ZgqdRLk/1/",
+      "US-CA": "https://partners.goaffiliates.com/_tdy0piJikMgr8Syj4RJS-mNd7ZgqdRLk/1/?pg=1",
+      "US-CT": "https://partners.goaffiliates.com/_tdy0piJikMgr8Syj4RJS-mNd7ZgqdRLk/1/?pg=1",
+      "US-ID": "https://partners.goaffiliates.com/_tdy0piJikMgr8Syj4RJS-mNd7ZgqdRLk/1/?pg=1",
+      "US-IN": "https://partners.goaffiliates.com/_tdy0piJikMgr8Syj4RJS-mNd7ZgqdRLk/1/?pg=1",
+      "US-LA": "https://partners.goaffiliates.com/_tdy0piJikMgr8Syj4RJS-mNd7ZgqdRLk/1/?pg=1",
+      "US-ME": "https://partners.goaffiliates.com/_tdy0piJikMgr8Syj4RJS-mNd7ZgqdRLk/1/?pg=1",
+      "US-MT": "https://partners.goaffiliates.com/_tdy0piJikMgr8Syj4RJS-mNd7ZgqdRLk/1/?pg=1",
+      "US-NJ": "https://partners.goaffiliates.com/_tdy0piJikMgr8Syj4RJS-mNd7ZgqdRLk/1/?pg=1",
+      "US-NY": "https://partners.goaffiliates.com/_tdy0piJikMgr8Syj4RJS-mNd7ZgqdRLk/1/?pg=1",
+      "US-OK": "https://partners.goaffiliates.com/_tdy0piJikMgr8Syj4RJS-mNd7ZgqdRLk/1/?pg=1",
+      "US-TN": "https://partners.goaffiliates.com/_tdy0piJikMgr8Syj4RJS-mNd7ZgqdRLk/1/?pg=1"
+    },
+    "bonus": {
+      "default": "400,000 GC + 20 FREE SC + 20 Free Spins for $10 with sign-up + first purchase",
+      "US-CA": "400,000 GC + 20 Free Spins for $10 with sign-up + first purchase",
+      "US-CT": "400,000 GC + 20 Free Spins for $10 with sign-up + first purchase",
+      "US-ID": "400,000 GC + 20 Free Spins for $10 with sign-up + first purchase",
+      "US-IN": "400,000 GC + 20 Free Spins for $10 with sign-up + first purchase",
+      "US-LA": "400,000 GC + 20 Free Spins for $10 with sign-up + first purchase",
+      "US-ME": "400,000 GC + 20 Free Spins for $10 with sign-up + first purchase",
+      "US-MT": "400,000 GC + 20 Free Spins for $10 with sign-up + first purchase",
+      "US-NJ": "400,000 GC + 20 Free Spins for $10 with sign-up + first purchase",
+      "US-NY": "400,000 GC + 20 Free Spins for $10 with sign-up + first purchase",
+      "US-OK": "400,000 GC + 20 Free Spins for $10 with sign-up + first purchase",
+      "US-TN": "400,000 GC + 20 Free Spins for $10 with sign-up + first purchase"
+    },
+    "terms": "18+. No purchase necessary. Void where prohibited. Terms apply.",
+    "providers": [
+      "hacksaw-gaming",
+      "relax-gaming",
+      "netent",
+      "nolimit-city"
+    ],
+    "rating": 0.5,
+    "pros": [
+      "Free to play – no purchase necessary"
+    ],
+    "offer": {
+      "default": {
+        "title": "400,000 GC + 20 FREE SC",
+        "sub": "+ 20 Free Spins for $10 with sign-up + first purchase"
+      },
+      "US-CA": {
+        "title": "400,000 GC + 20 Free Spins",
+        "sub": "for $10 with sign-up + first purchase"
+      },
+      "US-CT": {
+        "title": "400,000 GC + 20 Free Spins",
+        "sub": "for $10 with sign-up + first purchase"
+      },
+      "US-ID": {
+        "title": "400,000 GC + 20 Free Spins",
+        "sub": "for $10 with sign-up + first purchase"
+      },
+      "US-IN": {
+        "title": "400,000 GC + 20 Free Spins",
+        "sub": "for $10 with sign-up + first purchase"
+      },
+      "US-LA": {
+        "title": "400,000 GC + 20 Free Spins",
+        "sub": "for $10 with sign-up + first purchase"
+      },
+      "US-ME": {
+        "title": "400,000 GC + 20 Free Spins",
+        "sub": "for $10 with sign-up + first purchase"
+      },
+      "US-MT": {
+        "title": "400,000 GC + 20 Free Spins",
+        "sub": "for $10 with sign-up + first purchase"
+      },
+      "US-NJ": {
+        "title": "400,000 GC + 20 Free Spins",
+        "sub": "for $10 with sign-up + first purchase"
+      },
+      "US-NY": {
+        "title": "400,000 GC + 20 Free Spins",
+        "sub": "for $10 with sign-up + first purchase"
+      },
+      "US-OK": {
+        "title": "400,000 GC + 20 Free Spins",
+        "sub": "for $10 with sign-up + first purchase"
+      },
+      "US-TN": {
+        "title": "400,000 GC + 20 Free Spins",
+        "sub": "for $10 with sign-up + first purchase"
+      }
+    }
+  },
+  {
     "slug": "bitstarz",
     "promoCode": "SCATTERDROP",
     "name": "BitStarz",
