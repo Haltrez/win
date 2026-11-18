@@ -17,12 +17,12 @@ pip install Pillow   # only if `python3 -c "import PIL"` fails
 
 The deploy branch is `claude/slots-demo-review-site-x1rmh3` (Vercel deploys every push to it).
 
-### This week only (run of 16 Nov 2026) – owner schedule
+### This week only (run of 23 Nov 2026) – owner schedule
 
-Publish the prepared branch (below) and **nothing else new**: skip step 1 imports, step 3 guides (the branch already
-has 4) and step 3a review refreshes. The Spanish section launches separately on Wed 18 Nov, and the pace for the week
-is full. Still run the data re-check (step 2), quality gate, publish and report. From the run of 23 Nov, the normal
-weekly routine below applies again, plus step 3c.
+Instead of the 3 normal guides in step 3, write the **8 live casino game guides** listed under "Live casino guides" in
+`content/topic-queue.md` (Crazy Time, Monopoly Live, Funky Time, Lightning Roulette, Mega Wheel, Sweet Bonanza
+CandyLand, Dream Catcher, Deal or No Deal). Slots ~25 + Spanish ~10 + these 8 keeps the week under the pace ceiling.
+From the run of 30 Nov the normal 3-guide routine applies again.
 
 ### Prepared content branch (check every week)
 
@@ -102,6 +102,23 @@ Write two topics from the "Long-tail first" section of `content/topic-queue.md` 
 count towards the weekly pace ceiling, so slots fill the rest (normally 20–30). If the long-tail section runs out,
 add new specific topics to it first (from Search Console queries the owner shares, "X vs Y" pairs of sequels on the
 site, and data lists only we have).
+
+## 3d. Coming soon list (every week)
+
+Update `content/upcoming.json` (shown as "Coming soon" on /new): slots announced by the studios we cover, with a
+release date in the next ~6 weeks. Each entry: `{"name", "provider" (our provider slug), "releaseDate" (YYYY-MM-DD),
+"source" (official provider page or press release URL), "note"?}`. Official announcements only – no rumours, no
+dates from third-party sites. Remove entries once the game is released (and import it in step 1 if it qualifies).
+Not a new page, so it doesn't count towards the pace.
+
+## 3e. Fill missing volatility / max win (~50 slots per week until done)
+
+Pick slots with `volatility` or `maxWin` = null. A value may be filled only when the provider publishes it, or when
+**two independent slot databases agree exactly** (sites sharing one data feed, or owned by the same company, count as
+one; SlotsLaunch and SlotsMate share a feed). Store third-party values with `"volatilitySource": "third-party"` /
+`"maxWinSource": "third-party"` – the page then labels them. Any disagreement → leave null (the page hides the field).
+Read individual pages only; skip any site with a bot check or 403. `scripts/apply-filled-stats.py` applies a results
+file in the format it documents.
 
 ## 3a. Keyword refresh of existing reviews (20 per week)
 
@@ -193,8 +210,8 @@ needs a human; 2–3 suggestions (outreach angles from new data, topic-queue ide
 ## Rules that never change
 
 - Official provider sources only. Respect robots.txt. A site that blocks crawlers (e.g. bigtimegaming.com) is skipped, never worked around.
-- Don't scrape competitors (Bigwinboard, SlotCatalog, Casino.guru and similar).
-- Never guess RTP, volatility or max win. If it isn't published, store `null` ("Not published").
+- Don't scrape competitors (Bigwinboard, SlotCatalog, Casino.guru and similar) – no bulk crawling or copying text. Reading individual pages to confirm a missing value under step 3e is allowed.
+- Never guess RTP, volatility or max win. If it isn't published and step 3e can't confirm it from two independent sources, store `null` (the page hides the field).
 - Casino offers, affiliate links, real-money and geo settings (`content/casinos.json`, `FEATURES` in `src/lib/config.ts`, the casino/CTA components) are owner decisions: leave them exactly as they are – never switch them off, edit or add to them.
 - Don't change layout, design or site config. Suggest such changes in the report instead.
 - Only content (slots, guides, topic queue, import-skip list) is published automatically. Never force-push, never rewrite history, never merge someone else's PR.

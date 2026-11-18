@@ -4,6 +4,7 @@ import { fmtDate } from '@/lib/format';
 import { getUpdates, LAUNCH_BATCH } from '@/lib/updates';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { SlotGrid } from '@/components/SlotCard';
+import { getProvider, getUpcoming } from '@/lib/data';
 
 export function generateMetadata() {
   const u = getUpdates()[0];
@@ -16,6 +17,7 @@ export function generateMetadata() {
 
 export default function NewPage() {
   const updates = getUpdates();
+  const upcoming = getUpcoming();
   return (
     <>
       <Breadcrumbs items={[{ name: 'New this week', path: '/new' }]} />
@@ -26,6 +28,22 @@ export default function NewPage() {
           Follow along with the <a href="/feed.xml">RSS feed</a>, or see games by release date in <Link href="/best/new-slots">new slot releases</Link>.
         </p>
       </section>
+      {upcoming.length ? (
+        <section className="update" aria-labelledby="coming-soon">
+          <h2 id="coming-soon">Coming soon</h2>
+          <p className="muted small">Announced by the studios. Demos are added here on release day.</p>
+          <ul className="upcoming-list">
+            {upcoming.map((u) => (
+              <li key={`${u.provider}-${u.name}`}>
+                <time dateTime={u.releaseDate}>{fmtDate(u.releaseDate)}</time>
+                <span className="upcoming-name">{u.name}</span>
+                <Link href={`/providers/${u.provider}`} className="muted small">{getProvider(u.provider)?.name ?? u.provider}</Link>
+                {u.note ? <span className="muted small"> · {u.note}</span> : null}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
       {updates.map((u, i) => (
         <section key={u.date} className="update" aria-labelledby={`u-${u.date}`}>
           <h2 id={`u-${u.date}`}>

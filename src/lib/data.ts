@@ -156,3 +156,10 @@ export function slotUrl(s: Pick<Slot, 'provider' | 'slug'>) {
 
 export const slotLetter = (name: string) => (/^[a-z]/i.test(name) ? name[0].toLowerCase() : '0-9');
 export const getLetters = () => [...new Set(getSlots().map((s) => slotLetter(s.name)))].sort();
+
+/** Announced slots not yet released (content/upcoming.json, filled by the weekly run from official provider announcements). */
+export type UpcomingSlot = { name: string; provider: string; releaseDate: string; source: string; note?: string };
+export const getUpcoming = (today = new Date().toISOString().slice(0, 10)) =>
+  (fs.existsSync(path.join(ROOT, 'upcoming.json')) ? readJson<UpcomingSlot[]>('upcoming.json') : [])
+    .filter((u) => u.releaseDate >= today)
+    .sort((a, b) => a.releaseDate.localeCompare(b.releaseDate));

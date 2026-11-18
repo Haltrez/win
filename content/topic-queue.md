@@ -3,6 +3,21 @@
 The weekly agent takes the first unchecked item, writes it as `content/guides/<slug>.md`, and ticks it here.
 Add ideas at the bottom. Data-led pieces (marked 📊) double as link-building assets – mention them in the PR.
 
+## Live casino guides (run of 23 Nov 2026 – all 8 that week)
+
+One guide per live game show: how it works, every bet spot, each bonus round, the official RTP per bet and max win
+(from the provider's own game page or rules only), and a "where to play it" section. These are live dealer games:
+there is **no free demo** – say so plainly and link our slot demos instead. Title = the search phrase.
+
+- [ ] Crazy Time explained: rules, bonus games, RTP and max win – `crazy-time-explained`
+- [ ] Monopoly Live explained: how it works, RTP and bonus rounds – `monopoly-live-explained`
+- [ ] Funky Time explained: rules, bonus games and RTP – `funky-time-explained`
+- [ ] Lightning Roulette explained: multipliers, payouts and RTP – `lightning-roulette-explained`
+- [ ] Mega Wheel explained: segments, multipliers and RTP – `mega-wheel-explained`
+- [ ] Sweet Bonanza CandyLand explained: live game rules and RTP – `sweet-bonanza-candyland-explained`
+- [ ] Dream Catcher explained: wheel, multipliers and RTP – `dream-catcher-explained`
+- [ ] Deal or No Deal Live explained: how it works and RTP – `deal-or-no-deal-live-explained`
+
 ## Long-tail first (SEO avalanche – owner rule, Nov 2026)
 
 Work through this section before the broad topics below. Each piece answers ONE specific, low-competition search

@@ -18,6 +18,7 @@ import { CasinoModule } from '@/components/CasinoModule';
 import { SlotRail } from '@/components/SlotCard';
 import { ClipCard } from '@/components/ClipCard';
 import { BestCasinoButton } from '@/components/BestCasinoButton';
+import { PlayForRealLogos } from '@/components/PlayForRealLogos';
 import { getClipsForSlot } from '@/lib/wins';
 import { FAQ } from '@/components/FAQ';
 import { FavoriteButton } from '@/components/Favorites';
@@ -137,6 +138,7 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
           <StatsTable slot={s} provider={p} />
           <div className="cta-stack">
             {FEATURES.realMoney && casinos.length ? <BestCasinoButton casinos={casinos.map((c) => ({ slug: c.slug, name: c.name, geos: c.geos }))} label="Play now" src="slot-hero" slot={`${s.provider}/${s.slug}`} /> : null}
+            {FEATURES.realMoney && casinos.length > 1 ? <PlayForRealLogos casinos={casinos.filter((c) => c.logo).map((c) => ({ slug: c.slug, name: c.name, logo: c.logo!, logoLight: c.logoLight, geos: c.geos }))} slot={`${s.provider}/${s.slug}`} /> : null}
             <FavoriteButton id={`${s.provider}/${s.slug}`} name={s.name} url={url} />
           </div>
         </aside>
