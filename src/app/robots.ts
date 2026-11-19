@@ -7,6 +7,5 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: [{ userAgent: '*', allow: '/', disallow: ['/go/', '/api/', '/favorites', '/random', '/*?_rsc=', '/*&_rsc='] }],
     sitemap: [`${SITE.url}/sitemap.xml`, ...SITEMAP_IDS.map((id) => `${SITE.url}/sitemap/${id}.xml`)],
-    host: SITE.url,
   };
 }
