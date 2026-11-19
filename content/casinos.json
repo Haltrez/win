@@ -288,6 +288,61 @@
     }
   },
   {
+    "slug": "metawin",
+    "name": "MetaWin",
+    "logo": "/casinos/metawin.webp",
+    "licenses": [
+      "Licence details on the casino's site"
+    ],
+    "geos": [
+      "*",
+      "!US",
+      "!GB",
+      "!NL",
+      "!DE",
+      "!AU"
+    ],
+    "links": {
+      "default": "https://affiliates-link.metawin.com/fyGggh4Z?campaign=Scatterdrop"
+    },
+    "bonus": {
+      "default": "Crypto casino – play with your crypto wallet"
+    },
+    "terms": "18+. T&Cs apply.",
+    "providers": [
+      "avatarux",
+      "bgaming",
+      "big-time-gaming",
+      "blueprint-gaming",
+      "elk-studios",
+      "games-global",
+      "hacksaw-gaming",
+      "netent",
+      "nolimit-city",
+      "play-n-go",
+      "pragmatic-play",
+      "print-studios",
+      "push-gaming",
+      "quickspin",
+      "red-tiger",
+      "relax-gaming",
+      "thunderkick",
+      "wazdan",
+      "yggdrasil"
+    ],
+    "rating": 0.25,
+    "pros": [
+      "Crypto-first casino"
+    ],
+    "cta": "Visit MetaWin",
+    "offer": {
+      "default": {
+        "title": "Crypto casino",
+        "sub": "Play with your crypto wallet"
+      }
+    }
+  },
+  {
     "slug": "bitstarz",
     "promoCode": "SCATTERDROP",
     "name": "BitStarz",
