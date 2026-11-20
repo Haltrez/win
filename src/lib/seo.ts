@@ -85,8 +85,11 @@ export function slotTitle(s: Slot, p: Provider): string[] {
       `${s.name} Slot Review | ${p.name}`,
       `${s.name} Slot Review`,
     ];
+  // "RTP" goes in the title whenever it's published: "[slot] rtp" is a common search on its own.
+  const rtpOnly = s.rtp != null ? `${fmtRtp(s.rtp)} RTP` : null;
   return [
     ...(hook && rtp ? [`${s.name} Demo – Play Free | ${rtp}, ${hook}`] : []),
+    ...(rtpOnly && s.maxWin ? [`${s.name} Demo – Play Free | ${rtpOnly}, ${fmtX(s.maxWin)}`, `${s.name} Demo – Free Play | ${rtpOnly}`] : []),
     ...(hook ? [`${s.name} Demo – Play Free Slot | ${hook}`, `${s.name} Demo – Play Free | ${hook}`] : []),
     `${s.name} Demo – Play Free Slot by ${p.name}`,
     `${s.name} Demo – Play Free Slot`,
