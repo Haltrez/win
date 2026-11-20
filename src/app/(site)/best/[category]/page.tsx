@@ -44,7 +44,14 @@ export default async function CategoryPage({ params }: { params: Promise<P> }) {
   const one = /^slots\b/.test(nounLc) ? nounLc.replace(/^slots/, 'slot') : nounLc.replace(/slots\b/, 'slot');
   const ins = listInsights(slots);
   const facts = insightSentences(ins, nounLc);
-  const faq = [...(c.faq ?? []), ...insightFaq(ins, nounLc, one)].filter((f, i, a) => a.findIndex((x) => x.q === f.q) === i);
+  // Bonus buy list: extra answers for "best RTP bonus buy slots" and "free bonus buy slots" searches.
+  const isBuy = c.slug === 'bonus-buy-slots';
+  const bestRtpBuys = isBuy ? [...slots].filter((s) => s.rtp != null && s.rtpSource !== 'third-party').sort((a, b) => b.rtp! - a.rtp!).slice(0, 10) : [];
+  const buyFaq = isBuy ? [
+    { q: 'Can I play bonus buy slots for free?', a: `Yes. Every slot in this list has a free demo, and most official demos include the bonus buy button, so you can buy the feature with play money and see what it pays. No sign-up or deposit is needed.` },
+    ...(bestRtpBuys.length ? [{ q: 'Which bonus buy slots have the best RTP?', a: `By published RTP, the highest in our list are ${bestRtpBuys.slice(0, 3).map((s) => `${s.name} (${fmtRtp(s.rtp)})`).join(', ')}. Casinos can run lower RTP versions, so check the game's info screen.` }] : []),
+  ] : [];
+  const faq = [...(c.faq ?? []), ...buyFaq, ...insightFaq(ins, nounLc, one)].filter((f, i, a) => a.findIndex((x) => x.q === f.q) === i);
   return (
     <>
       <Breadcrumbs items={[{ name: 'Best slots', path: '/best' }, { name: c.title, path: `/best/${c.slug}` }]} />
@@ -69,6 +76,36 @@ export default async function CategoryPage({ params }: { params: Promise<P> }) {
               </tbody>
             </table>
           </div>
+          {isBuy ? (
+            <>
+              <h2>How to play bonus buy slots for free</h2>
+              <section className="prose">
+                <ol>
+                  <li>Pick any slot from the list above and open its page – every game here has a free demo.</li>
+                  <li>Start the demo. You get a play-money balance; no sign-up, no deposit.</li>
+                  <li>Press the game&apos;s <strong>Buy bonus</strong> (or <strong>Buy feature</strong>) button. The price is shown as a multiple of your stake, often 100x.</li>
+                  <li>Repeat a few times. The bought bonus pays very differently from round to round – the demo shows you how often it pays back its price, without risking real money.</li>
+                </ol>
+                <p>Bonus buys are not offered in every market (they are banned in Great Britain, for example), and buying the bonus doesn&apos;t improve your long-term RTP. <Link href="/guides/bonus-buy-explained">How bonus buys work</Link> · <Link href="/guides/bonus-buy-vs-natural-bonus">Bonus buy vs natural bonus</Link></p>
+              </section>
+              {bestRtpBuys.length ? (
+                <>
+                  <h2>Best RTP bonus buy slots</h2>
+                  <p className="muted small">Highest provider-published default RTP among the bonus buy slots we list.</p>
+                  <div className="table-wrap">
+                    <table className="cmp">
+                      <thead><tr><th>#</th><th>Slot</th><th>Provider</th><th>RTP</th><th>Max win</th></tr></thead>
+                      <tbody>
+                        {bestRtpBuys.map((s, i) => (
+                          <tr key={s.slug}><td>{i + 1}</td><td><Link href={slotUrl(s)}>{s.name}</Link></td><td><Link href={`/providers/${s.provider}`}>{getProvider(s.provider)?.name}</Link></td><td>{fmtRtp(s.rtp)}</td><td>{fmtX(s.maxWin)}</td></tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </>
+              ) : null}
+            </>
+          ) : null}
           <h2>Our top picks explained</h2>
           {top.slice(0, 5).map((s, i) => (
             <section key={s.slug} className="prose">
