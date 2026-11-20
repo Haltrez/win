@@ -98,6 +98,8 @@ export interface Casino {
   /** Official logo in /public/casinos (shown on a dark plate). */
   logo?: string;
   /** The logo is dark artwork: show it on a white plate instead. */
+  /** One-line facts shown on the card (licence, payments): plain, verifiable. */
+  facts?: string[];
   /** Button text override (e.g. 'Play for free' for sweepstakes brands whose rules forbid 'bonus'). */
   cta?: string;
   /** Sweepstakes/social brand: pop-up and cards avoid real-money wording. */

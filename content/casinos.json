@@ -51,7 +51,11 @@
         "title": "Up to $700",
         "sub": "welcome bonus for new players"
       }
-    }
+    },
+    "facts": [
+      "Anjouan licence",
+      "Crypto accepted"
+    ]
   },
   {
     "slug": "casinoclick",
@@ -168,7 +172,11 @@
         "title": "300,000 GC",
         "sub": "for $9.99 with sign-up + first purchase"
       }
-    }
+    },
+    "facts": [
+      "Free to play",
+      "No purchase necessary"
+    ]
   },
   {
     "slug": "freespin",
@@ -285,7 +293,11 @@
         "title": "400,000 GC + 20 Free Spins",
         "sub": "for $10 with sign-up + first purchase"
       }
-    }
+    },
+    "facts": [
+      "Free to play",
+      "No purchase necessary"
+    ]
   },
   {
     "slug": "metawin",
@@ -340,7 +352,11 @@
         "title": "Crypto casino",
         "sub": "Play with your crypto wallet"
       }
-    }
+    },
+    "facts": [
+      "Crypto casino",
+      "Instant crypto deposits"
+    ]
   },
   {
     "slug": "bitstarz",
@@ -450,7 +466,11 @@
         "title": "50 free spins",
         "sub": "No deposit needed · then up to 5 BTC"
       }
-    }
+    },
+    "facts": [
+      "Curaçao licence",
+      "Crypto & cards"
+    ]
   },
   {
     "slug": "cashy",
@@ -522,7 +542,11 @@
         "title": "150% up to $3,000",
         "sub": "Exclusive welcome bonus"
       }
-    }
+    },
+    "facts": [
+      "Crypto & cards",
+      "Fast sign-up"
+    ]
   },
   {
     "slug": "7bit",
@@ -586,7 +610,11 @@
         "title": "325% up to 5.25 BTC",
         "sub": "+ 250 free spins"
       }
-    }
+    },
+    "facts": [
+      "Curaçao licence",
+      "Crypto & cards"
+    ]
   },
   {
     "slug": "mirax",
@@ -645,7 +673,11 @@
         "title": "325% up to 5 BTC",
         "sub": "+ 150 free spins"
       }
-    }
+    },
+    "facts": [
+      "Curaçao licence",
+      "Crypto & cards"
+    ]
   },
   {
     "slug": "playamo",
@@ -689,6 +721,10 @@
         "title": "€200 bonus",
         "sub": "+ 50 free spins welcome offer"
       }
-    }
+    },
+    "facts": [
+      "Curaçao licence",
+      "Cards & crypto"
+    ]
   }
 ]

@@ -741,3 +741,5 @@ h1 { letter-spacing: -.03em; }
 .facts-box h3 { margin: 0 0 6px; font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
 .facts-box p { margin: 0; color: var(--text); font-size: .95rem; }
 @media (max-width: 640px) { .demo-art { width: 78%; } }
+
+.casino-facts { margin: 2px 0 8px; font-size: .74rem; color: var(--muted); }
