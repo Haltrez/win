@@ -19,9 +19,9 @@ The deploy branch is `claude/slots-demo-review-site-x1rmh3` (Vercel deploys ever
 
 ### This week only (run of 23 Nov 2026) – owner schedule
 
-The prepared branch carries **4 US sweepstakes guides** (merge it first, as always). Instead of the 3 normal guides in step 3, write the **8 live casino game guides** listed under "Live casino guides" in
-`content/topic-queue.md` (Crazy Time, Monopoly Live, Funky Time, Lightning Roulette, Mega Wheel, Sweet Bonanza
-CandyLand, Dream Catcher, Deal or No Deal). Pace for the week: 4 prepared + 8 live guides + ~10 Spanish + **~25 slots max** – stop importing at 25.
+The prepared branch already carries **12 guides** (4 US sweepstakes guides + 8 live casino game guides): merge it
+first, as always, and **write no new guides in step 3** this week. Pace for the week: 12 prepared + ~10 Spanish +
+**~25 slots max** – stop importing at 25. Still run steps 2, 3a, 3c, 3d, 3e, the quality gate, publish and report.
 From the run of 30 Nov the normal 3-guide routine applies again.
 
 ### Prepared content branch (check every week)

@@ -9,14 +9,14 @@ One guide per live game show: how it works, every bet spot, each bonus round, th
 (from the provider's own game page or rules only), and a "where to play it" section. These are live dealer games:
 there is **no free demo** – say so plainly and link our slot demos instead. Title = the search phrase.
 
-- [ ] Crazy Time explained: rules, bonus games, RTP and max win – `crazy-time-explained`
-- [ ] Monopoly Live explained: how it works, RTP and bonus rounds – `monopoly-live-explained`
-- [ ] Funky Time explained: rules, bonus games and RTP – `funky-time-explained`
-- [ ] Lightning Roulette explained: multipliers, payouts and RTP – `lightning-roulette-explained`
-- [ ] Mega Wheel explained: segments, multipliers and RTP – `mega-wheel-explained`
-- [ ] Sweet Bonanza CandyLand explained: live game rules and RTP – `sweet-bonanza-candyland-explained`
-- [ ] Dream Catcher explained: wheel, multipliers and RTP – `dream-catcher-explained`
-- [ ] Deal or No Deal Live explained: how it works and RTP – `deal-or-no-deal-live-explained`
+- [x] Crazy Time explained: rules, bonus games, RTP and max win – `crazy-time-explained`
+- [x] Monopoly Live explained: how it works, RTP and bonus rounds – `monopoly-live-explained`
+- [x] Funky Time explained: rules, bonus games and RTP – `funky-time-explained`
+- [x] Lightning Roulette explained: multipliers, payouts and RTP – `lightning-roulette-explained`
+- [x] Mega Wheel explained: segments, multipliers and RTP – `mega-wheel-explained`
+- [x] Sweet Bonanza CandyLand explained: live game rules and RTP – `sweet-bonanza-candyland-explained`
+- [x] Dream Catcher explained: wheel, multipliers and RTP – `dream-catcher-explained`
+- [x] Deal or No Deal Live explained: how it works and RTP – `deal-or-no-deal-live-explained`
 
 ## Long-tail first (SEO avalanche – owner rule, Nov 2026)
 

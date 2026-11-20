@@ -38,7 +38,7 @@ export default async function GuidePage({ params }: { params: Promise<P> }) {
         <p className="muted small">By <Link href="/about">{a.name}</Link> · Updated {fmtDate(g.updatedAt)} · {g.readingMinutes} min read</p>
         <div dangerouslySetInnerHTML={{ __html: g.html }} />
       </article>
-      {g.casinos === 'sweeps' ? <CasinoModule casinos={getCasinos().filter((c) => c.sweeps)} title="Sweepstakes casinos we work with" context={`guide:${g.slug}`} /> : null}
+      {g.casinos === 'sweeps' ? <CasinoModule casinos={getCasinos().filter((c) => c.sweeps)} title="Sweepstakes casinos we work with" context={`guide:${g.slug}`} /> : g.casinos === 'all' ? <CasinoModule casinos={getCasinos()} title="Where to play it" context={`guide:${g.slug}`} /> : null}
       {slots.length ? (<><h2>Slots mentioned in this guide</h2><SlotGrid slots={slots} /></>) : null}
       {cats.length ? (<><h2>Related slot lists</h2><ul className="inline-links">{cats.map((c) => <li key={c!.slug}><Link href={`/best/${c!.slug}`}>{c!.title.replace(/\s+\d{4}$/, '')}</Link></li>)}</ul></>) : null}
       <FAQ items={g.faq ?? []} />
