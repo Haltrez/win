@@ -13,8 +13,8 @@ import { NextRequest, NextResponse } from 'next/server';
  */
 export const dynamic = 'force-dynamic';
 
-const URL_ = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
-const TOKEN = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
+const URL_ = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL || process.env.CLICKS_TOKEN_KV_REST_API_URL;
+const TOKEN = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN || process.env.CLICKS_TOKEN_KV_REST_API_TOKEN;
 const SALT = process.env.VOTE_SALT || 'scatterdrop-votes';
 const ID = /^[a-z0-9-]{2,60}\/[a-z0-9-]{1,120}$/;
 const RATE = 60; // votes per voter per hour

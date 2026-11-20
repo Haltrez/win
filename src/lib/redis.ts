@@ -2,8 +2,8 @@
  * Minimal Upstash Redis REST client (Vercel → Storage → Upstash for Redis sets the env vars).
  * Shared by votes and affiliate click counters. When unconfigured, callers degrade silently.
  */
-const URL_ = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
-const TOKEN = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
+const URL_ = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL || process.env.CLICKS_TOKEN_KV_REST_API_URL;
+const TOKEN = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN || process.env.CLICKS_TOKEN_KV_REST_API_TOKEN;
 
 export const redisConfigured = () => Boolean(URL_ && TOKEN);
 
