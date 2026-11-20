@@ -4,7 +4,7 @@ import { track } from './Analytics';
 import { FEATURES } from '@/lib/config';
 import { geoAllowed, geoExcluded } from '@/lib/geo-match';
 
-export type CtaCasino = { slug: string; name: string; geos: string[]; bonus: Record<string, string>; terms: string; cta?: string; sweeps?: boolean };
+export type CtaCasino = { slug: string; name: string; geos: string[]; bonus: Record<string, string>; terms: string; cta?: string; sweeps?: boolean; logo?: string; logoLight?: boolean; badge?: string; offer?: Record<string, { title: string; sub?: string }> };
 
 const FIRST_AFTER = 90; // seconds of visible demo play before the first prompt
 const EVERY = 90;        // seconds of visible play between prompts
@@ -35,7 +35,7 @@ const CTA_EN: CtaLabels = { eyebrow: 'Play {name} for real', at: 'at {casino}', 
 
 export function DemoCta({ casinos, slotName, slotKey, t }: { casinos: CtaCasino[]; slotName: string; slotKey: string; t?: Partial<CtaLabels> }) {
   const L = { ...CTA_EN, ...t };
-  const [casino, setCasino] = useState<{ c: CtaCasino; bonus: string } | null>(null);
+  const [casino, setCasino] = useState<{ c: CtaCasino; bonus: string; offer?: { title: string; sub?: string } } | null>(null);
   const [show, setShow] = useState(false);
   const played = useRef(0);
   const next = useRef(FIRST_AFTER);
@@ -45,8 +45,9 @@ export function DemoCta({ casinos, slotName, slotKey, t }: { casinos: CtaCasino[
     let c: CtaCasino | undefined;
     let bonus = '';
     if (test) {
-      c = TEST_CASINO;
-      bonus = TEST_CASINO.bonus.default;
+      // ?cta-test shows the real first casino after 10 s (or the placeholder when none is passed)
+      c = casinos[0] ?? TEST_CASINO;
+      bonus = c.bonus.default;
       next.current = 10;
     } else {
       const geo = readGeo() || '';
@@ -57,7 +58,9 @@ export function DemoCta({ casinos, slotName, slotKey, t }: { casinos: CtaCasino[
       bonus = (geo && c.bonus[geo]) || (region && c.bonus[region]) || c.bonus.default;
     }
     const cc = c;
-    setCasino({ c: cc, bonus });
+    const geo2 = test ? '' : (readGeo() || ''); const region2 = geo2.split('-')[0];
+    const offer = (geo2 && cc.offer?.[geo2]) || (region2 && cc.offer?.[region2]) || cc.offer?.default;
+    setCasino({ c: cc, bonus, offer });
     const every = test ? 20 : EVERY;
     const countKey = test ? `${K_COUNT}Test` : K_COUNT;
     if (!test && Number(ss.get(countKey) || 0) >= FAST_COUNT) next.current = LATER_EVERY;
@@ -84,19 +87,22 @@ export function DemoCta({ casinos, slotName, slotKey, t }: { casinos: CtaCasino[
   }, [show]);
 
   if (!casino || !show) return null;
-  const { c, bonus } = casino;
+  const { c, bonus, offer } = casino;
   const close = () => { setShow(false); if (c.slug !== 'example') track('demo_cta_dismiss', { slot: slotKey }); };
   return (
     <div className="dcp" role="dialog" aria-modal="false" aria-label={L.label} onClick={(e) => { if (e.target === e.currentTarget) close(); }}>
       <div className="dcp-card">
         <button type="button" className="dcp-x" onClick={close} aria-label={L.close}>✕</button>
-        <span className="dcp-eyebrow">{c.sweeps ? `Like ${slotName}? Play social slots for free` : L.eyebrow.replace('{name}', slotName)}</span>
-        <strong className="dcp-bonus">{bonus}</strong>
-        <span className="dcp-casino">{L.at.replace('{casino}', c.name)}</span>
+        {c.badge ? <span className="dcp-ribbon">{c.badge}</span> : null}
+        {c.logo ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img className={`dcp-logo${c.logoLight ? ' light' : ''}`} src={c.logo} alt={c.name} width={200} height={60} />
+        ) : <strong className="dcp-name">{c.name}</strong>}
+        <strong className="dcp-bonus">{offer ? offer.title : bonus}</strong>
+        {offer?.sub ? <span className="dcp-sub">{offer.sub}</span> : null}
         <a className="btn btn-primary dcp-go" {...(c.slug === 'example' ? { href: '#', onClick: (e: React.MouseEvent) => e.preventDefault() } : { href: `/go/${c.slug}?src=demo-cta&slot=${encodeURIComponent(slotKey)}`, target: '_blank', 'data-event': 'affiliate_click' })} rel="sponsored nofollow noopener">
-          {c.cta ?? L.claim} <span aria-hidden>→</span>
+          {c.cta ?? L.claim}
         </a>
-        <button type="button" className="dcp-keep" onClick={close}>{L.keep}</button>
         <span className="dcp-terms">{c.terms} <a href="/responsible-gambling">{L.playResponsibly}</a></span>
       </div>
     </div>
