@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="40" viewBox="0 0 190 40" role="img" aria-label="RTP verified on Scatter Drop">
+  <rect width="190" height="40" rx="8" fill="#0f141f" stroke="#2a3140"/>
+  <path d="M20 9c-4 6-7 9-7 13a7 7 0 0 0 14 0c0-4-3-7-7-13z" fill="#f5b82e"/>
+  <text x="36" y="17" font-family="Inter, Arial, sans-serif" font-size="10" fill="#9aa1b2">RTP &amp; max win verified</text>
+  <text x="36" y="31" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Scatter <tspan fill="#f5b82e">Drop</tspan></text>
+</svg>

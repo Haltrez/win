@@ -39,6 +39,14 @@ export default function WidgetsPage() {
           <li>Prefer a full list? Link to our <Link href="/slot-database">slot RTP database</Link> or download it as CSV.</li>
         </ul>
       </section>
+      <section className="prose">
+        <h2>Verified-data badge</h2>
+        <p>Quote our RTP or max win figures in an article or on your stream page? Add the badge and link to the game&apos;s page so readers can check the source:</p>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <p><img src="/badge.svg" alt="RTP and max win verified on Scatter Drop" width={190} height={40} /></p>
+        <pre className="code"><code>{`<a href="${SITE.url}/slots/hacksaw-gaming/le-bandit"><img src="${SITE.url}/badge.svg" alt="RTP verified on Scatter Drop" width="190" height="40"></a>`}</code></pre>
+        <p className="muted small">Replace the link with the slot you&apos;re writing about. Free to use on any site.</p>
+      </section>
       <FAQ items={faq} title="Widget FAQ" />
     </>
   );
