@@ -5,7 +5,7 @@ import { FEATURES } from '@/lib/config';
 import { getCasinosForProvider, getProvider, getSlot, slotUrl } from '@/lib/data';
 import { abs, buildMetadata, hasDemo } from '@/lib/seo';
 import { fmtRelease, fmtRtp, fmtX } from '@/lib/format';
-import { HREFLANG, LOCALES, getSlotTranslation, isLocale, localeSlotUrl, slotLanguages, translatedSlots, type Locale } from '@/lib/i18n';
+import { DEMO_ONLY, HREFLANG, LOCALES, getSlotTranslation, isLocale, localeSlotUrl, slotLanguages, translatedSlots, type Locale } from '@/lib/i18n';
 import { DICT, f, localizeCasino } from '@/lib/i18n-dict';
 import { JsonLd } from '@/components/JsonLd';
 import { DemoEmbed } from '@/components/DemoEmbed';
@@ -21,7 +21,7 @@ export function generateStaticParams(): Params[] {
   return LOCALES.flatMap((lang) => translatedSlots(lang).map((s) => ({ lang, provider: s.provider, slot: s.slug })));
 }
 
-const OG_LOCALE: Record<Locale, string> = { es: 'es_ES', pt: 'pt_BR', de: 'de_DE', sv: 'sv_SE' };
+const OG_LOCALE: Record<Locale, string> = { es: 'es_ES', pt: 'pt_BR', de: 'de_DE', sv: 'sv_SE', tr: 'tr_TR' };
 
 function load(lang: string, provider: string, slot: string) {
   if (!isLocale(lang)) return null;
@@ -59,7 +59,7 @@ export default async function LocalSlotPage({ params }: { params: Promise<Params
   const d = load(lang, provider, slot);
   if (!d) notFound();
   const { s, p, tr, t } = d;
-  const casinos = getCasinosForProvider(p.slug).map((c) => localizeCasino(c, t));
+  const casinos = DEMO_ONLY.includes(d.lang) ? [] : getCasinosForProvider(p.slug).map((c) => localizeCasino(c, t));
   const demo = hasDemo(s);
   const vol = s.volatility ? t.vol[s.volatility] ?? s.volatility : null;
   const others = translatedSlots(d.lang).filter((x) => !(x.provider === s.provider && x.slug === s.slug)).slice(0, 12)
@@ -108,7 +108,7 @@ export default async function LocalSlotPage({ params }: { params: Promise<Params
         </aside>
       </div>
 
-      <CasinoModule casinos={casinos} title={t.casino.title} context={`${d.lang}-slot:${s.slug}`} slotName={s.name} t={t.casino} />
+      {casinos.length ? <CasinoModule casinos={casinos} title={t.casino.title} context={`${d.lang}-slot:${s.slug}`} slotName={s.name} t={t.casino} /> : null}
 
       <section className="prose">
         <h2>{f(t.slot.reviewH, { name: s.name })}</h2>

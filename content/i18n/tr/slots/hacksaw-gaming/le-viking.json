@@ -1,0 +1,18 @@
+{
+  "description": "Le Viking demosunu ücretsiz oyna: Smokey Viking kıyafetinde, altı coin ile üç canlı Raid Spins hold and win turu. Hacksaw Gaming, 10.000x maks. kazanç.",
+  "review": "Smokey boynuzlu miğferle. Ana olay Raid Spins: herhangi bir türden altı coin düşürdüğünde üç canlı bir hold and win turuna girersin; coinler, elmaslar ve yoncalar tur bitene kadar yerinde kalır.\n\nHer yeni coin, elmas veya yonca canlarını üçe sıfırlar; art arda üç boş spin olunca tur biter. Sonunda coinler ve elmaslar nakit değerler gösterir (bronz 0,2x kadar düşük olabilir) ve yoncalar çevrelerindekileri artırır. Tanıdık format, Hacksaw dokunuşları. 10.000x maks. kazanç. Demoyu burada ücretsiz oyna.",
+  "features": [
+    {
+      "name": "Raid Spins",
+      "description": "Altı coin, üç yenilenen canla yapışkan bir yeniden spin turu başlatır."
+    },
+    {
+      "name": "Coin seviyeleri",
+      "description": "Bronz, gümüş ve altın coinler ile elmaslar nakit değer gösterir."
+    },
+    {
+      "name": "Yoncalar",
+      "description": "Yeşil ve altın yoncalar yakındaki veya tüm coin değerlerini artırır."
+    }
+  ]
+}
