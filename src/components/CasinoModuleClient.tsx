@@ -5,7 +5,7 @@ import { FEATURES } from '@/lib/config';
 import { geoAllowed, geoExcluded } from '@/lib/geo-match';
 
 /** Interface text; localised pages pass their own (see lib/i18n-dict.ts). */
-export type CasinoLabels = { title?: string; getBonus: string; tc: string; checking: string; none: string; partners: string; disclosure: string; note: string; playResponsibly: string; code: string; copy: string; offshoreTitle: string; offshoreText: string; noPartner?: string };
+export type CasinoLabels = { title?: string; getBonus: string; tc: string; checking: string; none: string; partners: string; disclosure: string; note: string; playResponsibly: string; code: string; copy: string; offshoreTitle: string; offshoreText: string; noPartner?: string; showAll?: string };
 const EN: CasinoLabels = {
   getBonus: 'Claim bonus', tc: '18+ | T&Cs apply', checking: 'Checking which casinos are available in your country…',
   none: "None of our casino partners accept players from your location, so we don't show offers here. You can still play every slot in free demo mode.",
@@ -31,6 +31,7 @@ export function CasinoModuleClient({ casinos, title, context, slotName, t }: { c
   const [geo, setGeo] = useState<string | null>(null);
   const enabled = FEATURES.realMoney;
   const [ready, setReady] = useState(false);
+  const [showAll, setShowAll] = useState(false);
   useEffect(() => { setGeo(readGeo()); setReady(true); }, []);
   const region = geo?.split('-')[0];
   // Offers are shown only once the visitor's country is known and a casino accepts it – never by default.
@@ -56,7 +57,7 @@ export function CasinoModuleClient({ casinos, title, context, slotName, t }: { c
         {region && OFFSHORE_COUNTRIES.includes(region) ? (
           <div className="notice offshore-notice" role="note"><strong>{L.offshoreTitle}</strong> {L.offshoreText}</div>
         ) : null}
-        <ol className="casino-grid">
+        <ol className={`casino-grid${showAll ? '' : ' collapsed'}`}>
           {list.map((c, i) => {
             const o = offerFor(c);
             return (
@@ -79,6 +80,7 @@ export function CasinoModuleClient({ casinos, title, context, slotName, t }: { c
             );
           })}
         </ol>
+        {!showAll && list.length > 3 ? <button type="button" className="btn btn-ghost casino-more" onClick={() => setShowAll(true)}>{(L.showAll ?? 'Show all {n} casinos').replace('{n}', String(list.length))}</button> : null}
         </>
       )}
       <p className="muted small">

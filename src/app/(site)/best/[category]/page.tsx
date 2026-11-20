@@ -57,7 +57,6 @@ export default async function CategoryPage({ params }: { params: Promise<P> }) {
       <Breadcrumbs items={[{ name: 'Best slots', path: '/best' }, { name: c.title, path: `/best/${c.slug}` }]} />
       <h1>{c.title}</h1>
       <section className="prose"><p>{c.intro}</p>
-        {facts.length ? <p>{facts.join(' ')}</p> : null}
         <p className="muted small">{slots.length} slots match this list. Rankings use our editorial review score and the published game data; they are not paid placements.</p>
       </section>
 
@@ -65,6 +64,7 @@ export default async function CategoryPage({ params }: { params: Promise<P> }) {
         <>
           <h2 className="sr-only">Top {Math.min(12, top.length)} picks</h2>
           <SlotGrid slots={top.slice(0, 12)} ranked />
+          {facts.length ? <section className="facts-box"><h3>At a glance</h3><p>{facts.join(' ')}</p></section> : null}
           <h2>Full comparison</h2>
           <div className="table-wrap">
             <table className="cmp">
