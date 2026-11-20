@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { getAuthor, getGuide, getGuides, getSlotBySlug } from '@/lib/data';
+import { getAuthor, getCasinos, getGuide, getGuides, getSlotBySlug } from '@/lib/data';
+import { CasinoModule } from '@/components/CasinoModule';
 import { getCategory } from '@/lib/categories';
 import { buildMetadata } from '@/lib/seo';
 import { article } from '@/lib/schema';
@@ -37,6 +38,7 @@ export default async function GuidePage({ params }: { params: Promise<P> }) {
         <p className="muted small">By <Link href="/about">{a.name}</Link> · Updated {fmtDate(g.updatedAt)} · {g.readingMinutes} min read</p>
         <div dangerouslySetInnerHTML={{ __html: g.html }} />
       </article>
+      {g.casinos === 'sweeps' ? <CasinoModule casinos={getCasinos().filter((c) => c.sweeps)} title="Sweepstakes casinos we work with" context={`guide:${g.slug}`} /> : null}
       {slots.length ? (<><h2>Slots mentioned in this guide</h2><SlotGrid slots={slots} /></>) : null}
       {cats.length ? (<><h2>Related slot lists</h2><ul className="inline-links">{cats.map((c) => <li key={c!.slug}><Link href={`/best/${c!.slug}`}>{c!.title.replace(/\s+\d{4}$/, '')}</Link></li>)}</ul></>) : null}
       <FAQ items={g.faq ?? []} />

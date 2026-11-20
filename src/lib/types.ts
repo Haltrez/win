@@ -147,6 +147,8 @@ export interface Guide {
   faq?: { q: string; a: string }[];
   relatedCategories?: string[];
   relatedSlots?: string[];
+  /** Show partner cards on the guide: 'sweeps' = US sweepstakes brands only (they stay hidden outside the US). */
+  casinos?: 'sweeps';
   html: string;
   readingMinutes: number;
 }
