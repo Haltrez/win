@@ -1,4 +1,5 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { after, NextRequest, NextResponse } from 'next/server';
+import { clickCommands, redisConfigured, redisPipeline } from '@/lib/redis';
 import { getCasino } from '@/lib/data';
 import { FEATURES } from '@/lib/config';
 import { geoAllowed, geoExcluded } from '@/lib/geo-match';
@@ -40,6 +41,8 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ casi
   const src = req.nextUrl.searchParams.get('src') ?? '';
   const event = { type: 'affiliate_click', casino: c.slug, src, pos: req.nextUrl.searchParams.get('pos'), slot: req.nextUrl.searchParams.get('slot'), country, clickId, ts: new Date().toISOString(), referer: req.headers.get('referer') };
   console.log(JSON.stringify(event));
+  // Durable counters for partner reports (no personal data). Runs after the redirect is sent.
+  if (redisConfigured()) after(() => redisPipeline(clickCommands({ casino: c.slug, src, pos: event.pos, slot: event.slot, country })).catch(() => {}));
   if (process.env.EVENTS_WEBHOOK_URL) {
     fetch(process.env.EVENTS_WEBHOOK_URL, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(event) }).catch(() => {});
   }
