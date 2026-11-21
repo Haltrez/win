@@ -151,7 +151,7 @@ export default function Roulette({ casinos }: { casinos: CtaCasino[] }) {
           <div className={`rl-result${last ? ' show' : ''}${won ? ' won' : ''}`} role="status" aria-live="polite">
             {last ? <><span className={`rl-num ${RL.pocketColor(last.n)}`}>{last.n}</span><span>{last.won > last.staked ? `You win +${fmtMoney(last.won - last.staked)}` : won ? 'Break even' : `No luck – ${fmtMoney(last.staked)} lost`}</span></> : spinning ? <span>No more bets…</span> : <span>Place your bets</span>}
           </div>
-          {last && last.won > last.staked ? <Payout net={last.won - last.staked} mult={last.won / last.staked} /> : null}
+          {last ? <Payout net={last.won - last.staked} mult={last.won > last.staked ? last.won / last.staked : undefined} /> : null}
           {history.length ? <ol className="rl-history" aria-label="Previous results">{history.map((n, i) => <li key={i} className={RL.pocketColor(n)}>{n}</li>)}</ol> : null}
         </div>
         <div className="rl-board-col">
