@@ -3,7 +3,7 @@ import { useMemo, useState } from 'react';
 import type { CtaCasino } from '../DemoCta';
 import type { Card } from '@/lib/table-games/cards';
 import * as VP from '@/lib/table-games/video-poker';
-import { useBankroll, fmtMoney } from './useBankroll';
+import { useBankroll, fmtMoney, fmtNet } from './useBankroll';
 import { GameFrame, BetInput, Payout } from './GameFrame';
 import { PlayingCard, CardSlot } from './PlayingCard';
 
@@ -30,7 +30,7 @@ export default function VideoPoker({ casinos }: { casinos: CtaCasino[] }) {
     const d = VP.vpDeal();
     if (side) {
       const r = VP.vpSideResult(d.hand);
-      if (r) { bank.stake(-side * (r.pays + 1)); setSideRes({ label: r.label, win: side * r.pays }); } else setSideRes('lose');
+      if (r) { bank.credit(side * (r.pays + 1)); setSideRes({ label: r.label, win: side * r.pays }); } else setSideRes('lose');
     } else setSideRes(null);
     setHand(d.hand); setDeck(d.deck); setHeld(NONE); setDrawn(NONE); setResult(null); setPhase('hold');
   };
@@ -84,7 +84,7 @@ export default function VideoPoker({ casinos }: { casinos: CtaCasino[] }) {
           ))}
         </div>
         <div className="vp-meta"><span className="bet-pill">Bet <b>{fmtMoney(bet)}</b></span>{side ? <span className={`result-tag vp-side-res${sideRes && sideRes !== 'lose' ? ' win' : sideRes === 'lose' ? ' lose' : ''}`}>Bonus {fmtMoney(side)}{sideRes === 'lose' ? ' · no win' : sideRes ? ` · ${sideRes.label.split(',')[0]} +${fmtMoney(sideRes.win)}` : ''}</span> : <span className="bet-pill">Max win <b>{fmtMoney(800 * bet)}</b></span>}</div>
-        {phase === 'done' && result && result.pay > 0 ? <Payout net={result.pay - bet} mult={result.pay / bet} /> : null}
+        {phase === 'done' && result ? (() => { const sideNet = sideRes && sideRes !== 'lose' ? sideRes.win : sideRes === 'lose' ? -side : 0; const net = result.pay - bet + sideNet; return <Payout net={net} mult={net > 0 && !side ? result.pay / bet : undefined} detail={side ? `Main ${fmtNet(result.pay - bet)} · bonus ${fmtNet(sideNet)}` : undefined} />; })() : null}
       </div>
     </GameFrame>
   );

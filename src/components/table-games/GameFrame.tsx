@@ -4,7 +4,7 @@ import type { CtaCasino } from '../DemoCta';
 import { TableCta } from './TableCta';
 import { fmtMoney, type Stats } from './useBankroll';
 
-export interface Bank { balance: number; stats: Stats; reset: () => void; topUp: () => void; sessionStart: number }
+export interface Bank { balance: number; stats: Stats; reset: () => void; topUp: () => void; sessionStart: number; refunded?: number }
 
 /** Bet amount field: typed value with ½ / 2× / Max helpers, clamped to the balance. */
 export function BetInput({ label, value, onChange, max, disabled, note }: { label: string; value: number; onChange: (v: number) => void; max: number; disabled?: boolean; note?: string }) {
@@ -22,11 +22,19 @@ export function BetInput({ label, value, onChange, max, disabled, note }: { labe
   );
 }
 
-/** Payout badge shown over the stage when a round settles. */
-export function Payout({ net, mult }: { net: number; mult?: number }) {
-  if (net === 0) return <div className="payout push" role="status">Push<span>bet returned</span></div>;
-  if (net < 0) return null;
-  return <div className="payout" role="status">{mult ? `${mult.toFixed(2)}×` : 'Win'}<span>+{fmtMoney(net)}</span></div>;
+/**
+ * Payout badge shown over the stage when a round settles. `net` is the whole round including side bets, so it
+ * always matches what the balance did; `detail` breaks it down when more than one bet was involved.
+ */
+export function Payout({ net, mult, detail }: { net: number; mult?: number; detail?: string }) {
+  const cls = net > 0 ? '' : net === 0 ? ' push' : ' lose';
+  return (
+    <div className={`payout${cls}`} role="status">
+      {net > 0 ? (mult ? `${mult.toFixed(2)}×` : 'Win') : net === 0 ? 'Push' : 'Lost'}
+      <span>{net > 0 ? `+${fmtMoney(net)}` : net === 0 ? 'bet returned' : `−${fmtMoney(-net)}`}</span>
+      {detail ? <span className="payout-detail">{detail}</span> : null}
+    </div>
+  );
 }
 
 /**
@@ -62,6 +70,7 @@ export function GameFrame({ game, title, casinos, bank, hint, setHint, advice, p
             <button type="button" className="tg-reset" onClick={() => { if (window.confirm('Reset your play-money balance to 1,000 and clear the stats?')) bank.reset(); }} disabled={busy}>Reset</button>
           </div>
           <div className="tg-stage-body">
+            {bank.refunded ? <p className="tg-refund" role="status">A round was left unfinished last time, so its {fmtMoney(bank.refunded)} bet was returned to your balance.</p> : null}
             {children}
             {bank.balance <= 0 && !busy ? (
               <div className="tg-broke" role="status"><p>Out of play money. It costs nothing to refill.</p><button type="button" className="tg-bet" onClick={bank.topUp}>Refill 1,000</button></div>

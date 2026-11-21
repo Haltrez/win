@@ -4,7 +4,7 @@ import type { CtaCasino } from '../DemoCta';
 import { Shoe } from '@/lib/table-games/cards';
 import * as BJ from '@/lib/table-games/blackjack';
 import { evaluate21p3, evaluatePerfectPairs, type SideResult } from '@/lib/table-games/blackjack-side';
-import { useBankroll, fmtMoney } from './useBankroll';
+import { useBankroll, fmtMoney, fmtNet } from './useBankroll';
 import { GameFrame, BetInput, Payout } from './GameFrame';
 import { PlayingCard, CardSlot } from './PlayingCard';
 
@@ -41,7 +41,7 @@ export default function Blackjack({ casinos }: { casinos: CtaCasino[] }) {
     setSettling(true);
     const n = st.dealer.length, stepMs = 450;
     for (let i = 2; i <= n; i++) timers.current.push(window.setTimeout(() => setRevealed(i), (i - 1) * stepMs));
-    timers.current.push(window.setTimeout(() => { bank.settle(st.returned, st.returned - st.staked + sideRes.net); setPayout(st.returned - st.staked); setSettling(false); }, n * stepMs + 150));
+    timers.current.push(window.setTimeout(() => { bank.settle(st.returned, st.returned - st.staked + sideRes.net); setPayout(st.returned - st.staked + sideRes.net); setSettling(false); }, n * stepMs + 150));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [st.phase, dealing]);
 
@@ -57,7 +57,7 @@ export default function Blackjack({ casinos }: { casinos: CtaCasino[] }) {
       won += (r21 ? bets.p21 * (r21.pays + 1) : 0) + (rpp ? bets.pp * (rpp.pays + 1) : 0);
       return { p21: bets.p21 ? r21 ?? 'lose' : null, pp: bets.pp ? rpp ?? 'lose' : null };
     });
-    if (won) bank.stake(-won);
+    if (won) bank.credit(won);
     setSideRes({ seats: perSeatRes, net: won - (bets.p21 + bets.pp) * seats });
     setShoeLeft(sh.remaining);
     const n = seats * 2 + 2, step = 260;
@@ -164,7 +164,7 @@ export default function Blackjack({ casinos }: { casinos: CtaCasino[] }) {
             );
           })}
         </div>
-        {payout !== null && !settling ? <Payout net={payout} mult={payout > 0 ? (st.returned) / st.staked : undefined} /> : null}
+        {payout !== null && !settling ? <Payout net={payout} mult={payout > 0 && !sideRes.net ? st.returned / st.staked : undefined} detail={bets.p21 || bets.pp ? `Main ${fmtNet(st.returned - st.staked)} · side bets ${fmtNet(sideRes.net)}` : undefined} /> : null}
       </div>
     </GameFrame>
   );

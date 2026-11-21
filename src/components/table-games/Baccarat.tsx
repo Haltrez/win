@@ -92,7 +92,7 @@ export default function Baccarat({ casinos }: { casinos: CtaCasino[] }) {
           {outcome ? <><b>{outcome.winner === 'tie' ? 'Tie' : `${LABEL[outcome.winner]} wins`}{coup?.natural ? ' – natural' : ''}</b><span>{outcome.net > 0 ? `+${fmtMoney(outcome.net)}` : outcome.net < 0 ? fmtMoney(outcome.net) : 'Push'}</span></> : busy ? <span>Cards coming…</span> : <span>Punto Banco · 8 decks · Banker pays 0.95:1 · Tie pays 8:1</span>}
         </div>
         {road.length ? <ol className="bac-road" aria-label="Previous results">{road.map((w, i) => <li key={i} className={w} title={LABEL[w]}>{w[0].toUpperCase()}</li>)}</ol> : null}
-        {outcome && !busy && outcome.net >= 0 ? <Payout net={outcome.net} mult={outcome.net > 0 ? outcome.returned / outcome.staked : undefined} /> : null}
+        {outcome && !busy ? <Payout net={outcome.net} mult={outcome.net > 0 ? outcome.returned / outcome.staked : undefined} /> : null}
       </div>
     </GameFrame>
   );

@@ -262,3 +262,5 @@
   .pc, .pc.book .pc-inner, .tg-act.book, .tg-bet.book, .tg-spot.book, .rl-cell.book, .payout { animation: none; }
   .pc-inner, .rw-rotor, .rw-ball-orbit, .rw-ball { transition-duration: .2s; }
 }
+.payout-detail { font-size: .72rem !important; color: var(--p-muted) !important; font-weight: 600 !important; margin-top: 2px; white-space: nowrap; }
+.tg-refund { margin: 0 0 10px; padding: 8px 12px; border-radius: 6px; background: rgba(255,194,26,.1); border: 1px solid rgba(255,194,26,.35); color: var(--p-text); font-size: .78rem; }

@@ -99,7 +99,7 @@ export default function CasinoHoldem({ casinos }: { casinos: CtaCasino[] }) {
           {settled ? outcomeText() : deciding && dealt < 7 ? <span>Dealing…</span> : deciding ? <span>Call (2× ante) or fold</span> : busy ? <span>Turn and river…</span> : <span>Dealer qualifies with a pair of 4s or better · ante bonus up to 100:1</span>}
         </div>
 
-        {net !== null && net >= 0 ? <Payout net={net} mult={net > 0 ? r!.returned / (st!.ante * 3) : undefined} /> : null}
+        {net !== null ? <Payout net={net} mult={net > 0 ? r!.returned / (st!.ante * 3) : undefined} /> : null}
       </div>
     </GameFrame>
   );
