@@ -22,7 +22,7 @@ export function PlayingCard({ card, faceDown = false, dealIndex = 0, held, dim, 
   const face = card && !faceDown;
   const red = card ? isRed(card.suit) : false;
   const inner = (
-    <div className={`pc${face ? ' up' : ' down'}${held ? ' held' : ''}${dim ? ' dim' : ''} ${className}`} style={{ animationDelay: `${dealIndex * 120}ms` }} aria-label={card && !faceDown ? `${RANK_LABEL[card.rank]} of ${({ S: 'spades', H: 'hearts', D: 'diamonds', C: 'clubs' })[card.suit]}` : 'face-down card'} role="img">
+    <div className={`pc${face ? ' up' : ' down'}${held ? ' held' : ''}${dim ? ' dim' : ''} ${className}`} style={{ animationDelay: `${dealIndex * 160}ms` }} aria-label={card && !faceDown ? `${RANK_LABEL[card.rank]} of ${({ S: 'spades', H: 'hearts', D: 'diamonds', C: 'clubs' })[card.suit]}` : 'face-down card'} role="img">
       <div className="pc-inner">
         <div className="pc-back" aria-hidden><div className="pc-back-pattern" /></div>
         {card ? (

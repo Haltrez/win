@@ -30,6 +30,9 @@ export default function Blackjack({ casinos }: { casinos: CtaCasino[] }) {
   const [revealed, setRevealed] = useState(1);
   const [settling, setSettling] = useState(false);
   const [shoeLeft, setShoeLeft] = useState<number | null>(null);
+  /** Cards of the opening deal shown so far (seat 1, seat 2…, dealer, then the second round) – the deal is animated one card at a time. */
+  const [dealt, setDealt] = useState(0);
+  const [dealing, setDealing] = useState(false);
   const timers = useRef<number[]>([]);
   useEffect(() => () => timers.current.forEach(clearTimeout), []);
 
@@ -41,14 +44,14 @@ export default function Blackjack({ casinos }: { casinos: CtaCasino[] }) {
 
   // Dealer reveal pacing: flip the hole card, then each drawn card, then pay out (side bets were paid at the deal).
   useEffect(() => {
-    if (st.phase !== 'settled') return;
+    if (st.phase !== 'settled' || dealing) return;
     setSettling(true);
     const n = st.dealer.length;
     const stepMs = 450;
     for (let i = 2; i <= n; i++) timers.current.push(window.setTimeout(() => setRevealed(i), (i - 1) * stepMs));
     timers.current.push(window.setTimeout(() => { bank.settle(st.returned, st.returned - st.staked + sideRes.net); setSettling(false); }, n * stepMs + 150));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [st.phase]);
+  }, [st.phase, dealing]);
 
   const addChip = (k: Spot) => { if (!inBet || total + chip > bank.balance) return; setBets((b) => ({ ...b, [k]: b[k] + chip })); };
   const deal = () => {
@@ -69,10 +72,17 @@ export default function Blackjack({ casinos }: { casinos: CtaCasino[] }) {
     if (payout) bank.stake(-payout);
     setSideRes({ seats: perSeatRes, net: payout - (bets.p21 + bets.pp) * seats });
     setShoeLeft(sh.remaining);
+    const n = seats * 2 + 2, step = 260;
+    setDealt(0); setDealing(true);
+    for (let i = 1; i <= n; i++) timers.current.push(window.setTimeout(() => setDealt(i), i * step));
+    timers.current.push(window.setTimeout(() => setDealing(false), n * step + 150));
     setSt(s);
   };
+  /** Is this opening card on the table yet? Later cards (hits, splits) always are. */
+  const shown = (seat: number, j: number) => !dealing || j >= 2 || j * (seats + 1) + seat < dealt;
+  const dealerShownYet = (i: number) => !dealing || i >= 2 || i * (seats + 1) + seats < dealt;
   const act = (a: BJ.BjAction) => {
-    if (!playing || settling) return;
+    if (!playing || settling || dealing) return;
     const sh = shoe();
     if ((a === 'double' || a === 'split') && active.bet > bank.balance) return;
     if (a === 'double' || a === 'split') bank.stake(active.bet);
@@ -88,13 +98,13 @@ export default function Blackjack({ casinos }: { casinos: CtaCasino[] }) {
 
   const advice = useMemo(() => {
     if (inBet) return { action: null, move: 'Main bet only', reason: 'Side bets pay big on rare hands and lose on all the others, so they cost far more over time than the main hand played with basic strategy.' };
-    if (!playing || !active) return null;
+    if (!playing || !active || dealing) return null;
     const a = BJ.basicStrategy(active.cards, st.dealer[0], { canSplit: BJ.canSplit(st), canDouble: BJ.canDouble(st) });
     return { action: a.action as BJ.BjAction | null, move: a.action[0].toUpperCase() + a.action.slice(1), reason: a.reason };
-  }, [st, playing, active, inBet]);
+  }, [st, playing, active, inBet, dealing]);
 
-  const dealerShown = st.phase === 'player' ? st.dealer.slice(0, 1) : st.dealer.slice(0, revealed);
-  const dealerTotal = st.phase === 'settled' && revealed >= st.dealer.length ? BJ.handValue(st.dealer) : null;
+  const dealerShown = (st.phase === 'player' || dealing ? st.dealer.slice(0, 1) : st.dealer.slice(0, revealed)).filter((_, i) => dealerShownYet(i));
+  const dealerTotal = st.phase === 'settled' && !dealing && revealed >= st.dealer.length ? BJ.handValue(st.dealer) : null;
   const canAfford = (x: number) => x <= bank.balance;
 
   const controls = inBet ? (
@@ -110,34 +120,34 @@ export default function Blackjack({ casinos }: { casinos: CtaCasino[] }) {
       <button type="button" className="tg-btn primary big" onClick={deal} disabled={bets.main <= 0 || total > bank.balance}>Deal · {fmtMoney(total)}</button>
     </>
   ) : st.phase === 'settled' ? (
-    <button type="button" className="tg-btn primary big" onClick={newHand} disabled={settling}>{settling ? 'Dealer…' : 'New hand'}</button>
+    <button type="button" className="tg-btn primary big" onClick={newHand} disabled={settling || dealing}>{settling || dealing ? 'Dealer…' : 'New hand'}</button>
   ) : (
     <div className="tg-actions" role="group" aria-label="Actions">
       {(['hit', 'stand', 'double', 'split'] as BJ.BjAction[]).map((a) => {
         const ok = a === 'hit' ? BJ.canHit(st) : a === 'stand' ? true : a === 'double' ? BJ.canDouble(st) && canAfford(active.bet) : BJ.canSplit(st) && canAfford(active.bet);
-        return <button key={a} type="button" className={`tg-btn${hint && advice?.action === a ? ' book' : ''}`} onClick={() => act(a)} disabled={!ok || settling}>{a[0].toUpperCase() + a.slice(1)}</button>;
+        return <button key={a} type="button" className={`tg-btn${hint && advice?.action === a ? ' book' : ''}`} onClick={() => act(a)} disabled={!ok || settling || dealing}>{a[0].toUpperCase() + a.slice(1)}</button>;
       })}
     </div>
   );
 
   const sideBadges = (seat: number) => {
-    const r = sideRes.seats[seat]; if (!r) return null;
+    const r = sideRes.seats[seat]; if (!r || dealing) return null;
     const one = (k: 'p21' | 'pp', name: string) => { const x = r[k]; if (!x) return null; return x === 'lose' ? <span key={k} className="bj-side-res lose">{name}: no win</span> : <span key={k} className="bj-side-res win">{name}: {x.label} +{fmtMoney(bets[k] * x.pays)}</span>; };
     return <div className="bj-side-results">{one('p21', '21+3')}{one('pp', 'Pairs')}</div>;
   };
   const seatList = Array.from({ length: st.hands.length ? Math.max(...st.hands.map((h) => h.seat)) + 1 : seats }, (_, i) => i);
 
   return (
-    <GameFrame game="blackjack" title="Blackjack" casinos={casinos} bank={bank} hint={hint} setHint={setHint} advice={advice ? { move: advice.move, reason: advice.reason } : null} controls={controls} busy={settling}>
+    <GameFrame game="blackjack" title="Blackjack" casinos={casinos} bank={bank} hint={hint} setHint={setHint} advice={advice ? { move: advice.move, reason: advice.reason } : null} controls={controls} busy={settling || dealing}>
       <div className="bj">
         <div className="bj-rules" aria-hidden>Blackjack pays 3 to 2 · Dealer stands on soft 17 · 6 decks</div>
         <div className="bj-dealer">
           <div className="hand-label">Dealer{dealerTotal ? <b className="total">{dealerTotal.total > 21 ? 'Bust' : dealerTotal.total}</b> : st.dealer.length ? <b className="total">{BJ.handValue(dealerShown).total}</b> : null}</div>
           <div className="hand-cards">
-            {st.dealer.length === 0 ? <><CardSlot /><CardSlot /></> : st.dealer.map((c, i) => (i < dealerShown.length || i === 1 ? <PlayingCard key={i} card={c} faceDown={i === 1 && revealed < 2} dealIndex={i === 1 ? 3 : i === 0 ? 1 : 0} /> : null))}
+            {st.dealer.length === 0 ? <><CardSlot /><CardSlot /></> : st.dealer.map((c, i) => (!dealerShownYet(i) ? <CardSlot key={i} /> : i < dealerShown.length || i === 1 ? <PlayingCard key={i} card={c} faceDown={i === 1 && (revealed < 2 || dealing)} /> : null))}
           </div>
         </div>
-        <div className="bj-centre" aria-hidden>{shoeLeft != null ? <span className="bj-shoe">Shoe: {shoeLeft} cards left</span> : <span className="bj-shoe">Place your bets</span>}</div>
+        <div className="bj-centre" aria-hidden>{dealing ? <span className="bj-shoe">Dealing…</span> : shoeLeft != null ? <span className="bj-shoe">Shoe: {shoeLeft} cards left</span> : <span className="bj-shoe">Place your bets</span>}</div>
         <div className={`bj-player seats-${seatList.length} hands-${Math.max(1, st.hands.length)}`}>
           {seatList.map((seat) => {
             const hs = st.hands.filter((h) => h.seat === seat);
@@ -152,8 +162,8 @@ export default function Blackjack({ casinos }: { casinos: CtaCasino[] }) {
                     const showResult = st.phase === 'settled' && !settling && h.result;
                     return (
                       <div key={i} className={`bj-hand${playing && i === st.active ? ' active' : ''}${showResult ? ` res-${h.result}` : ''}`}>
-                        <div className="hand-label">{hs.length > 1 ? `${seatList.length > 1 ? `H${seat + 1}` : 'Hand'} ${hs.indexOf(h) + 1}` : seatList.length > 1 ? `Hand ${seat + 1}` : 'You'}<b className="total">{v.total > 21 ? 'Bust' : BJ.isBlackjack(h.cards) && !h.fromSplit ? 'BJ' : `${v.soft && v.total <= 21 ? 'soft ' : ''}${v.total}`}</b></div>
-                        <div className="hand-cards">{h.cards.map((c, j) => <PlayingCard key={j} card={c} dealIndex={h.cards.length <= 2 && !h.fromSplit ? j * 2 + seat : 0} />)}</div>
+                        <div className="hand-label">{hs.length > 1 ? `${seatList.length > 1 ? `H${seat + 1}` : 'Hand'} ${hs.indexOf(h) + 1}` : seatList.length > 1 ? `Hand ${seat + 1}` : 'You'}{shown(seat, 1) ? <b className="total">{v.total > 21 ? 'Bust' : BJ.isBlackjack(h.cards) && !h.fromSplit ? 'BJ' : `${v.soft && v.total <= 21 ? 'soft ' : ''}${v.total}`}</b> : null}</div>
+                        <div className="hand-cards">{h.cards.map((c, j) => (shown(seat, j) ? <PlayingCard key={j} card={c} /> : <CardSlot key={j} />))}</div>
                         <div className="hand-bet"><ChipStack amount={h.bet} />{showResult ? <span className={`hand-result ${h.result}`}>{RESULT_LABEL[h.result!]}{h.payout && h.payout > h.bet ? ` +${fmtMoney(h.payout - h.bet)}` : ''}</span> : null}</div>
                       </div>
                     );
