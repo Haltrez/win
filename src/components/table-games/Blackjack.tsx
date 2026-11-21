@@ -142,7 +142,7 @@ export default function Blackjack({ casinos }: { casinos: CtaCasino[] }) {
       <div className="bj">
         <div className="bj-rules" aria-hidden>Blackjack pays 3 to 2 · Dealer stands on soft 17 · 6 decks</div>
         <div className="bj-dealer">
-          <div className="hand-label">Dealer{dealerTotal ? <b className="total">{dealerTotal.total > 21 ? 'Bust' : dealerTotal.total}</b> : st.dealer.length ? <b className="total">{BJ.handValue(dealerShown).total}</b> : null}</div>
+          <div className="hand-label">Dealer{dealerTotal ? <b className="total">{dealerTotal.total > 21 ? 'Bust' : dealerTotal.total}</b> : dealerShown.length ? <b className="total">{BJ.handValue(dealerShown).total}</b> : null}</div>
           <div className="hand-cards">
             {st.dealer.length === 0 ? <><CardSlot /><CardSlot /></> : st.dealer.map((c, i) => (!dealerShownYet(i) ? <CardSlot key={i} /> : i < dealerShown.length || i === 1 ? <PlayingCard key={i} card={c} faceDown={i === 1 && (revealed < 2 || dealing)} /> : null))}
           </div>
