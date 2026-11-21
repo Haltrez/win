@@ -20,6 +20,8 @@ export default function Casinos() {
       </section>
       <CasinoModule casinos={getCasinos()} title="Casinos available to you" context="casinos" />
       <section className="prose">
+        <h2>Casinos by game</h2>
+        <ul className="inline-links"><li><Link href="/casinos/blackjack">Best blackjack casinos</Link></li><li><Link href="/casinos/roulette">Best roulette casinos</Link></li><li><Link href="/casinos/baccarat">Best baccarat casinos</Link></li></ul>
         <h2>Before you sign up</h2>
         <ul>
           <li>Check the licence number on the casino&apos;s footer against the regulator&apos;s public register.</li>

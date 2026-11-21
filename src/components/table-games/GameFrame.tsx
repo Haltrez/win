@@ -52,7 +52,7 @@ export function GameFrame({ game, title, casinos, bank, hint, setHint, advice, p
       <div className="tg-layout">
         <div className="tg-panel">
           {panel}
-          <label className="tg-switch">
+          <label className="tg-switch tg-switch-top">
             <input type="checkbox" checked={hint} onChange={(e) => setHint(e.target.checked)} />
             <span className="tg-switch-track" aria-hidden><span className="tg-switch-knob" /></span>
             <span className="tg-switch-text">Show book move</span>

@@ -9,9 +9,9 @@ import { CasinoModule } from '@/components/CasinoModule';
 import { ProviderLogo } from '@/components/ProviderLogo';
 
 export const metadata = buildMetadata({
-  title: `Demo Slots: Play ${Math.floor(getSlots().length / 10) * 10}+ Free Slot Demos (${SITE.year}) | ${SITE.name}`,
+  title: `Free Slots, Blackjack & Roulette: ${Math.floor(getSlots().length / 10) * 10}+ Demos (${SITE.year}) | ${SITE.name}`,
   absoluteTitle: true,
-  description: `Play ${Math.floor(getSlots().length / 10) * 10}+ demo slots free: official demos from Pragmatic Play, Hacksaw, Nolimit City and more, no sign-up. RTP, volatility and max win for every game. 18+.`,
+  description: `Play ${Math.floor(getSlots().length / 10) * 10}+ official slot demos plus free blackjack, roulette, baccarat and video poker, no sign-up. RTP, max win and basic strategy for every game. 18+.`,
   path: '/',
 });
 
@@ -22,6 +22,9 @@ const QUICK: [string, string, string][] = [
   ['/best/highest-max-win-slots', 'Max wins', '⚡'],
   ['/best/megaways-slots', 'Megaways', '▦'],
   ['/biggest-slot-wins', 'Big wins', '🏆'],
+  ['/table-games/blackjack', 'Blackjack', '♠'],
+  ['/table-games/roulette', 'Roulette', '◎'],
+  ['/guides/crazy-time-explained', 'Live game shows', '▶'],
 ];
 
 function Section({ title, href, linkText, children }: { title: string; href: string; linkText: string; children: React.ReactNode }) {
@@ -44,10 +47,10 @@ export default function Home() {
   return (
     <>
       <section className="hero">
-        <h1>Demo slots: play free slot demos</h1>
+        <h1>Play free: {slots.length.toLocaleString()} slot demos, blackjack, roulette and more</h1>
         <p>
-          Play free demos of {slots.length.toLocaleString()} slots from the official studios – no sign-up, no deposit – and check the numbers that matter: RTP,
-          volatility, max win and how the bonus actually works.
+          Official slot demos and our own free table games – no sign-up, no deposit – with the numbers that matter: RTP, volatility, max win,
+          basic strategy and how every bonus actually works. Then, when you&apos;re ready, the casinos we trust for real play.
         </p>
         <p className="hero-cta">
           <form action="/random" method="get" className="random-form"><button type="submit" className="btn btn-primary btn-lg"><span className="demo-play" aria-hidden /> Random demo</button></form>
@@ -64,6 +67,11 @@ export default function Home() {
       </section>
 
       <RecentSlots />
+      <section className="ways" aria-label="Three ways to play">
+        <Link href="/slots" className="way"><span className="way-k">Slot demos</span><strong>{slots.length.toLocaleString()} official demos</strong><span className="muted small">Same maths as the real game, play money only.</span></Link>
+        <Link href="/table-games" className="way"><span className="way-k">Table games</span><strong>Blackjack, roulette, baccarat, video poker, hold&apos;em</strong><span className="muted small">Our own free tables with a &quot;show book move&quot; hint mode.</span></Link>
+        <Link href="/casinos" className="way"><span className="way-k">Play for real</span><strong>Casinos we work with</strong><span className="muted small">Filtered to the ones that accept players in your country.</span></Link>
+      </section>
       <Section title="Top-rated slots" href="/best/best-slots" linkText="See all"><SlotRail slots={top} ranked label="Top-rated slots" /></Section>
       <CasinoModule casinos={getCasinos()} title="Top casino bonuses" context="home" />
       <Section title="New releases" href="/best/new-slots" linkText="All new slots"><SlotRail slots={newest} label="New releases" /></Section>
