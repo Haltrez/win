@@ -114,7 +114,7 @@ export function slotDescription(s: Slot, p: Provider) {
 }
 
 export function providerTitle(p: Provider, count: number): string[] {
-  return [`${p.name} Demo Slots – Play ${count} Free Demos (${SITE.year})`, `${p.name} Demo Slots – ${count} Free Demos`, `${p.name} Demo Slots – Free Play`, `${p.name} Demo Slots`];
+  return [`${p.name} Demo Slots: Free Play on ${count} Games (${SITE.year})`, `${p.name} Demo Slots – Free Play, ${count} Games`, `${p.name} Demo Slots – Free Play`, `${p.name} Demo Slots`];
 }
 export function providerDescription(p: Provider, count: number) {
   const m = (p.signatureMechanics ?? []).slice(0, 2).map((x) => (/[A-Z]/.test(x.slice(1)) ? x : x.replace(/^[A-Z]/, (c) => c.toLowerCase())));

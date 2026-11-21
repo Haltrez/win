@@ -46,12 +46,27 @@ export default async function CategoryPage({ params }: { params: Promise<P> }) {
   const facts = insightSentences(ins, nounLc);
   // Bonus buy list: extra answers for "best RTP bonus buy slots" and "free bonus buy slots" searches.
   const isBuy = c.slug === 'bonus-buy-slots';
+  const isRtp = c.slug === 'high-rtp-slots';
+  const isMax = c.slug === 'highest-max-win-slots';
+  // Answer-first table for lists that rank for "high rtp slots" / "slots with highest max win": the top 10 by the number people searched for.
+  const answerRows = isRtp ? [...slots].filter((s) => s.rtp != null && s.rtpSource !== 'third-party').sort((a, b) => b.rtp! - a.rtp!).slice(0, 10)
+    : isMax ? [...slots].filter((s) => s.maxWin).sort((a, b) => b.maxWin! - a.maxWin!).slice(0, 10) : [];
+  const rtpFaq = isRtp ? [
+    { q: 'What is a high RTP slot?', a: `A slot whose published return to player is above the usual 96%. We count 96.5% and up as high RTP. Over a very large number of spins a 97% slot keeps 3 units of every 100 wagered; a 94% slot keeps 6. In one session anything can happen, but the higher figure is the better long-term deal.` },
+    ...(answerRows.length ? [{ q: 'Which slot has the highest RTP?', a: `In our database the highest provider-published RTP is ${answerRows[0].name} at ${fmtRtp(answerRows[0].rtp)}, followed by ${answerRows.slice(1, 3).map((s) => `${s.name} (${fmtRtp(s.rtp)})`).join(' and ')}. Casinos can run lower versions of the same game, so check the info screen before you play.` }] : []),
+    { q: 'Can I play high RTP slots for free?', a: 'Yes. Every slot in this list has an official free demo on its page – same maths and paytable as the real-money version, just play money. No sign-up.' },
+  ] : [];
+  const maxFaq = isMax ? [
+    ...(answerRows.length ? [{ q: 'Which slot has the highest max win?', a: `${answerRows[0].name} by ${getProvider(answerRows[0].provider)?.name} advertises ${fmtX(answerRows[0].maxWin)} the stake, the highest in our database, ahead of ${answerRows.slice(1, 3).map((s) => `${s.name} (${fmtX(s.maxWin)})`).join(' and ')}.` }] : []),
+    { q: 'How rare is a max win on a slot?', a: 'Extremely rare. Studios rarely publish the odds, but max wins on high-volatility slots are typically a one-in-millions-of-spins event. Treat the figure as a ceiling, not something a session will reach.' },
+    { q: 'What does max win mean?', a: 'The largest payout a slot can award in one round, written as a multiple of your stake: 10,000x means a 1 unit bet could pay at most 10,000 units. Most games cap the round when it is reached.' },
+  ] : [];
   const bestRtpBuys = isBuy ? [...slots].filter((s) => s.rtp != null && s.rtpSource !== 'third-party').sort((a, b) => b.rtp! - a.rtp!).slice(0, 10) : [];
   const buyFaq = isBuy ? [
     { q: 'Can I play bonus buy slots for free?', a: `Yes. Every slot in this list has a free demo, and most official demos include the bonus buy button, so you can buy the feature with play money and see what it pays. No sign-up or deposit is needed.` },
     ...(bestRtpBuys.length ? [{ q: 'Which bonus buy slots have the best RTP?', a: `By published RTP, the highest in our list are ${bestRtpBuys.slice(0, 3).map((s) => `${s.name} (${fmtRtp(s.rtp)})`).join(', ')}. Casinos can run lower RTP versions, so check the game's info screen.` }] : []),
   ] : [];
-  const faq = [...(c.faq ?? []), ...buyFaq, ...insightFaq(ins, nounLc, one)].filter((f, i, a) => a.findIndex((x) => x.q === f.q) === i);
+  const faq = [...(c.faq ?? []), ...buyFaq, ...rtpFaq, ...maxFaq, ...insightFaq(ins, nounLc, one)].filter((f, i, a) => a.findIndex((x) => x.q === f.q) === i);
   return (
     <>
       <Breadcrumbs items={[{ name: 'Best slots', path: '/best' }, { name: c.title, path: `/best/${c.slug}` }]} />
@@ -62,6 +77,22 @@ export default async function CategoryPage({ params }: { params: Promise<P> }) {
 
       {slots.length === 0 ? <p className="notice">No slots match this list yet – we add new reviews every week.</p> : (
         <>
+          {answerRows.length ? (
+            <>
+              <h2>{isRtp ? `Highest RTP slots right now` : `Slots with the highest max win`}</h2>
+              <div className="table-wrap">
+                <table className="cmp">
+                  <thead><tr><th>#</th><th>Slot</th><th>Provider</th><th>{isRtp ? 'RTP' : 'Max win'}</th><th>{isRtp ? 'Max win' : 'RTP'}</th><th>Volatility</th></tr></thead>
+                  <tbody>
+                    {answerRows.map((s, i) => (
+                      <tr key={s.slug}><td>{i + 1}</td><td><Link href={slotUrl(s)}>{s.name}</Link></td><td><Link href={`/providers/${s.provider}`}>{getProvider(s.provider)?.name}</Link></td><td>{isRtp ? fmtRtp(s.rtp) : fmtX(s.maxWin)}</td><td>{isRtp ? fmtX(s.maxWin) : fmtRtp(s.rtp)}</td><td>{volLabel(s.volatility)}</td></tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p className="muted small">{isRtp ? 'Provider-published default RTP. Casinos may run lower versions of the same game – check the info screen.' : 'Official max win multipliers as published by each studio. Max wins are extremely rare.'}</p>
+            </>
+          ) : null}
           <h2 className="sr-only">Top {Math.min(12, top.length)} picks</h2>
           <SlotGrid slots={top.slice(0, 12)} ranked />
           {facts.length ? <section className="facts-box"><h3>At a glance</h3><p>{facts.join(' ')}</p></section> : null}

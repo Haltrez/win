@@ -130,6 +130,14 @@ export function getCategories(): CategoryDef[] {
         metaDescription: `Compare ${n} bonus buy slots by RTP, volatility and max win, and try the feature buy free in demo mode with play money. No sign-up, 18+.`,
       };
     }
+    if (d.slug === 'high-rtp-slots') {
+      const n = getSlots().filter(d.filter).length;
+      d = {
+        ...d,
+        metaTitle: `High RTP Slots${y}: ${n} Slots with 96.5%+ RTP, Ranked`,
+        metaDescription: `The highest RTP slots, ranked by provider-published RTP (96.5% and up), with max win, volatility and a free demo for every game. Updated weekly. 18+.`,
+      };
+    }
     if (d.slug === 'free-spins-slots') {
       const n = getSlots().filter(d.filter).length;
       d = {
