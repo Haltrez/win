@@ -326,3 +326,36 @@ button.chip:disabled { opacity: .35; cursor: not-allowed; }
   .seats-2 .bj-side-res, .seats-3 .bj-side-res { font-size: .56rem; padding: 0 6px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
   .seats-2 .hand-bet, .seats-3 .hand-bet { flex-direction: column; gap: 4px; }
 }
+
+/* Blackjack: actions sit under the active hand, inside the felt */
+.bj-turn { display: flex; flex-direction: column; align-items: center; gap: 8px; margin-top: 10px; }
+.bj-turn-tag { font: 800 .62rem/1 var(--font-display, var(--font)); letter-spacing: .14em; text-transform: uppercase; color: #1c0f00; background: var(--gold-2); padding: 5px 10px; border-radius: 999px; animation: turn-pulse 1.2s ease-in-out infinite; }
+@keyframes turn-pulse { 50% { box-shadow: 0 0 0 6px rgba(246,217,138,.25); } }
+.bj-actions { justify-content: center; }
+.bj-turn .tg-btn { min-height: 44px; padding: 0 16px; font-size: .9rem; background: rgba(0,0,0,.45); border-color: rgba(255,255,255,.25); backdrop-filter: blur(4px); }
+.bj-turn .tg-btn:hover:not(:disabled) { background: rgba(0,0,0,.6); border-color: var(--gold-2); }
+.bj-hand.active { border-color: var(--gold-2); background: rgba(0,0,0,.26); box-shadow: 0 0 0 1px rgba(246,217,138,.35), 0 0 36px rgba(246,217,138,.25); }
+/* cards: bigger index, calmer pips, subtle paper texture */
+.pc-corner { font-size: calc(var(--cw) * .26); }
+.pc-corner i { font-size: .9em; margin-top: 0; }
+.pc-pips { left: 18%; top: 10%; width: 64%; height: 80%; opacity: .92; }
+.pc-face { background: linear-gradient(170deg, #ffffff 0%, #f7f4ec 60%, #efeadc 100%); border: 1px solid #d6cfbd; box-shadow: inset 0 0 0 2px rgba(255,255,255,.6); }
+.pc-inner { box-shadow: 0 10px 22px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.35); }
+/* felt */
+.tg-felt { background: radial-gradient(ellipse at 50% 30%, #1a7a4a 0%, #0f5a37 45%, #083a22 100%); }
+.tg-felt::after { content: ""; position: absolute; inset: 0; pointer-events: none; background-image: radial-gradient(rgba(255,255,255,.035) 1px, transparent 1px); background-size: 4px 4px; opacity: .6; border-radius: inherit; }
+.bj-rules { letter-spacing: .14em; opacity: .55; }
+.bj-shoe { opacity: .7; }
+@media (max-width: 640px) { .bj-turn .tg-btn { padding: 0 11px; font-size: .82rem; min-width: 0; } .bj-actions { gap: 6px; flex-wrap: nowrap; } }
+
+/* Blackjack turn bar: inline under the hand on wide screens, one full-width bar on phones */
+.bj-turn-wide { display: none; margin: 12px 0 2px; }
+.bj-turn-wide .tg-actions { width: 100%; }
+.bj-turn-wide .tg-btn { flex: 1 1 0; }
+@media (max-width: 760px) {
+  .bj-turn-inline { display: none; }
+  .bj-turn-wide { display: flex; }
+  .seats-3.bj-player { gap: 2px; }
+  .seats-3 .bj-hand, .seats-2 .bj-hand { padding: 4px 1px; }
+  .bj-side-results { font-size: .6rem; }
+}

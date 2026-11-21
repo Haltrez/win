@@ -7,6 +7,7 @@ import { isCtaTest, type CtaCasino } from '../DemoCta';
 
 const HOT_STREAK = 3;          // wins in a row
 const HOT_BALANCE = 1.3;       // balance ≥ 130% of what the session started with
+const GAME_NAME: Record<string, string> = { blackjack: 'blackjack', roulette: 'roulette', baccarat: 'baccarat', 'video-poker': 'video poker', 'casino-holdem': "Casino Hold'em" };
 const FALLBACK_AFTER = 120;    // seconds of visible play before the timed prompt (only if no streak prompt yet)
 const MIN_GAP = 180;           // seconds between prompts
 const K_LAST = 'tgCtaLast';
@@ -83,7 +84,7 @@ export function TableCta({ casinos, game, streak, balance, sessionStart, hands }
       <div className="dcp-card">
         <button type="button" className="dcp-x" onClick={close} aria-label="Close offer">✕</button>
         {c.badge ? <span className="dcp-ribbon">{c.badge}</span> : null}
-        <span className="dcp-eyebrow">{c.sweeps ? `Keep the streak going at ${c.name}` : 'Test your luck for real'}</span>
+        <span className="dcp-eyebrow">{c.sweeps ? `Play ${GAME_NAME[game] ?? game} for free at ${c.name}` : `Play ${GAME_NAME[game] ?? game} at ${c.name}`}</span>
         {c.logo ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img className={`dcp-logo${c.logoLight ? ' light' : ''}`} src={c.logo} alt={c.name} width={200} height={60} />

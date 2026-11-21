@@ -111,18 +111,19 @@ export default function Blackjack({ casinos }: { casinos: CtaCasino[] }) {
     </>
   ) : st.phase === 'settled' ? (
     <button type="button" className="tg-btn primary big" onClick={newHand} disabled={settling}>{settling ? 'Dealer…' : 'New hand'}</button>
-  ) : (
-    <div className="tg-actions" role="group" aria-label="Actions">
+  ) : null;
+  const actions = playing ? (
+    <div className="tg-actions bj-actions" role="group" aria-label="Actions">
       {(['hit', 'stand', 'double', 'split'] as BJ.BjAction[]).map((a) => {
         const ok = a === 'hit' ? BJ.canHit(st) : a === 'stand' ? true : a === 'double' ? BJ.canDouble(st) && canAfford(active.bet) : BJ.canSplit(st) && canAfford(active.bet);
         return <button key={a} type="button" className={`tg-btn${hint && advice?.action === a ? ' book' : ''}`} onClick={() => act(a)} disabled={!ok || settling}>{a[0].toUpperCase() + a.slice(1)}</button>;
       })}
     </div>
-  );
+  ) : null;
 
   const sideBadges = (seat: number) => {
     const r = sideRes.seats[seat]; if (!r) return null;
-    const one = (k: 'p21' | 'pp', name: string) => { const x = r[k]; if (!x) return null; return x === 'lose' ? <span key={k} className="bj-side-res lose">{name}: no win</span> : <span key={k} className="bj-side-res win">{name}: {x.label} +{fmtMoney(bets[k] * x.pays)}</span>; };
+    const one = (k: 'p21' | 'pp', name: string) => { const x = r[k]; if (!x) return null; return x === 'lose' ? <span key={k} className="bj-side-res lose" title="Side bets use the first two cards only">{name}: no win</span> : <span key={k} className="bj-side-res win">{name}: {x.label} +{fmtMoney(bets[k] * x.pays)}</span>; };
     return <div className="bj-side-results">{one('p21', '21+3')}{one('pp', 'Pairs')}</div>;
   };
   const seatList = Array.from({ length: st.hands.length ? Math.max(...st.hands.map((h) => h.seat)) + 1 : seats }, (_, i) => i);
@@ -155,6 +156,7 @@ export default function Blackjack({ casinos }: { casinos: CtaCasino[] }) {
                         <div className="hand-label">{hs.length > 1 ? `${seatList.length > 1 ? `H${seat + 1}` : 'Hand'} ${hs.indexOf(h) + 1}` : seatList.length > 1 ? `Hand ${seat + 1}` : 'You'}<b className="total">{v.total > 21 ? 'Bust' : BJ.isBlackjack(h.cards) && !h.fromSplit ? 'BJ' : `${v.soft && v.total <= 21 ? 'soft ' : ''}${v.total}`}</b></div>
                         <div className="hand-cards">{h.cards.map((c, j) => <PlayingCard key={j} card={c} dealIndex={h.cards.length <= 2 && !h.fromSplit ? j * 2 + seat : 0} />)}</div>
                         <div className="hand-bet"><ChipStack amount={h.bet} />{showResult ? <span className={`hand-result ${h.result}`}>{RESULT_LABEL[h.result!]}{h.payout && h.payout > h.bet ? ` +${fmtMoney(h.payout - h.bet)}` : ''}</span> : null}</div>
+                        {playing && i === st.active ? <div className="bj-turn bj-turn-inline"><span className="bj-turn-tag">Your move</span>{actions}</div> : null}
                       </div>
                     );
                   })}
@@ -164,6 +166,7 @@ export default function Blackjack({ casinos }: { casinos: CtaCasino[] }) {
             );
           })}
         </div>
+        {playing ? <div className="bj-turn bj-turn-wide"><span className="bj-turn-tag">Your move · {seatList.length > 1 ? `Hand ${st.hands[st.active].seat + 1}` : 'You'}</span>{actions}</div> : null}
         <div className="bj-spots" role="group" aria-label="Bet spots">
           {SPOTS.map((s) => (
             <button key={s.k} type="button" className={`bj-spot ${s.k}${hint && inBet && s.k === 'main' ? ' book' : ''}${hint && inBet && s.k !== 'main' ? ' nobook' : ''}`} onClick={() => addChip(s.k)} disabled={!inBet} aria-label={`${s.name}: ${fmtMoney(bets[s.k])}`}>
