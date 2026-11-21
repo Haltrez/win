@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "tsc --noEmit",
     "validate": "node scripts/validate-content.mjs",
+    "test:games": "node scripts/test-table-games.mjs",
     "import:slots": "node scripts/import-slots.mjs"
   },
   "engines": {

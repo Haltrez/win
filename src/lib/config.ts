@@ -50,6 +50,7 @@ const ALL_NAV = [
   { href: '/best/new-slots', label: 'New' },
   { href: '/guides', label: 'Guides' },
   { href: '/tools', label: 'Tools' },
+  { href: '/table-games', label: 'Table games' },
   { href: '/casinos', label: 'Casinos', realMoney: true },
 ] as const;
 

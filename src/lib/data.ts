@@ -42,6 +42,8 @@ export const getCasino = (slug: string) => getCasinos().find((c) => c.slug === s
 /** Casinos that carry the given provider – used by "best casinos for this slot" modules. */
 /** Sweepstakes brands (US-only) are listed on every slot page as the first US choice; their pop-up copy doesn't claim the exact game. */
 export const getCasinosForProvider = (provider: string) => getCasinos().filter((c) => c.sweeps || c.providers.includes(provider));
+/** Every casino in the order of content/casinos.json (no rating sort) – used by the table games, which aren't tied to a slot provider. */
+export const getCasinosFileOrder = () => memo('casinos-file-order', () => readJson<Casino[]>('casinos.json'));
 
 export const getAuthors = () => memo('authors', () => readJson<Author[]>('authors.json'));
 export const getAuthor = (slug: string) => getAuthors().find((a) => a.slug === slug) ?? getAuthors()[0];
