@@ -49,7 +49,7 @@ export default function TableGamesHub() {
             <thead><tr><th>Game</th><th>Rules on our table</th><th>Decisions</th><th>Hint mode shows</th></tr></thead>
             <tbody>
               <tr><td><Link href="/table-games/blackjack">Blackjack</Link></td><td>6 decks, dealer stands on soft 17, 3:2, 1–3 hands</td><td>Hit, stand, double, split</td><td>Full basic strategy</td></tr>
-              <tr><td><Link href="/table-games/video-poker">Jacks or Better 9/6</Link></td><td>Full-pay table, 5 coins</td><td>Which cards to hold</td><td>Optimal hold</td></tr>
+              <tr><td><Link href="/table-games/video-poker">Jacks or Better 9/6</Link></td><td>Full-pay table, royal 800×, dealt-hand bonus</td><td>Which cards to hold</td><td>Optimal hold</td></tr>
               <tr><td><Link href="/table-games/baccarat">Baccarat</Link></td><td>8 decks, Banker 0.95:1, Tie 8:1</td><td>Bet choice only</td><td>Best bet (Banker)</td></tr>
               <tr><td><Link href="/table-games/casino-holdem">Casino Hold&apos;em</Link></td><td>Ante, call 2×, dealer qualifies on 4s</td><td>Call or fold</td><td>When to fold</td></tr>
               <tr><td><Link href="/table-games/roulette">European roulette</Link></td><td>Single zero, 35:1 straight up</td><td>Bet choice only</td><td>Smoothest bets</td></tr>

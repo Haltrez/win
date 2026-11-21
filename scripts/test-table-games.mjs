@@ -209,9 +209,9 @@ const near = (a, b, tol, msg) => { if (Math.abs(a - b) <= tol) passed++; else { 
   eq(bac.settleBaccarat({ player: 10, banker: 10, tie: 0 }, 'tie'), 20, 'player/banker push on a tie');
   eq(bac.settleBaccarat({ player: 10, banker: 10, tie: 0 }, 'banker'), 19.5, 'mixed bets settle separately');
   // Simulated edge over many coups stays in a plausible band
-  let net = 0, n = 200000; const shoe = new cards.Shoe(8);
+  let net = 0, n = 400000; const shoe = new cards.Shoe(8);
   for (let i = 0; i < n; i++) { const c = bac.dealCoup(shoe); net += bac.settleBaccarat({ player: 0, banker: 1, tie: 0 }, c.winner) - 1; }
-  near(-net / n * 100, 1.06, 0.35, `banker house edge over ${n} coups ≈ 1.06%`);
+  near(-net / n * 100, 1.06, 0.6, `banker house edge over ${n} coups ≈ 1.06% (±4σ)`);
 }
 
 /* ---------------------------------------------------------------- Poker evaluator */
@@ -292,6 +292,24 @@ const near = (a, b, tol, msg) => { if (Math.abs(a - b) <= tol) passed++; else { 
   eq(hold('9S 10S QS 3D 4C'), '9S 10S QS', '9-10-Q suited (one gap, one high) is a type-1 straight flush draw');
   eq(hold('8S 8D 8C 8H KD'), '8S 8D 8C 8H', 'quads with a kicker');
   eq(hold('AS KS QS JS 10S'), 'AS KS QS JS 10S', 'pat royal: hold all');
+}
+
+/* ---------------------------------------------------------------- Video poker side bet (dealt hand) */
+{
+  const sp = (s) => { const r = vp.vpSideResult(parseCards(s)); return r ? r.pays : 0; };
+  eq(sp('AS KS QS JS 10S'), 20000, 'dealt royal 20,000:1'); eq(sp('9S 8S 7S 6S 5S'), 1000, 'dealt straight flush 1,000:1');
+  eq(sp('9S 9D 9C 9H 2S'), 100, 'dealt quads 100:1'); eq(sp('9S 9D 9C 2H 2S'), 100, 'dealt full house 100:1'); eq(sp('2S 9S 4S JS 7S'), 100, 'dealt flush 100:1'); eq(sp('AS 2D 3C 4H 5S'), 100, 'dealt straight 100:1');
+  eq(sp('9S 9D 9C 3H 2S'), 0, 'trips pay nothing'); eq(sp('JS JD 3C 4H 2S'), 0, 'a pair pays nothing');
+  // enumerate every one of the 2,598,960 five-card deals: category counts and the exact return
+  const deck = cards.freshDeck(); const counts = {}; let ret = 0, n = 0;
+  for (let a = 0; a < 48; a++) for (let b = a + 1; b < 49; b++) for (let c = b + 1; c < 50; c++) for (let d = c + 1; d < 51; d++) for (let e = d + 1; e < 52; e++) {
+    const h = [deck[a], deck[b], deck[c], deck[d], deck[e]]; const cat = poker.evaluate5(h).category; counts[cat] = (counts[cat] || 0) + 1; n++;
+    const r = vp.vpSideResult(h); if (r) ret += r.pays + 1;
+  }
+  eq(n, 2598960, 'C(52,5) deals enumerated');
+  for (const k of Object.keys(vp.DEALT_COUNTS)) eq(counts[k], vp.DEALT_COUNTS[k], `textbook count of dealt ${k}`);
+  near(ret / n, vp.vpSideReturn(), 1e-12, 'side bet return from enumeration matches the formula');
+  ok(vp.vpSideReturn() < 1, `side bet returns ${(vp.vpSideReturn() * 100).toFixed(2)}% – a house edge, not a player edge`);
 }
 
 /* ---------------------------------------------------------------- Casino Hold'em */

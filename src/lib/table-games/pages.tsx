@@ -3,7 +3,7 @@ import type { ReactNode } from 'react';
 import { CHART_COLS, HARD, SOFT, PAIRS } from './blackjack';
 import { PAY_21P3, PAY_PP } from './blackjack-side';
 import { PAYS } from './roulette';
-import { VP_PAYTABLE } from './video-poker';
+import { VP_PAYTABLE, VP_SIDE_PAYTABLE } from './video-poker';
 import { CH_ANTE_BONUS } from './casino-holdem';
 
 export type GameKey = 'blackjack' | 'roulette' | 'baccarat' | 'video-poker' | 'casino-holdem';
@@ -179,20 +179,26 @@ export const GAME_PAGES: Record<GameKey, GamePage> = {
     guides: ['baccarat-odds-explained'],
   },
   'video-poker': {
-    slug: 'video-poker', name: 'Jacks or Better Video Poker', short: 'Video poker', h1: 'Jacks or Better Free – 9/6 Video Poker', kicker: 'Full-pay 9/6 table · five coins · hold/draw with strategy hints · play money only',
+    slug: 'video-poker', name: 'Jacks or Better Video Poker', short: 'Video poker', h1: 'Jacks or Better Free – 9/6 Video Poker', kicker: 'Full-pay 9/6 table · hold/draw with strategy hints · dealt-hand bonus up to 20,000:1 · play money only',
     titles: ['Jacks or Better Free – Play 9/6 Video Poker Online', 'Jacks or Better Free – 9/6 Full Pay Video Poker', 'Jacks or Better Free Online'],
-    description: 'Play Jacks or Better free on the full-pay 9/6 table. Five coins, hold and draw, correct hand evaluation and a hint mode that shows the optimal hold for every deal.',
-    tag: '9/6 full pay · 5 coins · royal 800:1',
-    facts: [['Paytable', '9/6 full pay'], ['Coins', '5 per hand'], ['Full house', '9 for 1'], ['Flush', '6 for 1'], ['Royal flush', '800 for 1 (5 coins)'], ['Minimum hand', 'Pair of Jacks']],
+    description: 'Play Jacks or Better free on the full-pay 9/6 table: hold and draw, correct hand evaluation, an optional dealt-hand bonus bet paying up to 20,000 to 1, and a hint mode that shows the optimal hold for every deal.',
+    tag: '9/6 full pay · royal 800× · bonus 20,000:1',
+    facts: [['Paytable', '9/6 full pay'], ['Full house', '9 × bet'], ['Flush', '6 × bet'], ['Royal flush', '800 × bet'], ['Minimum hand', 'Pair of Jacks'], ['Side bet', 'Dealt hand bonus']],
     blurb: 'The classic full-pay machine. Learn the hold strategy the experts memorise, one decision at a time.',
     icon: ICONS['video-poker'],
     rules: (
       <>
-        <p>Jacks or Better is five-card draw against a paytable instead of other players. Choose a coin value; every hand bets five coins. You are dealt five cards from a freshly shuffled 52-card deck, tap the ones you want to <strong>hold</strong>, and <strong>draw</strong> replacements for the rest. The final hand is paid according to the table below – multiplied by the number of coins.</p>
-        <div className="table-wrap"><table className="stats"><thead><tr><th>Hand</th><th>Pays (per coin)</th><th>At 5 coins</th></tr></thead><tbody>
-          {VP_PAYTABLE.map((p) => <tr key={p.key}><td>{p.label}</td><td>{p.pays} for 1</td><td>{p.pays * 5}</td></tr>)}
+        <p>Jacks or Better is five-card draw against a paytable instead of other players. Pick a chip value and tap the main bet spot to place your stake, then deal. You get five cards from a freshly shuffled 52-card deck, tap the ones you want to <strong>hold</strong>, and <strong>draw</strong> replacements for the rest. The final hand is paid according to the table below, multiplied by your bet.</p>
+        <div className="table-wrap"><table className="stats"><thead><tr><th>Hand</th><th>Pays</th></tr></thead><tbody>
+          {VP_PAYTABLE.map((p) => <tr key={p.key}><td>{p.label}</td><td>{p.pays} × bet</td></tr>)}
         </tbody></table></div>
-        <p>"9/6" refers to the full house and flush payouts – the two numbers that vary most between machines. A 9/6 table is the "full pay" version; 8/5 and 7/5 versions of the same game pay noticeably less. The royal flush pays 800 for 1 only at five coins (250 for 1 at fewer), which is why max coins is the standard advice.</p>
+        <p>"9/6" refers to the full house and flush payouts – the two numbers that vary most between machines. A 9/6 table is the "full pay" version; 8/5 and 7/5 versions of the same game pay noticeably less. Every bet here is paid at the machine's max-coin rate, so the royal flush always pays 800 times the bet.</p>
+        <h3>Optional side bet: dealt hand bonus</h3>
+        <p>A second spot bets on the five cards exactly as they are dealt, before you hold anything. It is settled the moment the cards land and has no effect on the main hand.</p>
+        <div className="table-wrap"><table className="stats"><thead><tr><th>Dealt hand</th><th>Pays</th></tr></thead><tbody>
+          {VP_SIDE_PAYTABLE.map((p) => <tr key={p.label}><td>{p.label}</td><td>{p.pays.toLocaleString('en-US')} to 1</td></tr>)}
+        </tbody></table></div>
+        <p>Pat hands are rare on the deal – a straight or better arrives about once in 130 hands and a royal once in 650,000 – so the bonus loses far more often than it wins. It is a flutter, and hint mode flags the main bet as the book move.</p>
       </>
     ),
     strategy: (
@@ -225,7 +231,7 @@ export const GAME_PAGES: Record<GameKey, GamePage> = {
     faq: [
       { q: 'What does 9/6 mean in Jacks or Better?', a: 'The payouts for a full house (9 for 1) and a flush (6 for 1). These two numbers identify the "full pay" version of the game. Lower tables such as 8/5 or 7/5 look identical otherwise but pay less on those two hands, so always check them before you play.' },
       { q: 'Is this free game dealt fairly?', a: 'Yes. The deck is shuffled with a cryptographic random number generator before every hand and the paytable is the standard full-pay table. Your hold decisions are the only thing that changes your results.' },
-      { q: 'Why should I always bet five coins?', a: 'Because the royal flush pays 800 for 1 at five coins but only 250 for 1 at one to four coins. That difference is large over time. If five coins is too much, lower the coin value instead of the coin count.' },
+      { q: 'What is the dealt hand bonus?', a: 'An optional side bet on the five cards as dealt, before the draw. A straight, flush, full house or four of a kind pays 100 to 1, a straight flush 1,000 to 1 and a royal flush 20,000 to 1. It is paid immediately and does not change how the main hand is played.' },
       { q: 'Should I keep a low pair or go for a straight?', a: 'Keep the low pair. A low pair (2s to 10s) is worth more on average than four to an outside straight: the pair turns into two pair, trips, a full house or quads often enough to be the better hold.' },
       { q: 'Does the hint mode play perfectly?', a: 'It uses the standard ranked-pattern strategy, which is what most expert players memorise. It comes within a whisker of a computer-generated perfect strategy, and the hints explain the reasoning for each hold.' },
     ],

@@ -145,3 +145,22 @@ export function vpStrategy(hand: Card[]): VpAdvice {
   if (sf3c) return { hold: mask(hand, sf3c), rule: 'Weak three to a straight flush: still better than five new cards.' };
   return { hold: [false, false, false, false, false], rule: 'Nothing worth keeping: draw five new cards.' };
 }
+
+/* ------------------------------------------------------------- "Dealt Hand Bonus" side bet (optional) */
+/**
+ * Settled on the five cards as dealt, before the draw. Straight, flush, full house or four of a kind pay 100 to 1,
+ * a straight flush 1,000 to 1 and a royal flush 20,000 to 1. Resolved and paid before you choose what to hold.
+ */
+export const VP_SIDE_PAYTABLE: { label: string; cats: HandCategory[]; pays: number }[] = [
+  { label: 'Royal flush', cats: ['royal-flush'], pays: 20000 },
+  { label: 'Straight flush', cats: ['straight-flush'], pays: 1000 },
+  { label: 'Four of a kind, full house, flush or straight', cats: ['four-of-a-kind', 'full-house', 'flush', 'straight'], pays: 100 },
+];
+export function vpSideResult(hand: Card[]): { label: string; pays: number } | null {
+  const cat = evaluate5(hand).category;
+  const row = VP_SIDE_PAYTABLE.find((r) => r.cats.includes(cat));
+  return row ? { label: row.label, pays: row.pays } : null;
+}
+/** Counts of each dealt five-card hand out of C(52,5) = 2,598,960 – used for the exact return of the side bet. */
+export const DEALT_COUNTS: Record<HandCategory, number> = { 'royal-flush': 4, 'straight-flush': 36, 'four-of-a-kind': 624, 'full-house': 3744, flush: 5108, straight: 10200, 'three-of-a-kind': 54912, 'two-pair': 123552, pair: 1098240, 'high-card': 1302540 };
+export const vpSideReturn = () => VP_SIDE_PAYTABLE.reduce((r, row) => r + row.cats.reduce((n, c) => n + DEALT_COUNTS[c], 0) * (row.pays + 1), 0) / 2598960;

@@ -326,3 +326,9 @@ button.chip:disabled { opacity: .35; cursor: not-allowed; }
   .seats-2 .bj-side-res, .seats-3 .bj-side-res { font-size: .56rem; padding: 0 6px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
   .seats-2 .hand-bet, .seats-3 .hand-bet { flex-direction: column; gap: 4px; }
 }
+/* video poker: bet spots under the screen, two paytables side by side */
+.vp { display: grid; grid-template-rows: auto auto; gap: 12px; align-content: start; }
+.vp-spots { grid-template-columns: 1.3fr 1fr; max-width: 520px; width: 100%; margin: 0 auto; }
+.vp-tables { gap: 12px; align-items: start; }
+.vp-tables .vp-pay { margin-top: 14px; }
+@media (max-width: 640px) { .vp-tables { grid-template-columns: 1fr; gap: 0; } .vp-tables .vp-pay + .vp-pay { margin-top: 8px; } }
