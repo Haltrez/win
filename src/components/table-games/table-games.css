@@ -46,9 +46,8 @@
 .tg-act.danger { background: #3a2229; color: #ffb3b3; }
 .tg-act.book, .tg-bet.book, .tg-spot.book, .rl-cell.book { box-shadow: 0 0 0 2px var(--p-gold), 0 0 18px rgba(255,194,26,.45); animation: book-glow 1.4s ease-in-out infinite; }
 @keyframes book-glow { 50% { box-shadow: 0 0 0 2px rgba(255,194,26,.4), 0 0 6px rgba(255,194,26,.15); } }
-.tg-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; }
+.tg-row { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
 .tg-row > * { min-width: 0; }
-@media (max-width: 480px) { .tg-row { grid-template-columns: minmax(0, 1fr); } }
 .tg-field { min-width: 0; }
 .tg-small { font-size: .74rem; color: var(--p-muted); margin: 0; }
 .tg-switch { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; cursor: pointer; user-select: none; font-weight: 700; font-size: .85rem; color: var(--p-muted); margin-top: 2px; }

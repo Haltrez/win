@@ -57,7 +57,7 @@ export default function Baccarat({ casinos }: { casinos: CtaCasino[] }) {
         <button type="button" className="tg-act" onClick={() => setBets(ZERO)} disabled={!total || busy}>Clear</button>
         <button type="button" className="tg-act" onClick={() => { if (lastTotal && lastTotal <= bank.balance) setBets(lastBets); }} disabled={busy || total > 0 || !lastTotal}>Rebet</button>
       </div>
-      <p className="tg-small">Total stake {fmtMoney(total)}</p>
+      <p className="tg-small">Total bet {fmtMoney(total)}</p>
       <button type="button" className="tg-bet" onClick={deal} disabled={!total || busy || total > bank.balance}>{busy ? 'Dealing…' : 'Deal'}</button>
     </>
   );

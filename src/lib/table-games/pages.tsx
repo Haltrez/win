@@ -139,7 +139,7 @@ export const GAME_PAGES: Record<GameKey, GamePage> = {
       { q: 'Why is European roulette better than American roulette?', a: 'A European wheel has one zero, an American wheel has a zero and a double zero. Payouts are the same on both, so the extra pocket makes every bet on an American wheel worse for the player. Always pick a single-zero table.' },
       { q: 'Which roulette bet has the best odds?', a: 'They are all the same on a single-zero wheel in the long run. Even-money bets (red/black, odd/even, 1–18/19–36) win most often, so they produce the smoothest results, but they do not improve the long-term return. Only tables with la partage or en prison treat even-money bets better.' },
       { q: 'Can a betting system like the Martingale win at roulette?', a: 'No. A system changes when you win and lose, not how much the wheel returns on average. Doubling after losses produces frequent small wins and occasional very large losses that cancel them out, and table limits stop the doubling anyway.' },
-      { q: 'What is the difference between European and French roulette?', a: 'Both use a single zero. French roulette adds la partage (half your even-money stake back when zero hits) or en prison, which makes even-money bets better for the player. The layout and payouts are otherwise the same.' },
+      { q: 'What is the difference between European and French roulette?', a: 'Both use a single zero. French roulette adds la partage (half your even-money bet back when zero hits) or en prison, which makes even-money bets better for the player. The layout and payouts are otherwise the same.' },
     ],
     guides: [],
   },
@@ -172,7 +172,7 @@ export const GAME_PAGES: Record<GameKey, GamePage> = {
     faq: [
       { q: 'Is Banker or Player the better bet in baccarat?', a: 'Banker. Even after the 5% commission it is the best bet on the table, with Player close behind. The Tie bet, at 8 to 1 on a result that comes less than one time in ten, is the one to avoid.' },
       { q: 'Why does the Banker bet pay only 0.95 to 1?', a: 'The third-card rules let the Banker act last with knowledge of the Player\'s third card, so the Banker hand wins more often (45.9% vs 44.6%, ignoring ties). The 5% commission balances that advantage.' },
-      { q: 'Do I make any decisions in baccarat?', a: 'Only the bet. Whether a third card is drawn is decided by a fixed tableau that the game applies automatically. That is why baccarat strategy is purely about which bet you choose and how much you stake.' },
+      { q: 'Do I make any decisions in baccarat?', a: 'Only the bet. Whether a third card is drawn is decided by a fixed tableau that the game applies automatically. That is why baccarat strategy is purely about which bet you choose and how much you bet.' },
       { q: 'Does following streaks on the roadmap help?', a: 'No. Each coup is independent and the shoe has no memory. The roadmap is a record of what happened, not a forecast. It is shown here because it is part of the game\'s look and feel, not because it predicts anything.' },
       { q: 'Is this free baccarat game the same as in a casino?', a: 'The rules are the standard Punto Banco rules used in casinos worldwide: eight decks, the same third-card tableau, 1:1, 0.95:1 and 8:1 payouts. Only the money is different – you play with a 1,000-unit play balance that cannot be cashed out.' },
     ],
@@ -188,7 +188,7 @@ export const GAME_PAGES: Record<GameKey, GamePage> = {
     icon: ICONS['video-poker'],
     rules: (
       <>
-        <p>Jacks or Better is five-card draw against a paytable instead of other players. Pick a chip value and tap the main bet spot to place your stake, then deal. You get five cards from a freshly shuffled 52-card deck, tap the ones you want to <strong>hold</strong>, and <strong>draw</strong> replacements for the rest. The final hand is paid according to the table below, multiplied by your bet.</p>
+        <p>Jacks or Better is five-card draw against a paytable instead of other players. Pick a chip value and tap the main bet spot to place your bet, then deal. You get five cards from a freshly shuffled 52-card deck, tap the ones you want to <strong>hold</strong>, and <strong>draw</strong> replacements for the rest. The final hand is paid according to the table below, multiplied by your bet.</p>
         <div className="table-wrap"><table className="stats"><thead><tr><th>Hand</th><th>Pays</th></tr></thead><tbody>
           {VP_PAYTABLE.map((p) => <tr key={p.key}><td>{p.label}</td><td>{p.pays} × bet</td></tr>)}
         </tbody></table></div>

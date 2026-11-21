@@ -24,7 +24,7 @@ export function BetInput({ label, value, onChange, max, disabled, note }: { labe
 
 /** Payout badge shown over the stage when a round settles. */
 export function Payout({ net, mult }: { net: number; mult?: number }) {
-  if (net === 0) return <div className="payout push" role="status">Push<span>stake returned</span></div>;
+  if (net === 0) return <div className="payout push" role="status">Push<span>bet returned</span></div>;
   if (net < 0) return null;
   return <div className="payout" role="status">{mult ? `${mult.toFixed(2)}×` : 'Win'}<span>+{fmtMoney(net)}</span></div>;
 }

@@ -100,7 +100,7 @@ export default function Blackjack({ casinos }: { casinos: CtaCasino[] }) {
         <BetInput label="21+3" value={bets.p21} onChange={(v) => setBets((b) => ({ ...b, p21: v }))} max={bal} />
         <BetInput label="Perfect Pairs" value={bets.pp} onChange={(v) => setBets((b) => ({ ...b, pp: v }))} max={bal} />
       </div>
-      <p className="tg-small">Total stake {fmtMoney(total)}{seats > 1 ? ` (${fmtMoney(perSeat)} × ${seats} hands)` : ''}</p>
+      <p className="tg-small">Total bet {fmtMoney(total)}{seats > 1 ? ` (${fmtMoney(perSeat)} × ${seats} hands)` : ''}</p>
       <button type="button" className={`tg-bet${hint ? ' book' : ''}`} onClick={deal} disabled={bets.main <= 0 || total > bal}>Bet</button>
     </>
   ) : st.phase === 'settled' ? (

@@ -67,7 +67,7 @@ export default function CasinoHoldem({ casinos }: { casinos: CtaCasino[] }) {
       case 'fold': return <><b>Folded</b><span>Ante lost ({fmtMoney(st!.ante)}). Dealer had {dl.toLowerCase()}.</span></>;
       case 'no-qualify': return <><b>Dealer doesn&apos;t qualify</b><span>Ante pays {CH.anteBonusPays(r.playerRank.category)}:1 on your {you.toLowerCase()}, call pushes</span></>;
       case 'win': return <><b>You win</b><span>{you} beats {dl.toLowerCase()}</span></>;
-      case 'push': return <><b>Push</b><span>Both {you.toLowerCase()} – stakes returned</span></>;
+      case 'push': return <><b>Push</b><span>Both {you.toLowerCase()} – bets returned</span></>;
       default: return <><b>Dealer wins</b><span>{dl} beats your {you.toLowerCase()}</span></>;
     }
   };

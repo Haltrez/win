@@ -138,7 +138,7 @@ export default function Roulette({ casinos }: { casinos: CtaCasino[] }) {
         <button type="button" className="tg-act" onClick={() => setBets([])} disabled={!bets.length || spinning}>Clear</button>
         <button type="button" className="tg-act" onClick={() => { if (lastBets.reduce((t, b) => t + b.amount, 0) <= bal) setBets(lastBets); }} disabled={!lastBets.length || spinning || !!bets.length}>Rebet</button>
       </div>
-      <p className="tg-small">Total stake {fmtMoney(total)}</p>
+      <p className="tg-small">Total bet {fmtMoney(total)}</p>
       <button type="button" className="tg-bet" onClick={spin} disabled={!bets.length || spinning || total > bal}>{spinning ? 'Spinning…' : 'Spin'}</button>
     </>
   );
