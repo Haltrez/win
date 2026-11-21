@@ -47,7 +47,7 @@ export default function Baccarat({ casinos }: { casinos: CtaCasino[] }) {
       setBets(ZERO); setBusy(false);
     }, 350 + order.length * 420 + 300));
   };
-  const advice = useMemo(() => ({ move: 'Banker', reason: 'Nothing you do changes the odds – the cards follow a fixed tableau. Banker has the lowest house edge (1.06%), Player 1.24%, Tie 14.4%.' }), []);
+  const advice = useMemo(() => ({ move: 'Banker', reason: 'Nothing you do changes the odds – the cards follow a fixed tableau. Banker is the best bet, Player is close behind, and Tie is the one to avoid.' }), []);
 
   const vis = coup ? visible(coup, shown) : { P: [], B: [] };
   const done = coup && shown >= orderOf(coup).length;

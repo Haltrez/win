@@ -1,6 +1,6 @@
 ---
-title: "Jacks or Better Strategy: The Hold Rules Behind 99.54%"
-metaTitle: "Jacks or Better Strategy for 9/6 Video Poker"
+title: "Jacks or Better Strategy: The Hold Rules the Experts Use"
+metaTitle: "Jacks or Better Strategy: 9/6 Hold Rules"
 description: "The ranked hold strategy for 9/6 Jacks or Better video poker, why the paytable matters, why five coins is essential, and the counter-intuitive holds – low pair over a straight draw, three to a royal over a flush – with their expected values."
 category: strategy
 author: editorial-team

@@ -33,14 +33,10 @@ export function TableGamePage({ game }: { game: GameKey }) {
       <span className="tg-kicker">{g.kicker}</span>
       <TableGame game={game} casinos={tableGameCasinos()} />
 
-      <section aria-labelledby="edge-h">
-        <h2 id="edge-h">House edge and RTP</h2>
-        <dl className="tg-facts">
-          <div><dt>House edge</dt><dd>{g.edge.toFixed(2)}%</dd></div>
-          <div><dt>RTP</dt><dd>{g.rtp}</dd></div>
-          {g.facts.map(([k, v]) => <div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}
-        </dl>
-        <p className="muted">The house edge of {g.edge.toFixed(2)}% applies {g.edgeNote}. It is the published figure for these exact rules, and this free table uses the same odds – nothing is tilted either way. Over thousands of hands your play-money balance will drift down at roughly that rate; over a short session anything can happen.</p>
+      <section aria-labelledby="facts-h">
+        <h2 id="facts-h">Table rules at a glance</h2>
+        <dl className="tg-facts">{g.facts.map(([k, v]) => <div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl>
+        <p className="muted">Standard casino rules and payouts. The cards are shuffled and the wheel is spun with a cryptographic random number generator – nothing is tilted either way, and over a short session anything can happen.</p>
       </section>
 
       <section className="prose" aria-labelledby="rules-h"><h2 id="rules-h">{g.short} rules on this table</h2>{g.rules}</section>
@@ -55,7 +51,7 @@ export function TableGamePage({ game }: { game: GameKey }) {
       <section aria-labelledby="more-h"><h2 id="more-h">More free table games</h2>
         <ul className="inline-links">{others.map((o) => <li key={o.slug}><Link href={`/table-games/${o.slug}`}>{o.name}</Link></li>)}<li><Link href="/table-games">All table games</Link></li></ul>
       </section>
-      <p className="notice small"><span className="badge-18">18+</span> This is a free game with play money; nothing can be won or lost. Casino games are games of chance – no strategy removes the house edge. <Link href="/responsible-gambling">Play responsibly</Link>.</p>
+      <p className="notice small"><span className="badge-18">18+</span> This is a free game with play money; nothing can be won or lost. Casino games are games of chance – the cards and the wheel decide every hand. <Link href="/responsible-gambling">Play responsibly</Link>.</p>
       <JsonLd data={schema} />
     </>
   );

@@ -118,11 +118,11 @@ export default function Roulette({ casinos }: { casinos: CtaCasino[] }) {
   };
   const result = last?.n ?? history[0] ?? null;
 
-  const advice = useMemo(() => ({ move: 'Any even-money bet – or any bet at all', reason: 'Every wager on a single-zero wheel returns 97.3% in the long run; no pattern or system changes that. Red/black, odd/even and 1-18/19-36 just give the smoothest ride.' }), []);
+  const advice = useMemo(() => ({ move: 'Any even-money bet – or any bet at all', reason: 'No bet on a single-zero wheel is better than another in the long run, and no pattern or system changes that. Red/black, odd/even and 1-18/19-36 win most often, so they give the smoothest ride.' }), []);
 
   const chipOn = (id: string) => bets.find((b) => b.id === id)?.amount ?? 0;
   const anchorChip = (n: number) => bets.filter((b) => b.numbers[0] === n && b.kind !== 'straight' && !EVEN_MONEY.includes(b.kind) && b.kind !== 'dozen' && b.kind !== 'column');
-  const won = last && last.won > 0;
+  const won = last && last.won >= last.staked;
 
   const controls = (
     <>
@@ -144,7 +144,7 @@ export default function Roulette({ casinos }: { casinos: CtaCasino[] }) {
         <div className="rl-wheel-col">
           <div ref={wheelEl} className="rl-wheel-wrap"><Wheel rot={rot} ballRot={ballRot} ballR={ballR} spinning={spinning} result={result} /></div>
           <div className={`rl-result${last ? ' show' : ''}${won ? ' won' : ''}`} role="status" aria-live="polite">
-            {last ? <><span className={`rl-num ${RL.pocketColor(last.n)}`}>{last.n}</span><span>{won ? `You win +${fmtMoney(last.won - last.staked)}` : `No luck – ${fmtMoney(last.staked)} lost`}</span></> : spinning ? <span>No more bets…</span> : <span>Place your bets</span>}
+            {last ? <><span className={`rl-num ${RL.pocketColor(last.n)}`}>{last.n}</span><span>{last.won > last.staked ? `You win +${fmtMoney(last.won - last.staked)}` : won ? 'Break even' : `No luck – ${fmtMoney(last.staked)} lost`}</span></> : spinning ? <span>No more bets…</span> : <span>Place your bets</span>}
           </div>
           {history.length ? <ol className="rl-history" aria-label="Previous results">{history.map((n, i) => <li key={i} className={RL.pocketColor(n)}>{n}</li>)}</ol> : null}
         </div>

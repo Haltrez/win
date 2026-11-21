@@ -69,7 +69,7 @@ export default function VideoPoker({ casinos }: { casinos: CtaCasino[] }) {
       <div className="vp">
         <div className="vp-screen">
           <div className="vp-status" role="status" aria-live="polite">
-            {phase === 'bet' ? <span>9/6 Jacks or Better · 99.54% with optimal play</span> : phase === 'hold' ? <span>{liveRow ? <b>{liveRow.label}</b> : 'Tap the cards to hold'}{liveRow ? ' – hold or draw' : ''}</span> : result && result.pay > 0 ? <span className="win"><b>{VP.VP_PAYTABLE.find((p) => p.key === result.cat)?.label}</b> · wins {fmtMoney(result.pay)}</span> : <span>No pair of Jacks or better – try again</span>}
+            {phase === 'bet' ? <span>9/6 Jacks or Better · full-pay table · 5 coins</span> : phase === 'hold' ? <span>{liveRow ? <b>{liveRow.label}</b> : 'Tap the cards to hold'}{liveRow ? ' – hold or draw' : ''}</span> : result && result.pay > 0 ? <span className="win"><b>{VP.VP_PAYTABLE.find((p) => p.key === result.cat)?.label}</b> · wins {fmtMoney(result.pay)}</span> : <span>No pair of Jacks or better – try again</span>}
           </div>
           <div className="vp-cards">
             {hand.length === 0 ? Array.from({ length: 5 }, (_, i) => <CardSlot key={i} />) : hand.map((c, i) => (
