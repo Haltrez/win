@@ -3,8 +3,8 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import type { CtaCasino } from '../DemoCta';
 import * as RL from '@/lib/table-games/roulette';
 import { useBankroll, fmtMoney } from './useBankroll';
-import { GameFrame } from './GameFrame';
-import { Chip, ChipStack, CHIP_VALUES } from './Chip';
+import { GameFrame, BetInput, Payout } from './GameFrame';
+import { ChipStack } from './Chip';
 
 type Mode = 'straight' | 'split' | 'street' | 'corner' | 'line';
 const MODES: { k: Mode; label: string; pays: string }[] = [{ k: 'straight', label: 'Straight', pays: '35:1' }, { k: 'split', label: 'Split', pays: '17:1' }, { k: 'street', label: 'Street', pays: '11:1' }, { k: 'corner', label: 'Corner', pays: '8:1' }, { k: 'line', label: 'Line', pays: '5:1' }];
@@ -52,6 +52,7 @@ export default function Roulette({ casinos }: { casinos: CtaCasino[] }) {
   const bank = useBankroll('roulette');
   const [hint, setHint] = useState(false);
   const [chip, setChip] = useState(5);
+  const bal = bank.balance;
   const [mode, setMode] = useState<Mode>('straight');
   const [bets, setBets] = useState<RL.RouletteBet[]>([]);
   const [lastBets, setLastBets] = useState<RL.RouletteBet[]>([]);
@@ -71,7 +72,7 @@ export default function Roulette({ casinos }: { casinos: CtaCasino[] }) {
   const total = bets.reduce((t, b) => t + b.amount, 0);
   const add = (def: Omit<RL.RouletteBet, 'amount'>) => {
     if (spinning) return;
-    if (total + chip > bank.balance) return;
+    if (chip <= 0 || total + chip > bank.balance) return;
     setBets((bs) => { const i = bs.findIndex((b) => b.id === def.id); if (i >= 0) { const c = [...bs]; c[i] = { ...c[i], amount: c[i].amount + chip }; return c; } return [...bs, { ...def, amount: chip }]; });
     setLast(null);
   };
@@ -124,34 +125,36 @@ export default function Roulette({ casinos }: { casinos: CtaCasino[] }) {
   const anchorChip = (n: number) => bets.filter((b) => b.numbers[0] === n && b.kind !== 'straight' && !EVEN_MONEY.includes(b.kind) && b.kind !== 'dozen' && b.kind !== 'column');
   const won = last && last.won >= last.staked;
 
-  const controls = (
+  const panel = (
     <>
-      <div className="tg-chips" role="group" aria-label="Chip value">
-        {CHIP_VALUES.map((v) => <Chip key={v} value={v} selected={chip === v} onClick={() => setChip(v)} label={`Bet with ${v} chips`} />)}
+      <BetInput label="Chip value" value={chip} onChange={setChip} max={bal} disabled={spinning} note="tap the layout to place" />
+      <div className="tg-field"><div className="tg-field-head"><span>Inside bet type</span></div>
+        <div className="tg-seg" style={{ gridTemplateColumns: 'repeat(5, 1fr)' }} role="tablist" aria-label="Inside bet type">
+          {MODES.map((m) => <button key={m.k} type="button" role="tab" aria-selected={mode === m.k} className={`rl-mode${mode === m.k ? ' on' : ''}`} onClick={() => { setMode(m.k); setSplitFrom(null); }}>{m.label}<small>{m.pays}</small></button>)}
+        </div>
       </div>
-      <div className="tg-actions rl-actions">
-        <button type="button" className="tg-btn ghost" onClick={() => setBets((b) => b.slice(0, -1))} disabled={!bets.length || spinning}>Undo</button>
-        <button type="button" className="tg-btn ghost" onClick={() => setBets([])} disabled={!bets.length || spinning}>Clear</button>
-        <button type="button" className="tg-btn ghost" onClick={() => { if (lastBets.reduce((t, b) => t + b.amount, 0) <= bank.balance) setBets(lastBets); }} disabled={!lastBets.length || spinning || !!bets.length}>Rebet</button>
-        <button type="button" className="tg-btn primary big" onClick={spin} disabled={!bets.length || spinning || total > bank.balance}>{spinning ? 'Spinning…' : `Spin · ${fmtMoney(total)}`}</button>
+      <div className="tg-actions" style={{ gridTemplateColumns: 'repeat(3, 1fr)' }}>
+        <button type="button" className="tg-act" onClick={() => setBets((b) => b.slice(0, -1))} disabled={!bets.length || spinning}>Undo</button>
+        <button type="button" className="tg-act" onClick={() => setBets([])} disabled={!bets.length || spinning}>Clear</button>
+        <button type="button" className="tg-act" onClick={() => { if (lastBets.reduce((t, b) => t + b.amount, 0) <= bal) setBets(lastBets); }} disabled={!lastBets.length || spinning || !!bets.length}>Rebet</button>
       </div>
+      <p className="tg-small">Total stake {fmtMoney(total)}</p>
+      <button type="button" className="tg-bet" onClick={spin} disabled={!bets.length || spinning || total > bal}>{spinning ? 'Spinning…' : 'Spin'}</button>
     </>
   );
 
   return (
-    <GameFrame game="roulette" title="European roulette" casinos={casinos} bank={bank} hint={hint} setHint={setHint} advice={bets.length || history.length ? advice : advice} controls={controls} busy={spinning}>
+    <GameFrame game="roulette" title="European roulette" casinos={casinos} bank={bank} hint={hint} setHint={setHint} advice={advice} panel={panel} busy={spinning}>
       <div className="rl">
         <div className="rl-wheel-col">
           <div ref={wheelEl} className="rl-wheel-wrap"><Wheel rot={rot} ballRot={ballRot} ballR={ballR} spinning={spinning} result={result} /></div>
           <div className={`rl-result${last ? ' show' : ''}${won ? ' won' : ''}`} role="status" aria-live="polite">
             {last ? <><span className={`rl-num ${RL.pocketColor(last.n)}`}>{last.n}</span><span>{last.won > last.staked ? `You win +${fmtMoney(last.won - last.staked)}` : won ? 'Break even' : `No luck – ${fmtMoney(last.staked)} lost`}</span></> : spinning ? <span>No more bets…</span> : <span>Place your bets</span>}
           </div>
+          {last && last.won > last.staked ? <Payout net={last.won - last.staked} mult={last.won / last.staked} /> : null}
           {history.length ? <ol className="rl-history" aria-label="Previous results">{history.map((n, i) => <li key={i} className={RL.pocketColor(n)}>{n}</li>)}</ol> : null}
         </div>
         <div className="rl-board-col">
-          <div className="rl-modes" role="tablist" aria-label="Inside bet type">
-            {MODES.map((m) => <button key={m.k} type="button" role="tab" aria-selected={mode === m.k} className={`rl-mode${mode === m.k ? ' on' : ''}`} onClick={() => { setMode(m.k); setSplitFrom(null); }}>{m.label}<small>{m.pays}</small></button>)}
-          </div>
           {mode === 'split' ? <p className="rl-help">{splitFrom === null ? 'Tap the first number, then a neighbour.' : `Now tap a number next to ${splitFrom}.`}</p> : mode === 'corner' ? <p className="rl-help">Tap the top-left number of the four.</p> : mode === 'line' ? <p className="rl-help">Tap a number: covers its row and the next.</p> : mode === 'street' ? <p className="rl-help">Tap a number: covers its row of three.</p> : <p className="rl-help">Tap a number or an outside bet.</p>}
           <div className={`rl-board${hint ? ' hinting' : ''}`} role="group" aria-label="Betting layout">
             <button type="button" className={`rl-cell zero${splitNeighbours(0) ? ' adj' : ''}${splitFrom === 0 ? ' from' : ''}`} onClick={() => onNumber(0)} disabled={spinning}><span>0</span>{chipOn('straight:0') ? <ChipStack amount={chipOn('straight:0')} /> : null}</button>

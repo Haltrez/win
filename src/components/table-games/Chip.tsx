@@ -1,23 +1,8 @@
-/** Casino chip with denomination. Colours follow the common US scheme; drawn purely in CSS. */
-export const CHIP_VALUES = [1, 5, 25, 100, 500] as const;
-const COLOR: Record<number, string> = { 1: 'c1', 5: 'c5', 25: 'c25', 100: 'c100', 500: 'c500' };
-const chipClass = (v: number) => COLOR[v] ?? (v >= 500 ? 'c500' : v >= 100 ? 'c100' : v >= 25 ? 'c25' : v >= 5 ? 'c5' : 'c1');
+/** Flat bet marker used on the roulette layout. */
+const chipClass = (v: number) => (v >= 500 ? 'c500' : v >= 100 ? 'c100' : v >= 25 ? 'c25' : v >= 5 ? 'c5' : 'c1');
+const short = (v: number) => (v >= 1000 ? `${(v / 1000).toFixed(v % 1000 ? 1 : 0)}k` : String(v));
 
-export function Chip({ value, size = 'md', selected, onClick, disabled, label }: { value: number; size?: 'sm' | 'md' | 'lg'; selected?: boolean; onClick?: () => void; disabled?: boolean; label?: string }) {
-  const cls = `chip ${chipClass(value)} ${size}${selected ? ' on' : ''}`;
-  const txt = value >= 1000 ? `${value / 1000}k` : String(value);
-  if (onClick) return <button type="button" className={cls} onClick={onClick} disabled={disabled} aria-pressed={selected} aria-label={label ?? `${value} chip`}><span>{txt}</span></button>;
-  return <span className={cls} aria-hidden><span>{txt}</span></span>;
-}
-
-/** Break an amount into chips (largest first) and draw them as a small stack with the total on top. */
-export function ChipStack({ amount, size = 'sm' }: { amount: number; size?: 'sm' | 'md' }) {
+export function ChipStack({ amount, size }: { amount: number; size?: 'sm' | 'md' | 'lg' }) {
   if (amount <= 0) return null;
-  const chips: number[] = []; let left = amount;
-  for (const v of [...CHIP_VALUES].reverse()) while (left >= v && chips.length < 6) { chips.push(v); left -= v; }
-  return (
-    <span className={`chip-stack ${size}`} aria-label={`${amount} staked`}>
-      {chips.map((v, i) => <span key={i} className={`chip ${chipClass(v)} ${size}`} style={{ transform: `translateY(${-i * 3}px)` }} aria-hidden><span>{i === chips.length - 1 ? (amount >= 1000 ? `${(amount / 1000).toFixed(amount % 1000 ? 1 : 0)}k` : amount) : ''}</span></span>)}
-    </span>
-  );
+  return <span className="chip-stack" aria-label={`${amount} staked`}><span className={`chip ${chipClass(amount)}${size === 'lg' ? ' lg' : ''}`}>{short(amount)}</span></span>;
 }

@@ -6,59 +6,71 @@ import { fmtMoney, type Stats } from './useBankroll';
 
 export interface Bank { balance: number; stats: Stats; reset: () => void; topUp: () => void; sessionStart: number }
 
+/** Bet amount field: typed value with ½ / 2× / Max helpers, clamped to the balance. */
+export function BetInput({ label, value, onChange, max, disabled, note }: { label: string; value: number; onChange: (v: number) => void; max: number; disabled?: boolean; note?: string }) {
+  const set = (v: number) => onChange(Math.max(0, Math.min(Math.floor(v * 100) / 100, Math.floor(max * 100) / 100)));
+  return (
+    <div className="tg-field">
+      <div className="tg-field-head"><span>{label}</span>{note ? <span>{note}</span> : null}</div>
+      <div className="tg-input">
+        <input type="number" inputMode="decimal" min={0} step="any" value={value} disabled={disabled} aria-label={label} onChange={(e) => set(Number(e.target.value) || 0)} />
+        <button type="button" onClick={() => set(value / 2)} disabled={disabled || value <= 0} aria-label={`Halve ${label}`}>½</button>
+        <button type="button" onClick={() => set(value ? value * 2 : 1)} disabled={disabled || value * 2 > max} aria-label={`Double ${label}`}>2×</button>
+        <button type="button" onClick={() => set(max)} disabled={disabled || value >= max} aria-label={`Max ${label}`}>Max</button>
+      </div>
+    </div>
+  );
+}
+
+/** Payout badge shown over the stage when a round settles. */
+export function Payout({ net, mult }: { net: number; mult?: number }) {
+  if (net === 0) return <div className="payout push" role="status">Push<span>stake returned</span></div>;
+  if (net < 0) return null;
+  return <div className="payout" role="status">{mult ? `${mult.toFixed(2)}×` : 'Win'}<span>+{fmtMoney(net)}</span></div>;
+}
+
 /**
- * Chrome shared by every table game: play-money balance, "Show book move" toggle, reset, the felt table,
- * the hint line, controls, the stats panel and the 18+ line. The real-money prompt floats over the felt.
+ * Layout shared by every table game: a control panel (bets, options, the one big action button, the book-move
+ * switch and the hint) beside a dark stage where the cards or wheel live. Stats and the 18+ line sit underneath.
  */
-export function GameFrame({ game, title, casinos, bank, hint, setHint, advice, children, controls, aside, busy }: {
+export function GameFrame({ game, title, casinos, bank, hint, setHint, advice, panel, children, aside, busy }: {
   game: string; title: string; casinos: CtaCasino[]; bank: Bank; hint: boolean; setHint: (v: boolean) => void;
-  /** The current book move, shown under the table when hint mode is on. */
-  advice?: { move: string; reason: string } | null;
-  children: ReactNode; controls?: ReactNode; aside?: ReactNode; busy?: boolean;
+  advice?: { move: string; reason: string } | null; panel: ReactNode; children: ReactNode; aside?: ReactNode; busy?: boolean;
 }) {
   const { stats } = bank;
   const rate = stats.hands ? Math.round((stats.wins / stats.hands) * 100) : 0;
   return (
     <section className="tg" aria-label={`${title} – free play`}>
-      <div className="tg-top">
-        <div className="tg-balance" aria-live="polite">
-          <span className="tg-balance-label">Play money</span>
-          <strong className="tg-balance-amt">{fmtMoney(bank.balance)}</strong>
-        </div>
-        <div className="tg-top-actions">
+      <div className="tg-layout">
+        <div className="tg-panel">
+          {panel}
           <label className="tg-switch">
             <input type="checkbox" checked={hint} onChange={(e) => setHint(e.target.checked)} />
             <span className="tg-switch-track" aria-hidden><span className="tg-switch-knob" /></span>
             <span className="tg-switch-text">Show book move</span>
           </label>
-          <button type="button" className="tg-reset" onClick={() => { if (window.confirm('Reset your play-money balance to 1,000 and clear the stats?')) bank.reset(); }} disabled={busy}>Reset</button>
-        </div>
-      </div>
-
-      <div className={`tg-table tg-${game}`}>
-        <div className="tg-felt">
-          <div className="tg-vignette" aria-hidden />
-          {children}
-          {bank.balance <= 0 && !busy ? (
-            <div className="tg-broke" role="status">
-              <p>Out of play money. It costs nothing to refill.</p>
-              <button type="button" className="btn btn-primary" onClick={bank.topUp}>Refill 1,000</button>
+          {hint ? (
+            <div className="tg-hint" role="status" aria-live="polite">
+              <span className="tg-hint-label">Book move</span>
+              {advice ? <><strong>{advice.move}</strong><span>{advice.reason}</span></> : <span>Place a bet to see the mathematically correct play for the situation.</span>}
             </div>
           ) : null}
         </div>
-        <TableCta casinos={casinos} game={game} streak={stats.streak} balance={bank.balance} sessionStart={bank.sessionStart} hands={stats.hands} />
-      </div>
-
-      {hint ? (
-        <div className={`tg-hint${advice ? ' has' : ''}`} role="status" aria-live="polite">
-          <span className="tg-hint-label">Book move</span>
-          {advice ? <><strong>{advice.move}</strong><span className="tg-hint-text">{advice.reason}</span></> : <span className="tg-hint-text">Place a bet to see the mathematically correct play for the situation.</span>}
+        <div className={`tg-stage tg-${game}`}>
+          <div className="tg-stage-top">
+            <div className="tg-balance" aria-live="polite"><span className="tg-balance-label">Play money</span><strong className="tg-balance-amt">{fmtMoney(bank.balance)}</strong></div>
+            <button type="button" className="tg-reset" onClick={() => { if (window.confirm('Reset your play-money balance to 1,000 and clear the stats?')) bank.reset(); }} disabled={busy}>Reset</button>
+          </div>
+          <div className="tg-stage-body">
+            {children}
+            {bank.balance <= 0 && !busy ? (
+              <div className="tg-broke" role="status"><p>Out of play money. It costs nothing to refill.</p><button type="button" className="tg-bet" onClick={bank.topUp}>Refill 1,000</button></div>
+            ) : null}
+          </div>
+          <TableCta casinos={casinos} game={game} streak={stats.streak} balance={bank.balance} sessionStart={bank.sessionStart} hands={stats.hands} />
         </div>
-      ) : null}
-
-      {controls ? <div className="tg-controls">{controls}</div> : null}
+      </div>
       {aside}
-
       <dl className="tg-stats">
         <div><dt>Hands</dt><dd>{stats.hands.toLocaleString('en-US')}</dd></div>
         <div><dt>Win rate</dt><dd>{stats.hands ? `${rate}%` : '–'}</dd></div>
