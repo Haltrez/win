@@ -47,6 +47,7 @@ export function TableGamePage({ game }: { game: GameKey }) {
       <FAQ items={g.faq} title={`${g.short} FAQ`} />
 
       <CasinoModule casinos={getCasinosFileOrder()} title={`Play ${g.short.toLowerCase()} for real money`} context={`table:${g.slug}`} />
+      {['blackjack', 'roulette', 'baccarat'].includes(g.slug) ? <p className="muted small"><Link href={`/casinos/${g.slug}`}>What to check before you play {g.short.toLowerCase()} for real →</Link></p> : null}
 
       <section aria-labelledby="more-h"><h2 id="more-h">More free table games</h2>
         <ul className="inline-links">{others.map((o) => <li key={o.slug}><Link href={`/table-games/${o.slug}`}>{o.name}</Link></li>)}<li><Link href="/table-games">All table games</Link></li></ul>

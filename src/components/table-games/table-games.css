@@ -32,7 +32,7 @@
 .tg-seg button { min-height: 40px; border: 0; border-radius: 4px; background: transparent; color: var(--p-muted); font: 700 .82rem var(--font); cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px; }
 .tg-seg button small { font-size: .62rem; opacity: .7; }
 .tg-seg button.on { background: var(--p-line); color: var(--p-text); }
-.tg-bet { min-height: 52px; border: 0; border-radius: 6px; background: var(--p-green); color: var(--p-green-ink); font: 800 1rem var(--font); cursor: pointer; transition: filter .15s, transform .1s; box-shadow: 0 1px 0 rgba(0,0,0,.2); }
+.tg-bet { min-height: 52px; border: 0; border-radius: 10px; background: var(--cta); color: var(--brand-ink); font: 800 1rem var(--font-display, var(--font)); box-shadow: var(--cta-glow), inset 0 1px 0 rgba(255,255,255,.45); cursor: pointer; transition: filter .15s, transform .1s; box-shadow: 0 1px 0 rgba(0,0,0,.2); }
 .tg-bet:hover:not(:disabled) { filter: brightness(1.08); }
 .tg-bet:active:not(:disabled) { transform: scale(.985); }
 .tg-bet:disabled { background: var(--p-line); color: var(--p-muted); cursor: not-allowed; }
@@ -262,3 +262,6 @@
   .pc, .pc.book .pc-inner, .tg-act.book, .tg-bet.book, .tg-spot.book, .rl-cell.book, .payout { animation: none; }
   .pc-inner, .rw-rotor, .rw-ball-orbit, .rw-ball { transition-duration: .2s; }
 }
+
+.tg-switch-top { margin-top: 10px; padding: 10px 12px; border-radius: 10px; background: rgba(255,194,26,.07); border: 1px solid rgba(255,194,26,.25); }
+.tg-switch-top .tg-switch-text { color: var(--brand); }

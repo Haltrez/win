@@ -755,3 +755,10 @@ h1 { letter-spacing: -.03em; }
 .dcp-go { margin-top: 12px; min-height: 56px; font-size: 1.2rem; border-radius: 14px; }
 .dcp-terms { margin-top: 6px; }
 @media (max-width: 640px) { .dcp-logo { height: 44px; } .dcp-bonus { font-size: 1.35rem; } .dcp-sub { font-size: .92rem; } .dcp-go { min-height: 48px; font-size: 1.05rem; } }
+
+/* Home: three ways to play */
+.ways { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin: 18px 0 6px; }
+.way { display: flex; flex-direction: column; gap: 4px; padding: 14px 16px; border-radius: var(--radius); background: var(--card); border: 1px solid var(--line); text-decoration: none; color: var(--text); transition: border-color .15s, transform .15s; }
+.way:hover { border-color: var(--brand); transform: translateY(-1px); text-decoration: none; }
+.way-k { font: 700 .7rem/1 var(--font-display, var(--font)); letter-spacing: .1em; text-transform: uppercase; color: var(--brand-text, var(--brand)); }
+.way strong { font-family: var(--font-display, var(--font)); font-size: 1.05rem; line-height: 1.25; }
