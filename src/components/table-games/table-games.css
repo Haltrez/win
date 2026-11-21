@@ -141,8 +141,8 @@ button.chip:disabled { opacity: .35; cursor: not-allowed; }
 .bj-hand.active { border-color: rgba(246,217,138,.8); background: rgba(0,0,0,.18); box-shadow: 0 0 24px rgba(246,217,138,.2); }
 .bj-hand.res-win, .bj-hand.res-blackjack { background: rgba(255,170,30,.12); }
 .bj-hand .hand-bet { justify-content: center; }
-.hands-3 .bj-hand { padding: 8px 6px; } .hands-3 .hand-cards .pc + .pc { margin-left: calc(var(--cw) * -0.5); }
-@media (max-width: 640px) { .hands-2 .bj-hand, .hands-3 .bj-hand { --cw: 52px; } .hands-3 .bj-hand { --cw: 46px; padding: 6px 2px; } .bj-player { gap: 6px; } }
+.seats-1.hands-3 .bj-hand { padding: 8px 6px; } .seats-1.hands-3 .hand-cards .pc + .pc { margin-left: calc(var(--cw) * -0.5); }
+@media (max-width: 640px) { .seats-1.hands-2 .bj-hand, .seats-1.hands-3 .bj-hand { --cw: 52px; } .seats-1.hands-3 .bj-hand { --cw: 46px; padding: 6px 2px; } .bj-player { gap: 6px; } }
 
 /* -------- roulette */
 .rl { display: grid; gap: 18px; }
@@ -288,4 +288,41 @@ button.chip:disabled { opacity: .35; cursor: not-allowed; }
 @media (prefers-reduced-motion: reduce) {
   .pc, .pc.book .pc-inner, .tg-btn.book, .bac-spot.book, .rl-cell.hit { animation: none; }
   .pc-inner, .rw-rotor, .rw-ball-orbit, .rw-ball { transition-duration: .2s; }
+}
+
+/* blackjack: up to three seats, each with its own (split) hands and side-bet results */
+.bj-seat { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.bj-seat-hands { display: flex; justify-content: center; align-items: flex-end; gap: 10px; flex-wrap: wrap; }
+.bj-side-results { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; }
+.bj-side-res { padding: 1px 8px; border-radius: 999px; font: 800 .62rem/1.6 var(--font); background: rgba(0,0,0,.5); color: #cfd8e6; border: 1px solid rgba(255,255,255,.14); white-space: nowrap; }
+.bj-side-res.win { background: rgba(255,170,30,.3); color: #ffd76a; border-color: rgba(255,200,80,.6); }
+.seats-2 .bj-hand, .seats-3 .bj-hand { padding: 8px 6px; }
+.seats-3 .hand-cards .pc + .pc, .seats-2 .bj-seat-hands:has(.bj-hand + .bj-hand) .hand-cards .pc + .pc { margin-left: calc(var(--cw) * -0.5); }
+@media (max-width: 640px) { .seats-2 { --cw: 50px; } .seats-3 { --cw: 42px; } .seats-2 .bj-hand, .seats-3 .bj-hand { --cw: inherit; padding: 6px 2px; } .seats-3 .bj-seat-hands { gap: 4px; } .bj-player { gap: 4px; } .seats-2 .hand-label, .seats-3 .hand-label { font-size: .62rem; } }
+.bj-seats { display: inline-flex; align-items: center; gap: 4px; margin-left: 6px; padding: 3px 6px 3px 10px; border-radius: 999px; background: var(--card); border: 1px solid var(--line2); }
+.bj-seats-label { font: 700 .66rem/1 var(--font-display, var(--font)); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-right: 4px; }
+.bj-seat-btn { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line2); background: transparent; color: var(--text); font: 800 .9rem var(--font-display, var(--font)); cursor: pointer; }
+.bj-seat-btn.on { background: var(--cta); color: var(--brand-ink); border-color: transparent; }
+.bj-spot-x { font-size: .62rem; color: #ffd76a; font-weight: 700; }
+/* blackjack bet spots: 21+3 · main · Perfect Pairs */
+.bj-spots { display: grid; grid-template-columns: 1fr 1.25fr 1fr; gap: 8px; margin-top: 10px; }
+.bj-spot { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 3px; min-height: 104px; padding: 8px 4px 8px; border-radius: 14px; border: 2px solid rgba(255,255,255,.22); background: rgba(0,0,0,.18); color: #fff; cursor: pointer; transition: transform .15s, border-color .15s, box-shadow .15s; }
+.bj-spot.main { background: linear-gradient(180deg, rgba(226,179,88,.22), rgba(226,179,88,.08)); border-color: rgba(246,217,138,.6); }
+.bj-spot:hover:not(:disabled) { transform: translateY(-2px); border-color: #fff; }
+.bj-spot:disabled { cursor: default; }
+.bj-spot-name { font: 800 .92rem var(--font-display, var(--font)); }
+.bj-spot-sub { font-size: .64rem; opacity: .7; letter-spacing: .04em; margin-bottom: 2px; }
+.bj-spot .chip-stack, .bj-spot .bet-spot { margin-top: auto; }
+.bj-spot .bet-spot { margin-bottom: 8px; }
+.bj-spot.book { outline: 3px dashed var(--gold-2); outline-offset: 3px; animation: book-pulse 1.4s ease-in-out infinite; }
+.bj-spot.nobook { opacity: .6; }
+.bj-spot-res { position: absolute; left: 50%; bottom: -10px; transform: translateX(-50%); white-space: nowrap; padding: 2px 9px; border-radius: 999px; font: 800 .66rem/1.5 var(--font); background: rgba(0,0,0,.6); color: #cfd8e6; border: 1px solid rgba(255,255,255,.15); }
+.bj-spot-res.win { background: rgba(255,170,30,.3); color: #ffd76a; border-color: rgba(255,200,80,.6); }
+@media (max-width: 640px) { .bj-spot { min-height: 92px; padding: 6px 2px; } .bj-spot-name { font-size: .78rem; } .bj-spot-sub { font-size: .58rem; } .bj-spot-res { font-size: .6rem; max-width: 110%; overflow: hidden; text-overflow: ellipsis; } .bj-spots { gap: 5px; } }
+@media (max-width: 640px) {
+  .seats-2.bj-player, .seats-3.bj-player { flex-wrap: nowrap; align-items: flex-start; }
+  .seats-2 .bj-seat, .seats-3 .bj-seat { flex: 1 1 0; min-width: 0; }
+  .seats-2 .bj-side-results, .seats-3 .bj-side-results { flex-direction: column; align-items: center; gap: 2px; width: 100%; }
+  .seats-2 .bj-side-res, .seats-3 .bj-side-res { font-size: .56rem; padding: 0 6px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
+  .seats-2 .hand-bet, .seats-3 .hand-bet { flex-direction: column; gap: 4px; }
 }

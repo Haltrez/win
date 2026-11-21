@@ -17,7 +17,7 @@ const files = fs.readdirSync(src).filter((f) => f.endsWith('.ts')).map((f) => pa
 execFileSync(process.execPath, [require.resolve('typescript/bin/tsc'), ...files, '--outDir', out, '--module', 'commonjs', '--target', 'es2022', '--moduleResolution', 'node', '--skipLibCheck', '--strict', '--esModuleInterop'], { stdio: 'inherit' });
 const load = (m) => require(path.join(out, `${m}.js`));
 
-const cards = load('cards'), bj = load('blackjack'), rl = load('roulette'), bac = load('baccarat'), poker = load('poker'), vp = load('video-poker'), ch = load('casino-holdem'), rng = load('rng');
+const cards = load('cards'), bj = load('blackjack'), side = load('blackjack-side'), rl = load('roulette'), bac = load('baccarat'), poker = load('poker'), vp = load('video-poker'), ch = load('casino-holdem'), rng = load('rng');
 const { parseCards, parseCard } = cards;
 
 let passed = 0, failed = 0;
@@ -46,7 +46,7 @@ const near = (a, b, tol, msg) => { if (Math.abs(a - b) <= tol) passed++; else { 
   ok(!bj.isBlackjack(parseCards('AS 5D 5C')), 'three-card 21 is not blackjack');
 
   // settlement
-  const st = (hands, dealer) => bj.settle({ phase: 'dealer', hands: hands.map((h) => ({ cards: parseCards(h.c), bet: h.bet ?? 10, done: true, doubled: false, fromSplit: h.split ?? false })), active: 0, dealer: parseCards(dealer), returned: 0, staked: 0 });
+  const st = (hands, dealer) => bj.settle({ phase: 'dealer', hands: hands.map((h, i) => ({ cards: parseCards(h.c), bet: h.bet ?? 10, done: true, doubled: false, fromSplit: h.split ?? false, seat: i })), active: 0, dealer: parseCards(dealer), returned: 0, staked: 0 });
   eq(st([{ c: 'AS KD' }], '10S 7D').returned, 25, 'blackjack pays 3:2 (10 → 25 back)');
   eq(st([{ c: 'AS KD' }], 'AD KS').returned, 10, 'blackjack vs blackjack pushes');
   eq(st([{ c: '10S 9D' }], 'AD KS').returned, 0, '19 loses to dealer blackjack');
@@ -84,6 +84,26 @@ const near = (a, b, tol, msg) => { if (Math.abs(a - b) <= tol) passed++; else { 
   eq(s.hands.map((h) => h.cards.length), [2, 2], 'each split ace has exactly two cards');
   eq(s.returned, 40, 'A-K and A-Q after split pay 1:1 each (not 3:2) vs dealer 14→ must draw: dealer 5-9-4 = 18 → both 21s win');
 
+  // multiple seats: deal order seat1, seat2, dealer, seat1, seat2, dealer
+  s = bj.dealSeats(fake('2S 3S 10D 4S 5S 7D 9C 9H 8C'), [10, 20]);
+  eq(s.hands.map((h) => cards.cardId(h.cards[0]) + cards.cardId(h.cards[1])), ['2S4S', '3S5S'], 'two seats dealt round the table');
+  eq(s.dealer.map(cards.cardId), ['10D', '7D'], 'dealer gets the third and sixth cards');
+  eq(s.staked, 30, 'seat bets add up');
+  s = bj.stand(fake('9C 9H 8C'), s); eq(s.active, 1, 'standing on seat 1 moves to seat 2');
+  s = bj.stand(fake('9C 9H 8C'), s); eq(s.phase, 'settled', 'both seats stood → settled');
+  eq(s.hands.map((h) => h.result), ['lose', 'lose'], 'both low hands lose to dealer 17');
+  s = bj.dealSeats(fake('AS 5S 10D KS 6S 7D 9C'), [10, 20]); // seat 1 blackjack, seat 2 11
+  eq(s.hands[0].done, true, 'seat 1 natural is done at once'); eq(s.active, 1, 'play starts at seat 2');
+  s = bj.dealSeats(fake('AS 5S AD KS 6S KD'), [10, 20]); // dealer blackjack ends everything
+  eq(s.phase, 'settled', 'dealer blackjack settles every seat'); eq(s.returned, 10, 'seat 1 natural pushes, seat 2 loses');
+  // split limit is per seat
+  s = bj.dealSeats(fake('8S 2S 5D 8C 3S 9S'), [10, 10]);
+  s = bj.split(fake('8D 8H 8C 7C 7D'), s); s = bj.split(fake('8H 8C 7C 7D'), s);
+  eq(s.hands.filter((h) => h.seat === 0).length, 3, 'seat 1 split to three hands');
+  ok(!bj.canSplit(s), 'seat 1 cannot split a fourth time');
+  eq(s.hands.length, 4, 'seat 2 untouched');
+  let threw = false; try { bj.dealSeats(fake('AS'), [1, 1, 1, 1]); } catch { threw = true; } ok(threw, 'four seats refused');
+
   // basic strategy spot checks (6 decks, S17, DAS)
   const adv = (hand, up, o = { canSplit: true, canDouble: true }) => bj.basicStrategy(parseCards(hand), parseCard(up), o).action;
   eq(adv('8S 8D', '10S'), 'split', 'always split 8s');
@@ -111,6 +131,30 @@ const near = (a, b, tol, msg) => { if (Math.abs(a - b) <= tol) passed++; else { 
   eq(adv('AS AD', '10S', { canSplit: false, canDouble: true }), 'hit', 'A-A with no split allowed is soft 12: hit');
   eq(adv('AS 4D', '4S'), 'double', 'soft 15 vs 4: double');
   eq(adv('AS 2D', '4S'), 'hit', 'soft 13 vs 4: hit');
+}
+
+/* ---------------------------------------------------------------- Blackjack side bets */
+{
+  const s3 = (s) => { const c = parseCards(s); const r = side.evaluate21p3(c[0], c[1], c[2]); return r ? r.pays : 0; };
+  eq(s3('7S 7S 7S'), 100, '21+3 suited trips 100:1');
+  eq(s3('7S 7D 7C'), 30, '21+3 three of a kind 30:1');
+  eq(s3('5H 6H 7H'), 40, '21+3 straight flush 40:1');
+  eq(s3('AS 2S 3S'), 40, '21+3 A-2-3 suited is a straight flush');
+  eq(s3('QS KS AS'), 40, '21+3 Q-K-A suited is a straight flush');
+  eq(s3('5H 6D 7H'), 10, '21+3 straight 10:1');
+  eq(s3('KS AD 2C'), 0, '21+3 K-A-2 is not a straight');
+  eq(s3('2H 9H KH'), 5, '21+3 flush 5:1');
+  eq(s3('2H 9D KC'), 0, '21+3 nothing');
+  const pp = (s) => { const c = parseCards(s); const r = side.evaluatePerfectPairs(c[0], c[1]); return r ? r.pays : 0; };
+  eq(pp('8S 8S'), 25, 'perfect pair 25:1'); eq(pp('8S 8C'), 12, 'coloured pair (black) 12:1'); eq(pp('8H 8D'), 12, 'coloured pair (red) 12:1'); eq(pp('8H 8S'), 6, 'mixed pair 6:1'); eq(pp('8H 9H'), 0, 'no pair');
+  // exact house edges for a 6-deck shoe, cross-checked by hand: PP = 1 - (26*5 + 13*6 + 7*12)/311
+  near(side.edgePerfectPairs(6), 100 * (1 - (26 * 5 + 13 * 6 + 7 * 12) / 311), 0.01, 'Perfect Pairs 6-deck edge = 6.11%');
+  near(side.EDGE_PP, 6.11, 0.01, 'Perfect Pairs published 6-deck figure');
+  // 21+3: hand-counted combinations of a 312-card shoe
+  const C3 = (312 * 311 * 310) / 6, suitedTrips = 52 * 20, sf = 12 * 4 * 216, trips = 13 * (2024 - 80), str = 12 * (13824 - 864), fl = 4 * (76076 - 2592 - 260);
+  near(side.edge21p3(6), 100 * (1 - (suitedTrips * 101 + sf * 41 + trips * 31 + str * 11 + fl * 6) / C3), 0.01, '21+3 6-deck edge = 4.63%');
+  near(side.EDGE_21P3, 4.63, 0.01, '21+3 published 6-deck figure');
+  near(side.edgePerfectPairs(8), 4.10, 0.01, 'Perfect Pairs 8-deck edge = 4.10% (the commonly quoted figure)');
 }
 
 /* ---------------------------------------------------------------- Roulette */

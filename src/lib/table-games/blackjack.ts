@@ -7,13 +7,13 @@ import { Shoe } from './cards';
  *  (two re-splits) · double after split allowed · split aces receive one card · no surrender · no insurance.
  *  Basic strategy below is the published multi-deck S17/DAS/no-surrender chart.
  */
-export const BJ_RULES = { decks: 6, dealerStandsSoft17: true, blackjackPays: 1.5, maxHands: 3, doubleAfterSplit: true, surrender: false } as const;
+export const BJ_RULES = { decks: 6, dealerStandsSoft17: true, blackjackPays: 1.5, /** max hands per seat after splits, and max seats */ maxHands: 3, doubleAfterSplit: true, surrender: false } as const;
 /** Published house edge for these rules with perfect basic strategy (Wizard of Odds rule calculator). */
 export const BJ_HOUSE_EDGE = 0.41;
 
 export type BjAction = 'hit' | 'stand' | 'double' | 'split';
 
-export interface BjHand { cards: Card[]; bet: number; done: boolean; doubled: boolean; fromSplit: boolean; result?: 'win' | 'lose' | 'push' | 'blackjack'; payout?: number }
+export interface BjHand { cards: Card[]; bet: number; done: boolean; doubled: boolean; fromSplit: boolean; /** Seat (0-based) the hand belongs to – split hands keep their seat. */ seat: number; result?: 'win' | 'lose' | 'push' | 'blackjack'; payout?: number }
 export interface BjState {
   phase: 'bet' | 'player' | 'dealer' | 'settled';
   hands: BjHand[];
@@ -38,20 +38,33 @@ const bjVal = (c: Card) => (c.rank === 14 ? 11 : Math.min(c.rank, 10));
 
 export const initialBjState = (): BjState => ({ phase: 'bet', hands: [], active: 0, dealer: [], returned: 0, staked: 0 });
 
-export function deal(shoe: Shoe, bet: number): BjState {
+/** Deal one seat. */
+export const deal = (shoe: Shoe, bet: number): BjState => dealSeats(shoe, [bet]);
+
+/**
+ * Deal up to three seats against one dealer hand. Cards go round the table in order (seat 1, seat 2, …, dealer,
+ * then the second card each). Naturals are settled at once; the dealer peeks, so a dealer blackjack ends the round.
+ */
+export function dealSeats(shoe: Shoe, bets: number[]): BjState {
+  if (!bets.length || bets.length > BJ_RULES.maxHands) throw new Error('1 to 3 seats');
   if (shoe.needsShuffle) shoe.reshuffle();
-  const player = [shoe.draw()], dealer = [shoe.draw()];
-  player.push(shoe.draw()); dealer.push(shoe.draw());
-  const s: BjState = { phase: 'player', hands: [{ cards: player, bet, done: false, doubled: false, fromSplit: false }], active: 0, dealer, returned: 0, staked: bet };
-  // Naturals end the round at once (dealer peeks; with a dealer blackjack the hand is a push).
-  if (isBlackjack(player) || isBlackjack(dealer)) { s.hands[0].done = true; return finish(shoe, s); }
+  const hands: BjHand[] = bets.map((bet, seat) => ({ cards: [], bet, done: false, doubled: false, fromSplit: false, seat }));
+  const dealer: Card[] = [];
+  for (let round = 0; round < 2; round++) { for (const h of hands) h.cards.push(shoe.draw()); dealer.push(shoe.draw()); }
+  const s: BjState = { phase: 'player', hands, active: 0, dealer, returned: 0, staked: bets.reduce((a, b) => a + b, 0) };
+  for (const h of hands) if (isBlackjack(h.cards)) h.done = true;
+  if (isBlackjack(dealer)) { for (const h of hands) h.done = true; return finish(shoe, s); }
+  const first = hands.findIndex((h) => !h.done);
+  if (first < 0) return finish(shoe, s);
+  s.active = first;
   return s;
 }
 
 export function canDouble(s: BjState, i = s.active) { const h = s.hands[i]; return s.phase === 'player' && !h.done && h.cards.length === 2 && (!h.fromSplit || BJ_RULES.doubleAfterSplit) && !(h.fromSplit && h.cards[0].rank === 14); }
 export function canSplit(s: BjState, i = s.active) {
   const h = s.hands[i];
-  return s.phase === 'player' && !h.done && h.cards.length === 2 && bjVal(h.cards[0]) === bjVal(h.cards[1]) && s.hands.length < BJ_RULES.maxHands && !(h.fromSplit && h.cards[0].rank === 14);
+  const seatHands = s.hands.filter((x) => x.seat === h.seat).length;
+  return s.phase === 'player' && !h.done && h.cards.length === 2 && bjVal(h.cards[0]) === bjVal(h.cards[1]) && seatHands < BJ_RULES.maxHands && !(h.fromSplit && h.cards[0].rank === 14);
 }
 export function canHit(s: BjState, i = s.active) { const h = s.hands[i]; return s.phase === 'player' && !h.done && !(h.fromSplit && h.cards[0].rank === 14 && h.cards.length === 2); }
 
@@ -94,7 +107,7 @@ export function double(shoe: Shoe, st: BjState): BjState {
 export function split(shoe: Shoe, st: BjState): BjState {
   if (!canSplit(st)) return st;
   const s = clone(st); const h = s.hands[s.active];
-  const second: BjHand = { cards: [h.cards.pop()!], bet: h.bet, done: false, doubled: false, fromSplit: true };
+  const second: BjHand = { cards: [h.cards.pop()!], bet: h.bet, done: false, doubled: false, fromSplit: true, seat: h.seat };
   h.fromSplit = true; s.staked += h.bet;
   s.hands.splice(s.active + 1, 0, second);
   h.cards.push(shoe.draw());
