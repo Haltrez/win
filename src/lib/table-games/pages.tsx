@@ -56,7 +56,7 @@ export const GAME_PAGES: Record<GameKey, GamePage> = {
   blackjack: {
     slug: 'blackjack', name: 'Blackjack', short: 'Blackjack', h1: 'Play Blackjack Free', kicker: 'Six-deck shoe · dealer stands on soft 17 · blackjack pays 3:2 · play money only',
     titles: ['Play Blackjack Free – 6-Deck Game with Basic Strategy Hints', 'Play Blackjack Free – 6-Deck, 3:2, Strategy Hints', 'Play Blackjack Free Online'],
-    description: 'Play blackjack free with play money: a real 6-deck shoe, dealer stands on soft 17, 3:2 blackjack, splits and doubles. Turn on hints to see the basic strategy move for every hand.',
+    description: 'Play blackjack free: real 6-deck shoe, dealer stands on soft 17, 3:2 payouts, splits and doubles. Hints show the basic strategy move for every hand.',
     tag: '6 decks · S17 · 3:2 · 1–3 hands',
     facts: [['Decks', '6'], ['Dealer', 'Stands on soft 17'], ['Blackjack pays', '3 to 2'], ['Double', 'Any two cards, after splits too'], ['Split', 'Up to 3 hands'], ['Seats', 'Play 1–3 hands'], ['Surrender', 'No'], ['Side bets', '21+3 · Perfect Pairs']],
     blurb: 'The classic. Play up to three hands, split and double, and let the hints show you the book move for every decision.',
@@ -108,7 +108,7 @@ export const GAME_PAGES: Record<GameKey, GamePage> = {
   roulette: {
     slug: 'roulette', name: 'European Roulette', short: 'Roulette', h1: 'Free Roulette – European Single Zero', kicker: '37 pockets · full inside and outside layout · real spinning wheel · play money only',
     titles: ['Free Roulette – Play European Single-Zero Roulette Online', 'Free Roulette – European Single Zero, No Sign-Up', 'Free Roulette Online'],
-    description: 'Play free roulette on a European single-zero wheel: every inside and outside bet, correct 35:1 payouts, a real spinning wheel and no sign-up. Learn the bets and why no system beats the wheel.',
+    description: 'Play free roulette on a European single-zero wheel: every inside and outside bet, correct 35:1 payouts and a real spinning wheel. No sign-up.',
     tag: 'Single zero · 37 pockets · 35:1',
     facts: [['Wheel', 'European, single zero'], ['Pockets', '37'], ['Straight up', '35 to 1'], ['Even money', '1 to 1'], ['La partage', 'No'], ['Bets', 'All inside & outside']],
     blurb: 'Single zero, real decelerating wheel, every bet from straight-up to the columns.',
@@ -146,7 +146,7 @@ export const GAME_PAGES: Record<GameKey, GamePage> = {
   baccarat: {
     slug: 'baccarat', name: 'Baccarat', short: 'Baccarat', h1: 'Free Baccarat Game – Punto Banco', kicker: 'Eight decks · standard third-card rules · Banker 0.95:1, Tie 8:1 · play money only',
     titles: ['Free Baccarat Game – Play Punto Banco Online, No Sign-Up', 'Free Baccarat Game – Punto Banco, 8 Decks', 'Free Baccarat Game Online'],
-    description: 'Play a free baccarat game (Punto Banco) with eight real decks, the standard third-card tableau, Banker at 0.95:1 and Tie at 8:1. See the odds behind each bet and why Banker is the book move.',
+    description: 'Play free baccarat (Punto Banco): eight decks, standard third-card rules, Banker at 0.95:1 and Tie at 8:1. See the odds behind each bet. No sign-up.',
     tag: '8 decks · Banker 0.95:1 · Tie 8:1',
     facts: [['Decks', '8'], ['Player pays', '1 to 1'], ['Banker pays', '0.95 to 1'], ['Tie pays', '8 to 1'], ['Third card', 'Standard tableau'], ['Decisions', 'None – bet only']],
     blurb: 'Pure odds: no decisions after the bet. Watch the third-card rules play out and learn why Banker is the best bet in the pit.',
@@ -181,7 +181,7 @@ export const GAME_PAGES: Record<GameKey, GamePage> = {
   'video-poker': {
     slug: 'video-poker', name: 'Jacks or Better Video Poker', short: 'Video poker', h1: 'Jacks or Better Free – 9/6 Video Poker', kicker: 'Full-pay 9/6 table · hold/draw with strategy hints · dealt-hand bonus up to 20,000:1 · play money only',
     titles: ['Jacks or Better Free – Play 9/6 Video Poker Online', 'Jacks or Better Free – 9/6 Full Pay Video Poker', 'Jacks or Better Free Online'],
-    description: 'Play Jacks or Better free on the full-pay 9/6 table: hold and draw, correct hand evaluation, an optional dealt-hand bonus bet paying up to 20,000 to 1, and a hint mode that shows the optimal hold for every deal.',
+    description: 'Play Jacks or Better free on the full-pay 9/6 table: hold and draw, a dealt-hand bonus bet paying up to 20,000 to 1, and hints showing the best hold.',
     tag: '9/6 full pay · royal 800× · bonus 20,000:1',
     facts: [['Paytable', '9/6 full pay'], ['Full house', '9 × bet'], ['Flush', '6 × bet'], ['Royal flush', '800 × bet'], ['Minimum hand', 'Pair of Jacks'], ['Side bet', 'Dealt hand bonus']],
     blurb: 'The classic full-pay machine. Learn the hold strategy the experts memorise, one decision at a time.',
@@ -240,7 +240,7 @@ export const GAME_PAGES: Record<GameKey, GamePage> = {
   'casino-holdem': {
     slug: 'casino-holdem', name: "Casino Hold'em", short: "Casino Hold'em", h1: "Casino Hold'em Free – Play Against the Dealer", kicker: 'Ante, call 2× or fold · dealer qualifies with a pair of 4s · ante bonus up to 100:1 · play money only',
     titles: ["Casino Hold'em Free – Play Poker Against the Dealer Online", "Casino Hold'em Free – Ante, Call or Fold Poker", "Casino Hold'em Free Online"],
-    description: "Play Casino Hold'em free: ante, see the flop, then call double or fold against the dealer. Standard rules, dealer qualifies with a pair of 4s, ante bonus paytable, and hints that show when folding is right.",
+    description: "Play Casino Hold'em free: ante, see the flop, then call or fold against the dealer. Standard rules, dealer qualifies with a pair of 4s, hints every hand.",
     tag: 'Ante · call 2× · dealer qualifies on 4s',
     facts: [['Ante', 'Your choice'], ['Call bet', '2 × ante'], ['Dealer qualifies', 'Pair of 4s or better'], ['Ante bonus', 'Up to 100 to 1'], ['Call pays', '1 to 1'], ['Fold', 'Lose the ante']],
     blurb: "Texas hold'em against the house. Call with about 82% of your hands – hint mode shows the common fold cases.",
