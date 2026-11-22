@@ -215,3 +215,10 @@ needs a human; 2–3 suggestions (outreach angles from new data, topic-queue ide
 - Casino offers, affiliate links, real-money and geo settings (`content/casinos.json`, `FEATURES` in `src/lib/config.ts`, the casino/CTA components) are owner decisions: leave them exactly as they are – never switch them off, edit or add to them.
 - Don't change layout, design or site config. Suggest such changes in the report instead.
 - Only content (slots, guides, topic queue, import-skip list) is published automatically. Never force-push, never rewrite history, never merge someone else's PR.
+
+## GEO (being cited by AI assistants)
+
+- `/llms.txt` is generated at build from the data, so it updates itself. Do not hand-edit it.
+- Every new guide opens with a two-sentence direct answer to the question in its title, before any heading. Figures in guides carry their source (provider sheet, regulator, or named study) in the sentence.
+- Every new slot review keeps the "key facts" table first; prose never contradicts the table.
+- Only bump a page's `updatedAt` when its content actually changes. Never bulk-touch dates.
