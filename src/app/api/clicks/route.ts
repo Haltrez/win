@@ -29,6 +29,7 @@ export async function GET(req: NextRequest) {
     ['HGETALL', `clicks:m:${month}`],
     ...casinos.map((c) => ['HGETALL', `clicks:c:${c}:m:${month}`]),
     ...days.map((d) => ['HGETALL', `clicks:d:${d}`]),
+    ...days.map((d) => ['HGETALL', `clicks:blocked:d:${d}`]),
   ];
   const res = await redisPipeline(cmds);
   const monthTotals = hashToCounts(res[0]);
@@ -39,5 +40,6 @@ export async function GET(req: NextRequest) {
     }),
   );
   const daily = days.map((d, i) => ({ day: d, ...hashToCounts(res[1 + casinos.length + i]) }));
-  return NextResponse.json({ month, total: Object.values(monthTotals).reduce((a, b) => a + b, 0), casinos: perCasino, daily }, { headers: { 'Cache-Control': 'no-store' } });
+  const blocked = days.map((d, i) => ({ day: d, ...hashToCounts(res[1 + casinos.length + days.length + i]) })).filter((x) => Object.keys(x).length > 1);
+  return NextResponse.json({ month, total: Object.values(monthTotals).reduce((a, b) => a + b, 0), casinos: perCasino, daily, blocked }, { headers: { 'Cache-Control': 'no-store' } });
 }

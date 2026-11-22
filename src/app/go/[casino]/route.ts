@@ -3,6 +3,7 @@ import { clickCommands, redisConfigured, redisPipeline } from '@/lib/redis';
 import { getCasino } from '@/lib/data';
 import { FEATURES } from '@/lib/config';
 import { geoAllowed, geoExcluded } from '@/lib/geo-match';
+import { blockedCommands, gateClick } from '@/lib/bot-gate';
 
 /**
  * Affiliate redirect: /go/[casino]?src=slot:gates-of-olympus&pos=1
@@ -28,6 +29,13 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ casi
   const { casino: slug } = await params;
   const c = getCasino(slug);
   if (!c) return NextResponse.redirect(new URL('/casinos', req.url), 302);
+
+  // Bots and scripted fetchers never reach the partner (see lib/bot-gate.ts); their attempts are counted for the owner's report.
+  const gate = await gateClick(req);
+  if (!gate.ok) {
+    if (redisConfigured()) after(() => redisPipeline(blockedCommands(gate.reason, c.slug)).catch(() => {}));
+    return new NextResponse(gate.status === 429 ? 'Too many requests' : 'Forbidden', { status: gate.status, headers: { 'X-Robots-Tag': 'noindex, nofollow', 'Cache-Control': 'no-store' } });
+  }
 
   const country = countryOf(req);
   const region = req.headers.get('x-vercel-ip-country-region');
