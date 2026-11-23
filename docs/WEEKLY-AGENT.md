@@ -17,7 +17,7 @@ pip install Pillow   # only if `python3 -c "import PIL"` fails
 
 The deploy branch is `claude/slots-demo-review-site-x1rmh3` (Vercel deploys every push to it).
 
-### This week only (run of 23 Nov 2026) – owner schedule
+### This week only (run of 23 Nov 2026) – DONE, applies no longer
 
 The prepared branch already carries **12 guides** (4 US sweepstakes guides + 8 live casino game guides): merge it
 first, as always, and **write no new guides in step 3** this week. Pace for the week: 12 prepared + ~10 Spanish +
