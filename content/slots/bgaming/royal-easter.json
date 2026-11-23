@@ -1,0 +1,60 @@
+{
+  "slug": "royal-easter",
+  "name": "Royal Easter",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "low",
+  "maxWin": 500,
+  "releaseDate": "2026-03-26",
+  "releaseDatePrecision": "day",
+  "winType": "243 paylines",
+  "hitRate": 7.05,
+  "bonusRate": 241.9,
+  "mechanics": [
+    "ways",
+    "multipliers",
+    "free-spins",
+    "pay-anywhere",
+    "bonus-buy"
+  ],
+  "themes": [
+    "classic",
+    "gems"
+  ],
+  "features": [
+    {
+      "name": "Stacking x2 multipliers",
+      "description": "Up to five x2 Multiplier symbols can land on one spin and combine."
+    },
+    {
+      "name": "Pay-anywhere free spins",
+      "description": "During free spins wins form from matching symbols anywhere on the grid."
+    },
+    {
+      "name": "Buy Bonus and Chance x2",
+      "description": "Buy the free spins directly or raise the chance of scatters landing."
+    }
+  ],
+  "review": "Royal Easter is a low-volatility BGaming slot set in a palace garden, with Fabergé eggs hidden among emerald grass on a familiar 5x3 grid with 243 ways to win. BGaming lists a 97% RTP, a 7.05 hit rate and a 500x maximum win, so the pace is steady rather than dramatic. Up to five x2 Multiplier symbols can appear on a single spin and stack together to lift payouts.\n\nFree spins switch to pay-anywhere wins, where symbols pay regardless of position. They can be triggered naturally, bought through the Buy Bonus, or made more likely with the Chance x2 option that raises the odds of landing scatters. Play the free demo to judge the rhythm; this is a slot for players who prefer frequent small wins and a refined look over max-win chasing.",
+  "demoUrl": "https://demo.bgaming-network.com/play/RoyalEaster/FUN?server=demo",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Modest 500x max win",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/bgaming/royal-easter.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/royal-easter"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "addedAt": "2026-11-23",
+  "author": "editorial-team"
+}

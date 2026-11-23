@@ -1,0 +1,58 @@
+{
+  "slug": "gift-rush-merge-up",
+  "name": "Gift Rush Merge Up",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "very-high",
+  "maxWin": 10000,
+  "releaseDate": "2026-11-19",
+  "releaseDatePrecision": "day",
+  "winType": "Cluster Pays",
+  "hitRate": 3.4,
+  "bonusRate": 409.0,
+  "mechanics": [
+    "cluster-pays",
+    "multipliers",
+    "free-spins",
+    "bonus-buy"
+  ],
+  "themes": [
+    "candy"
+  ],
+  "features": [
+    {
+      "name": "Merge Up ornaments",
+      "description": "Symbols merge into higher-value ornaments spin by spin, reaching Gift Boxes at level eight."
+    },
+    {
+      "name": "Cell multipliers",
+      "description": "Each win adds a multiplier to its cells that progresses from x2 up to x128."
+    },
+    {
+      "name": "Three bonus rounds",
+      "description": "Scatter candy from Gift Boxes triggers one of three free spins modes with sticky multipliers."
+    }
+  ],
+  "review": "Gift Rush Merge Up is the Christmas entry in BGaming's Merge Up series, a cluster slot where each spin can merge an ornament into a more valuable one. At level eight the dark magenta decorations can pack into Gift Boxes, and those boxes may open to reveal scatter candy; enough of them on the reels starts one of three bonus rounds. Every winning combination adds a multiplier to the cells it covers, starting at x2 and progressing up to x128.\n\nIn the bonus rounds all multipliers are sticky for the length of the free spins, which is where the 10,000x max win lives at very high volatility. BGaming lists the RTP at 97% and a hit rate of 3.4. Play the free demo to learn how merging and the cell multipliers interact, because the base game is slow and the bonus is where it pays. It suits players who already like the Merge Up mechanic and want a festive version.",
+  "demoUrl": "https://demo.bgaming-network.com/play/GiftRushMergeUp/FUN?server=demo",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/bgaming/gift-rush-merge-up.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/gift-rush-merge-up"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "addedAt": "2026-11-23",
+  "author": "editorial-team"
+}

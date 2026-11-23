@@ -3,7 +3,7 @@
   "name": "Lucky’s Wild Pub",
   "provider": "pragmatic-play",
   "rtp": 96.5,
-  "volatility": null,
+  "volatility": "high",
   "maxWin": 10000,
   "releaseDate": "2025-02-01",
   "releaseDatePrecision": "month",
@@ -53,5 +53,6 @@
   "updatedAt": "2026-11-12",
   "author": "editorial-team",
   "addedAt": "2026-11-09",
-  "maxWinSource": "third-party"
+  "maxWinSource": "third-party",
+  "volatilitySource": "third-party"
 }

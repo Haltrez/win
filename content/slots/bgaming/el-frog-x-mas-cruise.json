@@ -1,0 +1,59 @@
+{
+  "slug": "el-frog-x-mas-cruise",
+  "name": "El Frog X-Mas Cruise",
+  "provider": "bgaming",
+  "rtp": 96.14,
+  "volatility": "very-high",
+  "maxWin": 5624,
+  "releaseDate": "2026-11-23",
+  "releaseDatePrecision": "day",
+  "winType": "25 paylines",
+  "hitRate": 2.39,
+  "bonusRate": 182.0,
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "free-spins",
+    "money-collect",
+    "jackpot"
+  ],
+  "themes": [
+    "music",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Cruise Spins",
+      "description": "Three scatters award 10 free spins with high-value symbols, with 10 more available."
+    },
+    {
+      "name": "Rock and Win",
+      "description": "Six or more coins trigger six respins with locked coins, collect symbols and a 5,000x Mega Jackpot."
+    },
+    {
+      "name": "Christmas countdown",
+      "description": "A 365 Days Until Christmas counter ticks down each spin ahead of the next bonus."
+    }
+  ],
+  "review": "El Frog X-Mas Cruise brings BGaming's singing frog back after five years, this time in a Santa suit on a luxury liner under the northern lights. It's a 25-payline slot with live-recorded vocals in the bonus rounds and a 365 Days Until Christmas counter that ticks down with every spin. BGaming lists a 96.14% RTP, very high volatility, a 2.39 hit rate and a 5,624x maximum win.\n\nThere are two main attractions. Three scatters on reels one, three and five award 10 Cruise Spins with high-value symbols and the chance to collect 10 more. Six or more coins start Rock and Win, six respins where coins lock in place, collect symbols add up coin values and the Mega Jackpot is worth 5,000x. Play the free demo to hear the frog's songs; this is a hold and win slot for players who liked the original El Frog or want a festive game with a bit of personality.",
+  "demoUrl": "https://demo.bgaming-network.com/play/ElFrogXmasCruise/FUN?server=demo",
+  "pros": [
+    "Solid 5,624x win ceiling",
+    "Second route to big wins via respins or jackpots",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/bgaming/el-frog-x-mas-cruise.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/el-frog-x-mas-cruise"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "addedAt": "2026-11-23",
+  "author": "editorial-team"
+}

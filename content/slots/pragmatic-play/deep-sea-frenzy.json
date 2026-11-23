@@ -1,0 +1,53 @@
+{
+  "slug": "deep-sea-frenzy",
+  "name": "Deep Sea Frenzy",
+  "provider": "pragmatic-play",
+  "rtp": 96.52,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2026-09-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Eight-symbol trigger",
+      "description": "Eight or more shark money symbols plus a collector on one spin pay their multiplied total and start the bonus."
+    },
+    {
+      "name": "Progressive money values",
+      "description": "During free spins money symbol values climb from 1x on the first spin to 200x by the twelfth."
+    },
+    {
+      "name": "+1 Spin collector",
+      "description": "A special collect symbol adds one free spin whenever it lands, in the trigger or during the feature."
+    }
+  ],
+  "review": "Deep Sea Frenzy is a Pragmatic Play slot where shark money symbols on reels one to four carry values of up to 200x and collect symbols on reel five arrive with multipliers of up to 5x. When eight or more money symbols land on the same spin as a collector, their combined value is multiplied and paid, and the bonus game starts with five free spins. A +1 Spin collect symbol adds a spin whenever it lands.\n\nThe free spins are short but escalating: money symbol values are progressive, starting at 1x on the first spin and rising to 200x by the twelfth, and each collect symbol pays the value of every money symbol on that spin. Try the free demo to feel how the count of money symbols drives everything. It suits players who like money-collect slots with a clear build-up rather than random multipliers.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs50frenzy&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.52% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/deep-sea-frenzy.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/deep-sea-frenzy/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "addedAt": "2026-11-23",
+  "author": "editorial-team"
+}

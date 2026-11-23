@@ -1,0 +1,54 @@
+{
+  "slug": "25-coins-x3000",
+  "name": "25 Coins x3000",
+  "provider": "wazdan",
+  "rtp": 96.19,
+  "volatility": "high",
+  "maxWin": 3000,
+  "releaseDate": "2026-10-01",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "respins",
+    "money-collect",
+    "jackpot"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Hold the Jackpot",
+      "description": "Each new symbol resets the respins; fill all 25 positions for the 3000x Grand Jackpot."
+    },
+    {
+      "name": "Sticky to Infinity",
+      "description": "Mystery and Jackpot Mystery symbols lock in the base game and stay until the bonus ends."
+    },
+    {
+      "name": "Cluster Collector",
+      "description": "Collects adjacent Cash and Cash Infinity values over up to five spins and pays the total when the bonus ends."
+    }
+  ],
+  "review": "25 Coins x3000 is a Wazdan slot that strips the base game down to one goal: filling a 25-position grid in the Hold the Jackpot bonus. Every new symbol in the bonus resets the respins, and filling all 25 positions pays the 3000x Grand Jackpot, with Mini, Minor and Major jackpots landing along the way. Wazdan lists a 96.19% RTP, high volatility and a 3,000x maximum win.\n\nThree features feed the round. Sticky to Infinity Mystery and Jackpot Mystery symbols land in the base game and stay locked until the bonus ends, Cash Infinity symbols stick with a 5x to 10x value paid at the end, and the Cluster Collector gathers adjacent cash values across up to five spins. Wazdan's demo only runs on its own site, so the free demo link opens there. It suits players who like hold and win slots and want the whole game to be the bonus.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/25-coins-x3000",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/25-coins-x3000.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/25-coins-x3000"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "addedAt": "2026-11-23",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "30-coins-grand-gold-edition",
+  "name": "30 Coins Grand Gold Edition",
+  "provider": "wazdan",
+  "rtp": 96.2,
+  "volatility": "very-high",
+  "maxWin": 2500,
+  "releaseDate": "2025-05-28",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "respins",
+    "money-collect",
+    "jackpot",
+    "ante-bet"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Hold the Jackpot",
+      "description": "The bonus round where locked symbols build toward a Grand Jackpot of up to 2500x."
+    },
+    {
+      "name": "Collect to Infinity",
+      "description": "A Cluster Collector modifier that keeps the collector active until the end of the next bonus round."
+    },
+    {
+      "name": "Chance Level",
+      "description": "Three bet multiplication options that change how likely the bonus is to trigger."
+    }
+  ],
+  "review": "30 Coins Grand Gold Edition is a Wazdan slot that reworks the popular 30 Coins formula with a higher top prize and new modifiers. The Hold the Jackpot bonus offers up to 2500x, Wazdan lists a 96.2% RTP and very high volatility, and the Chance Level mechanic lets you pick one of three bet multiplication options to raise the odds of reaching the bonus.\n\nThe Cluster Collector returns, gathering values from adjacent symbols, and this edition adds modifier symbols for it: Collect to Infinity upgrades a collector so it stays active until the end of the next bonus round. Sticky to Infinity keeps Mystery and Jackpot Mystery symbols on the reels until the next bonus ends, and Cash Infinity pushes toward the bonus every spin. The free demo opens on Wazdan's own site. It suits players who know the Coins series and want the version with the most moving parts.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/30-coins-grand-gold-edition",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/30-coins-grand-gold-edition.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/30-coins-grand-gold-edition"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "addedAt": "2026-11-23",
+  "author": "editorial-team"
+}

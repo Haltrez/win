@@ -1,0 +1,56 @@
+{
+  "slug": "eastern-fury",
+  "name": "Eastern Fury",
+  "provider": "pragmatic-play",
+  "rtp": 96.53,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2026-08-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "sticky-wilds",
+    "multipliers",
+    "respins",
+    "free-spins"
+  ],
+  "themes": [
+    "asian",
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Expanding multiplier wilds",
+      "description": "Wilds on reel five fill the reel and carry a multiplier between 2x and 100x."
+    },
+    {
+      "name": "Respin chain",
+      "description": "Without a win the wild stays, a respin follows and another wild lands on the adjacent reel until a win is made."
+    },
+    {
+      "name": "Super Free Spins",
+      "description": "A super scatter in the triggering combination raises the minimum wild multiplier to 10x for the feature."
+    }
+  ],
+  "review": "Eastern Fury is a Pragmatic Play slot set among rival gangs on a 5x5 grid, where three or more matching symbols from left to right pay instantly. The feature is the expanding wild on reel five: it covers the whole reel and takes one of two competing multiplier values from 2x to 100x. If no win follows in the base game, the wild and its multiplier stay put, a respin is awarded and another expanding wild lands on the next reel, continuing right to left until a win hits with all the multipliers added together.\n\nThree to five scatters trigger 10 to 20 free spins, where expanded wilds are sticky and land in order from right to left. A super scatter in the trigger awards Super Free Spins with a minimum multiplier of 10x. Try the free demo to see the respin chain in action; it's a high-tension slot for players who like watching multipliers stack across the reels.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs15eastfury&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.53% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/eastern-fury.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/eastern-fury/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "addedAt": "2026-11-23",
+  "author": "editorial-team"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "marlin-masters-og",
+  "name": "Marlin Masters OG",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.25,
+  "rtpVariants": [
+    94.23,
+    92.27
+  ],
+  "volatility": "medium",
+  "maxWin": 7500,
+  "releaseDate": "2026-07-28",
+  "releaseDatePrecision": "day",
+  "winType": "Paylines",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "multipliers",
+    "free-spins"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Lootlines",
+      "description": "Three or more Marlin symbols in a payline combination pay the combined cash values they carry."
+    },
+    {
+      "name": "Fisherman multipliers",
+      "description": "Fisherman symbols collect all Marlins and can apply a multiplier of up to x20 to the total."
+    },
+    {
+      "name": "Three bonus games",
+      "description": "Three, four or five free spins symbols award Reel It In, Off The Hook or the hidden Plenty Of Fish In The Sea bonus."
+    }
+  ],
+  "review": "Marlin Masters OG is a 5-reel, 3-row Hacksaw Gaming slot built on the Lootlines mechanic, with a 96.25% RTP, medium volatility (3 out of 5) and a 7,500x maximum win. Marlin symbols carry cash values of up to 1,000x, and a Lootline forms when three or more of them land in a winning payline combination, paying the sum of their values. Fisherman symbols collect every Marlin on the grid and can land with multipliers of up to x20 applied to the total.\n\nThree free spins symbols award Reel It In, ten free spins with a Marlin Progress Bar and upgrade levels; four award Off The Hook, 15 free spins with a stronger bar; and five unlock the hidden Plenty Of Fish In The Sea bonus, ten spins where every Marlin is worth at least 5x and one Marlin and one Fisherman land on every spin. Play the free demo to see how the bar upgrades; it's a fishing slot with more structure than most.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2378/{version}/index.html?language=en&channel=desktop&gameid=2378&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "Solid 7,500x win ceiling",
+    "Lower volatility suits longer, steadier sessions",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 92.27% RTP",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/marlin-masters-og.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/marlin-masters-og"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "addedAt": "2026-11-23",
+  "author": "editorial-team"
+}

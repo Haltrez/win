@@ -3,7 +3,7 @@
   "name": "Evil Eyes",
   "provider": "hacksaw-gaming",
   "rtp": null,
-  "volatility": null,
+  "volatility": "high",
   "maxWin": 12500,
   "releaseDate": null,
   "reels": "5x5",
@@ -48,5 +48,6 @@
   "lastVerified": "2026-11-10",
   "updatedAt": "2026-11-12",
   "author": "editorial-team",
-  "addedAt": "2026-11-09"
+  "addedAt": "2026-11-09",
+  "volatilitySource": "third-party"
 }

@@ -1,0 +1,53 @@
+{
+  "slug": "big-bass-vegas-1000",
+  "name": "Big Bass Vegas 1000",
+  "provider": "pragmatic-play",
+  "rtp": 96.53,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2026-09-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins",
+    "multipliers"
+  ],
+  "themes": [
+    "fishing"
+  ],
+  "features": [
+    {
+      "name": "Two fisherman colours",
+      "description": "Red and blue fisherman wilds collect fish money symbols separately, each with its own retrigger count."
+    },
+    {
+      "name": "Multiplier retriggers",
+      "description": "Four wilds of one colour award ten extra free spins and raise the multiplier to 2x, 3x and finally 10x."
+    },
+    {
+      "name": "Bazooka, dynamite and hook",
+      "description": "Special features transform symbols into fish money symbols or pull additional fishermen onto the reels."
+    }
+  ],
+  "review": "Big Bass Vegas 1000 sends Pragmatic Play's fisherman to the Las Vegas Strip in a slot that keeps the series' collect mechanics and adds a few new tools. Three, four or five scatters trigger 15, 20 or 25 free spins, and when only two land there is a chance a third gets reeled onto the grid. Fish money symbols carry values of up to 1,000x.\n\nIn the free spins, red and blue fisherman wilds each collect every fish on the grid. Every fourth wild of the same colour awards ten more spins and raises the multiplier from 2x to 3x and then 10x on the third retrigger. Bazooka and dynamite features turn symbols into fish money symbols, and a hook can pull extra fishermen onto the screen. Play the free demo to see how the two colours work in parallel; it's a bonus-driven slot for Big Bass fans who want more going on during the feature.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10bbveg1000&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.53% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/big-bass-vegas-1000.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/big-bass-vegas-1000/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "addedAt": "2026-11-23",
+  "author": "editorial-team"
+}
