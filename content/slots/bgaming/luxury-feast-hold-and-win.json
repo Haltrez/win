@@ -1,0 +1,56 @@
+{
+  "slug": "luxury-feast-hold-and-win",
+  "name": "Luxury Feast Hold and Win",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium",
+  "maxWin": 5000,
+  "releaseDate": null,
+  "winType": "60 paylines",
+  "hitRate": 6.76,
+  "bonusRate": 117.97,
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins",
+    "multipliers",
+    "jackpot"
+  ],
+  "themes": [
+    "food"
+  ],
+  "features": [
+    {
+      "name": "Hold and Win Feature Game",
+      "description": "Six or more Bells start respins where Bells lock in and new ones keep the round going."
+    },
+    {
+      "name": "Cell multipliers",
+      "description": "Bells landing on cells with pre-assigned multipliers increase the prize."
+    },
+    {
+      "name": "Milestone Mystery symbols",
+      "description": "Reaching 10, 15 and 20 Bells awards Mystery symbols that reveal Mini, Minor, Major or Grand prizes."
+    }
+  ],
+  "review": "Luxury Feast Hold and Win is a Thanksgiving-themed BGaming slot built for social casinos, with golden visuals, a laid table and a hold and win bonus. It runs on 60 paylines at medium volatility, with BGaming listing a 97% RTP, a 6.76 hit rate and a 5,000x maximum win. The base game is simple spinning of sweet, tart and savoury treats until six or more Bell symbols land.\n\nThe Bells open the Hold and Win Feature Game, where you keep collecting golden Bells until the reels are full or the respins run out. Bells landing in cells with pre-assigned multipliers lift the prize, a Progress Bar grows with every Bell, and milestones at 10, 15 and 20 Bells award Mystery symbols that reveal one of five rewards, including the Mini (x10), Minor (x25), Major (x100) and Grand (x500) prizes. Try the free demo first; it's a gentle slot for players who like steady hold and win rounds over big swings.",
+  "demoUrl": "https://demo.bgaming-network.com/play/LuxuryFeastHoldAndWin/FUN?server=demo",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Solid 5,000x win ceiling",
+    "Lower volatility suits longer, steadier sessions"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/bgaming/luxury-feast-hold-and-win.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/luxury-feast-hold-and-win"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "addedAt": "2026-11-23",
+  "author": "editorial-team"
+}

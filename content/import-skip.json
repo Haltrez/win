@@ -20,6 +20,10 @@
    "checked": "2026-11-10",
    "reason": "not a slot (Casual)"
   },
+  "black-friday-madness": {
+   "checked": "2026-11-23",
+   "reason": "already on site (name match)"
+  },
   "bonanza-billion-xmas": {
    "checked": "2026-11-10",
    "reason": "already on site (same official demo)"
@@ -32,12 +36,24 @@
    "checked": "2026-11-10",
    "reason": "not a slot (Casual)"
   },
+  "divine-queen-heart-of-ice-2": {
+   "checked": "2026-11-23",
+   "reason": "already on site (same official demo)"
+  },
+  "elements-of-power": {
+   "checked": "2026-11-23",
+   "reason": "not a slot (Casual)"
+  },
   "fishing-club": {
    "checked": "2026-11-10",
    "reason": "not a slot (Casual)"
   },
   "fishing-club-2": {
    "checked": "2026-11-10",
+   "reason": "not a slot (Casual)"
+  },
+  "fishing-time": {
+   "checked": "2026-11-23",
    "reason": "not a slot (Casual)"
   },
   "fortune-red-packets": {
@@ -48,9 +64,17 @@
    "checked": "2026-11-10",
    "reason": "already on site (same official demo)"
   },
+  "gift-rush-merge-up": {
+   "checked": "2026-11-23",
+   "reason": "already on site (name match)"
+  },
   "gold-rush-with-johnny-cash": {
    "checked": "2026-11-10",
    "reason": "already on site (name match)"
+  },
+  "golden-paw-hold-win": {
+   "checked": "2026-11-23",
+   "reason": "already on site (same official demo)"
   },
   "heads-and-tails-xy": {
    "checked": "2026-11-10",
@@ -88,6 +112,10 @@
    "checked": "2026-11-10",
    "reason": "already on site (same official demo)"
   },
+  "luxury-feast-hold-and-win": {
+   "checked": "2026-11-23",
+   "reason": "already on site (name match)"
+  },
   "merge-up-tm": {
    "checked": "2026-11-10",
    "reason": "already on site (same official demo)"
@@ -108,6 +136,10 @@
    "checked": "2026-11-10",
    "reason": "not a slot (Casual)"
   },
+  "penalty-duel-with-julio-cesar": {
+   "checked": "2026-11-23",
+   "reason": "not a slot (Casual)"
+  },
   "plinko-2": {
    "checked": "2026-11-10",
    "reason": "not a slot (Casual)"
@@ -115,6 +147,10 @@
   "royal-beellion-hold-win": {
    "checked": "2026-11-10",
    "reason": "already on site (same official demo)"
+  },
+  "royal-roulette-500x": {
+   "checked": "2026-11-23",
+   "reason": "not a slot (Roulette)"
   },
   "savage-buffalo-spirit-megaways-tm": {
    "checked": "2026-11-10",
@@ -130,6 +166,10 @@
   },
   "totally-hot-2": {
    "checked": "2026-11-10",
+   "reason": "already on site (same official demo)"
+  },
+  "wild-moon-thieves-x-mas": {
+   "checked": "2026-11-23",
    "reason": "already on site (same official demo)"
   },
   "witchcraft-riches": {
@@ -189,6 +229,10 @@
   "fighter-pit": {
    "checked": "2026-11-10",
    "reason": "no official max win published"
+  },
+  "le-bandit-hold-%26-win": {
+   "checked": "2026-11-23",
+   "reason": "already on site (same official demo)"
   }
  },
  "nolimit-city": {
@@ -260,6 +304,10 @@
   },
   "jewels-of-ra": {
    "checked": "2026-11-10",
+   "reason": "no demo symbol (not a slot or not released)"
+  },
+  "xmas-guardians-megaways": {
+   "checked": "2026-11-23",
    "reason": "no demo symbol (not a slot or not released)"
   }
  },

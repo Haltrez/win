@@ -1,0 +1,54 @@
+{
+  "slug": "helios-triple-sun",
+  "name": "Helios – Triple Sun",
+  "provider": "pragmatic-play",
+  "rtp": 96.46,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2026-08-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "scatter-pays",
+    "tumble",
+    "multipliers",
+    "free-spins",
+    "progressive-multiplier",
+    "grid-expansion"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Three sun scatters",
+      "description": "Each coloured scatter is collected by its own pot and can trigger the eight-spin bonus."
+    },
+    {
+      "name": "Feature modifiers",
+      "description": "Random multipliers, extra grid positions or a progressive tumble multiplier, depending on which sun triggered the bonus."
+    },
+    {
+      "name": "Stacked modifiers",
+      "description": "Up to three modifiers can be active at the same time, with extra scatters adding more during the feature."
+    }
+  ],
+  "review": "Helios – Triple Sun is a scatter-pays slot from Pragmatic Play with tumbling reels and three coloured sun scatters, each collected by its own pot above the grid. Any of the three suns can randomly trigger the bonus game with eight free spins, and three extra spins are available during the feature. There are no paylines; wins come from matching symbols anywhere on the grid.\n\nWhat sets it apart is the modifiers. Each sun colour activates a different one for the whole feature: random multipliers, extra symbol positions on the four middle reels, or a progressive total multiplier that rises by +1x with every tumble win. Up to three modifiers can run together, and additional scatters during the feature can switch more on. Play the free demo to see which combinations come up; it's a tumble slot for players who like Gates of Olympus-style play with more variety in the bonus.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs20olympuspot&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/helios-triple-sun.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/helios-triple-sun/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "addedAt": "2026-11-23",
+  "author": "editorial-team"
+}

@@ -3,7 +3,7 @@
   "name": "Grand Patron",
   "provider": "bgaming",
   "rtp": 96.67,
-  "volatility": null,
+  "volatility": "high",
   "maxWin": 10000,
   "releaseDate": "2024-07-08",
   "releaseDatePrecision": "day",
@@ -52,5 +52,6 @@
   "lastVerified": "2026-11-09",
   "updatedAt": "2026-11-12",
   "author": "editorial-team",
-  "addedAt": "2026-11-09"
+  "addedAt": "2026-11-09",
+  "volatilitySource": "third-party"
 }

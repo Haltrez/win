@@ -1,0 +1,59 @@
+{
+  "slug": "fire-in-the-hole-4",
+  "name": "Fire In The Hole 4",
+  "provider": "nolimit-city",
+  "rtp": 96.01,
+  "volatility": "very-high",
+  "maxWin": 75000,
+  "releaseDate": "2026-11-17",
+  "releaseDatePrecision": "day",
+  "reels": "6x6",
+  "hitRate": 4.51,
+  "mechanics": [
+    "ways",
+    "cascades",
+    "multipliers",
+    "xbomb",
+    "xways",
+    "infectious-wilds",
+    "bonus-buy"
+  ],
+  "themes": [
+    "adventure"
+  ],
+  "features": [
+    {
+      "name": "Collapsing Waterfall",
+      "description": "Rows open from three to six as collapses chain, with winning symbols removed and new ones dropping in."
+    },
+    {
+      "name": "xSplit",
+      "description": "A symbol that splits every symbol in its row and column, doubling them before turning into a paying symbol."
+    },
+    {
+      "name": "Wild Mining",
+      "description": "Three to six matching symbols in a line with no win become one to four wilds and trigger a new collapse."
+    }
+  ],
+  "review": "Fire In The Hole 4 is Nolimit City's latest trip down the mine, a 6x6 slot released on 17 November 2026 with a 96.01% RTP, very high volatility, a 4.51 hit rate and a 75,000x maximum win. Each spin starts with three active rows and the Collapsing Waterfall opens an extra row with every collapse, up to six, triggered by wins, xBomb explosions or the Wild Mining feature.\n\nThe Nolimit toolkit is all here: xBomb wilds that clear their row and column and add +1 to the multiplier, xWays and Infectious xWays symbols that expand to size two to four, and the new xSplit symbol that doubles the symbols in its row and column. Wild Mining turns an alignment of three to six matching symbols into one to four wilds when there's no win. It has a bonus buy. Play the free demo before anything else; the hit rate and the 75,000x cap tell you how swingy this slot is, and it suits experienced Nolimit players only.",
+  "demoUrl": "https://demo.nolimitcdn.com/loader/game-loader.html?operator=FANPAGE_DEMO&game=FireInTheHole4&language=en&device=desktop",
+  "pros": [
+    "Very high 75,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Very high volatility – long dry spells are normal",
+    "Bonus buy is costly and banned in some markets (e.g. Great Britain)",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/nolimit-city/fire-in-the-hole-4.webp",
+  "related": [],
+  "sources": [
+    "https://nolimitcity.com/games/fire-in-the-hole-4"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "addedAt": "2026-11-23",
+  "author": "editorial-team"
+}

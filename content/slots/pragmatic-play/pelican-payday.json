@@ -1,0 +1,53 @@
+{
+  "slug": "pelican-payday",
+  "name": "Pelican Payday",
+  "provider": "pragmatic-play",
+  "rtp": 96.59,
+  "volatility": null,
+  "maxWin": null,
+  "releaseDate": "2026-09-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "money-collect",
+    "free-spins"
+  ],
+  "themes": [
+    "fishing",
+    "animals"
+  ],
+  "features": [
+    {
+      "name": "Reel-three collector",
+      "description": "In the base game a collect symbol on reel three pays the total of all money symbols that land on the same spin."
+    },
+    {
+      "name": "Prize pot free spins",
+      "description": "Eight free spins where every collect symbol adds the money symbols on screen to a persistent pot and pays its current value."
+    },
+    {
+      "name": "Retriggers",
+      "description": "More scatters during the feature award additional free spins."
+    }
+  ],
+  "review": "Pelican Payday is a Pragmatic Play fishing slot in the Big Bass mould, with a pelican doing the collecting instead of a fisherman. Money symbols land with values of up to 1,000x, and in the base game a collect symbol on reel three instantly pays the value of every money symbol that landed on the same spin. There is no multiplier ladder here, just straightforward collecting.\n\nThree scatters start eight free spins, which can be retriggered. During the feature collect symbols can land on any reel, and each one adds the value of all money symbols on screen to a pot before paying out the pot's current total, so later collects pay more than earlier ones. Try the free demo to see the pot build. It is a simpler, calmer money-collect slot than the Big Bass series, which makes it a good fit for players who find those games too feature-heavy.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10lckfshmn&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.59% RTP",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/pelican-payday.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/pelican-payday/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "addedAt": "2026-11-23",
+  "author": "editorial-team"
+}

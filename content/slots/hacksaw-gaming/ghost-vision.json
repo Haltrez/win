@@ -1,0 +1,60 @@
+{
+  "slug": "ghost-vision",
+  "name": "Ghost Vision",
+  "provider": "hacksaw-gaming",
+  "rtp": 96.0,
+  "rtpVariants": [
+    94.0,
+    92.0,
+    86.0
+  ],
+  "volatility": "high",
+  "maxWin": 10000,
+  "releaseDate": "2026-11-19",
+  "releaseDatePrecision": "day",
+  "winType": "Paylines",
+  "mechanics": [
+    "paylines",
+    "respins",
+    "free-spins",
+    "reel-modifiers"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "SwitchSpins",
+      "description": "A Ghost Vision symbol triggers a respin that replaces up to ten paying symbol types with wilds."
+    },
+    {
+      "name": "Operation Black Rain",
+      "description": "Three free spins symbols award ten free spins with a higher SwitchSpins chance."
+    },
+    {
+      "name": "Project Iron Curtain",
+      "description": "Four free spins symbols award ten free spins that collect symbols to replace progressively."
+    }
+  ],
+  "review": "Ghost Vision is a Hacksaw Gaming slot about a black-ops unit, released on 19 November 2026 with a 96% RTP, high volatility (4 out of 5) and a 10,000x maximum win. The core mechanic is SwitchSpins: a Ghost Vision symbol triggers a respin that selects up to ten paying symbol types and replaces them with wilds, and more Ghost Vision symbols can award further respins and more replacements. Fill the entire grid with wilds and you win the maximum prize.\n\nThree free spins symbols trigger Operation Black Rain, ten free spins with an increased chance of SwitchSpins, while four trigger Project Iron Curtain, ten free spins that progressively collect symbols to replace. Hacksaw also publishes 94%, 92% and 86% RTP versions, so check the setting at your casino. Try the free demo to see how fast a grid fills; it suits players who like Hacksaw's paylines games with one strong gimmick.",
+  "demoUrl": "https://static-live.hacksawgaming.com/2528/{version}/index.html?language=en&channel=desktop&gameid=2528&mode=2&token=demo&currency=EUR&partner=demo&env=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi&realmoneyenv=https%3A%2F%2Frgs-demo.hacksawgaming.com%2Fapi",
+  "pros": [
+    "High 10,000x win ceiling",
+    "Full game playable in the official free demo"
+  ],
+  "cons": [
+    "Casinos can run versions as low as 86.00% RTP",
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/hacksaw-gaming/ghost-vision.webp",
+  "related": [],
+  "sources": [
+    "https://www.hacksawgaming.com/games/ghost-vision"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "addedAt": "2026-11-23",
+  "author": "editorial-team"
+}

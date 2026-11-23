@@ -1,0 +1,56 @@
+{
+  "slug": "zeus-vs-hades-pop",
+  "name": "Zeus vs Hades POP",
+  "provider": "pragmatic-play",
+  "rtp": 96.5,
+  "volatility": null,
+  "maxWin": 25000,
+  "releaseDate": "2026-10-01",
+  "releaseDatePrecision": "month",
+  "mechanics": [
+    "paylines",
+    "expanding-wilds",
+    "sticky-wilds",
+    "multipliers",
+    "free-spins",
+    "jackpot"
+  ],
+  "themes": [
+    "mythology"
+  ],
+  "features": [
+    {
+      "name": "Expanding multiplier wilds",
+      "description": "A wild that forms part of a win expands to fill its reel and awards a random multiplier of up to 100x."
+    },
+    {
+      "name": "Sticky wild free spins",
+      "description": "Three scatters award five free spins in which every expanding wild stays on the grid until the feature ends."
+    },
+    {
+      "name": "POP jackpots",
+      "description": "POP symbols in a triggering combination pay the 50x Snap, 500x Spark or 25,000x Burst jackpot instantly."
+    }
+  ],
+  "review": "Zeus vs Hades POP is a Pragmatic Play slot that shrinks the gods of the original Zeus vs Hades game onto a 5x3 grid with a simpler feature set. Expanding wilds can land on any reel; when one is part of a win it fills the whole reel and carries a random multiplier of up to 100x. Three scatters trigger five free spins, and every expanding wild that lands during the feature stays on the grid until it ends.\n\nThe POP part is the instant jackpot: one, two or three POP symbols in a feature-triggering combination pay the 50x Snap, 500x Spark or 25,000x Burst jackpot before the free spins start, and three POP symbols together pay the 25,000x maximum win outright. Play the free demo to see how quickly the sticky wilds fill the reels in a five-spin feature. It suits players who want a short, sharp bonus rather than a long free spins round.",
+  "demoUrl": "https://demogamesfree.pragmaticplay.net/gs2c/openGame.do?gameSymbol=vs10zsvhdspp&lang=en&cur=USD&jurisdiction=99",
+  "pros": [
+    "Above-average 96.50% RTP",
+    "Very high 25,000x win ceiling",
+    "Second route to big wins via respins or jackpots"
+  ],
+  "cons": [
+    "Pragmatic Play doesn't publish a volatility rating for this game",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/pragmatic-play/zeus-vs-hades-pop.webp",
+  "related": [],
+  "sources": [
+    "https://www.pragmaticplay.com/en/games/zeus-vs-hades-pop/"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "addedAt": "2026-11-23",
+  "author": "editorial-team"
+}

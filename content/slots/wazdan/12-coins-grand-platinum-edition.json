@@ -1,0 +1,54 @@
+{
+  "slug": "12-coins-grand-platinum-edition",
+  "name": "12 Coins Grand Platinum Edition",
+  "provider": "wazdan",
+  "rtp": 96.15,
+  "volatility": "high",
+  "maxWin": 2500,
+  "releaseDate": "2024-10-31",
+  "releaseDatePrecision": "day",
+  "mechanics": [
+    "hold-and-win",
+    "respins",
+    "jackpot",
+    "ante-bet"
+  ],
+  "themes": [
+    "classic"
+  ],
+  "features": [
+    {
+      "name": "Hold the Jackpot",
+      "description": "A respin bonus where locked symbols build toward a Grand Jackpot of up to 2500x."
+    },
+    {
+      "name": "Cash Out",
+      "description": "A base-game feature that awards prizes outside the bonus round."
+    },
+    {
+      "name": "Amplified Chance Level",
+      "description": "Bet multiplication options that make the Hold the Jackpot round easier to trigger."
+    }
+  ],
+  "review": "12 Coins Grand Platinum Edition is a Wazdan slot in the Coins series with a compact grid and a Hold the Jackpot bonus paying up to 2500x. Wazdan lists a 96.15% RTP and high volatility. The Chance Level mechanic has been strengthened in this edition so the bonus round is easier to reach, and Cash Infinity symbols add value spin by spin.\n\nThe new element is Cash Out, a way to take prizes in the base game without waiting for the bonus. The Hold the Jackpot round itself works like the rest of the series: symbols lock, respins reset with each new symbol, and filling the grid pays the Grand Jackpot. Wazdan's demo runs on its own site, so the free demo link opens there. It suits players who want a shorter, smaller-grid Coins game with the same jackpot ceiling as the bigger editions.",
+  "demoUrl": null,
+  "demoLink": "https://wazdan.com/games/12-coins-grand-platinum-edition",
+  "pros": [
+    "Second route to big wins via respins or jackpots",
+    "Free demo available on the Wazdan website"
+  ],
+  "cons": [
+    "High volatility makes sessions swingy",
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/wazdan/12-coins-grand-platinum-edition.webp",
+  "related": [],
+  "sources": [
+    "https://wazdan.com/games/12-coins-grand-platinum-edition"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "addedAt": "2026-11-23",
+  "author": "editorial-team"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "black-friday-madness",
+  "name": "Black Friday Madness",
+  "provider": "bgaming",
+  "rtp": 97.0,
+  "volatility": "medium",
+  "maxWin": 5000,
+  "releaseDate": "2026-11-18",
+  "releaseDatePrecision": "day",
+  "winType": "60 paylines",
+  "hitRate": 6.75,
+  "bonusRate": 118.14,
+  "mechanics": [
+    "paylines",
+    "hold-and-win",
+    "respins"
+  ],
+  "themes": [
+    "crime"
+  ],
+  "features": [
+    {
+      "name": "Hold and Win",
+      "description": "Six or more coins start a respin round where coins lock and new ones reset the respins."
+    },
+    {
+      "name": "60 paylines",
+      "description": "A 5x4 grid with 60 fixed ways to win in the base game."
+    },
+    {
+      "name": "Medium volatility",
+      "description": "BGaming rates it medium volatility with a 6.75 hit rate and a 5,000x top prize."
+    }
+  ],
+  "review": "Black Friday Madness is a BGaming slot that turns a shopping stampede into a 5x4 game with 60 paylines and a coin-based hold and win round. The theme is the chaos around Black Friday: discounted products, fierce shoppers and plenty of loot on the shelves. BGaming calls it a social-horror slot and it follows their earlier Ultras release in tone, so the characters are deliberately exaggerated.\n\nThe numbers are easy to read: RTP 97%, medium volatility, a hit rate of 6.75 and a maximum win of 5,000x. The main feature is the coin-filled hold and win bonus, where coins lock in place and respins keep going while new coins land. Try the free demo to see the store setting; the medium volatility and simple mechanics make this a slot for players who want regular action rather than a long wait for one big round.",
+  "demoUrl": "https://demo.bgaming-network.com/play/BlackFridayMadness/FUN?server=demo",
+  "pros": [
+    "Excellent 97.00% RTP – among the highest published",
+    "Solid 5,000x win ceiling",
+    "Lower volatility suits longer, steadier sessions"
+  ],
+  "cons": [
+    "Short-session results can differ widely from the long-term average"
+  ],
+  "image": "/thumbs/bgaming/black-friday-madness.webp",
+  "related": [],
+  "sources": [
+    "https://bgaming.com/games/black-friday-madness"
+  ],
+  "verified": true,
+  "lastVerified": "2026-11-23",
+  "updatedAt": "2026-11-23",
+  "addedAt": "2026-11-23",
+  "author": "editorial-team"
+}
