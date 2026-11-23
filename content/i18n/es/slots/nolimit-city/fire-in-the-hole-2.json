@@ -1,0 +1,18 @@
+{
+ "description": "Juega la demo de Fire in the Hole 2 gratis: tragamonedas minera 6x6 con mina que se derrumba, bloques de tierra y comodines xBomb. RTP 96.07%.",
+ "review": "Fire in the Hole 2 es una tragamonedas minera 6x6, secuela de la original. Cada giro empieza con tres filas activas, y cada derrumbe abre otra, hasta seis. Los bloques de tierra esconden comodines, símbolos divididos o símbolos de bono que solo se activan cuando se despeja la tierra.\n\nLos comodines xBomb eliminan los símbolos cercanos y suben el multiplicador, y Wild Mining regresa de la original. Una acumulación lenta que puede terminar en cascadas enormes. Volatilidad desmesurada, máximo de 65,000x.",
+ "features": [
+  {
+   "name": "Mina que se derrumba",
+   "description": "Las filas se abren una a una, hasta seis."
+  },
+  {
+   "name": "Funciones enterradas",
+   "description": "Los bloques de tierra esconden comodines, divisiones y símbolos de bono."
+  },
+  {
+   "name": "Multiplicadores de comodín xBomb",
+   "description": "Eliminan los símbolos vecinos y suben el multiplicador."
+  }
+ ]
+}
