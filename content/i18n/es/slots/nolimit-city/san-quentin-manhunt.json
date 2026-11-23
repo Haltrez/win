@@ -1,0 +1,18 @@
+{
+ "description": "Juega la demo de San Quentin Manhunt gratis: tragamonedas de pagos dispersos con Multiplier Blocks que crecen en cada posición. RTP 96.15%.",
+ "review": "San Quentin Manhunt es una tragamonedas de fuga carcelaria con pagos dispersos en una cuadrícula de diamante 1-3-5-5-3-1. Siete o más símbolos iguales ganan y desaparecen, y cada posición tiene su propio Multiplier Block que crece cada vez que ese lugar forma parte de una ganancia.\n\nAsí que el centro del diamante, por donde pasan la mayoría de las ganancias, es donde los multiplicadores realmente se acumulan. Las Enhancer Cells arriba y abajo de cada rodillo giran de forma independiente. Volatilidad extrema, máximo de 46,532x.",
+ "features": [
+  {
+   "name": "Multiplier Blocks",
+   "description": "Cada posición acumula su propio multiplicador."
+  },
+  {
+   "name": "Ganancias dispersas",
+   "description": "Siete o más símbolos iguales en cualquier lugar."
+  },
+  {
+   "name": "Enhancer Cells",
+   "description": "Celdas independientes arriba y abajo de cada rodillo."
+  }
+ ]
+}
