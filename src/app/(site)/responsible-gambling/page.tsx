@@ -27,7 +27,7 @@ export default function Page() {
           <li>Gambling to win back losses.</li>
         </ul>
         <h2>Self-exclusion and blocking</h2>
-        <p>Self-exclusion schemes block you from licensed gambling sites for a period you choose. Gambling-block software (such as Gamban or BetBlocker) and bank gambling blocks add a further layer.</p>
+        <p>Self-exclusion schemes block you from licensed gambling sites for a period you choose. Gambling-block software such as <a href="https://gamban.com/" rel="noopener" target="_blank">Gamban</a> (paid, all devices) or <a href="https://betblocker.org/" rel="noopener" target="_blank">BetBlocker</a> (free) and bank gambling blocks add a further layer.</p>
         <h2>Free, confidential help</h2>
         <ul>{RG.resources.map((r) => <li key={r.url}><a href={r.url} rel="noopener" target="_blank">{r.name}</a></li>)}</ul>
         <h2>Under 18s</h2>
