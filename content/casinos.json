@@ -160,6 +160,100 @@
   }
  },
  {
+  "slug": "duel",
+  "name": "Duel",
+  "licenses": [
+   "Anjouan (Immortal Snail LLC)"
+  ],
+  "geos": [
+   "*",
+   "!US",
+   "!GB",
+   "!DE",
+   "!FR",
+   "!NL",
+   "!CW",
+   "!AU",
+   "!AT",
+   "!ES",
+   "!LT",
+   "!SK",
+   "!JO",
+   "!KW",
+   "!AE",
+   "!ME",
+   "!MU",
+   "!VE",
+   "!KM",
+   "!CU",
+   "!IR",
+   "!IQ",
+   "!KP",
+   "!SY",
+   "!YE",
+   "!CD",
+   "!LY",
+   "!SO",
+   "!MM",
+   "!SD",
+   "!SS",
+   "!ML",
+   "!CF",
+   "!PS",
+   "!AF"
+  ],
+  "links": {
+   "default": "https://duel.com/r/scatterdrop"
+  },
+  "bonus": {
+   "default": "50% instant rakeback on every slot bet – no welcome bonus by design"
+  },
+  "offer": {
+   "default": {
+    "title": "50% instant rakeback",
+    "sub": "On every slot bet, withdrawable straight away. No welcome bonus, by design."
+   }
+  },
+  "terms": "18+. Crypto only. Rakeback terms apply.",
+  "cta": "Play at Duel",
+  "providers": [
+   "pragmatic-play",
+   "hacksaw-gaming",
+   "nolimit-city",
+   "bgaming",
+   "push-gaming",
+   "relax-gaming",
+   "play-n-go",
+   "netent",
+   "thunderkick",
+   "wazdan"
+  ],
+  "rating": 0.245,
+  "pros": [
+   "50% of the house edge paid back instantly on slots",
+   "Provably fair originals with a near-zero edge",
+   "24/7 live support"
+  ],
+  "cons": [
+   "No welcome bonus at all, by design",
+   "Crypto only, no cards",
+   "Anjouan licence, a lighter regulator than MGA or UKGC",
+   "No published withdrawal timeframe"
+  ],
+  "facts": [
+   "Anjouan licence",
+   "Crypto only"
+  ],
+  "trust": {
+   "regulator": "Anjouan",
+   "payments": [
+    "Crypto"
+   ],
+   "support": "24/7 live chat",
+   "checked": "2026-11-25"
+  }
+ },
+ {
   "slug": "casinoclick",
   "name": "Casino.Click",
   "logo": "/casinos/casinoclick.svg",
