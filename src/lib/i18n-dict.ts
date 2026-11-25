@@ -122,7 +122,36 @@ const pt: Dict = {
   descTemplate: 'Jogue a demo de {name} grátis e leia nossa análise: RTP, volatilidade, ganho máximo e funções do caça-níquel da {provider}.',
 };
 
-export const DICT: Record<Locale, Dict> = { es, de, sv, pt };
+
+const tr: Dict = {
+  langName: 'Türkçe', home: 'Ana sayfa', slots: 'Slot oyunları', guides: 'Rehberler', englishSite: 'English',
+  homeTitle: 'Ücretsiz slot oyunları: demo slot oyna, kayıt yok',
+  homeH1: 'Ücretsiz slot oyunları: demo slot oyna',
+  homeIntro: 'Pragmatic Play, Hacksaw, Nolimit City, BGaming ve daha fazlasının resmi slot demolarını kayıt olmadan ve para yatırmadan ücretsiz oyna. Her oyunun RTP, volatilite ve maksimum kazanç bilgisini karşılaştır ve bonusun gerçekte nasıl çalıştığını gör.',
+  homeListH: 'Türkçe incelemeli slot oyunları',
+  kicker: 'Ücretsiz slot demo · oyna ve inceleme',
+  demo: { play: 'Demoyu ücretsiz oyna', playOn: "{provider} demosunu ücretsiz oyna", playNamed: '{name} demosunu oyna', fullscreen: '⤢ Tam ekran', exitFs: 'Tam ekrandan çık', noDemoTitle: '{provider} henüz ücretsiz demo sunmuyor', noDemoText: 'Yalnızca resmi demoları gösteriyoruz. İncelemeyi oku ya da benzer bir slotu dene.', artAlt: '{name}, {provider} slot oyunu', iframeTitle: '{provider} {name} ücretsiz demo' },
+  stats: { provider: 'Sağlayıcı', rtp: 'RTP', volatility: 'Volatilite', maxWin: 'Maks. kazanç', release: 'Çıkış tarihi', layout: 'Makara düzeni', lines: 'Kazanç çizgileri / yolları', hitRate: 'Kazanma sıklığı', hitRateVal: 'Her {n} spinde 1', bonusFreq: 'Bonus sıklığı', bonusFreqVal: 'Yaklaşık her {n} spinde 1', bonusBuy: 'Bonus satın alma', bonusBuyYes: 'Var (her pazarda değil)', no: 'Yok', allDetails: 'Tüm oyun bilgileri' },
+  vol: { low: 'Düşük', 'medium-low': 'Orta-düşük', medium: 'Orta', 'medium-high': 'Orta-yüksek', high: 'Yüksek', 'very-high': 'Çok yüksek' },
+  casino: { title: 'Gerçek parayla oynamak ister misin?', getBonus: 'Bonusu al', tc: '18+ | Şartlar geçerlidir', checking: 'Ülkende hangi casinoların açık olduğu kontrol ediliyor…', none: 'Bu bölgede casino teklifi göstermiyoruz. Tüm slotları demo modunda oynamaya devam edebilirsin.', partners: 'Ortaklarımız', disclosure: 'Ortaklık bildirimi', note: 'Bu bağlantılardan komisyon alabiliriz. Gerçek parayla oyun risk içerir.', playResponsibly: 'Sorumlu oyna', code: 'Kod', copy: '{code} promosyon kodunu kopyala', offshoreTitle: 'Uyarı', offshoreText: 'Ülkendeki yasaları kontrol et.' },
+  cta: { eyebrow: '{name} oyununu gerçek parayla oyna', at: '{casino} sitesinde', claim: 'Al', keep: 'Demoya devam et', label: 'Gerçek para teklifi', close: 'Teklifi kapat' },
+  slot: { reviewH: '{name} slot incelemesi', howToH: '{name} demosu nasıl oynanır', howTo: ['Üstteki «Demoyu ücretsiz oyna» düğmesine bas. {provider} resmi oyunu burada açılır; kayıt, indirme ve para yatırma gerekmez.', 'Sanal bir bakiyeyle başlarsın. Gerçekte oynayacağın bahis miktarını seç ki bakiyenin nasıl değiştiğini görebilesin.', 'Ana özelliği görecek kadar uzun oyna.', 'Telefonda «Tam ekran» düğmesine bas ve telefonu yan çevir.'], howToNote: '{name} demosu sağlayıcının resmi oyunudur; gerçek paralı sürümle aynı özelliklere ve ödeme tablosuna sahiptir. Yalnızca bakiye sanaldır, bu yüzden demo kazançları çekilemez.', featuresH: '{name} özellikleri', numbersH: '{name} RTP, volatilite ve maksimum kazanç', rtpText: '{name} oyununun yayımlanan RTP değeri {rtp}: uzun vadede her 100 birimlik bahisten yaklaşık {per100} birim geri döner.', rtpVersions: 'Bazı casinolar daha düşük RTP sürümleri kullanır; oyunun bilgi ekranından kontrol et.', volText: 'Volatilite: {vol}.', maxText: 'Maksimum kazanç tek bir turda bahsin {max} katıdır.', faqH: '{name} sık sorulan sorular', relatedH: 'Benzer slot oyunları', allProvider: 'Tüm {provider} slotları →', readEnglish: 'Bu incelemeyi İngilizce oku' },
+  faq: { rtpQ: '{name} RTP değeri nedir?', rtpA: '{name} oyununun yayımlanan RTP değeri {x}. Bazı casinolar daha düşük sürümler kullanır; oyunun bilgi ekranından kontrol et.', maxQ: '{name} maksimum kazancı nedir?', maxA: '{name} oyununda maksimum kazanç tek turda bahsin {x} katıdır.', volQ: '{name} volatilitesi nedir?', volA: '{provider}, {name} için {x} volatilite belirtiyor.', demoQ: '{name} demosunu ücretsiz oynayabilir miyim?', demoA: 'Evet. {name} resmi demosunu bu sayfada sanal bakiyeyle, kayıt olmadan ve para yatırmadan oynayabilirsin.', buyQ: '{name} oyununda bonus satın alma var mı?', buyYes: 'Evet, {name} izin verilen pazarlarda bonus satın alma sunar. Bonusu satın almak uzun vadeli RTP değerini artırmaz.', buyNo: 'Hayır, {name} oyununda bonus satın alma yoktur; bonus yalnızca normal spinlerle tetiklenir.' },
+  footer: { rg: 'Sorumlu oyun', age: 'Yalnızca 18 yaş ve üzeri içindir. Kumar bağımlılık yapabilir.', disclosure: 'Ortaklık bildirimi' },
+  homeFaq: [
+    { q: 'Kayıt olmadan ücretsiz slot nerede oynanır?', a: 'Tam burada: Scatter Drop üzerindeki tüm demolar sağlayıcıların resmi oyunlarıdır; sanal bakiyeyle, kayıt olmadan, indirmeden ve para yatırmadan oynanır. Telefon ve bilgisayar tarayıcısında çalışır.' },
+    { q: 'Demo slot ile gerçek slot aynı mı?', a: 'Evet. Resmi demo aynı oyundur; özellikler ve ödeme tablosu aynıdır. Yalnızca bakiye sanaldır, bu yüzden demo kazançları çekilemez.' },
+    { q: 'RTP ne demek?', a: 'Oyunun uzun vadede bahislerin yüzde kaçını geri ödediğini gösterir. Her slot için sağlayıcının yayımladığı RTP değerini, volatiliteyi ve maksimum kazancı gösteriyoruz.' },
+    { q: 'Hangi slotlarda free spin var?', a: 'Modern slotların çoğunda 3 veya 4 scatter ile tetiklenen bir free spin turu vardır. Her incelemede nasıl tetiklendiğini ve onu özel kılan şeyi anlatıyoruz.' },
+  ], listsH: 'Slot listeleri', faqTitle: 'Sık sorulan sorular',
+  offers: {},
+  titleCandidates: ['{name} demo oyna – {provider} slot, ücretsiz', '{name} demo oyna | ücretsiz slot, RTP {rtp}', '{name} demo oyna | RTP {rtp}', '{name} demo oyna'],
+  mech: { 'free-spins': 'free spin', 'bonus-buy': 'bonus satın alma', 'hold-and-win': 'hold and win', megaways: 'Megaways', and: 've', featuresWith: '{name} özellikleri: {list}' },
+  titleTemplate: '{name} demo oyna | RTP {rtp}, maks. kazanç {max}',
+  descTemplate: '{name} demosunu kayıt olmadan ücretsiz oyna ve incelemeyi oku: {provider} slotunun RTP, volatilite, maksimum kazanç ve özellikleri.',
+};
+
+export const DICT: Record<Locale, Dict> = { es, de, sv, pt, tr };
 
 /** Fill {placeholders}. */
 export function f(s: string, v: Record<string, string | number>): string {

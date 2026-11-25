@@ -7,6 +7,62 @@ import { HREFLANG, activeLocales, type Locale } from './i18n';
 export type LocalList = { slug: string; base: string; title: string; h1: string; description: string; intro: string; faq: { q: string; a: string }[] };
 
 export const LISTS: Partial<Record<Locale, LocalList[]>> = {
+  tr: [
+    { slug: 'ucretsiz-slot-oyunlari', base: 'best-slots', title: 'Ücretsiz slot oyunları: en iyi demolar, kayıt yok',
+      h1: 'Ücretsiz slot oyunları: kayıt olmadan oynayabileceğin en iyi demolar',
+      description: 'En iyi slot oyunlarını demo modunda ücretsiz oyna; kayıt ve indirme yok. RTP, volatilite ve maksimum kazancı karşılaştır.',
+      intro: 'Demo modunda ücretsiz oynayabileceğin en iyi slot oyunları: her sağlayıcının resmi oyunu, sanal bakiyeyle, kayıt olmadan, indirmeden ve para yatırmadan. Listeyi puanımıza göre sıralıyor, her oyunun yayımlanan RTP, volatilite ve maksimum kazanç değerlerini gösteriyoruz.',
+      faq: [
+        { q: 'Kayıt olmadan ücretsiz slot oynayabilir miyim?', a: 'Evet. Bu listedeki tüm demolar sanal bakiyeyle, hesap açmadan, indirmeden ve para yatırmadan oynanır.' },
+        { q: 'Ücretsiz slotlar gerçek paralı slotlarla aynı mı?', a: 'Resmi demo, gerçek paralı sürümle aynı özellikleri ve ödeme tablosunu kullanır; yalnızca bakiye sanaldır, bu yüzden kazançlar çekilemez.' },
+        { q: 'Demo oyunda gerçek para kazanılır mı?', a: 'Hayır. Demolar oyunları ücretsiz denemek içindir; demo kazançlarının gerçek bir değeri yoktur.' },
+      ] },
+    { slug: 'free-spin-slotlari', base: 'free-spins-slots', title: 'Free spin veren slot oyunları: demolar ve özellikler',
+      h1: 'Free spin veren slot oyunları',
+      description: 'Free spin turu olan slot oyunlarını demoda dene: free spinler nasıl tetiklenir, çarpanlar ve yeniden tetikleme. Her oyunun RTP ve maksimum kazancı.',
+      intro: 'Ana özelliği free spin turu olan slot oyunları. Çoğunda 3 veya 4 scatter ile tetiklenir; tur boyunca çarpanlar, sabit wild semboller veya yeniden tetiklemeler görülür. Gerçek parayla oynamadan önce her bonusu demo modunda ücretsiz dene.',
+      faq: [
+        { q: 'Slotta free spin nasıl kazanılır?', a: 'Genellikle aynı spinde 3 veya 4 scatter sembolüyle. Bazı oyunlar her ek scatter için daha fazla spin verir ve çoğunda tur yeniden tetiklenebilir.' },
+        { q: 'Demodaki free spinler gerçek oyunla aynı mı?', a: 'Evet, resmi demo aynı kuralları kullanır; tek fark bakiyenin sanal olmasıdır.' },
+      ] },
+    { slug: 'bonus-satin-alma-slotlari', base: 'bonus-buy-slots', title: 'Bonus satın alma (bonus buy) slotları: ücretsiz demo',
+      h1: 'Bonus satın alma (bonus buy) slot oyunları',
+      description: 'Bonus satın alma özelliği olan slotları demoda ücretsiz dene: bonus ne kadara satın alınır, ne değişir, ne değişmez. RTP ve maksimum kazanç.',
+      intro: 'Bu slotlarda sabit bir ücret (genellikle bahsin 80–100 katı) ödeyerek doğrudan bonusa geçebilirsin. Resmi demoların çoğunda bonus satın almayı sanal bakiyeyle deneyip satın alınan bonusun gerçekte ne ödediğini görebilirsin. Bonusu satın almak kazanma şansını artırmaz ve bazı ülkelerde bu özellik yoktur.',
+      faq: [
+        { q: 'Slotta bonus satın alma nedir?', a: 'Bonusun tetiklenmesini beklemek yerine bahsin bir katı kadar sabit ücret ödeyip bonusu hemen başlatma seçeneğidir.' },
+        { q: 'Bonus satın almak şansı artırır mı?', a: 'Hayır. Fiyat, ortalama bonusun yaklaşık aynı değerde olacağı şekilde hesaplanır; değişen şey hız ve dalgalanmadır.' },
+      ] },
+    { slug: 'yuksek-rtp-slotlar', base: 'high-rtp-slots', title: 'Yüksek RTP slotlar (%96,5 ve üzeri): ücretsiz demo',
+      h1: 'Yüksek RTP slot oyunları (%96,5 ve üzeri)',
+      description: 'Yayımlanan RTP değeri en yüksek (%96,5 ve üzeri) slot oyunları, ücretsiz demoyla. RTP ne demektir ve casinonun sürümünü neden kontrol etmelisin.',
+      intro: 'Yayımlanan en yüksek RTP değeri %96,5 veya daha fazla olan slotlar. RTP, oyunun çok sayıda spin boyunca bahislerin ne kadarını geri ödediğini gösterir. Casinolar aynı oyunun daha düşük RTP sürümlerini kullanabilir; oynamadan önce her zaman oyunun bilgi ekranını kontrol et.',
+      faq: [
+        { q: 'Yüksek RTP ne anlama gelir?', a: 'Oyunun uzun vadede bahislerin daha büyük bir kısmını geri ödediği anlamına gelir. Tek bir oturumda her şey olabilir; RTP binlerce spin boyunca geçerlidir.' },
+        { q: 'RTP casinoya göre değişir mi?', a: 'Evet. Bazı sağlayıcılar aynı oyunun birkaç RTP sürümünü sunar. Yayımlanan en yüksek değeri gösteriyoruz; casinodaki oyunun bilgi ekranından kontrol et.' },
+      ] },
+    { slug: 'megaways-slotlar', base: 'megaways-slots', title: 'Megaways slot oyunları: ücretsiz demolar',
+      h1: 'Megaways slot oyunları',
+      description: 'Megaways slotlarını ücretsiz demoda oyna: her spinde değişen makaralar, 117.649 kazanç yoluna kadar. Her oyunun RTP ve maksimum kazancı.',
+      intro: 'Megaways slotlarında her makaradaki sembol sayısı spinden spine değişir, bu yüzden kazanç yolu sayısı da değişir: en yaygın sürümde 117.649 yola kadar. Çoğunda kademeli kazançlar ve artan çarpanlarla free spinler vardır. Her Megaways oyununu demoda ücretsiz dene.',
+      faq: [
+        { q: 'Megaways nedir?', a: 'Big Time Gaming tarafından geliştirilen, her spinde makara yüksekliğinin değiştiği bir mekanik. Kazanç yolu sayısı, her makaradaki sembol sayısının çarpımına eşittir.' },
+      ] },
+    { slug: 'hold-and-win-slotlar', base: 'hold-and-win-slots', title: 'Hold and Win slot oyunları: ücretsiz demolar',
+      h1: 'Hold and Win slot oyunları',
+      description: 'Hold and Win slotlarını ücretsiz demoda dene: para sembolleri, yeniden spinler ve sabit jackpotlar. Her oyunun RTP ve maksimum kazancı.',
+      intro: 'Hold and Win (tut ve kazan) slotlarında genellikle 6 para sembolü bir bonus turu başlatır: toplanan semboller yerinde kalır, boş alanlar üç yeniden spinle doldurulur ve tur sonunda tüm değerler toplanır. Sabit jackpotlar genellikle bu turda kazanılır. Her bonusu demoda ücretsiz dene.',
+      faq: [
+        { q: 'Hold and Win nasıl çalışır?', a: 'Genellikle 6 para sembolü turu tetikler. Düşen semboller yerinde kalır, her yeni sembol sayacı sıfırlar; üç boş spin sonra tüm değerler toplanıp ödenir.' },
+      ] },
+    { slug: 'dusuk-volatilite-slotlar', base: 'low-volatility-slots', title: 'Düşük volatilite slotlar: sık kazandıran demolar',
+      h1: 'Düşük volatilite slot oyunları',
+      description: 'Düşük volatiliteli slotları ücretsiz demoda oyna: daha sık ama daha küçük kazançlar, uzun oturumlar için ideal. Her oyunun RTP ve maksimum kazancı.',
+      intro: 'Sağlayıcının düşük veya orta-düşük volatilite belirttiği slotlar: kazançlar daha sık gelir ama genellikle daha küçüktür, bu yüzden bakiye daha yavaş hareket eder. Uzun oturumlar ve küçük bahisler için uygundur. Her oyunu demoda ücretsiz dene.',
+      faq: [
+        { q: 'Düşük volatilite slot ne demek?', a: 'Kazançların sık ama küçük geldiği bir slot. Yüksek volatiliteli bir slot daha az ama daha büyük öder. RTP aynı olabilir; değişen şey dağılımdır.' },
+      ] },
+  ],
   es: [
     { slug: 'tragamonedas-gratis', base: 'best-slots', title: 'Tragamonedas gratis: las mejores demos sin registro',
       h1: 'Tragamonedas gratis: las mejores demos para jugar sin registro',

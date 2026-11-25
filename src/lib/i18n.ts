@@ -7,12 +7,15 @@ import fs from 'node:fs';
 import path from 'node:path';
 import type { Slot } from './types';
 
-export const LOCALES = ['es', 'pt', 'de', 'sv'] as const;
+export const LOCALES = ['es', 'pt', 'de', 'sv', 'tr'] as const;
 export type Locale = (typeof LOCALES)[number];
 export const isLocale = (x: string): x is Locale => (LOCALES as readonly string[]).includes(x);
 
 /** hreflang codes: Spanish targets Spain and Latin America, so it stays language-only. */
-export const HREFLANG: Record<Locale, string> = { es: 'es', pt: 'pt-BR', de: 'de', sv: 'sv' };
+export const HREFLANG: Record<Locale, string> = { es: 'es', pt: 'pt-BR', de: 'de', sv: 'sv', tr: 'tr' };
+
+/** Demo-only languages: no casino offers, no real-money pop-up (gambling advertising is banned in Türkiye). */
+export const DEMO_ONLY: readonly Locale[] = ['tr'];
 
 /** Countries where our current (Curaçao-licensed) partners are offshore operators: show the offshore warning there. */
 export const OFFSHORE_WARNING_COUNTRIES: string[] = []; // notice switched off by the owner (Nov 2026)

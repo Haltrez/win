@@ -1,0 +1,14 @@
+{
+  "description": "Fire Joker demosunu ücretsiz oyna: 5 çizgili 3x3 klasik meyve slotu, Respin of Fire ve 10x'e kadar çarpan çarkı. Play'n GO, orta volatilite, 800x maks. kazanç, %96,15 RTP.",
+  "review": "Beş çizgili ve iki basit özellikli kompakt bir 3x3 klasik. Modern dalgalı oyunlarla yarışmaya çalışmıyor; hızlı, dertsiz bir meyve slotu ve telefonda harika.\n\nRespin of Fire, iki makara kazanç olmadan aynı sembolle dolduğunda devreye girer ve son makara için ikinci bir şans verir. Izgarayı tek sembolle doldurursan Çarpan Çarkı 2x ile 10x arasında döner. Orta volatilite, düşük bir 800x tavan. Temelleri öğrenmek için mükemmel. Demoyu burada ücretsiz oyna.",
+  "features": [
+    {
+      "name": "Respin of Fire",
+      "description": "İki makara aynı sembolle doluyken kazanç oluşmazsa üçüncü makara yeniden döner."
+    },
+    {
+      "name": "Çarpan Çarkı",
+      "description": "Tek sembolle dolu ekran 10x'e kadar bir çarpan çarkını tetikler."
+    }
+  ]
+}

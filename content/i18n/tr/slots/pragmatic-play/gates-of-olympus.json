@@ -1,0 +1,22 @@
+{
+  "description": "Gates of Olympus demosunu ücretsiz oyna: Zeus'un her yerde ödeyen kademe slotu, 500x'e kadar çarpan küreleri ve 15 free spin. Pragmatic Play, çok yüksek volatilite, 5.000x maks., %96,5 RTP.",
+  "review": "Her yerde ödeyen kademeleri ünlü yapan Zeus oyunu. Kazanç çizgisi yok: 6x5 ızgarada herhangi bir yerdeki sekiz veya daha fazla eş sembol öder ve yeni kazanç oluşmayana kadar kademeler devam eder.\n\nHer şey çarpan kürelerine bağlı. Ana oyunda yalnızca o anki kademeyi artırırlar, bu yüzden spinlerin çoğu küçük ya da boştur. Free spinlerde ise çarpan toplamı birikmeye devam eder; büyük sonuçlar oradan gelir. Uzun sessiz dönemler bekle: çok yüksek volatilite, 5.000x maks. kazanç, %96,5 RTP. Demoyu burada ücretsiz oyna.",
+  "features": [
+    {
+      "name": "Kademe",
+      "description": "Kazanan semboller kaldırılır, yenileri düşer; tek ödenen spinden birkaç kazanç çıkabilir."
+    },
+    {
+      "name": "Çarpan küreleri",
+      "description": "Zeus 2x–500x değerinde küreler düşürür. Ana oyunda düştükleri kademe dizisine uygulanır."
+    },
+    {
+      "name": "Free spinler",
+      "description": "4+ scatter 15 free spin verir. Düşen her çarpan, turun geri kalanındaki tüm kazançlara uygulanan toplama eklenir."
+    },
+    {
+      "name": "Ante bahis / bonus satın alma",
+      "description": "Ante bahis, scatter şansını ikiye katlamak için bahsi %25 artırır; bonus satın alma izin verilen yerlerde 100x'e mal olur."
+    }
+  ]
+}

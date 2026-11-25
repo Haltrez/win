@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   const { lang, list } = await params;
   const d = load(lang, list);
   if (!d) return {};
-  return buildMetadata({ title: [d.l.title], absoluteTitle: true, description: d.l.description, path: `/${d.lang}/${d.l.slug}`, languages: listLanguages(d.l.base), ogLocale: { es: 'es_ES', pt: 'pt_BR', de: 'de_DE', sv: 'sv_SE' }[d.lang] });
+  return buildMetadata({ title: [d.l.title], absoluteTitle: true, description: d.l.description, path: `/${d.lang}/${d.l.slug}`, languages: listLanguages(d.l.base), ogLocale: { es: 'es_ES', pt: 'pt_BR', de: 'de_DE', sv: 'sv_SE', tr: 'tr_TR' }[d.lang] });
 }
 
 export default async function LocalList({ params }: { params: Promise<Params> }) {

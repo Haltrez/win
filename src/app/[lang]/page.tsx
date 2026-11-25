@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   return buildMetadata({
     title: [t.homeTitle], absoluteTitle: true, description: t.homeIntro, path: `/${lang}`,
     languages: { en: '/', 'x-default': '/', ...Object.fromEntries(activeLocales().map((l) => [HREFLANG[l], `/${l}`])) },
-    ogLocale: { es: 'es_ES', pt: 'pt_BR', de: 'de_DE', sv: 'sv_SE' }[lang],
+    ogLocale: { es: 'es_ES', pt: 'pt_BR', de: 'de_DE', sv: 'sv_SE', tr: 'tr_TR' }[lang],
   });
 }
 
