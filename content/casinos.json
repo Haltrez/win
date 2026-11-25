@@ -258,6 +258,19 @@
   "facts": [
    "Free to play",
    "No purchase necessary"
+  ],
+  "trust": {
+   "payout": "Prizes paid within 10 days",
+   "payments": [
+    "Cards",
+    "Bank transfer for redemptions"
+   ],
+   "support": "24/7 live chat and phone",
+   "checked": "2026-11-25"
+  },
+  "cons": [
+   "Minimum redemption $100",
+   "Not available in CA, CT, ID, MI, MT, NJ, NY, NV, TN, WA"
   ]
  },
  {
@@ -339,7 +352,12 @@
   "facts": [
    "MGA licence",
    "Launched June 2026"
-  ]
+  ],
+  "trust": {
+   "regulator": "MGA",
+   "since": 2026,
+   "checked": "2026-11-25"
+  }
  },
  {
   "slug": "freespin",
@@ -460,6 +478,19 @@
   "facts": [
    "Free to play",
    "No purchase necessary"
+  ],
+  "trust": {
+   "payout": "Prizes paid within 10 days",
+   "payments": [
+    "Cards",
+    "Bank transfer for redemptions"
+   ],
+   "support": "24/7 live chat and phone",
+   "checked": "2026-11-25"
+  },
+  "cons": [
+   "Minimum redemption $100",
+   "Not available in CA, CT, ID, MI, MT, NJ, NY, NV, TN, WA"
   ]
  },
  {
@@ -519,6 +550,21 @@
   "facts": [
    "Crypto casino",
    "Instant crypto deposits"
+  ],
+  "trust": {
+   "regulator": "Anjouan",
+   "payout": "Payout time not published",
+   "payments": [
+    "Crypto",
+    "Cards via MoonPay"
+   ],
+   "support": "In-site chat, replies within 12 h",
+   "checked": "2026-11-25"
+  },
+  "cons": [
+   "No published withdrawal timeframe",
+   "Support is chat-first with AI triage",
+   "Daily withdrawal limit $10,000 until you reach a VIP tier"
   ]
  },
  {
@@ -685,6 +731,26 @@
   "facts": [
    "Curaçao licence",
    "Crypto & cards"
+  ],
+  "trust": {
+   "regulator": "Curaçao",
+   "since": 2014,
+   "payout": "Crypto payouts in ~3 min",
+   "payments": [
+    "Crypto",
+    "Visa",
+    "Mastercard",
+    "Bank transfer"
+   ],
+   "support": "24/7 live chat",
+   "wagering": "40x bonus",
+   "minDeposit": "0.0002 BTC for the bonus",
+   "checked": "2026-11-25"
+  },
+  "cons": [
+   "Bank withdrawals take 3–10 days",
+   "Max bet $5 while a bonus is active",
+   "Very large wins can be paid in monthly instalments"
   ]
  },
  {
@@ -811,6 +877,26 @@
   "facts": [
    "Crypto & cards",
    "Fast sign-up"
+  ],
+  "trust": {
+   "regulator": "Curaçao",
+   "payout": "Payouts under 10 min",
+   "payments": [
+    "Crypto",
+    "Visa",
+    "Mastercard",
+    "Skrill",
+    "Neteller",
+    "Interac"
+   ],
+   "support": "24/7 live chat",
+   "wagering": "40x bonus",
+   "checked": "2026-11-25"
+  },
+  "cons": [
+   "Bank withdrawals take 3–10 days",
+   "Max bet $10 while a bonus is active",
+   "Current welcome deal is cashback rather than a deposit match"
   ]
  },
  {
@@ -1083,6 +1169,27 @@
   "facts": [
    "Curaçao licence",
    "Crypto & cards"
+  ],
+  "trust": {
+   "regulator": "Curaçao",
+   "since": 2014,
+   "payout": "Instant crypto payouts",
+   "payments": [
+    "Crypto",
+    "Visa",
+    "Skrill",
+    "Neteller",
+    "Paysafecard"
+   ],
+   "support": "24/7 live chat",
+   "wagering": "35x bonus",
+   "minDeposit": "0.16 mBTC",
+   "maxCashout": "0.16 BTC per week",
+   "checked": "2026-11-25"
+  },
+  "cons": [
+   "Withdrawal cap of 0.16 BTC a week and 0.64 BTC a month",
+   "Max bet 16 µBTC per spin on the welcome package"
   ]
  },
  {
@@ -1351,6 +1458,28 @@
   "facts": [
    "Curaçao licence",
    "Crypto & cards"
+  ],
+  "trust": {
+   "regulator": "Tobique",
+   "payout": "Crypto instant, cards 3–5 days",
+   "payments": [
+    "Crypto",
+    "Visa",
+    "Mastercard",
+    "Skrill",
+    "Neteller",
+    "Interac"
+   ],
+   "support": "24/7 live chat",
+   "wagering": "40x bonus",
+   "minDeposit": "€10",
+   "maxCashout": "€10,000 per week",
+   "checked": "2026-11-25"
+  },
+  "cons": [
+   "Withdrawal cap of €10,000 a week",
+   "Free spins wins carry 45x wagering",
+   "Cards and bank transfers take 3–7 days"
   ]
  },
  {

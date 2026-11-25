@@ -73,7 +73,7 @@ export function CasinoModuleClient({ casinos, title, context, slotName, t }: { c
                 </div>
                 <p className="casino-offer">{o.title}</p>
                 {o.sub ? <p className="casino-offer-sub">{o.sub}</p> : null}
-                {c.trust ? <ul className="casino-trust">{trustPills(c.trust).map((p) => <li key={p}>{p}</li>)}</ul> : c.facts?.length ? <p className="casino-facts">{c.facts.join(' · ')}</p> : null}
+                {c.trust ? <ul className="casino-trust">{trustPills(c.trust).map((p) => <li key={p} className={p.startsWith('+') ? 'pos' : undefined}>{p.replace(/^\+/, '')}</li>)}</ul> : c.facts?.length ? <p className="casino-facts">{c.facts.join(' · ')}</p> : null}
                 {c.promoCode ? <PromoCode code={c.promoCode} label={L.code} copyLabel={L.copy} /> : null}
                 <a className="btn btn-primary casino-get" href={`/go/${c.slug}?src=${encodeURIComponent(context)}&pos=${i + 1}`} rel="sponsored nofollow noopener" target="_blank" data-event="affiliate_click">
                   {c.cta ?? L.getBonus}

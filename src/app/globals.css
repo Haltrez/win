@@ -766,7 +766,7 @@ h1 { letter-spacing: -.03em; }
 /* Casino trust strip + "what we checked" */
 .casino-trust { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 6px; margin: 2px 0 8px; padding: 0; }
 .casino-trust li { font-size: .7rem; line-height: 1.2; padding: 3px 8px; border-radius: 999px; background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.1); color: #c9d2df; }
-.casino-trust li:first-child { color: #9ad8a0; border-color: rgba(120,220,140,.35); }
+.casino-trust li.pos { color: #9ad8a0; border-color: rgba(120,220,140,.35); }
 .casino-checked { width: 100%; margin-top: 6px; text-align: left; font-size: .78rem; color: #b7c0cf; }
 .casino-checked summary { cursor: pointer; text-align: center; color: #8f9bb0; font-size: .74rem; list-style: none; }
 .casino-checked summary::after { content: ' ▾'; }
