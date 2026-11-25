@@ -11,7 +11,13 @@ export const organization = () => ({
   '@id': `${SITE.url}/#organization`,
   name: SITE.name,
   url: SITE.url,
-  logo: `${SITE.url}/icon.svg`,
+  logo: `${SITE.url}/brand/scatterdrop-mark.png`,
+  email: SITE.contacts.hello,
+  contactPoint: [
+    { '@type': 'ContactPoint', contactType: 'partnerships', email: SITE.contacts.partners },
+    { '@type': 'ContactPoint', contactType: 'press', email: SITE.contacts.press },
+    { '@type': 'ContactPoint', contactType: 'customer support', email: SITE.contacts.hello },
+  ],
 });
 
 export const website = () => ({

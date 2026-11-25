@@ -14,6 +14,7 @@ export default function Page() {
         <h1>About {SITE.name}</h1>
         <p>{SITE.name} is an independent slot information site. We publish free official demos and honest, data-led reviews so players can understand a game – its RTP, volatility, max win and features – before deciding whether it suits them.</p>
         <p>We are not a casino and do not take bets. See our <Link href="/how-we-review">editorial policy</Link>.</p>
+        <p>Contact: <a href={`mailto:${SITE.contacts.hello}`}>{SITE.contacts.hello}</a> · partnerships <a href={`mailto:${SITE.contacts.partners}`}>{SITE.contacts.partners}</a> · press <a href={`mailto:${SITE.contacts.press}`}>{SITE.contacts.press}</a></p>
         <h2>Our team</h2>
         {getAuthors().map((a) => (<div key={a.slug}><h3>{a.name}</h3><p className="muted">{a.role}</p><p>{a.bio}</p></div>))}
       </article>

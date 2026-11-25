@@ -30,6 +30,7 @@ export function GET() {
     `- Coverage as of ${today}: ${slots.length} slots; ${withVol} with a volatility rating; ${withMax} with a max win figure. Many slots have several RTP versions; the page lists all of them.`,
     `- Full dataset (CSV, free to cite): ${u('/slot-database.csv')} – page: ${u('/slot-database')}`,
     `- Editorial policy: ${u('/how-we-review')} · About: ${u('/about')}`,
+    `- Contact: ${SITE.contacts.press} (press and data), ${SITE.contacts.partners} (partnerships), ${SITE.contacts.hello} (corrections)`,
     `- Preferred citation: "${SITE.name}, ${SITE.url}" with a link to the slot's page.`,
     '',
     '## Key pages',

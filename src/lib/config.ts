@@ -23,6 +23,8 @@ export const SITE = {
   noindex: process.env.NEXT_PUBLIC_NOINDEX === '1',
   /** Minimum slots before a category page is indexable (thin-content guard). */
   minCategorySize: 6,
+  /** Role addresses on the domain (Namecheap Private Email aliases). Never a personal address. */
+  contacts: { partners: 'partners@scatterdrop.com', press: 'press@scatterdrop.com', hello: 'hello@scatterdrop.com' },
   /** Year used in "best X slots [year]" titles. Computed at build time. */
   year: new Date().getFullYear(),
 } as const;

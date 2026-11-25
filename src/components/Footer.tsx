@@ -57,6 +57,7 @@ export function Footer() {
               <li><Link href="/privacy">Privacy &amp; cookies</Link></li>
               <li><Link href="/terms">Terms</Link></li>
               <li><Link href="/contact">Contact</Link></li>
+              <li><a href={`mailto:${SITE.contacts.partners}`}>{SITE.contacts.partners}</a></li>
             </ul>
           </div>
         </div>
