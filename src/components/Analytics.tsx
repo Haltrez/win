@@ -4,13 +4,17 @@ import { Analytics as VercelAnalytics } from '@vercel/analytics/next';
 import { track as vercelTrack } from '@vercel/analytics';
 import { useReportWebVitals } from 'next/web-vitals';
 import { useEffect } from 'react';
+import { SITE } from '@/lib/config';
+import { ConsentBar } from './ConsentBar';
 
 declare global {
   interface Window { plausible?: (e: string, o?: { props?: Record<string, string> }) => void; gtag?: (...a: unknown[]) => void }
 }
 
 const PLAUSIBLE = process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN;
-const GA = process.env.NEXT_PUBLIC_GA4_ID;
+const GA = SITE.ga4;
+/** EEA, UK and Switzerland: analytics cookies only after consent. Elsewhere GA runs by default. */
+const CONSENT_COUNTRIES = 'AT,BE,BG,HR,CY,CZ,DK,EE,FI,FR,DE,GR,HU,IE,IT,LV,LT,LU,MT,NL,PL,PT,RO,SK,SI,ES,SE,IS,LI,NO,GB,CH';
 
 export function track(event: string, props: Record<string, string> = {}) {
   // Vercel custom events (Pro plan): affiliate clicks broken down by casino and placement, next to visitor numbers.
@@ -51,7 +55,13 @@ export function Analytics() {
       {GA ? (
         <>
           <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA}`} strategy="afterInteractive" />
-          <Script id="ga4" strategy="afterInteractive">{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}window.gtag=gtag;gtag('js',new Date());gtag('config','${GA}',{anonymize_ip:true});`}</Script>
+          <Script id="ga4" strategy="afterInteractive">{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}window.gtag=gtag;
+var cc=(document.cookie.match(/(?:^|; )geo=([^;]+)/)||[])[1]||'';cc=decodeURIComponent(cc).split('-')[0];
+var need='${CONSENT_COUNTRIES}'.split(',').indexOf(cc)>-1||!cc;var choice=null;try{choice=localStorage.getItem('ga_consent')}catch(e){}
+var ok=choice==='granted'||(!need&&choice!=='denied');
+gtag('consent','default',{analytics_storage:ok?'granted':'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});
+gtag('js',new Date());gtag('config','${GA}',{anonymize_ip:true});`}</Script>
+          <ConsentBar countries={CONSENT_COUNTRIES} />
         </>
       ) : null}
     </>
