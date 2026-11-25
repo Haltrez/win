@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { DemoCta, isCtaTest, type CtaCasino, type CtaLabels } from './DemoCta';
 import { rememberSlot } from './RecentSlots';
+import { track } from './Analytics';
 
 /**
  * Click-to-load facade for official provider demos. The iframe (often several MB of game assets)
@@ -66,6 +67,7 @@ export function DemoEmbed({ name, url, providerName, launchPath, image, cta, ext
   }, [on]);
   const start = () => {
     remember();
+    track('demo_play', { slot: cta?.slotKey ?? name });
     const mobile = window.matchMedia('(max-width: 768px)').matches;
     // Templated URLs ({version}, {uuid}) are resolved server-side; plain official URLs load directly.
     const q = new URLSearchParams();

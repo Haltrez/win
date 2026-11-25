@@ -1,6 +1,7 @@
 'use client';
 import Script from 'next/script';
 import { Analytics as VercelAnalytics } from '@vercel/analytics/next';
+import { track as vercelTrack } from '@vercel/analytics';
 import { useReportWebVitals } from 'next/web-vitals';
 import { useEffect } from 'react';
 
@@ -12,6 +13,18 @@ const PLAUSIBLE = process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN;
 const GA = process.env.NEXT_PUBLIC_GA4_ID;
 
 export function track(event: string, props: Record<string, string> = {}) {
+  // Vercel custom events (Pro plan): affiliate clicks broken down by casino and placement, next to visitor numbers.
+  try {
+    const p: Record<string, string> = { ...props };
+    if (p.href?.startsWith('/go/')) {
+      const u = new URL(p.href, location.origin);
+      p.casino = u.pathname.split('/')[2] ?? '';
+      p.placement = u.searchParams.get('src') ?? '';
+      delete p.href;
+    }
+    for (const k of Object.keys(p)) p[k] = String(p[k]).slice(0, 200);
+    vercelTrack(event, p);
+  } catch { /* analytics must never break a click */ }
   window.plausible?.(event, { props });
   window.gtag?.('event', event, props);
 }
