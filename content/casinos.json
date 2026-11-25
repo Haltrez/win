@@ -237,8 +237,7 @@
   "cons": [
    "No welcome bonus at all, by design",
    "Crypto only, no cards",
-   "Anjouan licence, a lighter regulator than MGA or UKGC",
-   "No published withdrawal timeframe"
+   "Anjouan licence, a lighter regulator than MGA or UKGC"
   ],
   "facts": [
    "Anjouan licence",
@@ -250,8 +249,10 @@
     "Crypto"
    ],
    "support": "24/7 live chat",
-   "checked": "2026-11-25"
-  }
+   "checked": "2026-11-25",
+   "payout": "Crypto payouts under 3 min"
+  },
+  "logo": "/casinos/duel.webp"
  },
  {
   "slug": "casinoclick",
