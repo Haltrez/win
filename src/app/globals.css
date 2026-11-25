@@ -762,3 +762,19 @@ h1 { letter-spacing: -.03em; }
 .way:hover { border-color: var(--brand); transform: translateY(-1px); text-decoration: none; }
 .way-k { font: 700 .7rem/1 var(--font-display, var(--font)); letter-spacing: .1em; text-transform: uppercase; color: var(--brand-text, var(--brand)); }
 .way strong { font-family: var(--font-display, var(--font)); font-size: 1.05rem; line-height: 1.25; }
+
+/* Casino trust strip + "what we checked" */
+.casino-trust { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 6px; margin: 2px 0 8px; padding: 0; }
+.casino-trust li { font-size: .7rem; line-height: 1.2; padding: 3px 8px; border-radius: 999px; background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.1); color: #c9d2df; }
+.casino-trust li:first-child { color: #9ad8a0; border-color: rgba(120,220,140,.35); }
+.casino-checked { width: 100%; margin-top: 6px; text-align: left; font-size: .78rem; color: #b7c0cf; }
+.casino-checked summary { cursor: pointer; text-align: center; color: #8f9bb0; font-size: .74rem; list-style: none; }
+.casino-checked summary::after { content: ' ▾'; }
+.casino-checked[open] summary::after { content: ' ▴'; }
+.casino-checked p { margin: 6px 0 0; line-height: 1.4; }
+.casino-checked a { color: inherit; text-decoration: underline; }
+.dcp-trust { font-size: .78rem; color: rgba(255,255,255,.7); margin-top: 2px; }
+.dcp-trust a { color: inherit; }
+.casino-reviews { display: grid; gap: 14px; margin: 12px 0 24px; }
+.casino-review { padding: 16px 18px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); scroll-margin-top: 80px; }
+.casino-review h3 { margin: 0 0 8px; }

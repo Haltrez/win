@@ -3,8 +3,10 @@ import { useEffect, useRef, useState } from 'react';
 import { track } from './Analytics';
 import { FEATURES } from '@/lib/config';
 import { geoAllowed, geoExcluded } from '@/lib/geo-match';
+import type { TrustFacts } from '@/lib/types';
+import { trustLine } from '@/lib/trust';
 
-export type CtaCasino = { slug: string; name: string; geos: string[]; bonus: Record<string, string>; terms: string; cta?: string; sweeps?: boolean; logo?: string; logoLight?: boolean; badge?: string; offer?: Record<string, { title: string; sub?: string }> };
+export type CtaCasino = { slug: string; name: string; geos: string[]; bonus: Record<string, string>; terms: string; cta?: string; sweeps?: boolean; logo?: string; logoLight?: boolean; badge?: string; offer?: Record<string, { title: string; sub?: string }>; trust?: TrustFacts };
 
 const FIRST_AFTER = 90; // seconds of visible demo play before the first prompt
 const EVERY = 90;        // seconds of visible play between prompts
@@ -30,8 +32,8 @@ function readGeo(): string | null {
  * Never on page load.
  * "Keep playing", the ✕, a click on the backdrop or Esc closes the current prompt only. Only casinos licensed for the visitor's country (geo cookie) are offered; unknown country = no prompt.
  */
-export type CtaLabels = { eyebrow: string; at: string; claim: string; keep: string; label: string; close: string; playResponsibly: string };
-const CTA_EN: CtaLabels = { eyebrow: 'Play {name} for real', at: 'at {casino}', claim: 'Claim now', keep: 'Keep playing the demo', label: 'Real-money offer', close: 'Close offer', playResponsibly: 'Play responsibly' };
+export type CtaLabels = { eyebrow: string; at: string; claim: string; keep: string; label: string; close: string; playResponsibly: string; why?: string };
+const CTA_EN: CtaLabels = { eyebrow: 'Play {name} for real', at: 'at {casino}', claim: 'Claim now', keep: 'Keep playing the demo', label: 'Real-money offer', close: 'Close offer', playResponsibly: 'Play responsibly', why: 'Why we list it' };
 
 export function DemoCta({ casinos, slotName, slotKey, t }: { casinos: CtaCasino[]; slotName: string; slotKey: string; t?: Partial<CtaLabels> }) {
   const L = { ...CTA_EN, ...t };
@@ -100,6 +102,7 @@ export function DemoCta({ casinos, slotName, slotKey, t }: { casinos: CtaCasino[
         ) : <strong className="dcp-name">{c.name}</strong>}
         <strong className="dcp-bonus">{offer ? offer.title : bonus}</strong>
         {offer?.sub ? <span className="dcp-sub">{offer.sub}</span> : null}
+        {c.trust ? <span className="dcp-trust">{trustLine(c.trust)} · <a href={`/casinos#${c.slug}`} target="_blank" rel="noopener">{L.why}</a></span> : null}
         <a className="btn btn-primary dcp-go" {...(c.slug === 'example' ? { href: '#', onClick: (e: React.MouseEvent) => e.preventDefault() } : { href: `/go/${c.slug}?src=demo-cta&slot=${encodeURIComponent(slotKey)}`, target: '_blank', 'data-event': 'affiliate_click' })} rel="sponsored nofollow noopener">
           {c.cta ?? L.claim}
         </a>

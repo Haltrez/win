@@ -3,9 +3,10 @@ import { useEffect, useState } from 'react';
 import type { Casino } from '@/lib/types';
 import { FEATURES } from '@/lib/config';
 import { geoAllowed, geoExcluded } from '@/lib/geo-match';
+import { trustPills } from '@/lib/trust';
 
 /** Interface text; localised pages pass their own (see lib/i18n-dict.ts). */
-export type CasinoLabels = { title?: string; getBonus: string; tc: string; checking: string; none: string; partners: string; disclosure: string; note: string; playResponsibly: string; code: string; copy: string; offshoreTitle: string; offshoreText: string; noPartner?: string; showAll?: string };
+export type CasinoLabels = { title?: string; getBonus: string; tc: string; checking: string; none: string; partners: string; disclosure: string; note: string; playResponsibly: string; code: string; copy: string; offshoreTitle: string; offshoreText: string; noPartner?: string; showAll?: string; checked?: string; pros?: string; cons?: string; method?: string; checkedOn?: string };
 const EN: CasinoLabels = {
   getBonus: 'Claim bonus', tc: '18+ | T&Cs apply', checking: 'Checking which casinos are available in your country…',
   none: "None of our casino partners accept players from your location, so we don't show offers here. You can still play every slot in free demo mode.",
@@ -15,6 +16,7 @@ const EN: CasinoLabels = {
   offshoreTitle: 'Notice: offshore casinos',
   offshoreText: "The casinos shown here are offshore operators licensed in Curaçao. They are not licensed in your country. Check your local law before playing. If you have self-excluded through a national scheme (such as Spelpaus, OASIS, RGIAJ or BetStop), these casinos do not check it – please don't play.",
   noPartner: "We don't have a licensed partner casino carrying this game yet. You can still play it in free demo mode on this page.",
+  checked: 'What we checked', pros: 'Good', cons: 'Watch out for', method: 'How we rate casinos', checkedOn: 'Facts checked {date} on the operator\'s site and the regulator\'s register.',
 };
 /** Visitors from these countries see the offshore notice (our partners are not licensed there). */
 // Switched off by the owner (Nov 2026). To show the notice again, list countries, e.g. ['ES', 'DE', 'SE', 'GR', 'CY'].
@@ -71,12 +73,21 @@ export function CasinoModuleClient({ casinos, title, context, slotName, t }: { c
                 </div>
                 <p className="casino-offer">{o.title}</p>
                 {o.sub ? <p className="casino-offer-sub">{o.sub}</p> : null}
-                {c.facts?.length ? <p className="casino-facts">{c.facts.join(' · ')}</p> : null}
+                {c.trust ? <ul className="casino-trust">{trustPills(c.trust).map((p) => <li key={p}>{p}</li>)}</ul> : c.facts?.length ? <p className="casino-facts">{c.facts.join(' · ')}</p> : null}
                 {c.promoCode ? <PromoCode code={c.promoCode} label={L.code} copyLabel={L.copy} /> : null}
                 <a className="btn btn-primary casino-get" href={`/go/${c.slug}?src=${encodeURIComponent(context)}&pos=${i + 1}`} rel="sponsored nofollow noopener" target="_blank" data-event="affiliate_click">
                   {c.cta ?? L.getBonus}
                 </a>
                 <p className="casino-tc">{L.tc}</p>
+                {c.trust || c.cons?.length ? (
+                  <details className="casino-checked">
+                    <summary>{L.checked}</summary>
+                    {c.pros?.length ? <p><strong>{L.pros}:</strong> {c.pros.join(' · ')}</p> : null}
+                    {c.cons?.length ? <p><strong>{L.cons}:</strong> {c.cons.join(' · ')}</p> : null}
+                    {c.trust?.minDeposit || c.trust?.maxCashout ? <p>{[c.trust.minDeposit ? `Min deposit ${c.trust.minDeposit}` : '', c.trust.maxCashout ? `Max bonus cashout ${c.trust.maxCashout}` : ''].filter(Boolean).join(' · ')}</p> : null}
+                    <p className="small">{c.trust?.checked ? (L.checkedOn ?? '').replace('{date}', c.trust.checked) + ' ' : ''}<a href="/how-we-review">{L.method}</a></p>
+                  </details>
+                ) : null}
               </li>
             );
           })}

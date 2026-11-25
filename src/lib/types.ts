@@ -125,7 +125,30 @@ export interface Casino {
   /** Our own score out of 10; 0 = not rated yet (hidden). */
   rating: number;
   pros: string[];
+  /** Honest drawbacks, shown under "What we checked". Keep them factual. */
+  cons?: string[];
+  /** Verified facts from the operator's own site or the regulator's register – shown as a trust strip. */
+  trust?: TrustFacts;
   placeholder?: boolean;
+}
+
+export interface TrustFacts {
+  /** Regulator short name, e.g. "MGA", "Curaçao (CGA)", "Anjouan". */
+  regulator?: string;
+  /** Licence number as published. */
+  licenceNo?: string;
+  /** Year the casino launched. */
+  since?: number;
+  /** Withdrawal time as stated by the operator, e.g. "Crypto within 1 hour". */
+  payout?: string;
+  payments?: string[];
+  support?: string;
+  /** Welcome bonus wagering as stated in the bonus terms, e.g. "40x bonus". */
+  wagering?: string;
+  minDeposit?: string;
+  maxCashout?: string;
+  /** ISO date we last checked these facts. */
+  checked?: string;
 }
 
 export interface Author {
