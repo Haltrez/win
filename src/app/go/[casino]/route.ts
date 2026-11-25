@@ -4,6 +4,7 @@ import { getCasino } from '@/lib/data';
 import { FEATURES } from '@/lib/config';
 import { geoAllowed, geoExcluded } from '@/lib/geo-match';
 import { blockedCommands, gateClick } from '@/lib/bot-gate';
+import { CLICK_COOKIE, clickTokenValid } from '@/lib/click-token';
 
 /**
  * Affiliate redirect: /go/[casino]?src=slot:gates-of-olympus&pos=1
@@ -24,7 +25,20 @@ function countryOf(req: NextRequest) {
   ).toUpperCase();
 }
 
-export async function GET(req: NextRequest, { params }: { params: Promise<{ casino: string }> }) {
+function interstitial(name: string, path: string): NextResponse {
+  const esc = (x: string) => x.replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch] as string));
+  const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Continue to ${esc(name)}</title>
+<style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#0d1117;color:#e6edf3;font:16px/1.5 system-ui,sans-serif}main{max-width:420px;padding:32px;text-align:center}h1{font-size:22px;margin:0 0 8px}p{color:#9aa4b2;margin:0 0 20px}button{font:inherit;font-weight:700;padding:14px 28px;border:0;border-radius:10px;background:#f5c518;color:#1a1400;cursor:pointer}small{display:block;margin-top:16px;color:#6b7684}</style></head>
+<body><main><h1>Continue to ${esc(name)}</h1><p>You are leaving Scatter Drop for a partner casino. 18+ only. Please gamble responsibly.</p>
+<form method="post" action="${esc(path)}"><button type="submit">Continue to ${esc(name)}</button></form><small><a href="/" style="color:#6b7684">Back to Scatter Drop</a></small></main></body></html>`;
+  return new NextResponse(html, { status: 200, headers: { 'Content-Type': 'text/html; charset=utf-8', 'X-Robots-Tag': 'noindex, nofollow', 'Cache-Control': 'no-store' } });
+}
+
+export async function GET(req: NextRequest, ctx: { params: Promise<{ casino: string }> }) { return handle(req, ctx, false); }
+/** The interstitial's Continue button posts back here: a form submission is a deliberate human action. */
+export async function POST(req: NextRequest, ctx: { params: Promise<{ casino: string }> }) { return handle(req, ctx, true); }
+
+async function handle(req: NextRequest, { params }: { params: Promise<{ casino: string }> }, confirmed: boolean) {
   if (!FEATURES.realMoney) return new NextResponse('Not found', { status: 404 });
   const { casino: slug } = await params;
   const c = getCasino(slug);
@@ -35,6 +49,12 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ casi
   if (!gate.ok) {
     if (redisConfigured()) after(() => redisPipeline(blockedCommands(gate.reason, c.slug)).catch(() => {}));
     return new NextResponse(gate.status === 429 ? 'Too many requests' : 'Forbidden', { status: gate.status, headers: { 'X-Robots-Tag': 'noindex, nofollow', 'Cache-Control': 'no-store' } });
+  }
+  // No human-click signal (set by the page when a person presses the link): show a one-button confirm page
+  // instead of forwarding. Harvested links and headless crawlers stop here; a real visitor clicks once more.
+  if (!confirmed && !clickTokenValid(req.cookies.get(CLICK_COOKIE)?.value)) {
+    if (redisConfigured()) after(() => redisPipeline(blockedCommands('no-click', c.slug)).catch(() => {}));
+    return interstitial(c.name, req.nextUrl.pathname + req.nextUrl.search);
   }
 
   const country = countryOf(req);

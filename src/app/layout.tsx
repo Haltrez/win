@@ -3,6 +3,7 @@ import './globals.css';
 import { Inter, Sora } from 'next/font/google';
 import { SITE } from '@/lib/config';
 import { AgeGate, AGE_GATE_BOOT } from '@/components/AgeGate';
+import { CLICK_TOKEN_BOOT } from '@/lib/click-token';
 import { Analytics } from '@/components/Analytics';
 import { JsonLd } from '@/components/JsonLd';
 import { organization, website } from '@/lib/schema';
@@ -26,6 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${sans.variable} ${display.variable}`} suppressHydrationWarning>
       <body>
         <script dangerouslySetInnerHTML={{ __html: AGE_GATE_BOOT }} />
+        <script dangerouslySetInnerHTML={{ __html: CLICK_TOKEN_BOOT }} />
         <link rel="alternate" type="application/rss+xml" title={`${SITE.name} – new slots and guides`} href="/feed.xml" />
         <a href="#main" className="skip">Skip to content</a>
         {children}
