@@ -153,7 +153,11 @@
   "facts": [
    "MGA licence",
    "Casino and sportsbook"
-  ]
+  ],
+  "trust": {
+   "payout": "Payouts under 5 min",
+   "checked": "2026-11-25"
+  }
  },
  {
   "slug": "casinoclick",
@@ -372,7 +376,8 @@
   "trust": {
    "regulator": "MGA",
    "since": 2026,
-   "checked": "2026-11-25"
+   "checked": "2026-11-25",
+   "payout": "Payouts under 5 min"
   }
  },
  {
@@ -569,7 +574,7 @@
   ],
   "trust": {
    "regulator": "Anjouan",
-   "payout": "Payout time not published",
+   "payout": "Crypto payouts in seconds",
    "payments": [
     "Crypto",
     "Cards via MoonPay"
@@ -578,7 +583,7 @@
    "checked": "2026-11-25"
   },
   "cons": [
-   "No published withdrawal timeframe",
+   "Withdrawals can be held for review, and no review timeframe is published",
    "Support is chat-first with AI triage",
    "Daily withdrawal limit $10,000 until you reach a VIP tier"
   ]
@@ -1766,6 +1771,11 @@
   "facts": [
    "Curaçao licence",
    "Cards & crypto"
-  ]
+  ],
+  "trust": {
+   "payout": "Payouts under 5 min",
+   "checked": "2026-11-25",
+   "regulator": "Curaçao"
+  }
  }
 ]
