@@ -55,6 +55,20 @@
   "facts": [
    "Anjouan licence",
    "Crypto accepted"
+  ],
+  "trust": {
+   "regulator": "Anjouan",
+   "since": 2023,
+   "payout": "Crypto payouts in under a minute",
+   "payments": [
+    "Crypto"
+   ],
+   "support": "24/7 live chat",
+   "checked": "2026-11-25"
+  },
+  "cons": [
+   "Anjouan licence, a lighter regulator than MGA or UKGC",
+   "Not available in the US or UK"
   ]
  },
  {
