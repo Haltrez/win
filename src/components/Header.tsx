@@ -16,7 +16,7 @@ export function Header() {
           <ul className="nav-desktop">
             {NAV.map((n) => <li key={n.href}><Link href={n.href}>{n.label}</Link></li>)}
             <li><Link href="/favorites" aria-label="Your favourite slots">♥</Link></li>
-            <li><form action="/random" method="get" className="random-form"><button type="submit" className="btn btn-primary btn-sm">Random demo</button></form></li>
+            <li><form action="/random" method="get" className="random-form"><button type="submit" className="btn btn-outline btn-sm">Random demo</button></form></li>
           </ul>
         </nav>
         <MobileNav items={[...NAV.map((n) => ({ href: n.href, label: n.label })), { href: '/favorites', label: 'Favourites' }]} />

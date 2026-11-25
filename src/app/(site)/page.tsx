@@ -11,7 +11,7 @@ import { ProviderLogo } from '@/components/ProviderLogo';
 export const metadata = buildMetadata({
   title: `Free Slots, Blackjack & Roulette: ${Math.floor(getSlots().length / 10) * 10}+ Demos (${SITE.year}) | ${SITE.name}`,
   absoluteTitle: true,
-  description: `Play ${Math.floor(getSlots().length / 10) * 10}+ official slot demos plus free blackjack, roulette, baccarat and video poker, no sign-up. RTP, max win and basic strategy for every game. 18+.`,
+  description: `Play ${getSlots().length} official slot demos plus free blackjack, roulette, baccarat and video poker, no sign-up. RTP, max win and basic strategy for every game. 18+.`,
   path: '/',
 });
 
@@ -53,8 +53,9 @@ export default function Home() {
           basic strategy and how every bonus actually works. Then, when you&apos;re ready, the casinos we trust for real play.
         </p>
         <p className="hero-cta">
-          <form action="/random" method="get" className="random-form"><button type="submit" className="btn btn-primary btn-lg"><span className="demo-play" aria-hidden /> Random demo</button></form>
-          <Link className="btn btn-ghost btn-lg" href="/tools/slot-finder">Find my slot</Link>
+          <Link className="btn btn-primary btn-lg" href="/slots"><span className="demo-play" aria-hidden /> Play {slots.length.toLocaleString()} free demos</Link>
+          <form action="/random" method="get" className="random-form"><button type="submit" className="btn btn-outline btn-lg">Random demo</button></form>
+          <Link className="btn btn-outline btn-lg" href="/tools/slot-finder">Find my slot</Link>
         </p>
         <ul className="quick" aria-label="Popular lists">
           {QUICK.map(([href, label, icon]) => <li key={href}><Link href={href}><span className="quick-ico" aria-hidden>{icon}</span>{label}</Link></li>)}
@@ -68,7 +69,7 @@ export default function Home() {
 
       <RecentSlots />
       <section className="ways" aria-label="Three ways to play">
-        <Link href="/slots" className="way"><span className="way-k">Slot demos</span><strong>{slots.length.toLocaleString()} official demos</strong><span className="muted small">Same maths as the real game, play money only.</span></Link>
+        <Link href="/slots" className="way"><span className="way-k">Slot demos</span><strong>{slots.filter((x) => x.demoUrl || x.demoLink).length.toLocaleString()} official demos, {slots.length.toLocaleString()} games</strong><span className="muted small">Same maths as the real game, play money only.</span></Link>
         <Link href="/table-games" className="way"><span className="way-k">Table games</span><strong>Blackjack, roulette, baccarat, video poker, hold&apos;em</strong><span className="muted small">Our own free tables with a &quot;show book move&quot; hint mode.</span></Link>
         <Link href="/casinos" className="way"><span className="way-k">Play for real</span><strong>Casinos we work with</strong><span className="muted small">Filtered to the ones that accept players in your country.</span></Link>
       </section>

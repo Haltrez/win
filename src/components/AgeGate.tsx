@@ -31,8 +31,8 @@ export function AgeGate() {
         <h2 id="ag-h">Are you 18 or older?</h2>
         <p>This site contains information about casino slot games. You must be 18 or over (or the legal gambling age in your country, if higher) to continue.</p>
         <div className="agegate-actions">
-          <button ref={btn} className="btn btn-primary" onClick={accept}>I am 18 or older</button>
-          <a className="btn btn-ghost" href="https://www.gamblingtherapy.org/" rel="noopener">I am under 18</a>
+          <button ref={btn} className="btn btn-outline" onClick={accept}>I am 18 or older</button>
+          <a className="btn btn-outline" href="https://www.gamblingtherapy.org/" rel="noopener">I am under 18</a>
         </div>
         <p className="muted small">Gambling can be addictive. Please play responsibly.</p>
       </div>

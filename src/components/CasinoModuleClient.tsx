@@ -21,6 +21,14 @@ const EN: CasinoLabels = {
 /** Visitors from these countries see the offshore notice (our partners are not licensed there). */
 // Switched off by the owner (Nov 2026). To show the notice again, list countries, e.g. ['ES', 'DE', 'SE', 'GR', 'CY'].
 const OFFSHORE_COUNTRIES: string[] = [];
+/** What each ribbon means – shown on hover so a badge is never mistaken for a rating. */
+const BADGE_HELP: Record<string, string> = { 'Top pick': 'Featured partner: a paid top placement, chosen from casinos we have checked', Exclusive: 'Exclusive bonus with our promo code', Popular: 'Most clicked by our visitors this month' };
+/** Button copy carries the value: "Get up to $700" beats "Claim bonus". */
+function ctaFor(title: string | undefined, fallback: string): string {
+  if (!title || !/\d/.test(title)) return fallback;
+  const t = title.replace(/^Up to/i, 'up to');
+  return `Get ${t}`;
+}
 
 function readGeo(): string | null {
   const m = document.cookie.match(/(?:^|; )geo=([^;]+)/);
@@ -64,7 +72,7 @@ export function CasinoModuleClient({ casinos, title, context, slotName, t }: { c
             const o = offerFor(c);
             return (
               <li key={c.slug} className="casino-tile">
-                {c.badge ? <span className="casino-ribbon">{c.badge}</span> : null}
+                {c.badge ? <span className="casino-ribbon" title={BADGE_HELP[c.badge] ?? c.badge}>{c.badge}</span> : null}
                 <div className={`casino-tile-logo${c.logoLight ? ' light' : ''}`}>
                   {c.logo ? (
                     // eslint-disable-next-line @next/next/no-img-element
@@ -75,8 +83,8 @@ export function CasinoModuleClient({ casinos, title, context, slotName, t }: { c
                 {o.sub ? <p className="casino-offer-sub">{o.sub}</p> : null}
                 {c.trust ? <ul className="casino-trust">{trustPills(c.trust).map((p) => <li key={p} className={p.startsWith('+') ? 'pos' : undefined}>{p.replace(/^\+/, '')}</li>)}</ul> : c.facts?.length ? <p className="casino-facts">{c.facts.join(' · ')}</p> : null}
                 {c.promoCode ? <PromoCode code={c.promoCode} label={L.code} copyLabel={L.copy} /> : null}
-                <a className="btn btn-primary casino-get" href={`/go/${c.slug}?src=${encodeURIComponent(context)}&pos=${i + 1}`} rel="sponsored nofollow noopener" target="_blank" data-event="affiliate_click">
-                  {c.cta ?? L.getBonus}
+                <a className={`btn ${i === 0 ? 'btn-primary' : 'btn-outline'} casino-get`} href={`/go/${c.slug}?src=${encodeURIComponent(context)}&pos=${i + 1}`} rel="sponsored nofollow noopener" target="_blank" data-event="affiliate_click">
+                  {c.cta ?? ctaFor(o.title, L.getBonus)}
                 </a>
                 <p className="casino-tc">{L.tc}</p>
                 {c.trust || c.cons?.length ? (

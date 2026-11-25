@@ -108,7 +108,7 @@ export function DemoCta({ casinos, slotName, slotKey, t }: { casinos: CtaCasino[
         {offer?.sub ? <span className="dcp-sub">{offer.sub}</span> : null}
         {c.trust ? <span className="dcp-trust">{trustLine(c.trust)} · <a href={`/casinos#${c.slug}`} target="_blank" rel="noopener">{L.why}</a></span> : null}
         <a className="btn btn-primary dcp-go" {...(c.slug === 'example' ? { href: '#', onClick: (e: React.MouseEvent) => e.preventDefault() } : { href: `/go/${c.slug}?src=demo-cta&slot=${encodeURIComponent(slotKey)}`, target: '_blank', 'data-event': 'affiliate_click' })} rel="sponsored nofollow noopener">
-          {c.cta ?? L.claim}
+          {c.cta ?? (offer?.title && /\d/.test(offer.title) ? `Get ${offer.title.replace(/^Up to/i, 'up to')}` : L.claim)}
         </a>
         <span className="dcp-terms">{c.terms} <a href="/responsible-gambling">{L.playResponsibly}</a></span>
       </div>
