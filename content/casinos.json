@@ -301,15 +301,20 @@
    "default": "https://go.wildzaffiliates.com/visit/?bta=1000515&nci=6056"
   },
   "bonus": {
-   "default": "New casino from the Wildz team"
+   "default": "100% deposit match up to $500",
+   "CA": "100% deposit match up to $500"
   },
   "offer": {
    "default": {
-    "title": "New casino",
-    "sub": "From the team behind Wildz – see the current welcome offer"
+    "title": "100% up to $500",
+    "sub": "Deposit match for new players"
+   },
+   "CA": {
+    "title": "100% up to $500",
+    "sub": "Deposit match for new players"
    }
   },
-  "terms": "18+. T&Cs apply.",
+  "terms": "18+. New players only. Bonus T&Cs apply.",
   "providers": [
    "pragmatic-play",
    "hacksaw-gaming",
@@ -326,14 +331,14 @@
    "elk-studios",
    "quickspin"
   ],
-  "rating": 0.21,
+  "rating": 0.27,
   "pros": [
    "Newest Wildz Group brand"
   ],
-  "cta": "Visit Beazt",
+  "cta": "Claim bonus",
   "facts": [
    "MGA licence",
-   "Launched 2026"
+   "Launched June 2026"
   ]
  },
  {
