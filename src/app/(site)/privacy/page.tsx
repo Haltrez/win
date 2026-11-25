@@ -16,7 +16,7 @@ export default function Page() {
           <li><strong>Favourites and recently viewed slots:</strong> stored only in your browser&apos;s local storage. They never leave your device.</li>
           <li><strong>Like / dislike votes:</strong> to allow one vote per slot we store a salted, one-way hash of your IP address and browser user agent with your vote. Raw IP addresses are never stored.</li>
           <li><strong>Contact form:</strong> messages you send (and the name and email you enter) are delivered to us through the form service Web3Forms and used only to reply to you.</li>
-          <li><strong>Analytics:</strong> privacy-friendly, aggregated page and click statistics. If Google Analytics is enabled it runs only after consent where required.</li>
+          <li><strong>Analytics:</strong> aggregated page and click statistics from Vercel Analytics (no cookies), and Google Analytics 4 with IP anonymisation. Google Analytics sets the cookies <code>_ga</code> and <code>_ga_*</code> (up to 2 years) only after you accept in the EEA, UK and Switzerland; elsewhere it runs by default. We do not use advertising features. Your choice is stored in this browser (<code>ga_consent</code>); clear it to see the choice again.</li>
           {FEATURES.realMoney ? <li><strong>Affiliate clicks:</strong> when you click a casino link we log the casino, page and an anonymous click ID so partners can attribute referrals. We do not pass your name or email.</li> : null}
         </ul>
         <h2>Your rights</h2>

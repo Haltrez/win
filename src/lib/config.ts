@@ -24,7 +24,7 @@ export const SITE = {
   /** Minimum slots before a category page is indexable (thin-content guard). */
   minCategorySize: 6,
   /** Google Analytics 4 measurement ID (public by design). Empty = GA off. NEXT_PUBLIC_GA4_ID overrides it. */
-  ga4: process.env.NEXT_PUBLIC_GA4_ID || '',
+  ga4: process.env.NEXT_PUBLIC_GA4_ID || 'G-3LP5Z5DEY4',
   /** Role addresses on the domain (Namecheap Private Email aliases). Never a personal address. */
   contacts: { partners: 'partners@scatterdrop.com', press: 'press@scatterdrop.com', hello: 'hello@scatterdrop.com' },
   /** Year used in "best X slots [year]" titles. Computed at build time. */
