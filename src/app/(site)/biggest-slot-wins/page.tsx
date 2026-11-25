@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { buildMetadata, abs } from '@/lib/seo';
-import { SITE } from '@/lib/config';
+import { FEATURES, SITE } from '@/lib/config';
 import { getBigWins, getClips } from '@/lib/wins';
-import { getSlot } from '@/lib/data';
+import { getSlot, getCasinosForProvider, slotUrl } from '@/lib/data';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
 import { FAQ } from '@/components/FAQ';
@@ -77,7 +77,12 @@ export default function BiggestWinsPage() {
         {clips.length ? (
           <>
             <p>Max-win videos from game studios&apos; official channels and from slot streamers, played through YouTube&apos;s own player and credited to each channel. Streamers often play with very large stakes and sometimes with money provided by a casino, so these are entertainment, not a guide to what to expect.</p>
-            <div className="clips">{clips.map((c) => <ClipCard key={c.id} clip={c} host={host} />)}</div>
+            <div className="clips">{clips.map((c) => {
+              const [prov, slug] = (c.slot ?? '/').split('/');
+              const s = c.slot ? getSlot(prov, slug) : undefined;
+              const casino = s ? getCasinosForProvider(s.provider)[0] : undefined;
+              return <ClipCard key={c.id} clip={c} host={host} slotName={s?.name} slotHref={s ? slotUrl(s) : undefined} realHref={FEATURES.realMoney && casino && s ? `/go/${casino.slug}?src=max-win-clip&slot=${encodeURIComponent(c.slot ?? '')}` : undefined} />;
+            })}</div>
           </>
         ) : (
           <p>No clips are published yet.</p>

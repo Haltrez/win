@@ -730,12 +730,11 @@ h1 { letter-spacing: -.03em; }
 .upcoming-list time { font: 700 .8rem var(--font-display, var(--font)); color: var(--brand-text, var(--brand)); min-width: 120px; }
 .upcoming-name { font-weight: 700; }
 
-/* Casino block: phones show the top 3 cards until expanded */
-.casino-more { display: none; margin: 10px auto 0; }
-@media (max-width: 640px) {
-  .casino-grid.collapsed > li:nth-child(n+4) { display: none; }
-  .casino-more { display: flex; width: fit-content; }
-}
+/* Casino block: three cards until expanded – a choice, not a list to scroll past */
+.casino-grid.collapsed > li:nth-child(n+4) { display: none; }
+.casino-more { display: flex; width: fit-content; margin: 10px auto 0; }
+.clip-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.clip-actions .btn { min-height: 40px; font-size: .9rem; }
 /* "At a glance" facts on list pages */
 .facts-box { margin: 18px 0 6px; padding: 12px 16px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); }
 .facts-box h3 { margin: 0 0 6px; font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
@@ -778,3 +777,4 @@ h1 { letter-spacing: -.03em; }
 .casino-reviews { display: grid; gap: 14px; margin: 12px 0 24px; }
 .casino-review { padding: 16px 18px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); scroll-margin-top: 80px; }
 .casino-review h3 { margin: 0 0 8px; }
+.dcp-card .dcp-eyebrow { display: block; padding: 0 52px; margin: 2px 0 2px; line-height: 1.3; }

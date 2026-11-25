@@ -32,17 +32,20 @@ function readGeo(): string | null {
  * Never on page load.
  * "Keep playing", the ✕, a click on the backdrop or Esc closes the current prompt only. Only casinos licensed for the visitor's country (geo cookie) are offered; unknown country = no prompt.
  */
-export type CtaLabels = { eyebrow: string; at: string; claim: string; keep: string; label: string; close: string; playResponsibly: string; why?: string };
-const CTA_EN: CtaLabels = { eyebrow: 'Play {name} for real', at: 'at {casino}', claim: 'Claim now', keep: 'Keep playing the demo', label: 'Real-money offer', close: 'Close offer', playResponsibly: 'Play responsibly', why: 'Why we list it' };
+export type CtaLabels = { eyebrowSwitch?: string; eyebrow: string; at: string; claim: string; keep: string; label: string; close: string; playResponsibly: string; why?: string };
+const CTA_EN: CtaLabels = { eyebrow: 'Like {name}? Play it for real', at: 'at {casino}', claim: 'Claim now', keep: 'Keep playing the demo', label: 'Real-money offer', close: 'Close offer', playResponsibly: 'Play responsibly', why: 'Why we list it', eyebrowSwitch: 'Looking for a better casino?' };
 
 export function DemoCta({ casinos, slotName, slotKey, t }: { casinos: CtaCasino[]; slotName: string; slotKey: string; t?: Partial<CtaLabels> }) {
   const L = { ...CTA_EN, ...t };
   const [casino, setCasino] = useState<{ c: CtaCasino; bonus: string; offer?: { title: string; sub?: string } } | null>(null);
   const [show, setShow] = useState(false);
+  const [intent, setIntent] = useState<'demo' | 'switch'>('demo');
   const played = useRef(0);
   const next = useRef(FIRST_AFTER);
 
   useEffect(() => {
+    // Landing page tells us why they came: casino/guide pages = looking to switch; a game page = here for the demo.
+    try { const l = sessionStorage.getItem('sdland') || ''; if (/^\/(casinos|best\/|guides\/)/.test(l) && !/^\/best\/[a-z0-9-]*slots/.test(l)) setIntent('switch'); } catch {}
     const test = isCtaTest();
     let c: CtaCasino | undefined;
     let bonus = '';
@@ -96,6 +99,7 @@ export function DemoCta({ casinos, slotName, slotKey, t }: { casinos: CtaCasino[
       <div className="dcp-card">
         <button type="button" className="dcp-x" onClick={close} aria-label={L.close}>✕</button>
         {c.badge ? <span className="dcp-ribbon">{c.badge}</span> : null}
+        {!c.sweeps ? <span className="dcp-eyebrow">{(intent === 'switch' && L.eyebrowSwitch ? L.eyebrowSwitch : L.eyebrow).replace('{name}', slotName)}</span> : null}
         {c.logo ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img className={`dcp-logo${c.logoLight ? ' light' : ''}`} src={c.logo} alt={c.name} width={200} height={60} />

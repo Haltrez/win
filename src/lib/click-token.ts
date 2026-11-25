@@ -8,7 +8,8 @@ export const CLICK_COOKIE = 'sdgo';
 /** Max age of the click signal, in seconds. A person opens the link within this window. */
 export const CLICK_MAX_AGE = 120;
 
-export const CLICK_TOKEN_BOOT = `(function(){function m(e){var a=e.target&&e.target.closest&&e.target.closest('a[href^="/go/"]');if(!a)return;if(e.isTrusted===false)return;document.cookie='${CLICK_COOKIE}='+Date.now().toString(36)+';path=/go;max-age=${CLICK_MAX_AGE};SameSite=Lax';}
+export const CLICK_TOKEN_BOOT = `(function(){try{if(!sessionStorage.getItem('sdland')){sessionStorage.setItem('sdland',location.pathname)}}catch(e){}
+function m(e){var a=e.target&&e.target.closest&&e.target.closest('a[href^="/go/"]');if(!a)return;if(e.isTrusted===false)return;document.cookie='${CLICK_COOKIE}='+Date.now().toString(36)+';path=/go;max-age=${CLICK_MAX_AGE};SameSite=Lax';}
 document.addEventListener('pointerdown',m,true);document.addEventListener('keydown',function(e){if(e.key==='Enter')m(e)},true);document.addEventListener('click',m,true);})();`;
 
 /** True when the cookie holds a timestamp younger than CLICK_MAX_AGE seconds. */
