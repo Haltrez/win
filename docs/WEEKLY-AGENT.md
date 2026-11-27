@@ -45,7 +45,13 @@ New domain: grow steadily, never in bursts. Hard ceiling for ALL new indexable p
 
 **Focus: smaller providers and less-known games** (Wazdan, Thunderkick's back catalogue, smaller BGaming titles) rather than more famous hits that every big site already covers – that's where a new site can rank.
 
-## 1. New slots (target: 20–30 per week – guides take the rest of the pace ceiling)
+## Weekly mix (owner rule, from 30 Nov 2026)
+
+Depth over breadth. Each week: **~10 new slots** (step 1), **3 guides** (step 3), **2 decision pages** (step 3f),
+**30 deepened reviews** (step 3a), ~10 Spanish pages (step 3c). New slots are the part to cut if time runs short;
+deepening the most-visited reviews comes first.
+
+## 1. New slots (target: ~10 per week – pick the best candidates, skip the rest for later weeks)
 
 ```bash
 python3 scripts/import/discover.py --max 12   # 6 providers incl. Wazdan → up to ~70 candidates
@@ -99,7 +105,7 @@ python3 scripts/import/recheck.py --per-provider 15
 ## 3. Guides: 3 per week – 2 long-tail + 1 broad (owner rule, Nov 2026)
 
 Write two topics from the "Long-tail first" section of `content/topic-queue.md` and one from "Broad topics". All three
-count towards the weekly pace ceiling, so slots fill the rest (normally 20–30). If the long-tail section runs out,
+count towards the weekly pace ceiling. If the long-tail section runs out,
 add new specific topics to it first (from Search Console queries the owner shares, "X vs Y" pairs of sequels on the
 site, and data lists only we have).
 
@@ -120,12 +126,40 @@ one; SlotsLaunch and SlotsMate share a feed). Store third-party values with `"vo
 Read individual pages only; skip any site with a bot check or 403. `scripts/apply-filled-stats.py` applies a results
 file in the format it documents.
 
-## 3a. Keyword refresh of existing reviews (20 per week)
+## 3a. Deepen the most-visited reviews (30 per week, 300–400 words each)
 
-Rewrite 20 existing slot reviews to follow the search-wording rule in step 1 (name in the first sentence, "slot",
-the free demo, provider, plain mechanic words). Keep the facts and the player voice; this is an edit, not a new page,
-so it doesn't count towards the pace ceiling. Start with the most-searched games (Pragmatic Play hits, Hacksaw "Le"
-series, Nolimit City classics), then work through the rest. Set `updatedAt` to today on each.
+Take the next 30 entries from `content/deepen-queue.md` and expand each `review` to **300–400 words**. Pages ranking
+for "[game] demo" usually carry this much; ours average ~76 words. Cover, in plain paragraphs:
+
+- what the game is: name in the first sentence, "slot", the free demo, the provider (search-wording rule, step 1);
+- how the base game and the bonus actually work: grid, pays, multipliers, how the free spins trigger and retrigger, bonus buy if any;
+- the numbers: RTP (and the lower RTP versions if the provider publishes them), volatility, max win – only stored, sourced values;
+- who it suits and who it doesn't (session length, bankroll swings), and how it compares with its sequels or siblings on the site (link them);
+- one honest downside.
+
+Facts come only from the slot's stored data and its official sources – never invent hit rates, "I played" stories or
+win anecdotes. No casino names or bonus offers inside reviews. Update `pros`/`cons` if the longer text shows they're
+thin. Set `updatedAt` to today, move the entry to "Done" in the queue file. Edits, not new pages: they don't count
+towards the pace ceiling, and they go into the IndexNow list (step 6).
+
+## 3f. Decision pages (2 per week)
+
+Guides written for people who are choosing where to play – the searches that turn into deposits. Write two per week
+from this list, top first, then add new ones to the "Decision pages" section of `content/topic-queue.md`:
+
+1. No-wagering casino bonuses explained (what "no wagering" really means, how to check the terms, traps such as max-cashout caps)
+2. Instant-withdrawal crypto casinos: how fast payouts actually work (network fees, confirmations, KYC triggers)
+3. Online slots in Canada: what's legal by province, Ontario's separate market, how to check a licence
+4. Online slots in South Africa: the legal position, payment methods, checking an operator
+5. Rakeback vs welcome bonus: which is worth more for a slot player (worked examples with stated assumptions)
+6. How to read bonus terms in 5 minutes (wagering, game weighting, max bet, max cashout, expiry)
+7. Crypto vs card deposits at casinos: fees, speed, limits
+
+Rules: same guide format and quality gate as step 3. Explain how to judge a casino – **don't name, rank or quote
+casinos or their offers in the text**; the existing casino module on the page does that from `content/casinos.json`
+(owner-controlled, never edited by this agent). Law and licensing facts only from the regulator's own site, with the
+source linked and the check date stated. Always include the responsible-gambling paragraph and link. They count
+towards the pace ceiling.
 
 ### Guide format (applies to all guides)
 
@@ -199,7 +233,7 @@ node scripts/indexnow.mjs /new /slot-database /slots/<provider>/<slug> /guides/<
 ## 7. Report
 
 End the session with a short report (it is sent to the owner's phone): published or PR (with link); new slots (name ·
-provider · RTP · max win); skipped candidates with reasons; data changes (old → new); new guides; anything that failed or
+provider · RTP · max win); skipped candidates with reasons; data changes (old → new); new guides; reviews deepened (count + names); decision pages; anything that failed or
 needs a human; 2–3 suggestions (outreach angles from new data, topic-queue ideas).
 
 ## Coverage notes

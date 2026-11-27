@@ -90,3 +90,7 @@ recommended demos). Drafts live in `content/drafts/`. Avoid publishing a topic B
 - [ ] zeus vs typhon – 590 / 13
 - [ ] lucky little devil – 880 / 9
 - [ ] classic 3 reel slots – 320 / 15
+
+## Decision pages (step 3f of docs/WEEKLY-AGENT.md)
+
+Add new decision-page topics here once the seven listed in the playbook are done.
