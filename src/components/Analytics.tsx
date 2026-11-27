@@ -33,7 +33,8 @@ export function track(event: string, props: Record<string, string> = {}) {
   window.gtag?.('event', event, props);
 }
 
-/** Vercel Web Analytics (page views, visitors, top pages) + optional Plausible/GA4 + Core Web Vitals reporting + affiliate click tracking (delegated on [data-event]). */
+/** GA's 180 KB script loads on the first scroll/tap/key or 4 s after page load (commands queue in dataLayer meanwhile), so it stays off the critical path.
+ * Vercel Web Analytics (page views, visitors, top pages) + optional Plausible/GA4 + Core Web Vitals reporting + affiliate click tracking (delegated on [data-event]). */
 export function Analytics() {
   useReportWebVitals((m) => {
     const body = JSON.stringify({ name: m.name, value: m.value, rating: m.rating, id: m.id, path: location.pathname });
@@ -54,13 +55,16 @@ export function Analytics() {
       {PLAUSIBLE ? <Script src="https://plausible.io/js/script.outbound-links.js" data-domain={PLAUSIBLE} strategy="afterInteractive" /> : null}
       {GA ? (
         <>
-          <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA}`} strategy="afterInteractive" />
           <Script id="ga4" strategy="afterInteractive">{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}window.gtag=gtag;
 var cc=(document.cookie.match(/(?:^|; )geo=([^;]+)/)||[])[1]||'';cc=decodeURIComponent(cc).split('-')[0];
 var need='${CONSENT_COUNTRIES}'.split(',').indexOf(cc)>-1||!cc;var choice=null;try{choice=localStorage.getItem('ga_consent')}catch(e){}
 var ok=choice==='granted'||(!need&&choice!=='denied');
 gtag('consent','default',{analytics_storage:ok?'granted':'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});
-gtag('js',new Date());gtag('config','${GA}',{anonymize_ip:true});`}</Script>
+gtag('js',new Date());gtag('config','${GA}',{anonymize_ip:true});
+var gaEv=['pointerdown','keydown','scroll','touchstart'];function gaLoad(){if(window.__gaLoaded)return;window.__gaLoaded=1;gaEv.forEach(function(e){removeEventListener(e,gaLoad)});
+var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=${GA}';document.head.appendChild(s)}
+gaEv.forEach(function(e){addEventListener(e,gaLoad,{passive:true})});
+function gaLater(){setTimeout(gaLoad,4000)}if(document.readyState==='complete')gaLater();else addEventListener('load',gaLater);`}</Script>
           <ConsentBar countries={CONSENT_COUNTRIES} />
         </>
       ) : null}

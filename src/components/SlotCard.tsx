@@ -10,7 +10,7 @@ export function SlotCard({ slot, rank }: { slot: Slot; rank?: number }) {
   const stats = [slot.rtp != null ? `${fmtRtp(slot.rtp)} RTP` : null, slot.maxWin ? `${slot.maxWin.toLocaleString('en-US')}x` : null].filter(Boolean);
   return (
     <article className="slot-card">
-      <Link href={slotUrl(slot)} className="slot-card-link">
+      <Link prefetch={false} href={slotUrl(slot)} className="slot-card-link">
         <div className="slot-card-media">
           <SlotThumb slot={slot} />
           {rank ? <span className="rank">#{rank}</span> : null}

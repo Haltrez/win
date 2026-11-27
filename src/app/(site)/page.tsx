@@ -32,7 +32,7 @@ const QUICK: [string, string, string][] = [
 function Section({ title, href, linkText, children }: { title: string; href: string; linkText: string; children: React.ReactNode }) {
   return (
     <section>
-      <div className="section-head"><h2>{title}</h2><Link href={href}>{linkText} →</Link></div>
+      <div className="section-head"><h2>{title}</h2><Link prefetch={false} href={href}>{linkText} →</Link></div>
       {children}
     </section>
   );
@@ -56,12 +56,12 @@ export default function Home() {
           basic strategy and how every bonus actually works. Then, when you&apos;re ready, the casinos we trust for real play.
         </p>
         <p className="hero-cta">
-          <Link className="btn btn-primary btn-lg" href="/slots"><span className="demo-play" aria-hidden /> Play {slots.length.toLocaleString()} free demos</Link>
+          <Link prefetch={false} className="btn btn-primary btn-lg" href="/slots"><span className="demo-play" aria-hidden /> Play {slots.length.toLocaleString()} free demos</Link>
           <form action="/random" method="get" className="random-form"><button type="submit" className="btn btn-outline btn-lg">Random demo</button></form>
-          <Link className="btn btn-outline btn-lg" href="/tools/slot-finder">Find my slot</Link>
+          <Link prefetch={false} className="btn btn-outline btn-lg" href="/tools/slot-finder">Find my slot</Link>
         </p>
         <ul className="quick" aria-label="Popular lists">
-          {QUICK.map(([href, label, icon]) => <li key={href}><Link href={href}><span className="quick-ico" aria-hidden>{icon}</span>{label}</Link></li>)}
+          {QUICK.map(([href, label, icon]) => <li key={href}><Link prefetch={false} href={href}><span className="quick-ico" aria-hidden>{icon}</span>{label}</Link></li>)}
         </ul>
         <dl className="stat-strip">
           <div><dt>Games</dt><dd>{slots.length.toLocaleString()}</dd></div>
@@ -72,9 +72,9 @@ export default function Home() {
 
       <RecentSlots />
       <section className="ways" aria-label="Three ways to play">
-        <Link href="/slots" className="way"><span className="way-k">Slot demos</span><strong>{slots.filter((x) => x.demoUrl || x.demoLink).length.toLocaleString()} official demos, {slots.length.toLocaleString()} games</strong><span className="muted small">Same maths as the real game, play money only.</span></Link>
-        <Link href="/table-games" className="way"><span className="way-k">Table games</span><strong>Blackjack, roulette, baccarat, video poker, hold&apos;em</strong><span className="muted small">Our own free tables with a &quot;show book move&quot; hint mode.</span></Link>
-        <Link href="/casinos" className="way"><span className="way-k">Play for real</span><strong>Casinos we work with</strong><span className="muted small">Filtered to the ones that accept players in your country.</span></Link>
+        <Link prefetch={false} href="/slots" className="way"><span className="way-k">Slot demos</span><strong>{slots.filter((x) => x.demoUrl || x.demoLink).length.toLocaleString()} official demos, {slots.length.toLocaleString()} games</strong><span className="muted small">Same maths as the real game, play money only.</span></Link>
+        <Link prefetch={false} href="/table-games" className="way"><span className="way-k">Table games</span><strong>Blackjack, roulette, baccarat, video poker, hold&apos;em</strong><span className="muted small">Our own free tables with a &quot;show book move&quot; hint mode.</span></Link>
+        <Link prefetch={false} href="/casinos" className="way"><span className="way-k">Play for real</span><strong>Casinos we work with</strong><span className="muted small">Filtered to the ones that accept players in your country.</span></Link>
       </section>
       <Section title="Top-rated slots" href="/best/best-slots" linkText="See all"><SlotRail slots={top} ranked label="Top-rated slots" /></Section>
       <CasinoModule casinos={getCasinos()} title="Top casino bonuses" context="home" />
@@ -86,7 +86,7 @@ export default function Home() {
         <ul className="logo-tiles">
           {providers.map(({ p, n }) => (
             <li key={p.slug}>
-              <Link href={`/providers/${p.slug}`} aria-label={`${p.name} – ${n} slots`}>
+              <Link prefetch={false} href={`/providers/${p.slug}`} aria-label={`${p.name} – ${n} slots`}>
                 <ProviderLogo p={p} size="md" />
                 <span className="logo-tile-meta">{p.name} <span className="count">{n}</span></span>
               </Link>
@@ -100,7 +100,7 @@ export default function Home() {
         <div className="cards-3">
           {guides.map((g) => (
             <article key={g!.slug} className="info-card">
-              <h3><Link href={`/guides/${g!.slug}`}>{g!.title}</Link></h3>
+              <h3><Link prefetch={false} href={`/guides/${g!.slug}`}>{g!.title}</Link></h3>
               <p className="muted small">{g!.description}</p>
             </article>
           ))}
