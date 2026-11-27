@@ -5,7 +5,7 @@ import { FEATURES, SITE } from '@/lib/config';
 import { getAuthor, getCasinosForProvider, getComparisons, getGuides, getProvider, getRelatedSlots, getSeries, seriesLabel, getSlot, getSlots, getSlotsByProvider, slotUrl } from '@/lib/data';
 import { getCategoriesForSlot } from '@/lib/categories';
 import { abs, buildMetadata, hasDemo, slotDescription, slotTitle } from '@/lib/seo';
-import { slotGame } from '@/lib/schema';
+import { slotGame, webPage } from '@/lib/schema';
 import { HREFLANG, localeSlotUrl, slotLanguages } from '@/lib/i18n';
 import { fmtDate, fmtRelease, fmtRtp, fmtX, VOLATILITY_LABEL, volScore } from '@/lib/format';
 import type { Slot } from '@/lib/types';
@@ -253,7 +253,7 @@ export default async function SlotPage({ params }: { params: Promise<Params> }) 
         Data sources: {(s.sources ?? []).join('; ') || 'provider game sheet'}.{' '}
         {s.verified && s.lastVerified ? `Figures last verified ${fmtDate(s.lastVerified)}.` : 'Figures pending editorial verification.'} Spotted an error? <Link href="/contact">Tell us</Link>.
       </p>
-      <JsonLd data={slotGame(s, p, author, url)} />
+      <JsonLd data={[slotGame(s, p, author, url), webPage(url, `${s.name} slot demo`, abs(`/og/${s.provider}/${s.slug}`), `${s.name} by ${p.name}`)]} />
     </>
   );
 }

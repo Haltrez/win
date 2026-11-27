@@ -5,8 +5,8 @@ import { notFound } from 'next/navigation';
 import { getCategories, getCategory, getCategorySlots, isIndexable } from '@/lib/categories';
 import { listLanguages } from '@/lib/i18n-lists';
 import { getCasinos, getGuide, getGuides, getProvider, slotUrl } from '@/lib/data';
-import { buildMetadata } from '@/lib/seo';
-import { itemList } from '@/lib/schema';
+import { buildMetadata, abs } from '@/lib/seo';
+import { itemList, webPage } from '@/lib/schema';
 import { fmtRtp, fmtX, volLabel } from '@/lib/format';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { SlotGrid } from '@/components/SlotCard';
@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<P> }) {
   const c = getCategory(category);
   if (!c) return {};
   const langs = listLanguages(c.slug);
-  return buildMetadata({ title: c.metaTitle, description: c.metaDescription, path: `/best/${c.slug}`, noindex: !isIndexable(c), ...(Object.keys(langs).length > 2 ? { languages: langs } : {}) });
+  return buildMetadata({ title: c.metaTitle, description: c.metaDescription, path: `/best/${c.slug}`, noindex: !isIndexable(c), image: abs(`/og/list/${c.slug}`), imageAlt: `${c.title}: top slots`, ...(Object.keys(langs).length > 2 ? { languages: langs } : {}) });
 }
 
 export default async function CategoryPage({ params }: { params: Promise<P> }) {
@@ -145,7 +145,7 @@ export default async function CategoryPage({ params }: { params: Promise<P> }) {
               <p className="muted small">{[s.rtp != null ? `${fmtRtp(s.rtp)} RTP` : null, s.volatility ? `${volLabel(s.volatility)} volatility` : null, s.maxWin ? `${fmtX(s.maxWin)} max win` : null].filter(Boolean).join(' · ')}</p>
             </section>
           ))}
-          <JsonLd data={itemList(c.title, top.map((s) => ({ name: s.name, path: slotUrl(s) })))} />
+          <JsonLd data={[itemList(c.title, top.map((s) => ({ name: s.name, path: slotUrl(s) }))), webPage(`/best/${c.slug}`, c.title, abs(`/og/list/${c.slug}`), `${c.title}: top slots`)]} />
         </>
       )}
 

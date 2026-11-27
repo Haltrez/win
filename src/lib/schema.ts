@@ -20,6 +20,18 @@ export const organization = () => ({
   ],
 });
 
+/** WebPage node naming the page's share image as its primary image (same URL as og:image). */
+export const webPage = (path: string, name: string, image: string, alt?: string) => ({
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': `${abs(path)}#webpage`,
+  url: abs(path),
+  name,
+  isPartOf: { '@id': `${SITE.url}/#website` },
+  primaryImageOfPage: { '@type': 'ImageObject', url: image, width: 1200, height: 630, ...(alt ? { caption: alt } : {}) },
+  image: { '@type': 'ImageObject', url: image, width: 1200, height: 630 },
+});
+
 export const website = () => ({
   '@context': 'https://schema.org',
   '@type': 'WebSite',
@@ -54,7 +66,7 @@ export const slotGame = (s: Slot, p: Provider, a: Author, url: string) => ({
   url: abs(url),
   description: `${s.name} is a ${p.name} online slot${s.rtp != null ? ` with ${s.rtp}% RTP` : ''}${s.maxWin ? `${s.rtp != null ? ' and' : ' with'} a ${fmtX(s.maxWin)} max win` : ''}.${s.demoUrl || s.demoLink ? ' Free demo available.' : ''}`,
   ...(s.releaseDate ? { datePublished: s.releaseDate } : {}),
-  ...(s.image ? { image: abs(s.image) } : {}),
+  image: [{ '@type': 'ImageObject', url: abs(`/og/${s.provider}/${s.slug}`), width: 1200, height: 630 }, ...(s.image ? [abs(s.image)] : [])],
   genre: ['Online slot', ...s.themes],
   gamePlatform: 'Web browser',
   applicationCategory: 'Game',

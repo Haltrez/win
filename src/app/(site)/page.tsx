@@ -2,7 +2,9 @@ import Link from 'next/link';
 import { RecentSlots } from '@/components/RecentSlots';
 import { getGuides, getProviders, getSlots, getSlotsByProvider, getCasinos } from '@/lib/data';
 import { getCategories, getCategorySlots } from '@/lib/categories';
-import { buildMetadata } from '@/lib/seo';
+import { abs, buildMetadata } from '@/lib/seo';
+import { JsonLd } from '@/components/JsonLd';
+import { webPage } from '@/lib/schema';
 import { SITE } from '@/lib/config';
 import { SlotRail } from '@/components/SlotCard';
 import { CasinoModule } from '@/components/CasinoModule';
@@ -46,6 +48,7 @@ export default function Home() {
   const guides = ['how-slots-work', 'rtp-explained', 'slot-volatility-explained'].map((g) => getGuides().find((x) => x.slug === g)).filter(Boolean);
   return (
     <>
+      <JsonLd data={webPage('/', `${SITE.name}: free slot demos, blackjack and roulette`, abs('/opengraph-image'), 'Popular slot artwork with the Scatter Drop logo')} />
       <section className="hero">
         <h1>Play free: {slots.length.toLocaleString()} slot demos, blackjack, roulette and more</h1>
         <p>
