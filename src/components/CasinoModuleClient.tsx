@@ -6,7 +6,7 @@ import { geoAllowed, geoExcluded } from '@/lib/geo-match';
 import { trustPills } from '@/lib/trust';
 
 /** Interface text; localised pages pass their own (see lib/i18n-dict.ts). */
-export type CasinoLabels = { title?: string; getBonus: string; tc: string; checking: string; none: string; partners: string; disclosure: string; note: string; playResponsibly: string; code: string; copy: string; offshoreTitle: string; offshoreText: string; noPartner?: string; showAll?: string; checked?: string; pros?: string; cons?: string; method?: string; checkedOn?: string };
+export type CasinoLabels = { title?: string; getBonus: string; tc: string; checking: string; none: string; partners: string; disclosure: string; note: string; playResponsibly: string; code: string; copy: string; offshoreTitle: string; offshoreText: string; noPartner?: string; showAll?: string; checked?: string; pros?: string; cons?: string; method?: string; checkedOn?: string; unavailable?: string; infoNote?: string };
 const EN: CasinoLabels = {
   getBonus: 'Claim bonus', tc: '18+ | T&Cs apply', checking: 'Checking which casinos are available in your country…',
   none: "None of our casino partners accept players from your location, so we don't show offers here. You can still play every slot in free demo mode.",
@@ -16,6 +16,8 @@ const EN: CasinoLabels = {
   offshoreTitle: 'Notice: offshore casinos',
   offshoreText: "The casinos shown here are offshore operators licensed in Curaçao. They are not licensed in your country. Check your local law before playing. If you have self-excluded through a national scheme (such as Spelpaus, OASIS, RGIAJ or BetStop), these casinos do not check it – please don't play.",
   noPartner: "We don't have a licensed partner casino carrying this game yet. You can still play it in free demo mode on this page.",
+  unavailable: 'Not available in your country',
+  infoNote: 'Shown for information only: these casinos do not accept players from your country, so there are no offers or links for them here.',
   checked: 'What we checked', pros: 'Good', cons: 'Watch out for', method: 'How we rate casinos', checkedOn: 'Facts checked {date} on the operator\'s site and the regulator\'s register.',
 };
 /** Visitors from these countries see the offshore notice (our partners are not licensed there). */
@@ -46,6 +48,8 @@ export function CasinoModuleClient({ casinos, title, context, slotName, t }: { c
   const region = geo?.split('-')[0];
   // Offers are shown only once the visitor's country is known and a casino accepts it – never by default.
   const list = !FEATURES.geoFilter ? casinos.filter((c) => !geoExcluded(c.geos, region, geo)) : ready && geo ? casinos.filter((c) => geoAllowed(c.geos, region, geo)) : [];
+  // Info-only cards: global brands that exclude this visitor's country fill the row up to 3 – logo and facts, no offer, no link.
+  const info = ready && geo ? casinos.filter((c) => c.geos.includes('*') && !list.includes(c)).slice(0, Math.max(0, 3 - list.length)) : [];
   if (!enabled) return null;
   const bonusFor = (c: Casino) => (geo && c.bonus[geo]) || (region && c.bonus[region]) || c.bonus.default;
   const offerFor = (c: Casino) => (geo && c.offer?.[geo]) || (region && c.offer?.[region]) || c.offer?.default || { title: bonusFor(c) };
@@ -57,7 +61,7 @@ export function CasinoModuleClient({ casinos, title, context, slotName, t }: { c
         <p className="muted">{L.noPartner}</p>
       ) : FEATURES.geoFilter && !ready ? (
         <p className="muted">{L.checking}</p>
-      ) : list.length === 0 ? (
+      ) : list.length === 0 && info.length === 0 ? (
         <>
           <p className="muted">{geo ? L.none : "We couldn't detect your country, so we're not showing casino offers. You can still play every slot in free demo mode."}</p>
           <p className="muted small">{L.partners}: {casinos.map((c) => c.name).join(' · ')}. <a href="/affiliate-disclosure">{L.disclosure}</a></p>
@@ -67,6 +71,7 @@ export function CasinoModuleClient({ casinos, title, context, slotName, t }: { c
         {region && OFFSHORE_COUNTRIES.includes(region) ? (
           <div className="notice offshore-notice" role="note"><strong>{L.offshoreTitle}</strong> {L.offshoreText}</div>
         ) : null}
+        {list.length === 0 ? <p className="muted">{L.none}</p> : null}
         <ol className={`casino-grid${showAll ? '' : ' collapsed'}`}>
           {list.map((c, i) => {
             const o = offerFor(c);
@@ -99,7 +104,19 @@ export function CasinoModuleClient({ casinos, title, context, slotName, t }: { c
               </li>
             );
           })}
+          {info.map((c) => (
+            <li key={c.slug} className="casino-tile casino-info">
+              <div className={`casino-tile-logo${c.logoLight ? ' light' : ''}`}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                {c.logo ? <img src={c.logo} alt={`${c.name} logo`} width={160} height={48} loading="lazy" /> : <strong>{c.name}</strong>}
+              </div>
+              <p className="casino-offer">{c.name}</p>
+              {c.trust ? <ul className="casino-trust">{trustPills(c.trust).filter((p) => !/wager/i.test(p)).map((p) => <li key={p} className={p.startsWith('+') ? 'pos' : undefined}>{p.replace(/^\+/, '')}</li>)}</ul> : null}
+              <p className="casino-unavail">{L.unavailable}</p>
+            </li>
+          ))}
         </ol>
+        {info.length ? <p className="muted small">{L.infoNote}</p> : null}
         {!showAll && list.length > 3 ? <button type="button" className="btn btn-ghost casino-more" onClick={() => setShowAll(true)}>{(L.showAll ?? 'Show all {n} casinos').replace('{n}', String(list.length))}</button> : null}
         </>
       )}

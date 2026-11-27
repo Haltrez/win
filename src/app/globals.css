@@ -791,3 +791,8 @@ h1 { letter-spacing: -.03em; }
 .consent a { color: inherit; }
 .consent-actions { display: flex; gap: 8px; flex-shrink: 0; }
 @media (max-width: 520px) { .consent { flex-direction: column; align-items: stretch; } .consent-actions > * { flex: 1; } }
+
+/* Info-only casino cards (country not accepted): no offer, no link */
+.casino-info { opacity: .88; }
+.casino-info .casino-offer { font-size: 1.05rem; }
+.casino-unavail { margin-top: auto; padding: 10px 8px; border: 1px dashed var(--line); border-radius: 10px; font-size: .85rem; color: var(--muted, #9aa4b2); text-align: center; }
